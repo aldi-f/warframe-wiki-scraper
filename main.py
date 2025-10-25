@@ -51,24 +51,6 @@ def get_last_updated(title: str, wiki_url: str) -> str:
         return ""
 
 
-def load_json_file(filepath: str) -> dict:
-    """Load JSON data from file."""
-    if not os.path.exists(filepath):
-        return {}
-    try:
-        with open(filepath, 'r') as f:
-            return json.load(f)
-    except (json.JSONDecodeError, FileNotFoundError):
-        return {}
-
-
-def save_json_file(filepath: str, data: dict) -> None:
-    """Save JSON data to file."""
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    with open(filepath, 'w') as f:
-        json.dump(data, f, indent=2)
-
-
 def load_yaml_file(filepath: str) -> dict:
     """Load YAML data from file."""
     if not os.path.exists(filepath):

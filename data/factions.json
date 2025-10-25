@@ -1,289 +1,289 @@
 {
-  "Arbiters of Hexis": {
-    "Description": "The dogmatic Arbiters seek a truth through discipline and practice. They reject the \"Tenno\" as Warrior mythology - a lie constructed to limit their potential.",
-    "Image": "ArbitersofHexisSigil.png",
-    "Introduced": "15",
-    "Link": "Arbiters of Hexis",
-    "Name": "Arbiters of Hexis"
-  },
-  "Baro Ki'Teer": {
-    "Image": "PrismaSigil.png",
-    "Introduced": "15.6",
-    "Link": "Baro Ki'Teer",
-    "Name": "Baro Ki'Teer"
-  },
-  "Cavia": {
-    "Description": "Animals sent into the Void by Albrecht Entrati, the three surviving Cavia came back changed forever. They gained human intelligence, but could only speak incoherent Voidtongue until the Jahu Gargoyle made them intelligible. Despite what Albrecht did to them, they have resolved to assist his chosen Operator.",
-    "Image": "Cavia Syndicate Logo 1.png",
-    "Introduced": "35",
-    "Link": "Cavia",
-    "Name": "Cavia"
-  },
-  "Cephalon Simaris": {
-    "Description": "Through synthesis we can rebuild and preserve. Create memory-immortals within this data oasis. Will you become enlightened Tenno? Will you hunt for me?",
-    "Image": "CephalonSimarisSigil.png",
-    "Introduced": "16",
-    "Link": "Cephalon Simaris",
-    "Name": "Cephalon Simaris"
-  },
-  "Cephalon Suda": {
-    "Description": "A vast consciousness watching with a curious eye. Seemingly devoid of emotion Suda's thirst for knowledge and abhorrence of destruction can only be described as passionate.",
-    "Image": "CephalonSudaSigil.png",
-    "Introduced": "15",
-    "Link": "Cephalon Suda",
-    "Name": "Cephalon Suda"
-  },
-  "Conclave": {
-    "Description": "A warrior only grows if they face the ultimate enemy. Themselves.",
-    "Image": "ConclaveSigil.png",
-    "Introduced": "16",
-    "Link": "Conclave",
-    "Name": "Conclave"
-  },
-  "Corpus": {
-    "Description": "The Corpus embody the cold vacuum of space - heartless and bent on taking anything left unprotected. Driven by profits, the Corpus Board\u2019s small numbers are supplemented by their legion of robot proxies, optimized for quick and efficient destruction.",
-    "Image": "IconCorpusOn.png",
-    "Introduced": "Vanilla",
-    "Link": "Corpus",
-    "Name": "Corpus"
-  },
-  "Corrupted": {
-    "Image": "IconOrokinOn.png",
-    "Introduced": "8",
-    "Link": "Corrupted",
-    "Name": "Corrupted"
-  },
-  "Crossfire": {
-    "Image": "InvasionIcon.png",
-    "Introduced": "10.5",
-    "Link": "Crossfire",
-    "Name": "Crossfire"
-  },
-  "Duviri": {
-    "Description": "",
-    "Image": "DuviriIcon.png",
-    "Introduced": "33",
-    "Link": "Duviri",
-    "Name": "Duviri"
-  },
-  "Entrati": {
-    "Description": "Heirs to the legacy of Albrecht Entrati, his powerful Orokin family encountered disaster, isolation and bitter division on Deimos. The arrival of the Tenno, beneficiaries of their Void research, may bring fresh hope - and a deeper understanding of the world that trapped their family.",
-    "Image": "EntratiIcon.png",
-    "Introduced": "29",
-    "Link": "Entrati",
-    "Name": "Entrati"
-  },
-  "Grineer": {
-    "Description": "They say there is power in numbers - the Grineer are living proof. Wretched from centuries of cloning that has left their genetics in decay, this horde expands their vile empire through brute force, conquering anyone who tries to stop them.",
-    "Image": "IconGrineerOn.png",
-    "Introduced": "Vanilla",
-    "Link": "Grineer",
-    "Name": "Grineer"
-  },
-  "Grineer and Corpus": {
-    "Description": "",
-    "Image": "IconGrineerOrCorpus.png",
-    "Introduced": "32.3",
-    "Link": "Mirror Defense",
-    "Name": "Grineer and Corpus"
-  },
-  "Grineer or Corpus": {
-    "Image": "InvasionIcon.png",
-    "Introduced": "31.5",
-    "Link": "Zariman Ten Zero",
-    "Name": "Grineer or Corpus"
-  },
-  "Infested": {
-    "Description": "The Infestation is more than a disease - it is a horror of twisted flesh, monsters made into reality. The blight consumes its victims, transforming them into unrecognizable atrocities controlled by rabid impulse.",
-    "Image": "Infestation_w.svg",
-    "Introduced": "Vanilla",
-    "Link": "Infested",
-    "Name": "Infested"
-  },
-  "Kahl's Garrison": {
-    "Description": "Who help Grineer today? Not Queens. Not Vay Hek. Tenno and Blue Girl help brothers. Other brothers still have Veil. So Kahl break. This camp little. But soon, it get big. You see. Kahl not afraid. And now Kahl not alone.",
-    "Image": "GarrisonIcon.png",
-    "Introduced": "32",
-    "Link": "Kahl's Garrison",
-    "Name": "Kahl's Garrison"
-  },
-  "Narmer": {
-    "Description": "A nightmare is over. Finally we see clearly. Finally we speak freely. Savor the taste of liberty, my friends. Don't ever relax your vigilance. All as one. Future generations won't remember the Tenno oppression, but we do. We bear the scars, we mourn the dead, and we must never allow ourselves to forget. All as one.",
-    "Image": "IconNarmer.png",
-    "Introduced": "31",
-    "Link": "Narmer",
-    "Name": "Narmer"
-  },
-  "Necraloid": {
-    "Description": "While the Entrati family's cohort of lethal Necramechs succumbed to the corrupting influence of Deimos, Loid's shielding kept him sane, as well as preserving what was left of his 'passenger', the Cephalon Otak. Together they maintain a proud tradition of loyal service.",
-    "Image": "NecraloidIcon.png",
-    "Introduced": "29",
-    "Link": "Necraloid",
-    "Name": "Necraloid"
-  },
-  "New Loka": {
-    "Description": "Only through restoration of a pure humanity and the repopulation of Earth can the conflict end. The New Loka are worshippers of the human form and Earth, before its corruption.",
-    "Image": "NewLokaSigil.png",
-    "Introduced": "15",
-    "Link": "New Loka",
-    "Name": "New Loka"
-  },
-  "Nightcap": {
-    "Description": "",
-    "Image": "NightcapIcon.png",
-    "Introduced": "40",
-    "Link": "Nightcap",
-    "Name": "Nightcap"
-  },
-  "Nightwave": {
-    "Description": "Greed. Brutality. Oppression. True stories, all, and the System is full of them. Dreamers? You listening? The System needs you performing your good deeds for the day. Nora needs it. Needs you to act. To change things. Hear the news, Dreamers. Hear it, or be it. Your call. Because in Nora's System, no good act goes unrewarded. This is Nora Night. You're listening to Nightwave.",
-    "Image": "NightwaveSyndicate.png",
-    "Introduced": "24.3",
-    "Link": "Nightwave",
-    "Name": "Nightwave"
-  },
-  "Oddities": {
-    "Image": "FactionOddity.png",
-    "Introduced": "17",
-    "Link": "Oddities",
-    "Name": "Oddities"
-  },
-  "Operational Supply": {
-    "Description": "Support and rewards for Tenno fighting in active operations.",
-    "Image": "OperationSyndicateSigil.png",
-    "Introduced": "22.3",
-    "Link": "Operational Supply",
-    "Name": "Operational Supply"
-  },
-  "Orokin": {
-    "Description": "The highly revered Orokin civilization built sovereignty on a culture of art, technology and architecture. To prove oneself worthy of elevated social status, one must face Orokin trials in the golden and majestic Halls of Ascension. At one time a utopian society of omniscient leadership, the great Orokin Era ended in a divine realization of their own ignorance.",
-    "Image": "IconOrokinOn.png",
-    "Introduced": "8",
-    "Link": "Orokin",
-    "Name": "Orokin"
-  },
-  "Ostron": {
-    "Description": "A tight knit band of merchants, hucksters and survivors, the Ostrons call Cetus their home. The town was built around an Orokin Tower, that both protects and nourishes them.",
-    "Image": "OstronSigil.png",
-    "Introduced": "22",
-    "Link": "Ostron",
-    "Name": "Ostron"
-  },
-  "Red Veil": {
-    "Description": "The Veil see corruption all around them. They are honour-bound to heal the system through a great and violent purge. No cost too great, no blood too precious.",
-    "Image": "RedVeilSigil.png",
-    "Introduced": "15",
-    "Link": "Red Veil",
-    "Name": "Red Veil"
-  },
-  "Scaldra": {
-    "Description": "Ruthless aggression was H\u00f6llvania's answer to the Techrot. Wielding highly corrosive Efervon, Scaldra soldiers now patrol the streets to purge any Infestation. With martial law now declared, the Scaldra have total control. Led by Major Neci Rusalka, her command brings the entire military might of H\u00f6llvania to bear against you.",
-    "Image": "ScaldraIcon.png",
-    "Introduced": "38",
-    "Link": "Scaldra",
-    "Name": "Scaldra"
-  },
-  "Sentient": {
-    "Description": "Whispers from the Old War have begun to escape the deepest shadows. What terrible secret calls out to be discovered?",
-    "Image": "SentientFactionIcon.png",
-    "Introduced": "17",
-    "Link": "Sentient",
-    "Name": "Sentient"
-  },
-  "Solaris United": {
-    "Description": "Indentured workers to the Corpus; the indispensable backbone of the Corpus business model on Venus. Manning factories, rail tractors and mines they work to pay off the artificial bodies (rigs) they bought in order to work.",
-    "Image": "SolarisUnited1.png",
-    "Introduced": "24",
-    "Link": "Solaris United",
-    "Name": "Solaris United"
-  },
-  "Stalker": {
-    "Description": "When the ninth beat rang a torrent of blood filled the stadium, loosed by Tenno blades. The drums, the Empire, fell silent forever. Now I hunt, dividing your numbers. Watching from that dark place, cataloguing your sins, I am the ghost of retribution. You may forget but you are not innocent.",
-    "Image": "StalkerSigil.png",
-    "Introduced": "7",
-    "Link": "Stalker",
-    "Name": "Stalker"
-  },
-  "Steel Meridian": {
-    "Description": "Led by a battle-hardened Grineer deserter, the Steel Meridian fight a guerrilla war against a vast enemy. They are sworn protectors of what little remains of the colonies.",
-    "Image": "SteelMeridianSigil.png",
-    "Introduced": "15",
-    "Link": "Steel Meridian",
-    "Name": "Steel Meridian"
-  },
-  "Syndicates": {
-    "Image": "ReputationLarge.png",
-    "Introduced": "15",
-    "Link": "Syndicates",
-    "Name": "Syndicates"
-  },
-  "Techrot": {
-    "Description": "Left to fester in H\u00f6llvania's underground, the rapidly mutating Infested has created all new threat varieties capable of wreaking havoc on the unprepared.",
-    "Image": "TechrotIcon.png",
-    "Introduced": "38",
-    "Link": "Techrot",
-    "Name": "Techrot"
-  },
-  "Tenno": {
-    "Description": "They were called Tenno. Warriors of blade and gun: masters of the Warframe armor. Those that survived the old war were left drifting among the ruins. Now they are needed once more.",
-    "Image": "TennoIcon.png",
-    "Introduced": "Vanilla",
-    "Link": "Tenno",
-    "Name": "Tenno"
-  },
-  "The Hex": {
-    "Description": "Formerly human operatives, the six members of the Hex were transformed into Protoframes by Albrecht Entrati. Filled with uncanny power and mourning their lost humanity, they continue their mission of mercy in beleaguered H\u00f6llvania.",
-    "Image": "HexIcon.png",
-    "Introduced": "38",
-    "Link": "The Hex (Syndicate)",
-    "Name": "The Hex"
-  },
-  "The Holdfasts": {
-    "Description": "Granted a second existence through the mysterious power of the Void, the four Holdfasts struggle to keep their sanity and their vessel intact. The return of the Tenno may turn the tide.",
-    "Image": "TheHoldfastsIcon.png",
-    "Introduced": "31.5",
-    "Link": "The Holdfasts",
-    "Name": "The Holdfasts"
-  },
   "The Murmur": {
-    "Description": "Known by many names, The Murmur are the hands, feet, and eyes of The Indifference. They are attempting to break through Albrecht\u2019s Laboratories into the Origin System - something Tenno will need to stop at all costs.",
     "Image": "MurmurIcon.png",
+    "Description": "Known by many names, The Murmur are the hands, feet, and eyes of The Indifference. They are attempting to break through Albrecht\u2019s Laboratories into the Origin System - something Tenno will need to stop at all costs.",
     "Introduced": "35",
-    "Link": "The Murmur",
-    "Name": "The Murmur"
-  },
-  "The Perrin Sequence": {
-    "Description": "A collective of brilliant and powerful merchants, splintered from the Corpus. Their goal is to restore order by bringing prosperity and direction to the violent world they study.",
-    "Image": "PerrinSequenceSigil.png",
-    "Introduced": "15",
-    "Link": "The Perrin Sequence",
-    "Name": "The Perrin Sequence"
-  },
-  "The Quills": {
-    "Description": "A secretive order, loyal to the mysterious and reclusive 'Unum'. Some say their relationship to cause and effect is unnatural, their knowledge profane. When a Quill acts, things change.",
-    "Image": "TheQuillsSigil.png",
-    "Introduced": "22",
-    "Link": "The Quills",
-    "Name": "The Quills"
-  },
-  "Ventkids": {
-    "Description": "Hangin' with their logical fam in the ducts of Fortuna, the Ventkids get by stealing parts from the Corpus and running K-Drive races out on the Vallis. At night the ventways bang to the sound of skeg - to the chagrin of the locals.",
-    "Image": "VentkidsIcon.png",
-    "Introduced": "24",
-    "Link": "Ventkids",
-    "Name": "Ventkids"
+    "Name": "The Murmur",
+    "Link": "The Murmur"
   },
   "Vox Solaris": {
-    "Description": "Solaris United's core personnel operating under the name of that group's enigmatic and anonymous figurehead. SU is the public face of the struggle. Vox Solaris is something else entirely; something known only to Eudico... and the Quills.",
     "Image": "VoxSolarisIcon.png",
+    "Description": "Solaris United's core personnel operating under the name of that group's enigmatic and anonymous figurehead. SU is the public face of the struggle. Vox Solaris is something else entirely; something known only to Eudico... and the Quills.",
     "Introduced": "24",
-    "Link": "Vox Solaris (Syndicate)",
-    "Name": "Vox Solaris"
+    "Name": "Vox Solaris",
+    "Link": "Vox Solaris (Syndicate)"
+  },
+  "Steel Meridian": {
+    "Image": "SteelMeridianSigil.png",
+    "Description": "Led by a battle-hardened Grineer deserter, the Steel Meridian fight a guerrilla war against a vast enemy. They are sworn protectors of what little remains of the colonies.",
+    "Introduced": "15",
+    "Name": "Steel Meridian",
+    "Link": "Steel Meridian"
+  },
+  "Tenno": {
+    "Image": "TennoIcon.png",
+    "Description": "They were called Tenno. Warriors of blade and gun: masters of the Warframe armor. Those that survived the old war were left drifting among the ruins. Now they are needed once more.",
+    "Introduced": "Vanilla",
+    "Name": "Tenno",
+    "Link": "Tenno"
+  },
+  "Corpus": {
+    "Image": "IconCorpusOn.png",
+    "Description": "The Corpus embody the cold vacuum of space - heartless and bent on taking anything left unprotected. Driven by profits, the Corpus Board\u2019s small numbers are supplemented by their legion of robot proxies, optimized for quick and efficient destruction.",
+    "Introduced": "Vanilla",
+    "Name": "Corpus",
+    "Link": "Corpus"
+  },
+  "Crossfire": {
+    "Link": "Crossfire",
+    "Image": "InvasionIcon.png",
+    "Name": "Crossfire",
+    "Introduced": "10.5"
+  },
+  "Arbiters of Hexis": {
+    "Image": "ArbitersofHexisSigil.png",
+    "Description": "The dogmatic Arbiters seek a truth through discipline and practice. They reject the \"Tenno\" as Warrior mythology - a lie constructed to limit their potential.",
+    "Introduced": "15",
+    "Name": "Arbiters of Hexis",
+    "Link": "Arbiters of Hexis"
+  },
+  "Red Veil": {
+    "Image": "RedVeilSigil.png",
+    "Description": "The Veil see corruption all around them. They are honour-bound to heal the system through a great and violent purge. No cost too great, no blood too precious.",
+    "Introduced": "15",
+    "Name": "Red Veil",
+    "Link": "Red Veil"
+  },
+  "The Quills": {
+    "Image": "TheQuillsSigil.png",
+    "Description": "A secretive order, loyal to the mysterious and reclusive 'Unum'. Some say their relationship to cause and effect is unnatural, their knowledge profane. When a Quill acts, things change.",
+    "Introduced": "22",
+    "Name": "The Quills",
+    "Link": "The Quills"
+  },
+  "Techrot": {
+    "Image": "TechrotIcon.png",
+    "Description": "Left to fester in H\u00f6llvania's underground, the rapidly mutating Infested has created all new threat varieties capable of wreaking havoc on the unprepared.",
+    "Introduced": "38",
+    "Name": "Techrot",
+    "Link": "Techrot"
+  },
+  "Stalker": {
+    "Image": "StalkerSigil.png",
+    "Description": "When the ninth beat rang a torrent of blood filled the stadium, loosed by Tenno blades. The drums, the Empire, fell silent forever. Now I hunt, dividing your numbers. Watching from that dark place, cataloguing your sins, I am the ghost of retribution. You may forget but you are not innocent.",
+    "Introduced": "7",
+    "Name": "Stalker",
+    "Link": "Stalker"
+  },
+  "Ostron": {
+    "Image": "OstronSigil.png",
+    "Description": "A tight knit band of merchants, hucksters and survivors, the Ostrons call Cetus their home. The town was built around an Orokin Tower, that both protects and nourishes them.",
+    "Introduced": "22",
+    "Name": "Ostron",
+    "Link": "Ostron"
+  },
+  "Sentient": {
+    "Image": "SentientFactionIcon.png",
+    "Description": "Whispers from the Old War have begun to escape the deepest shadows. What terrible secret calls out to be discovered?",
+    "Introduced": "17",
+    "Name": "Sentient",
+    "Link": "Sentient"
+  },
+  "Baro Ki'Teer": {
+    "Link": "Baro Ki'Teer",
+    "Image": "PrismaSigil.png",
+    "Name": "Baro Ki'Teer",
+    "Introduced": "15.6"
+  },
+  "Operational Supply": {
+    "Image": "OperationSyndicateSigil.png",
+    "Description": "Support and rewards for Tenno fighting in active operations.",
+    "Introduced": "22.3",
+    "Name": "Operational Supply",
+    "Link": "Operational Supply"
+  },
+  "Corrupted": {
+    "Link": "Corrupted",
+    "Image": "IconOrokinOn.png",
+    "Name": "Corrupted",
+    "Introduced": "8"
+  },
+  "Nightwave": {
+    "Image": "NightwaveSyndicate.png",
+    "Description": "Greed. Brutality. Oppression. True stories, all, and the System is full of them. Dreamers? You listening? The System needs you performing your good deeds for the day. Nora needs it. Needs you to act. To change things. Hear the news, Dreamers. Hear it, or be it. Your call. Because in Nora's System, no good act goes unrewarded. This is Nora Night. You're listening to Nightwave.",
+    "Introduced": "24.3",
+    "Name": "Nightwave",
+    "Link": "Nightwave"
+  },
+  "Nightcap": {
+    "Image": "NightcapIcon.png",
+    "Description": "",
+    "Introduced": "40",
+    "Name": "Nightcap",
+    "Link": "Nightcap"
+  },
+  "New Loka": {
+    "Image": "NewLokaSigil.png",
+    "Description": "Only through restoration of a pure humanity and the repopulation of Earth can the conflict end. The New Loka are worshippers of the human form and Earth, before its corruption.",
+    "Introduced": "15",
+    "Name": "New Loka",
+    "Link": "New Loka"
+  },
+  "Grineer and Corpus": {
+    "Image": "IconGrineerOrCorpus.png",
+    "Description": "",
+    "Introduced": "32.3",
+    "Name": "Grineer and Corpus",
+    "Link": "Mirror Defense"
+  },
+  "Solaris United": {
+    "Image": "SolarisUnited1.png",
+    "Description": "Indentured workers to the Corpus; the indispensable backbone of the Corpus business model on Venus. Manning factories, rail tractors and mines they work to pay off the artificial bodies (rigs) they bought in order to work.",
+    "Introduced": "24",
+    "Name": "Solaris United",
+    "Link": "Solaris United"
+  },
+  "Cavia": {
+    "Image": "Cavia Syndicate Logo 1.png",
+    "Description": "Animals sent into the Void by Albrecht Entrati, the three surviving Cavia came back changed forever. They gained human intelligence, but could only speak incoherent Voidtongue until the Jahu Gargoyle made them intelligible. Despite what Albrecht did to them, they have resolved to assist his chosen Operator.",
+    "Introduced": "35",
+    "Name": "Cavia",
+    "Link": "Cavia"
+  },
+  "Entrati": {
+    "Image": "EntratiIcon.png",
+    "Description": "Heirs to the legacy of Albrecht Entrati, his powerful Orokin family encountered disaster, isolation and bitter division on Deimos. The arrival of the Tenno, beneficiaries of their Void research, may bring fresh hope - and a deeper understanding of the world that trapped their family.",
+    "Introduced": "29",
+    "Name": "Entrati",
+    "Link": "Entrati"
+  },
+  "The Hex": {
+    "Image": "HexIcon.png",
+    "Description": "Formerly human operatives, the six members of the Hex were transformed into Protoframes by Albrecht Entrati. Filled with uncanny power and mourning their lost humanity, they continue their mission of mercy in beleaguered H\u00f6llvania.",
+    "Introduced": "38",
+    "Name": "The Hex",
+    "Link": "The Hex (Syndicate)"
+  },
+  "Scaldra": {
+    "Image": "ScaldraIcon.png",
+    "Description": "Ruthless aggression was H\u00f6llvania's answer to the Techrot. Wielding highly corrosive Efervon, Scaldra soldiers now patrol the streets to purge any Infestation. With martial law now declared, the Scaldra have total control. Led by Major Neci Rusalka, her command brings the entire military might of H\u00f6llvania to bear against you.",
+    "Introduced": "38",
+    "Name": "Scaldra",
+    "Link": "Scaldra"
+  },
+  "Kahl's Garrison": {
+    "Image": "GarrisonIcon.png",
+    "Description": "Who help Grineer today? Not Queens. Not Vay Hek. Tenno and Blue Girl help brothers. Other brothers still have Veil. So Kahl break. This camp little. But soon, it get big. You see. Kahl not afraid. And now Kahl not alone.",
+    "Introduced": "32",
+    "Name": "Kahl's Garrison",
+    "Link": "Kahl's Garrison"
+  },
+  "The Perrin Sequence": {
+    "Image": "PerrinSequenceSigil.png",
+    "Description": "A collective of brilliant and powerful merchants, splintered from the Corpus. Their goal is to restore order by bringing prosperity and direction to the violent world they study.",
+    "Introduced": "15",
+    "Name": "The Perrin Sequence",
+    "Link": "The Perrin Sequence"
+  },
+  "The Holdfasts": {
+    "Image": "TheHoldfastsIcon.png",
+    "Description": "Granted a second existence through the mysterious power of the Void, the four Holdfasts struggle to keep their sanity and their vessel intact. The return of the Tenno may turn the tide.",
+    "Introduced": "31.5",
+    "Name": "The Holdfasts",
+    "Link": "The Holdfasts"
+  },
+  "Grineer or Corpus": {
+    "Link": "Zariman Ten Zero",
+    "Image": "InvasionIcon.png",
+    "Name": "Grineer or Corpus",
+    "Introduced": "31.5"
+  },
+  "Narmer": {
+    "Image": "IconNarmer.png",
+    "Description": "A nightmare is over. Finally we see clearly. Finally we speak freely. Savor the taste of liberty, my friends. Don't ever relax your vigilance. All as one. Future generations won't remember the Tenno oppression, but we do. We bear the scars, we mourn the dead, and we must never allow ourselves to forget. All as one.",
+    "Introduced": "31",
+    "Name": "Narmer",
+    "Link": "Narmer"
+  },
+  "Necraloid": {
+    "Image": "NecraloidIcon.png",
+    "Description": "While the Entrati family's cohort of lethal Necramechs succumbed to the corrupting influence of Deimos, Loid's shielding kept him sane, as well as preserving what was left of his 'passenger', the Cephalon Otak. Together they maintain a proud tradition of loyal service.",
+    "Introduced": "29",
+    "Name": "Necraloid",
+    "Link": "Necraloid"
+  },
+  "Orokin": {
+    "Image": "IconOrokinOn.png",
+    "Description": "The highly revered Orokin civilization built sovereignty on a culture of art, technology and architecture. To prove oneself worthy of elevated social status, one must face Orokin trials in the golden and majestic Halls of Ascension. At one time a utopian society of omniscient leadership, the great Orokin Era ended in a divine realization of their own ignorance.",
+    "Introduced": "8",
+    "Name": "Orokin",
+    "Link": "Orokin"
+  },
+  "Duviri": {
+    "Image": "DuviriIcon.png",
+    "Description": "",
+    "Introduced": "33",
+    "Name": "Duviri",
+    "Link": "Duviri"
+  },
+  "Ventkids": {
+    "Image": "VentkidsIcon.png",
+    "Description": "Hangin' with their logical fam in the ducts of Fortuna, the Ventkids get by stealing parts from the Corpus and running K-Drive races out on the Vallis. At night the ventways bang to the sound of skeg - to the chagrin of the locals.",
+    "Introduced": "24",
+    "Name": "Ventkids",
+    "Link": "Ventkids"
+  },
+  "Oddities": {
+    "Link": "Oddities",
+    "Image": "FactionOddity.png",
+    "Name": "Oddities",
+    "Introduced": "17"
+  },
+  "Infested": {
+    "Image": "Infestation_w.svg",
+    "Description": "The Infestation is more than a disease - it is a horror of twisted flesh, monsters made into reality. The blight consumes its victims, transforming them into unrecognizable atrocities controlled by rabid impulse.",
+    "Introduced": "Vanilla",
+    "Name": "Infested",
+    "Link": "Infested"
+  },
+  "Conclave": {
+    "Image": "ConclaveSigil.png",
+    "Description": "A warrior only grows if they face the ultimate enemy. Themselves.",
+    "Introduced": "16",
+    "Name": "Conclave",
+    "Link": "Conclave"
+  },
+  "Cephalon Suda": {
+    "Image": "CephalonSudaSigil.png",
+    "Description": "A vast consciousness watching with a curious eye. Seemingly devoid of emotion Suda's thirst for knowledge and abhorrence of destruction can only be described as passionate.",
+    "Introduced": "15",
+    "Name": "Cephalon Suda",
+    "Link": "Cephalon Suda"
+  },
+  "Cephalon Simaris": {
+    "Image": "CephalonSimarisSigil.png",
+    "Description": "Through synthesis we can rebuild and preserve. Create memory-immortals within this data oasis. Will you become enlightened Tenno? Will you hunt for me?",
+    "Introduced": "16",
+    "Name": "Cephalon Simaris",
+    "Link": "Cephalon Simaris"
+  },
+  "Syndicates": {
+    "Link": "Syndicates",
+    "Image": "ReputationLarge.png",
+    "Name": "Syndicates",
+    "Introduced": "15"
   },
   "Wild": {
-    "Image": "IconWild.png",
-    "Introduced": "9.5",
     "Link": "Wild",
-    "Name": "Wild"
+    "Image": "IconWild.png",
+    "Name": "Wild",
+    "Introduced": "9.5"
+  },
+  "Grineer": {
+    "Image": "IconGrineerOn.png",
+    "Description": "They say there is power in numbers - the Grineer are living proof. Wretched from centuries of cloning that has left their genetics in decay, this horde expands their vile empire through brute force, conquering anyone who tries to stop them.",
+    "Introduced": "Vanilla",
+    "Name": "Grineer",
+    "Link": "Grineer"
   }
 }

@@ -12,8 +12,12 @@ def fix_json(broken_json: str):
     # 1. math.huge replaced by "inf"
     broken_json = re.sub(r'\bmath\.huge\b', '"inf"', broken_json)
     # 2. standalone inf (not already in quotes) replaced by "inf"
-    fixed_json = re.sub(r'(?<!")inf(?!")', '"inf"', broken_json)
-    fixed_json = json.loads(fixed_json, parse_constant=lambda x: {
+    broken_json = re.sub(r':\s*inf\b', ': "inf"', broken_json)
+    # 3. Fix boolean keys: true/false as object keys need to be strings
+    broken_json = re.sub(r'(\{|,)\s*true\s*:', r'\1"true":', broken_json)
+    broken_json = re.sub(r'(\{|,)\s*false\s*:', r'\1"false":', broken_json)
+    
+    fixed_json = json.loads(broken_json, parse_constant=lambda x: {
         'Infinity': float('inf'),
         '-Infinity': float('-inf'),
         'NaN': float('nan')
@@ -70,7 +74,7 @@ def load_yaml_file(filepath: str) -> dict:
     if not os.path.exists(filepath):
         return {}
     try:
-        yaml = YAML(typ='safe')
+        yaml = YAML()  # Use round-trip mode to preserve formatting
         with open(filepath, 'r') as f:
             return yaml.load(f)
     except (Exception):
@@ -78,11 +82,12 @@ def load_yaml_file(filepath: str) -> dict:
 
 
 def save_yaml_file(filepath: str, data: dict) -> None:
-    """Save YAML data to file."""
+    """Save YAML data to file preserving multiline formatting."""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     yaml = YAML()
     yaml.preserve_quotes = True
     yaml.default_flow_style = False
+    yaml.width = 4096  # Prevent line wrapping
 
     with open(filepath, 'w') as f:
         yaml.dump(data, f)

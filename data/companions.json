@@ -1,2552 +1,2552 @@
 {
   "Companions": {
-    "Adarza Kavat": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Adarza Claws",
-          "CritChance": 0.3,
-          "CritMultiplier": 2.5,
-          "Damage": {
-            "Puncture": 45,
-            "Slash": 45
-          },
-          "StatusChance": 0.05,
-          "TotalDamage": 90
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KAVAT_MOD"
-      ],
-      "Description": "Piercing eyes reflect deadly instincts.",
-      "Energy": 100,
-      "Health": 310,
-      "Icon": "IconAdarza.png",
-      "Image": "AdarzaKavat.png",
-      "InternalName": "/Lotus/Types/Game/CatbrowPet/MirrorCatbrowPetPowerSuit",
-      "Introduced": "Specters of the Rail",
-      "Link": "Adarza Kavat",
-      "Name": "Adarza Kavat",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 230,
-      "SquadPortrait": "AdarzaKavatLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kavat"
-    },
-    "Bhaira Hound": {
-      "BuildPrice": 50000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Pets",
-      "Components": [
-        {
-          "Description": "",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/ZanukaPetParts/ZanukaPetPartHeadBBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "A machine element used to propel robotic organisms through coolant.Acquired by disassembling Eye-Eye Servofish.",
-          "Image": "eye-eye-rotoblade.png",
-          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishRotobladeItem",
-          "ItemCount": 10,
-          "Name": "Eye-Eye Rotoblade",
-          "Tradable": false
-        },
-        {
-          "Description": "Soft metal used in microelectronics and energy weapons.Locations: Mars and Uranus.",
-          "Image": "gallium.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Gallium",
-          "ItemCount": 5,
-          "Name": "Gallium",
-          "Tradable": false
-        },
-        {
-          "Description": "Polished and cut to perfection.",
-          "Image": "marquise-thyst.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemBCutItem",
-          "ItemCount": 2,
-          "Name": "Marquise Thyst",
-          "Tradable": false
-        },
-        {
-          "Description": "Discharged specter particles form an inert dust that can be collected and re-energized for various robotic projects.",
-          "ExcludeFromCodex": true,
-          "Image": "spectral-debris.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue",
-          "ItemCount": 5,
-          "Name": "Spectral Debris",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "CritChance": 0,
-      "CritMultiplier": 0,
-      "DamagePerShot": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "Description": "Hounds are powerful robotic comanions optimized for combat. They are programmed to excel at battlefield control and can be configured for countless scenarios.",
-      "Disposition": 1,
-      "FireRate": 0,
-      "Image": "BhairaHound.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadB",
-      "Introduced": "30.5",
-      "Link": "Model#Bhaira",
-      "Mastery": 0,
-      "Name": "Bhaira Hound",
-      "ProductCategory": "Pistols",
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "BhairaHoundLargePortrait.png",
-      "StatusChance": 0,
-      "TotalDamage": 0,
-      "Tradable": false,
-      "Type": "Hound"
-    },
-    "Carrier": {
-      "Armor": 80,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
-          "Image": "alloy-plate.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
-          "ItemCount": 1000,
-          "Name": "Alloy Plate",
-          "Tradable": false
-        },
-        {
-          "Description": "With 'Assault Mode' and 'Ammo Case' as default Precepts, Carrier is a seeker Sentinel. Carrier also comes with a shotgun weapon. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/CarrierSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
-          "Image": "circuits.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
-          "ItemCount": 400,
-          "Name": "Circuits",
-          "Tradable": false
-        },
-        {
-          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
-          "Image": "control-module.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
-          "ItemCount": 3,
-          "Name": "Control Module",
-          "Tradable": false
-        },
-        {
-          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
-          "Image": "nano-spores.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
-          "ItemCount": 1500,
-          "Name": "Nano Spores",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Assault Mode' and 'Ammo Case' as default Precepts, Carrier is a seeker Sentinel. Carrier also comes with a shotgun weapon.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Carrier.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/CarrierPowerSuit",
-      "Introduced": "10",
-      "Link": "Carrier",
-      "Name": "Carrier",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "CarrierLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Carrier Prime": {
-      "Armor": 150,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "This ornate sentinel is an excellent example of late Orokin craftsmanship and styling.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeCarrierSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": true
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-carapace.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeCarrierCarapace",
-          "ItemCount": 1,
-          "Name": "Carapace",
-          "Tradable": true
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-cerebrum.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeCarrierCerebrum",
-          "ItemCount": 1,
-          "Name": "Cerebrum",
-          "Tradable": true
-        },
-        {
-          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
-          "Image": "orokin-cell.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
-          "ItemCount": 6,
-          "Name": "Orokin Cell",
-          "Tradable": false
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-systems.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeCarrierSystems",
-          "ItemCount": 1,
-          "Name": "Systems",
-          "Tradable": true
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "This ornate sentinel is an excellent example of late Orokin craftsmanship and styling.",
-      "Energy": 100,
-      "EstimatedVaultDate": "2017 05 30",
-      "Health": 650,
-      "Image": "CarrierPrime.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeCarrierPowerSuit",
-      "Introduced": "16.11",
-      "Link": "Carrier/Prime",
-      "Name": "Carrier Prime",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Madurai",
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 300,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "CarrierPrimeLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": true,
-      "Type": "Sentinel",
-      "VaultDate": "2017 05 30",
-      "Vaulted": true
-    },
-    "Chesa Kubrow": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Chesa Claws",
-          "CritChance": 0.15,
-          "CritMultiplier": 1.5,
-          "Damage": {
-            "Impact": 275
-          },
-          "StatusChance": 0.15,
-          "TotalDamage": 275
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KUBROW_MOD"
-      ],
-      "Description": "This Kubrow will disarm adversaries and retrieve the spoils of battle.",
-      "Energy": 100,
-      "Health": 940,
-      "Icon": "IconChesa.png",
-      "Image": "ChesaKubrow.png",
-      "InternalName": "/Lotus/Types/Game/KubrowPet/RetrieverKubrowPetPowerSuit",
-      "Introduced": "17",
-      "Link": "Chesa Kubrow",
-      "Name": "Chesa Kubrow",
-      "Polarities": [
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 290,
-      "SquadPortrait": "ChesaKubrowLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kubrow"
-    },
-    "Crescent Vulpaphyla": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Crescent Claws",
-          "CritChance": 0.225,
-          "CritMultiplier": 2,
-          "Damage": {
-            "Electricity": 50,
-            "Puncture": 50
-          },
-          "StatusChance": 0.175,
-          "TotalDamage": 100
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "VULPAPHYLA_MOD"
-      ],
-      "Description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
-      "Energy": 100,
-      "Health": 680,
-      "Icon": "IconCrescent.png",
-      "Image": "CrescentVulpaphyla.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit",
-      "Introduced": "29",
-      "Link": "Crescent Vulpaphyla",
-      "Name": "Crescent Vulpaphyla",
-      "Polarities": [
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 370,
-      "SquadPortrait": "CrescentVulpaphylaLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Vulpaphyla"
-    },
-    "Dethcube": {
-      "Armor": 80,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
-          "Image": "alloy-plate.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
-          "ItemCount": 500,
-          "Name": "Alloy Plate",
-          "Tradable": false
-        },
-        {
-          "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube acts exactly as advertised, as a badass cube of 'deth'. Comes loaded with Deth Machine Rifle weapon. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/DethCubeSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
-          "Image": "circuits.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
-          "ItemCount": 400,
-          "Name": "Circuits",
-          "Tradable": false
-        },
-        {
-          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
-          "Image": "control-module.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
-          "ItemCount": 1,
-          "Name": "Control Module",
-          "Tradable": false
-        },
-        {
-          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
-          "Image": "nano-spores.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
-          "ItemCount": 200,
-          "Name": "Nano Spores",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube acts exactly as advertised, as a badass cube of 'deth'. Comes loaded with Deth Machine Rifle weapon.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Dethcube.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/DethCubePowerSuit",
-      "Introduced": "8",
-      "Link": "Dethcube",
-      "Name": "Dethcube",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "DethcubeLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Dethcube Prime": {
-      "Armor": 150,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube Prime is the apex of lethal support. Comes loaded with Deth Machine Rifle Prime weapon. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeDethcubeSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": true
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-carapace.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDethcubeCarapace",
-          "ItemCount": 1,
-          "Name": "Carapace",
-          "Tradable": true
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-cerebrum.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDethcubeCerebrum",
-          "ItemCount": 1,
-          "Name": "Cerebrum",
-          "Tradable": true
-        },
-        {
-          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
-          "Image": "orokin-cell.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
-          "ItemCount": 6,
-          "Name": "Orokin Cell",
-          "Tradable": false
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-systems.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDethcubeSystems",
-          "ItemCount": 1,
-          "Name": "Systems",
-          "Tradable": true
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube Prime is the apex of lethal support. Comes loaded with Deth Machine Rifle Prime weapon.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 125,
-      "EstimatedVaultDate": "2021 05 26",
-      "Health": 600,
-      "Image": "DethcubePrime.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeDethCubePowerSuit",
-      "Introduced": "25.8",
-      "Link": "Dethcube/Prime",
-      "Name": "Dethcube Prime",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 300,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "DethcubePrimeLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": true,
-      "Type": "Sentinel",
-      "VaultDate": "2021 05 26",
-      "Vaulted": true
-    },
-    "Diriga": {
-      "Armor": 80,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
-          "Image": "alloy-plate.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
-          "ItemCount": 600,
-          "Name": "Alloy Plate",
-          "Tradable": false
-        },
-        {
-          "Description": "A Void based radioactive resource that decays every day it is out of the Void.This resource can be found in the Void.",
-          "Image": "argon-crystal.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
-          "ItemCount": 2,
-          "Name": "Argon Crystal",
-          "Tradable": false
-        },
-        {
-          "Description": "Diriga shocks nearby enemies, and picks off distant threats, utilizing the Vulklok sniper rifle and the 'Calculated Shot', 'Arc Coil' and 'Electro Pulse' precepts. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/ArcTrapSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "A disgusting nanite-infested tissue mass.Locations: Phobos, Saturn, Uranus, Pluto, and Eris.",
-          "Image": "plastids.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Plastids",
-          "ItemCount": 350,
-          "Name": "Plastids",
-          "Tradable": false
-        },
-        {
-          "Description": "A hard, thermoplastic casing. Manufactured by Corpus.Locations: Mercury, Venus, and Uranus.",
-          "Image": "polymer-bundle.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-          "ItemCount": 500,
-          "Name": "Polymer Bundle",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "Diriga shocks nearby enemies, and picks off distant threats, utilizing the Vulklok sniper rifle and the 'Calculated Shot', 'Arc Coil' and 'Electro Pulse' precepts.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 700,
-      "Image": "Diriga.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/ArcDronePowerSuit",
-      "Introduced": "17.3",
-      "Link": "Diriga",
-      "Name": "Diriga",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 150,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "DirigaLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Djinn": {
-      "Armor": 80,
-      "BuildPrice": 30000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "With 'Thumper' and 'Fatal Attraction' as default Precepts, Djinn is a combat Sentinel. Djinn also comes with a poison dart weapon. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Weapons/ClanTech/Bio/InfestedSentinelWeaponBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
-          "Image": "circuits.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
-          "ItemCount": 3500,
-          "Name": "Circuits",
-          "Tradable": false
-        },
-        {
-          "Description": "This shape-altering component is fundamental to Orokin construction. Allows you to change the polarity of a mod slot on a Warframe, Companions or Weapon and then resets their affinity to Unranked. This can only be used on max Rank Warframes, Companions and Weapons.",
-          "Image": "forma.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Forma",
-          "ItemCount": 2,
-          "Name": "Forma",
-          "Tradable": false
-        },
-        {
-          "Description": "This living mass can produce weaponized toxins for weaponry.Can be acquired from Infestation Outbreaks & Clan Research.",
-          "Image": "mutagen-mass.png",
-          "InternalName": "/Lotus/Types/Items/Research/BioComponent",
-          "ItemCount": 6,
-          "Name": "Mutagen Mass",
-          "Tradable": false
-        },
-        {
-          "Description": "High value metals collected from war salvage.Locations: Mars, Jupiter, and Sedna.",
-          "Image": "salvage.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Salvage",
-          "ItemCount": 30000,
-          "Name": "Salvage",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Thumper' and 'Fatal Attraction' as default Precepts, Djinn is a combat Sentinel. Djinn also comes with a poison dart weapon.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Djinn.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/GubberPowerSuit",
-      "Introduced": "10",
-      "Link": "Djinn",
-      "Name": "Djinn",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Naramon",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 35,
-      "SquadPortrait": "DjinnLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Dorma Hound": {
-      "BuildPrice": 50000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Pets",
-      "Components": [
-        {
-          "Description": "",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/ZanukaPetParts/ZanukaPetPartHeadABlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Soft metal used in microelectronics and energy weapons.Locations: Mars and Uranus.",
-          "Image": "gallium.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Gallium",
-          "ItemCount": 5,
-          "Name": "Gallium",
-          "Tradable": false
-        },
-        {
-          "Description": "Controls the electrical flow throughout the circuitry within robotic organisms.Acquired by disassembling Mirewinder Servofish.",
-          "Image": "mirewinder-parallel-biode.png",
-          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishParralelBiodeItem",
-          "ItemCount": 10,
-          "Name": "Mirewinder Parallel Biode",
-          "Tradable": false
-        },
-        {
-          "Description": "Polished and cut to perfection.Location: Old Man Suumbaat in Cetus",
-          "Image": "radian-sentirum.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemACutAItem",
-          "ItemCount": 2,
-          "Name": "Radian Sentirum",
-          "Tradable": false
-        },
-        {
-          "Description": "Discharged specter particles form an inert dust that can be collected and re-energized for various robotic projects.",
-          "ExcludeFromCodex": true,
-          "Image": "spectral-debris.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue",
-          "ItemCount": 5,
-          "Name": "Spectral Debris",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "CritChance": 0,
-      "CritMultiplier": 0,
-      "DamagePerShot": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "Description": "Hounds are powerful robotic comanions optimized for combat. They are programmed to excel at battlefield control and can be configured for countless scenarios.",
-      "Disposition": 1,
-      "FireRate": 0,
-      "Image": "DormaHound.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadA",
-      "Introduced": "30.5",
-      "Link": "Model#Dorma",
-      "Mastery": 0,
-      "Name": "Dorma Hound",
-      "ProductCategory": "Pistols",
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "DormaHoundLargePortrait.png",
-      "StatusChance": 0,
-      "TotalDamage": 0,
-      "Tradable": false,
-      "Type": "Hound"
-    },
-    "Hec Hound": {
-      "BuildPrice": 50000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Pets",
-      "Components": [
-        {
-          "Description": "",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/ZanukaPetParts/ZanukaPetPartHeadCBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Soft metal used in microelectronics and energy weapons.Locations: Mars and Uranus.",
-          "Image": "gallium.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Gallium",
-          "ItemCount": 5,
-          "Name": "Gallium",
-          "Tradable": false
-        },
-        {
-          "Description": "A strong, metallic case that is resistant to fluctuations in environmental temperature.Acquired by disassembling Sapcaddy Servofish.",
-          "Image": "sapcaddy-venedo-case.png",
-          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishVenedoCaseItem",
-          "ItemCount": 10,
-          "Name": "Sapcaddy Venedo Case",
-          "Tradable": false
-        },
-        {
-          "Description": "Discharged specter particles form an inert dust that can be collected and re-energized for various robotic projects.",
-          "ExcludeFromCodex": true,
-          "Image": "spectral-debris.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue",
-          "ItemCount": 5,
-          "Name": "Spectral Debris",
-          "Tradable": false
-        },
-        {
-          "Description": "Facets gleam with the un-light of the Void.",
-          "Image": "trapezium-xenorhast.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemACutItem",
-          "ItemCount": 2,
-          "Name": "Trapezium Xenorhast",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "CritChance": 0,
-      "CritMultiplier": 0,
-      "DamagePerShot": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "Description": "Hounds are powerful robotic comanions optimized for combat. They are programmed to excel at battlefield control and can be configured for countless scenarios.",
-      "Disposition": 1,
-      "FireRate": 0,
-      "Image": "HecHound.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadC",
-      "Introduced": "30.5",
-      "Link": "Model#Hec",
-      "Mastery": 0,
-      "Name": "Hec Hound",
-      "ProductCategory": "Pistols",
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "HecHoundLargePortrait.png",
-      "StatusChance": 0,
-      "TotalDamage": 0,
-      "Tradable": false,
-      "Type": "Hound"
-    },
-    "Helios": {
-      "Armor": 80,
-      "BuildPrice": 5000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "With 'Investigator' as its unique Precept and 'Deconstructor' as its weapon, the versatile Helios Sentinel acts as both a lethal guardian and an automatic codex scanner. Scans require an equipped Codex Scanner and an available charge. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Weapons/ClanTech/Energy/HeliosSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Alloy pellets used in Grineer manufacturing.Locations: Mercury, Earth, Lua, Neptune, and the Void.",
-          "Image": "ferrite.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Ferrite",
-          "ItemCount": 5000,
-          "Name": "Ferrite",
-          "Tradable": false
-        },
-        {
-          "Description": "ClanTech weaponized containment field to contain superheated substances.Can be acquired from Corpus Sieges & Clan Research.",
-          "Image": "fieldron.png",
-          "InternalName": "/Lotus/Types/Items/Research/EnergyComponent",
-          "ItemCount": 10,
-          "Name": "Fieldron",
-          "Tradable": false
-        },
-        {
-          "Description": "This shape-altering component is fundamental to Orokin construction. Allows you to change the polarity of a mod slot on a Warframe, Companions or Weapon and then resets their affinity to Unranked. This can only be used on max Rank Warframes, Companions and Weapons.",
-          "Image": "forma.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Forma",
-          "ItemCount": 1,
-          "Name": "Forma",
-          "Tradable": false
-        },
-        {
-          "Description": "Oxium is a rare lighter than air alloy of Orokin origin, used in certain Corpus Robotics.Locations: Venus, Jupiter, Mars, Neptune, Pluto, Eris, Europa, and Lua.",
-          "Image": "oxium.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
-          "ItemCount": 300,
-          "Name": "Oxium",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Investigator' as its unique Precept and 'Deconstructor' as its weapon, the versatile Helios Sentinel acts as both a lethal guardian and an automatic codex scanner. Scans require an equipped Codex Scanner and an available charge.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Helios.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/MeleePetPowerSuit",
-      "Introduced": "12.5",
-      "Link": "Helios",
-      "Name": "Helios",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 35,
-      "SquadPortrait": "HeliosLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Helios Prime": {
-      "Armor": 100,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "This knowledge hungry protector defends its master with Deconstructor Prime.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeHeliosSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": true
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-carapace.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeHeliosCarapace",
-          "ItemCount": 1,
-          "Name": "Carapace",
-          "Tradable": true
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-cerebrum.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeHeliosCerebrum",
-          "ItemCount": 1,
-          "Name": "Cerebrum",
-          "Tradable": true
-        },
-        {
-          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
-          "Image": "orokin-cell.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
-          "ItemCount": 6,
-          "Name": "Orokin Cell",
-          "Tradable": false
-        },
-        {
-          "Description": "A prime sentinel-crafting component.",
-          "Image": "prime-systems.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeHeliosSystems",
-          "ItemCount": 1,
-          "Name": "Systems",
-          "Tradable": true
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "This knowledge hungry protector defends its master with Deconstructor Prime.",
-      "Energy": 100,
-      "EstimatedVaultDate": "2018 12 12",
-      "Health": 700,
-      "Image": "HeliosPrime.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeHeliosPowerSuit",
-      "Introduced": "19.11.5",
-      "Link": "Helios/Prime",
-      "Name": "Helios Prime",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 300,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "HeliosPrimeLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": true,
-      "Type": "Sentinel",
-      "VaultDate": "2018 12 12",
-      "Vaulted": true
-    },
-    "Helminth Charger": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Helminth Claws",
-          "CritChance": 0.075,
-          "CritMultiplier": 2.5,
-          "Damage": {
-            "Slash": 200,
-            "Toxin": 50
-          },
-          "StatusChance": 0.25,
-          "TotalDamage": 250
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "HELMINTH_MOD"
-      ],
-      "Description": "An Infested pet bred from the Helminth Cyst",
-      "Energy": 100,
-      "Health": 710,
-      "Icon": "IconInfested.png",
-      "Image": "HelminthCharger.png",
-      "InternalName": "/Lotus/Types/Game/KubrowPet/ChargerKubrowPetPowerSuit",
-      "Introduced": "19.5",
-      "Link": "Helminth Charger",
-      "Name": "Helminth Charger",
-      "Polarities": [
-        "Penjaga",
-        "Madurai",
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "Shield": 330,
-      "SquadPortrait": "HelminthChargerLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kubrow"
-    },
-    "Huras Kubrow": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Huras Claws",
-          "CritChance": 0.2,
-          "CritMultiplier": 3.5,
-          "Damage": {
-            "Slash": 350
-          },
-          "StatusChance": 0.05,
-          "TotalDamage": 350
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KUBROW_MOD"
-      ],
-      "Description": "Prized for its ability to sneak up on unsuspecting prey, the Huras Kubrow were first used as hunting companions by the Orokin elite. Orokin Era Tenno soon adapted the strain for use in covert missions and assassinations.",
-      "Energy": 100,
-      "Health": 560,
-      "Icon": "IconHuras.png",
-      "Image": "HurasKubrow.png",
-      "InternalName": "/Lotus/Types/Game/KubrowPet/FurtiveKubrowPetPowerSuit",
-      "Introduced": "14",
-      "Link": "Huras Kubrow",
-      "Name": "Huras Kubrow",
-      "Polarities": [
-        "Penjaga",
-        "Madurai",
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 490,
-      "SquadPortrait": "HurasKubrowLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kubrow"
-    },
-    "Lambeo Moa": {
-      "BuildPrice": 50000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Pets",
-      "Components": [
-        {
-          "Description": "",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadLambeoBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "The reproductive spore of the giant Vallis fungi is highly coveted for the complex chemical compounds it contains.",
-          "Image": "gorgaricus-spore.png",
-          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
-          "ItemCount": 20,
-          "Name": "Gorgaricus Spore",
-          "Tradable": false
-        },
-        {
-          "Description": "Polished and cut to perfection.",
-          "Image": "heart-noctrul.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBCutItem",
-          "ItemCount": 10,
-          "Name": "Heart Noctrul",
-          "Tradable": false
-        },
-        {
-          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
-          "Image": "morphics.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
-          "ItemCount": 2,
-          "Name": "Morphics",
-          "Tradable": false
-        },
-        {
-          "Description": "A compound formed from Venerol.",
-          "Image": "venerdo-alloy.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
-          "ItemCount": 30,
-          "Name": "Venerdo Alloy",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "CritChance": 0,
-      "CritMultiplier": 0,
-      "DamagePerShot": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
-      "Disposition": 1,
-      "FireRate": 0,
-      "Image": "LambeoMOA.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadLambeo",
-      "Introduced": "24",
-      "Link": "Model#Lambeo",
-      "Mastery": 0,
-      "Name": "Lambeo Moa",
-      "ProductCategory": "Pistols",
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "LambeoMoaLargePortrait.png",
-      "StatusChance": 0,
-      "TotalDamage": 0,
-      "Tradable": false,
-      "Type": "MOA"
-    },
-    "Medjay Predasite": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Medjay Claws",
-          "CritChance": 0.1,
-          "CritMultiplier": 3,
-          "Damage": {
-            "Slash": 175,
-            "Viral": 175
-          },
-          "StatusChance": 0.05,
-          "TotalDamage": 350
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "PREDASITE_MOD"
-      ],
-      "Description": "These hard-charging, four-legged predators make formidable companions when in the field.",
-      "Energy": 100,
-      "Health": 710,
-      "Icon": "IconMedjay.png",
-      "Image": "MedjayPredasite.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
-      "Introduced": "29",
-      "Link": "Medjay Predasite",
-      "Name": "Medjay Predasite",
-      "Polarities": [
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 350,
-      "SquadPortrait": "MedjayPredasiteLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Predasite"
-    },
-    "Nautilus": {
-      "Armor": 80,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/EmpyreanSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "A sentinel-crafting component.",
-          "ExcludeFromCodex": true,
-          "Image": "carapace.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCarapace",
-          "ItemCount": 1,
-          "Name": "Carapace",
-          "Tradable": false
-        },
-        {
-          "Description": "A sentinel-crafting component.",
-          "ExcludeFromCodex": true,
-          "Image": "cerebrum.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCerebrum",
-          "ItemCount": 1,
-          "Name": "Cerebrum",
-          "Tradable": false
-        },
-        {
-          "Description": "Nullstones do not conform to several laws of physics, making them highly prized for optimizing sensitive components.",
-          "Image": "nullstones.png",
-          "InternalName": "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem",
-          "ItemCount": 5,
-          "Name": "Nullstones",
-          "Tradable": false
-        },
-        {
-          "Description": "A sentinel-crafting component.",
-          "ExcludeFromCodex": true,
-          "Image": "systems.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
-          "ItemCount": 1,
-          "Name": "Systems",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Nautilus.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit",
-      "Introduced": "29.10",
-      "Link": "Nautilus",
-      "Name": "Nautilus",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "NautilusLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Nautilus Prime": {
-      "Armor": 175,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/EmpyreanSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "A sentinel-crafting component.",
-          "ExcludeFromCodex": true,
-          "Image": "carapace.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCarapace",
-          "ItemCount": 1,
-          "Name": "Carapace",
-          "Tradable": false
-        },
-        {
-          "Description": "A sentinel-crafting component.",
-          "ExcludeFromCodex": true,
-          "Image": "cerebrum.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCerebrum",
-          "ItemCount": 1,
-          "Name": "Cerebrum",
-          "Tradable": false
-        },
-        {
-          "Description": "Nullstones do not conform to several laws of physics, making them highly prized for optimizing sensitive components.",
-          "Image": "nullstones.png",
-          "InternalName": "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem",
-          "ItemCount": 5,
-          "Name": "Nullstones",
-          "Tradable": false
-        },
-        {
-          "Description": "A sentinel-crafting component.",
-          "ExcludeFromCodex": true,
-          "Image": "systems.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems",
-          "ItemCount": 1,
-          "Name": "Systems",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "This brave deckhand defends his crew with Verglas Prime.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "NautilusPrime.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit",
-      "Introduced": "36.1",
-      "Link": "Nautilus/Prime",
-      "Name": "Nautilus Prime",
-      "Polarities": [
-        "Penjaga",
-        "Vazarin",
-        "Penjaga",
-        "Penjaga",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 350,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "NautilusPrimeLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": true,
-      "Type": "Sentinel"
-    },
-    "Nychus Moa": {
-      "BuildPrice": 50000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Pets",
-      "Components": [
-        {
-          "Description": "",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadMeleeBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Polished and cut to perfection.",
-          "Image": "goblite-tears.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
-          "ItemCount": 10,
-          "Name": "Goblite Tears",
-          "Tradable": false
-        },
-        {
-          "Description": "The reproductive spore of the giant Vallis fungi is highly coveted for the complex chemical compounds it contains.",
-          "Image": "gorgaricus-spore.png",
-          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
-          "ItemCount": 20,
-          "Name": "Gorgaricus Spore",
-          "Tradable": false
-        },
-        {
-          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
-          "Image": "morphics.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
-          "ItemCount": 2,
-          "Name": "Morphics",
-          "Tradable": false
-        },
-        {
-          "Description": "A compound formed from Venerol.",
-          "Image": "venerdo-alloy.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
-          "ItemCount": 20,
-          "Name": "Venerdo Alloy",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "CritChance": 0,
-      "CritMultiplier": 0,
-      "DamagePerShot": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
-      "Disposition": 1,
-      "FireRate": 0,
-      "Image": "NychusMOA.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadMelee",
-      "Introduced": "28",
-      "Link": "Model#Nychus",
-      "Mastery": 0,
-      "Name": "Nychus Moa",
-      "ProductCategory": "Pistols",
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "NychusMoaLargePortrait.png",
-      "StatusChance": 0,
-      "TotalDamage": 0,
-      "Tradable": false,
-      "Type": "MOA"
-    },
-    "Oloro Moa": {
-      "BuildPrice": 50000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Pets",
-      "Components": [
-        {
-          "Description": "",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadOloroBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Polished and cut to perfection.",
-          "Image": "goblite-tears.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
-          "ItemCount": 10,
-          "Name": "Goblite Tears",
-          "Tradable": false
-        },
-        {
-          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
-          "Image": "morphics.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
-          "ItemCount": 2,
-          "Name": "Morphics",
-          "Tradable": false
-        },
-        {
-          "Description": "A by-product from the Weeping Towers terraforming processes.",
-          "Image": "thermal-sludge.png",
-          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
-          "ItemCount": 20,
-          "Name": "Thermal Sludge",
-          "Tradable": false
-        },
-        {
-          "Description": "A compound formed from Travoride.",
-          "Image": "travocyte-alloy.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAAlloyItem",
-          "ItemCount": 30,
-          "Name": "Travocyte Alloy",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "CritChance": 0,
-      "CritMultiplier": 0,
-      "DamagePerShot": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
-      "Disposition": 1,
-      "FireRate": 0,
-      "Image": "OloroMOA.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadOloro",
-      "Introduced": "24",
-      "Link": "Model#Oloro",
-      "Mastery": 0,
-      "Name": "Oloro Moa",
-      "ProductCategory": "Pistols",
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "OloroMoaLargePortrait.png",
-      "StatusChance": 0,
-      "TotalDamage": 0,
-      "Tradable": false,
-      "Type": "MOA"
-    },
-    "Oxylus": {
-      "Armor": 80,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "A compound formed from Axidite.",
-          "Image": "axidrol-alloy.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBAlloyItem",
-          "ItemCount": 45,
-          "Name": "Axidrol Alloy",
-          "Tradable": false
-        },
-        {
-          "Description": "With 'Scan Aquatic Lifeforms' and 'Scan Matter' as default Precepts, Oxylus was designed to assist in Search-and-Rescue operations through the harsh landscape around The Orb Vallis. Oxylus also comes with a Multron rifle. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/RadarSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Polished and cut to perfection.",
-          "Image": "goblite-tears.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
-          "ItemCount": 15,
-          "Name": "Goblite Tears",
-          "Tradable": false
-        },
-        {
-          "Description": "A liquid that mixes with coolant fluid to produce a resilient gel that repairs leaks.Acquired by disassembling Longwinder Servofish.",
-          "Image": "longwinder-lathe-coagulant.png",
-          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishLatheCoogulantItem",
-          "ItemCount": 10,
-          "Name": "Longwinder Lathe Coagulant",
-          "Tradable": false
-        },
-        {
-          "Description": "A sample of sprockets, gyros and wires.Acquired by disassembling any Servofish.",
-          "Image": "scrap.png",
-          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/GenericFishScrapItem",
-          "ItemCount": 40,
-          "Name": "Scrap",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Scan Aquatic Lifeforms' and 'Scan Matter' as default Precepts, Oxylus was designed to assist in Search-and-Rescue operations through the harsh landscape around The Orb Vallis. Oxylus also comes with a Multron rifle.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Oxylus.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/RadarPowerSuit",
-      "Introduced": "24",
-      "Link": "Oxylus",
-      "Name": "Oxylus",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "OxylusLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Panzer Vulpaphyla": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Panzer Claws",
-          "CritChance": 0.25,
-          "CritMultiplier": 2,
-          "Damage": {
-            "Slash": 45,
-            "Toxin": 45
-          },
-          "StatusChance": 0.125,
-          "TotalDamage": 90
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "VULPAPHYLA_MOD"
-      ],
-      "Description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
-      "Energy": 100,
-      "Health": 680,
-      "Icon": "IconPanzer.png",
-      "Image": "PanzerVulpaphyla.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit",
-      "Introduced": "29",
-      "Link": "Panzer Vulpaphyla",
-      "Name": "Panzer Vulpaphyla",
-      "Polarities": [
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 370,
-      "SquadPortrait": "PanzerVulpaphylaLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Vulpaphyla"
-    },
-    "Para Moa": {
-      "BuildPrice": 50000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Pets",
-      "Components": [
-        {
-          "Description": "A compound formed from Axidite.",
-          "Image": "axidrol-alloy.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBAlloyItem",
-          "ItemCount": 30,
-          "Name": "Axidrol Alloy",
-          "Tradable": false
-        },
-        {
-          "Description": "",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadParaBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
-          "Image": "morphics.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
-          "ItemCount": 2,
-          "Name": "Morphics",
-          "Tradable": false
-        },
-        {
-          "Description": "A fungal body prized for its varied uses.",
-          "Image": "mytocardia-spore.png",
-          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
-          "ItemCount": 20,
-          "Name": "Mytocardia Spore",
-          "Tradable": false
-        },
-        {
-          "Description": "Polished and cut to perfection.",
-          "Image": "smooth-phasmin.png",
-          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemACutItem",
-          "ItemCount": 10,
-          "Name": "Smooth Phasmin",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "CritChance": 0,
-      "CritMultiplier": 0,
-      "DamagePerShot": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
-      "Disposition": 1,
-      "FireRate": 0,
-      "Image": "ParaMOA.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadPara",
-      "Introduced": "24",
-      "Link": "Model#Para",
-      "Mastery": 0,
-      "Name": "Para Moa",
-      "ProductCategory": "Pistols",
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "ParaMoaLargePortrait.png",
-      "StatusChance": 0,
-      "TotalDamage": 0,
-      "Tradable": false,
-      "Type": "MOA"
-    },
-    "Pharaoh Predasite": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Pharaoh Claws",
-          "CritChance": 0.075,
-          "CritMultiplier": 2.5,
-          "Damage": {
-            "Gas": 162,
-            "Puncture": 162
-          },
-          "StatusChance": 0.25,
-          "TotalDamage": 324
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "PREDASITE_MOD"
-      ],
-      "Description": "These hard-charging, four-legged predators make formidable companions when in the field.",
-      "Energy": 100,
-      "Health": 710,
-      "Icon": "IconPharaoh.png",
-      "Image": "PharaohPredasite.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit",
-      "Introduced": "29",
-      "Link": "Pharaoh Predasite",
-      "Name": "Pharaoh Predasite",
-      "Polarities": [
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 350,
-      "SquadPortrait": "PharaohPredasiteLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Predasite"
-    },
-    "Prisma Shade": {
-      "Armor": 80,
-      "Category": "Sentinels",
-      "CodexSecret": true,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Description": "A rare jewel of the void. How could anything so beautiful be crafted for stealth?",
-      "Energy": 100,
-      "Health": 700,
-      "Image": "PrismaShade.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrismaShadePowerSuit",
-      "Introduced": "17.2.2",
-      "Link": "Shade/Prisma",
-      "Name": "Prisma Shade",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Naramon",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 300,
-      "SquadPortrait": "PrismaShadeLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": true,
-      "Type": "Sentinel"
-    },
-    "Raksa Kubrow": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Raksa Claws",
-          "CritChance": 0.075,
-          "CritMultiplier": 2.5,
-          "Damage": {
-            "Puncture": 250
-          },
-          "StatusChance": 0.2,
-          "TotalDamage": 250
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KUBROW_MOD"
-      ],
-      "Description": "Designed by the Orokin to be the perfect companion, a Kubrow was never far from its master's side. Loyal and obedient, these creatures made ideal bodyguards. Equipped with shield generators for added protection, their fierce growl could paralyze any attacker with fear.",
-      "Energy": 100,
-      "Health": 750,
-      "Icon": "IconRaksa.png",
-      "Image": "RaksaKubrow.png",
-      "InternalName": "/Lotus/Types/Game/KubrowPet/GuardKubrowPetPowerSuit",
-      "Introduced": "14",
-      "Link": "Raksa Kubrow",
-      "Name": "Raksa Kubrow",
-      "Polarities": [
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 390,
-      "SquadPortrait": "RaksaKubrowLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kubrow"
-    },
     "Sahasa Kubrow": {
+      "ProductCategory": "KubrowPets",
+      "Description": "Enterprising Orokin genetic designers recognized that the Kubrow's affinity for games of fetch could be used for more serious endeavors. They soon developed a strain adept at reconnaissance and contraband recovery. Tenno often used the creatures to help resupply while in the field.",
+      "Shield": 290,
+      "SellPrice": 0,
+      "Image": "SahasaKubrow.png",
+      "Category": "Pets",
       "Armor": 300,
+      "Icon": "IconSahasa.png",
+      "SquadPortrait": "SahasaKubrowLargePortrait.png",
+      "Link": "Sahasa Kubrow",
+      "Type": "Kubrow",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KUBROW_MOD"
+      ],
+      "Introduced": "14",
       "Attacks": [
         {
-          "AttackName": "Sahasa Claws",
           "CritChance": 0.1,
-          "CritMultiplier": 3,
+          "AttackName": "Sahasa Claws",
+          "TotalDamage": 300,
+          "StatusChance": 0.05,
           "Damage": {
             "Impact": 300
           },
-          "StatusChance": 0.05,
-          "TotalDamage": 300
+          "CritMultiplier": 3
         }
       ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KUBROW_MOD"
-      ],
-      "Description": "Enterprising Orokin genetic designers recognized that the Kubrow's affinity for games of fetch could be used for more serious endeavors. They soon developed a strain adept at reconnaissance and contraband recovery. Tenno often used the creatures to help resupply while in the field.",
-      "Energy": 100,
-      "Health": 940,
-      "Icon": "IconSahasa.png",
-      "Image": "SahasaKubrow.png",
-      "InternalName": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
-      "Introduced": "14",
-      "Link": "Sahasa Kubrow",
-      "Name": "Sahasa Kubrow",
       "Polarities": [
         "Penjaga",
         "Vazarin",
         "Penjaga"
       ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 290,
-      "SquadPortrait": "SahasaKubrowLargePortrait.png",
+      "Health": 940,
+      "Name": "Sahasa Kubrow",
       "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kubrow"
-    },
-    "Shade": {
-      "Armor": 80,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
-        {
-          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
-          "Image": "alloy-plate.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
-          "ItemCount": 500,
-          "Name": "Alloy Plate",
-          "Tradable": false
-        },
-        {
-          "Description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/ShadeSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
-          "Image": "circuits.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
-          "ItemCount": 400,
-          "Name": "Circuits",
-          "Tradable": false
-        },
-        {
-          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
-          "Image": "control-module.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
-          "ItemCount": 1,
-          "Name": "Control Module",
-          "Tradable": false
-        },
-        {
-          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
-          "Image": "nano-spores.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
-          "ItemCount": 200,
-          "Name": "Nano Spores",
-          "Tradable": false
-        }
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol.\\r\n\\r\nNote: This item requires two open slots.",
+      "InternalName": "/Lotus/Types/Game/KubrowPet/AdventurerKubrowPetPowerSuit",
       "Energy": 100,
-      "Health": 600,
-      "Image": "Shade.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/ShadePowerSuit",
-      "Introduced": "7",
-      "Link": "Shade",
-      "Name": "Shade",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 130,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "ShadeLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Shade Prime": {
-      "Armor": 100,
-      "BuildQuantity": 1,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "ConsumeOnBuild": true,
-      "Description": "Shade Prime specializes in stealth and comes locked and loaded with the Burst Laser Prime.\\r\n\\r\nTogether, you can dominate the shadows.",
-      "Energy": 100,
-      "Health": 700,
-      "Image": "ShadePrime.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit",
-      "Introduced": "32.3.6",
-      "Link": "Shade/Prime",
-      "Name": "Shade Prime",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Naramon",
-        "Penjaga"
-      ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 300,
-      "SquadPortrait": "ShadePrimeLargePortrait.png",
-      "Tradable": true,
-      "Type": "Sentinel",
-      "Vaulted": true
+      "CodexSecret": false
     },
     "Sly Vulpaphyla": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Sly Claws",
-          "CritChance": 0.2,
-          "CritMultiplier": 2,
-          "Damage": {
-            "Impact": 40,
-            "Magnetic": 40
-          },
-          "StatusChance": 0.2,
-          "TotalDamage": 80
-        }
-      ],
+      "ProductCategory": "KubrowPets",
+      "Description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
+      "Shield": 370,
+      "SellPrice": 0,
+      "Image": "SlyVulpaphyla.png",
       "Category": "Pets",
-      "CodexSecret": false,
+      "Armor": 300,
+      "Icon": "IconSly.png",
+      "SquadPortrait": "SlyVulpaphylaLargePortrait.png",
+      "Link": "Sly Vulpaphyla",
+      "Type": "Vulpaphyla",
+      "Tradable": false,
       "CompatibilityTags": [
         "VULPAPHYLA_MOD"
       ],
-      "Description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
-      "Energy": 100,
-      "Health": 680,
-      "Icon": "IconSly.png",
-      "Image": "SlyVulpaphyla.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit",
       "Introduced": "29",
-      "Link": "Sly Vulpaphyla",
-      "Name": "Sly Vulpaphyla",
-      "Polarities": [
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 370,
-      "SquadPortrait": "SlyVulpaphylaLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Vulpaphyla"
-    },
-    "Smeeta Kavat": {
-      "Armor": 300,
       "Attacks": [
         {
-          "AttackName": "Smeeta Claws",
           "CritChance": 0.2,
-          "CritMultiplier": 2,
+          "AttackName": "Sly Claws",
+          "TotalDamage": 80,
+          "StatusChance": 0.2,
           "Damage": {
-            "Slash": 80
+            "Magnetic": 40,
+            "Impact": 40
           },
-          "StatusChance": 0.075,
-          "TotalDamage": 80
+          "CritMultiplier": 2
         }
       ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KAVAT_MOD"
-      ],
-      "Description": "This sly feline is playful yet devious.",
-      "Energy": 100,
-      "Health": 390,
-      "Icon": "IconSmeeta.png",
-      "Image": "SmeetaKavat.png",
-      "InternalName": "/Lotus/Types/Game/CatbrowPet/CheshireCatbrowPetPowerSuit",
-      "Introduced": "Specters of the Rail",
-      "Link": "Smeeta Kavat",
-      "Name": "Smeeta Kavat",
       "Polarities": [
-        "Penjaga",
         "Penjaga"
       ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 230,
-      "SquadPortrait": "SmeetaKavatLargePortrait.png",
+      "Health": 680,
+      "Name": "Sly Vulpaphyla",
       "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kavat"
+      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/VulpineInfestedCatbrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
     },
-    "Sunika Kubrow": {
-      "Armor": 300,
-      "Attacks": [
+    "Lambeo Moa": {
+      "CritChance": 0,
+      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "FireRate": 0,
+      "BuildTime": 86400,
+      "Image": "LambeoMOA.png",
+      "BuildPrice": 50000,
+      "DamagePerShot": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CritMultiplier": 0,
+      "SquadPortrait": "LambeoMoaLargePortrait.png",
+      "Type": "MOA",
+      "Link": "Model#Lambeo",
+      "Tradable": false,
+      "SkipBuildTimePrice": 25,
+      "Disposition": 1,
+      "TotalDamage": 0,
+      "ProductCategory": "Pistols",
+      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadLambeo",
+      "Name": "Lambeo Moa",
+      "Introduced": "24",
+      "Mastery": 0,
+      "StatusChance": 0,
+      "Components": [
         {
-          "AttackName": "Sunika Claws",
-          "CritChance": 0.075,
-          "CritMultiplier": 3.5,
-          "Damage": {
-            "Slash": 550
-          },
-          "StatusChance": 0.075,
-          "TotalDamage": 550
+          "Image": "blueprint.png",
+          "Description": "",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadLambeoBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "gorgaricus-spore.png",
+          "Description": "The reproductive spore of the giant Vallis fungi is highly coveted for the complex chemical compounds it contains.",
+          "Tradable": false,
+          "Name": "Gorgaricus Spore",
+          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
+          "ItemCount": 20
+        },
+        {
+          "Image": "heart-noctrul.png",
+          "Description": "Polished and cut to perfection.",
+          "Tradable": false,
+          "Name": "Heart Noctrul",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBCutItem",
+          "ItemCount": 10
+        },
+        {
+          "Image": "morphics.png",
+          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
+          "Tradable": false,
+          "Name": "Morphics",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
+          "ItemCount": 2
+        },
+        {
+          "Image": "venerdo-alloy.png",
+          "Description": "A compound formed from Venerol.",
+          "Tradable": false,
+          "Name": "Venerdo Alloy",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
+          "ItemCount": 30
         }
       ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KUBROW_MOD"
-      ],
-      "Description": "Once the value of Orokin guard-pets had been realized, Orokin scientists began experimenting with strains designed for combat. These were no longer household pets but superior war animals bred for ferocity and aggression.",
-      "Energy": 100,
-      "Health": 830,
-      "Icon": "IconSunika.png",
-      "Image": "SunikaKubrow.png",
-      "InternalName": "/Lotus/Types/Game/KubrowPet/HunterKubrowPetPowerSuit",
-      "Introduced": "14",
-      "Link": "Sunika Kubrow",
-      "Name": "Sunika Kubrow",
-      "Polarities": [
-        "Penjaga",
-        "Vazarin",
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 350,
-      "SquadPortrait": "SunikaKubrowLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kubrow"
+      "Category": "Pets"
     },
-    "Taxon": {
-      "Armor": 80,
-      "BuildPrice": 15000,
+    "Shade": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
       "BuildQuantity": 1,
       "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
+      "Image": "Shade.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/ShadePowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "ShadeLargePortrait.png",
+      "Energy": 100,
+      "Link": "Shade",
+      "SkipBuildTimePrice": 30,
+      "Shield": 130,
       "CompatibilityTags": [
         "SENTINEL_MOD"
       ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Penjaga"
+      ],
+      "Name": "Shade",
+      "Health": 600,
+      "Introduced": "7",
+      "Stamina": 8,
+      "Category": "Sentinels",
       "Components": [
         {
-          "Description": "With 'Assault Mode' and 'Molecular Conversion' as default Precepts, Taxon protects its owner with shield restoration. Equipped with the Artax ice-beam. Note: This item requires two open slots.",
+          "Image": "alloy-plate.png",
+          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
+          "Tradable": false,
+          "Name": "Alloy Plate",
+          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+          "ItemCount": 500
+        },
+        {
           "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/TnSentinelCrossBlueprint",
-          "ItemCount": 1,
+          "Description": "With 'Revenge' and 'Ghost' as default Precepts, Shade is well suited for stealth gameplay. Shade also comes with a burst laser pistol. Note: This item requires two open slots.",
+          "Tradable": false,
           "Name": "Blueprint",
-          "Tradable": false
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/ShadeSentinelBlueprint",
+          "ItemCount": 1
         },
         {
-          "Description": "Alloy pellets used in Grineer manufacturing.Locations: Mercury, Earth, Lua, Neptune, and the Void.",
-          "Image": "ferrite.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Ferrite",
-          "ItemCount": 500,
-          "Name": "Ferrite",
-          "Tradable": false
+          "Image": "circuits.png",
+          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
+          "Tradable": false,
+          "Name": "Circuits",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
+          "ItemCount": 400
         },
         {
-          "Description": "Biotech sensor organ harvested from Infested entities.Locations: Earth, Lua, Eris, and Deimos.",
-          "Image": "neurodes.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Neurode",
-          "ItemCount": 1,
-          "Name": "Neurodes",
-          "Tradable": false
+          "Image": "control-module.png",
+          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
+          "Tradable": false,
+          "Name": "Control Module",
+          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
+          "ItemCount": 1
         },
         {
-          "Description": "A hard, thermoplastic casing. Manufactured by Corpus.Locations: Mercury, Venus, and Uranus.",
-          "Image": "polymer-bundle.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/PolymerBundle",
-          "ItemCount": 200,
-          "Name": "Polymer Bundle",
-          "Tradable": false
-        },
-        {
-          "Description": "A jagged crystalline ore. Gives off radiant energy.Locations: Earth, Lua, Phobos, Europa, Pluto, Sedna, and the Void.",
-          "Image": "rubedo.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Rubedo",
-          "ItemCount": 200,
-          "Name": "Rubedo",
-          "Tradable": false
+          "Image": "nano-spores.png",
+          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
+          "Tradable": false,
+          "Name": "Nano Spores",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
+          "ItemCount": 200
         }
       ],
+      "CodexSecret": false
+    },
+    "Bhaira Hound": {
+      "CritChance": 0,
+      "Description": "Hounds are powerful robotic comanions optimized for combat. They are programmed to excel at battlefield control and can be configured for countless scenarios.",
       "ConsumeOnBuild": true,
-      "Description": "With 'Assault Mode' and 'Molecular Conversion' as default Precepts, Taxon protects its owner with shield restoration. Equipped with the Artax ice-beam.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Taxon.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/TnSentinelCrossPowerSuit",
-      "Introduced": "19.10",
-      "Link": "Taxon",
-      "Name": "Taxon",
-      "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
-        "Penjaga"
+      "BuildQuantity": 1,
+      "FireRate": 0,
+      "BuildTime": 86400,
+      "Image": "BhairaHound.png",
+      "BuildPrice": 50000,
+      "DamagePerShot": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
+      "CritMultiplier": 0,
+      "SquadPortrait": "BhairaHoundLargePortrait.png",
+      "Type": "Hound",
+      "Link": "Model#Bhaira",
+      "Tradable": false,
+      "SkipBuildTimePrice": 25,
+      "Disposition": 1,
+      "TotalDamage": 0,
+      "ProductCategory": "Pistols",
+      "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadB",
+      "Name": "Bhaira Hound",
+      "Introduced": "30.5",
+      "Mastery": 0,
+      "StatusChance": 0,
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/ZanukaPetParts/ZanukaPetPartHeadBBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "eye-eye-rotoblade.png",
+          "Description": "A machine element used to propel robotic organisms through coolant.Acquired by disassembling Eye-Eye Servofish.",
+          "Tradable": false,
+          "Name": "Eye-Eye Rotoblade",
+          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishRotobladeItem",
+          "ItemCount": 10
+        },
+        {
+          "Image": "gallium.png",
+          "Description": "Soft metal used in microelectronics and energy weapons.Locations: Mars and Uranus.",
+          "Tradable": false,
+          "Name": "Gallium",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Gallium",
+          "ItemCount": 5
+        },
+        {
+          "Image": "marquise-thyst.png",
+          "Description": "Polished and cut to perfection.",
+          "Tradable": false,
+          "Name": "Marquise Thyst",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemBCutItem",
+          "ItemCount": 2
+        },
+        {
+          "Image": "spectral-debris.png",
+          "Description": "Discharged specter particles form an inert dust that can be collected and re-energized for various robotic projects.",
+          "Tradable": false,
+          "Name": "Spectral Debris",
+          "ItemCount": 5,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue"
+        }
+      ],
+      "Category": "Pets"
+    },
+    "Wyrm": {
       "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "TaxonLargePortrait.png",
-      "Stamina": 8,
+      "Description": "With 'Assault Mode' and 'Crowd Dispersion' as default Precepts, Wyrm is a highly offensive Sentinel. Wyrm also comes with a laser rifle.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Wyrm.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit",
+      "Type": "Sentinel",
       "Tradable": false,
-      "Type": "Sentinel"
-    },
-    "Vasca Kavat": {
-      "Armor": 300,
-      "Attacks": [
-        {
-          "AttackName": "Vasca Claws",
-          "CritChance": 0.15,
-          "CritMultiplier": 2,
-          "Damage": {
-            "Slash": 110
-          },
-          "StatusChance": 0.25,
-          "TotalDamage": 110
-        }
-      ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KAVAT_MOD"
-      ],
-      "Description": "A true child of the night, and a drinker of life.",
+      "SquadPortrait": "WyrmLargePortrait.png",
       "Energy": 100,
-      "Health": 310,
-      "Icon": "IconVasca.png",
-      "Image": "VascaKavat.png",
-      "InternalName": "/Lotus/Types/Game/CatbrowPet/VampireCatbrowPetPowerSuit",
-      "Introduced": "26",
-      "Link": "Vasca Kavat",
-      "Name": "Vasca Kavat",
+      "Link": "Wyrm",
+      "SkipBuildTimePrice": 30,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
       "Polarities": [
+        "Penjaga",
+        "Penjaga",
         "Penjaga",
         "Penjaga"
       ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 270,
-      "SquadPortrait": "VascaKavatLargePortrait.png",
+      "Name": "Wyrm",
+      "Health": 560,
+      "Introduced": "7",
       "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kavat"
-    },
-    "Venari": {
-      "Armor": 350,
-      "Attacks": [
+      "Category": "Sentinels",
+      "Components": [
         {
-          "AttackName": "Venari Claws",
-          "CritChance": 0.2,
-          "CritMultiplier": 2,
-          "Damage": {
-            "Slash": 40
-          },
-          "StatusChance": 0.2,
-          "TotalDamage": 40
+          "Image": "alloy-plate.png",
+          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
+          "Tradable": false,
+          "Name": "Alloy Plate",
+          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+          "ItemCount": 500
+        },
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Assault Mode' and 'Crowd Dispersion' as default Precepts, Wyrm is a highly offensive Sentinel. Wyrm also comes with a laser rifle. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/WyrmSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "circuits.png",
+          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
+          "Tradable": false,
+          "Name": "Circuits",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
+          "ItemCount": 400
+        },
+        {
+          "Image": "control-module.png",
+          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
+          "Tradable": false,
+          "Name": "Control Module",
+          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
+          "ItemCount": 1
+        },
+        {
+          "Image": "nano-spores.png",
+          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
+          "Tradable": false,
+          "Name": "Nano Spores",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
+          "ItemCount": 200
         }
       ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KAVAT_MOD",
-        "VENARI_MOD"
-      ],
-      "Description": "Khora's loyal Kavat. Her constant companion and protector.",
+      "CodexSecret": false
+    },
+    "Diriga": {
+      "ProductCategory": "Sentinels",
+      "Description": "Diriga shocks nearby enemies, and picks off distant threats, utilizing the Vulklok sniper rifle and the 'Calculated Shot', 'Arc Coil' and 'Electro Pulse' precepts.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Diriga.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/ArcDronePowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "DirigaLargePortrait.png",
       "Energy": 100,
-      "ExcludeFromCodex": true,
-      "Health": 900,
-      "Icon": "Venari130xWhite.png",
-      "Image": "Venari.png",
-      "InternalName": "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
-      "Introduced": "22.18",
-      "Link": "Khora/Abilities#Passive",
-      "Name": "Venari",
+      "Link": "Diriga",
+      "SkipBuildTimePrice": 30,
+      "Shield": 150,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
       "Polarities": [
         "Penjaga",
-        "Madurai",
-        "Vazarin",
-        "Naramon"
+        "Penjaga",
+        "Penjaga",
+        "Penjaga"
       ],
-      "ProductCategory": "SpecialItems",
-      "SellPrice": 0,
-      "Shield": 0,
-      "SquadPortrait": "VenariLargePortrait.png",
+      "Name": "Diriga",
+      "Health": 700,
+      "Introduced": "17.3",
       "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kavat"
-    },
-    "Venari Prime": {
-      "Armor": 450,
-      "Attacks": [
+      "Category": "Sentinels",
+      "Components": [
         {
-          "AttackName": "Venari Prime Claws",
-          "CritChance": 0.2,
-          "CritMultiplier": 2,
-          "Damage": {
-            "Slash": 55
-          },
-          "StatusChance": 0.2,
-          "TotalDamage": 55
+          "Image": "alloy-plate.png",
+          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
+          "Tradable": false,
+          "Name": "Alloy Plate",
+          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+          "ItemCount": 600
+        },
+        {
+          "Image": "argon-crystal.png",
+          "Description": "A Void based radioactive resource that decays every day it is out of the Void.This resource can be found in the Void.",
+          "Tradable": false,
+          "Name": "Argon Crystal",
+          "InternalName": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+          "ItemCount": 2
+        },
+        {
+          "Image": "blueprint.png",
+          "Description": "Diriga shocks nearby enemies, and picks off distant threats, utilizing the Vulklok sniper rifle and the 'Calculated Shot', 'Arc Coil' and 'Electro Pulse' precepts. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/ArcTrapSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "plastids.png",
+          "Description": "A disgusting nanite-infested tissue mass.Locations: Phobos, Saturn, Uranus, Pluto, and Eris.",
+          "Tradable": false,
+          "Name": "Plastids",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Plastids",
+          "ItemCount": 350
+        },
+        {
+          "Image": "polymer-bundle.png",
+          "Description": "A hard, thermoplastic casing. Manufactured by Corpus.Locations: Mercury, Venus, and Uranus.",
+          "Tradable": false,
+          "Name": "Polymer Bundle",
+          "InternalName": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+          "ItemCount": 500
         }
       ],
-      "Category": "Pets",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "KAVAT_MOD",
-        "VENARI_MOD"
-      ],
-      "Description": "Khora's will, Venari's fangs and claws.",
+      "CodexSecret": false
+    },
+    "Dethcube": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube acts exactly as advertised, as a badass cube of 'deth'. Comes loaded with Deth Machine Rifle weapon.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Dethcube.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/DethCubePowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "DethcubeLargePortrait.png",
       "Energy": 100,
-      "ExcludeFromCodex": true,
-      "Health": 1050,
-      "Icon": "Venari130xWhite.png",
-      "Image": "VenariPrime.png",
-      "InternalName": "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
-      "Introduced": "31.7",
-      "Link": "Khora/Abilities#Passive",
-      "Name": "Venari Prime",
+      "Link": "Dethcube",
+      "SkipBuildTimePrice": 30,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
       "Polarities": [
         "Penjaga",
-        "Madurai",
-        "Vazarin",
-        "Naramon"
+        "Penjaga",
+        "Penjaga",
+        "Penjaga"
       ],
-      "ProductCategory": "SpecialItems",
-      "SellPrice": 0,
-      "Shield": 0,
-      "SquadPortrait": "VenariPrimeLargePortrait.png",
+      "Name": "Dethcube",
+      "Health": 560,
+      "Introduced": "8",
       "Stamina": 8,
-      "Tradable": false,
-      "Type": "Kavat"
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "alloy-plate.png",
+          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
+          "Tradable": false,
+          "Name": "Alloy Plate",
+          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+          "ItemCount": 500
+        },
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube acts exactly as advertised, as a badass cube of 'deth'. Comes loaded with Deth Machine Rifle weapon. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/DethCubeSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "circuits.png",
+          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
+          "Tradable": false,
+          "Name": "Circuits",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
+          "ItemCount": 400
+        },
+        {
+          "Image": "control-module.png",
+          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
+          "Tradable": false,
+          "Name": "Control Module",
+          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
+          "ItemCount": 1
+        },
+        {
+          "Image": "nano-spores.png",
+          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
+          "Tradable": false,
+          "Name": "Nano Spores",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
+          "ItemCount": 200
+        }
+      ],
+      "CodexSecret": false
     },
     "Vizier Predasite": {
+      "ProductCategory": "KubrowPets",
+      "Description": "These hard-charging, four-legged predators make formidable companions when in the field.",
+      "Shield": 350,
+      "SellPrice": 0,
+      "Image": "VizierPredasite.png",
+      "Category": "Pets",
       "Armor": 300,
+      "Icon": "IconVizier.png",
+      "SquadPortrait": "VizierPredasiteLargePortrait.png",
+      "Link": "Vizier Predasite",
+      "Type": "Predasite",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "PREDASITE_MOD"
+      ],
+      "Introduced": "29",
       "Attacks": [
         {
-          "AttackName": "Vizier Claws",
           "CritChance": 0.05,
-          "CritMultiplier": 3,
+          "AttackName": "Vizier Claws",
+          "TotalDamage": 300,
+          "StatusChance": 0.3,
           "Damage": {
             "Corrosive": 150,
             "Impact": 150
           },
-          "StatusChance": 0.3,
-          "TotalDamage": 300
+          "CritMultiplier": 3
         }
       ],
+      "Polarities": [
+        "Penjaga"
+      ],
+      "Health": 710,
+      "Name": "Vizier Predasite",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Nychus Moa": {
+      "CritChance": 0,
+      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "FireRate": 0,
+      "BuildTime": 86400,
+      "Image": "NychusMOA.png",
+      "BuildPrice": 50000,
+      "DamagePerShot": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CritMultiplier": 0,
+      "SquadPortrait": "NychusMoaLargePortrait.png",
+      "Type": "MOA",
+      "Link": "Model#Nychus",
+      "Tradable": false,
+      "SkipBuildTimePrice": 25,
+      "Disposition": 1,
+      "TotalDamage": 0,
+      "ProductCategory": "Pistols",
+      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadMelee",
+      "Name": "Nychus Moa",
+      "Introduced": "28",
+      "Mastery": 0,
+      "StatusChance": 0,
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadMeleeBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "goblite-tears.png",
+          "Description": "Polished and cut to perfection.",
+          "Tradable": false,
+          "Name": "Goblite Tears",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
+          "ItemCount": 10
+        },
+        {
+          "Image": "gorgaricus-spore.png",
+          "Description": "The reproductive spore of the giant Vallis fungi is highly coveted for the complex chemical compounds it contains.",
+          "Tradable": false,
+          "Name": "Gorgaricus Spore",
+          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
+          "ItemCount": 20
+        },
+        {
+          "Image": "morphics.png",
+          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
+          "Tradable": false,
+          "Name": "Morphics",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
+          "ItemCount": 2
+        },
+        {
+          "Image": "venerdo-alloy.png",
+          "Description": "A compound formed from Venerol.",
+          "Tradable": false,
+          "Name": "Venerdo Alloy",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
+          "ItemCount": 20
+        }
+      ],
+      "Category": "Pets"
+    },
+    "Raksa Kubrow": {
+      "ProductCategory": "KubrowPets",
+      "Description": "Designed by the Orokin to be the perfect companion, a Kubrow was never far from its master's side. Loyal and obedient, these creatures made ideal bodyguards. Equipped with shield generators for added protection, their fierce growl could paralyze any attacker with fear.",
+      "Shield": 390,
+      "SellPrice": 0,
+      "Image": "RaksaKubrow.png",
       "Category": "Pets",
-      "CodexSecret": false,
+      "Armor": 300,
+      "Icon": "IconRaksa.png",
+      "SquadPortrait": "RaksaKubrowLargePortrait.png",
+      "Link": "Raksa Kubrow",
+      "Type": "Kubrow",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KUBROW_MOD"
+      ],
+      "Introduced": "14",
+      "Attacks": [
+        {
+          "CritChance": 0.075,
+          "AttackName": "Raksa Claws",
+          "TotalDamage": 250,
+          "StatusChance": 0.2,
+          "Damage": {
+            "Puncture": 250
+          },
+          "CritMultiplier": 2.5
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Health": 750,
+      "Name": "Raksa Kubrow",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/KubrowPet/GuardKubrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Wyrm Prime": {
+      "ProductCategory": "Sentinels",
+      "Description": "Both bodyguard and status symbol, the Wyrm Prime Sentinel was the last line of defense for high ranking Tenno in the Orokin Era.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "WyrmPrime.png",
+      "BuildPrice": 15000,
+      "Armor": 150,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": true,
+      "SquadPortrait": "WyrmPrimeLargePortrait.png",
+      "Energy": 100,
+      "Link": "Wyrm/Prime",
+      "SkipBuildTimePrice": 25,
+      "Shield": 600,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Penjaga"
+      ],
+      "Name": "Wyrm Prime",
+      "Health": 450,
+      "Introduced": "13.7",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "Both bodyguard and status symbol, the Wyrm Prime Sentinel was the last line of defense for high ranking Tenno in the Orokin era.",
+          "Tradable": true,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeWyrmSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "prime-carapace.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Carapace",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeWyrmCarapace",
+          "ItemCount": 1
+        },
+        {
+          "Image": "prime-cerebrum.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Cerebrum",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeWyrmCerebrum",
+          "ItemCount": 1
+        },
+        {
+          "Image": "orokin-cell.png",
+          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
+          "Tradable": false,
+          "Name": "Orokin Cell",
+          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
+          "ItemCount": 6
+        },
+        {
+          "Image": "prime-systems.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Systems",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeWyrmSystems",
+          "ItemCount": 1
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Helios Prime": {
+      "ProductCategory": "Sentinels",
+      "Description": "This knowledge hungry protector defends its master with Deconstructor Prime.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "Name": "Helios Prime",
+      "BuildTime": 86400,
+      "Image": "HeliosPrime.png",
+      "VaultDate": "2018 12 12",
+      "BuildPrice": 15000,
+      "Armor": 100,
+      "EstimatedVaultDate": "2018 12 12",
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeHeliosPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": true,
+      "SquadPortrait": "HeliosPrimeLargePortrait.png",
+      "Energy": 100,
+      "Link": "Helios/Prime",
+      "SkipBuildTimePrice": 30,
+      "Shield": 300,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Vaulted": true,
+      "Health": 700,
+      "Introduced": "19.11.5",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "This knowledge hungry protector defends its master with Deconstructor Prime.",
+          "Tradable": true,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeHeliosSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "prime-carapace.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Carapace",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeHeliosCarapace",
+          "ItemCount": 1
+        },
+        {
+          "Image": "prime-cerebrum.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Cerebrum",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeHeliosCerebrum",
+          "ItemCount": 1
+        },
+        {
+          "Image": "orokin-cell.png",
+          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
+          "Tradable": false,
+          "Name": "Orokin Cell",
+          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
+          "ItemCount": 6
+        },
+        {
+          "Image": "prime-systems.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Systems",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeHeliosSystems",
+          "ItemCount": 1
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Venari Prime": {
+      "ProductCategory": "SpecialItems",
+      "Description": "Khora's will, Venari's fangs and claws.",
+      "Shield": 0,
+      "ExcludeFromCodex": true,
+      "Image": "VenariPrime.png",
+      "Category": "Pets",
+      "Armor": 450,
+      "Icon": "Venari130xWhite.png",
+      "SquadPortrait": "VenariPrimeLargePortrait.png",
+      "Type": "Kavat",
+      "Link": "Khora/Abilities#Passive",
+      "Tradable": false,
+      "Introduced": "31.7",
+      "CompatibilityTags": [
+        "KAVAT_MOD",
+        "VENARI_MOD"
+      ],
+      "SellPrice": 0,
+      "Attacks": [
+        {
+          "CritChance": 0.2,
+          "AttackName": "Venari Prime Claws",
+          "TotalDamage": 55,
+          "StatusChance": 0.2,
+          "Damage": {
+            "Slash": 55
+          },
+          "CritMultiplier": 2
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ],
+      "Health": 1050,
+      "Name": "Venari Prime",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Powersuits/Khora/Kavat/KhoraPrimeKavatPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Carrier Prime": {
+      "ProductCategory": "Sentinels",
+      "Description": "This ornate sentinel is an excellent example of late Orokin craftsmanship and styling.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "Name": "Carrier Prime",
+      "BuildTime": 86400,
+      "Image": "CarrierPrime.png",
+      "VaultDate": "2017 05 30",
+      "BuildPrice": 15000,
+      "Armor": 150,
+      "EstimatedVaultDate": "2017 05 30",
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeCarrierPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": true,
+      "SquadPortrait": "CarrierPrimeLargePortrait.png",
+      "Energy": 100,
+      "Link": "Carrier/Prime",
+      "SkipBuildTimePrice": 30,
+      "Shield": 300,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Madurai",
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Vaulted": true,
+      "Health": 650,
+      "Introduced": "16.11",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "This ornate sentinel is an excellent example of late Orokin craftsmanship and styling.",
+          "Tradable": true,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeCarrierSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "prime-carapace.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Carapace",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeCarrierCarapace",
+          "ItemCount": 1
+        },
+        {
+          "Image": "prime-cerebrum.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Cerebrum",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeCarrierCerebrum",
+          "ItemCount": 1
+        },
+        {
+          "Image": "orokin-cell.png",
+          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
+          "Tradable": false,
+          "Name": "Orokin Cell",
+          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
+          "ItemCount": 6
+        },
+        {
+          "Image": "prime-systems.png",
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Systems",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeCarrierSystems",
+          "ItemCount": 1
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Venari": {
+      "ProductCategory": "SpecialItems",
+      "Description": "Khora's loyal Kavat. Her constant companion and protector.",
+      "Shield": 0,
+      "ExcludeFromCodex": true,
+      "Image": "Venari.png",
+      "Category": "Pets",
+      "Armor": 350,
+      "Icon": "Venari130xWhite.png",
+      "SquadPortrait": "VenariLargePortrait.png",
+      "Type": "Kavat",
+      "Link": "Khora/Abilities#Passive",
+      "Tradable": false,
+      "Introduced": "22.18",
+      "CompatibilityTags": [
+        "KAVAT_MOD",
+        "VENARI_MOD"
+      ],
+      "SellPrice": 0,
+      "Attacks": [
+        {
+          "CritChance": 0.2,
+          "AttackName": "Venari Claws",
+          "TotalDamage": 40,
+          "StatusChance": 0.2,
+          "Damage": {
+            "Slash": 40
+          },
+          "CritMultiplier": 2
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ],
+      "Health": 900,
+      "Name": "Venari",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Powersuits/Khora/Kavat/KhoraKavatPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Vasca Kavat": {
+      "ProductCategory": "KubrowPets",
+      "Description": "A true child of the night, and a drinker of life.",
+      "Shield": 270,
+      "SellPrice": 0,
+      "Image": "VascaKavat.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconVasca.png",
+      "SquadPortrait": "VascaKavatLargePortrait.png",
+      "Link": "Vasca Kavat",
+      "Type": "Kavat",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KAVAT_MOD"
+      ],
+      "Introduced": "26",
+      "Attacks": [
+        {
+          "CritChance": 0.15,
+          "AttackName": "Vasca Claws",
+          "TotalDamage": 110,
+          "StatusChance": 0.25,
+          "Damage": {
+            "Slash": 110
+          },
+          "CritMultiplier": 2
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Penjaga"
+      ],
+      "Health": 310,
+      "Name": "Vasca Kavat",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/CatbrowPet/VampireCatbrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Nautilus Prime": {
+      "ProductCategory": "Sentinels",
+      "Description": "This brave deckhand defends his crew with Verglas Prime.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "NautilusPrime.png",
+      "BuildPrice": 15000,
+      "Armor": 175,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/NautilusPrimeSentinelPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": true,
+      "SquadPortrait": "NautilusPrimeLargePortrait.png",
+      "Energy": 100,
+      "Link": "Nautilus/Prime",
+      "SkipBuildTimePrice": 30,
+      "Shield": 350,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Vazarin",
+        "Penjaga",
+        "Penjaga",
+        "Penjaga"
+      ],
+      "Name": "Nautilus Prime",
+      "Health": 560,
+      "Introduced": "36.1",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/EmpyreanSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "carapace.png",
+          "Description": "A sentinel-crafting component.",
+          "Tradable": false,
+          "Name": "Carapace",
+          "ItemCount": 1,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCarapace"
+        },
+        {
+          "Image": "cerebrum.png",
+          "Description": "A sentinel-crafting component.",
+          "Tradable": false,
+          "Name": "Cerebrum",
+          "ItemCount": 1,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCerebrum"
+        },
+        {
+          "Image": "nullstones.png",
+          "Description": "Nullstones do not conform to several laws of physics, making them highly prized for optimizing sensitive components.",
+          "Tradable": false,
+          "Name": "Nullstones",
+          "InternalName": "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem",
+          "ItemCount": 5
+        },
+        {
+          "Image": "systems.png",
+          "Description": "A sentinel-crafting component.",
+          "Tradable": false,
+          "Name": "Systems",
+          "ItemCount": 1,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems"
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Taxon": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Assault Mode' and 'Molecular Conversion' as default Precepts, Taxon protects its owner with shield restoration. Equipped with the Artax ice-beam.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Taxon.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/TnSentinelCrossPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "TaxonLargePortrait.png",
+      "Energy": 100,
+      "Link": "Taxon",
+      "SkipBuildTimePrice": 30,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Penjaga"
+      ],
+      "Name": "Taxon",
+      "Health": 560,
+      "Introduced": "19.10",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Assault Mode' and 'Molecular Conversion' as default Precepts, Taxon protects its owner with shield restoration. Equipped with the Artax ice-beam. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/TnSentinelCrossBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "ferrite.png",
+          "Description": "Alloy pellets used in Grineer manufacturing.Locations: Mercury, Earth, Lua, Neptune, and the Void.",
+          "Tradable": false,
+          "Name": "Ferrite",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Ferrite",
+          "ItemCount": 500
+        },
+        {
+          "Image": "neurodes.png",
+          "Description": "Biotech sensor organ harvested from Infested entities.Locations: Earth, Lua, Eris, and Deimos.",
+          "Tradable": false,
+          "Name": "Neurodes",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Neurode",
+          "ItemCount": 1
+        },
+        {
+          "Image": "polymer-bundle.png",
+          "Description": "A hard, thermoplastic casing. Manufactured by Corpus.Locations: Mercury, Venus, and Uranus.",
+          "Tradable": false,
+          "Name": "Polymer Bundle",
+          "InternalName": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+          "ItemCount": 200
+        },
+        {
+          "Image": "rubedo.png",
+          "Description": "A jagged crystalline ore. Gives off radiant energy.Locations: Earth, Lua, Phobos, Europa, Pluto, Sedna, and the Void.",
+          "Tradable": false,
+          "Name": "Rubedo",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Rubedo",
+          "ItemCount": 200
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Oloro Moa": {
+      "CritChance": 0,
+      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "FireRate": 0,
+      "BuildTime": 86400,
+      "Image": "OloroMOA.png",
+      "BuildPrice": 50000,
+      "DamagePerShot": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CritMultiplier": 0,
+      "SquadPortrait": "OloroMoaLargePortrait.png",
+      "Type": "MOA",
+      "Link": "Model#Oloro",
+      "Tradable": false,
+      "SkipBuildTimePrice": 25,
+      "Disposition": 1,
+      "TotalDamage": 0,
+      "ProductCategory": "Pistols",
+      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadOloro",
+      "Name": "Oloro Moa",
+      "Introduced": "24",
+      "Mastery": 0,
+      "StatusChance": 0,
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadOloroBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "goblite-tears.png",
+          "Description": "Polished and cut to perfection.",
+          "Tradable": false,
+          "Name": "Goblite Tears",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
+          "ItemCount": 10
+        },
+        {
+          "Image": "morphics.png",
+          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
+          "Tradable": false,
+          "Name": "Morphics",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
+          "ItemCount": 2
+        },
+        {
+          "Image": "thermal-sludge.png",
+          "Description": "A by-product from the Weeping Towers terraforming processes.",
+          "Tradable": false,
+          "Name": "Thermal Sludge",
+          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
+          "ItemCount": 20
+        },
+        {
+          "Image": "travocyte-alloy.png",
+          "Description": "A compound formed from Travoride.",
+          "Tradable": false,
+          "Name": "Travocyte Alloy",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAAlloyItem",
+          "ItemCount": 30
+        }
+      ],
+      "Category": "Pets"
+    },
+    "Sunika Kubrow": {
+      "ProductCategory": "KubrowPets",
+      "Description": "Once the value of Orokin guard-pets had been realized, Orokin scientists began experimenting with strains designed for combat. These were no longer household pets but superior war animals bred for ferocity and aggression.",
+      "Shield": 350,
+      "SellPrice": 0,
+      "Image": "SunikaKubrow.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconSunika.png",
+      "SquadPortrait": "SunikaKubrowLargePortrait.png",
+      "Link": "Sunika Kubrow",
+      "Type": "Kubrow",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KUBROW_MOD"
+      ],
+      "Introduced": "14",
+      "Attacks": [
+        {
+          "CritChance": 0.075,
+          "AttackName": "Sunika Claws",
+          "TotalDamage": 550,
+          "StatusChance": 0.075,
+          "Damage": {
+            "Slash": 550
+          },
+          "CritMultiplier": 3.5
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Health": 830,
+      "Name": "Sunika Kubrow",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/KubrowPet/HunterKubrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Pharaoh Predasite": {
+      "ProductCategory": "KubrowPets",
+      "Description": "These hard-charging, four-legged predators make formidable companions when in the field.",
+      "Shield": 350,
+      "SellPrice": 0,
+      "Image": "PharaohPredasite.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconPharaoh.png",
+      "SquadPortrait": "PharaohPredasiteLargePortrait.png",
+      "Link": "Pharaoh Predasite",
+      "Type": "Predasite",
+      "Tradable": false,
       "CompatibilityTags": [
         "PREDASITE_MOD"
       ],
-      "Description": "These hard-charging, four-legged predators make formidable companions when in the field.",
-      "Energy": 100,
-      "Health": 710,
-      "Icon": "IconVizier.png",
-      "Image": "VizierPredasite.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/VizierPredatorKubrowPetPowerSuit",
       "Introduced": "29",
-      "Link": "Vizier Predasite",
-      "Name": "Vizier Predasite",
-      "Polarities": [
-        "Penjaga"
-      ],
-      "ProductCategory": "KubrowPets",
-      "SellPrice": 0,
-      "Shield": 350,
-      "SquadPortrait": "VizierPredasiteLargePortrait.png",
-      "Stamina": 8,
-      "Tradable": false,
-      "Type": "Predasite"
-    },
-    "Wyrm": {
-      "Armor": 80,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
-      "CompatibilityTags": [
-        "SENTINEL_MOD"
-      ],
-      "Components": [
+      "Attacks": [
         {
-          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
-          "Image": "alloy-plate.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
-          "ItemCount": 500,
-          "Name": "Alloy Plate",
-          "Tradable": false
-        },
-        {
-          "Description": "With 'Assault Mode' and 'Crowd Dispersion' as default Precepts, Wyrm is a highly offensive Sentinel. Wyrm also comes with a laser rifle. Note: This item requires two open slots.",
-          "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/WyrmSentinelBlueprint",
-          "ItemCount": 1,
-          "Name": "Blueprint",
-          "Tradable": false
-        },
-        {
-          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
-          "Image": "circuits.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
-          "ItemCount": 400,
-          "Name": "Circuits",
-          "Tradable": false
-        },
-        {
-          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
-          "Image": "control-module.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
-          "ItemCount": 1,
-          "Name": "Control Module",
-          "Tradable": false
-        },
-        {
-          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
-          "Image": "nano-spores.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
-          "ItemCount": 200,
-          "Name": "Nano Spores",
-          "Tradable": false
+          "CritChance": 0.075,
+          "AttackName": "Pharaoh Claws",
+          "TotalDamage": 324,
+          "StatusChance": 0.25,
+          "Damage": {
+            "Puncture": 162,
+            "Gas": 162
+          },
+          "CritMultiplier": 2.5
         }
       ],
-      "ConsumeOnBuild": true,
-      "Description": "With 'Assault Mode' and 'Crowd Dispersion' as default Precepts, Wyrm is a highly offensive Sentinel. Wyrm also comes with a laser rifle.\\r\n\\r\nNote: This item requires two open slots.",
-      "Energy": 100,
-      "Health": 560,
-      "Image": "Wyrm.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit",
-      "Introduced": "7",
-      "Link": "Wyrm",
-      "Name": "Wyrm",
       "Polarities": [
-        "Penjaga",
-        "Penjaga",
-        "Penjaga",
         "Penjaga"
       ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 250,
-      "SkipBuildTimePrice": 30,
-      "SquadPortrait": "WyrmLargePortrait.png",
+      "Health": 710,
+      "Name": "Pharaoh Predasite",
       "Stamina": 8,
-      "Tradable": false,
-      "Type": "Sentinel"
+      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/PharaohPredatorKubrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
     },
-    "Wyrm Prime": {
+    "Dethcube Prime": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube Prime is the apex of lethal support. Comes loaded with Deth Machine Rifle Prime weapon.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "Name": "Dethcube Prime",
+      "BuildTime": 86400,
+      "Image": "DethcubePrime.png",
+      "VaultDate": "2021 05 26",
+      "BuildPrice": 15000,
       "Armor": 150,
-      "BuildPrice": 15000,
-      "BuildQuantity": 1,
-      "BuildTime": 86400,
-      "Category": "Sentinels",
-      "CodexSecret": false,
+      "EstimatedVaultDate": "2021 05 26",
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeDethCubePowerSuit",
+      "Type": "Sentinel",
+      "Tradable": true,
+      "SquadPortrait": "DethcubePrimeLargePortrait.png",
+      "Energy": 125,
+      "Link": "Dethcube/Prime",
+      "SkipBuildTimePrice": 30,
+      "Shield": 300,
       "CompatibilityTags": [
         "SENTINEL_MOD"
       ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Vaulted": true,
+      "Health": 600,
+      "Introduced": "25.8",
+      "Stamina": 8,
+      "Category": "Sentinels",
       "Components": [
         {
-          "Description": "Both bodyguard and status symbol, the Wyrm Prime Sentinel was the last line of defense for high ranking Tenno in the Orokin era.",
           "Image": "blueprint.png",
-          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeWyrmSentinelBlueprint",
-          "ItemCount": 1,
+          "Description": "With 'Assault Mode' and 'Vaporize' as default precepts, Dethcube Prime is the apex of lethal support. Comes loaded with Deth Machine Rifle Prime weapon. Note: This item requires two open slots.",
+          "Tradable": true,
           "Name": "Blueprint",
-          "Tradable": true
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/PrimeDethcubeSentinelBlueprint",
+          "ItemCount": 1
         },
         {
-          "Description": "A prime sentinel-crafting component.",
           "Image": "prime-carapace.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeWyrmCarapace",
-          "ItemCount": 1,
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
           "Name": "Carapace",
-          "Tradable": true
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDethcubeCarapace",
+          "ItemCount": 1
         },
         {
-          "Description": "A prime sentinel-crafting component.",
           "Image": "prime-cerebrum.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeWyrmCerebrum",
-          "ItemCount": 1,
-          "Name": "Cerebrum",
-          "Tradable": true
-        },
-        {
-          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
-          "Image": "orokin-cell.png",
-          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
-          "ItemCount": 6,
-          "Name": "Orokin Cell",
-          "Tradable": false
-        },
-        {
           "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
+          "Name": "Cerebrum",
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDethcubeCerebrum",
+          "ItemCount": 1
+        },
+        {
+          "Image": "orokin-cell.png",
+          "Description": "Ancient energy cell from the Orokin era.Locations: Ceres, Saturn, and Deimos.",
+          "Tradable": false,
+          "Name": "Orokin Cell",
+          "InternalName": "/Lotus/Types/Items/MiscItems/OrokinCell",
+          "ItemCount": 6
+        },
+        {
           "Image": "prime-systems.png",
-          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeWyrmSystems",
-          "ItemCount": 1,
+          "Description": "A prime sentinel-crafting component.",
+          "Tradable": true,
           "Name": "Systems",
-          "Tradable": true
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/PrimeDethcubeSystems",
+          "ItemCount": 1
         }
       ],
-      "ConsumeOnBuild": true,
-      "Description": "Both bodyguard and status symbol, the Wyrm Prime Sentinel was the last line of defense for high ranking Tenno in the Orokin Era.",
+      "CodexSecret": false
+    },
+    "Chesa Kubrow": {
+      "ProductCategory": "KubrowPets",
+      "Description": "This Kubrow will disarm adversaries and retrieve the spoils of battle.",
+      "Shield": 290,
+      "SellPrice": 0,
+      "Image": "ChesaKubrow.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconChesa.png",
+      "SquadPortrait": "ChesaKubrowLargePortrait.png",
+      "Link": "Chesa Kubrow",
+      "Type": "Kubrow",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KUBROW_MOD"
+      ],
+      "Introduced": "17",
+      "Attacks": [
+        {
+          "CritChance": 0.15,
+          "AttackName": "Chesa Claws",
+          "TotalDamage": 275,
+          "StatusChance": 0.15,
+          "Damage": {
+            "Impact": 275
+          },
+          "CritMultiplier": 1.5
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Health": 940,
+      "Name": "Chesa Kubrow",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/KubrowPet/RetrieverKubrowPetPowerSuit",
       "Energy": 100,
-      "Health": 450,
-      "Image": "WyrmPrime.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/WyrmPowerSuit",
-      "Introduced": "13.7",
-      "Link": "Wyrm/Prime",
-      "Name": "Wyrm Prime",
+      "CodexSecret": false
+    },
+    "Crescent Vulpaphyla": {
+      "ProductCategory": "KubrowPets",
+      "Description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
+      "Shield": 370,
+      "SellPrice": 0,
+      "Image": "CrescentVulpaphyla.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconCrescent.png",
+      "SquadPortrait": "CrescentVulpaphylaLargePortrait.png",
+      "Link": "Crescent Vulpaphyla",
+      "Type": "Vulpaphyla",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "VULPAPHYLA_MOD"
+      ],
+      "Introduced": "29",
+      "Attacks": [
+        {
+          "CritChance": 0.225,
+          "AttackName": "Crescent Claws",
+          "TotalDamage": 100,
+          "StatusChance": 0.175,
+          "Damage": {
+            "Puncture": 50,
+            "Electricity": 50
+          },
+          "CritMultiplier": 2
+        }
+      ],
+      "Polarities": [
+        "Penjaga"
+      ],
+      "Health": 680,
+      "Name": "Crescent Vulpaphyla",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/HornedInfestedCatbrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Helminth Charger": {
+      "ProductCategory": "KubrowPets",
+      "Description": "An Infested pet bred from the Helminth Cyst",
+      "Shield": 330,
+      "Image": "HelminthCharger.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconInfested.png",
+      "SquadPortrait": "HelminthChargerLargePortrait.png",
+      "Link": "Helminth Charger",
+      "Type": "Kubrow",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "HELMINTH_MOD"
+      ],
+      "Introduced": "19.5",
+      "Attacks": [
+        {
+          "CritChance": 0.075,
+          "AttackName": "Helminth Claws",
+          "TotalDamage": 250,
+          "StatusChance": 0.25,
+          "Damage": {
+            "Slash": 200,
+            "Toxin": 50
+          },
+          "CritMultiplier": 2.5
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Madurai",
+        "Penjaga"
+      ],
+      "Health": 710,
+      "Name": "Helminth Charger",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/KubrowPet/ChargerKubrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Dorma Hound": {
+      "CritChance": 0,
+      "Description": "Hounds are powerful robotic comanions optimized for combat. They are programmed to excel at battlefield control and can be configured for countless scenarios.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "FireRate": 0,
+      "BuildTime": 86400,
+      "Image": "DormaHound.png",
+      "BuildPrice": 50000,
+      "DamagePerShot": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CritMultiplier": 0,
+      "SquadPortrait": "DormaHoundLargePortrait.png",
+      "Type": "Hound",
+      "Link": "Model#Dorma",
+      "Tradable": false,
+      "SkipBuildTimePrice": 25,
+      "Disposition": 1,
+      "TotalDamage": 0,
+      "ProductCategory": "Pistols",
+      "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadA",
+      "Name": "Dorma Hound",
+      "Introduced": "30.5",
+      "Mastery": 0,
+      "StatusChance": 0,
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/ZanukaPetParts/ZanukaPetPartHeadABlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "gallium.png",
+          "Description": "Soft metal used in microelectronics and energy weapons.Locations: Mars and Uranus.",
+          "Tradable": false,
+          "Name": "Gallium",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Gallium",
+          "ItemCount": 5
+        },
+        {
+          "Image": "mirewinder-parallel-biode.png",
+          "Description": "Controls the electrical flow throughout the circuitry within robotic organisms.Acquired by disassembling Mirewinder Servofish.",
+          "Tradable": false,
+          "Name": "Mirewinder Parallel Biode",
+          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishParralelBiodeItem",
+          "ItemCount": 10
+        },
+        {
+          "Image": "radian-sentirum.png",
+          "Description": "Polished and cut to perfection.Location: Old Man Suumbaat in Cetus",
+          "Tradable": false,
+          "Name": "Radian Sentirum",
+          "InternalName": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemACutAItem",
+          "ItemCount": 2
+        },
+        {
+          "Image": "spectral-debris.png",
+          "Description": "Discharged specter particles form an inert dust that can be collected and re-energized for various robotic projects.",
+          "Tradable": false,
+          "Name": "Spectral Debris",
+          "ItemCount": 5,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue"
+        }
+      ],
+      "Category": "Pets"
+    },
+    "Smeeta Kavat": {
+      "ProductCategory": "KubrowPets",
+      "Description": "This sly feline is playful yet devious.",
+      "Shield": 230,
+      "SellPrice": 0,
+      "Image": "SmeetaKavat.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconSmeeta.png",
+      "SquadPortrait": "SmeetaKavatLargePortrait.png",
+      "Link": "Smeeta Kavat",
+      "Type": "Kavat",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KAVAT_MOD"
+      ],
+      "Introduced": "Specters of the Rail",
+      "Attacks": [
+        {
+          "CritChance": 0.2,
+          "AttackName": "Smeeta Claws",
+          "TotalDamage": 80,
+          "StatusChance": 0.075,
+          "Damage": {
+            "Slash": 80
+          },
+          "CritMultiplier": 2
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Penjaga"
+      ],
+      "Health": 390,
+      "Name": "Smeeta Kavat",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/CatbrowPet/CheshireCatbrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Shade Prime": {
+      "ProductCategory": "Sentinels",
+      "Description": "Shade Prime specializes in stealth and comes locked and loaded with the Burst Laser Prime.\r\n\r\nTogether, you can dominate the shadows.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "Image": "ShadePrime.png",
+      "Category": "Sentinels",
+      "Armor": 100,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrimeShadePowerSuit",
+      "SquadPortrait": "ShadePrimeLargePortrait.png",
+      "Link": "Shade/Prime",
+      "SellPrice": 5000,
+      "Type": "Sentinel",
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "Tradable": true,
+      "Shield": 300,
+      "Vaulted": true,
+      "Health": 700,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Naramon",
+        "Penjaga"
+      ],
+      "Name": "Shade Prime",
+      "Introduced": "32.3.6",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Prisma Shade": {
+      "ProductCategory": "Sentinels",
+      "Description": "A rare jewel of the void. How could anything so beautiful be crafted for stealth?",
+      "Shield": 300,
+      "SellPrice": 5000,
+      "Image": "PrismaShade.png",
+      "Category": "Sentinels",
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/PrismaShadePowerSuit",
+      "SquadPortrait": "PrismaShadeLargePortrait.png",
+      "Link": "Shade/Prisma",
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "Type": "Sentinel",
+      "Tradable": true,
+      "Name": "Prisma Shade",
+      "Health": 700,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Naramon",
+        "Penjaga"
+      ],
+      "Stamina": 8,
+      "Introduced": "17.2.2",
+      "Energy": 100,
+      "CodexSecret": true
+    },
+    "Para Moa": {
+      "CritChance": 0,
+      "Description": "MOAs are versatile robotic allies that specialize in indirect support both in and outside of combat.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "FireRate": 0,
+      "BuildTime": 86400,
+      "Image": "ParaMOA.png",
+      "BuildPrice": 50000,
+      "DamagePerShot": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CritMultiplier": 0,
+      "SquadPortrait": "ParaMoaLargePortrait.png",
+      "Type": "MOA",
+      "Link": "Model#Para",
+      "Tradable": false,
+      "SkipBuildTimePrice": 25,
+      "Disposition": 1,
+      "TotalDamage": 0,
+      "ProductCategory": "Pistols",
+      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetParts/MoaPetHeadPara",
+      "Name": "Para Moa",
+      "Introduced": "24",
+      "Mastery": 0,
+      "StatusChance": 0,
+      "Components": [
+        {
+          "Image": "axidrol-alloy.png",
+          "Description": "A compound formed from Axidite.",
+          "Tradable": false,
+          "Name": "Axidrol Alloy",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBAlloyItem",
+          "ItemCount": 30
+        },
+        {
+          "Image": "blueprint.png",
+          "Description": "",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/MoaPetParts/MoaPetHeadParaBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "morphics.png",
+          "Description": "An amorphous solid. Possibly Orokin technology.Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
+          "Tradable": false,
+          "Name": "Morphics",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Morphic",
+          "ItemCount": 2
+        },
+        {
+          "Image": "mytocardia-spore.png",
+          "Description": "A fungal body prized for its varied uses.",
+          "Tradable": false,
+          "Name": "Mytocardia Spore",
+          "InternalName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
+          "ItemCount": 20
+        },
+        {
+          "Image": "smooth-phasmin.png",
+          "Description": "Polished and cut to perfection.",
+          "Tradable": false,
+          "Name": "Smooth Phasmin",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemACutItem",
+          "ItemCount": 10
+        }
+      ],
+      "Category": "Pets"
+    },
+    "Medjay Predasite": {
+      "ProductCategory": "KubrowPets",
+      "Description": "These hard-charging, four-legged predators make formidable companions when in the field.",
+      "Shield": 350,
+      "SellPrice": 0,
+      "Image": "MedjayPredasite.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconMedjay.png",
+      "SquadPortrait": "MedjayPredasiteLargePortrait.png",
+      "Link": "Medjay Predasite",
+      "Type": "Predasite",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "PREDASITE_MOD"
+      ],
+      "Introduced": "29",
+      "Attacks": [
+        {
+          "CritChance": 0.1,
+          "AttackName": "Medjay Claws",
+          "TotalDamage": 350,
+          "StatusChance": 0.05,
+          "Damage": {
+            "Slash": 175,
+            "Viral": 175
+          },
+          "CritMultiplier": 3
+        }
+      ],
+      "Polarities": [
+        "Penjaga"
+      ],
+      "Health": 710,
+      "Name": "Medjay Predasite",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/MedjayPredatorKubrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Oxylus": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Scan Aquatic Lifeforms' and 'Scan Matter' as default Precepts, Oxylus was designed to assist in Search-and-Rescue operations through the harsh landscape around The Orb Vallis. Oxylus also comes with a Multron rifle.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Oxylus.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/RadarPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "OxylusLargePortrait.png",
+      "Energy": 100,
+      "Link": "Oxylus",
+      "SkipBuildTimePrice": 30,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Name": "Oxylus",
+      "Health": 560,
+      "Introduced": "24",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "axidrol-alloy.png",
+          "Description": "A compound formed from Axidite.",
+          "Tradable": false,
+          "Name": "Axidrol Alloy",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBAlloyItem",
+          "ItemCount": 45
+        },
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Scan Aquatic Lifeforms' and 'Scan Matter' as default Precepts, Oxylus was designed to assist in Search-and-Rescue operations through the harsh landscape around The Orb Vallis. Oxylus also comes with a Multron rifle. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/RadarSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "goblite-tears.png",
+          "Description": "Polished and cut to perfection.",
+          "Tradable": false,
+          "Name": "Goblite Tears",
+          "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
+          "ItemCount": 15
+        },
+        {
+          "Image": "longwinder-lathe-coagulant.png",
+          "Description": "A liquid that mixes with coolant fluid to produce a resilient gel that repairs leaks.Acquired by disassembling Longwinder Servofish.",
+          "Tradable": false,
+          "Name": "Longwinder Lathe Coagulant",
+          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishLatheCoogulantItem",
+          "ItemCount": 10
+        },
+        {
+          "Image": "scrap.png",
+          "Description": "A sample of sprockets, gyros and wires.Acquired by disassembling any Servofish.",
+          "Tradable": false,
+          "Name": "Scrap",
+          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/GenericFishScrapItem",
+          "ItemCount": 40
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Helios": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Investigator' as its unique Precept and 'Deconstructor' as its weapon, the versatile Helios Sentinel acts as both a lethal guardian and an automatic codex scanner. Scans require an equipped Codex Scanner and an available charge.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Helios.png",
+      "BuildPrice": 5000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/MeleePetPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "HeliosLargePortrait.png",
+      "Energy": 100,
+      "Link": "Helios",
+      "SkipBuildTimePrice": 35,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Name": "Helios",
+      "Health": 560,
+      "Introduced": "12.5",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Investigator' as its unique Precept and 'Deconstructor' as its weapon, the versatile Helios Sentinel acts as both a lethal guardian and an automatic codex scanner. Scans require an equipped Codex Scanner and an available charge. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Weapons/ClanTech/Energy/HeliosSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "ferrite.png",
+          "Description": "Alloy pellets used in Grineer manufacturing.Locations: Mercury, Earth, Lua, Neptune, and the Void.",
+          "Tradable": false,
+          "Name": "Ferrite",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Ferrite",
+          "ItemCount": 5000
+        },
+        {
+          "Image": "fieldron.png",
+          "Description": "ClanTech weaponized containment field to contain superheated substances.Can be acquired from Corpus Sieges & Clan Research.",
+          "Tradable": false,
+          "Name": "Fieldron",
+          "InternalName": "/Lotus/Types/Items/Research/EnergyComponent",
+          "ItemCount": 10
+        },
+        {
+          "Image": "forma.png",
+          "Description": "This shape-altering component is fundamental to Orokin construction. Allows you to change the polarity of a mod slot on a Warframe, Companions or Weapon and then resets their affinity to Unranked. This can only be used on max Rank Warframes, Companions and Weapons.",
+          "Tradable": false,
+          "Name": "Forma",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Forma",
+          "ItemCount": 1
+        },
+        {
+          "Image": "oxium.png",
+          "Description": "Oxium is a rare lighter than air alloy of Orokin origin, used in certain Corpus Robotics.Locations: Venus, Jupiter, Mars, Neptune, Pluto, Eris, Europa, and Lua.",
+          "Tradable": false,
+          "Name": "Oxium",
+          "InternalName": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+          "ItemCount": 300
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Hec Hound": {
+      "CritChance": 0,
+      "Description": "Hounds are powerful robotic comanions optimized for combat. They are programmed to excel at battlefield control and can be configured for countless scenarios.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "FireRate": 0,
+      "BuildTime": 86400,
+      "Image": "HecHound.png",
+      "BuildPrice": 50000,
+      "DamagePerShot": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "CritMultiplier": 0,
+      "SquadPortrait": "HecHoundLargePortrait.png",
+      "Type": "Hound",
+      "Link": "Model#Hec",
+      "Tradable": false,
+      "SkipBuildTimePrice": 25,
+      "Disposition": 1,
+      "TotalDamage": 0,
+      "ProductCategory": "Pistols",
+      "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetParts/ZanukaPetPartHeadC",
+      "Name": "Hec Hound",
+      "Introduced": "30.5",
+      "Mastery": 0,
+      "StatusChance": 0,
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/ZanukaPetParts/ZanukaPetPartHeadCBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "gallium.png",
+          "Description": "Soft metal used in microelectronics and energy weapons.Locations: Mars and Uranus.",
+          "Tradable": false,
+          "Name": "Gallium",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Gallium",
+          "ItemCount": 5
+        },
+        {
+          "Image": "sapcaddy-venedo-case.png",
+          "Description": "A strong, metallic case that is resistant to fluctuations in environmental temperature.Acquired by disassembling Sapcaddy Servofish.",
+          "Tradable": false,
+          "Name": "Sapcaddy Venedo Case",
+          "InternalName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishVenedoCaseItem",
+          "ItemCount": 10
+        },
+        {
+          "Image": "spectral-debris.png",
+          "Description": "Discharged specter particles form an inert dust that can be collected and re-energized for various robotic projects.",
+          "Tradable": false,
+          "Name": "Spectral Debris",
+          "ItemCount": 5,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Items/MiscItems/SpecterParticleResidue"
+        },
+        {
+          "Image": "trapezium-xenorhast.png",
+          "Description": "Facets gleam with the un-light of the Void.",
+          "Tradable": false,
+          "Name": "Trapezium Xenorhast",
+          "InternalName": "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemACutItem",
+          "ItemCount": 2
+        }
+      ],
+      "Category": "Pets"
+    },
+    "Nautilus": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Nautilus.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/EmpyreanSentinelPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "NautilusLargePortrait.png",
+      "Energy": 100,
+      "Link": "Nautilus",
+      "SkipBuildTimePrice": 30,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
       "Polarities": [
         "Penjaga",
         "Penjaga",
         "Penjaga",
         "Penjaga"
       ],
-      "ProductCategory": "Sentinels",
-      "SellPrice": 5000,
-      "Shield": 600,
-      "SkipBuildTimePrice": 25,
-      "SquadPortrait": "WyrmPrimeLargePortrait.png",
+      "Name": "Nautilus",
+      "Health": 560,
+      "Introduced": "29.10",
       "Stamina": 8,
-      "Tradable": true,
-      "Type": "Sentinel"
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/EmpyreanSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "carapace.png",
+          "Description": "A sentinel-crafting component.",
+          "Tradable": false,
+          "Name": "Carapace",
+          "ItemCount": 1,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCarapace"
+        },
+        {
+          "Image": "cerebrum.png",
+          "Description": "A sentinel-crafting component.",
+          "Tradable": false,
+          "Name": "Cerebrum",
+          "ItemCount": 1,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelCerebrum"
+        },
+        {
+          "Image": "nullstones.png",
+          "Description": "Nullstones do not conform to several laws of physics, making them highly prized for optimizing sensitive components.",
+          "Tradable": false,
+          "Name": "Nullstones",
+          "InternalName": "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem",
+          "ItemCount": 5
+        },
+        {
+          "Image": "systems.png",
+          "Description": "A sentinel-crafting component.",
+          "Tradable": false,
+          "Name": "Systems",
+          "ItemCount": 1,
+          "ExcludeFromCodex": true,
+          "InternalName": "/Lotus/Types/Recipes/Weapons/WeaponParts/EmpyreanSentinelSystems"
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Adarza Kavat": {
+      "ProductCategory": "KubrowPets",
+      "Description": "Piercing eyes reflect deadly instincts.",
+      "Shield": 230,
+      "SellPrice": 0,
+      "Image": "AdarzaKavat.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconAdarza.png",
+      "SquadPortrait": "AdarzaKavatLargePortrait.png",
+      "Link": "Adarza Kavat",
+      "Type": "Kavat",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KAVAT_MOD"
+      ],
+      "Introduced": "Specters of the Rail",
+      "Attacks": [
+        {
+          "CritChance": 0.3,
+          "AttackName": "Adarza Claws",
+          "TotalDamage": 90,
+          "StatusChance": 0.05,
+          "Damage": {
+            "Puncture": 45,
+            "Slash": 45
+          },
+          "CritMultiplier": 2.5
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Penjaga"
+      ],
+      "Health": 310,
+      "Name": "Adarza Kavat",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/CatbrowPet/MirrorCatbrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Carrier": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Assault Mode' and 'Ammo Case' as default Precepts, Carrier is a seeker Sentinel. Carrier also comes with a shotgun weapon.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Carrier.png",
+      "BuildPrice": 15000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/CarrierPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "CarrierLargePortrait.png",
+      "Energy": 100,
+      "Link": "Carrier",
+      "SkipBuildTimePrice": 30,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Vazarin",
+        "Penjaga"
+      ],
+      "Name": "Carrier",
+      "Health": 560,
+      "Introduced": "10",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "alloy-plate.png",
+          "Description": "Carbon steel plates used to reinforce Grineer armor.Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
+          "Tradable": false,
+          "Name": "Alloy Plate",
+          "InternalName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+          "ItemCount": 1000
+        },
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Assault Mode' and 'Ammo Case' as default Precepts, Carrier is a seeker Sentinel. Carrier also comes with a shotgun weapon. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/CarrierSentinelBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "circuits.png",
+          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
+          "Tradable": false,
+          "Name": "Circuits",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
+          "ItemCount": 400
+        },
+        {
+          "Image": "control-module.png",
+          "Description": "Autonomy processor for Robotics. A Corpus design.Locations: Europa, Neptune, and the Void.",
+          "Tradable": false,
+          "Name": "Control Module",
+          "InternalName": "/Lotus/Types/Items/MiscItems/ControlModule",
+          "ItemCount": 3
+        },
+        {
+          "Image": "nano-spores.png",
+          "Description": "Fibrous technocyte tumour. Handle Infested tissue with caution.Locations: Saturn, Neptune, Eris, and Deimos.",
+          "Tradable": false,
+          "Name": "Nano Spores",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Nanospores",
+          "ItemCount": 1500
+        }
+      ],
+      "CodexSecret": false
+    },
+    "Panzer Vulpaphyla": {
+      "ProductCategory": "KubrowPets",
+      "Description": "Fast and foxy, Vulpaphyla are agile allies to bring along on your next adventure.",
+      "Shield": 370,
+      "SellPrice": 0,
+      "Image": "PanzerVulpaphyla.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconPanzer.png",
+      "SquadPortrait": "PanzerVulpaphylaLargePortrait.png",
+      "Link": "Panzer Vulpaphyla",
+      "Type": "Vulpaphyla",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "VULPAPHYLA_MOD"
+      ],
+      "Introduced": "29",
+      "Attacks": [
+        {
+          "CritChance": 0.25,
+          "AttackName": "Panzer Claws",
+          "TotalDamage": 90,
+          "StatusChance": 0.125,
+          "Damage": {
+            "Slash": 45,
+            "Toxin": 45
+          },
+          "CritMultiplier": 2
+        }
+      ],
+      "Polarities": [
+        "Penjaga"
+      ],
+      "Health": 680,
+      "Name": "Panzer Vulpaphyla",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/ArmoredInfestedCatbrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Huras Kubrow": {
+      "ProductCategory": "KubrowPets",
+      "Description": "Prized for its ability to sneak up on unsuspecting prey, the Huras Kubrow were first used as hunting companions by the Orokin elite. Orokin Era Tenno soon adapted the strain for use in covert missions and assassinations.",
+      "Shield": 490,
+      "SellPrice": 0,
+      "Image": "HurasKubrow.png",
+      "Category": "Pets",
+      "Armor": 300,
+      "Icon": "IconHuras.png",
+      "SquadPortrait": "HurasKubrowLargePortrait.png",
+      "Link": "Huras Kubrow",
+      "Type": "Kubrow",
+      "Tradable": false,
+      "CompatibilityTags": [
+        "KUBROW_MOD"
+      ],
+      "Introduced": "14",
+      "Attacks": [
+        {
+          "CritChance": 0.2,
+          "AttackName": "Huras Claws",
+          "TotalDamage": 350,
+          "StatusChance": 0.05,
+          "Damage": {
+            "Slash": 350
+          },
+          "CritMultiplier": 3.5
+        }
+      ],
+      "Polarities": [
+        "Penjaga",
+        "Madurai",
+        "Penjaga"
+      ],
+      "Health": 560,
+      "Name": "Huras Kubrow",
+      "Stamina": 8,
+      "InternalName": "/Lotus/Types/Game/KubrowPet/FurtiveKubrowPetPowerSuit",
+      "Energy": 100,
+      "CodexSecret": false
+    },
+    "Djinn": {
+      "ProductCategory": "Sentinels",
+      "Description": "With 'Thumper' and 'Fatal Attraction' as default Precepts, Djinn is a combat Sentinel. Djinn also comes with a poison dart weapon.\r\n\r\nNote: This item requires two open slots.",
+      "ConsumeOnBuild": true,
+      "BuildQuantity": 1,
+      "BuildTime": 86400,
+      "Image": "Djinn.png",
+      "BuildPrice": 30000,
+      "Armor": 80,
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPowersuits/GubberPowerSuit",
+      "Type": "Sentinel",
+      "Tradable": false,
+      "SquadPortrait": "DjinnLargePortrait.png",
+      "Energy": 100,
+      "Link": "Djinn",
+      "SkipBuildTimePrice": 35,
+      "Shield": 250,
+      "CompatibilityTags": [
+        "SENTINEL_MOD"
+      ],
+      "SellPrice": 5000,
+      "Polarities": [
+        "Penjaga",
+        "Penjaga",
+        "Penjaga",
+        "Naramon",
+        "Penjaga"
+      ],
+      "Name": "Djinn",
+      "Health": 560,
+      "Introduced": "10",
+      "Stamina": 8,
+      "Category": "Sentinels",
+      "Components": [
+        {
+          "Image": "blueprint.png",
+          "Description": "With 'Thumper' and 'Fatal Attraction' as default Precepts, Djinn is a combat Sentinel. Djinn also comes with a poison dart weapon. Note: This item requires two open slots.",
+          "Tradable": false,
+          "Name": "Blueprint",
+          "InternalName": "/Lotus/Weapons/ClanTech/Bio/InfestedSentinelWeaponBlueprint",
+          "ItemCount": 1
+        },
+        {
+          "Image": "circuits.png",
+          "Description": "Various electronic components.Locations: Venus, Ceres, and the Kuva Fortress.",
+          "Tradable": false,
+          "Name": "Circuits",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Circuits",
+          "ItemCount": 3500
+        },
+        {
+          "Image": "forma.png",
+          "Description": "This shape-altering component is fundamental to Orokin construction. Allows you to change the polarity of a mod slot on a Warframe, Companions or Weapon and then resets their affinity to Unranked. This can only be used on max Rank Warframes, Companions and Weapons.",
+          "Tradable": false,
+          "Name": "Forma",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Forma",
+          "ItemCount": 2
+        },
+        {
+          "Image": "mutagen-mass.png",
+          "Description": "This living mass can produce weaponized toxins for weaponry.Can be acquired from Infestation Outbreaks & Clan Research.",
+          "Tradable": false,
+          "Name": "Mutagen Mass",
+          "InternalName": "/Lotus/Types/Items/Research/BioComponent",
+          "ItemCount": 6
+        },
+        {
+          "Image": "salvage.png",
+          "Description": "High value metals collected from war salvage.Locations: Mars, Jupiter, and Sedna.",
+          "Tradable": false,
+          "Name": "Salvage",
+          "InternalName": "/Lotus/Types/Items/MiscItems/Salvage",
+          "ItemCount": 30000
+        }
+      ],
+      "CodexSecret": false
     }
   }
 }

@@ -1,0 +1,77 @@
+{
+  "Module:Ability": {
+    "file": "./data/ability.json",
+    "last_updated": "2025-10-21T07:09:24Z",
+    "error": ""
+  },
+  "Module:Arcane": {
+    "file": "./data/arcane.json",
+    "last_updated": "2025-10-17T20:21:56Z",
+    "error": ""
+  },
+  "Module:Blueprints": {
+    "file": "./data/blueprints.json",
+    "last_updated": "2025-10-17T20:28:32Z",
+    "error": ""
+  },
+  "Module:Companions": {
+    "file": "./data/companions.json",
+    "last_updated": "2025-07-06T17:37:12Z",
+    "error": ""
+  },
+  "Module:Cosmetics": {
+    "file": "./data/cosmetics.json",
+    "last_updated": "",
+    "error": "'return'"
+  },
+  "Module:DamageTypes": {
+    "file": "./data/damage_types.json",
+    "last_updated": "2025-10-25T18:49:29Z",
+    "error": ""
+  },
+  "Module:DropTables": {
+    "file": "./data/drop_tables.json",
+    "last_updated": "",
+    "error": "Unserialize luadata failed on pos 819354:\n    int\"] = {\n\t\t\t{\n        ^\n    unexpected character."
+  },
+  "Module:Enemies": {
+    "file": "./data/enemies.json",
+    "last_updated": "2025-10-24T04:39:32Z",
+    "error": ""
+  },
+  "Module:Factions": {
+    "file": "./data/factions.json",
+    "last_updated": "2025-10-16T19:12:11Z",
+    "error": ""
+  },
+  "Module:Missions": {
+    "file": "./data/missions.json",
+    "last_updated": "",
+    "error": "Unserialize luadata failed on pos 230649:\n    nia\"] = nil,\n\t\n        ^\n    unexpected character."
+  },
+  "Module:Mods": {
+    "file": "./data/mods.json",
+    "last_updated": "2025-10-19T22:57:41Z",
+    "error": ""
+  },
+  "Module:TennoGen": {
+    "file": "./data/tennogen.json",
+    "last_updated": "2025-10-02T17:36:00Z",
+    "error": ""
+  },
+  "Module:Void": {
+    "file": "./data/void.json",
+    "last_updated": "2025-10-25T18:45:30Z",
+    "error": ""
+  },
+  "Module:Warframes": {
+    "file": "./data/warframes.json",
+    "last_updated": "2025-10-25T18:43:11Z",
+    "error": ""
+  },
+  "Module:Weapons": {
+    "file": "./data/weapons.json",
+    "last_updated": "2025-10-24T04:31:43Z",
+    "error": ""
+  }
+}

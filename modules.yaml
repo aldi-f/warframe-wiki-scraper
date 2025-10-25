@@ -1,0 +1,197 @@
+modules:
+  Module:Ability:
+    file: ./data/ability.json
+    last_updated: ''
+    error: "Expecting ',' delimiter: line 1 column 11249 (char 11248)"
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Ability/data
+      content: ''
+      question: "local data = require('Module:Ability/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Arcane:
+    file: ./data/arcane.json
+    last_updated: '2025-10-17T20:21:56Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Arcane/data
+      content: ''
+      question: "local data = require('Module:Arcane/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Blueprints:
+    file: ./data/blueprints.json
+    last_updated: '2025-10-17T20:28:32Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Blueprints/data
+      content: ''
+      question: "local data = require('Module:Blueprints/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Companions:
+    file: ./data/companions.json
+    last_updated: '2025-07-06T17:37:12Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Companions/data
+      content: ''
+      question: "local data = require('Module:Companions/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Cosmetics:
+    file: ./data/cosmetics.json
+    last_updated: ''
+    error: "'print'"
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Cosmetics/data
+      content: ''
+      question: "local data = require('Module:Cosmetics/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:DamageTypes:
+    file: ./data/damage_types.json
+    last_updated: '2025-10-25T18:49:29Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:DamageTypes/data
+      content: ''
+      question: "local data = require('Module:DamageTypes/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:DropTables:
+    file: ./data/drop_tables.json
+    last_updated: ''
+    error: "Expecting ',' delimiter: line 1 column 419165 (char 419164)"
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:DropTables/data
+      content: ''
+      question: "local data = require('Module:DropTables/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Enemies:
+    file: ./data/enemies.json
+    last_updated: '2025-10-24T04:39:32Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Enemies/data
+      content: ''
+      question: "local data = require('Module:Enemies/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Factions:
+    file: ./data/factions.json
+    last_updated: '2025-10-16T19:12:11Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Factions/data
+      content: ''
+      question: "local data = require('Module:Factions/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Missions:
+    file: ./data/missions.json
+    last_updated: ''
+    error: 'Expecting property name enclosed in double quotes: line 1 column 466 (char
+      465)'
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Missions/data
+      content: ''
+      question: "local data = require('Module:Missions/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Mods:
+    file: ./data/mods.json
+    last_updated: '2025-10-19T22:57:41Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Mods/data
+      content: ''
+      question: "local data = require('Module:Mods/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:TennoGen:
+    file: ./data/tennogen.json
+    last_updated: '2025-10-02T17:36:00Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:TennoGen/data
+      content: ''
+      question: "local data = require('Module:TennoGen/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Void:
+    file: ./data/void.json
+    last_updated: '2025-10-25T18:45:30Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Void/data
+      content: ''
+      question: "local data = require('Module:Void/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Warframes:
+    file: ./data/warframes.json
+    last_updated: '2025-10-25T18:43:11Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Warframes/data
+      content: ''
+      question: "local data = require('Module:Warframes/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\
+  Module:Weapons:
+    file: ./data/weapons.json
+    last_updated: '2025-10-24T04:31:43Z'
+    error: ''
+    request_body:
+      action: scribunto-console
+      format: json
+      title: Module:Weapons/data
+      content: ''
+      question: "local data = require('Module:Weapons/data')\nlocal json = require('Module:JSON')\n\
+        print(json.stringify(data))\n"
+      clear: 1
+      token: +\

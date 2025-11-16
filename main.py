@@ -3,6 +3,15 @@ import json
 from ruamel.yaml import YAML
 import os
 import re
+import csv
+
+ALWAYS_UPDATE = [
+    "Module:InternalNames"
+]
+
+CSV_TO_JSON = [
+    "Module:InternalNames"
+]
 
 
 def fix_json(broken_json: str):
@@ -61,6 +70,27 @@ def load_yaml_file(filepath: str) -> dict:
             return yaml.load(f)
     except (Exception):
         return {}
+    
+def convert_csv_to_dict(csv_string: str) -> dict:
+    """Convert a CSV string to a dictionary."""
+    reader = csv.reader(csv_string.splitlines())
+    # skip header
+    next(reader, None)
+
+    result = {}
+    for row in reader:
+        if len(row) >= 2:
+            try:
+                key = json.loads(row[0].strip())
+            except:
+                key = row[0].strip()
+            try:
+                value = json.loads(row[1].strip())
+            except:
+                value = row[1].strip()
+            result[key] = value
+
+    return result
 
 
 def save_yaml_file(filepath: str, data: dict) -> None:
@@ -102,9 +132,14 @@ def fetch_and_save_module(title: str, config: dict, wiki_url: str) -> tuple[bool
     last_updated = config.get("last_updated", "")
     
     print(f"\n[{title}] Checking...")
-    
-    last_updated_dict = {title: last_updated} if last_updated else {}
-    needs_update, current_timestamp = should_update(title, last_updated_dict, wiki_url)
+
+    if title in ALWAYS_UPDATE:
+        print(f"  → Always update enabled for this module.")
+        needs_update = True
+        current_timestamp = ""
+    else:
+        last_updated_dict = {title: last_updated} if last_updated else {}
+        needs_update, current_timestamp = should_update(title, last_updated_dict, wiki_url)
     
     if not needs_update:
         return False, current_timestamp, ""
@@ -115,7 +150,11 @@ def fetch_and_save_module(title: str, config: dict, wiki_url: str) -> tuple[bool
 
     try:
         response = requests.post(wiki_url, data=body).json()
-        data = fix_json(response["print"])
+        if title in CSV_TO_JSON:
+            csv_data = response["print"]
+            data = convert_csv_to_dict(csv_data.replace('<pre>', '').replace('</pre>', '').strip())
+        else:
+            data = fix_json(response["print"])
         
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         with open(filepath, "w") as f:

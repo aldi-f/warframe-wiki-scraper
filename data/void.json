@@ -6661,20 +6661,20 @@
         "Handle": {
           "DucatValue": 45,
           "Drops": {
-            "Meso G7": "Uncommon",
             "Neo Z11": "Uncommon",
+            "Meso G7": "Uncommon",
             "Meso A8": "Uncommon",
+            "Meso L3": "Uncommon",
             "Neo G8": "Uncommon",
             "Lith Z4": "Uncommon"
           }
         },
         "Blueprint": {
-          "DucatValue": 65,
+          "DucatValue": 100,
           "Drops": {
-            "Neo O2": "Rare",
-            "Axi O6": "Rare",
             "Lith O4": "Rare",
-            "Meso L3": "Uncommon"
+            "Axi O6": "Rare",
+            "Neo O2": "Rare"
           }
         },
         "Blade": {
@@ -15560,7 +15560,7 @@
           "Rarity": "Uncommon"
         },
         {
-          "Part": "Blueprint",
+          "Part": "Handle",
           "Item": "Okina Prime",
           "Rarity": "Uncommon"
         },

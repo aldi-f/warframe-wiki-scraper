@@ -12,9 +12,12 @@
       "Image": "Amesha.png",
       "Introduced": "Specters of the Rail",
       "Armor": 195,
-      "FullImages": {
-        "Default": "Amesha.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Default",
+          "Image": "Amesha.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
       "Type": "Archwing",
       "Link": "Amesha",
@@ -51,9 +54,12 @@
       "Image": "Odonata.png",
       "Introduced": "15",
       "Armor": 100,
-      "FullImages": {
-        "Default": "Odonata.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Default",
+          "Image": "Odonata.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardFlightJetPack",
       "Type": "Archwing",
       "Link": "Odonata",
@@ -91,9 +97,12 @@
       "Image": "Itzal.png",
       "Introduced": "15.7.2",
       "Armor": 50,
-      "FullImages": {
-        "Default": "Itzal.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Default",
+          "Image": "Itzal.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthFlightJetPack",
       "Type": "Archwing",
       "Link": "Itzal",
@@ -131,9 +140,12 @@
       "Image": "Elytron.png",
       "Introduced": "15",
       "Armor": 145,
-      "FullImages": {
-        "Default": "Elytron.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Default",
+          "Image": "Elytron.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionFlightJetPack",
       "Type": "Archwing",
       "Link": "Elytron",
@@ -171,9 +183,12 @@
       "Image": "OdonataPrime.png",
       "Introduced": "16.1",
       "Armor": 100,
-      "FullImages": {
-        "Default": "OdonataPrime.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Default",
+          "Image": "OdonataPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeFlightJetPack",
       "Type": "Archwing",
       "Link": "Odonata/Prime",
@@ -213,9 +228,12 @@
       "Image": "Operator.png",
       "Introduced": "19",
       "Armor": 75,
-      "FullImages": {
-        "Portrait": "Operator.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Operator.png"
+        }
+      ],
       "InternalName": "",
       "SquadPortrait": "OperatorLargePortrait.png",
       "Link": "Operator",
@@ -238,17 +256,27 @@
       "Image": "Drifter.png",
       "Introduced": "31",
       "Armor": 75,
-      "FullImages": {
-        "Portrait": "Drifter.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Drifter.png"
+        }
+      ],
       "InternalName": "",
-      "Type": "Operator",
-      "Link": "Drifter",
+      "SquadPortrait": "DrifterHoodedLargePortrait.png",
+      "Link": "Drifter/Gameplay",
       "InitialEnergy": 100,
-      "Health": 350,
+      "Type": "Operator",
       "Polarities": {},
+      "Abilities": [
+        "Summon Kaithe",
+        "Guiding Hand",
+        "Restorative (Duviri)",
+        "Smoke Screen (Duviri)"
+      ],
       "Name": "Drifter",
       "HealthRank30": 350,
+      "Health": 350,
       "Energy": 100,
       "CodexSecret": true
     }
@@ -262,13 +290,16 @@
       "MaxRank": 30,
       "Themes": "Assassin, Ninja",
       "Tactical": "Smoke Screen",
-      "Image": "AshPrime.png",
+      "Image": "AshPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "16.11",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "AshPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "AshPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Ninja/AshPrime",
       "Type": "Warframe",
       "Progenitor": "Radiation",
@@ -308,13 +339,16 @@
       "MaxRank": 30,
       "Themes": "Combat Engineer",
       "Tactical": "Photon Strike",
-      "Image": "VaubanPrime.png",
+      "Image": "VaubanPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "18.12",
       "Armor": 210,
-      "FullImages": {
-        "Portrait": "VaubanPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "VaubanPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Trapper/TrapperPrime",
       "Type": "Warframe",
       "Progenitor": "Heat",
@@ -358,9 +392,12 @@
         "D",
         "Bar"
       ],
-      "FullImages": {
-        "Portrait": "HildrynPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "HildrynPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/IronFrame/IronFramePrime",
       "Type": "Warframe",
       "Link": "Hildryn/Prime",
@@ -375,7 +412,7 @@
       "Description": "Hildryn Prime proves that power is discipline's reward.",
       "Conclave": false,
       "Shield": 1380,
-      "Image": "HildrynPrime.png",
+      "Image": "HildrynPrime_Thumb.png",
       "Armor": 315,
       "Progenitor": "Cold",
       "SquadPortrait": "HildrynPrimeLargePortrait.png",
@@ -405,13 +442,16 @@
       "MaxRank": 30,
       "Themes": "Aquakinesis, Idol, Surfer",
       "Tactical": "Riptide",
-      "Image": "YareliPrime.png",
+      "Image": "YareliPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "38.6",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "YareliPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "YareliPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Yareli/YareliPrime",
       "Name": "Yareli Prime",
       "Progenitor": "Magnetic",
@@ -452,13 +492,16 @@
       "MaxRank": 30,
       "Themes": "Hybridization, Sentient, Adapting",
       "Tactical": "Sentient Wrath",
-      "Image": "CalibanPrime.png",
+      "Image": "CalibanPrime_Thumb.png",
       "Name": "Caliban Prime",
       "Introduced": "39.1",
       "Armor": 290,
-      "FullImages": {
-        "Portrait": "CalibanPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "CalibanPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Sentient/CalibanPrime",
       "Passive": "Allies within Affinity range gain increased resistance to the types of damage they are currently taking.",
       "Progenitor": "Electricity",
@@ -498,13 +541,16 @@
       "MaxRank": 30,
       "Themes": "Air Elemental, Avian",
       "Tactical": "Tornado",
-      "Image": "Zephyr.png",
+      "Image": "Zephyr_Thumb.png",
       "Type": "Warframe",
       "Introduced": "12",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "ZephyrFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Zephyr.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Tengu/Tengu",
       "Name": "Zephyr",
       "Progenitor": "Impact",
@@ -544,13 +590,20 @@
       "MaxRank": 30,
       "Themes": "Kinetic Energy, Runner",
       "Tactical": "Thermal Sunder",
-      "Image": "Gauss.png",
+      "Image": "Gauss_Thumb.png",
       "Name": "Gauss",
       "Introduced": "25.7",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "GaussFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Gauss.png"
+        },
+        {
+          "TabName": "Redline",
+          "Image": "Gauss-Redline.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Runner/Runner",
       "Passive": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to 120% faster while the Recharge Delay is up to 80% shorter, based on the battery level.",
       "Progenitor": "Impact",
@@ -589,13 +642,16 @@
       "MaxRank": 30,
       "Themes": "Magician, Planes of Existence",
       "Tactical": "Cataclysm",
-      "Image": "Limbo.png",
+      "Image": "Limbo_Thumb.png",
       "Type": "Warframe",
       "Introduced": "15",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "LimboFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Limbo.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Magician/Magician",
       "Name": "Limbo",
       "Progenitor": "Electricity",
@@ -635,13 +691,16 @@
       "MaxRank": 30,
       "Themes": "Dragon, Elemental Power, Hunter",
       "Tactical": "Elemental Ward",
-      "Image": "ChromaPrime.png",
+      "Image": "ChromaPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "23.9",
       "Armor": 450,
-      "FullImages": {
-        "Portrait": "ChromaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "ChromaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Dragon/ChromaPrime",
       "Name": "Chroma Prime",
       "Progenitor": "Heat",
@@ -682,13 +741,16 @@
       "MaxRank": 30,
       "Themes": "Brawler, Earth Elemental",
       "Tactical": "Rumblers",
-      "Image": "Atlas.png",
+      "Image": "Atlas_Thumb.png",
       "Type": "Warframe",
       "Introduced": "17.5",
       "Armor": 475,
-      "FullImages": {
-        "Portrait": "AtlasFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Atlas.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Brawler/Brawler",
       "Name": "Atlas",
       "Progenitor": "Toxin",
@@ -728,13 +790,16 @@
       "MaxRank": 30,
       "Themes": "Fire Elemental",
       "Tactical": "Fire Blast",
-      "Image": "EmberPrime.png",
+      "Image": "EmberPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "11",
       "Armor": 160,
-      "FullImages": {
-        "Portrait": "EmberPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "EmberPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Ember/EmberPrime",
       "Type": "Warframe",
       "Progenitor": "Heat",
@@ -772,13 +837,16 @@
       "MaxRank": 30,
       "Themes": "Pirate, Water Elemental",
       "Tactical": "Tempest Barrage",
-      "Image": "Hydroid.png",
+      "Image": "Hydroid_Thumb.png",
       "Type": "Warframe",
       "Introduced": "13",
       "Armor": 240,
-      "FullImages": {
-        "Portrait": "HydroidFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Hydroid.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Pirate/Pirate",
       "Name": "Hydroid",
       "Progenitor": "Magnetic",
@@ -817,13 +885,16 @@
       "MaxRank": 30,
       "Themes": "Fairy Queen",
       "Tactical": "Lantern",
-      "Image": "TitaniaPrime.png",
+      "Image": "TitaniaPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "27.3.6",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "TitaniaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "TitaniaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Fairy/TitaniaPrime",
       "Name": "Titania Prime",
       "Progenitor": "Cold",
@@ -864,13 +935,16 @@
       "MaxRank": 30,
       "Themes": "Dragon, Elemental Power, Hunter",
       "Tactical": "Elemental Ward",
-      "Image": "Chroma.png",
+      "Image": "Chroma_Thumb.png",
       "Type": "Warframe",
       "Introduced": "16",
       "Armor": 370,
-      "FullImages": {
-        "Portrait": "ChromaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Chroma.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Dragon/Dragon",
       "Name": "Chroma",
       "Progenitor": "Heat",
@@ -909,13 +983,16 @@
       "MaxRank": 30,
       "Themes": "Swordsman",
       "Tactical": "Radial Blind",
-      "Image": "Excalibur.png",
+      "Image": "Excalibur_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 240,
-      "FullImages": {
-        "Portrait": "ExcaliburFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Excalibur.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Excalibur/Excalibur",
       "Name": "Excalibur",
       "Progenitor": "Electricity",
@@ -953,13 +1030,16 @@
       "MaxRank": 30,
       "Themes": "Fairy Queen",
       "Tactical": "Lantern",
-      "Image": "Titania.png",
+      "Image": "Titania_Thumb.png",
       "Type": "Warframe",
       "Introduced": "The Silver Grove",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "TitaniaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Titania.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Fairy/Fairy",
       "Name": "Titania",
       "Progenitor": "Cold",
@@ -1002,9 +1082,12 @@
         "D",
         "D"
       ],
-      "FullImages": {
-        "Portrait": "HildrynFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Hildryn.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/IronFrame/IronFrame",
       "Type": "Warframe",
       "Link": "Hildryn",
@@ -1019,7 +1102,7 @@
       "Description": "Strength is Hildryn's virtue. Her unique high-damage abilities are powered by her Shields, which can be recharged with Energy. Hildryn proves that a strong offense is a good defense.",
       "Conclave": false,
       "Shield": 1280,
-      "Image": "Hildryn.png",
+      "Image": "Hildryn_Thumb.png",
       "Armor": 315,
       "Progenitor": "Cold",
       "SquadPortrait": "HildrynLargePortrait.png",
@@ -1047,13 +1130,16 @@
       "MaxRank": 30,
       "Themes": "Air Elemental, Avian",
       "Tactical": "Tornado",
-      "Image": "ZephyrPrime.png",
+      "Image": "ZephyrPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "22.16.4",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "ZephyrPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "ZephyrPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Tengu/ZephyrPrime",
       "Name": "Zephyr Prime",
       "Progenitor": "Impact",
@@ -1096,13 +1182,16 @@
       "MaxRank": 30,
       "Themes": "Aquakinesis, Idol, Surfer",
       "Tactical": "Riptide",
-      "Image": "Yareli.png",
+      "Image": "Yareli_Thumb.png",
       "Passive": "Yareli gains +200% Critical Chance for Secondary weapons when she has been moving for at least 1.5s.",
       "Introduced": "30.5",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "YareliFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Yareli.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Yareli/Yareli",
       "Name": "Yareli",
       "Progenitor": "Magnetic",
@@ -1146,10 +1235,16 @@
         "D",
         "V"
       ],
-      "FullImages": {
-        "Default": "XakuPrimeFull.png",
-        "Skeletal": "XakuPrimeSkeletonFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "XakuPrime.png"
+        },
+        {
+          "TabName": "Broken",
+          "Image": "XakuPrime-Broken.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
       "Type": "Warframe",
       "Link": "Xaku/Prime",
@@ -1163,7 +1258,7 @@
       "Description": "The child of war and void is reborn in gold. That which was once shattered may rise stronger than that which was never broken.",
       "Conclave": false,
       "Shield": 263,
-      "Image": "XakuPrime.png",
+      "Image": "XakuPrime_Thumb.png",
       "Armor": 167,
       "Progenitor": "Magnetic",
       "SquadPortrait": "XakuPrimeLargePortrait.png",
@@ -1192,13 +1287,16 @@
       "MaxRank": 30,
       "Themes": "Eidolon, Vampirism",
       "Tactical": "Enthrall",
-      "Image": "RevenantPrime.png",
+      "Image": "RevenantPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "32.0.9",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "RevenantPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "RevenantPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Revenant/RevenantPrime",
       "Type": "Warframe",
       "Progenitor": "Cold",
@@ -1239,13 +1337,16 @@
       "MaxRank": 30,
       "Themes": "Disease, Poison, Serpentine",
       "Tactical": "Molt",
-      "Image": "SarynPrime.png",
+      "Image": "SarynPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "18.4.12",
       "Armor": 315,
-      "FullImages": {
-        "Portrait": "SarynPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "SarynPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Saryn/SarynPrime",
       "Type": "Warframe",
       "Progenitor": "Toxin",
@@ -1285,13 +1386,16 @@
       "MaxRank": 30,
       "Themes": "Monkey King",
       "Tactical": "Celestial Twin",
-      "Image": "WukongPrime.png",
+      "Image": "WukongPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "25.3.0",
       "Armor": 290,
-      "FullImages": {
-        "Portrait": "WukongPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "WukongPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
       "Name": "Wukong Prime",
       "Progenitor": "Impact",
@@ -1331,13 +1435,16 @@
       "MaxRank": 30,
       "Themes": "Monkey King",
       "Tactical": "Celestial Twin",
-      "Image": "Wukong.png",
+      "Image": "Wukong_Thumb.png",
       "Type": "Warframe",
       "Introduced": "17.12",
       "Armor": 265,
-      "FullImages": {
-        "Portrait": "WukongFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Wukong.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
       "Name": "Wukong",
       "Progenitor": "Impact",
@@ -1376,15 +1483,24 @@
       "MaxRank": 30,
       "Themes": "Duality, Day & Night",
       "Tactical": "Rest & Rage",
-      "Image": "Equinox.png",
+      "Image": "Equinox_Thumb.png",
       "Type": "Warframe",
       "Introduced": "17",
       "Armor": 135,
-      "FullImages": {
-        "Composite": "EquinoxFull.png",
-        "Night": "EquinoxNightFull.png",
-        "Day": "EquinoxDayFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Composite",
+          "Image": "Equinox.png"
+        },
+        {
+          "TabName": "Day",
+          "Image": "Equinox-Day.png"
+        },
+        {
+          "TabName": "Night",
+          "Image": "Equinox-Night.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/YinYang/YinYang",
       "Name": "Equinox",
       "Progenitor": "Radiation",
@@ -1423,13 +1539,16 @@
       "MaxRank": 30,
       "Themes": "Will-O-Wisp, Witch, Portal Manipulation",
       "Tactical": "Breach Surge",
-      "Image": "WispPrime.png",
+      "Image": "WispPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "33.6",
       "Armor": 210,
-      "FullImages": {
-        "Portrait": "WispPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "WispPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Wisp/WispPrime",
       "Type": "Warframe",
       "Progenitor": "Heat",
@@ -1468,13 +1587,16 @@
       "MaxRank": 30,
       "Themes": "Brutalism, Concrete, Radioactivity",
       "Tactical": "Chyrinka Pillar",
-      "Image": "Qorvex.png",
+      "Image": "Qorvex_Thumb.png",
       "Type": "Warframe",
       "Introduced": "35",
       "Armor": 875,
-      "FullImages": {
-        "Portrait": "QorvexFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Qorvex.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
       "Name": "Qorvex",
       "Progenitor": "Radiation",
@@ -1513,13 +1635,16 @@
       "MaxRank": 30,
       "Themes": "Sharpshooter, Soldier, Stealth Ops",
       "Tactical": "Seek",
-      "Image": "Cyte-09.png",
+      "Image": "Cyte09_Thumb.png",
       "Type": "Warframe",
       "Introduced": "38",
       "Armor": 150,
-      "FullImages": {
-        "Portrait": "Cyte-09Full.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Cyte09.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Frumentarius/Frumentarius",
       "Name": "Cyte-09",
       "Progenitor": "Magnetic",
@@ -1558,13 +1683,16 @@
       "MaxRank": 30,
       "Themes": "Ice Elemental",
       "Tactical": "Snow Globe",
-      "Image": "Frost.png",
+      "Image": "Frost_Thumb.png",
       "Type": "Warframe",
       "Introduced": "6",
       "Armor": 315,
-      "FullImages": {
-        "Portrait": "FrostFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Frost.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Frost/Frost",
       "Name": "Frost",
       "Progenitor": "Cold",
@@ -1604,13 +1732,16 @@
       "MaxRank": 30,
       "Themes": "Will-O-Wisp, Solar Elemental, Portal Manipulation",
       "Tactical": "Breach Surge",
-      "Image": "Wisp.png",
+      "Image": "Wisp_Thumb.png",
       "Type": "Warframe",
       "Introduced": "25.0",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "WispFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Wisp.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Wisp/Wisp",
       "Name": "Wisp",
       "Progenitor": "Heat",
@@ -1648,13 +1779,16 @@
       "MaxRank": 30,
       "Themes": "Healer",
       "Tactical": "Energy Vampire",
-      "Image": "Trinity.png",
+      "Image": "Trinity_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "TrinityFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Trinity.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Trinity/Trinity",
       "Name": "Trinity",
       "Progenitor": "Cold",
@@ -1693,13 +1827,16 @@
       "MaxRank": 30,
       "Themes": "Hybridization, Sentient, Adapting",
       "Tactical": "Sentient Wrath",
-      "Image": "Caliban.png",
+      "Image": "Caliban_Thumb.png",
       "Type": "Warframe",
       "Introduced": "31",
       "Armor": 290,
-      "FullImages": {
-        "Default": "CalibanFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Caliban.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Sentient/Sentient",
       "Name": "Caliban",
       "Progenitor": "Electricity",
@@ -1737,13 +1874,16 @@
       "MaxRank": 30,
       "Themes": "Wolves, \u017dvor\u016bna",
       "Tactical": "Shroud of Dynar",
-      "Image": "Voruna.png",
+      "Image": "Voruna_Thumb.png",
       "Type": "Warframe",
       "Introduced": "32.2",
       "Armor": 200,
-      "FullImages": {
-        "Portrait": "VorunaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Voruna.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Werewolf/Werewolf",
       "Name": "Voruna",
       "Progenitor": "Radiation",
@@ -1786,9 +1926,12 @@
         "D",
         "Bar"
       ],
-      "FullImages": {
-        "Portrait": "LavosFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Lavos.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Alchemist/Alchemist",
       "Type": "Warframe",
       "Link": "Lavos",
@@ -1805,7 +1948,7 @@
       "Description": "The serpents of Lavos encourage him as he transmutes the battlefield. He uses Toxin, Cold, Electricity, and Heat to deal elemental damage. Harness the power of the dark alchemist.",
       "Conclave": false,
       "Shield": 270,
-      "Image": "Lavos.png",
+      "Image": "Lavos_Thumb.png",
       "Armor": 575,
       "Progenitor": "Magnetic",
       "SquadPortrait": "LavosLargePortrait.png",
@@ -1832,13 +1975,16 @@
       "MaxRank": 30,
       "Themes": "Shadow, Swordsman",
       "Tactical": "Radial Blind",
-      "Image": "ExcaliburUmbraPrime.png",
+      "Image": "ExcaliburUmbraPrime_Thumb.png",
       "_IgnoreEntry": true,
       "Vaulted": "N/A",
       "Armor": 250,
-      "FullImages": {
-        "Portrait": "ExcaliburUmbraPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "ExcaliburUmbraPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Excalibur/ExcaliburUmbraPrime",
       "Type": "Warframe",
       "Progenitor": "Electricity",
@@ -1877,13 +2023,16 @@
       "MaxRank": 30,
       "Themes": "Ballerina, Tesla Coil, Automaton",
       "Tactical": "Arcsphere",
-      "Image": "Gyre.png",
+      "Image": "Gyre_Thumb.png",
       "Type": "Warframe",
       "Introduced": "31.5",
       "Armor": 105,
-      "FullImages": {
-        "Default": "Gyre.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Gyre.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Gyre/Gyre",
       "Name": "Gyre",
       "Progenitor": "Electricity",
@@ -1921,13 +2070,16 @@
       "MaxRank": 30,
       "Themes": "Dullahan, Halloween, Spirit Realm",
       "Tactical": "Wyrd Scythes",
-      "Image": "Dagath.png",
+      "Image": "Dagath_Thumb.png",
       "Type": "Warframe",
       "Introduced": "34",
       "Armor": 125,
-      "FullImages": {
-        "Splash Art": "DagathSplash.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Dagath.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Dagath/Dagath",
       "Name": "Dagath",
       "Progenitor": "Toxin",
@@ -1965,13 +2117,16 @@
       "MaxRank": 30,
       "Themes": "Electricity",
       "Tactical": "Speed",
-      "Image": "Volt.png",
+      "Image": "Volt_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "VoltFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Volt.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Volt/Volt",
       "Name": "Volt",
       "Progenitor": "Electricity",
@@ -2010,13 +2165,16 @@
       "MaxRank": 30,
       "Themes": "Sound, Wailing Spirit",
       "Tactical": "Silence",
-      "Image": "Banshee.png",
+      "Image": "Banshee_Thumb.png",
       "Type": "Warframe",
       "Introduced": "7",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "BansheeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Banshee.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Banshee/Banshee",
       "Name": "Banshee",
       "Progenitor": "Electricity",
@@ -2054,13 +2212,16 @@
       "MaxRank": 30,
       "Themes": "Combat Engineer",
       "Tactical": "Photon Strike",
-      "Image": "Vauban.png",
+      "Image": "Vauban_Thumb.png",
       "Type": "Warframe",
       "Introduced": "7.11",
       "Armor": 160,
-      "FullImages": {
-        "Portrait": "VaubanFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Vauban.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Trapper/Trapper",
       "Name": "Vauban",
       "Progenitor": "Heat",
@@ -2099,13 +2260,28 @@
       "MaxRank": 30,
       "Themes": "Arachnid, Huntress & Companion, Metal Manipulation",
       "Tactical": "Ensnare",
-      "Image": "Khora.png",
+      "Image": "Khora_Thumb.png",
       "Name": "Khora",
       "Introduced": "22.18.0",
       "Armor": 290,
-      "FullImages": {
-        "Portrait": "KhoraFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Hidden",
+          "Image": "Khora.png"
+        },
+        {
+          "TabName": "Attack",
+          "Image": "Khora-Attack.png"
+        },
+        {
+          "TabName": "Protect",
+          "Image": "Khora-Protect.png"
+        },
+        {
+          "TabName": "Heal",
+          "Image": "Khora-Heal.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Khora/Khora",
       "Passive": "The ferocious kavat, Venari, fights by Khora's side and provides her with a 15% speed boost while active. If killed, Venari will reappear after 45s.",
       "Progenitor": "Toxin",
@@ -2144,13 +2320,16 @@
       "MaxRank": 30,
       "Themes": "Archer, Thief, Jellyfish",
       "Tactical": "Quiver",
-      "Image": "IvaraPrime.png",
+      "Image": "IvaraPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "27.0.4",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "IvaraPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "IvaraPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Ranger/IvaraPrime",
       "Type": "Warframe",
       "Progenitor": "Toxin",
@@ -2193,9 +2372,12 @@
         "Madurai",
         "Naramon"
       ],
-      "FullImages": {
-        "Portrait": "DanteFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Dante.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Pagemaster/Pagemaster",
       "Type": "Warframe",
       "Link": "Dante",
@@ -2211,7 +2393,7 @@
       "Description": "Seeker of knowledge. Keeper of history. Daring researcher of Leverian lore. Dante composes arcane tales to support allies and devastate enemies.",
       "Conclave": false,
       "Shield": 150,
-      "Image": "Dante.png",
+      "Image": "Dante_Thumb.png",
       "Armor": 145,
       "Progenitor": "Impact",
       "SquadPortrait": "DanteLargePortrait.png",
@@ -2242,9 +2424,12 @@
         "D",
         "D"
       ],
-      "FullImages": {
-        "Default": "InarosPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "InarosPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Sandman/InarosPrime",
       "Type": "Warframe",
       "Link": "Inaros/Prime",
@@ -2260,7 +2445,7 @@
       "Description": "Rise, eternal, to cast the fear of Inaros into them. Featuring altered mod polarities for greater customization.",
       "Conclave": false,
       "Shield": 0,
-      "Image": "InarosPrime.png",
+      "Image": "InarosPrime_Thumb.png",
       "Armor": 240,
       "Progenitor": "Heat",
       "SquadPortrait": "InarosPrimeLargePortrait.png",
@@ -2291,13 +2476,16 @@
       "MaxRank": 30,
       "Themes": "Bard, Musician",
       "Tactical": "Resonator",
-      "Image": "OctaviaPrime.png",
+      "Image": "OctaviaPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "29.9",
       "Armor": 160,
-      "FullImages": {
-        "Portrait": "OctaviaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "OctaviaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Bard/OctaviaPrime",
       "Type": "Warframe",
       "Progenitor": "Radiation",
@@ -2339,13 +2527,16 @@
       "MaxRank": 30,
       "Themes": "Blood Manipulation, Gore, Violence, Garuda (Hindu deity)",
       "Tactical": "Blood Altar",
-      "Image": "GarudaPrime.png",
+      "Image": "GarudaPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "31.3",
       "Armor": 420,
-      "FullImages": {
-        "Portrait": "GarudaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "GarudaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Garuda/GarudaPrime",
       "Type": "Warframe",
       "Progenitor": "Radiation",
@@ -2384,13 +2575,16 @@
       "MaxRank": 30,
       "Themes": "Crystalline, Geode, Mineral Manipulation",
       "Tactical": "Prismatic Gem",
-      "Image": "Citrine.png",
+      "Image": "Citrine_Thumb.png",
       "Type": "Warframe",
       "Introduced": "32.3",
       "Armor": 265,
-      "FullImages": {
-        "Splash Art": "CitrineSplash.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Citrine.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Geode/Geode",
       "Name": "Citrine",
       "Progenitor": "Magnetic",
@@ -2428,13 +2622,20 @@
       "MaxRank": 30,
       "Themes": "Rhinoceros",
       "Tactical": "Rhino Stomp",
-      "Image": "RhinoPrime.png",
+      "Image": "RhinoPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "12.4",
       "Armor": 290,
-      "FullImages": {
-        "Portrait": "RhinoPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "RhinoPrime.png"
+        },
+        {
+          "TabName": "Iron Skin",
+          "Image": "RhinoPrime-IronSkin.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Rhino/RhinoPrime",
       "Type": "Warframe",
       "Progenitor": "Impact",
@@ -2479,10 +2680,16 @@
         "Bar",
         "D"
       ],
-      "FullImages": {
-        "Default": "NidusPrimeFull.png",
-        "Mutated": "NidusPrimeMutatedFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "NidusPrime.png"
+        },
+        {
+          "Image": "NidusPrime-Mutated.png",
+          "Tabame": "Mutated"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Infestation/InfestationPrime",
       "Type": "Warframe",
       "Link": "Nidus/Prime",
@@ -2500,7 +2707,7 @@
       "Description": "Mutation is endless. The ravening plague-bearer returns in a long-unseen form, seething with a primal strain of the Infestation.",
       "Conclave": false,
       "Shield": 0,
-      "Image": "NidusPrime.png",
+      "Image": "NidusPrime_Thumb.png",
       "Armor": 425,
       "Progenitor": "Toxin",
       "SquadPortrait": "NidusPrimeLargePortrait.png",
@@ -2530,13 +2737,16 @@
       "MaxRank": 30,
       "Themes": "Trickster",
       "Tactical": "Decoy",
-      "Image": "LokiPrime.png",
+      "Image": "LokiPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "13.7",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "LokiPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "LokiPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Loki/LokiPrime",
       "Type": "Warframe",
       "Progenitor": "Radiation",
@@ -2577,13 +2787,20 @@
       "MaxRank": 30,
       "Themes": "Berserker, Feline",
       "Tactical": "Warcry",
-      "Image": "Valkyr.png",
+      "Image": "Valkyr_Thumb.png",
       "Type": "Warframe",
       "Introduced": "11",
       "Armor": 855,
-      "FullImages": {
-        "Portrait": "ValkyrFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Valkyr.png"
+        },
+        {
+          "TabName": "With Bonds",
+          "Image": "Valkyr-Bonds.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Berserker/Berserker",
       "Name": "Valkyr",
       "Progenitor": "Electricity",
@@ -2622,13 +2839,16 @@
       "MaxRank": 30,
       "Themes": "Fire Elemental",
       "Tactical": "Fire Blast",
-      "Image": "Ember.png",
+      "Image": "Ember_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "EmberFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Ember.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Ember/Ember",
       "Name": "Ember",
       "Progenitor": "Heat",
@@ -2666,13 +2886,16 @@
       "MaxRank": 30,
       "Themes": "Disease, Poison, Serpentine",
       "Tactical": "Molt",
-      "Image": "Saryn.png",
+      "Image": "Saryn_Thumb.png",
       "Type": "Warframe",
       "Introduced": "7",
       "Armor": 240,
-      "FullImages": {
-        "Portrait": "SarynFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Saryn.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Saryn/Saryn",
       "Name": "Saryn",
       "Progenitor": "Toxin",
@@ -2710,13 +2933,16 @@
       "MaxRank": 30,
       "Themes": "Eidolon, Vampirism",
       "Tactical": "Enthrall",
-      "Image": "Revenant.png",
+      "Image": "Revenant_Thumb.png",
       "Type": "Warframe",
       "Introduced": "23.5",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "RevenantFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Revenant.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Revenant/Revenant",
       "Name": "Revenant",
       "Progenitor": "Cold",
@@ -2755,13 +2981,16 @@
       "MaxRank": 30,
       "Themes": "Archer, Thief, Poison Frog",
       "Tactical": "Quiver",
-      "Image": "Ivara.png",
+      "Image": "Ivara_Thumb.png",
       "Type": "Warframe",
       "Introduced": "18",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "IvaraFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Ivara.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Ranger/Ranger",
       "Name": "Ivara",
       "Progenitor": "Toxin",
@@ -2799,13 +3028,16 @@
       "MaxRank": 30,
       "Themes": "Healer",
       "Tactical": "Energy Vampire",
-      "Image": "TrinityPrime.png",
+      "Image": "TrinityPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "17.6",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "TrinityPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "TrinityPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Trinity/TrinityPrime",
       "Type": "Warframe",
       "Progenitor": "Cold",
@@ -2849,9 +3081,12 @@
         "D",
         "D"
       ],
-      "FullImages": {
-        "Portrait": "InarosFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Inaros.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Sandman/Sandman",
       "Type": "Warframe",
       "Link": "Inaros",
@@ -2867,7 +3102,7 @@
       "Description": "Inaros commands the fearsome desert. He survives like the ever-shifting sands that empower him. Legend recalls Inaros as the Fear-Eater.",
       "Conclave": true,
       "Shield": 0,
-      "Image": "Inaros.png",
+      "Image": "Inaros_Thumb.png",
       "Armor": 240,
       "Progenitor": "Heat",
       "SquadPortrait": "InarosLargePortrait.png",
@@ -2898,13 +3133,16 @@
       "MaxRank": 30,
       "Themes": "Pirate, Water Elemental",
       "Tactical": "Tempest Barrage",
-      "Image": "HydroidPrime.png",
+      "Image": "HydroidPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "21.6",
       "Armor": 290,
-      "FullImages": {
-        "Portrait": "HydroidPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "HydroidPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Pirate/HydroidPrime",
       "Name": "Hydroid Prime",
       "Progenitor": "Magnetic",
@@ -2945,13 +3183,16 @@
       "MaxRank": 30,
       "Themes": "Sound, Wailing Spirit",
       "Tactical": "Silence",
-      "Image": "BansheePrime.png",
+      "Image": "BansheePrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "19.11.5",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "BansheePrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "BansheePrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Banshee/BansheePrime",
       "Name": "Banshee Prime",
       "Progenitor": "Electricity",
@@ -2990,13 +3231,16 @@
       "MaxRank": 30,
       "Themes": "Glass, Warrior",
       "Tactical": "Splinter Storm",
-      "Image": "Gara.png",
+      "Image": "Gara_Thumb.png",
       "Type": "Warframe",
       "Introduced": "22",
       "Armor": 160,
-      "FullImages": {
-        "Portrait": "GaraFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Gara.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Glass/Glass",
       "Name": "Gara",
       "Progenitor": "Cold",
@@ -3036,13 +3280,16 @@
       "MaxRank": 30,
       "Themes": "Glass, Warrior",
       "Tactical": "Splinter Storm",
-      "Image": "GaraPrime.png",
+      "Image": "GaraPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "30.3",
       "Armor": 200,
-      "FullImages": {
-        "Portrait": "GaraPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "GaraPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Glass/GaraPrime",
       "Type": "Warframe",
       "Progenitor": "Cold",
@@ -3083,13 +3330,16 @@
       "MaxRank": 30,
       "Themes": "Darkness, Necromancy",
       "Tactical": "Terrify",
-      "Image": "Nekros.png",
+      "Image": "Nekros_Thumb.png",
       "Type": "Warframe",
       "Introduced": "10",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "NekrosFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Nekros.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Necro/Necro",
       "Name": "Nekros",
       "Progenitor": "Toxin",
@@ -3127,13 +3377,16 @@
       "MaxRank": 30,
       "Themes": "Trickster",
       "Tactical": "Decoy",
-      "Image": "Loki.png",
+      "Image": "Loki_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "LokiFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Loki.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Loki/Loki",
       "Name": "Loki",
       "Progenitor": "Radiation",
@@ -3172,13 +3425,16 @@
       "MaxRank": 30,
       "Themes": "Bard, Musician",
       "Tactical": "Resonator",
-      "Image": "Octavia.png",
+      "Image": "Octavia_Thumb.png",
       "Type": "Warframe",
       "Introduced": "20",
       "Armor": 160,
-      "FullImages": {
-        "Portrait": "OctaviaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Octavia.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Bard/Bard",
       "Name": "Octavia",
       "Progenitor": "Radiation",
@@ -3220,13 +3476,16 @@
       "MaxRank": 30,
       "Themes": "Monk, Pacifist",
       "Tactical": "Lull",
-      "Image": "Baruuk.png",
+      "Image": "Baruuk_Thumb.png",
       "Name": "Baruuk",
       "Introduced": "24.2",
       "Armor": 185,
-      "FullImages": {
-        "Default": "BaruukFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Baruuk.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Pacifist/Pacifist",
       "Passive": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to 50% more resistant to damage.",
       "Progenitor": "Impact",
@@ -3308,10 +3567,16 @@
         "D",
         "D"
       ],
-      "FullImages": {
-        "Default": "XakuFull.png",
-        "Skeletal": "XakuSkeletonFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Xaku.png"
+        },
+        {
+          "TabName": "Broken",
+          "Image": "Xaku-Broken.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
       "Type": "Warframe",
       "Link": "Xaku",
@@ -3325,7 +3590,7 @@
       "Description": "Broken Warframes adrift in the Void converged to create Xaku. Together, they deal high damage. Xaku proves that the sum of the whole is greater than its parts.",
       "Conclave": false,
       "Shield": 239,
-      "Image": "Xaku.png",
+      "Image": "Xaku_Thumb.png",
       "Armor": 146,
       "Progenitor": "Magnetic",
       "SquadPortrait": "BrokenLargePortrait.png",
@@ -3354,13 +3619,16 @@
       "MaxRank": 30,
       "Themes": "Monastic, Void Manipulation",
       "Tactical": "Covenant",
-      "Image": "Harrow.png",
+      "Image": "Harrow_Thumb.png",
       "Type": "Warframe",
       "Introduced": "21",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "HarrowFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Harrow.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Priest/Priest",
       "Name": "Harrow",
       "Progenitor": "Magnetic",
@@ -3399,13 +3667,16 @@
       "MaxRank": 30,
       "Themes": "Gunslinger",
       "Tactical": "Shatter Shield",
-      "Image": "Mesa.png",
+      "Image": "Mesa_Thumb.png",
       "Type": "Warframe",
       "Introduced": "15.5",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "MesaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Mesa.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Cowgirl/Cowgirl",
       "Name": "Mesa",
       "Progenitor": "Magnetic",
@@ -3444,13 +3715,16 @@
       "MaxRank": 30,
       "Themes": "Third Lotus Prince",
       "Tactical": "Divine Spears",
-      "Image": "Nezha.png",
+      "Image": "Nezha_Thumb.png",
       "Type": "Warframe",
       "Introduced": "18.1",
       "Armor": 200,
-      "FullImages": {
-        "Portrait": "NezhaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Nezha.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Nezha/Nezha",
       "Name": "Nezha",
       "Progenitor": "Heat",
@@ -3490,12 +3764,15 @@
       "MaxRank": 30,
       "Themes": "Phantom, Reaper, Shadow Elemental",
       "Tactical": "Gloom",
-      "Image": "Sevagoth.png",
+      "Image": "Sevagoth_Thumb.png",
       "Introduced": "30",
       "Armor": 160,
-      "FullImages": {
-        "Portrait": "SevagothFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Sevagoth.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Wraith/Wraith",
       "Type": "Warframe",
       "Progenitor": "Impact",
@@ -3535,13 +3812,20 @@
       "MaxRank": 30,
       "Themes": "Kinetic Energy, Runner",
       "Tactical": "Thermal Sunder",
-      "Image": "GaussPrime.png",
+      "Image": "GaussPrime_Thumb.png",
       "Name": "Gauss Prime",
       "Introduced": "35.0.9",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "GaussPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "GaussPrime.png"
+        },
+        {
+          "TabName": "Redline",
+          "Image": "GaussPrime-Redline.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Runner/GaussPrime",
       "Passive": "Moving generates an electrical current that fills Gauss' battery. Shields recharge up to 120% faster while the Recharge Delay is up to 80% shorter, based on the battery level.",
       "Progenitor": "Impact",
@@ -3582,15 +3866,24 @@
       "MaxRank": 30,
       "Themes": "Duality, Day & Night",
       "Tactical": "Rest & Rage",
-      "Image": "EquinoxPrime.png",
+      "Image": "EquinoxPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "24.5.8",
       "Armor": 160,
-      "FullImages": {
-        "Composite": "EquinoxPrimeFull.png",
-        "Night": "EquinoxPrimeNightFull.png",
-        "Day": "EquinoxPrimeDayFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Composite",
+          "Image": "EquinoxPrime.png"
+        },
+        {
+          "TabName": "Day",
+          "Image": "EquinoxPrime-Day.png"
+        },
+        {
+          "TabName": "Night",
+          "Image": "EquinoxPrime-Night.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/YinYang/EquinoxPrime",
       "Name": "Equinox Prime",
       "Progenitor": "Radiation",
@@ -3631,13 +3924,16 @@
       "MaxRank": 30,
       "Themes": "Monastic, Void Manipulation",
       "Tactical": "Covenant",
-      "Image": "HarrowPrime.png",
+      "Image": "HarrowPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "31",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "HarrowPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "HarrowPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Priest/HarrowPrime",
       "Name": "Harrow Prime",
       "Progenitor": "Magnetic",
@@ -3677,13 +3973,16 @@
       "MaxRank": 30,
       "Themes": "Psychic",
       "Tactical": "Mind Control",
-      "Image": "Nyx.png",
+      "Image": "Nyx_Thumb.png",
       "Type": "Warframe",
       "Introduced": "6",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "NyxFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Nyx.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Jade/Jade",
       "Name": "Nyx",
       "Progenitor": "Radiation",
@@ -3722,13 +4021,20 @@
       "MaxRank": 30,
       "Themes": "Berserker, Feline",
       "Tactical": "Warcry",
-      "Image": "ValkyrPrime.png",
+      "Image": "ValkyrPrime_Thumb.png",
       "Vaulted": false,
       "Introduced": "19.0.7",
       "Armor": 1000,
-      "FullImages": {
-        "Portrait": "ValkyrPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "ValkyrPrime.png"
+        },
+        {
+          "TabName": "With Bonds",
+          "Image": "ValkyrPrime-Bonds.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Berserker/ValkyrPrime",
       "Type": "Warframe",
       "Progenitor": "Electricity",
@@ -3769,13 +4075,16 @@
       "MaxRank": 30,
       "Themes": "Nature, Paladin",
       "Tactical": "Reckoning",
-      "Image": "OberonPrime.png",
+      "Image": "OberonPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "20.6.2",
       "Armor": 450,
-      "FullImages": {
-        "Portrait": "OberonPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "OberonPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Paladin/PaladinPrime",
       "Name": "Oberon Prime",
       "Progenitor": "Toxin",
@@ -3816,13 +4125,16 @@
       "MaxRank": 30,
       "Themes": "Harlequin, Illusionist",
       "Tactical": "Sleight of Hand",
-      "Image": "MiragePrime.png",
+      "Image": "MiragePrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "22.7",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "MiragePrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "MiragePrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Harlequin/MiragePrime",
       "Name": "Mirage Prime",
       "Progenitor": "Radiation",
@@ -3856,6 +4168,7 @@
     },
     "Sevagoth Prime's Shadow": {
       "Sprint": 1.1,
+      "_IgnoreEntry": true,
       "Description": "When the Tempestarii became a void phantom, Sevagoth set aside his body and became a Shadow, to continue his solemn duty of saving lives.",
       "Conclave": false,
       "Shield": 135,
@@ -3863,17 +4176,20 @@
       "MaxRank": 30,
       "Themes": "Wraith",
       "Tactical": "Gloom",
-      "Image": "SevagothPrime'sShadow.png",
-      "_IgnoreEntry": true,
+      "Image": "SevagothPrime-Shadow_Thumb.png",
+      "Type": "Warframe",
       "Introduced": "36.1",
       "Armor": 475,
-      "FullImages": {
-        "Portrait": "SevagothPrime'sShadowFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "SevagothPrime-Shadow.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Wraith/SevagothShadowPrime",
       "Name": "Sevagoth Prime's Shadow",
       "Progenitor": "Impact",
-      "Type": "Warframe",
+      "SquadPortrait": "SevagothPrimeLargePortrait.png",
       "Passive": "None",
       "Link": "Sevagoth/Abilities",
       "SellPrice": 10000,
@@ -3914,10 +4230,16 @@
         "V",
         "D"
       ],
-      "FullImages": {
-        "Default": "NidusFull.png",
-        "Mutated": "NidusMutatedFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Nidus.png"
+        },
+        {
+          "TabName": "Mutated",
+          "Image": "Nidus-Mutated.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Infestation/Infestation",
       "Type": "Warframe",
       "Link": "Nidus",
@@ -3935,7 +4257,7 @@
       "Description": "Nidus draws strength from the Infestation. It bolsters him with survivability as he deals high damage and provides crowd control. Plague your enemies.",
       "Conclave": true,
       "Shield": 0,
-      "Image": "Nidus.png",
+      "Image": "Nidus_Thumb.png",
       "Armor": 350,
       "Progenitor": "Toxin",
       "SquadPortrait": "InfestationLargePortrait.png",
@@ -3965,13 +4287,16 @@
       "MaxRank": 30,
       "Themes": "Gadgetry, Time Manipulation",
       "Tactical": "Dispensary",
-      "Image": "Protea.png",
+      "Image": "Protea_Thumb.png",
       "Type": "Warframe",
       "Introduced": "28",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "ProteaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Protea.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Odalisk/Odalisk",
       "Name": "Protea",
       "Progenitor": "Heat",
@@ -4010,13 +4335,16 @@
       "MaxRank": 30,
       "Themes": "Shadow, Swordsman",
       "Tactical": "Radial Howl",
-      "Image": "ExcaliburUmbra.png",
+      "Image": "ExcaliburUmbra_Thumb.png",
       "Vaulted": "N/A",
       "Introduced": "23",
       "Armor": 315,
-      "FullImages": {
-        "Portrait": "ExcaliburUmbraFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "ExcaliburUmbra.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
       "Type": "Warframe",
       "Progenitor": "Electricity",
@@ -4061,9 +4389,12 @@
         "D",
         "Madurai"
       ],
-      "FullImages": {
-        "Portrait": "GrendelPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "GrendelPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Devourer/GrendelPrime",
       "Type": "Warframe",
       "Link": "Grendel/Prime",
@@ -4077,7 +4408,7 @@
       "Description": "Primal. Insatiable. Grendel Prime devours all who oppose him.",
       "Conclave": false,
       "Shield": 95,
-      "Image": "GrendelPrime.png",
+      "Image": "GrendelPrime_Thumb.png",
       "Armor": 400,
       "Progenitor": "Impact",
       "SquadPortrait": "GrendelPrimeLargePortrait.png",
@@ -4105,13 +4436,16 @@
       "MaxRank": 30,
       "Themes": "Phantom, Reaper, Shadow Elemental",
       "Tactical": "Gloom",
-      "Image": "SevagothPrime.png",
+      "Image": "SevagothPrime_Thumb.png",
       "Name": "Sevagoth Prime",
       "Introduced": "36.1",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "SevagothPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "SevagothPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Wraith/SevagothPrime",
       "Type": "Warframe",
       "Progenitor": "Impact",
@@ -4151,14 +4485,20 @@
       "MaxRank": 30,
       "Themes": "Astyanax, Hoplite, Peltast, Shield & Spear Paradox",
       "Tactical": "Rally Point",
-      "Image": "Styanax.png",
+      "Image": "Styanax_Thumb.png",
       "Type": "Warframe",
       "Introduced": "32",
       "Armor": 265,
-      "FullImages": {
-        "Portrait": "StyanaxFull.png",
-        "Animated": "StyanaxAnimated.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Styanax.png"
+        },
+        {
+          "TabName": "Animated",
+          "Image": "Styanax_Animated.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Hoplite/Hoplite",
       "Name": "Styanax",
       "Progenitor": "Cold",
@@ -4198,13 +4538,16 @@
       "MaxRank": 30,
       "Themes": "Gluttony, Oni",
       "Tactical": "Nourish",
-      "Image": "Grendel.png",
+      "Image": "Grendel_Thumb.png",
       "Type": "Warframe",
       "Introduced": "26",
       "Armor": 370,
-      "FullImages": {
-        "Portrait": "GrendelFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Grendel.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Devourer/Devourer",
       "Name": "Grendel",
       "Progenitor": "Impact",
@@ -4243,13 +4586,20 @@
       "MaxRank": 30,
       "Themes": "Rhinoceros",
       "Tactical": "Rhino Stomp",
-      "Image": "Rhino.png",
+      "Image": "Rhino_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 240,
-      "FullImages": {
-        "Portrait": "RhinoFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Rhino.png"
+        },
+        {
+          "TabName": "Iron Skin",
+          "Image": "Rhino-IronSkin.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Rhino/Rhino",
       "Name": "Rhino",
       "Progenitor": "Impact",
@@ -4288,13 +4638,16 @@
       "MaxRank": 30,
       "Themes": "Nature, Paladin",
       "Tactical": "Reckoning",
-      "Image": "Oberon.png",
+      "Image": "Oberon_Thumb.png",
       "Type": "Warframe",
       "Introduced": "11.5",
       "Armor": 385,
-      "FullImages": {
-        "Portrait": "OberonFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Oberon.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Paladin/Paladin",
       "Name": "Oberon",
       "Progenitor": "Toxin",
@@ -4332,13 +4685,16 @@
       "MaxRank": 30,
       "Themes": "Psychic",
       "Tactical": "Mind Control",
-      "Image": "NyxPrime.png",
+      "Image": "NyxPrime_Thumb.png",
       "Vaulted": false,
       "Introduced": "14.8",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "NyxPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "NyxPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Jade/NyxPrime",
       "Type": "Warframe",
       "Progenitor": "Radiation",
@@ -4377,13 +4733,16 @@
       "MaxRank": 30,
       "Themes": "Antimatter Manipulation",
       "Tactical": "Null Star",
-      "Image": "NovaPrime.png",
+      "Image": "NovaPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "15.7",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "NovaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "NovaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/AntiMatter/NovaPrime",
       "Type": "Warframe",
       "Progenitor": "Electricity",
@@ -4422,13 +4781,16 @@
       "MaxRank": 30,
       "Themes": "Antimatter Manipulation",
       "Tactical": "Null Star",
-      "Image": "Nova.png",
+      "Image": "Nova_Thumb.png",
       "Type": "Warframe",
       "Introduced": "9",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "NovaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Nova.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/AntiMatter/Anti",
       "Name": "Nova",
       "Progenitor": "Electricity",
@@ -4466,14 +4828,20 @@
       "MaxRank": 30,
       "Themes": "Chorale, Light Elemental, Seraphim",
       "Tactical": "Light's Judgment",
-      "Image": "Jade(Warframe).png",
+      "Image": "Jade_Thumb.png",
       "Type": "Warframe",
       "Introduced": "36",
       "Armor": 135,
-      "FullImages": {
-        "Default": "JadeFull.png",
-        "Wings": "JadeGlory.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Jade.png"
+        },
+        {
+          "TabName": "Glory",
+          "Image": "Jade-Glory.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Choir/Choir",
       "Name": "Jade",
       "Progenitor": "Heat",
@@ -4512,13 +4880,16 @@
       "MaxRank": 30,
       "Themes": "Monk, Pacifist",
       "Tactical": "Lull",
-      "Image": "BaruukPrime.png",
+      "Image": "BaruukPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "32.2.5",
       "Armor": 240,
-      "FullImages": {
-        "Default": "BaruukPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "BaruukPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Pacifist/BaruukPrime",
       "Passive": "Each projectile dodged, each enemy lulled or disarmed, erodes Baruuk's restraint and fuels the storm within. As Baruuk's restraint is diminished he becomes up to 50% more resistant to damage.",
       "Progenitor": "Impact",
@@ -4559,13 +4930,16 @@
       "MaxRank": 30,
       "Themes": "Gadgetry, Time Manipulation",
       "Tactical": "Dispensary",
-      "Image": "ProteaPrime.png",
+      "Image": "ProteaPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "35.5.9",
       "Armor": 185,
-      "FullImages": {
-        "Portrait": "ProteaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "ProteaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
       "Name": "Protea Prime",
       "Progenitor": "Heat",
@@ -4579,7 +4953,7 @@
         "Bar",
         "Bar"
       ],
-      "InitialEnergy": 50,
+      "InitialEnergy": 75,
       "Subsumed": "Dispensary",
       "AuraPolarity": "Aura",
       "Abilities": [
@@ -4606,13 +4980,16 @@
       "MaxRank": 30,
       "Themes": "Third Lotus Prince",
       "Tactical": "Divine Spears",
-      "Image": "NezhaPrime.png",
+      "Image": "NezhaPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "29.3",
       "Armor": 265,
-      "FullImages": {
-        "Default": "NezhaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "NezhaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Nezha/NezhaPrime",
       "Type": "Warframe",
       "Progenitor": "Heat",
@@ -4653,13 +5030,16 @@
       "MaxRank": 30,
       "Themes": "Darkness, Necromancy",
       "Tactical": "Terrify",
-      "Image": "NekrosPrime.png",
+      "Image": "NekrosPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "The Silver Grove 3",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "NekrosPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "NekrosPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Necro/NekrosPrime",
       "Type": "Warframe",
       "Progenitor": "Toxin",
@@ -4698,13 +5078,16 @@
       "MaxRank": 30,
       "Themes": "Harlequin, Illusionist",
       "Tactical": "Sleight of Hand",
-      "Image": "Mirage.png",
+      "Image": "Mirage_Thumb.png",
       "Type": "Warframe",
       "Introduced": "14",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "MirageFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Mirage.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Harlequin/Harlequin",
       "Name": "Mirage",
       "Progenitor": "Radiation",
@@ -4743,13 +5126,16 @@
       "MaxRank": 30,
       "Themes": "Blood Manipulation, Gore, Violence, Garuda (Hindu deity)",
       "Tactical": "Blood Altar",
-      "Image": "Garuda.png",
+      "Image": "Garuda_Thumb.png",
       "Type": "Warframe",
       "Introduced": "24",
       "Armor": 315,
-      "FullImages": {
-        "Portrait": "GarudaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Garuda.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Garuda/Garuda",
       "Name": "Garuda",
       "Progenitor": "Radiation",
@@ -4781,6 +5167,7 @@
     },
     "Sevagoth's Shadow": {
       "Sprint": 1.1,
+      "_IgnoreEntry": true,
       "Description": "Sevagoth's roving spirit, formed from concentrated Void energy.",
       "Conclave": false,
       "Shield": 135,
@@ -4788,17 +5175,20 @@
       "MaxRank": 30,
       "Themes": "Wraith",
       "Tactical": "Gloom",
-      "Image": "Sevagoth'sShadow.png",
-      "_IgnoreEntry": true,
+      "Image": "Sevagoth-Shadow_Thumb.png",
+      "Type": "Warframe",
       "Introduced": "30",
       "Armor": 475,
-      "FullImages": {
-        "Portrait": "SevagothShadowFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Sevagoth-Shadow.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Wraith/Reaper",
       "Name": "Sevagoth's Shadow",
       "Progenitor": "Impact",
-      "Type": "Warframe",
+      "SquadPortrait": "WraithLargePortrait.png",
       "Passive": "None",
       "Link": "Sevagoth/Abilities",
       "SellPrice": 10000,
@@ -4833,13 +5223,16 @@
       "MaxRank": 30,
       "Themes": "Magnetism",
       "Tactical": "Magnetize",
-      "Image": "MagPrime.png",
+      "Image": "MagPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "10",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "MagPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "MagPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Mag/MagPrime",
       "Type": "Warframe",
       "Progenitor": "Magnetic",
@@ -4878,13 +5271,16 @@
       "MaxRank": 30,
       "Themes": "Magnetism",
       "Tactical": "Magnetize",
-      "Image": "Mag.png",
+      "Image": "Mag_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "MagFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Mag.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Mag/Mag",
       "Name": "Mag",
       "Progenitor": "Magnetic",
@@ -4923,13 +5319,16 @@
       "MaxRank": 30,
       "Themes": "Magician, Planes of Existence",
       "Tactical": "Cataclysm",
-      "Image": "LimboPrime.png",
+      "Image": "LimboPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "23.0.3",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "LimboPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "LimboPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Magician/LimboPrime",
       "Name": "Limbo Prime",
       "Progenitor": "Electricity",
@@ -4970,13 +5369,16 @@
       "MaxRank": 30,
       "Themes": "Electricity",
       "Tactical": "Speed",
-      "Image": "VoltPrime.png",
+      "Image": "VoltPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "16.1",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "VoltPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "VoltPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Volt/VoltPrime",
       "Type": "Warframe",
       "Progenitor": "Electricity",
@@ -5016,13 +5418,16 @@
       "MaxRank": 30,
       "Themes": "Ice Elemental",
       "Tactical": "Snow Globe",
-      "Image": "FrostPrime.png",
+      "Image": "FrostPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "7.10",
       "Armor": 315,
-      "FullImages": {
-        "Portrait": "FrostPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "FrostPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Frost/FrostPrime",
       "Type": "Warframe",
       "Progenitor": "Cold",
@@ -5067,9 +5472,12 @@
         "Bar",
         "Bar"
       ],
-      "FullImages": {
-        "Portrait": "LavosPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "LavosPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Alchemist/LavosPrime",
       "Type": "Warframe",
       "Link": "Lavos/Prime",
@@ -5086,7 +5494,7 @@
       "Description": "Some Warframes were Prime from the start. Others ascended. Lavos, the master of transmutation, bowed to no one as he forged his own path to valor.",
       "Conclave": false,
       "Shield": 310,
-      "Image": "LavosPrime.png",
+      "Image": "LavosPrime_Thumb.png",
       "Armor": 575,
       "Progenitor": "Magnetic",
       "SquadPortrait": "LavosPrimeLargePortrait.png",
@@ -5114,13 +5522,16 @@
       "MaxRank": 30,
       "Themes": "Brawler, Earth Elemental",
       "Tactical": "Rumblers",
-      "Image": "AtlasPrime.png",
+      "Image": "AtlasPrime_Thumb.png",
       "Vaulted": true,
       "Introduced": "25.8",
       "Armor": 500,
-      "FullImages": {
-        "Portrait": "AtlasPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "AtlasPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Brawler/AtlasPrime",
       "Type": "Warframe",
       "Progenitor": "Toxin",
@@ -5164,9 +5575,12 @@
         "V",
         "Bar"
       ],
-      "FullImages": {
-        "Default": "KoumeiFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Koumei.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Koumei/Koumei",
       "Type": "Warframe",
       "Link": "Koumei",
@@ -5181,7 +5595,7 @@
       "Description": "Test your luck with the dice-maiden. Koumei weaves fate to unleash damage and ensure her survival. To the virtuous, she is an oracle. To the wicked, a perilous game of chance.",
       "Conclave": false,
       "Shield": 122,
-      "Image": "Koumei.png",
+      "Image": "Koumei_Thumb.png",
       "Armor": 444,
       "Progenitor": "Cold",
       "SquadPortrait": "KoumeiLargePortrait.png",
@@ -5211,16 +5625,28 @@
       "MaxRank": 30,
       "Themes": "Arachnid, Huntress & Companion, Metal Manipulation",
       "Tactical": "Ensnare",
-      "Image": "KhoraPrime.png",
+      "Image": "KhoraPrime_Thumb.png",
       "Name": "Khora Prime",
       "Introduced": "31.7",
       "Armor": 345,
-      "FullImages": {
-        "Protect": "KhoraPrimeProtectFull.png",
-        "Heal": "KhoraPrimeHealFull.png",
-        "Hidden": "KhoraPrimeFull.png",
-        "Attack": "KhoraPrimeAttackFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Hidden",
+          "Image": "KhoraPrime.png"
+        },
+        {
+          "TabName": "Attack",
+          "Image": "KhoraPrime-Attack.png"
+        },
+        {
+          "TabName": "Protect",
+          "Image": "KhoraPrime-Protect.png"
+        },
+        {
+          "TabName": "Heal",
+          "Image": "KhoraPrime-Heal.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Khora/KhoraPrime",
       "Passive": "The ferocious kavat, Venari, fights by Khora Prime's side and provides her with a 15% speed boost while active. If killed, Venari will reappear after 45s.",
       "Progenitor": "Toxin",
@@ -5260,13 +5686,16 @@
       "MaxRank": 30,
       "Themes": "Exuberant Youth, Mushrooms",
       "Tactical": "Brightbonnet",
-      "Image": "Nokko.png",
+      "Image": "Nokko_Thumb.png",
       "Type": "Warframe",
       "Introduced": "40",
       "Armor": 135,
-      "FullImages": {
-        "Key Art": "TheVallisUndermindKeyart.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Nokko.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Nokko/Nokko",
       "Name": "Nokko",
       "Progenitor": "Toxin",
@@ -5274,7 +5703,7 @@
       "Passive": "Upon receiving fatal damage, Nokko reverts to his Sprodling form and his active mushrooms will glow, reviving Nokko when touched. Orbs spawned will grant a speed boost but not healing. If a glowing mushroom is not reached in time, Nokko will automatically use a self-revive.",
       "Link": "Nokko",
       "SellPrice": 25000,
-      "Portrait": "Nokko.png",
+      "Portrait": "Nokko_Thumb.png",
       "Polarities": [
         "Madurai",
         "Naramon"
@@ -5305,13 +5734,16 @@
       "MaxRank": 30,
       "Themes": "Assassin, Ninja",
       "Tactical": "Smoke Screen",
-      "Image": "Ash.png",
+      "Image": "Ash_Thumb.png",
       "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 105,
-      "FullImages": {
-        "Portrait": "AshFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Ash.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Ninja/Ninja",
       "Name": "Ash",
       "Progenitor": "Radiation",
@@ -5350,13 +5782,16 @@
       "MaxRank": 30,
       "Themes": "Predator & Prey, Spider",
       "Tactical": "Webbed Embrace",
-      "Image": "Oraxia.png",
+      "Image": "Oraxia_Thumb.png",
       "Type": "Warframe",
       "Introduced": "39",
       "Armor": 125,
-      "FullImages": {
-        "Portrait": "OraxiaFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Oraxia.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Oraxia/Oraxia",
       "Name": "Oraxia",
       "Progenitor": "Toxin",
@@ -5396,13 +5831,16 @@
       "MaxRank": 30,
       "Themes": "Gunslinger",
       "Tactical": "Shatter Shield",
-      "Image": "MesaPrime.png",
+      "Image": "MesaPrime_Thumb.png",
       "Type": "Warframe",
       "Introduced": "24.2.2",
       "Armor": 135,
-      "FullImages": {
-        "Portrait": "MesaPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "MesaPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Cowgirl/MesaPrime",
       "Name": "Mesa Prime",
       "Progenitor": "Magnetic",
@@ -5442,13 +5880,16 @@
       "MaxRank": 30,
       "Themes": "Swordsman",
       "Tactical": "Radial Blind",
-      "Image": "ExcaliburPrime.png",
+      "Image": "ExcaliburPrime_Thumb.png",
       "Vaulted": "N/A",
       "Introduced": "5",
       "Armor": 315,
-      "FullImages": {
-        "Portrait": "ExcaliburPrimeFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "ExcaliburPrime.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
       "Type": "Warframe",
       "Progenitor": "Electricity",
@@ -5487,13 +5928,16 @@
       "MaxRank": 30,
       "Themes": "Glam Rock, Pyromania, Techrot",
       "Tactical": "Pyrotechnics",
-      "Image": "Temple.png",
+      "Image": "Temple_Thumb.png",
       "Type": "Warframe",
       "Introduced": "38.5",
       "Armor": 325,
-      "FullImages": {
-        "Portrait": "Temple.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Temple.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/Temple/Temple",
       "Name": "Temple",
       "Progenitor": "Heat",
@@ -5536,9 +5980,12 @@
         "V",
         "V"
       ],
-      "FullImages": {
-        "Default": "KullervoFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "Kullervo.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
       "Type": "Warframe",
       "Link": "Kullervo",
@@ -5553,7 +6000,7 @@
       "Description": "Kullervo answers for his sins and the sins of others. His daggers and melee prowess deal high damage. Seize the power of treachery to slake his thirst for revenge.",
       "Conclave": false,
       "Shield": 0,
-      "Image": "Kullervo.png",
+      "Image": "Kullervo_Thumb.png",
       "Armor": 550,
       "Progenitor": "Heat",
       "SquadPortrait": "KullervoLargePortrait.png",
@@ -5587,9 +6034,12 @@
       "Image": "Voidrig.png",
       "Introduced": "29",
       "Armor": 385,
-      "FullImages": {
-        "Portrait": "VoidrigFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "VoidrigFull.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/EntratiMech/NechroTech",
       "Type": "Necramech",
       "Link": "Voidrig",
@@ -5628,9 +6078,12 @@
       "Image": "Bonewidow.png",
       "Introduced": "29.5",
       "Armor": 480,
-      "FullImages": {
-        "Portrait": "BonewidowFull.png"
-      },
+      "FullImages": [
+        {
+          "TabName": "Portrait",
+          "Image": "BonewidowFull.png"
+        }
+      ],
       "InternalName": "/Lotus/Powersuits/EntratiMech/ThanoTech",
       "Type": "Necramech",
       "Link": "Bonewidow",

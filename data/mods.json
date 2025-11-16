@@ -2355,7 +2355,7 @@
       "Introduced": "TBA",
       "Polarity": "Madurai",
       "InternalName": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveBasmuAugmentMod",
-      "Icon": "DreadfulKillshot.png",
+      "Icon": "DreadfulKillshot.jpg",
       "CodexSecret": false
     },
     "Tesla Bank": {
@@ -8033,7 +8033,7 @@
       "Introduced": "TBA",
       "Polarity": "Madurai",
       "InternalName": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveHemaAugmentMod",
-      "Icon": "NecrophagicVigor.png",
+      "Icon": "NecrophagicVigor.jpg",
       "CodexSecret": false
     },
     "Strain Infection": {
@@ -9627,7 +9627,8 @@
       "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Peculiars/FlowerPowerMod",
       "Incompatible": [
         "Peculiar Audience",
-        "Peculiar Growth"
+        "Peculiar Growth",
+        "Peculiar End"
       ],
       "CodexSecret": false
     },
@@ -14856,7 +14857,8 @@
       "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Peculiars/EvilSpiritMod",
       "Incompatible": [
         "Peculiar Growth",
-        "Peculiar Bloom"
+        "Peculiar Bloom",
+        "Peculiar End"
       ],
       "CodexSecret": false
     },
@@ -15650,7 +15652,7 @@
       "Link": "Untime Rift",
       "BaseDrain": 6,
       "IsAbilityAugment": true,
-      "Tradeable": true,
+      "Tradable": true,
       "Rarity": "Rare",
       "Image": "UntimeRiftMod.png",
       "Name": "Untime Rift",
@@ -23408,8 +23410,8 @@
       "Class": "Peculiar",
       "MaxRank": 5,
       "Image": "PeculiarEndMod.png",
-      "Introduced": "TBA",
-      "Icon": "PeculiarEnd.png",
+      "Introduced": "40.0.5.1",
+      "Icon": "PeculiarEnd.jpg",
       "Transmutable": false,
       "Type": "Warframe",
       "Rarity": "Common",
@@ -23419,6 +23421,11 @@
       "Name": "Peculiar End",
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Peculiars/DissolveEnemyMod",
+      "Incompatible": [
+        "Peculiar Audience",
+        "Peculiar Growth",
+        "Peculiar Bloom"
+      ],
       "CodexSecret": false
     },
     "Neutralizing Justice": {

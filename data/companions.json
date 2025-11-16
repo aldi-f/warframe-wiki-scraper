@@ -2229,7 +2229,7 @@
         {
           "Image": "blueprint.png",
           "Description": "With 'Auto Omni' and 'Cordon' as default Precepts, this Sentinel is the ideal companion for long voyages aboard a Railjack. Note: This item requires two open slots.",
-          "Tradable": false,
+          "Tradable": true,
           "Name": "Blueprint",
           "InternalName": "/Lotus/Types/Recipes/SentinelRecipes/EmpyreanSentinelBlueprint",
           "ItemCount": 1
@@ -2237,7 +2237,7 @@
         {
           "Image": "carapace.png",
           "Description": "A sentinel-crafting component.",
-          "Tradable": false,
+          "Tradable": true,
           "Name": "Carapace",
           "ItemCount": 1,
           "ExcludeFromCodex": true,
@@ -2246,7 +2246,7 @@
         {
           "Image": "cerebrum.png",
           "Description": "A sentinel-crafting component.",
-          "Tradable": false,
+          "Tradable": true,
           "Name": "Cerebrum",
           "ItemCount": 1,
           "ExcludeFromCodex": true,
@@ -2263,7 +2263,7 @@
         {
           "Image": "systems.png",
           "Description": "A sentinel-crafting component.",
-          "Tradable": false,
+          "Tradable": true,
           "Name": "Systems",
           "ItemCount": 1,
           "ExcludeFromCodex": true,

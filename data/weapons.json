@@ -4793,7 +4793,7 @@
         "MinSpread": 0,
         "IsSilent": false,
         "Range": 25,
-        "FireRate": 1,
+        "FireRate": 1.67,
         "Multishot": 6,
         "MaxSpread": 0,
         "Ammocost": 4,
@@ -8958,9 +8958,8 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Rifle",
     "MaxRank": 40,
-    "Mastery": 17,
     "Image": "CodaHema.png",
-    "Tradable": 3,
+    "Mastery": 17,
     "Introduced": "38.5",
     "Polarities": [
       "V",
@@ -12720,14 +12719,14 @@
     "CompatibilityTags": [
       "SINGLESHOT"
     ],
-    "Reload": 2,
+    "Reload": 1.9,
     "AmmoPickup": 15,
     "IsLichWeapon": true,
     "Name": "Kuva Hek",
     "Attacks": [
       {
         "CritChance": 0.23,
-        "StatusChance": 0.13,
+        "StatusChance": 0.133,
         "FireRate": 2.17,
         "MaxSpread": 16,
         "Falloff": {
@@ -32623,27 +32622,28 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Tonfa",
     "HeavyAttack": 660,
+    "Slot": "Melee",
     "Image": "Tonkkatt.png",
     "BlockAngle": 60,
     "Introduced": "38.5.11",
     "Polarities": [
       "Madurai"
     ],
-    "StancePolarity": "Naramon",
-    "InternalName": "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon",
     "Traits": [
       "Grineer"
     ],
-    "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Grineer/Melee/Tonfa/GrnChainSawTonfa/GrnChainSawTonfaWeapon",
+    "Name": "Tonkkatt",
+    "StancePolarity": "Naramon",
     "WindUp": 0.7,
-    "Slot": "Melee",
-    "Link": "Tonkkatt",
     "SlideAttack": 330,
+    "Link": "Tonkkatt",
+    "SellPrice": 5000,
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "TONFA_STANCE"
     ],
-    "Name": "Tonkkatt",
+    "MeleeRange": 2.5,
     "Attacks": [
       {
         "CritChance": 0.23,
@@ -32700,13 +32700,13 @@
         "CritMultiplier": 2.1
       }
     ],
-    "MeleeRange": 2.5,
-    "ComboDur": 5,
     "MaxRank": 30,
-    "Family": "Tonkkatt",
+    "ComboDur": 5,
     "Mastery": 9,
+    "Family": "Tonkkatt",
+    "FollowThrough": 0.6,
     "Disposition": 0.5,
-    "FollowThrough": 0.6
+    "CodexSecret": true
   },
   "Gram Prime": {
     "Conclave": true,
@@ -37123,27 +37123,28 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Sword and Shield",
     "HeavyAttack": 2364,
+    "Slot": "Melee",
     "Image": "Tak&Lug.png",
     "BlockAngle": 70,
     "Introduced": "38.5.11",
     "Polarities": [
       "Vazarin"
     ],
-    "StancePolarity": "Madurai",
-    "InternalName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MortiforShieldAndSword/MortiforShieldAndSword",
     "Traits": [
       "Grineer"
     ],
-    "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MortiforShieldAndSword/MortiforShieldAndSword",
+    "Name": "Tak & Lug",
+    "StancePolarity": "Madurai",
     "WindUp": 0.7,
-    "Slot": "Melee",
-    "Link": "Tak & Lug",
     "SlideAttack": 197,
+    "Link": "Tak & Lug",
+    "SellPrice": 5000,
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "SWORDS_AND_SHIELD_STANCE"
     ],
-    "Name": "Tak & Lug",
+    "MeleeRange": 2.5,
     "Attacks": [
       {
         "CritChance": 0.21,
@@ -37200,13 +37201,13 @@
         "CritMultiplier": 1.9
       }
     ],
-    "MeleeRange": 2.5,
-    "ComboDur": 5,
     "MaxRank": 30,
-    "Family": "Tak & Lug",
+    "ComboDur": 5,
     "Mastery": 9,
+    "Family": "Tak & Lug",
+    "FollowThrough": 0.6,
     "Disposition": 0.5,
-    "FollowThrough": 0.6
+    "CodexSecret": true
   },
   "Broken Scepter": {
     "Conclave": true,
@@ -50030,7 +50031,7 @@
         "IsSilent": true,
         "ShotType": "AoE",
         "Damage": {
-          "Blast": 1080
+          "Electricity": 1080
         },
         "CritMultiplier": 2
       }
@@ -56641,11 +56642,12 @@
     "Image": "Artax.png",
     "Introduced": "19.10",
     "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin",
-    "SellPrice": 1250,
+    "Mastery": 0,
     "Traits": [
       "Tenno"
     ],
     "Slot": "Robotic",
+    "SellPrice": 1250,
     "Accuracy": 100,
     "Trigger": "Held",
     "Magazine": 100,
@@ -56675,13 +56677,15 @@
         "CritMultiplier": 1.5
       }
     ],
-    "Link": "Artax",
+    "AmmoType": "None",
     "Name": "Artax",
-    "Mastery": 0,
+    "Link": "Artax",
     "Family": "Artax",
     "AmmoMax": "inf",
     "Disposition": 1,
-    "AmmoType": "None"
+    "DefaultUpgrades": [
+      "/Lotus/Upgrades/Mods/Sentinel/GremlinColdMod"
+    ]
   },
   "Sweeper": {
     "Conclave": false,
@@ -64531,7 +64535,7 @@
         "AmmoCost": 3,
         "Multishot": 1,
         "Range": 100,
-        "IsSilent": false,
+        "IsSilent": true,
         "AttackName": "Normal Attack",
         "PunchThrough": 0,
         "ShotType": "Hit-Scan",
@@ -64581,7 +64585,7 @@
         "Range": 32,
         "AmmoCost": 10,
         "Multishot": 1,
-        "IsSilent": false,
+        "IsSilent": true,
         "ForcedProcs": [
           "Impact"
         ],
@@ -65586,7 +65590,7 @@
         "AmmoCost": 3,
         "Multishot": 1,
         "FireRate": 5.67,
-        "IsSilent": false,
+        "IsSilent": true,
         "AttackName": "Normal Attack",
         "PunchThrough": 0,
         "ShotType": "Projectile",

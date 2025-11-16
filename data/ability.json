@@ -572,6 +572,7 @@
     "Nokko": [
       "Sporespring",
       "Brightbonnet",
+      "Vital Decay",
       "Stinkbrain",
       "Reroot"
     ],
@@ -2731,6 +2732,18 @@
       "Key": 3,
       "Icon": "Eclipse130xWhite.png",
       "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility"
+    },
+    "Vital Decay": {
+      "Description": "Upon receiving fatal damage, Nokko reverts to his Sprodling form and his activem ushrooms wil glow, reviving Nokko when touched. Orbs spawned will grant a speed boost but not healing. If a glowing mushroom is not reached in time, Nokko will automatically use a self-revive. ",
+      "Cost": 0,
+      "Subsumable": false,
+      "CardImage": "PassiveAbility.png",
+      "Name": "Vital Decay",
+      "Introduced": "40",
+      "Powersuit": "Nokko",
+      "Key": 0,
+      "Icon": "PassiveAbility.png",
+      "InternalName": ""
     },
     "Catalyze": {
       "Description": "Catalyst Probes erupt from Lavos and douse combatants in a fiery gel. Damage is doubled for each element afflicting an enemy.\r\n\r\nHold to imbue the next ability cast with <DT_FIRE_COLOR>Heat.",

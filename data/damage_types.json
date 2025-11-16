@@ -991,7 +991,7 @@
         ]
       ],
       "Type": "Health",
-      "Link": "Infested (Health)",
+      "Link": "Damage 2.0/Infested",
       "Color": "#606B6B",
       "Positives": [
         [

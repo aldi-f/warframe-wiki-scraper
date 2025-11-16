@@ -117,7 +117,7 @@
   },
   "Nightcap": {
     "Image": "NightcapIcon.png",
-    "Description": "",
+    "Description": "Find Mushroom samples in the Deepmines",
     "Introduced": "40",
     "Name": "Nightcap",
     "Link": "Nightcap"

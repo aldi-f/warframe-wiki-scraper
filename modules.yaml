@@ -1,7 +1,7 @@
 modules:
   Module:Ability:
     file: ./data/ability.json
-    last_updated: '2025-10-26T16:42:48Z'
+    last_updated: '2025-12-13T05:45:45Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -16,7 +16,7 @@ modules:
       token: +\
   Module:Arcane:
     file: ./data/arcane.json
-    last_updated: '2025-10-17T20:21:56Z'
+    last_updated: '2025-12-13T15:14:20Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -31,7 +31,7 @@ modules:
       token: +\
   Module:Blueprints:
     file: ./data/blueprints.json
-    last_updated: '2025-10-26T15:23:43Z'
+    last_updated: '2025-12-12T23:40:57Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -77,7 +77,7 @@ modules:
   #     token: +\
   Module:DamageTypes:
     file: ./data/damage_types.json
-    last_updated: '2025-11-15T13:29:31Z'
+    last_updated: '2025-12-13T20:43:02Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -92,7 +92,7 @@ modules:
       token: +\
   Module:DropTables:
     file: ./data/drop_tables.json
-    last_updated: '2025-11-15T13:27:15Z'
+    last_updated: '2025-12-13T20:33:16Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -108,7 +108,7 @@ modules:
   Module:Enemies:
     file: ./data/enemies.json
     last_updated: '2025-11-12T14:03:27Z'
-    error: ''
+    error: "'print'"
     request_body:
       action: scribunto-console
       format: json
@@ -122,7 +122,7 @@ modules:
       token: +\
   Module:Factions:
     file: ./data/factions.json
-    last_updated: '2025-11-03T07:52:35Z'
+    last_updated: '2025-12-11T04:39:56Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -137,7 +137,7 @@ modules:
       token: +\
   Module:Missions:
     file: ./data/missions.json
-    last_updated: '2025-10-23T02:57:54Z'
+    last_updated: '2025-12-12T12:51:01Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -152,7 +152,7 @@ modules:
       token: +\
   Module:Mods:
     file: ./data/mods.json
-    last_updated: '2025-11-15T05:55:38Z'
+    last_updated: '2025-12-13T20:41:14Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -167,7 +167,7 @@ modules:
       token: +\
   Module:TennoGen:
     file: ./data/tennogen.json
-    last_updated: '2025-10-02T17:36:00Z'
+    last_updated: '2025-12-10T03:03:06Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -182,7 +182,7 @@ modules:
       token: +\
   Module:Void:
     file: ./data/void.json
-    last_updated: '2025-11-15T13:25:42Z'
+    last_updated: '2025-12-13T15:18:55Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -197,7 +197,7 @@ modules:
       token: +\
   Module:Warframes:
     file: ./data/warframes.json
-    last_updated: '2025-11-15T13:21:36Z'
+    last_updated: '2025-12-13T05:12:34Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -212,7 +212,7 @@ modules:
       token: +\
   Module:Weapons:
     file: ./data/weapons.json
-    last_updated: '2025-11-15T05:55:36Z'
+    last_updated: '2025-12-13T15:21:22Z'
     error: ''
     request_body:
       action: scribunto-console

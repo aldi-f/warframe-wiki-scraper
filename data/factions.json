@@ -143,6 +143,13 @@
     "Name": "Solaris United",
     "Link": "Solaris United"
   },
+  "Anarch": {
+    "Image": "AnarchIcon.png",
+    "Description": "",
+    "Introduced": "41",
+    "Name": "Anarch",
+    "Link": "Anarch"
+  },
   "Cavia": {
     "Image": "Cavia Syndicate Logo 1.png",
     "Description": "Animals sent into the Void by Albrecht Entrati, the three surviving Cavia came back changed forever. They gained human intelligence, but could only speak incoherent Voidtongue until the Jahu Gargoyle made them intelligible. Despite what Albrecht did to them, they have resolved to assist his chosen Operator.",

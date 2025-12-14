@@ -2759,12 +2759,12 @@
       "SellPrice": 10000,
       "Portrait": "UrielIcon272.png",
       "Polarities": [
-        "Madurai",
-        "Madurai"
+        "Naramon",
+        "Vazarin"
       ],
       "InitialEnergy": 50,
       "Subsumed": "Remedium",
-      "AuraPolarity": "Vazarin",
+      "AuraPolarity": "Madurai",
       "Abilities": [
         "Infernalis",
         "Remedium",

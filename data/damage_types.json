@@ -312,6 +312,37 @@
       "InternalName": "RK_NEUTRAL",
       "Name": "Object"
     },
+    "Anarchs": {
+      "Negatives": [
+        [
+          "Radiation",
+          50
+        ]
+      ],
+      "Type": "Health",
+      "Link": "Damage/Anarchs",
+      "Color": "#5B7067",
+      "Positives": [
+        [
+          "Impact",
+          50
+        ],
+        [
+          "Electricity",
+          50
+        ]
+      ],
+      "DarkModeColor": "#97bbac",
+      "ColorBorder": "#728C80",
+      "CSSTextColorClass": "var(--faction-anarch-text-color)",
+      "Faction": [
+        "Anarchs"
+      ],
+      "ColorBackground": "#D4DCD9",
+      "Name": "Anarchs",
+      "InternalName": "RK_OROKIN_EMPIRE_FACTION",
+      "Introduced": "41"
+    },
     "Infested (Damage 2.0)": {
       "Negatives": [
         [
@@ -469,36 +500,44 @@
       "InternalName": "RK_ZARIMAN_FACTION",
       "Introduced": "36"
     },
-    "Anarch": {
+    "Ferrite Armor": {
       "Negatives": [
         [
-          "Radiation",
-          50
-        ]
-      ],
-      "Type": "Health",
-      "Link": "Damage/Anarch",
-      "Color": "#5B7067",
-      "Positives": [
-        [
-          "Impact",
-          50
+          "Blast",
+          25
         ],
         [
-          "Electricity",
+          "Slash",
+          15
+        ]
+      ],
+      "Type": "Armor",
+      "Link": "Ferrite Armor",
+      "Color": "#6B6660",
+      "Positives": [
+        [
+          "Corrosive",
+          75
+        ],
+        [
+          "Puncture",
           50
         ]
       ],
-      "DarkModeColor": "#97bbac",
-      "ColorBorder": "#728C80",
-      "CSSTextColorClass": "var(--faction-anarch-text-color)",
+      "DarkModeColor": "#ceaa7f",
+      "Nickname": "Ferrite",
+      "ColorBorder": "#857F79",
+      "Name": "Ferrite Armor",
       "Faction": [
-        "Anarch"
+        "Grineer"
       ],
-      "ColorBackground": "#D4DCD9",
-      "Name": "Anarch",
-      "InternalName": "RK_OROKIN_EMPIRE_FACTION",
-      "Introduced": "41"
+      "ColorBackground": "#DAD8D6",
+      "Introduced": "11",
+      "Bypass": [
+        "Cinematic",
+        "True"
+      ],
+      "InternalName": "RK_ARMOR"
     },
     "Robotic": {
       "Negatives": [
@@ -748,6 +787,29 @@
       "InternalName": "RK_OROKIN_FACTION",
       "Introduced": "36"
     },
+    "Tenno Armor": {
+      "Type": "Armor",
+      "Link": "Tenno Armor",
+      "Color": "#6B6B60",
+      "DarkModeColor": "#c2c25e",
+      "Name": "Tenno Armor",
+      "Faction": [
+        "Tenno"
+      ],
+      "ColorBackground": "#DADAD6",
+      "ColorBorder": "#858579",
+      "InternalName": "RK_TENNO_ARMOR",
+      "Bypass": [
+        [
+          "Cinematic",
+          50
+        ],
+        [
+          "True",
+          50
+        ]
+      ]
+    },
     "Shield": {
       "Negatives": [
         [
@@ -785,28 +847,30 @@
       ],
       "InternalName": "RK_SHIELD"
     },
-    "Tenno Armor": {
-      "Type": "Armor",
-      "Link": "Tenno Armor",
-      "Color": "#6B6B60",
-      "DarkModeColor": "#c2c25e",
-      "Name": "Tenno Armor",
-      "Faction": [
-        "Tenno"
-      ],
-      "ColorBackground": "#DADAD6",
-      "ColorBorder": "#858579",
-      "InternalName": "RK_TENNO_ARMOR",
-      "Bypass": [
+    "Infested": {
+      "Type": "Health",
+      "Link": "Damage/Infested",
+      "Color": "#606B6B",
+      "Positives": [
         [
-          "Cinematic",
+          "Heat",
           50
         ],
         [
-          "True",
+          "Slash",
           50
         ]
-      ]
+      ],
+      "DarkModeColor": "#9db9b9",
+      "ColorBorder": "#798585",
+      "CSSTextColorClass": "var(--faction-infested-text-color)",
+      "Faction": [
+        "Infested"
+      ],
+      "ColorBackground": "#D6DADA",
+      "Name": "Infested",
+      "InternalName": "RK_INFESTED_FACTION",
+      "Introduced": "36"
     },
     "Fossilized": {
       "Negatives": [
@@ -850,31 +914,6 @@
       "Nickname": "Fossil",
       "InternalName": "RK_FOSSILIZED",
       "Introduced": "11"
-    },
-    "Infested": {
-      "Type": "Health",
-      "Link": "Damage/Infested",
-      "Color": "#606B6B",
-      "Positives": [
-        [
-          "Heat",
-          50
-        ],
-        [
-          "Slash",
-          50
-        ]
-      ],
-      "DarkModeColor": "#9db9b9",
-      "ColorBorder": "#798585",
-      "CSSTextColorClass": "var(--faction-infested-text-color)",
-      "Faction": [
-        "Infested"
-      ],
-      "ColorBackground": "#D6DADA",
-      "Name": "Infested",
-      "InternalName": "RK_INFESTED_FACTION",
-      "Introduced": "36"
     },
     "Tenno Shield": {
       "Negatives": [
@@ -956,45 +995,6 @@
           50
         ]
       ]
-    },
-    "Ferrite Armor": {
-      "Negatives": [
-        [
-          "Blast",
-          25
-        ],
-        [
-          "Slash",
-          15
-        ]
-      ],
-      "Type": "Armor",
-      "Link": "Ferrite Armor",
-      "Color": "#6B6660",
-      "Positives": [
-        [
-          "Corrosive",
-          75
-        ],
-        [
-          "Puncture",
-          50
-        ]
-      ],
-      "DarkModeColor": "#ceaa7f",
-      "Nickname": "Ferrite",
-      "ColorBorder": "#857F79",
-      "Name": "Ferrite Armor",
-      "Faction": [
-        "Grineer"
-      ],
-      "ColorBackground": "#DAD8D6",
-      "Introduced": "11",
-      "Bypass": [
-        "Cinematic",
-        "True"
-      ],
-      "InternalName": "RK_ARMOR"
     },
     "Flesh": {
       "Negatives": [
@@ -1676,7 +1676,7 @@
     "Impact": {
       "Kuva Grineer": 50,
       "Tenno Shield": -50,
-      "Anarch": 50,
+      "Anarchs": 50,
       "Scaldra": 50,
       "Grineer": 50
     },
@@ -1684,6 +1684,11 @@
       "Corpus Amalgam": -50,
       "Tenno Shield": -50,
       "Infested Deimos": 50
+    },
+    "Anarchs": {
+      "Radiation": -50,
+      "Electricity": 50,
+      "Impact": 50
     },
     "Void": {
       "Overguard": 50,
@@ -1702,11 +1707,6 @@
     "Cinematic": {
       "Tenno Armor": 0
     },
-    "Anarch": {
-      "Radiation": -50,
-      "Electricity": 50,
-      "Impact": 50
-    },
     "Scaldra": {
       "Corrosive": 50,
       "Gas": -50,
@@ -1721,36 +1721,37 @@
     "True": {
       "Tenno Armor": 0
     },
-    "Viral": {
-      "The Murmur": -50,
-      "Orokin": 50,
-      "Tenno Shield": -50,
-      "Infested Deimos": -50
+    "Corpus Amalgam": {
+      "Blast": -50,
+      "Electricity": 50,
+      "Magnetic": 50
     },
-    "Slash": {
-      "Infested": 50,
+    "Radiation": {
       "Tenno Shield": -50,
-      "Narmer": 50
+      "Anarchs": -50,
+      "Sentient": 50,
+      "Orokin": -50,
+      "The Murmur": 50
     },
     "Infested Deimos": {
       "Blast": 50,
       "Viral": -50,
       "Gas": 50
     },
-    "Tau": {
-      "Tenno Shield": -50
+    "Slash": {
+      "Infested": 50,
+      "Tenno Shield": -50,
+      "Narmer": 50
     },
     "Orokin": {
       "Puncture": 50,
       "Radiation": -50,
       "Viral": 50
     },
-    "Radiation": {
-      "Tenno Shield": -50,
-      "Sentient": 50,
-      "Orokin": -50,
-      "The Murmur": 50,
-      "Anarch": -50
+    "The Murmur": {
+      "Radiation": 50,
+      "Electricity": 50,
+      "Viral": -50
     },
     "Tenno Armor": {
       "Cinematic": 0,
@@ -1767,30 +1768,29 @@
       "Slash": 50,
       "Heat": 50
     },
+    "Tau": {
+      "Tenno Shield": -50
+    },
     "Toxin": {
       "Tenno Shield": 0,
       "Narmer": 50
     },
-    "Corpus Amalgam": {
-      "Blast": -50,
-      "Electricity": 50,
-      "Magnetic": 50
-    },
-    "Narmer": {
-      "Slash": 50,
-      "Magnetic": -50,
-      "Toxin": 50
+    "Viral": {
+      "The Murmur": -50,
+      "Orokin": 50,
+      "Tenno Shield": -50,
+      "Infested Deimos": -50
     },
     "Electricity": {
       "Corpus Amalgam": 50,
       "The Murmur": 50,
       "Tenno Shield": -50,
-      "Anarch": 50
+      "Anarchs": 50
     },
-    "The Murmur": {
-      "Radiation": 50,
-      "Electricity": 50,
-      "Viral": -50
+    "Narmer": {
+      "Slash": 50,
+      "Magnetic": -50,
+      "Toxin": 50
     },
     "Grineer": {
       "Impact": 50,
@@ -2037,7 +2037,7 @@
       "Negatives": [
         "Orokin",
         "Tenno Shield",
-        "Anarch"
+        "Anarchs"
       ],
       "GlyphImage": "EssentialRadiationGlyph.png",
       "Color": "#806000",
@@ -2290,7 +2290,7 @@
         "Grineer",
         "Kuva Grineer",
         "Scaldra",
-        "Anarch"
+        "Anarchs"
       ],
       "CSSBackgroundColorClass": "var(--dt-impact-background-color)",
       "Name": "Impact",
@@ -2438,7 +2438,7 @@
       "Positives": [
         "Corpus Amalgam",
         "The Murmur",
-        "Anarch"
+        "Anarchs"
       ],
       "CSSBackgroundColorClass": "var(--dt-electricity-background-color)",
       "Name": "Electricity",

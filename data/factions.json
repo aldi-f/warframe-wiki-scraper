@@ -102,6 +102,13 @@
     "Name": "Operational Supply",
     "Link": "Operational Supply"
   },
+  "Anarchs": {
+    "Image": "IconAnarchs.png",
+    "Description": "",
+    "Introduced": "41",
+    "Name": "Anarchs",
+    "Link": "Anarchs"
+  },
   "Corrupted": {
     "Link": "Corrupted",
     "Image": "IconOrokinOn.png",
@@ -142,13 +149,6 @@
     "Introduced": "24",
     "Name": "Solaris United",
     "Link": "Solaris United"
-  },
-  "Anarch": {
-    "Image": "AnarchIcon.png",
-    "Description": "",
-    "Introduced": "41",
-    "Name": "Anarch",
-    "Link": "Anarch"
   },
   "Cavia": {
     "Image": "Cavia Syndicate Logo 1.png",

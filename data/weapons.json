@@ -331,7 +331,7 @@
     ],
     "Family": "Phantasma",
     "AmmoMax": 275,
-    "Disposition": 1.05,
+    "Disposition": 1.1,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/LongGuns/RevenantShotgun/RevenantShotgunInnateMod"
     ]
@@ -705,7 +705,7 @@
     ],
     "Family": "Ignis",
     "AmmoMax": 150,
-    "Disposition": 0.6,
+    "Disposition": 0.65,
     "AmmoType": "Primary"
   },
   "Zhuge": {
@@ -2419,7 +2419,7 @@
     ],
     "Family": "EFV-5Jupiter",
     "AmmoMax": 540,
-    "Disposition": 0.85,
+    "Disposition": 0.95,
     "AmmoType": "Primary"
   },
   "Cinta": {
@@ -4352,7 +4352,7 @@
     ],
     "Family": "Sporothrix",
     "AmmoMax": 45,
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "AmmoType": "Primary"
   },
   "Karak Wraith": {
@@ -4710,7 +4710,7 @@
     ],
     "Family": "Bassocyst",
     "AmmoMax": 96,
-    "Disposition": 0.65,
+    "Disposition": 0.6,
     "AmmoType": "Primary"
   },
   "Kohm": {
@@ -6147,7 +6147,7 @@
     ],
     "Family": "Purgator 1",
     "AmmoMax": 20,
-    "Disposition": 0.9,
+    "Disposition": 1,
     "AmmoType": "Primary"
   },
   "Quanta": {
@@ -6522,17 +6522,18 @@
     "Class": "Rifle",
     "MaxRank": 30,
     "Image": "Vinquibus.png",
+    "AmmoType": "Primary",
     "Introduced": "41",
     "Polarities": [
       "Madurai",
       "Aura"
     ],
-    "Link": "Vinquibus",
-    "InternalName": "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon",
     "Traits": {},
+    "InternalName": "/Lotus/Weapons/Tenno/Bayonet/TnBayonetRifleWeapon",
     "Tradable": 0,
     "Slot": "Primary",
     "SellPrice": 7500,
+    "Mastery": 14,
     "Accuracy": 33.6,
     "Trigger": "Semi-Auto",
     "Magazine": 8,
@@ -6541,7 +6542,7 @@
     ],
     "Reload": 3,
     "AmmoPickup": 8,
-    "Mastery": 14,
+    "Link": "Vinquibus",
     "Name": "Vinquibus (Primary)",
     "Attacks": [
       {
@@ -6567,7 +6568,7 @@
     "Family": "Vinquibus",
     "AmmoMax": 80,
     "Disposition": 0.5,
-    "AmmoType": "Primary"
+    "CodexSecret": true
   },
   "Nagantaka": {
     "Conclave": false,
@@ -7102,7 +7103,7 @@
     ],
     "Family": "Synapse",
     "AmmoMax": 540,
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Infested/LongGuns/InfestedRifleInnateUpgrade"
     ]
@@ -8028,7 +8029,7 @@
     "Link": "Higasa",
     "Family": "Higasa",
     "AmmoMax": 540,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.24,
@@ -8136,7 +8137,7 @@
     ],
     "Family": "Vectis",
     "AmmoMax": 72,
-    "Disposition": 0.95,
+    "Disposition": 1,
     "AmmoType": "Primary"
   },
   "Kuva Drakgoon": {
@@ -8275,7 +8276,7 @@
     ],
     "Family": "Vadarya Prime",
     "AmmoMax": 72,
-    "Disposition": 0.5,
+    "Disposition": 0.65,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/VadaryaPrimePassiveDescUpgrade"
     ]
@@ -8955,7 +8956,7 @@
     "IsLichWeapon": true,
     "Family": "Hema",
     "AmmoMax": 0,
-    "Disposition": 0.8,
+    "Disposition": 0.9,
     "AmmoType": "Primary"
   },
   "Braton Prime": {
@@ -9167,7 +9168,7 @@
     ],
     "Family": "Thornbak",
     "AmmoMax": 540,
-    "Disposition": 0.5,
+    "Disposition": 1,
     "AmmoType": "Primary"
   },
   "Drakgoon": {
@@ -9407,7 +9408,7 @@
     ],
     "Family": "Aeolak",
     "AmmoMax": 400,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "AmmoType": "Primary"
   },
   "Tenora Prime": {
@@ -9796,9 +9797,9 @@
         "StatusChance": 0.27,
         "IsSilent": false,
         "Damage": {
-          "Puncture": 15.65,
-          "Slash": 18.35,
-          "Impact": 20
+          "Puncture": 15.66,
+          "Slash": 18.36,
+          "Impact": 19.98
         }
       }
     ],
@@ -9859,7 +9860,7 @@
     ],
     "Family": "Ignis",
     "AmmoMax": 200,
-    "Disposition": 0.55,
+    "Disposition": 0.6,
     "AmmoType": "Primary"
   },
   "Kuva Karak": {
@@ -10896,7 +10897,7 @@
         "ShotSpeed": 300,
         "MinSpread": 2,
         "PunchThrough": 0,
-        "StatusChance": 0.5,
+        "StatusChance": 0.32,
         "IsSilent": false,
         "Damage": {
           "Puncture": 180,
@@ -11070,7 +11071,7 @@
     ],
     "Family": "Rauta",
     "AmmoMax": 120,
-    "Disposition": 1.05,
+    "Disposition": 1.1,
     "AmmoType": "Primary"
   },
   "Lanka": {
@@ -11442,7 +11443,7 @@
     ],
     "Family": "Evensong",
     "AmmoMax": 72,
-    "Disposition": 1.1,
+    "Disposition": 1.15,
     "AmmoType": "Primary"
   },
   "Felarx": {
@@ -12476,7 +12477,7 @@
     ],
     "Family": "Reconifex",
     "AmmoMax": 1000,
-    "Disposition": 0.8,
+    "Disposition": 0.9,
     "AmmoType": "Primary"
   },
   "Quanta Vandal": {
@@ -12888,7 +12889,7 @@
     ],
     "Family": "Daikyu",
     "AmmoMax": 72,
-    "Disposition": 0.7,
+    "Disposition": 0.8,
     "AmmoType": "Primary"
   },
   "Kuva Hek": {
@@ -12974,7 +12975,7 @@
     ],
     "Family": "Hek",
     "AmmoMax": 120,
-    "Disposition": 0.95,
+    "Disposition": 1,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -13298,12 +13299,16 @@
     ]
   },
   "Kuva Hind": {
+    "Tradable": 3,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Rifle",
     "MaxRank": 40,
-    "Tradable": 3,
     "Magazine": 90,
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
     "Image": "KuvaHind.png",
     "Users": [
       "Kuva Lich"
@@ -13734,7 +13739,7 @@
     ],
     "Family": "Phantasma",
     "AmmoMax": 330,
-    "Disposition": 0.75,
+    "Disposition": 0.8,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/LongGuns/RevenantShotgun/RevenantShotgunInnateMod"
     ]
@@ -15574,8 +15579,8 @@
         "StatusChance": 0.35,
         "IsSilent": false,
         "Damage": {
-          "Puncture": 40.7,
-          "Slash": 46.6,
+          "Puncture": 40.74,
+          "Slash": 46.56,
           "Impact": 9.7
         }
       },
@@ -15753,7 +15758,7 @@
     ],
     "Family": "Gotva",
     "AmmoMax": 840,
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "AmmoType": "Primary"
   },
   "Glaxion Vandal": {
@@ -16139,7 +16144,7 @@
     ],
     "Family": "Daikyu",
     "AmmoMax": 72,
-    "Disposition": 1.25,
+    "Disposition": 1.3,
     "AmmoType": "Primary"
   },
   "Convectrix": {
@@ -17234,7 +17239,7 @@
     ],
     "Family": "Pox",
     "AmmoMax": 40,
-    "Disposition": 0.8,
+    "Disposition": 0.9,
     "AmmoType": "Secondary"
   },
   "Spira": {
@@ -17925,7 +17930,7 @@
     ],
     "Family": "Zylok",
     "AmmoMax": 210,
-    "Disposition": 0.8,
+    "Disposition": 0.85,
     "AmmoType": "Secondary"
   },
   "Quatz": {
@@ -19277,7 +19282,7 @@
     ],
     "Family": "EFV-8 Mars",
     "AmmoMax": 210,
-    "Disposition": 0.8,
+    "Disposition": 0.95,
     "AmmoType": "Secondary"
   },
   "Nukor": {
@@ -20326,7 +20331,7 @@
     ],
     "Family": "Hystrix",
     "AmmoMax": 320,
-    "Disposition": 0.95,
+    "Disposition": 1,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartgunInnateUpgrade"
     ]
@@ -21055,7 +21060,7 @@
     ],
     "Family": "Cantare",
     "AmmoMax": 0,
-    "Disposition": 1,
+    "Disposition": 1.05,
     "AmmoType": "None"
   },
   "Brakk": {
@@ -21486,7 +21491,7 @@
     ],
     "Family": "Tysis",
     "AmmoMax": 210,
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "AmmoType": "Secondary"
   },
   "Regulators": {
@@ -21815,7 +21820,7 @@
     ],
     "Family": "Velox",
     "AmmoMax": 520,
-    "Disposition": 0.8,
+    "Disposition": 0.85,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskAmmoEfficiencyMod",
       "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskAmmoEfficiencySignatureMod",
@@ -22211,6 +22216,33 @@
           "Electricity": 1500
         },
         "CritMultiplier": 1.5
+      },
+      {
+        "CritChance": 0.05,
+        "BurstCount": 4,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 0,
+          "StartRange": 0
+        },
+        "Range": 3,
+        "FireRate": 0.75,
+        "Multishot": 1,
+        "AttackName": "Alt Fire Shot",
+        "ShotType": "AoE",
+        "CritMultiplier": 1.5,
+        "Trigger": "Burst",
+        "BurstDelay": 0.4,
+        "AmmoCost": 100,
+        "MaxSpread": 0,
+        "ShotSpeed": 80,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.1,
+        "IsSilent": false,
+        "Damage": {
+          "Electricity": 500
+        }
       }
     ],
     "AmmoType": "Shields"
@@ -23285,7 +23317,7 @@
     ],
     "Family": "Kompressa",
     "AmmoMax": 144,
-    "Disposition": 0.55,
+    "Disposition": 0.6,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolInnateUpgrade"
     ]
@@ -23998,7 +24030,7 @@
     ],
     "Family": "Vesper 77",
     "AmmoMax": 210,
-    "Disposition": 0.65,
+    "Disposition": 0.75,
     "AmmoType": "Secondary"
   },
   "Dual Toxocyst": {
@@ -24845,28 +24877,29 @@
     "AmmoMax": 0,
     "Attacks": [
       {
-        "StatusChance": 0.1,
         "CritChance": 0.05,
-        "FireRate": 0.833,
-        "ShotSpeed": 80,
-        "IsSilent": false,
         "Falloff": {
           "EndRange": 3,
           "Reduction": 0,
           "StartRange": 0
         },
         "Range": 3,
-        "AmmoCost": 100,
+        "FireRate": 0.833,
         "Multishot": 1,
-        "MinSpread": 0,
-        "MaxSpread": 0,
         "AttackName": "Uncharged Shot",
-        "PunchThrough": 0,
         "ShotType": "AoE",
+        "CritMultiplier": 1.5,
+        "Trigger": "Burst",
+        "AmmoCost": 100,
+        "MaxSpread": 0,
+        "ShotSpeed": 80,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.1,
+        "IsSilent": false,
         "Damage": {
           "Electricity": 500
-        },
-        "CritMultiplier": 1.5
+        }
       },
       {
         "ChargeTime": 2,
@@ -24889,6 +24922,32 @@
           "Electricity": 1500
         },
         "CritMultiplier": 1.5
+      },
+      {
+        "CritChance": 0.05,
+        "BurstCount": 4,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 0,
+          "StartRange": 0
+        },
+        "Range": 3,
+        "FireRate": 0.75,
+        "Multishot": 1,
+        "AttackName": "Alt Fire Shot",
+        "ShotType": "AoE",
+        "CritMultiplier": 1.5,
+        "BurstDelay": 0.4,
+        "AmmoCost": 100,
+        "MaxSpread": 0,
+        "ShotSpeed": 80,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.1,
+        "IsSilent": false,
+        "Damage": {
+          "Electricity": 500
+        }
       }
     ],
     "AmmoType": "Shields"
@@ -25202,7 +25261,7 @@
     ],
     "Family": "Plinx",
     "AmmoMax": 0,
-    "Disposition": 0.75,
+    "Disposition": 0.8,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -25275,7 +25334,7 @@
     ],
     "Family": "Riot-848",
     "AmmoMax": 0,
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "AmmoType": "Secondary"
   },
   "Kuva Seer": {
@@ -26439,7 +26498,7 @@
     ],
     "Family": "Catabolyst",
     "AmmoMax": 155,
-    "Disposition": 0.6,
+    "Disposition": 0.65,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistolReloadFromEmptyMod"
     ]
@@ -26963,7 +27022,7 @@
     ],
     "Family": "Aegrit",
     "AmmoMax": 4,
-    "Disposition": 0.95,
+    "Disposition": 1,
     "AmmoType": "Secondary"
   },
   "Plinx": {
@@ -28391,7 +28450,7 @@
     "MaxRank": 30,
     "Family": "Dorrclave",
     "Mastery": 8,
-    "Disposition": 1,
+    "Disposition": 1.05,
     "FollowThrough": 0.5
   },
   "Mios": {
@@ -30695,7 +30754,7 @@
     "IsLichWeapon": true,
     "Family": "Hirudo",
     "FollowThrough": 0.9,
-    "Disposition": 0.65,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogakeUpgrade"
     ]
@@ -31283,7 +31342,7 @@
     "Mastery": 8,
     "Family": "Quassus",
     "FollowThrough": 0.7,
-    "Disposition": 1.1,
+    "Disposition": 1.15,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanInnateMod"
     ]
@@ -31667,6 +31726,7 @@
     "ComboDur": 5,
     "Family": "Vinquibus",
     "Disposition": 0.5,
+    "CodexSecret": true,
     "HeavySlamAttack": 660,
     "Conclave": false,
     "_TooltipAttackDisplay": 2,
@@ -33083,7 +33143,7 @@
     "Mastery": 8,
     "Family": "Nikana",
     "FollowThrough": 0.7,
-    "Disposition": 0.9,
+    "Disposition": 1,
     "CodexSecret": false
   },
   "Stropha": {
@@ -33643,7 +33703,7 @@
     "MaxRank": 30,
     "Family": "Vastilok",
     "Mastery": 9,
-    "Disposition": 0.85,
+    "Disposition": 0.9,
     "FollowThrough": 0.5
   },
   "Venato": {
@@ -34083,7 +34143,7 @@
     "Mastery": 17,
     "Family": "Caustacyst",
     "IsLichWeapon": true,
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "FollowThrough": 0.6
   },
   "Valkyr Prime Talons": {
@@ -34940,7 +35000,7 @@
     "MaxRank": 30,
     "Family": "Cobra & Crane",
     "Mastery": 14,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "FollowThrough": 0.6
   },
   "Furax": {
@@ -35317,7 +35377,7 @@
     "MaxRank": 30,
     "Family": "Reaper Prime",
     "Mastery": 10,
-    "Disposition": 0.75,
+    "Disposition": 0.8,
     "FollowThrough": 0.6
   },
   "Silva & Aegis Prime": {
@@ -35669,7 +35729,7 @@
     "MaxRank": 30,
     "Family": "Dual Zoren",
     "Mastery": 13,
-    "Disposition": 0.8,
+    "Disposition": 0.85,
     "FollowThrough": 0.5
   },
   "Serro": {
@@ -36481,7 +36541,7 @@
     "MaxRank": 30,
     "Family": "Harmony",
     "Mastery": 10,
-    "Disposition": 0.55,
+    "Disposition": 0.6,
     "FollowThrough": 0.6
   },
   "Coda Mire": {
@@ -36577,7 +36637,7 @@
     "Mastery": 17,
     "Family": "Mire",
     "IsLichWeapon": true,
-    "Disposition": 0.6,
+    "Disposition": 0.65,
     "FollowThrough": 0.6
   },
   "Ruvox": {
@@ -36669,7 +36729,7 @@
     "Mastery": 14,
     "Family": "Ruvox",
     "FollowThrough": 0.9,
-    "Disposition": 0.85,
+    "Disposition": 0.9,
     "CodexSecret": false
   },
   "Heat Dagger": {
@@ -37563,7 +37623,7 @@
     "Mastery": 14,
     "Family": "Tatsu",
     "FollowThrough": 0.7,
-    "Disposition": 0.85,
+    "Disposition": 0.9,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Melee/Swords/TnTwoHandedKatana/TnTwoHandedKatanaFrameInnateMod"
     ]
@@ -38612,24 +38672,24 @@
     "FollowThrough": 0.5
   },
   "Spinnerex": {
-    "_SweepRadius": 0.25,
+    "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Whip",
     "HeavyAttack": 756,
-    "_WindUp": 0.4,
     "Image": "Spinnerex.png",
-    "FollowThrough": 0.5,
+    "BlockAngle": 60,
     "Introduced": "39",
     "Polarities": [
       "Madurai"
     ],
     "InternalName": "/Lotus/Weapons/Tenno/Melee/Whips/SpiderWhip/SpiderWhipWeapon",
     "StancePolarity": "Zenurik",
-    "Slot": "Melee",
-    "SlideAttack": 336,
-    "Link": "Spinnerex",
-    "_Conclave": true,
     "SellPrice": 5000,
+    "WindUp": 0.4,
+    "Slot": "Melee",
+    "Link": "Spinnerex",
+    "SlideAttack": 336,
+    "SweepRadius": 0.25,
     "CompatibilityTags": [
       "WHIPS_STANCE"
     ],
@@ -38647,9 +38707,10 @@
         "CritMultiplier": 2.4
       },
       {
-        "StatusChance": 0.1,
         "CritChance": 0.16,
-        "_ForcedProcs": [
+        "FireRate": 1.36,
+        "StatusChance": 0.1,
+        "ForcedProcs": [
           "Impact"
         ],
         "AttackName": "Slam Attack",
@@ -38662,13 +38723,11 @@
       },
       {
         "CritChance": 0.16,
-        "_ForcedProcs": [
+        "FireRate": 1.36,
+        "StatusChance": 0.1,
+        "ForcedProcs": [
           "Lifted"
         ],
-        "_SlamAttack": {
-          "Toxin": 504
-        },
-        "StatusChance": 0.1,
         "AttackName": "Heavy Slam Attack",
         "IsSilent": true,
         "ShotType": "AoE",
@@ -38681,10 +38740,10 @@
     "MeleeRange": 3,
     "ComboDur": 5,
     "MaxRank": 30,
-    "_BlockAngle": 60,
+    "Family": "Spinnerex",
     "Mastery": 12,
     "Disposition": 0.6,
-    "Family": "Spinnerex"
+    "FollowThrough": 0.5
   },
   "Shadow Claws": {
     "Conclave": false,
@@ -38968,7 +39027,7 @@
     "IsLichWeapon": true,
     "Family": "Motovore",
     "FollowThrough": 0.4,
-    "Disposition": 0.6,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -39054,7 +39113,7 @@
     "MaxRank": 30,
     "Family": "Cobra & Crane",
     "Mastery": 10,
-    "Disposition": 1.3,
+    "Disposition": 1.35,
     "FollowThrough": 0.6
   },
   "Verdilac": {
@@ -40223,7 +40282,7 @@
     "MaxRank": 30,
     "Family": "Argo & Vel",
     "Mastery": 0,
-    "Disposition": 1.1,
+    "Disposition": 1.15,
     "FollowThrough": 0.6
   },
   "Edun": {
@@ -40241,7 +40300,7 @@
     "SlamElement": "Impact",
     "ComboDur": 5,
     "Family": "Edun",
-    "Disposition": 1.05,
+    "Disposition": 1.1,
     "HeavySlamAttack": 660,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
@@ -42119,7 +42178,7 @@
     "MaxRank": 30,
     "Family": "Ekhein",
     "Mastery": 10,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "FollowThrough": 0.4
   },
   "Sancti Magistar": {
@@ -42342,9 +42401,9 @@
         "ShotSpeed": 25,
         "ShotType": "Thrown",
         "Damage": {
-          "Puncture": 81.6,
-          "Slash": 110.4,
-          "Impact": 48
+          "Puncture": 40.8,
+          "Slash": 55.2,
+          "Impact": 24
         },
         "CritMultiplier": 2.4
       },
@@ -43134,7 +43193,7 @@
     "MaxRank": 30,
     "Family": "Corufell",
     "Mastery": 8,
-    "Disposition": 0.95,
+    "Disposition": 1,
     "FollowThrough": 0.4
   },
   "Ninkondi Prime": {
@@ -43747,7 +43806,7 @@
     "MaxRank": 30,
     "Family": "Dual Viciss",
     "Mastery": 14,
-    "Disposition": 0.7,
+    "Disposition": 0.75,
     "FollowThrough": 0.5
   },
   "Dark Split-Sword (Dual Swords)": {
@@ -43979,7 +44038,7 @@
     "Mastery": 13,
     "Family": "Quassus",
     "FollowThrough": 0.7,
-    "Disposition": 0.8,
+    "Disposition": 0.85,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanInnateMod"
     ]
@@ -44478,7 +44537,7 @@
     "MaxRank": 30,
     "Family": "Ohma",
     "Mastery": 12,
-    "Disposition": 0.85,
+    "Disposition": 0.9,
     "FollowThrough": 0.6
   },
   "Caustacyst": {
@@ -46063,7 +46122,7 @@
     "MeleeRange": 3,
     "Family": "Amanata",
     "Mastery": 2,
-    "Disposition": 0.8,
+    "Disposition": 0.85,
     "FollowThrough": 0.6
   },
   "Pangolin Sword": {
@@ -50782,7 +50841,7 @@
     "MaxRank": 30,
     "Family": "Gunsen",
     "Mastery": 12,
-    "Disposition": 0.95,
+    "Disposition": 1,
     "FollowThrough": 0.7
   },
   "Jat Kusar": {
@@ -51904,7 +51963,7 @@
         },
         "Range": 4.8,
         "FireRate": 1,
-        "StatusChance": 0.33,
+        "StatusChance": 0.3,
         "AttackName": "Throw Bounce Explosion",
         "IsSilent": true,
         "ShotType": "AoE",
@@ -51922,7 +51981,7 @@
         },
         "Range": 4.8,
         "FireRate": 1,
-        "StatusChance": 0.33,
+        "StatusChance": 0.3,
         "ForcedProcs": [
           "Toxin",
           "Impact"
@@ -51968,7 +52027,7 @@
         },
         "Range": 4.8,
         "FireRate": 0.833,
-        "StatusChance": 0.34,
+        "StatusChance": 0.3,
         "AttackName": "Charged Throw Bounce Explosion",
         "IsSilent": true,
         "ShotType": "AoE",
@@ -51987,7 +52046,7 @@
         },
         "Range": 4.8,
         "FireRate": 0.833,
-        "StatusChance": 0.34,
+        "StatusChance": 0.3,
         "ForcedProcs": [
           "Toxin",
           "Impact"
@@ -53050,7 +53109,7 @@
     "Link": "Arbucep",
     "Family": "Arbucep",
     "AmmoMax": 0,
-    "Disposition": 0.5,
+    "Disposition": 0.6,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunInnateMod"
     ]
@@ -53485,6 +53544,7 @@
       "Madurai"
     ],
     "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
+    "Slot": "Archgun (Atmosphere)",
     "Traits": [
       "Prisma",
       "Baro"
@@ -53492,7 +53552,7 @@
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 64,
-    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
     "Reload": 1.4,
     "Attacks": [
       {
@@ -53516,13 +53576,13 @@
         "CritMultiplier": 2.2
       }
     ],
-    "SellPrice": 5000,
+    "Link": "Prisma Dual Decurions",
     "Name": "Prisma Dual Decurions (Atmosphere)",
     "Mastery": 1,
     "Family": "Dual Decurion",
     "AmmoMax": 512,
     "Disposition": 1.25,
-    "Link": "Prisma Dual Decurions"
+    "CodexSecret": true
   },
   "Agkuza": {
     "Conclave": false,
@@ -54483,14 +54543,15 @@
       "Madurai",
       "Madurai"
     ],
+    "ReloadStyle": "Regenerate",
     "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
-    "SellPrice": 5000,
     "Traits": [
       "Prisma",
       "Baro"
     ],
     "Tradable": 1,
     "Slot": "Archgun",
+    "SellPrice": 5000,
     "Link": "Prisma Dual Decurions",
     "Trigger": "Auto",
     "Magazine": 64,
@@ -54525,13 +54586,13 @@
         "CritMultiplier": 2.2
       }
     ],
-    "ReloadStyle": "Regenerate",
-    "Name": "Prisma Dual Decurions",
     "ReloadDelay": 0.25,
+    "Name": "Prisma Dual Decurions",
+    "Mastery": 1,
     "Family": "Dual Decurion",
     "AmmoMax": 0,
     "Disposition": 1.25,
-    "Mastery": 1
+    "CodexSecret": true
   },
   "Kuva Ayanga (Atmosphere)": {
     "Conclave": false,
@@ -64837,9 +64898,14 @@
         "CritMultiplier": 1.5
       },
       {
-        "CritChance": 0.03,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 1,
+          "StartRange": 0
+        },
         "FireRate": 1,
-        "Multishot": 10,
+        "Multishot": 9,
         "IsSilent": false,
         "AttackName": "Explosive Fragments",
         "PunchThrough": 0,
@@ -64847,7 +64913,7 @@
         "Damage": {
           "Void": 300
         },
-        "CritMultiplier": 1.5
+        "CritMultiplier": 2
       }
     ],
     "ReloadStyle": "Regenerate",
@@ -64989,11 +65055,15 @@
     "Attacks": [
       {
         "CritChance": 0.2,
+        "ForcedProc": [
+          "Impact"
+        ],
         "StatusChance": 0.2,
-        "Range": 10,
+        "FireRate": 1.33,
+        "Range": 9,
         "AmmoCost": 10,
         "Multishot": 1,
-        "FireRate": 1.33,
+        "ProjectileSpeed": 30,
         "IsSilent": false,
         "AttackName": "Direct Hit",
         "PunchThrough": 0,
@@ -65005,6 +65075,9 @@
       },
       {
         "CritChance": 0.2,
+        "ForcedProc": [
+          "Impact"
+        ],
         "Falloff": {
           "EndRange": 5,
           "Reduction": 0.4,
@@ -65013,7 +65086,7 @@
         "Range": 5,
         "FireRate": 1.33,
         "Multishot": 1,
-        "StatusChance": 0.2,
+        "StatusChance": 0.3,
         "IsSilent": false,
         "AttackName": "Explosion",
         "PunchThrough": 0,
@@ -65355,7 +65428,7 @@
     "Magazine": 0,
     "Family": "Rattleguts",
     "AmmoMax": 700,
-    "Disposition": 0.9,
+    "Disposition": 0.95,
     "AmmoType": "Secondary"
   },
   "Granmu Prism": {
@@ -65379,12 +65452,13 @@
     "Attacks": [
       {
         "CritChance": 0.26,
-        "BurstCount": 3,
         "StatusChance": 0.12,
+        "BurstCount": 3,
+        "FireRate": 1,
         "BurstDelay": 0.15,
         "AmmoCost": 5,
         "Multishot": 1,
-        "FireRate": 1,
+        "ProjectileSpeed": 40,
         "IsSilent": false,
         "AttackName": "Direct Hit",
         "PunchThrough": 0,
@@ -65911,7 +65985,7 @@
     "Link": "Vermisplicer",
     "Family": "Vermisplicer",
     "AmmoMax": 90,
-    "Disposition": 1.1,
+    "Disposition": 1.15,
     "AmmoType": "Secondary"
   },
   "Dehtat": {
@@ -66630,8 +66704,7 @@
         "FireRate": 1,
         "Multishot": 1,
         "ForcedProcs": [
-          "Impact",
-          "Void"
+          "Impact"
         ],
         "AttackName": "Direct Hit",
         "ShotType": "Projectile",

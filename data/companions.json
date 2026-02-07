@@ -1931,7 +1931,7 @@
           "CritChance": 0.1,
           "AttackName": "Medjay Claws",
           "TotalDamage": 350,
-          "StatusChance": 0.05,
+          "StatusChance": 0.2,
           "Damage": {
             "Slash": 175,
             "Viral": 175

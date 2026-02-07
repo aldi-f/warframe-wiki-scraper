@@ -35862,7 +35862,7 @@
         "Entry": [
           "Sagek Prime Receiver Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -35944,37 +35944,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -36070,7 +36065,7 @@
           "Alias": "The Perita Rebellion (Prime Vanguard)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
@@ -36080,7 +36075,7 @@
         "Entry": [
           "Sagek Prime Receiver Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -36162,37 +36157,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -36288,7 +36278,7 @@
           "Alias": "The Perita Rebellion (Dactolyst)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
@@ -36298,7 +36288,7 @@
         "Entry": [
           "Sagek Prime Receiver Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -36380,37 +36370,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -36506,7 +36491,7 @@
           "Alias": "The Perita Rebellion (Hunhullus)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       }
     ],
     "Lavan Engines Mk III": [
@@ -38143,11 +38128,11 @@
         "1": "Missions",
         "2": "The Perita Rebellion (Prime Vanguard)",
         "3": "A",
-        "4": 18,
+        "4": 17,
         "Entry": [
           "Galariak Prime Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -38229,37 +38214,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -38355,17 +38335,17 @@
           "Alias": "The Perita Rebellion (Prime Vanguard)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
         "2": "The Perita Rebellion (Dactolyst)",
         "3": "A",
-        "4": 18,
+        "4": 17,
         "Entry": [
           "Galariak Prime Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -38447,37 +38427,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -38573,17 +38548,17 @@
           "Alias": "The Perita Rebellion (Dactolyst)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
         "2": "The Perita Rebellion (Hunhullus)",
         "3": "A",
-        "4": 18,
+        "4": 17,
         "Entry": [
           "Galariak Prime Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -38665,37 +38640,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -38791,7 +38761,7 @@
           "Alias": "The Perita Rebellion (Hunhullus)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       }
     ],
     "Twin Vipers Wraith Barrels": [
@@ -45111,7 +45081,7 @@
                 2.5
               ],
               [
-                "Lith C13 (Radiant)",
+                "Lith D7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -45126,17 +45096,17 @@
                 2.5
               ],
               [
-                "Lith A10 (Radiant)",
+                "Lith N18 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith O4 (Radiant)",
+                "Lith G14 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith N17 (Radiant)",
+                "Lith L7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -45202,7 +45172,7 @@
                 4.76
               ],
               [
-                "Meso A8 (Radiant)",
+                "Meso P17 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -45212,7 +45182,7 @@
                 2.38
               ],
               [
-                "Meso T8 (Radiant)",
+                "Meso X1 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -45222,22 +45192,22 @@
                 2.38
               ],
               [
-                "Meso G9 (Radiant)",
+                "Meso V13 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso A7 (Radiant)",
+                "Meso Y1 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso P16 (Radiant)",
+                "Meso A9 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso L3 (Radiant)",
+                "Meso V14 (Radiant)",
                 "Relic",
                 2.38
               ]
@@ -45298,7 +45268,7 @@
                 2.5
               ],
               [
-                "Lith C13 (Radiant)",
+                "Lith D7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -45313,17 +45283,17 @@
                 2.5
               ],
               [
-                "Lith A10 (Radiant)",
+                "Lith N18 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith O4 (Radiant)",
+                "Lith G14 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith N17 (Radiant)",
+                "Lith L7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -45349,7 +45319,7 @@
         "Entry": [
           "Sagek Prime Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -45431,37 +45401,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -45557,7 +45522,7 @@
           "Alias": "The Perita Rebellion (Prime Vanguard)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
@@ -45567,7 +45532,7 @@
         "Entry": [
           "Sagek Prime Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -45649,37 +45614,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -45775,7 +45735,7 @@
           "Alias": "The Perita Rebellion (Dactolyst)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
@@ -45785,7 +45745,7 @@
         "Entry": [
           "Sagek Prime Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -45867,37 +45827,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -45993,7 +45948,7 @@
           "Alias": "The Perita Rebellion (Hunhullus)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       }
     ],
     "Hildryn Chassis Blueprint": [
@@ -47122,7 +47077,7 @@
         "Entry": [
           "Sagek Prime Barrel Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -47204,37 +47159,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -47330,225 +47280,7 @@
           "Alias": "The Perita Rebellion (Prime Vanguard)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
         },
-        "Probability": 0.049
-      },
-      {
-        "1": "Missions",
-        "2": "The Perita Rebellion (Prime Vanguard)",
-        "3": "A",
-        "4": 17,
-        "Entry": [
-          "Sagek Prime Barrel Blueprint",
-          "Blueprint",
-          4.9
-        ],
-        "Source": {
-          "Type": "The Perita Rebellion",
-          "Name": "The Perita Rebellion (Prime Vanguard)",
-          "Link": "The Perita Rebellion",
-          "Tier": "Normal",
-          "Rewards": {
-            "A": [
-              [
-                "Credits Cache",
-                "Credits",
-                5,
-                10000
-              ],
-              [
-                "Endo",
-                "Resource",
-                5,
-                2500
-              ],
-              [
-                "Agnovidisc",
-                "Resource",
-                3,
-                150
-              ],
-              [
-                "Laudavi",
-                "Resource",
-                3,
-                60
-              ],
-              [
-                "Servoris",
-                "Resource",
-                3,
-                25
-              ],
-              [
-                "Meso P17",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V12",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso X1",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V11",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V13",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso Y1",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso A9",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V14",
-                "Relic",
-                3.65
-              ],
-              [
-                "Sagek Prime Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Receiver Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Blade Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Handle Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sil-Tabol",
-                "Mod",
-                2.3
-              ],
-              [
-                "Da-Ren",
-                "Mod",
-                2.3
-              ],
-              [
-                "Omn-Evi",
-                "Mod",
-                2.3
-              ],
-              [
-                "Vik-Anam",
-                "Mod",
-                2.3
-              ],
-              [
-                "Kaal-zidi",
-                "Mod",
-                2.3
-              ],
-              [
-                "Ubri-Kaneph",
-                "Mod",
-                1
-              ],
-              [
-                "Metem-Hakh",
-                "Mod",
-                1
-              ],
-              [
-                "Metem-Erun",
-                "Mod",
-                1
-              ],
-              [
-                "Esti Vel-Ikha",
-                "Mod",
-                1
-              ],
-              [
-                "Empazu-Shol",
-                "Mod",
-                1
-              ],
-              [
-                "Lashta-Vak",
-                "Mod",
-                1
-              ]
-            ],
-            "C": [
-              [
-                "Zid-An Haras",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Uskos",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Asheir",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Osbok",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Sek-Eel",
-                "Arcane",
-                20
-              ]
-            ],
-            "B": [
-              [
-                "Ascaris Prime",
-                "Resource",
-                100
-              ]
-            ]
-          },
-          "Alias": "The Perita Rebellion (Prime Vanguard)",
-          "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
-        },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
@@ -47558,7 +47290,7 @@
         "Entry": [
           "Sagek Prime Barrel Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -47640,37 +47372,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -47766,225 +47493,7 @@
           "Alias": "The Perita Rebellion (Dactolyst)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
         },
-        "Probability": 0.049
-      },
-      {
-        "1": "Missions",
-        "2": "The Perita Rebellion (Dactolyst)",
-        "3": "A",
-        "4": 17,
-        "Entry": [
-          "Sagek Prime Barrel Blueprint",
-          "Blueprint",
-          4.9
-        ],
-        "Source": {
-          "Type": "The Perita Rebellion",
-          "Name": "The Perita Rebellion (Dactolyst)",
-          "Link": "The Perita Rebellion",
-          "Tier": "Normal",
-          "Rewards": {
-            "A": [
-              [
-                "Credits Cache",
-                "Credits",
-                5,
-                10000
-              ],
-              [
-                "Endo",
-                "Resource",
-                5,
-                2500
-              ],
-              [
-                "Agnovidisc",
-                "Resource",
-                3,
-                150
-              ],
-              [
-                "Laudavi",
-                "Resource",
-                3,
-                60
-              ],
-              [
-                "Servoris",
-                "Resource",
-                3,
-                25
-              ],
-              [
-                "Meso P17",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V12",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso X1",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V11",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V13",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso Y1",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso A9",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V14",
-                "Relic",
-                3.65
-              ],
-              [
-                "Sagek Prime Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Receiver Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Blade Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Handle Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sil-Tabol",
-                "Mod",
-                2.3
-              ],
-              [
-                "Da-Ren",
-                "Mod",
-                2.3
-              ],
-              [
-                "Omn-Evi",
-                "Mod",
-                2.3
-              ],
-              [
-                "Vik-Anam",
-                "Mod",
-                2.3
-              ],
-              [
-                "Kaal-zidi",
-                "Mod",
-                2.3
-              ],
-              [
-                "Ubri-Kaneph",
-                "Mod",
-                1
-              ],
-              [
-                "Metem-Hakh",
-                "Mod",
-                1
-              ],
-              [
-                "Metem-Erun",
-                "Mod",
-                1
-              ],
-              [
-                "Esti Vel-Ikha",
-                "Mod",
-                1
-              ],
-              [
-                "Empazu-Shol",
-                "Mod",
-                1
-              ],
-              [
-                "Lashta-Vak",
-                "Mod",
-                1
-              ]
-            ],
-            "C": [
-              [
-                "Zid-An Haras",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Uskos",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Asheir",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Osbok",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Sek-Eel",
-                "Arcane",
-                20
-              ]
-            ],
-            "B": [
-              [
-                "Ren Hypercore",
-                "Resource",
-                100
-              ]
-            ]
-          },
-          "Alias": "The Perita Rebellion (Dactolyst)",
-          "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
-        },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
@@ -47994,7 +47503,7 @@
         "Entry": [
           "Sagek Prime Barrel Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -48076,37 +47585,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -48202,225 +47706,7 @@
           "Alias": "The Perita Rebellion (Hunhullus)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
         },
-        "Probability": 0.049
-      },
-      {
-        "1": "Missions",
-        "2": "The Perita Rebellion (Hunhullus)",
-        "3": "A",
-        "4": 17,
-        "Entry": [
-          "Sagek Prime Barrel Blueprint",
-          "Blueprint",
-          4.9
-        ],
-        "Source": {
-          "Type": "The Perita Rebellion",
-          "Name": "The Perita Rebellion (Hunhullus)",
-          "Link": "The Perita Rebellion",
-          "Tier": "Normal",
-          "Rewards": {
-            "A": [
-              [
-                "Credits Cache",
-                "Credits",
-                5,
-                10000
-              ],
-              [
-                "Endo",
-                "Resource",
-                5,
-                2500
-              ],
-              [
-                "Agnovidisc",
-                "Resource",
-                3,
-                150
-              ],
-              [
-                "Laudavi",
-                "Resource",
-                3,
-                60
-              ],
-              [
-                "Servoris",
-                "Resource",
-                3,
-                25
-              ],
-              [
-                "Meso P17",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V12",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso X1",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V11",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V13",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso Y1",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso A9",
-                "Relic",
-                3.65
-              ],
-              [
-                "Meso V14",
-                "Relic",
-                3.65
-              ],
-              [
-                "Sagek Prime Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Receiver Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Blade Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Galariak Prime Handle Blueprint",
-                "Blueprint",
-                4.9
-              ],
-              [
-                "Sil-Tabol",
-                "Mod",
-                2.3
-              ],
-              [
-                "Da-Ren",
-                "Mod",
-                2.3
-              ],
-              [
-                "Omn-Evi",
-                "Mod",
-                2.3
-              ],
-              [
-                "Vik-Anam",
-                "Mod",
-                2.3
-              ],
-              [
-                "Kaal-zidi",
-                "Mod",
-                2.3
-              ],
-              [
-                "Ubri-Kaneph",
-                "Mod",
-                1
-              ],
-              [
-                "Metem-Hakh",
-                "Mod",
-                1
-              ],
-              [
-                "Metem-Erun",
-                "Mod",
-                1
-              ],
-              [
-                "Esti Vel-Ikha",
-                "Mod",
-                1
-              ],
-              [
-                "Empazu-Shol",
-                "Mod",
-                1
-              ],
-              [
-                "Lashta-Vak",
-                "Mod",
-                1
-              ]
-            ],
-            "C": [
-              [
-                "Zid-An Haras",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Uskos",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Asheir",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Osbok",
-                "Arcane",
-                20
-              ],
-              [
-                "Zid-An Sek-Eel",
-                "Arcane",
-                20
-              ]
-            ],
-            "B": [
-              [
-                "Lyroic Bridge",
-                "Resource",
-                100
-              ]
-            ]
-          },
-          "Alias": "The Perita Rebellion (Hunhullus)",
-          "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
-        },
-        "Probability": 0.049
+        "Probability": 0.0571
       }
     ],
     "Zetki Carcinnox Mk I": [
@@ -62374,37 +61660,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -62592,37 +61873,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -62810,37 +62086,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -73120,9 +72391,9 @@
         ],
         "Source": {
           "Type": "H\u00f6llvania Central Mall Bounty",
-          "Name": "H\u00f6llvania Central Mall Bounty Lvl 55-60",
+          "Name": "H\u00f6llvania Central Mall Bounty Lvl 65-70",
           "Link": "H\u00f6llvania Central Mall#Bounties",
-          "Tier": "55-60",
+          "Tier": "65-70",
           "Rewards": {
             "A": [
               [
@@ -73271,37 +72542,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -73489,37 +72755,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -73707,37 +72968,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -124688,37 +123944,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -124906,37 +124157,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -125124,37 +124370,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -132783,9 +132024,9 @@
         ],
         "Source": {
           "Type": "H\u00f6llvania Central Mall Bounty",
-          "Name": "H\u00f6llvania Central Mall Bounty Lvl 95-100",
+          "Name": "H\u00f6llvania Central Mall Bounty Lvl 105-110",
           "Link": "H\u00f6llvania Central Mall#Bounties",
-          "Tier": "95-100",
+          "Tier": "105-110",
           "Rewards": {
             "A": [
               [
@@ -147647,7 +146888,7 @@
                 2.5
               ],
               [
-                "Axi Y2 (Radiant)",
+                "Axi T13 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -147657,7 +146898,7 @@
                 2.5
               ],
               [
-                "Axi V13 (Radiant)",
+                "Axi A20 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -147723,12 +146964,12 @@
                 2.5
               ],
               [
-                "Neo D10 (Radiant)",
+                "Neo C7 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo A15 (Radiant)",
+                "Neo P9 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -147743,17 +146984,17 @@
                 2.5
               ],
               [
-                "Neo T9 (Radiant)",
+                "Neo O3 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo A14 (Radiant)",
+                "Neo K9 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo X1 (Radiant)",
+                "Neo T10 (Radiant)",
                 "Relic",
                 2.5
               ]
@@ -147814,7 +147055,7 @@
                 4.76
               ],
               [
-                "Meso A8 (Radiant)",
+                "Meso P17 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -147824,7 +147065,7 @@
                 2.38
               ],
               [
-                "Meso T8 (Radiant)",
+                "Meso X1 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -147834,22 +147075,22 @@
                 2.38
               ],
               [
-                "Meso G9 (Radiant)",
+                "Meso V13 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso A7 (Radiant)",
+                "Meso Y1 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso P16 (Radiant)",
+                "Meso A9 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso L3 (Radiant)",
+                "Meso V14 (Radiant)",
                 "Relic",
                 2.38
               ]
@@ -153986,37 +153227,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -154204,37 +153440,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -154422,37 +153653,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -155190,9 +154416,9 @@
         ],
         "Source": {
           "Type": "H\u00f6llvania Central Mall Bounty",
-          "Name": "H\u00f6llvania Central Mall Bounty Lvl 65-70",
+          "Name": "H\u00f6llvania Central Mall Bounty Lvl 75-80",
           "Link": "H\u00f6llvania Central Mall#Bounties",
-          "Tier": "65-70",
+          "Tier": "75-80",
           "Rewards": {
             "A": [
               [
@@ -163639,9 +162865,9 @@
         ],
         "Source": {
           "Type": "H\u00f6llvania Central Mall Bounty",
-          "Name": "H\u00f6llvania Central Mall Bounty Lvl 85-90",
+          "Name": "H\u00f6llvania Central Mall Bounty Lvl 95-100",
           "Link": "H\u00f6llvania Central Mall#Bounties",
-          "Tier": "85-90",
+          "Tier": "95-100",
           "Rewards": {
             "A": [
               [
@@ -174980,7 +174206,7 @@
                 2.5
               ],
               [
-                "Axi Y2 (Radiant)",
+                "Axi T13 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -174990,7 +174216,7 @@
                 2.5
               ],
               [
-                "Axi V13 (Radiant)",
+                "Axi A20 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -175056,12 +174282,12 @@
                 2.5
               ],
               [
-                "Neo D10 (Radiant)",
+                "Neo C7 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo A15 (Radiant)",
+                "Neo P9 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -175076,17 +174302,17 @@
                 2.5
               ],
               [
-                "Neo T9 (Radiant)",
+                "Neo O3 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo A14 (Radiant)",
+                "Neo K9 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo X1 (Radiant)",
+                "Neo T10 (Radiant)",
                 "Relic",
                 2.5
               ]
@@ -175147,7 +174373,7 @@
                 4.76
               ],
               [
-                "Meso A8 (Radiant)",
+                "Meso P17 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -175157,7 +174383,7 @@
                 2.38
               ],
               [
-                "Meso T8 (Radiant)",
+                "Meso X1 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -175167,22 +174393,22 @@
                 2.38
               ],
               [
-                "Meso G9 (Radiant)",
+                "Meso V13 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso A7 (Radiant)",
+                "Meso Y1 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso P16 (Radiant)",
+                "Meso A9 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso L3 (Radiant)",
+                "Meso V14 (Radiant)",
                 "Relic",
                 2.38
               ]
@@ -199938,11 +199164,11 @@
         "1": "Missions",
         "2": "The Perita Rebellion (Prime Vanguard)",
         "3": "A",
-        "4": 20,
+        "4": 19,
         "Entry": [
           "Galariak Prime Handle Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -200024,37 +199250,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -200150,17 +199371,17 @@
           "Alias": "The Perita Rebellion (Prime Vanguard)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
         "2": "The Perita Rebellion (Dactolyst)",
         "3": "A",
-        "4": 20,
+        "4": 19,
         "Entry": [
           "Galariak Prime Handle Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -200242,37 +199463,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -200368,17 +199584,17 @@
           "Alias": "The Perita Rebellion (Dactolyst)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
         "2": "The Perita Rebellion (Hunhullus)",
         "3": "A",
-        "4": 20,
+        "4": 19,
         "Entry": [
           "Galariak Prime Handle Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -200460,37 +199676,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -200586,7 +199797,7 @@
           "Alias": "The Perita Rebellion (Hunhullus)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       }
     ],
     "Snipetron Vandal Blueprint": [
@@ -207717,37 +206928,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -207935,37 +207141,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -208153,37 +207354,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -260231,7 +259427,7 @@
                 2.5
               ],
               [
-                "Lith C13 (Radiant)",
+                "Lith D7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -260246,17 +259442,17 @@
                 2.5
               ],
               [
-                "Lith A10 (Radiant)",
+                "Lith N18 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith O4 (Radiant)",
+                "Lith G14 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith N17 (Radiant)",
+                "Lith L7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -260322,7 +259518,7 @@
                 4.76
               ],
               [
-                "Meso A8 (Radiant)",
+                "Meso P17 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -260332,7 +259528,7 @@
                 2.38
               ],
               [
-                "Meso T8 (Radiant)",
+                "Meso X1 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -260342,22 +259538,22 @@
                 2.38
               ],
               [
-                "Meso G9 (Radiant)",
+                "Meso V13 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso A7 (Radiant)",
+                "Meso Y1 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso P16 (Radiant)",
+                "Meso A9 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso L3 (Radiant)",
+                "Meso V14 (Radiant)",
                 "Relic",
                 2.38
               ]
@@ -260418,7 +259614,7 @@
                 2.5
               ],
               [
-                "Lith C13 (Radiant)",
+                "Lith D7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -260433,17 +259629,17 @@
                 2.5
               ],
               [
-                "Lith A10 (Radiant)",
+                "Lith N18 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith O4 (Radiant)",
+                "Lith G14 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith N17 (Radiant)",
+                "Lith L7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -263394,7 +262590,7 @@
                 2.5
               ],
               [
-                "Lith C13 (Radiant)",
+                "Lith D7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -263409,17 +262605,17 @@
                 2.5
               ],
               [
-                "Lith A10 (Radiant)",
+                "Lith N18 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith O4 (Radiant)",
+                "Lith G14 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith N17 (Radiant)",
+                "Lith L7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -263485,7 +262681,7 @@
                 4.76
               ],
               [
-                "Meso A8 (Radiant)",
+                "Meso P17 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -263495,7 +262691,7 @@
                 2.38
               ],
               [
-                "Meso T8 (Radiant)",
+                "Meso X1 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -263505,22 +262701,22 @@
                 2.38
               ],
               [
-                "Meso G9 (Radiant)",
+                "Meso V13 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso A7 (Radiant)",
+                "Meso Y1 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso P16 (Radiant)",
+                "Meso A9 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso L3 (Radiant)",
+                "Meso V14 (Radiant)",
                 "Relic",
                 2.38
               ]
@@ -263581,7 +262777,7 @@
                 2.5
               ],
               [
-                "Lith C13 (Radiant)",
+                "Lith D7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -263596,17 +262792,17 @@
                 2.5
               ],
               [
-                "Lith A10 (Radiant)",
+                "Lith N18 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith O4 (Radiant)",
+                "Lith G14 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Lith N17 (Radiant)",
+                "Lith L7 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -267552,7 +266748,7 @@
                 2.5
               ],
               [
-                "Axi Y2 (Radiant)",
+                "Axi T13 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -267562,7 +266758,7 @@
                 2.5
               ],
               [
-                "Axi V13 (Radiant)",
+                "Axi A20 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -267628,12 +266824,12 @@
                 2.5
               ],
               [
-                "Neo D10 (Radiant)",
+                "Neo C7 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo A15 (Radiant)",
+                "Neo P9 (Radiant)",
                 "Relic",
                 2.5
               ],
@@ -267648,17 +266844,17 @@
                 2.5
               ],
               [
-                "Neo T9 (Radiant)",
+                "Neo O3 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo A14 (Radiant)",
+                "Neo K9 (Radiant)",
                 "Relic",
                 2.5
               ],
               [
-                "Neo X1 (Radiant)",
+                "Neo T10 (Radiant)",
                 "Relic",
                 2.5
               ]
@@ -267719,7 +266915,7 @@
                 4.76
               ],
               [
-                "Meso A8 (Radiant)",
+                "Meso P17 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -267729,7 +266925,7 @@
                 2.38
               ],
               [
-                "Meso T8 (Radiant)",
+                "Meso X1 (Radiant)",
                 "Relic",
                 2.38
               ],
@@ -267739,22 +266935,22 @@
                 2.38
               ],
               [
-                "Meso G9 (Radiant)",
+                "Meso V13 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso A7 (Radiant)",
+                "Meso Y1 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso P16 (Radiant)",
+                "Meso A9 (Radiant)",
                 "Relic",
                 2.38
               ],
               [
-                "Meso L3 (Radiant)",
+                "Meso V14 (Radiant)",
                 "Relic",
                 2.38
               ]
@@ -269477,9 +268673,9 @@
         ],
         "Source": {
           "Type": "H\u00f6llvania Central Mall Bounty",
-          "Name": "H\u00f6llvania Central Mall Bounty Lvl 75-80",
+          "Name": "H\u00f6llvania Central Mall Bounty Lvl 85-90",
           "Link": "H\u00f6llvania Central Mall#Bounties",
-          "Tier": "75-80",
+          "Tier": "85-90",
           "Rewards": {
             "A": [
               [
@@ -270357,11 +269553,11 @@
         "1": "Missions",
         "2": "The Perita Rebellion (Prime Vanguard)",
         "3": "A",
-        "4": 19,
+        "4": 18,
         "Entry": [
           "Galariak Prime Blade Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -270443,37 +269639,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -270569,17 +269760,17 @@
           "Alias": "The Perita Rebellion (Prime Vanguard)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsPrimes"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
         "2": "The Perita Rebellion (Dactolyst)",
         "3": "A",
-        "4": 19,
+        "4": 18,
         "Entry": [
           "Galariak Prime Blade Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -270661,37 +269852,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -270787,17 +269973,17 @@
           "Alias": "The Perita Rebellion (Dactolyst)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsDactolyst"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       },
       {
         "1": "Missions",
         "2": "The Perita Rebellion (Hunhullus)",
         "3": "A",
-        "4": 19,
+        "4": 18,
         "Entry": [
           "Galariak Prime Blade Blueprint",
           "Blueprint",
-          4.9
+          5.71
         ],
         "Source": {
           "Type": "The Perita Rebellion",
@@ -270879,37 +270065,32 @@
               [
                 "Sagek Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Barrel Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sagek Prime Receiver Blueprint",
                 "Blueprint",
-                4.9
-              ],
-              [
-                "Sagek Prime Barrel Blueprint",
-                "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Blade Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Galariak Prime Handle Blueprint",
                 "Blueprint",
-                4.9
+                5.71
               ],
               [
                 "Sil-Tabol",
@@ -271005,7 +270186,7 @@
           "Alias": "The Perita Rebellion (Hunhullus)",
           "InternalName": "/Lotus/Types/Game/MissionDecks/TauMissionRewards/OldPeaceTwelveRewardsHunhullus"
         },
-        "Probability": 0.049
+        "Probability": 0.0571
       }
     ],
     "Melee Vortex": [
@@ -306346,7 +305527,7 @@
             2.5
           ],
           [
-            "Lith C13 (Radiant)",
+            "Lith D7 (Radiant)",
             "Relic",
             2.5
           ],
@@ -306361,17 +305542,17 @@
             2.5
           ],
           [
-            "Lith A10 (Radiant)",
+            "Lith N18 (Radiant)",
             "Relic",
             2.5
           ],
           [
-            "Lith O4 (Radiant)",
+            "Lith G14 (Radiant)",
             "Relic",
             2.5
           ],
           [
-            "Lith N17 (Radiant)",
+            "Lith L7 (Radiant)",
             "Relic",
             2.5
           ],
@@ -307107,9 +306288,9 @@
     },
     "HexBounty3": {
       "Type": "H\u00f6llvania Central Mall Bounty",
-      "Name": "H\u00f6llvania Central Mall Bounty Lvl 75-80",
+      "Name": "H\u00f6llvania Central Mall Bounty Lvl 85-90",
       "Link": "H\u00f6llvania Central Mall#Bounties",
-      "Tier": "75-80",
+      "Tier": "85-90",
       "Rewards": {
         "A": [
           [
@@ -308056,9 +307237,9 @@
     },
     "HexBounty5": {
       "Type": "H\u00f6llvania Central Mall Bounty",
-      "Name": "H\u00f6llvania Central Mall Bounty Lvl 95-100",
+      "Name": "H\u00f6llvania Central Mall Bounty Lvl 105-110",
       "Link": "H\u00f6llvania Central Mall#Bounties",
-      "Tier": "95-100",
+      "Tier": "105-110",
       "Rewards": {
         "A": [
           [
@@ -316403,9 +315584,9 @@
     },
     "HexBounty2": {
       "Type": "H\u00f6llvania Central Mall Bounty",
-      "Name": "H\u00f6llvania Central Mall Bounty Lvl 65-70",
+      "Name": "H\u00f6llvania Central Mall Bounty Lvl 75-80",
       "Link": "H\u00f6llvania Central Mall#Bounties",
-      "Tier": "65-70",
+      "Tier": "75-80",
       "Rewards": {
         "A": [
           [
@@ -316812,9 +315993,9 @@
     },
     "HexBounty4": {
       "Type": "H\u00f6llvania Central Mall Bounty",
-      "Name": "H\u00f6llvania Central Mall Bounty Lvl 85-90",
+      "Name": "H\u00f6llvania Central Mall Bounty Lvl 95-100",
       "Link": "H\u00f6llvania Central Mall#Bounties",
-      "Tier": "85-90",
+      "Tier": "95-100",
       "Rewards": {
         "A": [
           [
@@ -319002,9 +318183,9 @@
     },
     "HexBounty1": {
       "Type": "H\u00f6llvania Central Mall Bounty",
-      "Name": "H\u00f6llvania Central Mall Bounty Lvl 55-60",
+      "Name": "H\u00f6llvania Central Mall Bounty Lvl 65-70",
       "Link": "H\u00f6llvania Central Mall#Bounties",
-      "Tier": "55-60",
+      "Tier": "65-70",
       "Rewards": {
         "A": [
           [
@@ -321047,7 +320228,7 @@
             2.5
           ],
           [
-            "Axi Y2 (Radiant)",
+            "Axi T13 (Radiant)",
             "Relic",
             2.5
           ],
@@ -321057,7 +320238,7 @@
             2.5
           ],
           [
-            "Axi V13 (Radiant)",
+            "Axi A20 (Radiant)",
             "Relic",
             2.5
           ],
@@ -321111,12 +320292,12 @@
             2.5
           ],
           [
-            "Neo D10 (Radiant)",
+            "Neo C7 (Radiant)",
             "Relic",
             2.5
           ],
           [
-            "Neo A15 (Radiant)",
+            "Neo P9 (Radiant)",
             "Relic",
             2.5
           ],
@@ -321131,17 +320312,17 @@
             2.5
           ],
           [
-            "Neo T9 (Radiant)",
+            "Neo O3 (Radiant)",
             "Relic",
             2.5
           ],
           [
-            "Neo A14 (Radiant)",
+            "Neo K9 (Radiant)",
             "Relic",
             2.5
           ],
           [
-            "Neo X1 (Radiant)",
+            "Neo T10 (Radiant)",
             "Relic",
             2.5
           ]
@@ -321190,7 +320371,7 @@
             4.76
           ],
           [
-            "Meso A8 (Radiant)",
+            "Meso P17 (Radiant)",
             "Relic",
             2.38
           ],
@@ -321200,7 +320381,7 @@
             2.38
           ],
           [
-            "Meso T8 (Radiant)",
+            "Meso X1 (Radiant)",
             "Relic",
             2.38
           ],
@@ -321210,22 +320391,22 @@
             2.38
           ],
           [
-            "Meso G9 (Radiant)",
+            "Meso V13 (Radiant)",
             "Relic",
             2.38
           ],
           [
-            "Meso A7 (Radiant)",
+            "Meso Y1 (Radiant)",
             "Relic",
             2.38
           ],
           [
-            "Meso P16 (Radiant)",
+            "Meso A9 (Radiant)",
             "Relic",
             2.38
           ],
           [
-            "Meso L3 (Radiant)",
+            "Meso V14 (Radiant)",
             "Relic",
             2.38
           ]
@@ -321274,7 +320455,7 @@
             4.76
           ],
           [
-            "Meso A8 (Radiant)",
+            "Meso P17 (Radiant)",
             "Relic",
             2.38
           ],
@@ -321284,7 +320465,7 @@
             2.38
           ],
           [
-            "Meso T8 (Radiant)",
+            "Meso X1 (Radiant)",
             "Relic",
             2.38
           ],
@@ -321294,22 +320475,22 @@
             2.38
           ],
           [
-            "Meso G9 (Radiant)",
+            "Meso V13 (Radiant)",
             "Relic",
             2.38
           ],
           [
-            "Meso A7 (Radiant)",
+            "Meso Y1 (Radiant)",
             "Relic",
             2.38
           ],
           [
-            "Meso P16 (Radiant)",
+            "Meso A9 (Radiant)",
             "Relic",
             2.38
           ],
           [
-            "Meso L3 (Radiant)",
+            "Meso V14 (Radiant)",
             "Relic",
             2.38
           ]
@@ -321509,7 +320690,7 @@
             2.5
           ],
           [
-            "Lith C13 (Radiant)",
+            "Lith D7 (Radiant)",
             "Relic",
             2.5
           ],
@@ -321524,17 +320705,17 @@
             2.5
           ],
           [
-            "Lith A10 (Radiant)",
+            "Lith N18 (Radiant)",
             "Relic",
             2.5
           ],
           [
-            "Lith O4 (Radiant)",
+            "Lith G14 (Radiant)",
             "Relic",
             2.5
           ],
           [
-            "Lith N17 (Radiant)",
+            "Lith L7 (Radiant)",
             "Relic",
             2.5
           ],
@@ -326012,37 +325193,32 @@
           [
             "Sagek Prime Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sagek Prime Barrel Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sagek Prime Receiver Blueprint",
             "Blueprint",
-            4.9
-          ],
-          [
-            "Sagek Prime Barrel Blueprint",
-            "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Blade Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Handle Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sil-Tabol",
@@ -326218,37 +325394,32 @@
           [
             "Sagek Prime Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sagek Prime Barrel Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sagek Prime Receiver Blueprint",
             "Blueprint",
-            4.9
-          ],
-          [
-            "Sagek Prime Barrel Blueprint",
-            "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Blade Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Handle Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sil-Tabol",
@@ -326744,37 +325915,32 @@
           [
             "Sagek Prime Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sagek Prime Barrel Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sagek Prime Receiver Blueprint",
             "Blueprint",
-            4.9
-          ],
-          [
-            "Sagek Prime Barrel Blueprint",
-            "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Blade Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Galariak Prime Handle Blueprint",
             "Blueprint",
-            4.9
+            5.71
           ],
           [
             "Sil-Tabol",
@@ -334081,9 +333247,9 @@
     },
     "HexBounty7": {
       "Type": "H\u00f6llvania Central Mall Bounty",
-      "Name": "H\u00f6llvania Central Mall Bounty Lvl 115-120",
+      "Name": "H\u00f6llvania Central Mall Bounty Lvl 125-130",
       "Link": "H\u00f6llvania Central Mall#Bounties",
-      "Tier": "115-120",
+      "Tier": "125-130",
       "Rewards": {
         "A": [
           [
@@ -341287,9 +340453,9 @@
     },
     "HexBounty6": {
       "Type": "H\u00f6llvania Central Mall Bounty",
-      "Name": "H\u00f6llvania Central Mall Bounty Lvl 105-110",
+      "Name": "H\u00f6llvania Central Mall Bounty Lvl 115-120",
       "Link": "H\u00f6llvania Central Mall#Bounties",
-      "Tier": "105-110",
+      "Tier": "115-120",
       "Rewards": {
         "A": [
           [

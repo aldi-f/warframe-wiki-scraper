@@ -2434,7 +2434,7 @@
               },
               {
                 "Type": "Resource",
-                "Count": 130,
+                "Count": 120,
                 "Name": "Servoris"
               }
             ],

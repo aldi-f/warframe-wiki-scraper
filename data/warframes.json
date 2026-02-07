@@ -450,6 +450,10 @@
         {
           "TabName": "Portrait",
           "Image": "YareliPrime.png"
+        },
+        {
+          "TabName": "Merulina",
+          "Image": "YareliPrime_Merulina.png"
         }
       ],
       "InternalName": "/Lotus/Powersuits/Yareli/YareliPrime",
@@ -1100,6 +1104,10 @@
         {
           "TabName": "Portrait",
           "Image": "Yareli.png"
+        },
+        {
+          "TabName": "Merulina",
+          "Image": "Yareli_Merulina.png"
         }
       ],
       "InternalName": "/Lotus/Powersuits/Yareli/Yareli",
@@ -1783,7 +1791,7 @@
       "Sprint": 0.95,
       "Description": "When Frost steps onto the battlefield, enemies experience a chill. Frost's attacks control crowds, protect objectives, and increase survivability. Wield the biting cold.",
       "Conclave": true,
-      "Shield": 270,
+      "Shield": 455,
       "MaxRank": 30,
       "Themes": "Ice Elemental",
       "Tactical": "Snow Globe",
@@ -3917,6 +3925,7 @@
     },
     "Gauss Prime": {
       "Sprint": 1.5,
+      "Vaulted": true,
       "Description": "Quicksilver takes form. Gauss Prime brooks no talk of defeat.",
       "Conclave": false,
       "Shield": 550,
@@ -4967,7 +4976,10 @@
       ],
       "InitialEnergy": 125,
       "Subsumed": "Ophanim Eyes",
-      "AuraPolarity": "Vazarin",
+      "AuraPolarity": [
+        "Aura",
+        "Vazarin"
+      ],
       "Abilities": [
         "Light's Judgment",
         "Symphony of Mercy",

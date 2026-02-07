@@ -1135,74 +1135,6 @@
       "Icon": "Ragdoll b.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
-    "Bullet Attractor": {
-      "GlyphImage": "EssentialVoidGlyph.png",
-      "Link": "Damage/Void Damage",
-      "Color": "#085e50",
-      "Status": [
-        "Spawn a bullet attraction field on target"
-      ],
-      "DarkModeColor": "#15c8ab",
-      "CSSBackgroundColorClass": "var(--dt-void-background-color)",
-      "Name": "Bullet Attractor",
-      "CSSTextColorClass": "var(--dt-void-text-color)",
-      "InternalName": "PT_RADIANT",
-      "ColorBackground": "#c3dfd9",
-      "CSSBorderColorClass": "var(--dt-void-border-color)",
-      "Icon": "DmgVoidSmall64.png",
-      "ColorBorder": "#1c8d76"
-    },
-    "Weakened": {
-      "GlyphImage": "EssentialPunctureGlyph.png",
-      "Link": "Damage/Puncture Damage",
-      "Color": "#5c5247",
-      "Status": [
-        "Target deals reduced damage"
-      ],
-      "DarkModeColor": "#c6b098",
-      "CSSBackgroundColorClass": "var(--dt-puncture-background-color)",
-      "Name": "Weakened",
-      "CSSTextColorClass": "var(--dt-puncture-text-color)",
-      "InternalName": "PT_FRAILTY",
-      "ColorBackground": "#d8d1ca",
-      "CSSBorderColorClass": "var(--dt-puncture-border-color)",
-      "Icon": "DmgPunctureSmall64.png",
-      "ColorBorder": "#615448"
-    },
-    "Gas Cloud": {
-      "GlyphImage": "EssentialGasGlyph.png",
-      "Link": "Damage/Gas Damage",
-      "Color": "#063",
-      "Status": [
-        "Gas Cloud that deals DoT as Gas damage"
-      ],
-      "DarkModeColor": "#0c6",
-      "CSSBackgroundColorClass": "var(--dt-gas-background-color)",
-      "Name": "Gas Cloud",
-      "CSSTextColorClass": "var(--dt-gas-text-color)",
-      "InternalName": "PT_ASPHYXIATION",
-      "ColorBackground": "#c3dfd2",
-      "CSSBorderColorClass": "var(--dt-gas-border-color)",
-      "Icon": "DmgGasSmall64.png",
-      "ColorBorder": "#1c8d5a"
-    },
-    "Virus": {
-      "GlyphImage": "EssentialViralGlyph.png",
-      "Link": "Damage/Viral Damage",
-      "Color": "#b71658",
-      "Status": [
-        "Increased damage against Health"
-      ],
-      "DarkModeColor": "#f093b9",
-      "CSSBackgroundColorClass": "var(--dt-viral-background-color)",
-      "Name": "Virus",
-      "CSSTextColorClass": "var(--dt-viral-text-color)",
-      "InternalName": "PT_INFECTED",
-      "ColorBackground": "#dfc3cf",
-      "CSSBorderColorClass": "var(--dt-viral-border-color)",
-      "Icon": "DmgViralSmall64.png",
-      "ColorBorder": "#8d1c4b"
-    },
     "Poison": {
       "Status": [
         "Poison DoT as Toxin damage"
@@ -1270,26 +1202,6 @@
       "Icon": "DmgBlastSmall64.png",
       "ColorBorder": "#8d361c"
     },
-    "Confusion": {
-      "GlyphImage": "EssentialRadiationGlyph.png",
-      "Link": "Damage/Radiation Damage",
-      "Color": "#806000",
-      "CSSBorderColorClass": "var(--dt-radiation-border-color)",
-      "Status": [
-        "Friendly fire"
-      ],
-      "DarkModeColor": "#dda600",
-      "CSSBackgroundColorClass": "var(--dt-radiation-background-color)",
-      "Name": "Confusion",
-      "CSSTextColorClass": "var(--dt-radiation-text-color)",
-      "InternalName": "PT_RAD_TOX",
-      "ColorBackground": "#dfd8c3",
-      "StatusNotes": [
-        1
-      ],
-      "Icon": "DmgRadiationSmall64.png",
-      "ColorBorder": "#8d701c"
-    },
     "PT_VOID": {
       "Link": "WARFRAME Wiki",
       "Color": "#ff0000",
@@ -1304,36 +1216,27 @@
       "Icon": "UnidentifiedItem.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
-    "Slow": {
-      "Link": "Slow",
-      "Color": "#5d5d5d",
-      "DarkModeColor": "#d5d5d5",
-      "CSSBackgroundColorClass": "var(--dt-default-background-color)",
-      "CSSTextColorClass": "var(--dt-default-text-color)",
-      "Name": "Slow",
+    "Concuss": {
+      "CSSBorderColorClass": "var(--dt-impact-border-color)",
+      "GlyphImage": "EssentialImpactGlyph.png",
+      "Link": "Damage/Impact Damage#Railjack",
+      "Color": "#3d5e5e",
       "Status": [
-        "Slows the enemy"
+        "Enemy crew have reduced accuracy and damage"
       ],
-      "InternalName": "PT_GLUE",
-      "Icon": "UnidentifiedItem.png",
-      "CSSBorderColorClass": "var(--dt-default-border-color)"
-    },
-    "Bleed": {
-      "GlyphImage": "EssentialSlashGlyph.png",
-      "Link": "Damage/Slash Damage",
-      "Color": "#7a5254",
-      "Status": [
-        "Bleed DoT as True damage"
+      "Name": "Concuss",
+      "DarkModeColor": "#80c4c4",
+      "CSSBackgroundColorClass": "var(--dt-impact-background-color)",
+      "ColorBorder": "#486061",
+      "CSSTextColorClass": "var(--dt-impact-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#cad8d8",
+      "StatusNotes": [
+        1,
+        2
       ],
-      "DarkModeColor": "#e69ca0",
-      "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
-      "Name": "Bleed",
-      "CSSTextColorClass": "var(--dt-slash-text-color)",
-      "InternalName": "PT_BLEEDING",
-      "ColorBackground": "#d8cacb",
-      "CSSBorderColorClass": "var(--dt-slash-border-color)",
-      "Icon": "DmgSlashSmall64.png",
-      "ColorBorder": "#614849"
+      "Icon": "DmgImpactSmall64.png",
+      "IsRailjack": true
     },
     "Freeze": {
       "GlyphImage": "ColdModBundleIcon.png",
@@ -1405,19 +1308,256 @@
       "Icon": "RadialBlind130xDark.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
-    "Stun": {
-      "Link": "Stagger",
+    "Detonate": {
+      "Link": "Damage/Blast Damage",
+      "Color": "#b32a00",
+      "Status": [
+        "Mini explosion"
+      ],
+      "DarkModeColor": "#dd704e",
+      "CSSBackgroundColorClass": "var(--dt-blast-background-color)",
+      "Name": "Detonate",
+      "CSSTextColorClass": "var(--dt-blast-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#dfcac3",
+      "CSSBorderColorClass": "var(--dt-blast-border-color)",
+      "Icon": "DmgBlastSmall64.png",
+      "ColorBorder": "#8d361c"
+    },
+    "Bleed": {
+      "GlyphImage": "EssentialSlashGlyph.png",
+      "Link": "Damage/Slash Damage",
+      "Color": "#7a5254",
+      "Status": [
+        "Bleed DoT as True damage"
+      ],
+      "DarkModeColor": "#e69ca0",
+      "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
+      "Name": "Bleed",
+      "CSSTextColorClass": "var(--dt-slash-text-color)",
+      "InternalName": "PT_BLEEDING",
+      "ColorBackground": "#d8cacb",
+      "CSSBorderColorClass": "var(--dt-slash-border-color)",
+      "Icon": "DmgSlashSmall64.png",
+      "ColorBorder": "#614849"
+    },
+    "Corrosion": {
+      "GlyphImage": "EssentialCorrosiveGlyph.png",
+      "Link": "Damage/Corrosive Damage",
+      "Color": "#4d6600",
+      "Status": [
+        "Armor reduction"
+      ],
+      "DarkModeColor": "#93c203",
+      "CSSBackgroundColorClass": "var(--dt-corrosive-background-color)",
+      "Name": "Corrosion",
+      "CSSTextColorClass": "var(--dt-corrosive-text-color)",
+      "InternalName": "PT_CAUSTIC_BURN",
+      "ColorBackground": "#d8dfc3",
+      "CSSBorderColorClass": "var(--dt-corrosive-border-color)",
+      "Icon": "DmgCorrosiveSmall64.png",
+      "ColorBorder": "#708d1c"
+    },
+    "Immobilize": {
+      "GlyphImage": "ColdModBundleIcon.png",
+      "Link": "Damage/Cold Damage#Railjack",
+      "Color": "#17658c",
+      "Status": [
+        "Disable ship weaponry",
+        "Slow ship movement to complete stop",
+        "Ice Hazard on Railjack",
+        "Disables interactive elements in Railjack"
+      ],
+      "Name": "Immobilize",
+      "DarkModeColor": "#5bbcec",
+      "CSSBackgroundColorClass": "var(--dt-cold-background-color)",
+      "ColorBorder": "#1c638d",
+      "CSSTextColorClass": "var(--dt-cold-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#c3d5df",
+      "CSSBorderColorClass": "var(--dt-cold-border-color)",
+      "Icon": "DmgColdSmall64.png",
+      "IsRailjack": true
+    },
+    "Scramble": {
+      "CSSBorderColorClass": "var(--dt-electricity-border-color)",
+      "GlyphImage": "ElectricModBundleIcon.png",
+      "Link": "Damage/Electricity Damage#Railjack",
+      "Color": "#610fb3",
+      "Status": [
+        "Disable enemy weaponry",
+        "Spiral enemy ship out of control",
+        "Electricity Hazard on Railjack",
+        "Scrambles minimap",
+        "Disable Tactical Menu"
+      ],
+      "Name": "Scramble",
+      "DarkModeColor": "#c4a2e6",
+      "CSSBackgroundColorClass": "var(--dt-electricity-background-color)",
+      "ColorBorder": "#561c8d",
+      "CSSTextColorClass": "var(--dt-electricity-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#d2c3df",
+      "StatusNotes": {},
+      "Icon": "DmgElectricitySmall64.png",
+      "IsRailjack": true
+    },
+    "Tear": {
+      "GlyphImage": "EssentialSlashGlyph.png",
+      "Link": "Damage/Slash Damage#Railjack",
+      "Color": "#7a5254",
+      "Status": [
+        "Increase damage vulnerability on target"
+      ],
+      "Name": "Tear",
+      "DarkModeColor": "#e69ca0",
+      "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
+      "ColorBorder": "#614849",
+      "CSSTextColorClass": "var(--dt-slash-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#d8cacb",
+      "CSSBorderColorClass": "var(--dt-slash-border-color)",
+      "Icon": "DmgSlashSmall64.png",
+      "IsRailjack": true
+    },
+    "Gas Cloud": {
+      "GlyphImage": "EssentialGasGlyph.png",
+      "Link": "Damage/Gas Damage",
+      "Color": "#063",
+      "Status": [
+        "Gas Cloud that deals DoT as Gas damage"
+      ],
+      "DarkModeColor": "#0c6",
+      "CSSBackgroundColorClass": "var(--dt-gas-background-color)",
+      "Name": "Gas Cloud",
+      "CSSTextColorClass": "var(--dt-gas-text-color)",
+      "InternalName": "PT_ASPHYXIATION",
+      "ColorBackground": "#c3dfd2",
+      "CSSBorderColorClass": "var(--dt-gas-border-color)",
+      "Icon": "DmgGasSmall64.png",
+      "ColorBorder": "#1c8d5a"
+    },
+    "Weakened": {
+      "GlyphImage": "EssentialPunctureGlyph.png",
+      "Link": "Damage/Puncture Damage",
+      "Color": "#5c5247",
+      "Status": [
+        "Target deals reduced damage"
+      ],
+      "DarkModeColor": "#c6b098",
+      "CSSBackgroundColorClass": "var(--dt-puncture-background-color)",
+      "Name": "Weakened",
+      "CSSTextColorClass": "var(--dt-puncture-text-color)",
+      "InternalName": "PT_FRAILTY",
+      "ColorBackground": "#d8d1ca",
+      "CSSBorderColorClass": "var(--dt-puncture-border-color)",
+      "Icon": "DmgPunctureSmall64.png",
+      "ColorBorder": "#615448"
+    },
+    "Decompress": {
+      "GlyphImage": "EssentialPunctureGlyph.png",
+      "Link": "Damage/Puncture Damage#Railjack",
+      "Color": "#5c5247",
+      "Status": [
+        "Reduce target ship's Shields and Armor"
+      ],
+      "Name": "Decompress",
+      "DarkModeColor": "#c6b098",
+      "CSSBackgroundColorClass": "var(--dt-puncture-background-color)",
+      "ColorBorder": "#615448",
+      "CSSTextColorClass": "var(--dt-puncture-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#d8d1ca",
+      "CSSBorderColorClass": "var(--dt-puncture-border-color)",
+      "Icon": "DmgPunctureSmall64.png",
+      "IsRailjack": true
+    },
+    "Virus": {
+      "GlyphImage": "EssentialViralGlyph.png",
+      "Link": "Damage/Viral Damage",
+      "Color": "#b71658",
+      "Status": [
+        "Increased damage against Health"
+      ],
+      "DarkModeColor": "#f093b9",
+      "CSSBackgroundColorClass": "var(--dt-viral-background-color)",
+      "Name": "Virus",
+      "CSSTextColorClass": "var(--dt-viral-text-color)",
+      "InternalName": "PT_INFECTED",
+      "ColorBackground": "#dfc3cf",
+      "CSSBorderColorClass": "var(--dt-viral-border-color)",
+      "Icon": "DmgViralSmall64.png",
+      "ColorBorder": "#8d1c4b"
+    },
+    "Slow": {
+      "Link": "Slow",
       "Color": "#5d5d5d",
       "DarkModeColor": "#d5d5d5",
       "CSSBackgroundColorClass": "var(--dt-default-background-color)",
       "CSSTextColorClass": "var(--dt-default-text-color)",
-      "Name": "Stun",
+      "Name": "Slow",
       "Status": [
-        "Stuns the enemy, interrupting many actions for a time"
+        "Slows the enemy"
       ],
-      "InternalName": "PT_STUNNED",
-      "Icon": "StunIcon_b.png",
+      "InternalName": "PT_GLUE",
+      "Icon": "UnidentifiedItem.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
+    },
+    "Intoxicate": {
+      "GlyphImage": "ToxinModBundleIcon.png",
+      "Link": "Damage/Toxin Damage#Railjack",
+      "Color": "#061",
+      "Status": [
+        "Change Faction of afflicted target",
+        "Enable friendly fire"
+      ],
+      "Name": "Intoxicate",
+      "DarkModeColor": "#0c2",
+      "CSSBackgroundColorClass": "var(--dt-toxin-background-color)",
+      "ColorBorder": "#1c8d30",
+      "CSSTextColorClass": "var(--dt-toxin-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#c3dfc8",
+      "CSSBorderColorClass": "var(--dt-toxin-border-color)",
+      "Icon": "DmgToxinSmall64.png",
+      "IsRailjack": true
+    },
+    "Bullet Attractor": {
+      "GlyphImage": "EssentialVoidGlyph.png",
+      "Link": "Damage/Void Damage",
+      "Color": "#085e50",
+      "Status": [
+        "Spawn a bullet attraction field on target"
+      ],
+      "DarkModeColor": "#15c8ab",
+      "CSSBackgroundColorClass": "var(--dt-void-background-color)",
+      "Name": "Bullet Attractor",
+      "CSSTextColorClass": "var(--dt-void-text-color)",
+      "InternalName": "PT_RADIANT",
+      "ColorBackground": "#c3dfd9",
+      "CSSBorderColorClass": "var(--dt-void-border-color)",
+      "Icon": "DmgVoidSmall64.png",
+      "ColorBorder": "#1c8d76"
+    },
+    "Confusion": {
+      "GlyphImage": "EssentialRadiationGlyph.png",
+      "Link": "Damage/Radiation Damage",
+      "Color": "#806000",
+      "CSSBorderColorClass": "var(--dt-radiation-border-color)",
+      "Status": [
+        "Friendly fire"
+      ],
+      "DarkModeColor": "#dda600",
+      "CSSBackgroundColorClass": "var(--dt-radiation-background-color)",
+      "Name": "Confusion",
+      "CSSTextColorClass": "var(--dt-radiation-text-color)",
+      "InternalName": "PT_RAD_TOX",
+      "ColorBackground": "#dfd8c3",
+      "StatusNotes": [
+        1
+      ],
+      "Icon": "DmgRadiationSmall64.png",
+      "ColorBorder": "#8d701c"
     },
     "Disrupt": {
       "GlyphImage": "EssentialMagneticGlyph.png",
@@ -1437,6 +1577,20 @@
       "CSSBorderColorClass": "var(--dt-magnetic-border-color)",
       "Icon": "DmgMagneticSmall64.png",
       "ColorBorder": "#201c8d"
+    },
+    "Stun": {
+      "Link": "Stagger",
+      "Color": "#5d5d5d",
+      "DarkModeColor": "#d5d5d5",
+      "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+      "CSSTextColorClass": "var(--dt-default-text-color)",
+      "Name": "Stun",
+      "Status": [
+        "Stuns the enemy, interrupting many actions for a time"
+      ],
+      "InternalName": "PT_STUNNED",
+      "Icon": "StunIcon_b.png",
+      "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Silence": {
       "Link": "Silence",
@@ -1466,22 +1620,6 @@
       "Icon": "RestRage130xDark.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
-    "Detonate": {
-      "Link": "Damage/Blast Damage",
-      "Color": "#b32a00",
-      "Status": [
-        "Mini explosion"
-      ],
-      "DarkModeColor": "#dd704e",
-      "CSSBackgroundColorClass": "var(--dt-blast-background-color)",
-      "Name": "Detonate",
-      "CSSTextColorClass": "var(--dt-blast-text-color)",
-      "InternalName": "",
-      "ColorBackground": "#dfcac3",
-      "CSSBorderColorClass": "var(--dt-blast-border-color)",
-      "Icon": "DmgBlastSmall64.png",
-      "ColorBorder": "#8d361c"
-    },
     "Stagger": {
       "Link": "Stagger",
       "Color": "#5d5d5d",
@@ -1496,19 +1634,26 @@
       "Icon": "MeleeStagger_d.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
-    "Impair": {
-      "Link": "Impair",
-      "Color": "#5d5d5d",
-      "DarkModeColor": "#d5d5d5",
-      "CSSBackgroundColorClass": "var(--dt-default-background-color)",
-      "CSSTextColorClass": "var(--dt-default-text-color)",
-      "Name": "Impair",
+    "Sear": {
+      "CSSBorderColorClass": "var(--dt-heat-border-color)",
+      "GlyphImage": "HeatModBundleIcon.png",
+      "Link": "Damage/Heat Damage#Railjack",
+      "Color": "#994d00",
       "Status": [
-        "Disables jumping, bullet jump, and sprinting"
+        "Fire DoT as Heat damage",
+        "Fire Hazard on Railjack",
+        "Railjack Armaments overheat faster and cool slower"
       ],
-      "InternalName": "PT_ROOTS",
-      "Icon": "DmgImpairSmall64.png",
-      "CSSBorderColorClass": "var(--dt-default-border-color)"
+      "Name": "Sear",
+      "DarkModeColor": "#fb9733",
+      "CSSBackgroundColorClass": "var(--dt-heat-background-color)",
+      "ColorBorder": "#8d501c",
+      "CSSTextColorClass": "var(--dt-heat-text-color)",
+      "InternalName": "",
+      "ColorBackground": "#dfd0c3",
+      "StatusNotes": {},
+      "Icon": "DmgFireSmall64.png",
+      "IsRailjack": true
     },
     "Knockdown": {
       "Link": "Knockdown",
@@ -1562,6 +1707,20 @@
       "Icon": "UnidentifiedItem.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
+    "Impair": {
+      "Link": "Impair",
+      "Color": "#5d5d5d",
+      "DarkModeColor": "#d5d5d5",
+      "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+      "CSSTextColorClass": "var(--dt-default-text-color)",
+      "Name": "Impair",
+      "Status": [
+        "Disables jumping, bullet jump, and sprinting"
+      ],
+      "InternalName": "PT_ROOTS",
+      "Icon": "DmgImpairSmall64.png",
+      "CSSBorderColorClass": "var(--dt-default-border-color)"
+    },
     "Knockback": {
       "GlyphImage": "EssentialImpactGlyph.png",
       "Link": "Damage/Impact Damage",
@@ -1597,23 +1756,6 @@
       "InternalName": "PT_DISARMED",
       "Icon": "Halikar.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
-    },
-    "Corrosion": {
-      "GlyphImage": "EssentialCorrosiveGlyph.png",
-      "Link": "Damage/Corrosive Damage",
-      "Color": "#4d6600",
-      "Status": [
-        "Armor reduction"
-      ],
-      "DarkModeColor": "#93c203",
-      "CSSBackgroundColorClass": "var(--dt-corrosive-background-color)",
-      "Name": "Corrosion",
-      "CSSTextColorClass": "var(--dt-corrosive-text-color)",
-      "InternalName": "PT_CAUSTIC_BURN",
-      "ColorBackground": "#d8dfc3",
-      "CSSBorderColorClass": "var(--dt-corrosive-border-color)",
-      "Icon": "DmgCorrosiveSmall64.png",
-      "ColorBorder": "#708d1c"
     }
   },
   "total": {

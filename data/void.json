@@ -1,15 +1,16 @@
 {
   "PrimeData": {
     "Ash Prime": {
-      "IsVaulted": true,
+      "IsVaulted": false,
       "Parts": {
         "Chassis Blueprint": {
           "DucatValue": 15,
           "Drops": {
             "Lith V8": "Common",
             "Axi B1": "Common",
-            "Meso V2": "Common",
+            "Vanguard M1": "Common",
             "Neo N4": "Common",
+            "Meso V2": "Common",
             "Axi K12": "Common"
           }
         },
@@ -18,22 +19,24 @@
           "Drops": {
             "Lith V7": "Uncommon",
             "Meso S3": "Uncommon",
-            "Lith S3": "Uncommon",
+            "Vanguard E1": "Uncommon",
+            "Meso C1": "Uncommon",
             "Axi I3": "Uncommon",
-            "Meso C1": "Uncommon"
+            "Lith S3": "Uncommon"
           }
         },
         "Systems Blueprint": {
           "DucatValue": 65,
           "Drops": {
+            "Neo N5": "Uncommon",
             "Axi N1": "Rare",
             "Axi A7": "Rare",
             "Neo A10": "Rare",
-            "Neo N5": "Uncommon"
+            "Vanguard C1": "Uncommon"
           }
         },
         "Neuroptics Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 25,
           "Drops": {
             "Meso N2": "Uncommon",
             "Meso V4": "Uncommon",
@@ -41,7 +44,8 @@
             "Neo A4": "Uncommon",
             "Neo N3": "Uncommon",
             "Axi N2": "Uncommon",
-            "Meso P12": "Uncommon"
+            "Meso P12": "Uncommon",
+            "Vanguard P1": "Common"
           }
         }
       }
@@ -215,25 +219,29 @@
           "DucatValue": 15,
           "Drops": {
             "Meso Y1": "Common",
-            "Lith K12": "Common"
+            "Lith K12": "Common",
+            "Vanguard P1": "Common"
           }
         },
         "Systems Blueprint": {
           "DucatValue": 100,
           "Drops": {
-            "Axi C10": "Rare"
+            "Axi C10": "Rare",
+            "Vanguard C1": "Rare"
           }
         },
         "Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 25,
           "Drops": {
             "Meso V11": "Uncommon",
-            "Meso V13": "Uncommon"
+            "Meso V13": "Uncommon",
+            "Vanguard M1": "Common"
           }
         },
         "Neuroptics Blueprint": {
-          "DucatValue": 100,
+          "DucatValue": 65,
           "Drops": {
+            "Vanguard E1": "Uncommon",
             "Neo C7": "Rare",
             "Lith C13": "Rare"
           }
@@ -468,6 +476,7 @@
         "": {
           "DucatValue": 0,
           "Drops": {
+            "Requiem Eterna": "Common",
             "Requiem II": "Uncommon"
           }
         }
@@ -1275,6 +1284,7 @@
         "": {
           "DucatValue": 0,
           "Drops": {
+            "Requiem Eterna": "Common",
             "Requiem I": "Uncommon"
           }
         }
@@ -3236,12 +3246,13 @@
       "IsVaulted": false,
       "Parts": {
         "Chassis Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 25,
           "Drops": {
             "Meso V3": "Uncommon",
-            "Meso O3": "Uncommon",
             "Axi V8": "Uncommon",
-            "Meso V2": "Uncommon"
+            "Meso V2": "Uncommon",
+            "Vanguard E1": "Common",
+            "Meso O3": "Uncommon"
           }
         },
         "Blueprint": {
@@ -3250,6 +3261,7 @@
             "Axi N3": "Uncommon",
             "Neo O1": "Common",
             "Lith O2": "Common",
+            "Vanguard C1": "Common",
             "Neo V1": "Uncommon"
           }
         },
@@ -3258,15 +3270,17 @@
           "Drops": {
             "Axi L4": "Uncommon",
             "Neo O1": "Uncommon",
-            "Lith V1": "Uncommon"
+            "Lith V1": "Uncommon",
+            "Vanguard M1": "Uncommon"
           }
         },
         "Neuroptics Blueprint": {
           "DucatValue": 65,
           "Drops": {
+            "Axi V8": "Rare",
             "Axi V1": "Uncommon",
             "Neo V8": "Rare",
-            "Axi V8": "Rare"
+            "Vanguard P1": "Uncommon"
           }
         }
       }
@@ -4787,70 +4801,16 @@
         }
       }
     },
-    "Cernos Prime": {
+    "Exilus Weapon Adapter": {
       "IsVaulted": false,
       "Parts": {
-        "String": {
-          "DucatValue": 25,
-          "Drops": {
-            "Axi K2": "Uncommon",
-            "Axi A3": "Uncommon",
-            "Neo A1": "Uncommon",
-            "Meso O1": "Uncommon",
-            "Meso S6": "Uncommon",
-            "Meso N8": "Uncommon",
-            "Lith B3": "Uncommon",
-            "Axi V10": "Common"
-          }
-        },
-        "Lower Limb": {
-          "DucatValue": 100,
-          "Drops": {
-            "Axi C2": "Rare",
-            "Meso C3": "Rare",
-            "Lith C5": "Rare",
-            "Lith C2": "Rare",
-            "Lith C7": "Rare",
-            "Axi C1": "Rare"
-          }
-        },
-        "Upper Limb": {
-          "DucatValue": 15,
-          "Drops": {
-            "Meso N11": "Common",
-            "Meso K1": "Common",
-            "Meso O2": "Common",
-            "Lith V3": "Common",
-            "Neo N6": "Common",
-            "Meso S7": "Common",
-            "Meso N8": "Common",
-            "Axi N4": "Common",
-            "Meso C2": "Common"
-          }
-        },
         "Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 0,
           "Drops": {
-            "Lith Z1": "Uncommon",
-            "Lith A2": "Uncommon",
-            "Axi B1": "Uncommon",
-            "Neo V9": "Uncommon",
-            "Neo V7": "Uncommon",
-            "Axi V4": "Uncommon",
-            "Neo S13": "Uncommon"
-          }
-        },
-        "Grip": {
-          "DucatValue": 15,
-          "Drops": {
-            "Meso V5": "Common",
-            "Lith V6": "Common",
-            "Neo V4": "Common",
-            "Axi K3": "Common",
-            "Axi S8": "Common",
-            "Axi H3": "Common",
-            "Axi S5": "Common",
-            "Neo V6": "Common"
+            "Requiem III": "Rare",
+            "Requiem IV": "Rare",
+            "Requiem II": "Rare",
+            "Requiem I": "Rare"
           }
         }
       }
@@ -5020,39 +4980,16 @@
         }
       }
     },
-    "Rhino Prime": {
-      "IsVaulted": true,
+    "Ayatan Amber Star": {
+      "IsVaulted": false,
       "Parts": {
-        "Chassis Blueprint": {
-          "DucatValue": 45,
+        "": {
+          "DucatValue": 0,
           "Drops": {
-            "Lith E1": "Uncommon",
-            "Meso N6": "Uncommon",
-            "Meso M1": "Uncommon"
-          }
-        },
-        "Systems Blueprint": {
-          "DucatValue": 15,
-          "Drops": {
-            "Neo B3": "Common",
-            "Neo G6": "Common",
-            "Axi S3": "Common"
-          }
-        },
-        "Blueprint": {
-          "DucatValue": 100,
-          "Drops": {
-            "Neo R1": "Rare",
-            "Axi R4": "Rare",
-            "Axi R1": "Rare"
-          }
-        },
-        "Neuroptics Blueprint": {
-          "DucatValue": 45,
-          "Drops": {
-            "Lith B4": "Uncommon",
-            "Meso S14": "Uncommon",
-            "Lith B1": "Uncommon"
+            "Requiem III": "Common",
+            "Requiem IV": "Common",
+            "Requiem II": "Common",
+            "Requiem I": "Common"
           }
         }
       }
@@ -5159,6 +5096,125 @@
         }
       }
     },
+    "Kuva": {
+      "IsVaulted": false,
+      "Parts": {
+        "": {
+          "DucatValue": 0,
+          "Drops": {
+            "Requiem III": "Common",
+            "Requiem IV": "Common",
+            "Requiem II": "Common",
+            "Requiem I": "Common"
+          }
+        }
+      }
+    },
+    "Cernos Prime": {
+      "IsVaulted": false,
+      "Parts": {
+        "String": {
+          "DucatValue": 25,
+          "Drops": {
+            "Axi K2": "Uncommon",
+            "Axi A3": "Uncommon",
+            "Neo A1": "Uncommon",
+            "Meso O1": "Uncommon",
+            "Meso S6": "Uncommon",
+            "Meso N8": "Uncommon",
+            "Lith B3": "Uncommon",
+            "Axi V10": "Common"
+          }
+        },
+        "Lower Limb": {
+          "DucatValue": 100,
+          "Drops": {
+            "Axi C2": "Rare",
+            "Meso C3": "Rare",
+            "Lith C5": "Rare",
+            "Lith C2": "Rare",
+            "Lith C7": "Rare",
+            "Axi C1": "Rare"
+          }
+        },
+        "Upper Limb": {
+          "DucatValue": 15,
+          "Drops": {
+            "Meso N11": "Common",
+            "Meso K1": "Common",
+            "Meso O2": "Common",
+            "Lith V3": "Common",
+            "Neo N6": "Common",
+            "Meso S7": "Common",
+            "Meso N8": "Common",
+            "Axi N4": "Common",
+            "Meso C2": "Common"
+          }
+        },
+        "Blueprint": {
+          "DucatValue": 45,
+          "Drops": {
+            "Lith Z1": "Uncommon",
+            "Lith A2": "Uncommon",
+            "Axi B1": "Uncommon",
+            "Neo V9": "Uncommon",
+            "Neo V7": "Uncommon",
+            "Axi V4": "Uncommon",
+            "Neo S13": "Uncommon"
+          }
+        },
+        "Grip": {
+          "DucatValue": 15,
+          "Drops": {
+            "Meso V5": "Common",
+            "Lith V6": "Common",
+            "Neo V4": "Common",
+            "Axi K3": "Common",
+            "Axi S8": "Common",
+            "Axi H3": "Common",
+            "Axi S5": "Common",
+            "Neo V6": "Common"
+          }
+        }
+      }
+    },
+    "Rhino Prime": {
+      "IsVaulted": true,
+      "Parts": {
+        "Chassis Blueprint": {
+          "DucatValue": 45,
+          "Drops": {
+            "Lith E1": "Uncommon",
+            "Meso N6": "Uncommon",
+            "Meso M1": "Uncommon"
+          }
+        },
+        "Systems Blueprint": {
+          "DucatValue": 15,
+          "Drops": {
+            "Neo B3": "Common",
+            "Neo G6": "Common",
+            "Axi S3": "Common"
+          }
+        },
+        "Blueprint": {
+          "DucatValue": 100,
+          "Drops": {
+            "Neo R1": "Rare",
+            "Axi R4": "Rare",
+            "Axi R1": "Rare"
+          }
+        },
+        "Neuroptics Blueprint": {
+          "DucatValue": 45,
+          "Drops": {
+            "Lith B4": "Uncommon",
+            "Meso S14": "Uncommon",
+            "Lith B1": "Uncommon"
+          }
+        }
+      }
+    },
     "Aklex Prime": {
       "IsVaulted": false,
       "Parts": {
@@ -5173,42 +5229,6 @@
           "DucatValue": 100,
           "Drops": {
             "Axi A2": "Rare"
-          }
-        }
-      }
-    },
-    "Fass": {
-      "IsVaulted": false,
-      "Parts": {
-        "": {
-          "DucatValue": 0,
-          "Drops": {
-            "Requiem III": "Uncommon"
-          }
-        }
-      }
-    },
-    "Exilus Weapon Adapter": {
-      "IsVaulted": false,
-      "Parts": {
-        "Blueprint": {
-          "DucatValue": 0,
-          "Drops": {
-            "Requiem III": "Rare",
-            "Requiem IV": "Rare",
-            "Requiem II": "Rare",
-            "Requiem I": "Rare"
-          }
-        }
-      }
-    },
-    "Netra": {
-      "IsVaulted": false,
-      "Parts": {
-        "": {
-          "DucatValue": 0,
-          "Drops": {
-            "Requiem IV": "Uncommon"
           }
         }
       }
@@ -5357,41 +5377,38 @@
         }
       }
     },
+    "Fass": {
+      "IsVaulted": false,
+      "Parts": {
+        "": {
+          "DucatValue": 0,
+          "Drops": {
+            "Requiem Eterna": "Common",
+            "Requiem III": "Uncommon"
+          }
+        }
+      }
+    },
+    "Netra": {
+      "IsVaulted": false,
+      "Parts": {
+        "": {
+          "DucatValue": 0,
+          "Drops": {
+            "Requiem Eterna": "Common",
+            "Requiem IV": "Uncommon"
+          }
+        }
+      }
+    },
     "Khra": {
       "IsVaulted": false,
       "Parts": {
         "": {
           "DucatValue": 0,
           "Drops": {
+            "Requiem Eterna": "Common",
             "Requiem IV": "Uncommon"
-          }
-        }
-      }
-    },
-    "Ayatan Amber Star": {
-      "IsVaulted": false,
-      "Parts": {
-        "": {
-          "DucatValue": 0,
-          "Drops": {
-            "Requiem III": "Common",
-            "Requiem IV": "Common",
-            "Requiem II": "Common",
-            "Requiem I": "Common"
-          }
-        }
-      }
-    },
-    "Kuva": {
-      "IsVaulted": false,
-      "Parts": {
-        "": {
-          "DucatValue": 0,
-          "Drops": {
-            "Requiem III": "Common",
-            "Requiem IV": "Common",
-            "Requiem II": "Common",
-            "Requiem I": "Common"
           }
         }
       }
@@ -5458,6 +5475,7 @@
         "": {
           "DucatValue": 0,
           "Drops": {
+            "Requiem Eterna": "Common",
             "Requiem II": "Uncommon"
           }
         }
@@ -5508,6 +5526,7 @@
         "": {
           "DucatValue": 0,
           "Drops": {
+            "Requiem Eterna": "Common",
             "Requiem III": "Uncommon"
           }
         }
@@ -6897,12 +6916,13 @@
       }
     },
     "Ember Prime": {
-      "IsVaulted": true,
+      "IsVaulted": false,
       "Parts": {
         "Chassis Blueprint": {
           "DucatValue": 15,
           "Drops": {
             "Neo F1": "Common",
+            "Vanguard C1": "Common",
             "Meso F2": "Common",
             "Meso B10": "Common"
           }
@@ -6911,25 +6931,28 @@
           "DucatValue": 45,
           "Drops": {
             "Axi S2": "Uncommon",
+            "Axi R4": "Uncommon",
             "Lith G1": "Uncommon",
-            "Axi R4": "Uncommon"
+            "Vanguard P1": "Uncommon"
           }
         },
         "Blueprint": {
           "DucatValue": 100,
           "Drops": {
             "Meso E1": "Rare",
-            "Neo E1": "Rare",
+            "Vanguard E1": "Rare",
+            "Lith E1": "Rare",
             "Axi E1": "Rare",
-            "Lith E1": "Rare"
+            "Neo E1": "Rare"
           }
         },
         "Neuroptics Blueprint": {
           "DucatValue": 25,
           "Drops": {
             "Meso F3": "Common",
+            "Neo S5": "Common",
             "Meso S14": "Uncommon",
-            "Neo S5": "Common"
+            "Vanguard M1": "Common"
           }
         }
       }
@@ -6982,11 +7005,12 @@
       "IsVaulted": false,
       "Parts": {
         "Chassis Blueprint": {
-          "DucatValue": 100,
+          "DucatValue": 65,
           "Drops": {
-            "Axi P7": "Rare",
             "Axi P8": "Rare",
             "Neo P7": "Rare",
+            "Vanguard M1": "Uncommon",
+            "Axi P7": "Rare",
             "Meso P17": "Rare"
           }
         },
@@ -6994,12 +7018,13 @@
           "DucatValue": 15,
           "Drops": {
             "Meso W4": "Common",
+            "Axi N13": "Common",
+            "Meso V10": "Common",
             "Meso K7": "Common",
             "Axi V13": "Common",
-            "Axi N13": "Common",
             "Lith W4": "Common",
             "Meso V14": "Common",
-            "Meso V10": "Common",
+            "Vanguard C1": "Common",
             "Neo C6": "Common"
           }
         },
@@ -7010,14 +7035,16 @@
             "Meso P15": "Rare",
             "Axi P9": "Rare",
             "Lith P9": "Rare",
-            "Meso P16": "Rare"
+            "Meso P16": "Rare",
+            "Vanguard P1": "Rare"
           }
         },
         "Neuroptics Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 25,
           "Drops": {
             "Meso T8": "Uncommon",
             "Lith D7": "Uncommon",
+            "Vanguard E1": "Common",
             "Axi T12": "Uncommon",
             "Neo P6": "Uncommon",
             "Neo D9": "Uncommon",
@@ -7452,6 +7479,7 @@
         "": {
           "DucatValue": 0,
           "Drops": {
+            "Requiem Eterna": "Common",
             "Requiem I": "Uncommon"
           }
         }
@@ -7742,17 +7770,18 @@
       }
     },
     "Mesa Prime": {
-      "IsVaulted": true,
+      "IsVaulted": false,
       "Parts": {
         "Chassis Blueprint": {
           "DucatValue": 15,
           "Drops": {
             "Axi M1": "Common",
             "Lith R1": "Common",
+            "Neo R4": "Common",
             "Neo A3": "Common",
             "Neo C1": "Common",
             "Lith S10": "Common",
-            "Neo R4": "Common",
+            "Vanguard E1": "Common",
             "Axi H4": "Common",
             "Meso C4": "Common",
             "Meso L2": "Common"
@@ -7763,28 +7792,31 @@
           "Drops": {
             "Neo M2": "Rare",
             "Neo H3": "Uncommon",
+            "Vanguard C1": "Uncommon",
             "Lith M6": "Rare",
             "Neo M3": "Rare",
             "Lith D5": "Uncommon"
           }
         },
         "Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 25,
           "Drops": {
             "Meso R2": "Uncommon",
-            "Neo Z3": "Uncommon",
             "Lith D1": "Uncommon",
             "Lith P7": "Uncommon",
+            "Neo Z3": "Uncommon",
+            "Neo Z2": "Uncommon",
             "Lith N9": "Uncommon",
             "Meso P3": "Uncommon",
-            "Neo Z2": "Uncommon",
-            "Lith C6": "Uncommon"
+            "Lith C6": "Uncommon",
+            "Vanguard P1": "Common"
           }
         },
         "Neuroptics Blueprint": {
           "DucatValue": 100,
           "Drops": {
             "Axi M3": "Rare",
+            "Vanguard M1": "Rare",
             "Lith M3": "Rare",
             "Lith M4": "Rare",
             "Lith M5": "Rare",
@@ -7851,7 +7883,7 @@
         "Blueprint": {
           "DucatValue": 15,
           "Drops": {
-            "Axi S19": "Common",
+            "Neo R3": "Common",
             "Neo T1": "Common",
             "Meso V1": "Common",
             "Meso P4": "Common",
@@ -7865,28 +7897,28 @@
             "Neo S6": "Common",
             "Axi G9": "Common",
             "Axi K11": "Common",
-            "Axi R4": "Common",
+            "Axi T11": "Common",
             "Neo L4": "Common",
             "Lith T1": "Common",
             "Neo A6": "Common",
             "Lith A10": "Common",
-            "Neo R3": "Common",
+            "Meso I2": "Common",
             "Axi B8": "Common",
             "Neo N23": "Common",
             "Meso C6": "Common",
             "Axi C8": "Common",
             "Axi L5": "Common",
+            "Axi S19": "Common",
             "Axi B7": "Common",
-            "Meso I2": "Common",
             "Axi M6": "Common",
+            "Axi R4": "Common",
             "Neo Z9": "Common",
-            "Axi G7": "Common",
             "Axi S6": "Common",
+            "Axi G7": "Common",
             "Lith O1": "Common",
-            "Lith S10": "Common",
             "Axi M2": "Common",
             "Lith D6": "Common",
-            "Axi T11": "Common",
+            "Lith S10": "Common",
             "Lith P2": "Common",
             "Axi G12": "Common"
           }
@@ -16573,6 +16605,43 @@
       "Tier": "Neo",
       "Introduced": "29.3"
     },
+    "Vanguard P1": {
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5",
+      "Name": "Vanguard P1",
+      "Drops": [
+        {
+          "Part": "Chassis Blueprint",
+          "Item": "Caliban Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Mesa Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Neuroptics Blueprint",
+          "Item": "Ash Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Neuroptics Blueprint",
+          "Item": "Volt Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Systems Blueprint",
+          "Item": "Ember Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Systems Blueprint",
+          "Item": "Protea Prime",
+          "Rarity": "Rare"
+        }
+      ]
+    },
     "Lith V4": {
       "Vaulted": "22.7",
       "Name": "Lith V4",
@@ -20356,6 +20425,119 @@
       "Tier": "Neo",
       "Introduced": "32.3.6"
     },
+    "Vanguard M1": {
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5",
+      "Name": "Vanguard M1",
+      "Drops": [
+        {
+          "Part": "Neuroptics Blueprint",
+          "Item": "Ember Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Chassis Blueprint",
+          "Item": "Ash Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Caliban Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Systems Blueprint",
+          "Item": "Volt Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Chassis Blueprint",
+          "Item": "Protea Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Neuroptics Blueprint",
+          "Item": "Mesa Prime",
+          "Rarity": "Rare"
+        }
+      ]
+    },
+    "Axi T11": {
+      "Vaulted": "36.0.4",
+      "Name": "Axi T11",
+      "Drops": [
+        {
+          "Part": "Blueprint",
+          "Item": "Forma",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blade",
+          "Item": "Galatine Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Burston Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Handle",
+          "Item": "Scourge Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Neuroptics Blueprint",
+          "Item": "Harrow Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Tigris Prime",
+          "Rarity": "Rare"
+        }
+      ],
+      "Tier": "Axi",
+      "Introduced": "36.0.4"
+    },
+    "Neo P1": {
+      "Vaulted": "28.2",
+      "Name": "Neo P1",
+      "Drops": [
+        {
+          "Part": "Blueprint",
+          "Item": "Ninkondi Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Lower Limb",
+          "Item": "Paris Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blade",
+          "Item": "Redeemer Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Receiver",
+          "Item": "Akjagara Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Stock",
+          "Item": "Rubico Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Pangolin Prime",
+          "Rarity": "Rare"
+        }
+      ],
+      "Tier": "Neo",
+      "Introduced": "27.3.6"
+    },
     "Axi P2": {
       "Vaulted": "27.0.4",
       "Name": "Axi P2",
@@ -20393,6 +20575,53 @@
       ],
       "Tier": "Axi",
       "Introduced": "25.8"
+    },
+    "Requiem Eterna": {
+      "Tier": "Requiem",
+      "Introduced": "TBA",
+      "Name": "Requiem Eterna",
+      "Drops": [
+        {
+          "Part": "",
+          "Item": "Khra",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "",
+          "Item": "Netra",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "",
+          "Item": "Fass",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "",
+          "Item": "Ris",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "",
+          "Item": "Vome",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "",
+          "Item": "Jahu",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "",
+          "Item": "Xata",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "",
+          "Item": "Lohk",
+          "Rarity": "Common"
+        }
+      ]
     },
     "Requiem IV": {
       "Tier": "Requiem",
@@ -23411,43 +23640,42 @@
       "Tier": "Neo",
       "Introduced": "29.9"
     },
-    "Neo P1": {
-      "Vaulted": "28.2",
-      "Name": "Neo P1",
+    "Vanguard C1": {
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5",
+      "Name": "Vanguard C1",
       "Drops": [
         {
           "Part": "Blueprint",
-          "Item": "Ninkondi Prime",
+          "Item": "Protea Prime",
           "Rarity": "Common"
         },
         {
-          "Part": "Lower Limb",
-          "Item": "Paris Prime",
+          "Part": "Chassis Blueprint",
+          "Item": "Ember Prime",
           "Rarity": "Common"
-        },
-        {
-          "Part": "Blade",
-          "Item": "Redeemer Prime",
-          "Rarity": "Common"
-        },
-        {
-          "Part": "Receiver",
-          "Item": "Akjagara Prime",
-          "Rarity": "Uncommon"
-        },
-        {
-          "Part": "Stock",
-          "Item": "Rubico Prime",
-          "Rarity": "Uncommon"
         },
         {
           "Part": "Blueprint",
-          "Item": "Pangolin Prime",
+          "Item": "Volt Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Systems Blueprint",
+          "Item": "Mesa Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Systems Blueprint",
+          "Item": "Ash Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Systems Blueprint",
+          "Item": "Caliban Prime",
           "Rarity": "Rare"
         }
-      ],
-      "Tier": "Neo",
-      "Introduced": "27.3.6"
+      ]
     },
     "Meso O5": {
       "Vaulted": "32.2.5",
@@ -25283,43 +25511,42 @@
       "Tier": "Neo",
       "Introduced": "32.2.5"
     },
-    "Axi T11": {
-      "Vaulted": "36.0.4",
-      "Name": "Axi T11",
+    "Vanguard E1": {
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5",
+      "Name": "Vanguard E1",
       "Drops": [
         {
-          "Part": "Blueprint",
-          "Item": "Forma",
+          "Part": "Neuroptics Blueprint",
+          "Item": "Protea Prime",
           "Rarity": "Common"
         },
         {
-          "Part": "Blade",
-          "Item": "Galatine Prime",
+          "Part": "Chassis Blueprint",
+          "Item": "Mesa Prime",
           "Rarity": "Common"
         },
         {
-          "Part": "Blueprint",
-          "Item": "Burston Prime",
+          "Part": "Chassis Blueprint",
+          "Item": "Volt Prime",
           "Rarity": "Common"
-        },
-        {
-          "Part": "Handle",
-          "Item": "Scourge Prime",
-          "Rarity": "Uncommon"
         },
         {
           "Part": "Neuroptics Blueprint",
-          "Item": "Harrow Prime",
+          "Item": "Caliban Prime",
           "Rarity": "Uncommon"
         },
         {
           "Part": "Blueprint",
-          "Item": "Tigris Prime",
+          "Item": "Ash Prime",
+          "Rarity": "Uncommon"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Ember Prime",
           "Rarity": "Rare"
         }
-      ],
-      "Tier": "Axi",
-      "Introduced": "36.0.4"
+      ]
     },
     "Neo R4": {
       "Vaulted": "29.3",

@@ -1500,7 +1500,7 @@
         "Slows the enemy"
       ],
       "InternalName": "PT_GLUE",
-      "Icon": "UnidentifiedItem.png",
+      "Icon": "WebbedEmbrace.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Intoxicate": {
@@ -1704,7 +1704,7 @@
         "Longer stagger effect"
       ],
       "InternalName": "PT_BIG_STAGGER",
-      "Icon": "UnidentifiedItem.png",
+      "Icon": "MeleeStagger_d.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Impair": {
@@ -1754,7 +1754,7 @@
         "Equipped weapon is disarmed"
       ],
       "InternalName": "PT_DISARMED",
-      "Icon": "Halikar.png",
+      "Icon": "RadialDisarm.png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     }
   },

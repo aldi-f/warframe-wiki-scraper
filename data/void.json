@@ -1,7 +1,7 @@
 {
   "PrimeData": {
     "Ash Prime": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "Chassis Blueprint": {
           "DucatValue": 15,
@@ -6916,7 +6916,7 @@
       }
     },
     "Ember Prime": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "Chassis Blueprint": {
           "DucatValue": 15,
@@ -7770,7 +7770,7 @@
       }
     },
     "Mesa Prime": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "Chassis Blueprint": {
           "DucatValue": 15,
@@ -16606,8 +16606,7 @@
       "Introduced": "29.3"
     },
     "Vanguard P1": {
-      "Tier": "Vanguard",
-      "Introduced": "41.0.5",
+      "Vaulted": "41.0.5",
       "Name": "Vanguard P1",
       "Drops": [
         {
@@ -16640,7 +16639,9 @@
           "Item": "Protea Prime",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5"
     },
     "Lith V4": {
       "Vaulted": "22.7",
@@ -20426,8 +20427,7 @@
       "Introduced": "32.3.6"
     },
     "Vanguard M1": {
-      "Tier": "Vanguard",
-      "Introduced": "41.0.5",
+      "Vaulted": "41.0.5",
       "Name": "Vanguard M1",
       "Drops": [
         {
@@ -20460,7 +20460,9 @@
           "Item": "Mesa Prime",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5"
     },
     "Axi T11": {
       "Vaulted": "36.0.4",
@@ -23641,8 +23643,7 @@
       "Introduced": "29.9"
     },
     "Vanguard C1": {
-      "Tier": "Vanguard",
-      "Introduced": "41.0.5",
+      "Vaulted": "41.0.5",
       "Name": "Vanguard C1",
       "Drops": [
         {
@@ -23675,7 +23676,9 @@
           "Item": "Caliban Prime",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5"
     },
     "Meso O5": {
       "Vaulted": "32.2.5",
@@ -25512,8 +25515,7 @@
       "Introduced": "32.2.5"
     },
     "Vanguard E1": {
-      "Tier": "Vanguard",
-      "Introduced": "41.0.5",
+      "Vaulted": "41.0.5",
       "Name": "Vanguard E1",
       "Drops": [
         {
@@ -25546,7 +25548,9 @@
           "Item": "Ember Prime",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Vanguard",
+      "Introduced": "41.0.5"
     },
     "Neo R4": {
       "Vaulted": "29.3",

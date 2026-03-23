@@ -113,7 +113,7 @@
         0
       ],
       "CritMultiplier": 0,
-      "SquadPortrait": "LambeoMoaLargePortrait.png",
+      "SquadPortrait": "MoaLargePortrait.png",
       "Type": "MOA",
       "Link": "Model#Lambeo",
       "Tradable": false,
@@ -636,7 +636,7 @@
         0
       ],
       "CritMultiplier": 0,
-      "SquadPortrait": "NychusMoaLargePortrait.png",
+      "SquadPortrait": "MoaLargePortrait.png",
       "Type": "MOA",
       "Link": "Model#Nychus",
       "Tradable": false,
@@ -1287,7 +1287,7 @@
         0
       ],
       "CritMultiplier": 0,
-      "SquadPortrait": "OloroMoaLargePortrait.png",
+      "SquadPortrait": "MoaLargePortrait.png",
       "Type": "MOA",
       "Link": "Model#Oloro",
       "Tradable": false,

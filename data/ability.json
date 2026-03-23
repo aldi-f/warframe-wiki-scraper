@@ -695,7 +695,7 @@
       "CostType": "time"
     },
     "Minelayer": {
-      "Description": "Cycle through four deployable mines. Tether Coil immobilizes and groups enemies together. Flechette Orb fires out deadly nails in all directions. Vector Pad accelerates enemies and allies in the pad's direction. Overdriver latches onto the nearest ally and boosts their weapon damage.",
+      "Description": "Control the battelfield with masterful mines. Vauban's Tether-Flechette orb immobilizes and draws in enemies while launching deadly nails in all directions.\r\n\r\nHOLD to launch a Vector-Overdrive pad that accelerates foes and allies alike in the pad's direction, increasing ally Movement Speed and Weapon Damage.",
       "Cost": 25,
       "Powersuit": "Vauban",
       "Key": 2,
@@ -724,8 +724,8 @@
       "Icon": "WardingHalo130xWhite.png"
     },
     "Photon Strike": {
-      "Description": "Drop a targeting beacon that calls in a devastating laser artillery strike.",
-      "Cost": 75,
+      "Description": "Drop a targeting beacon that calls in a devastating laser artillery strike. Deals doubled damage to enemies with Overguard.",
+      "Cost": 50,
       "Augments": [
         "Photon Repeater"
       ],
@@ -1547,10 +1547,10 @@
       "Icon": "Xata'sWhisper130xWhite.png"
     },
     "Bastille": {
-      "Description": "Erect a containment field to capture enemies and suspended them in stasis, stripping their armor. Hold to collapse all Bastilles into a single damaging vortex.",
+      "Description": "Erect a containment field to capture enemies and suspended them in stasis, stripping their armor.\r\n\r\nHOLD to collapse all Bastilles into a single damaging vortex.",
       "Cost": 100,
       "Augments": [
-        "Repelling Bastille"
+        "Enduring Bastille"
       ],
       "Powersuit": "Vauban",
       "Key": 4,
@@ -3800,7 +3800,7 @@
       "Icon": "Shock130xWhite.png"
     },
     "Tesla Nervos": {
-      "Description": "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing electricity to anything in the immediate area.",
+      "Description": "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing <DT_ELECTRICITY_COLOR> Electricity Damage to anything in the immediate area.",
       "Cost": 25,
       "Augments": [
         "Tesla Bank"
@@ -5257,6 +5257,7 @@
     "Evade": {
       "Description": "Jump backwards and become invisible for a short duration. Killing enemies on their Weak Points extends the duration and heals Cyte-09.",
       "Cost": 75,
+      "Subsumable": true,
       "Powersuit": "Cyte-09",
       "Key": 3,
       "CardImage": "EvadeModx256.png",

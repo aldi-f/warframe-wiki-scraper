@@ -2224,7 +2224,7 @@
     "InternalName": "/Lotus/Powersuits/Temple/ExaltedGuitar",
     "AmmoType": "Backbeat metronome",
     "Trigger": "Held",
-    "Magazine": 0,
+    "Magazine": 275,
     "CompatibilityTags": [
       "POWER_WEAPON",
       "BEAM",
@@ -2234,13 +2234,14 @@
     "Attacks": [
       {
         "CritChance": 0.35,
-        "Range": 10,
-        "FireRate": 8,
-        "Multishot": 1,
         "StatusChance": 0.35,
-        "MaxSpread": 0,
-        "AttackName": "Normal Attack",
+        "Range": 10,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "FireRate": 8,
         "MinSpread": 0,
+        "AttackName": "Normal Attack",
+        "MaxSpread": 0,
         "ShotType": "Hit-Scan",
         "Damage": {
           "Heat": 85
@@ -2250,8 +2251,9 @@
       {
         "CritChance": 0.15,
         "StatusChance": 0.25,
-        "MaxSpread": 0,
         "FireRate": 5.33,
+        "MaxSpread": 0,
+        "AmmoCost": 2,
         "Multishot": 1,
         "MinSpread": 0,
         "ForcedProcs": [
@@ -2269,8 +2271,9 @@
       {
         "CritChance": 0.15,
         "StatusChance": 0.25,
-        "MaxSpread": 0,
         "FireRate": 5.33,
+        "MaxSpread": 0,
+        "AmmoCost": 2,
         "Multishot": 1,
         "MinSpread": 0,
         "ForcedProcs": [
@@ -2288,8 +2291,9 @@
       {
         "CritChance": 0.15,
         "StatusChance": 0.25,
-        "MaxSpread": 0,
         "FireRate": 5.33,
+        "MaxSpread": 0,
+        "AmmoCost": 2,
         "Multishot": 1,
         "MinSpread": 0,
         "ForcedProcs": [
@@ -2307,8 +2311,9 @@
       {
         "CritChance": 0.15,
         "StatusChance": 0.25,
-        "MaxSpread": 0,
         "FireRate": 5.33,
+        "MaxSpread": 0,
+        "AmmoCost": 2,
         "Multishot": 1,
         "MinSpread": 0,
         "ForcedProcs": [
@@ -3507,7 +3512,7 @@
     "IncarnonImage": "BurstonIncarnon.png",
     "Mastery": 0,
     "Accuracy": 25,
-    "Trigger": "Burst",
+    "Trigger": "Burst / Auto",
     "ExilusPolarity": "Naramon",
     "CompatibilityTags": [
       "ASSAULT_AMMO"
@@ -3518,26 +3523,27 @@
     "Name": "Burston",
     "Attacks": [
       {
-        "StatusChance": 0.18,
         "CritChance": 0.06,
-        "FireRate": 5,
-        "Range": 300,
         "BurstCount": 3,
-        "IsSilent": false,
+        "Range": 300,
+        "FireRate": 5,
+        "Multishot": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 1.6,
+        "Trigger": "Burst",
         "BurstDelay": 0.061,
         "AmmoCost": 1,
-        "Multishot": 1,
-        "MinSpread": 0,
         "MaxSpread": 8,
-        "AttackName": "Normal Attack",
+        "MinSpread": 0,
         "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
+        "StatusChance": 0.18,
+        "IsSilent": false,
         "Damage": {
           "Puncture": 10,
           "Slash": 10,
           "Impact": 10
-        },
-        "CritMultiplier": 1.6
+        }
       },
       {
         "CritChance": 0.3,
@@ -3548,6 +3554,7 @@
         "ShotType": "Hit-Scan",
         "CritMultiplier": 3,
         "Accuracy": 28.57,
+        "Trigger": "Auto",
         "AmmoCost": 1,
         "FireRate": 20,
         "IsSilent": false,
@@ -3561,6 +3568,7 @@
       },
       {
         "CritChance": 0.3,
+        "Trigger": "Auto",
         "Falloff": {
           "EndRange": 2,
           "Reduction": 0,
@@ -4099,7 +4107,7 @@
     "IncarnonImage": "BurstonPrimeIncarnon.png",
     "Mastery": 12,
     "Accuracy": 25,
-    "Trigger": "Burst",
+    "Trigger": "Burst / Auto",
     "ExilusPolarity": "Naramon",
     "CompatibilityTags": [
       "ASSAULT_AMMO"
@@ -4110,26 +4118,27 @@
     "Name": "Burston Prime",
     "Attacks": [
       {
-        "StatusChance": 0.3,
         "CritChance": 0.18,
-        "FireRate": 5,
-        "Range": 300,
         "BurstCount": 3,
-        "IsSilent": false,
+        "Range": 300,
+        "FireRate": 5,
+        "Multishot": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 1.8,
+        "Trigger": "Burst",
         "BurstDelay": 0.04,
         "AmmoCost": 1,
-        "Multishot": 1,
-        "MinSpread": 0,
         "MaxSpread": 8,
-        "AttackName": "Normal Attack",
+        "MinSpread": 0,
         "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
+        "StatusChance": 0.3,
+        "IsSilent": false,
         "Damage": {
           "Puncture": 13.8,
           "Slash": 18.4,
           "Impact": 13.8
-        },
-        "CritMultiplier": 1.8
+        }
       },
       {
         "CritChance": 0.28,
@@ -4140,6 +4149,7 @@
         "ShotType": "Hit-Scan",
         "CritMultiplier": 3,
         "Accuracy": 28.57,
+        "Trigger": "Auto",
         "AmmoCost": 1,
         "FireRate": 20,
         "IsSilent": false,
@@ -4153,6 +4163,7 @@
       },
       {
         "CritChance": 0.28,
+        "Trigger": "Auto",
         "Falloff": {
           "EndRange": 2,
           "Reduction": 1,
@@ -6603,28 +6614,29 @@
     "Name": "Nagantaka",
     "Attacks": [
       {
-        "StatusChance": 0.39,
         "CritChance": 0.15,
         "FireRate": 2.5,
-        "Accuracy": 40,
-        "ShotSpeed": 100,
-        "IsSilent": true,
-        "MinSpread": 0,
-        "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 5,
         "ForcedProcs": [
           "Impact"
         ],
         "AttackName": "Semi-Auto",
-        "PunchThrough": 0,
         "ShotType": "Projectile",
+        "CritMultiplier": 2.3,
+        "Accuracy": 40,
+        "Trigger": "Semi-Auto",
+        "AmmoCost": 1,
+        "MaxSpread": 5,
+        "ShotSpeed": 100,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.39,
+        "IsSilent": true,
         "Damage": {
           "Puncture": 14.3,
           "Slash": 143.1,
           "Impact": 1.6
-        },
-        "CritMultiplier": 2.3
+        }
       },
       {
         "CritChance": 0.15,
@@ -6638,6 +6650,7 @@
         "ShotType": "Projectile",
         "CritMultiplier": 2.3,
         "Accuracy": 40,
+        "Trigger": "Mag Burst",
         "MaxSpread": 5,
         "BurstDelay": 0.15,
         "AmmoCost": 1,
@@ -7624,28 +7637,29 @@
     "Name": "Nagantaka Prime",
     "Attacks": [
       {
-        "StatusChance": 0.39,
         "CritChance": 0.25,
         "FireRate": 2.5,
-        "Accuracy": 40,
-        "ShotSpeed": 100,
-        "IsSilent": true,
-        "MinSpread": 0,
-        "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 5,
         "ForcedProcs": [
           "Impact"
         ],
         "AttackName": "Semi-Auto",
-        "PunchThrough": 0,
         "ShotType": "Projectile",
+        "CritMultiplier": 2.3,
+        "Accuracy": 40,
+        "Trigger": "Semi-Auto",
+        "AmmoCost": 1,
+        "MaxSpread": 5,
+        "ShotSpeed": 100,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.39,
+        "IsSilent": true,
         "Damage": {
           "Puncture": 15.6,
           "Slash": 155.7,
           "Impact": 1.7
-        },
-        "CritMultiplier": 2.3
+        }
       },
       {
         "CritChance": 0.25,
@@ -7659,6 +7673,7 @@
         "ShotType": "Projectile",
         "CritMultiplier": 2.3,
         "Accuracy": 40,
+        "Trigger": "Mag Burst",
         "MaxSpread": 5,
         "BurstDelay": 0.11,
         "AmmoCost": 1,
@@ -10583,7 +10598,7 @@
         "IsSilent": false,
         "Falloff": {
           "EndRange": 52,
-          "Reduction": 0.5,
+          "Reduction": 0.78,
           "StartRange": 26
         },
         "Range": 300,
@@ -12431,16 +12446,17 @@
     "Class": "Rifle",
     "MaxRank": 30,
     "Image": "Reconifex.png",
+    "Link": "Reconifex",
     "Introduced": "38.0",
     "Polarities": [
       "Vazarin",
       "Madurai"
     ],
-    "Link": "Reconifex",
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/TnBeltFedRifle/TnBeltFedRifleWeapon",
+    "Tradable": 4,
     "Slot": "Primary",
     "SellPrice": 7500,
     "Mastery": 14,
@@ -18939,7 +18955,7 @@
         "Trigger": "Semi-Auto",
         "AmmoCost": 1,
         "IsSilent": false,
-        "ShotSpeed": 0,
+        "ShotSpeed": 50,
         "MaxSpread": 0,
         "MinSpread": 0,
         "PunchThrough": 0,
@@ -19210,7 +19226,7 @@
     "SellPrice": 2500,
     "Mastery": 14,
     "Accuracy": 100,
-    "Trigger": "Semi-Auto",
+    "Trigger": "Semi-Auto / Charge",
     "ExilusPolarity": "Naramon",
     "CompatibilityTags": [
       "PROJECTILE",
@@ -19224,6 +19240,7 @@
       {
         "CritChance": 0.27,
         "StatusChance": 0.17,
+        "Trigger": "Semi-Auto",
         "FireRate": 6.5,
         "IsSilent": false,
         "AmmoCost": 1,
@@ -19241,8 +19258,9 @@
       },
       {
         "CritChance": 0.27,
+        "FireRate": 1.5,
         "StatusChance": 0.33,
-        "FireRate": 6.5,
+        "Trigger": "Charge",
         "ShotSpeed": 22,
         "IsSilent": false,
         "AmmoCost": 3,
@@ -23986,7 +24004,8 @@
     "MaxRank": 30,
     "Image": "Vesper77.png",
     "Users": [
-      "Arthur"
+      "Arthur",
+      "Velimir"
     ],
     "Introduced": "38.0",
     "Polarities": [
@@ -23996,7 +24015,7 @@
     "Mastery": 14,
     "InternalName": "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
     "Traits": {},
-    "Tradable": 0,
+    "Tradable": 4,
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Accuracy": 16,
@@ -46098,11 +46117,11 @@
       {
         "CritChance": 0.24,
         "Falloff": {
-          "EndRange": 9,
+          "EndRange": 8,
           "Reduction": 0.3,
           "StartRange": 0
         },
-        "Range": 9,
+        "Range": 8,
         "FireRate": 1,
         "StatusChance": 0.1,
         "ForcedProcs": [
@@ -66779,6 +66798,76 @@
     "AmmoMax": 3,
     "Magazine": 3,
     "Link": "Lob Blobs"
+  },
+  "Thermian RPG": {
+    "_TooltipAttackDisplay": 2,
+    "MaxRank": 40,
+    "Image": "ThermianRPG.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "38.5",
+    "InternalName": "/Lotus/Weapons/1999/RocketPropelledGrenadeLauncher/1999RPGLauncher",
+    "Link": "Thermian RPG",
+    "Trigger": "Semi-Auto",
+    "Magazine": 1,
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "SNIPER_AMMO",
+      "AOE",
+      "SINGLESHOT",
+      "SEMI_AUTO"
+    ],
+    "Reload": 2.1,
+    "AmmoPickup": 0,
+    "Name": "Thermian RPG",
+    "Traits": [
+      "Scaldra"
+    ],
+    "AmmoMax": 2,
+    "Slot": "Primary",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "Trigger": "Semi-Auto",
+        "StatusChance": 0,
+        "FireRate": 1.5,
+        "AmmoCost": 1,
+        "ShotSpeed": 60,
+        "MinSpread": 0,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "AttackName": "Projectile Impact",
+        "MaxSpread": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 1500000,
+          "Impact": 3500000
+        },
+        "CritMultiplier": 1
+      },
+      {
+        "CritChance": 0,
+        "Falloff": {
+          "EndRange": 8,
+          "Reduction": 1,
+          "StartRange": 0
+        },
+        "Range": 8,
+        "FireRate": 1.5,
+        "ForcedProcs": [
+          "Big Stagger"
+        ],
+        "AttackName": "Explosion",
+        "StatusChance": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Puncture": 1000000,
+          "Blast": 1000000,
+          "Impact": 1000000
+        },
+        "CritMultiplier": 1
+      }
+    ]
   },
   "Parazon": {
     "Conclave": false,

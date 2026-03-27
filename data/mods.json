@@ -7004,19 +7004,19 @@
     "Truth's Flame": {
       "Transmutable": false,
       "Type": "Melee",
-      "Description": "Enables Tennokai. Successfull Tennokai kills grant an additional 4s Tennokai opportunity with +120% Melee Damage bonus. Be warned, failing to kill a target with a Tennokai attack will self-inflict 100 <DT_FIRE_COLOR>Heat Damage/s and reset the Combo Counter. +1 'Truth'",
+      "Description": "Enables Tennokai. Tennokai kills grant an additional 4s Tennokai opportunity with +120% Melee Damage bonus.\r\nCURSE: Suffer 100 <DT_FIRE_COLOR>Heat Damage/s for 6s.\r\n+1 'Truth'",
       "IsExilus": true,
       "Tradable": true,
-      "BaseDrain": 4,
+      "BaseDrain": 6,
       "MaxRank": 3,
-      "Rarity": "Uncommon",
+      "Rarity": "Rare",
       "Polarity": "Madurai",
-      "Image": "UnidentifiedItem.png",
+      "Image": "Truth'sFlameMod.png",
       "Name": "Truth's Flame",
-      "Introduced": "TBA",
+      "Introduced": "42",
       "Link": "Truth's Flame",
-      "InternalName": "TBA",
-      "Icon": "UnidentifiedItem.png",
+      "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CursedSyndicateEmpoweredHeavyMeleeMod",
+      "Icon": "Truth'sFlame.jpg",
       "CodexSecret": false
     },
     "Antitoxin": {
@@ -12532,26 +12532,6 @@
       "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/SentinelAttack",
       "CodexSecret": false
     },
-    "Necramech Thrusters": {
-      "Transmutable": false,
-      "Type": "Necramech",
-      "Description": "+100% Engine Max",
-      "Link": "Necramech Thrusters",
-      "UpgradeTypes": [
-        "AVATAR_STAMINA_MAX"
-      ],
-      "BaseDrain": 6,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "NecramechThrustersMod.png",
-      "Name": "Necramech Thrusters",
-      "Introduced": "29",
-      "Polarity": "Vazarin",
-      "InternalName": "/Lotus/Upgrades/Mods/Necromech/NecromechBoostMaxMod",
-      "Icon": "NecramechThrusters.png",
-      "CodexSecret": false
-    },
     "Zodiac Shred": {
       "Transmutable": false,
       "Type": "Archgun",
@@ -12570,25 +12550,6 @@
       "Polarity": "Naramon",
       "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingDualStatSlashStatusMod",
       "Icon": "ZodiacShred.png",
-      "CodexSecret": false
-    },
-    "Turbo Protect": {
-      "Description": "Gain 10% Disinfection and 25% chance to drop an Antivirus mod",
-      "Class": "Potency",
-      "MaxRank": 3,
-      "NotUpgradable": true,
-      "Image": "TurboProtectMod.png",
-      "Introduced": "38.5",
-      "Icon": "TurboProtect.jpg",
-      "Transmutable": true,
-      "Type": "Parazon",
-      "Rarity": "Rare",
-      "Link": "Turbo Protect",
-      "BaseDrain": 0,
-      "Polarity": "Universal",
-      "Name": "Turbo Protect",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod",
       "CodexSecret": false
     },
     "Zazvat-Kar": {
@@ -12610,6 +12571,88 @@
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/AkstilettoEfficiencyWhileAirborneMod",
       "IsWeaponAugment": true,
+      "CodexSecret": false
+    },
+    "Necramech Thrusters": {
+      "Transmutable": false,
+      "Type": "Necramech",
+      "Description": "+100% Engine Max",
+      "Link": "Necramech Thrusters",
+      "UpgradeTypes": [
+        "AVATAR_STAMINA_MAX"
+      ],
+      "BaseDrain": 6,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "NecramechThrustersMod.png",
+      "Name": "Necramech Thrusters",
+      "Introduced": "29",
+      "Polarity": "Vazarin",
+      "InternalName": "/Lotus/Upgrades/Mods/Necromech/NecromechBoostMaxMod",
+      "Icon": "NecramechThrusters.png",
+      "CodexSecret": false
+    },
+    "Yar Dal": {
+      "Transmutable": false,
+      "Type": "Antique",
+      "Description": "+300 Operator Health",
+      "Conclave": false,
+      "Tradable": true,
+      "BaseDrain": 0,
+      "MaxRank": 5,
+      "Rarity": "Common",
+      "Polarity": "Universal",
+      "Image": "YarDalMod.png",
+      "Name": "Yar Dal",
+      "Introduced": "41",
+      "Link": "Yar Dal",
+      "InternalName": "/Lotus/Upgrades/Mods/Antiques/HealthMax",
+      "Icon": "YarDal.jpg",
+      "Class": "Vazarin"
+    },
+    "Turbo Protect": {
+      "Description": "Gain 10% Disinfection and 25% chance to drop an Antivirus mod",
+      "Class": "Potency",
+      "MaxRank": 3,
+      "NotUpgradable": true,
+      "Image": "TurboProtectMod.png",
+      "Introduced": "38.5",
+      "Icon": "TurboProtect.jpg",
+      "Transmutable": true,
+      "Type": "Parazon",
+      "Rarity": "Rare",
+      "Link": "Turbo Protect",
+      "BaseDrain": 0,
+      "Polarity": "Universal",
+      "Name": "Turbo Protect",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/DataSpike/Potency/GainAntivirusAndSpeedOnUseMod",
+      "CodexSecret": false
+    },
+    "Xata Invocation": {
+      "Description": "Alternate Fire grants 1 Energy Regen/s for 20s for each enemy hit. Stacks up to 10 times.",
+      "UpgradeTypes": [
+        "AVATAR_POWER_RATE"
+      ],
+      "MaxRank": 3,
+      "Image": "XataInvocationMod.png",
+      "Introduced": "35",
+      "Icon": "XataInvocation.png",
+      "Transmutable": false,
+      "Type": "Tome",
+      "Rarity": "Rare",
+      "Link": "Xata Invocation",
+      "BaseDrain": 10,
+      "Polarity": "Naramon",
+      "Name": "Xata Invocation",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Grimoire/XataStrikeMod",
+      "Incompatible": [
+        "Netra Invocation",
+        "Ris Invocation",
+        "Vome Invocation"
+      ],
       "CodexSecret": false
     },
     "Power of Three": {
@@ -12634,23 +12677,24 @@
       ],
       "CodexSecret": false
     },
-    "Yar Dal": {
-      "Transmutable": false,
-      "Type": "Antique",
-      "Description": "+300 Operator Health",
-      "Conclave": false,
-      "Tradable": true,
+    "Xata": {
+      "Description": "Its heralds are the stars it fells\r\n\r\nThe sky and Earth aflame",
+      "Class": "Requiem",
+      "MaxRank": 3,
+      "NotUpgradable": true,
+      "Image": "XataMod.png",
+      "Introduced": "26",
+      "Icon": "Xata.png",
+      "Transmutable": true,
+      "Type": "Parazon",
+      "Rarity": "Rare",
+      "Link": "Xata",
       "BaseDrain": 0,
-      "MaxRank": 5,
-      "Rarity": "Common",
       "Polarity": "Universal",
-      "Image": "YarDalMod.png",
-      "Name": "Yar Dal",
-      "Introduced": "41",
-      "Link": "Yar Dal",
-      "InternalName": "/Lotus/Upgrades/Mods/Antiques/HealthMax",
-      "Icon": "YarDal.jpg",
-      "Class": "Vazarin"
+      "Name": "Xata",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Immortal/ImmortalTwoMod",
+      "CodexSecret": false
     },
     "Tek Gravity": {
       "Description": "Slam Attacks in the Marked Zone pull all enemies within 20m.",
@@ -12717,29 +12761,22 @@
       ],
       "CodexSecret": true
     },
-    "Xata Invocation": {
-      "Description": "Alternate Fire grants 1 Energy Regen/s for 20s for each enemy hit. Stacks up to 10 times.",
-      "UpgradeTypes": [
-        "AVATAR_POWER_RATE"
-      ],
-      "MaxRank": 3,
-      "Image": "XataInvocationMod.png",
-      "Introduced": "35",
-      "Icon": "XataInvocation.png",
+    "Wrecking Wall": {
       "Transmutable": false,
-      "Type": "Tome",
-      "Rarity": "Rare",
-      "Link": "Xata Invocation",
-      "BaseDrain": 10,
-      "Polarity": "Naramon",
-      "Name": "Xata Invocation",
+      "Type": "Qorvex",
+      "Description": "Containment Wall Augment: Strip 50% of armor and shields from struck enemies. Hitting 5 or more enemies will restart the duration of any Chyrinka Pillars and empower them.",
+      "Link": "Wrecking Wall",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Grimoire/XataStrikeMod",
-      "Incompatible": [
-        "Netra Invocation",
-        "Ris Invocation",
-        "Vome Invocation"
-      ],
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
+      "Rarity": "Rare",
+      "Polarity": "Zenurik",
+      "Image": "WreckingWallMod.png",
+      "Name": "Wrecking Wall",
+      "Introduced": "36",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/ConcreteFrame/ConcreteWallAugmentCard",
+      "Icon": "WreckingWall.jpg",
       "CodexSecret": false
     },
     "Indomitable Matrix": {
@@ -12759,23 +12796,22 @@
       "Icon": "IndomitableMatrix.png",
       "CodexSecret": false
     },
-    "Xata": {
-      "Description": "Its heralds are the stars it fells\r\n\r\nThe sky and Earth aflame",
-      "Class": "Requiem",
-      "MaxRank": 3,
-      "NotUpgradable": true,
-      "Image": "XataMod.png",
-      "Introduced": "26",
-      "Icon": "Xata.png",
-      "Transmutable": true,
-      "Type": "Parazon",
-      "Rarity": "Rare",
-      "Link": "Xata",
-      "BaseDrain": 0,
-      "Polarity": "Universal",
-      "Name": "Xata",
+    "Wrath of Ukko": {
+      "Transmutable": false,
+      "Type": "Kullervo",
+      "Description": "Storm of Ukko Augment: Wrathful Advance moves the storm of daggers to the teleportation location and increases its duration by 6s.",
+      "Link": "Wrath of Ukko",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Immortal/ImmortalTwoMod",
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
+      "Rarity": "Rare",
+      "Polarity": "Zenurik",
+      "Image": "WrathofUkkoMod.png",
+      "Name": "Wrath of Ukko",
+      "Introduced": "35.5",
+      "Icon": "WrathofUkko.jpg",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/PaxFieldAugmentCard",
       "CodexSecret": false
     },
     "Nira's Contempt": {
@@ -12881,22 +12917,21 @@
       "InternalName": "/Lotus/Powersuits/Trinity/LinkAugmentCard",
       "CodexSecret": false
     },
-    "Wrecking Wall": {
+    "Quick Escape": {
       "Transmutable": false,
-      "Type": "Qorvex",
-      "Description": "Containment Wall Augment: Strip 50% of armor and shields from struck enemies. Hitting 5 or more enemies will restart the duration of any Chyrinka Pillars and empower them.",
-      "Link": "Wrecking Wall",
-      "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
-      "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "WreckingWallMod.png",
-      "Name": "Wrecking Wall",
-      "Introduced": "36",
+      "Type": "K-Drive",
+      "Description": "Gain invulnerability for 5s mounting a K-drive, but will expire early upon dismounting. ",
+      "Link": "Quick Escape",
+      "BaseDrain": 4,
       "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/ConcreteFrame/ConcreteWallAugmentCard",
-      "Icon": "WreckingWall.jpg",
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "QuickEscapeMod.png",
+      "Name": "Quick Escape",
+      "Introduced": "24.2",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Hoverboard/HBEscapePlanMod",
+      "Icon": "QuickEscape.png",
       "CodexSecret": false
     },
     "Hydraulic Chamber": {
@@ -12952,22 +12987,21 @@
       ],
       "CodexSecret": true
     },
-    "Wrath of Ukko": {
+    "Worm's Torment": {
       "Transmutable": false,
-      "Type": "Kullervo",
-      "Description": "Storm of Ukko Augment: Wrathful Advance moves the storm of daggers to the teleportation location and increases its duration by 6s.",
-      "Link": "Wrath of Ukko",
+      "Type": "Plexus",
+      "Description": "x1.27 Turret Damage vs Grineer",
+      "Link": "Worm's Torment",
+      "BaseDrain": 4,
+      "MaxRank": 5,
       "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
       "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "WrathofUkkoMod.png",
-      "Name": "Wrath of Ukko",
-      "Introduced": "35.5",
-      "Icon": "WrathofUkko.jpg",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/PaxDuviricus/PaxFieldAugmentCard",
+      "Image": "Worm'sTormentMod.png",
+      "Name": "Worm's Torment",
+      "Introduced": "29.10",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller",
+      "Icon": "Worm'sTorment.png",
       "CodexSecret": false
     },
     "Recuperate": {
@@ -13040,26 +13074,23 @@
       ],
       "CodexSecret": false
     },
-    "Vanquished Prey": {
-      "Description": "On Kill:\r\n-100% Shield Recharge Delay for 10s\r\n-25% from Health Orbs",
-      "Conclave": true,
-      "UpgradeTypes": [
-        "AVATAR_SHIELD_RECHARGE_RATE",
-        "GAMEPLAY_PICKUP_AMOUNT"
-      ],
+    "Worm Away": {
+      "Description": "Get rid of malware, spyware, wetware and worms",
+      "Class": "Antivirus",
       "MaxRank": 3,
-      "Image": "VanquishedPreyMod.png",
-      "Introduced": "16.5",
-      "Icon": "VanquishedPrey.png",
-      "Transmutable": false,
-      "Type": "Rifle",
+      "NotUpgradable": true,
+      "Image": "WormAwayMod.png",
+      "Introduced": "38.5",
+      "Icon": "WormAway.png",
+      "Transmutable": true,
+      "Type": "Parazon",
       "Rarity": "Rare",
-      "Link": "Vanquished Prey",
-      "BaseDrain": 10,
-      "Polarity": "Vazarin",
-      "Name": "Vanquished Prey",
+      "Link": "Worm Away",
+      "BaseDrain": 0,
+      "Polarity": "Universal",
+      "Name": "Worm Away",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/RestoreShieldsOnKillMod",
+      "InternalName": "/Lotus/Upgrades/Mods/Immortal/AntivirusTwoMod",
       "CodexSecret": false
     },
     "Stand Ground": {
@@ -13083,21 +13114,25 @@
       "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Melee/AbilityDamageBlockMod",
       "CodexSecret": false
     },
-    "Worm's Torment": {
+    "Toxic Barrage": {
       "Transmutable": false,
-      "Type": "Plexus",
-      "Description": "x1.27 Turret Damage vs Grineer",
-      "Link": "Worm's Torment",
+      "Type": "Shotgun",
+      "Description": "+60% <DT_POISON_COLOR>Toxin\r\n+60% Status Chance",
+      "Link": "Toxic Barrage",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+        "WEAPON_PROC_CHANCE"
+      ],
       "BaseDrain": 4,
-      "MaxRank": 5,
+      "MaxRank": 3,
       "Tradable": true,
       "Rarity": "Rare",
-      "Image": "Worm'sTormentMod.png",
-      "Name": "Worm's Torment",
-      "Introduced": "29.10",
+      "Image": "ToxicBarrageMod.png",
+      "Name": "Toxic Barrage",
+      "Introduced": "11.5",
       "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarGrineerKiller",
-      "Icon": "Worm'sTorment.png",
+      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/DualStat/PoisonEventShotgunMod",
+      "Icon": "ToxicBarrage.png",
       "CodexSecret": false
     },
     "Stand United": {
@@ -13141,23 +13176,24 @@
       "InternalName": "/Lotus/Upgrades/Mods/Sets/Vigilante/PrimaryVigilanteArmamentsMod",
       "CodexSecret": false
     },
-    "Worm Away": {
-      "Description": "Get rid of malware, spyware, wetware and worms",
-      "Class": "Antivirus",
-      "MaxRank": 3,
-      "NotUpgradable": true,
-      "Image": "WormAwayMod.png",
-      "Introduced": "38.5",
-      "Icon": "WormAway.png",
-      "Transmutable": true,
-      "Type": "Parazon",
-      "Rarity": "Rare",
-      "Link": "Worm Away",
-      "BaseDrain": 0,
-      "Polarity": "Universal",
-      "Name": "Worm Away",
+    "Pummel": {
+      "Transmutable": false,
+      "Type": "Pistol",
+      "Description": "+120% <DT_IMPACT_COLOR>Impact",
+      "Link": "Pummel",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED"
+      ],
+      "BaseDrain": 6,
+      "MaxRank": 5,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Immortal/AntivirusTwoMod",
+      "Rarity": "Rare",
+      "Image": "PummelMod.png",
+      "Name": "Pummel",
+      "Introduced": "16.4",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponEventPistolImpactDamageMod",
+      "Icon": "Pummel.png",
       "CodexSecret": false
     },
     "Galvanized Aptitude": {
@@ -13189,26 +13225,22 @@
       ],
       "CodexSecret": false
     },
-    "Toxic Blight": {
-      "Description": "+100% <DT_POISON_COLOR>Toxin\r\n+1 'Blight'",
-      "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
-        "WEAPON_SYNDICATE_POWER"
-      ],
-      "MaxRank": 3,
-      "Image": "ToxicBlightMod.png",
-      "Introduced": "15",
-      "Icon": "ToxicBlight.png",
+    "Whipclaw": {
       "Transmutable": false,
-      "Type": "Mire",
-      "Rarity": "Rare",
-      "Link": "Toxic Blight",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Toxic Blight",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Syndicate/MireMod",
-      "IsWeaponAugment": true,
+      "Type": "Whipclaw",
+      "Description": "Stance: Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw.",
+      "Link": "Whipclaw (Stance)",
+      "Tradable": false,
+      "BaseDrain": 0,
+      "MaxRank": 3,
+      "Rarity": "Common",
+      "NotUpgradable": true,
+      "Image": "WhipclawStanceMod.png",
+      "Name": "Whipclaw",
+      "Introduced": "38.5",
+      "Polarity": "Zenurik",
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KhoraWhipclawMeleeTree",
+      "Icon": "WhipclawModx256.png",
       "CodexSecret": false
     },
     "Whiplash Mine": {
@@ -13228,24 +13260,29 @@
       "Icon": "WhiplashMine.png",
       "CodexSecret": false
     },
-    "Pummel": {
-      "Transmutable": false,
-      "Type": "Pistol",
-      "Description": "+120% <DT_IMPACT_COLOR>Impact",
-      "Link": "Pummel",
+    "Weeping Wounds": {
+      "Description": "+40% Status Chance per Combo Multiplier",
       "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED"
+        "WEAPON_PROC_CHANCE"
       ],
-      "BaseDrain": 6,
       "MaxRank": 5,
+      "Image": "WeepingWoundsMod.png",
+      "Introduced": "18.4.1",
+      "Icon": "WeepingWounds.png",
+      "Transmutable": false,
+      "Type": "Melee",
+      "Rarity": "Uncommon",
+      "Link": "Weeping Wounds",
+      "BaseDrain": 4,
+      "Polarity": "Madurai",
+      "Name": "Weeping Wounds",
       "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "PummelMod.png",
-      "Name": "Pummel",
-      "Introduced": "16.4",
-      "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponEventPistolImpactDamageMod",
-      "Icon": "Pummel.png",
+      "InternalName": "/Lotus/Upgrades/Mods/Melee/Event/ComboStatusChanceMod",
+      "IncompatibilityTags": [
+        "POWER_WEAPON",
+        "SENTINEL_WEAPON",
+        "HOUND_WEAPON"
+      ],
       "CodexSecret": false
     },
     "Enduring Affliction": {
@@ -13284,49 +13321,6 @@
       "Polarity": "Naramon",
       "Icon": "AeroAgility.png",
       "InternalName": "/Lotus/Upgrades/Mods/Sets/Hawk/HawkModB",
-      "CodexSecret": false
-    },
-    "Whipclaw": {
-      "Transmutable": false,
-      "Type": "Whipclaw",
-      "Description": "Stance: Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw.",
-      "Link": "Whipclaw (Stance)",
-      "Tradable": false,
-      "BaseDrain": 0,
-      "MaxRank": 3,
-      "Rarity": "Common",
-      "NotUpgradable": true,
-      "Image": "WhipclawStanceMod.png",
-      "Name": "Whipclaw",
-      "Introduced": "38.5",
-      "Polarity": "Zenurik",
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/KhoraWhipclawMeleeTree",
-      "Icon": "WhipclawModx256.png",
-      "CodexSecret": false
-    },
-    "Weeping Wounds": {
-      "Description": "+40% Status Chance per Combo Multiplier",
-      "UpgradeTypes": [
-        "WEAPON_PROC_CHANCE"
-      ],
-      "MaxRank": 5,
-      "Image": "WeepingWoundsMod.png",
-      "Introduced": "18.4.1",
-      "Icon": "WeepingWounds.png",
-      "Transmutable": false,
-      "Type": "Melee",
-      "Rarity": "Uncommon",
-      "Link": "Weeping Wounds",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Weeping Wounds",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Melee/Event/ComboStatusChanceMod",
-      "IncompatibilityTags": [
-        "POWER_WEAPON",
-        "SENTINEL_WEAPON",
-        "HOUND_WEAPON"
-      ],
       "CodexSecret": false
     },
     "Waveband Disruptor": {
@@ -13400,6 +13394,43 @@
       "Icon": "WarheadModIcon.png",
       "CodexSecret": false
     },
+    "Warding Thurible": {
+      "Transmutable": false,
+      "Type": "Harrow",
+      "Description": "Thurible Augment: Allies in range take 50% less Damage while channeling Thurible and grant 1.0 additional Energy charge whenever damaged.",
+      "Link": "Warding Thurible",
+      "Tradable": true,
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
+      "Rarity": "Rare",
+      "Polarity": "Zenurik",
+      "Image": "WardingThuribleMod.png",
+      "Name": "Warding Thurible",
+      "Introduced": "23.0.6",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Priest/PriestRavageAugmentCard",
+      "Icon": "WardingThurible.png",
+      "CodexSecret": false
+    },
+    "Ward Recovery": {
+      "Description": "Warding Halo Augment: 50% of the casting cost returned based on how much protection is left.",
+      "Conclave": true,
+      "IsAbilityAugment": true,
+      "Image": "WardRecoveryMod.png",
+      "Introduced": "18.5",
+      "Icon": "WardRecovery.png",
+      "Transmutable": false,
+      "Type": "Nezha",
+      "Rarity": "Rare",
+      "Link": "Ward Recovery",
+      "BaseDrain": 6,
+      "Polarity": "Zenurik",
+      "Name": "Ward Recovery",
+      "Tradable": true,
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Nezha/NezhaSashPvPAugmentCard",
+      "CodexSecret": false
+    },
     "Amalgam Daikyu Target Acquired": {
       "Description": "+75% to Headshot Multiplier\r\n+3% Life Steal on Nikanas<LINE_SEPARATOR>60% chance to pickup used arrows.",
       "Class": "Amalgam",
@@ -13427,22 +13458,24 @@
       "IsWeaponAugment": true,
       "CodexSecret": false
     },
-    "Warding Thurible": {
-      "Transmutable": false,
-      "Type": "Harrow",
-      "Description": "Thurible Augment: Allies in range take 50% less Damage while channeling Thurible and grant 1.0 additional Energy charge whenever damaged.",
-      "Link": "Warding Thurible",
+    "Vulpine Mask": {
+      "Transmutable": true,
+      "Type": "Rapiers",
+      "Description": "Swift cuts, lancing strikes.",
+      "Link": "Vulpine Mask",
       "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
+      "BaseDrain": -2,
+      "CompatibilityTags": [
+        "RAPIER_STANCE"
+      ],
       "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "WardingThuribleMod.png",
-      "Name": "Warding Thurible",
-      "Introduced": "23.0.6",
+      "Polarity": "Naramon",
+      "Image": "VulpineMaskMod.png",
+      "Name": "Vulpine Mask",
+      "Introduced": "18.3",
       "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Priest/PriestRavageAugmentCard",
-      "Icon": "WardingThurible.png",
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/RapierCmbOneMeleeTree",
+      "Icon": "VulpineMask.png",
       "CodexSecret": false
     },
     "Flawed Split Chamber": {
@@ -13470,45 +13503,6 @@
         "Galvanized Chamber"
       ],
       "CodexSecret": true
-    },
-    "Ward Recovery": {
-      "Description": "Warding Halo Augment: 50% of the casting cost returned based on how much protection is left.",
-      "Conclave": true,
-      "IsAbilityAugment": true,
-      "Image": "WardRecoveryMod.png",
-      "Introduced": "18.5",
-      "Icon": "WardRecovery.png",
-      "Transmutable": false,
-      "Type": "Nezha",
-      "Rarity": "Rare",
-      "Link": "Ward Recovery",
-      "BaseDrain": 6,
-      "Polarity": "Zenurik",
-      "Name": "Ward Recovery",
-      "Tradable": true,
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Nezha/NezhaSashPvPAugmentCard",
-      "CodexSecret": false
-    },
-    "Vulpine Mask": {
-      "Transmutable": true,
-      "Type": "Rapiers",
-      "Description": "Swift cuts, lancing strikes.",
-      "Link": "Vulpine Mask",
-      "Tradable": true,
-      "BaseDrain": -2,
-      "CompatibilityTags": [
-        "RAPIER_STANCE"
-      ],
-      "Rarity": "Rare",
-      "Polarity": "Naramon",
-      "Image": "VulpineMaskMod.png",
-      "Name": "Vulpine Mask",
-      "Introduced": "18.3",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/RapierCmbOneMeleeTree",
-      "Icon": "VulpineMask.png",
-      "CodexSecret": false
     },
     "Vulcan Blitz": {
       "Description": "Enemies explode on death, dealing 300 <DT_EXPLOSION_COLOR>Blast Damage (+60% Enemy Max Health) in a 6m radius.",
@@ -13554,6 +13548,45 @@
       "MaxRank": 3,
       "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/WarfanCmbTwoMeleeTree",
       "Icon": "VotiveOnslaught.png",
+      "CodexSecret": false
+    },
+    "Harrowing Spire": {
+      "Transmutable": true,
+      "Type": "Bayonet",
+      "Description": "Relentless jabs and powerful sweeping lunges.",
+      "Link": "Harrowing Spire",
+      "Tradable": true,
+      "BaseDrain": -2,
+      "CompatibilityTags": [
+        "BAYONET"
+      ],
+      "Rarity": "Rare",
+      "Polarity": "Madurai",
+      "Image": "HarrowingSpireMod.png",
+      "Name": "Harrowing Spire",
+      "Introduced": "41",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/BayonetCmbOneMeleeTree",
+      "Icon": "HarrowingSpire.jpg",
+      "CodexSecret": false
+    },
+    "Vome": {
+      "Description": "To cosmic madness laws submit\r\n\r\nThough stalwart minds entreat",
+      "Class": "Requiem",
+      "MaxRank": 3,
+      "NotUpgradable": true,
+      "Image": "VomeMod.png",
+      "Introduced": "26",
+      "Icon": "Vome.png",
+      "Transmutable": true,
+      "Type": "Parazon",
+      "Rarity": "Rare",
+      "Link": "Vome",
+      "BaseDrain": 0,
+      "Polarity": "Universal",
+      "Name": "Vome",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Immortal/ImmortalFourMod",
       "CodexSecret": false
     },
     "Bane of Grineer": {
@@ -13648,24 +13681,25 @@
       ],
       "CodexSecret": false
     },
-    "Harrowing Spire": {
-      "Transmutable": true,
-      "Type": "Bayonet",
-      "Description": "Relentless jabs and powerful sweeping lunges.",
-      "Link": "Harrowing Spire",
-      "Tradable": true,
-      "BaseDrain": -2,
-      "CompatibilityTags": [
-        "BAYONET"
+    "Voltaic Strike": {
+      "Transmutable": false,
+      "Type": "Melee",
+      "Description": "+60% <DT_ELECTRICITY_COLOR>Electricity\r\n+60% Status Chance",
+      "Link": "Voltaic Strike",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+        "WEAPON_PROC_CHANCE"
       ],
-      "Rarity": "Rare",
-      "Polarity": "Madurai",
-      "Image": "HarrowingSpireMod.png",
-      "Name": "Harrowing Spire",
-      "Introduced": "41",
+      "BaseDrain": 4,
       "MaxRank": 3,
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/BayonetCmbOneMeleeTree",
-      "Icon": "HarrowingSpire.jpg",
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "VoltaicStrikeMod.png",
+      "Name": "Voltaic Strike",
+      "Introduced": "12.4",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Melee/DualStat/ElectEventMeleeMod",
+      "Icon": "VoltaicStrike.png",
       "CodexSecret": false
     },
     "Ion Infusion": {
@@ -13710,46 +13744,6 @@
       "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/PerfectCondition",
       "CodexSecret": false
     },
-    "Vome": {
-      "Description": "To cosmic madness laws submit\r\n\r\nThough stalwart minds entreat",
-      "Class": "Requiem",
-      "MaxRank": 3,
-      "NotUpgradable": true,
-      "Image": "VomeMod.png",
-      "Introduced": "26",
-      "Icon": "Vome.png",
-      "Transmutable": true,
-      "Type": "Parazon",
-      "Rarity": "Rare",
-      "Link": "Vome",
-      "BaseDrain": 0,
-      "Polarity": "Universal",
-      "Name": "Vome",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Immortal/ImmortalFourMod",
-      "CodexSecret": false
-    },
-    "Voltaic Strike": {
-      "Transmutable": false,
-      "Type": "Melee",
-      "Description": "+60% <DT_ELECTRICITY_COLOR>Electricity\r\n+60% Status Chance",
-      "Link": "Voltaic Strike",
-      "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
-        "WEAPON_PROC_CHANCE"
-      ],
-      "BaseDrain": 4,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "VoltaicStrikeMod.png",
-      "Name": "Voltaic Strike",
-      "Introduced": "12.4",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Melee/DualStat/ElectEventMeleeMod",
-      "Icon": "VoltaicStrike.png",
-      "CodexSecret": false
-    },
     "Metal Auger": {
       "Description": "+2.1 Punch Through",
       "UpgradeTypes": [
@@ -13772,6 +13766,41 @@
         "Flawed Metal Auger",
         "Amalgam Argonak Metal Auger"
       ],
+      "CodexSecret": false
+    },
+    "Volatile Variant": {
+      "Transmutable": false,
+      "Type": "Sporothrix",
+      "Description": "Shots have +3 Punch Through and barbs explode instantly. Barbs that strike enemies directly have +4m radius and +50% Status Chance.",
+      "Link": "Volatile Variant",
+      "BaseDrain": 2,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "VolatileVariantMod.png",
+      "Name": "Volatile Variant",
+      "Introduced": "34.0.8",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveSporothrixAugmentMod",
+      "Icon": "VolatileVariant.jpg",
+      "CodexSecret": false
+    },
+    "Volatile Recompense": {
+      "Transmutable": false,
+      "Type": "Kullervo",
+      "Description": "Recompense Augment: Daggers whirl in a ring around Kullervo for 25s, slashing nearby foes and dealing <DT_EXPLOSION_COLOR>Blast Damage and Status Effect before returning to the ring.",
+      "Link": "Volatile Recompense",
+      "Tradable": true,
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
+      "Rarity": "Rare",
+      "Polarity": "Zenurik",
+      "Image": "VolatileRecompenseMod.png",
+      "Name": "Volatile Recompense",
+      "Introduced": "39",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/PaxBladesAugmentCard",
+      "Icon": "VolatileRecompense.jpg",
       "CodexSecret": false
     },
     "Primed Cleanse Corpus": {
@@ -13819,21 +13848,35 @@
       "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPTonfaStanceOne",
       "CodexSecret": false
     },
-    "Volatile Variant": {
-      "Transmutable": false,
-      "Type": "Sporothrix",
-      "Description": "Shots have +3 Punch Through and barbs explode instantly. Barbs that strike enemies directly have +4m radius and +50% Status Chance.",
-      "Link": "Volatile Variant",
+    "Volatile Quick Return": {
+      "Description": "-4 Bounce\r\n+3 Blast Radius\r\n+100% Chance to explode on Bounce (Disables Punch Through)",
+      "UpgradeTypes": [
+        "WEAPON_REFLECTION_MODIFIER",
+        "WEAPON_EXPLOSION_RADIUS",
+        "WEAPON_REFLECTION_EXPLOSION_CHANCE",
+        "WEAPON_PUNCTURE_DEPTH"
+      ],
+      "MaxRank": 3,
+      "Image": "VolatileQuickReturnMod.png",
+      "Introduced": "29.5",
+      "Icon": "VolatileQuickReturn.png",
+      "Transmutable": true,
+      "Type": "Thrown Melee",
+      "Rarity": "Uncommon",
+      "Link": "Volatile Quick Return",
       "BaseDrain": 2,
-      "MaxRank": 5,
+      "Polarity": "Naramon",
+      "Name": "Volatile Quick Return",
       "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "VolatileVariantMod.png",
-      "Name": "Volatile Variant",
-      "Introduced": "34.0.8",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Event/Nightwave/NightwaveSporothrixAugmentMod",
-      "Icon": "VolatileVariant.jpg",
+      "InternalName": "/Lotus/Upgrades/Mods/Melee/WeaponGlaiveExplodingReflectionDecreaseMod",
+      "IncompatibilityTags": [
+        "SENTINEL_WEAPON"
+      ],
+      "Incompatible": [
+        "Quick Return",
+        "Volatile Rebound",
+        "Rebound"
+      ],
       "CodexSecret": false
     },
     "Animal Instinct": {
@@ -13881,22 +13924,21 @@
       "InternalName": "/Lotus/Upgrades/Mods/Sets/Hunter/CompanionHunterRecoveryMod",
       "CodexSecret": false
     },
-    "Volatile Recompense": {
+    "Volatile Parasite": {
       "Transmutable": false,
-      "Type": "Kullervo",
-      "Description": "Recompense Augment: Daggers whirl in a ring around Kullervo for 25s, slashing nearby foes and dealing <DT_EXPLOSION_COLOR>Blast Damage and Status Effect before returning to the ring.",
-      "Link": "Volatile Recompense",
-      "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
-      "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "VolatileRecompenseMod.png",
-      "Name": "Volatile Recompense",
-      "Introduced": "39",
+      "Type": "Predasite",
+      "Description": "Every 15s spits out a maggot that latches onto the nearest enemy, drawing fire from those within 40m. On death, the maggot bursts, dealing 100% of accumulated damage <DT_VIRAL_COLOR>Viral Damage (+40% damage if the enemy dies while latched) to those within 10m.",
+      "Link": "Volatile Parasite",
+      "BaseDrain": 0,
       "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/PaxDuviricus/PaxBladesAugmentCard",
-      "Icon": "VolatileRecompense.jpg",
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "VolatileParasiteMod.png",
+      "Name": "Volatile Parasite",
+      "Introduced": "29.5",
+      "Polarity": "Penjaga",
+      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/CreaturePrecepts/InfestedPredatorMaggotSummonerPrecept",
+      "Icon": "VolatileParasite.png",
       "CodexSecret": false
     },
     "Loaded Capacity": {
@@ -13928,35 +13970,21 @@
       ],
       "CodexSecret": false
     },
-    "Volatile Quick Return": {
-      "Description": "-4 Bounce\r\n+3 Blast Radius\r\n+100% Chance to explode on Bounce (Disables Punch Through)",
-      "UpgradeTypes": [
-        "WEAPON_REFLECTION_MODIFIER",
-        "WEAPON_EXPLOSION_RADIUS",
-        "WEAPON_REFLECTION_EXPLOSION_CHANCE",
-        "WEAPON_PUNCTURE_DEPTH"
-      ],
-      "MaxRank": 3,
-      "Image": "VolatileQuickReturnMod.png",
-      "Introduced": "29.5",
-      "Icon": "VolatileQuickReturn.png",
-      "Transmutable": true,
-      "Type": "Thrown Melee",
-      "Rarity": "Uncommon",
-      "Link": "Volatile Quick Return",
-      "BaseDrain": 2,
-      "Polarity": "Naramon",
-      "Name": "Volatile Quick Return",
+    "Void Hole": {
+      "Transmutable": false,
+      "Type": "Railjack (Battle, Slot 3)",
+      "Description": "A black hole that draws in enemies, dealing damage.",
+      "Link": "Void Hole",
+      "BaseDrain": 0,
+      "MaxRank": 10,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Melee/WeaponGlaiveExplodingReflectionDecreaseMod",
-      "IncompatibilityTags": [
-        "SENTINEL_WEAPON"
-      ],
-      "Incompatible": [
-        "Quick Return",
-        "Volatile Rebound",
-        "Rebound"
-      ],
+      "Rarity": "Rare",
+      "Image": "VoidHoleMod.png",
+      "Name": "Void Hole",
+      "Introduced": "27.0",
+      "Polarity": "Universal",
+      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard",
+      "Icon": "VoidHole.png",
       "CodexSecret": false
     },
     "Acid Shells": {
@@ -14035,67 +14063,6 @@
       ],
       "CodexSecret": false
     },
-    "Volatile Parasite": {
-      "Transmutable": false,
-      "Type": "Predasite",
-      "Description": "Every 15s spits out a maggot that latches onto the nearest enemy, drawing fire from those within 40m. On death, the maggot bursts, dealing 100% of accumulated damage <DT_VIRAL_COLOR>Viral Damage (+40% damage if the enemy dies while latched) to those within 10m.",
-      "Link": "Volatile Parasite",
-      "BaseDrain": 0,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "VolatileParasiteMod.png",
-      "Name": "Volatile Parasite",
-      "Introduced": "29.5",
-      "Polarity": "Penjaga",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CreaturePets/CreaturePrecepts/InfestedPredatorMaggotSummonerPrecept",
-      "Icon": "VolatileParasite.png",
-      "CodexSecret": false
-    },
-    "Void Hole": {
-      "Transmutable": false,
-      "Type": "Railjack (Battle, Slot 3)",
-      "Description": "A black hole that draws in enemies, dealing damage.",
-      "Link": "Void Hole",
-      "BaseDrain": 0,
-      "MaxRank": 10,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "VoidHoleMod.png",
-      "Name": "Void Hole",
-      "Introduced": "27.0",
-      "Polarity": "Universal",
-      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard",
-      "Icon": "VoidHole.png",
-      "CodexSecret": false
-    },
-    "Flawed Serration": {
-      "Description": "+40% Damage",
-      "IsFlawed": true,
-      "UpgradeTypes": [
-        "WEAPON_DAMAGE_AMOUNT"
-      ],
-      "MaxRank": 3,
-      "Image": "FlawedSerrationMod.png",
-      "Introduced": "14",
-      "Icon": "Serration.png",
-      "Transmutable": false,
-      "Type": "Rifle",
-      "Rarity": "Uncommon",
-      "Link": "Serration",
-      "BaseDrain": 2,
-      "Polarity": "Madurai",
-      "Name": "Flawed Serration",
-      "Tradable": false,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Beginner/WeaponDamageAmountModBeginner",
-      "Incompatible": [
-        "Serration",
-        "Higasa Serration",
-        "Amalgam Serration",
-        "Spectral Serration"
-      ],
-      "CodexSecret": true
-    },
     "Void Cloak": {
       "Transmutable": false,
       "Type": "Railjack (Tactical, Slot 3)",
@@ -14139,24 +14106,32 @@
       ],
       "CodexSecret": false
     },
-    "Afterburn": {
-      "Description": "Spectral Scream Augment: Upon deactivation, Chroma will launch an elemental projectile dealing 100 Damage for each second the ability was active, to a maximum of 500 Damage.",
-      "Conclave": true,
-      "IsAbilityAugment": true,
-      "Image": "AfterburnMod.png",
-      "Introduced": "16",
-      "InternalName": "/Lotus/Powersuits/Dragon/DragonBreathAugmentCard",
-      "Transmutable": false,
-      "Type": "Chroma",
-      "Rarity": "Rare",
-      "Link": "Afterburn",
-      "BaseDrain": 6,
-      "Polarity": "Zenurik",
-      "Name": "Afterburn",
-      "Tradable": true,
-      "Icon": "Afterburn.png",
+    "Flawed Serration": {
+      "Description": "+40% Damage",
+      "IsFlawed": true,
+      "UpgradeTypes": [
+        "WEAPON_DAMAGE_AMOUNT"
+      ],
       "MaxRank": 3,
-      "CodexSecret": false
+      "Image": "FlawedSerrationMod.png",
+      "Introduced": "14",
+      "Icon": "Serration.png",
+      "Transmutable": false,
+      "Type": "Rifle",
+      "Rarity": "Uncommon",
+      "Link": "Serration",
+      "BaseDrain": 2,
+      "Polarity": "Madurai",
+      "Name": "Flawed Serration",
+      "Tradable": false,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Beginner/WeaponDamageAmountModBeginner",
+      "Incompatible": [
+        "Serration",
+        "Higasa Serration",
+        "Amalgam Serration",
+        "Spectral Serration"
+      ],
+      "CodexSecret": true
     },
     "Vital Systems Bypass": {
       "Description": "+1 Health Regen/s\r\n+50% Shield Recharge Delay",
@@ -14183,21 +14158,48 @@
       ],
       "CodexSecret": false
     },
-    "Stasis Field": {
-      "Transmutable": false,
-      "Type": "MOA",
-      "Description": "Creates a stasis field for 30s. While inside the field, all enemy projectiles move 90% slower and deal 60% less Damage.",
-      "Link": "Stasis Field",
-      "BaseDrain": 4,
+    "Higasa Serration": {
+      "Description": "Alternate Fire applies a random Status Effect to enemies hit.\r\n+450% Damage",
+      "Conclave": false,
       "MaxRank": 5,
+      "Image": "HigasaSerrationMod.png",
+      "Introduced": "37",
+      "Icon": "HigasaSerration.jpg",
+      "Transmutable": false,
+      "Type": "Higasa",
+      "Rarity": "Rare",
+      "Link": "Higasa Serration",
+      "BaseDrain": 6,
+      "Polarity": "Madurai",
+      "Name": "Higasa Serration",
       "Tradable": true,
-      "Rarity": "Common",
-      "Image": "StasisFieldMod.png",
-      "Name": "Stasis Field",
-      "Introduced": "24",
-      "Polarity": "Penjaga",
-      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaStasisFieldPrecept",
-      "Icon": "StasisField.png",
+      "Incompatible": [
+        "Serration",
+        "Flawed Serration",
+        "Amalgam Serration",
+        "Spectral Serration"
+      ],
+      "InternalName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
+      "IsWeaponAugment": true,
+      "CodexSecret": false
+    },
+    "Afterburn": {
+      "Description": "Spectral Scream Augment: Upon deactivation, Chroma will launch an elemental projectile dealing 100 Damage for each second the ability was active, to a maximum of 500 Damage.",
+      "Conclave": true,
+      "IsAbilityAugment": true,
+      "Image": "AfterburnMod.png",
+      "Introduced": "16",
+      "InternalName": "/Lotus/Powersuits/Dragon/DragonBreathAugmentCard",
+      "Transmutable": false,
+      "Type": "Chroma",
+      "Rarity": "Rare",
+      "Link": "Afterburn",
+      "BaseDrain": 6,
+      "Polarity": "Zenurik",
+      "Name": "Afterburn",
+      "Tradable": true,
+      "Icon": "Afterburn.png",
+      "MaxRank": 3,
       "CodexSecret": false
     },
     "Virulent Scourge": {
@@ -14279,6 +14281,44 @@
       "Polarity": "Naramon",
       "InternalName": "/Lotus/Upgrades/Mods/Rifle/DualStat/CorruptedFireRateDamageRifle",
       "Icon": "VileAcceleration.png",
+      "CodexSecret": false
+    },
+    "Vigorous Swap": {
+      "Transmutable": false,
+      "Type": "Warframe",
+      "Description": "On Equip:\r\n+165% Damage for 3s",
+      "Link": "Vigorous Swap",
+      "BaseDrain": 2,
+      "MaxRank": 10,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "VigorousSwapMod.png",
+      "Name": "Vigorous Swap",
+      "Introduced": "23.10",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Warframe/AvatarHolsterDamageMod",
+      "Icon": "VigorousSwap.png",
+      "CodexSecret": false
+    },
+    "Vigilante Vigor": {
+      "Description": "+60% Shield Recharge\r\n-30% Shield Recharge Delay",
+      "UpgradeTypes": [
+        "AVATAR_SHIELD_RECHARGE_RATE"
+      ],
+      "MaxRank": 5,
+      "Image": "VigilanteVigorMod.png",
+      "Introduced": "22",
+      "Icon": "VigilanteVigor.png",
+      "Transmutable": false,
+      "Type": "Warframe",
+      "Rarity": "Common",
+      "Link": "Vigilante Vigor",
+      "BaseDrain": 4,
+      "Polarity": "Vazarin",
+      "Name": "Vigilante Vigor",
+      "Tradable": true,
+      "Set": "Vigilante Set",
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Vigilante/WarframeVigilanteVigorMod",
       "CodexSecret": false
     },
     "Amar's Anguish": {
@@ -14392,21 +14432,26 @@
       "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerSniperDamageAuraMod",
       "CodexSecret": false
     },
-    "Vigorous Swap": {
+    "Vigilante Supplies": {
+      "Description": "Converts Secondary ammo pickups to 30% of Ammo Pick Up.",
+      "IsExilus": true,
+      "UpgradeTypes": [
+        "WEAPON_CONVERT_AMMO"
+      ],
+      "MaxRank": 5,
+      "Image": "VigilanteSuppliesMod.png",
+      "Introduced": "22",
+      "Icon": "VigilanteSupplies.png",
       "Transmutable": false,
-      "Type": "Warframe",
-      "Description": "On Equip:\r\n+165% Damage for 3s",
-      "Link": "Vigorous Swap",
-      "BaseDrain": 2,
-      "MaxRank": 10,
-      "Tradable": true,
+      "Type": "Primary",
       "Rarity": "Rare",
-      "Image": "VigorousSwapMod.png",
-      "Name": "Vigorous Swap",
-      "Introduced": "23.10",
+      "Link": "Vigilante Supplies",
+      "BaseDrain": 4,
       "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Warframe/AvatarHolsterDamageMod",
-      "Icon": "VigorousSwap.png",
+      "Name": "Vigilante Supplies",
+      "Tradable": true,
+      "Set": "Vigilante Set",
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Vigilante/PrimaryVigilanteSuppliesMod",
       "CodexSecret": false
     },
     "Shepherd": {
@@ -14430,25 +14475,25 @@
       "Icon": "Shepherd.png",
       "CodexSecret": false
     },
-    "Vigilante Vigor": {
-      "Description": "+60% Shield Recharge\r\n-30% Shield Recharge Delay",
+    "Vigilante Offense": {
+      "Description": "+1.5 Punch Through",
       "UpgradeTypes": [
-        "AVATAR_SHIELD_RECHARGE_RATE"
+        "WEAPON_PUNCTURE_DEPTH"
       ],
       "MaxRank": 5,
-      "Image": "VigilanteVigorMod.png",
+      "Image": "VigilanteOffenseMod.png",
       "Introduced": "22",
-      "Icon": "VigilanteVigor.png",
+      "Icon": "VigilanteOffense.png",
       "Transmutable": false,
-      "Type": "Warframe",
-      "Rarity": "Common",
-      "Link": "Vigilante Vigor",
+      "Type": "Primary",
+      "Rarity": "Rare",
+      "Link": "Vigilante Offense",
       "BaseDrain": 4,
-      "Polarity": "Vazarin",
-      "Name": "Vigilante Vigor",
+      "Polarity": "Naramon",
+      "Name": "Vigilante Offense",
       "Tradable": true,
       "Set": "Vigilante Set",
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Vigilante/WarframeVigilanteVigorMod",
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Vigilante/PrimaryVigilanteOffenseMod",
       "CodexSecret": false
     },
     "Critical Mutation": {
@@ -14497,26 +14542,30 @@
       "Icon": "ArmoredEvade.png",
       "CodexSecret": false
     },
-    "Vigilante Supplies": {
-      "Description": "Converts Secondary ammo pickups to 30% of Ammo Pick Up.",
-      "IsExilus": true,
+    "Thundermiter": {
+      "Description": "+100% chance charged Projectiles explode\r\n-60% Magazine Capacity",
+      "Conclave": true,
       "UpgradeTypes": [
-        "WEAPON_CONVERT_AMMO"
+        "WEAPON_PROJECTILE_EXPLOSION_CHANCE",
+        "WEAPON_CLIP_MAX",
+        "WEAPON_AMMO_MAX"
       ],
-      "MaxRank": 5,
-      "Image": "VigilanteSuppliesMod.png",
-      "Introduced": "22",
-      "Icon": "VigilanteSupplies.png",
+      "MaxRank": 3,
+      "Image": "ThundermiterMod.png",
+      "Introduced": "18.5",
+      "Icon": "Thundermiter.png",
       "Transmutable": false,
-      "Type": "Primary",
+      "Type": "Miter",
       "Rarity": "Rare",
-      "Link": "Vigilante Supplies",
-      "BaseDrain": 4,
-      "Polarity": "Naramon",
-      "Name": "Vigilante Supplies",
+      "Link": "Thundermiter",
+      "BaseDrain": 10,
+      "Polarity": "Madurai",
+      "Name": "Thundermiter",
       "Tradable": true,
-      "Set": "Vigilante Set",
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Vigilante/PrimaryVigilanteSuppliesMod",
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/ExplodingMiterBlades",
+      "IncompatibilityTags": [
+        "SINGLESHOT"
+      ],
       "CodexSecret": false
     },
     "Jagged Edge": {
@@ -14583,25 +14632,21 @@
       ],
       "CodexSecret": false
     },
-    "Vigilante Offense": {
-      "Description": "+1.5 Punch Through",
-      "UpgradeTypes": [
-        "WEAPON_PUNCTURE_DEPTH"
-      ],
-      "MaxRank": 5,
-      "Image": "VigilanteOffenseMod.png",
-      "Introduced": "22",
-      "Icon": "VigilanteOffense.png",
+    "Viral Tempest": {
       "Transmutable": false,
-      "Type": "Primary",
-      "Rarity": "Rare",
-      "Link": "Vigilante Offense",
-      "BaseDrain": 4,
-      "Polarity": "Naramon",
-      "Name": "Vigilante Offense",
+      "Type": "Hydroid",
+      "Description": "Tempest Barrage Augment: Each projectile has a 100% chance of inflicting a <DT_VIRAL_COLOR>Viral Status Effect.",
+      "Link": "Viral Tempest",
+      "BaseDrain": 6,
+      "MaxRank": 3,
       "Tradable": true,
-      "Set": "Vigilante Set",
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Vigilante/PrimaryVigilanteOffenseMod",
+      "Rarity": "Rare",
+      "Image": "ViralTempestMod.png",
+      "Name": "Viral Tempest",
+      "Introduced": "34",
+      "Polarity": "Zenurik",
+      "InternalName": "/Lotus/Powersuits/Pirate/CannonBarrageAugmentCard",
+      "Icon": "ViralTempest.png",
       "CodexSecret": false
     },
     "Proton Pulse": {
@@ -14715,29 +14760,21 @@
       "InternalName": "/Lotus/Powersuits/Rhino/IronSkinAugmentCard",
       "CodexSecret": false
     },
-    "Quick Charge": {
-      "Description": "-20% Shield Recharge Delay\r\n-20 Shield Capacity",
-      "Conclave": true,
-      "UpgradeTypes": [
-        "AVATAR_SHIELD_RECHARGE_RATE",
-        "AVATAR_SHIELD_MAX"
-      ],
-      "MaxRank": 3,
-      "Image": "QuickChargeMod.png",
-      "Introduced": "16.5",
-      "Icon": "QuickCharge.png",
+    "Fatal Attraction": {
       "Transmutable": false,
-      "Type": "Warframe",
-      "Rarity": "Rare",
-      "Link": "Quick Charge",
-      "BaseDrain": 6,
-      "Polarity": "Vazarin",
-      "Name": "Quick Charge",
+      "Type": "Djinn",
+      "Description": "Enemies within 20m are drawn to you. Once they are within 6m, they detonate for 250 Damage. Kill them before detonation to increase lure time and reduce cooldown.",
+      "Link": "Fatal Attraction",
+      "BaseDrain": 2,
+      "MaxRank": 5,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Warframe/ReduceShieldRechargeDelayWarframe",
-      "IncompatibilityTags": [
-        "SANDMAN"
-      ],
+      "Rarity": "Common",
+      "Image": "FatalAttractionMod.png",
+      "Name": "Fatal Attraction",
+      "Introduced": "10",
+      "Polarity": "Penjaga",
+      "Icon": "FatalAttraction.png",
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/Bait",
       "CodexSecret": false
     },
     "Energy Inversion": {
@@ -14826,21 +14863,25 @@
       "Icon": "SentientBarrage.png",
       "CodexSecret": false
     },
-    "Viral Tempest": {
+    "Vicious Spread": {
       "Transmutable": false,
-      "Type": "Hydroid",
-      "Description": "Tempest Barrage Augment: Each projectile has a 100% chance of inflicting a <DT_VIRAL_COLOR>Viral Status Effect.",
-      "Link": "Viral Tempest",
-      "BaseDrain": 6,
-      "MaxRank": 3,
+      "Type": "Shotgun",
+      "Description": "+90% Damage\r\n-60% Accuracy",
+      "Link": "Vicious Spread",
+      "UpgradeTypes": [
+        "WEAPON_DAMAGE_AMOUNT",
+        "WEAPON_SPREAD"
+      ],
+      "BaseDrain": 4,
+      "MaxRank": 5,
       "Tradable": true,
       "Rarity": "Rare",
-      "Image": "ViralTempestMod.png",
-      "Name": "Viral Tempest",
-      "Introduced": "34",
-      "Polarity": "Zenurik",
-      "InternalName": "/Lotus/Powersuits/Pirate/CannonBarrageAugmentCard",
-      "Icon": "ViralTempest.png",
+      "Image": "ViciousSpreadMod.png",
+      "Name": "Vicious Spread",
+      "Introduced": "10.3",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/DualStat/CorruptedDamageAccuracyShotgun",
+      "Icon": "ViciousSpread.png",
       "CodexSecret": false
     },
     "Duality": {
@@ -14933,21 +14974,25 @@
       ],
       "CodexSecret": true
     },
-    "Fatal Attraction": {
+    "Vicious Approach": {
+      "Description": "Fighting form devised for Conclave.",
+      "Conclave": true,
+      "MaxRank": 3,
+      "Image": "ViciousApproachMod.png",
+      "Introduced": "Specters of the Rail",
+      "Icon": "ViciousApproach.png",
       "Transmutable": false,
-      "Type": "Djinn",
-      "Description": "Enemies within 20m are drawn to you. Once they are within 6m, they detonate for 250 Damage. Kill them before detonation to increase lure time and reduce cooldown.",
-      "Link": "Fatal Attraction",
-      "BaseDrain": 2,
-      "MaxRank": 5,
+      "Type": "Sparring",
+      "Rarity": "Uncommon",
+      "Link": "Vicious Approach",
+      "BaseDrain": -2,
+      "CompatibilityTags": [
+        "SPARRING_STANCE"
+      ],
+      "Name": "Vicious Approach",
       "Tradable": true,
-      "Rarity": "Common",
-      "Image": "FatalAttractionMod.png",
-      "Name": "Fatal Attraction",
-      "Introduced": "10",
-      "Polarity": "Penjaga",
-      "Icon": "FatalAttraction.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/Bait",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPPunchKickStanceOne",
       "CodexSecret": false
     },
     "Blind Justice": {
@@ -15013,46 +15058,43 @@
       ],
       "CodexSecret": true
     },
-    "Vicious Spread": {
+    "Vexing Retaliation": {
+      "Description": "Vex Armor Augment: Taking 150 Damage will trigger a 9m burst. Shield damage will cause a <DT_PUNCTURE_COLOR>Puncture Status effect while Health damage will cause a <DT_EXPLOSION_COLOR>Blast Status effect.",
+      "Conclave": true,
+      "IsAbilityAugment": true,
+      "Image": "VexingRetaliationMod.png",
+      "Introduced": "16.4",
+      "Icon": "VexingRetaliation.png",
       "Transmutable": false,
-      "Type": "Shotgun",
-      "Description": "+90% Damage\r\n-60% Accuracy",
-      "Link": "Vicious Spread",
-      "UpgradeTypes": [
-        "WEAPON_DAMAGE_AMOUNT",
-        "WEAPON_SPREAD"
-      ],
-      "BaseDrain": 4,
-      "MaxRank": 5,
-      "Tradable": true,
+      "Type": "Chroma",
       "Rarity": "Rare",
-      "Image": "ViciousSpreadMod.png",
-      "Name": "Vicious Spread",
-      "Introduced": "10.3",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/DualStat/CorruptedDamageAccuracyShotgun",
-      "Icon": "ViciousSpread.png",
+      "Link": "Vexing Retaliation",
+      "BaseDrain": 6,
+      "Polarity": "Zenurik",
+      "Name": "Vexing Retaliation",
+      "Tradable": true,
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Dragon/DragonScalesAugmentCard",
       "CodexSecret": false
     },
-    "Vicious Approach": {
-      "Description": "Fighting form devised for Conclave.",
-      "Conclave": true,
-      "MaxRank": 3,
-      "Image": "ViciousApproachMod.png",
-      "Introduced": "Specters of the Rail",
-      "Icon": "ViciousApproach.png",
+    "Vermillion Storm": {
       "Transmutable": false,
-      "Type": "Sparring",
-      "Rarity": "Uncommon",
-      "Link": "Vicious Approach",
+      "Type": "Claws",
+      "Description": "Kicks woven between spinning slashes.",
+      "Link": "Vermillion Storm",
+      "Tradable": true,
       "BaseDrain": -2,
       "CompatibilityTags": [
-        "SPARRING_STANCE"
+        "CLAWS_STANCE_STANCE"
       ],
-      "Name": "Vicious Approach",
-      "Tradable": true,
-      "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPPunchKickStanceOne",
+      "Rarity": "Rare",
+      "Polarity": "Madurai",
+      "Image": "VermillionStormMod.png",
+      "Name": "Vermillion Storm",
+      "Introduced": "15.11",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ClawCmbTwoMeleeTree",
+      "Icon": "VermillionStorm.png",
       "CodexSecret": false
     },
     "Extend": {
@@ -15165,45 +15207,6 @@
       ],
       "CodexSecret": false
     },
-    "Vexing Retaliation": {
-      "Description": "Vex Armor Augment: Taking 150 Damage will trigger a 9m burst. Shield damage will cause a <DT_PUNCTURE_COLOR>Puncture Status effect while Health damage will cause a <DT_EXPLOSION_COLOR>Blast Status effect.",
-      "Conclave": true,
-      "IsAbilityAugment": true,
-      "Image": "VexingRetaliationMod.png",
-      "Introduced": "16.4",
-      "Icon": "VexingRetaliation.png",
-      "Transmutable": false,
-      "Type": "Chroma",
-      "Rarity": "Rare",
-      "Link": "Vexing Retaliation",
-      "BaseDrain": 6,
-      "Polarity": "Zenurik",
-      "Name": "Vexing Retaliation",
-      "Tradable": true,
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Dragon/DragonScalesAugmentCard",
-      "CodexSecret": false
-    },
-    "Vermillion Storm": {
-      "Transmutable": false,
-      "Type": "Claws",
-      "Description": "Kicks woven between spinning slashes.",
-      "Link": "Vermillion Storm",
-      "Tradable": true,
-      "BaseDrain": -2,
-      "CompatibilityTags": [
-        "CLAWS_STANCE_STANCE"
-      ],
-      "Rarity": "Rare",
-      "Polarity": "Madurai",
-      "Image": "VermillionStormMod.png",
-      "Name": "Vermillion Storm",
-      "Introduced": "15.11",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ClawCmbTwoMeleeTree",
-      "Icon": "VermillionStorm.png",
-      "CodexSecret": false
-    },
     "Venomous Rise": {
       "Description": "Toxin FX on Bullet Jump",
       "Conclave": true,
@@ -15269,26 +15272,6 @@
       "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponEventPunctureDamageMod",
       "CodexSecret": false
     },
-    "Embedded Catalyzer": {
-      "Transmutable": false,
-      "Type": "Pistol",
-      "Description": "On Ability Cast:\r\n+90% Status Chance when Aiming for 9s",
-      "Link": "Embedded Catalyzer",
-      "UpgradeTypes": [
-        "WEAPON_PROC_CHANCE"
-      ],
-      "BaseDrain": 4,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "EmbeddedCatalyzerMod.png",
-      "Name": "Embedded Catalyzer",
-      "Introduced": "18.4.1",
-      "Polarity": "Madurai",
-      "Icon": "EmbeddedCatalyzer.png",
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/StatusProcWhileAimingPistolMod",
-      "CodexSecret": false
-    },
     "Vengeful Revenant": {
       "Transmutable": false,
       "Type": "Swords",
@@ -15326,6 +15309,68 @@
       "InternalName": "/Lotus/Powersuits/Khora/KhoraKavatAugmentCard",
       "Icon": "VenariBodyguard.png",
       "CodexSecret": false
+    },
+    "Embedded Catalyzer": {
+      "Transmutable": false,
+      "Type": "Pistol",
+      "Description": "On Ability Cast:\r\n+90% Status Chance when Aiming for 9s",
+      "Link": "Embedded Catalyzer",
+      "UpgradeTypes": [
+        "WEAPON_PROC_CHANCE"
+      ],
+      "BaseDrain": 4,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Uncommon",
+      "Image": "EmbeddedCatalyzerMod.png",
+      "Name": "Embedded Catalyzer",
+      "Introduced": "18.4.1",
+      "Polarity": "Madurai",
+      "Icon": "EmbeddedCatalyzer.png",
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/StatusProcWhileAimingPistolMod",
+      "CodexSecret": false
+    },
+    "Velox Conclusion": {
+      "Transmutable": false,
+      "Type": "Velox",
+      "Description": "On hit, gain +0.6% Ability Strength up to 60% maximum. Consumed on your next Ability cast.",
+      "Link": "Velox Conclusion",
+      "BaseDrain": 2,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "VeloxConclusionMod.png",
+      "Name": "Velox Conclusion",
+      "Introduced": "TBA",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveVeloxAugmentMod",
+      "Icon": "VeloxConclusion.jpg",
+      "CodexSecret": false
+    },
+    "Flawed Bane of Corpus": {
+      "Description": "x1.1 Damage to Corpus",
+      "IsFlawed": true,
+      "UpgradeTypes": [
+        "GAMEPLAY_FACTION_DAMAGE"
+      ],
+      "MaxRank": 3,
+      "Image": "FlawedBaneofCorpusMod.png",
+      "Introduced": "14",
+      "Icon": "BaneofCorpus.png",
+      "Transmutable": false,
+      "Type": "Rifle",
+      "Rarity": "Uncommon",
+      "Link": "Bane of Corpus",
+      "BaseDrain": 2,
+      "Polarity": "Madurai",
+      "Name": "Flawed Bane of Corpus",
+      "Tradable": false,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Beginner/WeaponFactionDamageCorpusBeginner",
+      "Incompatible": [
+        "Bane of Corpus",
+        "Primed Bane of Corpus"
+      ],
+      "CodexSecret": true
     },
     "Fast Hands": {
       "Description": "+30% Reload Speed",
@@ -15375,31 +15420,6 @@
       ],
       "CodexSecret": false
     },
-    "Flawed Bane of Corpus": {
-      "Description": "x1.1 Damage to Corpus",
-      "IsFlawed": true,
-      "UpgradeTypes": [
-        "GAMEPLAY_FACTION_DAMAGE"
-      ],
-      "MaxRank": 3,
-      "Image": "FlawedBaneofCorpusMod.png",
-      "Introduced": "14",
-      "Icon": "BaneofCorpus.png",
-      "Transmutable": false,
-      "Type": "Rifle",
-      "Rarity": "Uncommon",
-      "Link": "Bane of Corpus",
-      "BaseDrain": 2,
-      "Polarity": "Madurai",
-      "Name": "Flawed Bane of Corpus",
-      "Tradable": false,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Beginner/WeaponFactionDamageCorpusBeginner",
-      "Incompatible": [
-        "Bane of Corpus",
-        "Primed Bane of Corpus"
-      ],
-      "CodexSecret": true
-    },
     "Rifle Riven Mod": {
       "Description": "You will need to prove yourself before I reveal the beauty within this work.",
       "Class": "Riven",
@@ -15428,33 +15448,21 @@
       ],
       "CodexSecret": true
     },
-    "Nira's Hatred": {
-      "Description": "+35% Health\r\n+15% Ability Duration",
-      "Conclave": false,
-      "UpgradeTypes": [
-        "AVATAR_HEALTH_MAX",
-        "AVATAR_ABILITY_DURATION"
-      ],
-      "MaxRank": 5,
-      "Image": "Nira'sHatredMod.png",
-      "Introduced": "31",
-      "Icon": "Nira'sHatred.png",
-      "Transmutable": false,
-      "Type": "Warframe",
-      "Rarity": "Uncommon",
-      "Link": "Nira's Hatred",
-      "BaseDrain": 4,
-      "Polarity": "Vazarin",
+    "Untraceable": {
+      "Transmutable": true,
+      "Type": "Parazon",
+      "Description": "Invisible for 15s after Hacking",
+      "Link": "Untraceable",
+      "BaseDrain": 0,
+      "MaxRank": 0,
       "Tradable": true,
-      "Set": "Nira Set",
-      "Name": "Nira's Hatred",
-      "IsFlawed": false,
-      "IsExilus": false,
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Nira/NiraWarframeMod",
-      "Incompatible": [
-        "Amar's Hatred",
-        "Boreal's Hatred"
-      ],
+      "Rarity": "Rare",
+      "Image": "UntraceableMod.png",
+      "Name": "Untraceable",
+      "Introduced": "26",
+      "Polarity": "Universal",
+      "InternalName": "/Lotus/Upgrades/Mods/DataSpike/Cipher/OnHackInvisMod",
+      "Icon": "Untraceable.png",
       "CodexSecret": false
     },
     "Vazarin Transmute Core": {
@@ -15472,6 +15480,28 @@
       "Polarity": "Vazarin",
       "InternalName": "/Lotus/Upgrades/Mods/TransmuteCores/DefenseTransmuteCore",
       "Icon": "VazarinTransmuteCore.png",
+      "CodexSecret": false
+    },
+    "Vanquished Prey": {
+      "Description": "On Kill:\r\n-100% Shield Recharge Delay for 10s\r\n-25% from Health Orbs",
+      "Conclave": true,
+      "UpgradeTypes": [
+        "AVATAR_SHIELD_RECHARGE_RATE",
+        "GAMEPLAY_PICKUP_AMOUNT"
+      ],
+      "MaxRank": 3,
+      "Image": "VanquishedPreyMod.png",
+      "Introduced": "16.5",
+      "Icon": "VanquishedPrey.png",
+      "Transmutable": false,
+      "Type": "Rifle",
+      "Rarity": "Rare",
+      "Link": "Vanquished Prey",
+      "BaseDrain": 10,
+      "Polarity": "Vazarin",
+      "Name": "Vanquished Prey",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/RestoreShieldsOnKillMod",
       "CodexSecret": false
     },
     "Disarming Purity": {
@@ -15512,21 +15542,33 @@
       "Icon": "WorthyComradery.png",
       "CodexSecret": false
     },
-    "Quick Escape": {
+    "Nira's Hatred": {
+      "Description": "+35% Health\r\n+15% Ability Duration",
+      "Conclave": false,
+      "UpgradeTypes": [
+        "AVATAR_HEALTH_MAX",
+        "AVATAR_ABILITY_DURATION"
+      ],
+      "MaxRank": 5,
+      "Image": "Nira'sHatredMod.png",
+      "Introduced": "31",
+      "Icon": "Nira'sHatred.png",
       "Transmutable": false,
-      "Type": "K-Drive",
-      "Description": "Gain invulnerability for 5s mounting a K-drive, but will expire early upon dismounting. ",
-      "Link": "Quick Escape",
+      "Type": "Warframe",
+      "Rarity": "Uncommon",
+      "Link": "Nira's Hatred",
       "BaseDrain": 4,
-      "MaxRank": 3,
+      "Polarity": "Vazarin",
       "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "QuickEscapeMod.png",
-      "Name": "Quick Escape",
-      "Introduced": "24.2",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Hoverboard/HBEscapePlanMod",
-      "Icon": "QuickEscape.png",
+      "Set": "Nira Set",
+      "Name": "Nira's Hatred",
+      "IsFlawed": false,
+      "IsExilus": false,
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Nira/NiraWarframeMod",
+      "Incompatible": [
+        "Amar's Hatred",
+        "Boreal's Hatred"
+      ],
       "CodexSecret": false
     },
     "Gourmand": {
@@ -15575,21 +15617,22 @@
       ],
       "CodexSecret": true
     },
-    "Untraceable": {
-      "Transmutable": true,
-      "Type": "Parazon",
-      "Description": "Invisible for 15s after Hacking",
-      "Link": "Untraceable",
-      "BaseDrain": 0,
-      "MaxRank": 0,
+    "Untime Rift": {
+      "Transmutable": false,
+      "Type": "Xaku",
+      "Description": "The Vast Untime Augment: Creates a Rift that connects to enemies suffering from <DT_RADIANT_COLOR> Void Status Effect within 15m, doubling debuffs applied by The Vast Untime and maintaining <DT_RADIANT_COLOR> Void Status.",
+      "Link": "Untime Rift",
       "Tradable": true,
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
       "Rarity": "Rare",
-      "Image": "UntraceableMod.png",
-      "Name": "Untraceable",
-      "Introduced": "26",
-      "Polarity": "Universal",
-      "InternalName": "/Lotus/Upgrades/Mods/DataSpike/Cipher/OnHackInvisMod",
-      "Icon": "Untraceable.png",
+      "Polarity": "Zenurik",
+      "Image": "UntimeRiftMod.png",
+      "Name": "Untime Rift",
+      "Introduced": "40",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/BrokenFrame/BrokenDestructAugmentCard",
+      "Icon": "UntimeRift.jpg",
       "CodexSecret": false
     },
     "Primed Convulsion": {
@@ -15634,22 +15677,22 @@
       "InternalName": "/Lotus/Powersuits/BrokenFrame/BrokenEmbraceAugmentCard",
       "CodexSecret": false
     },
-    "Untime Rift": {
+    "Unseen Dread": {
       "Transmutable": false,
-      "Type": "Xaku",
-      "Description": "The Vast Untime Augment: Creates a Rift that connects to enemies suffering from <DT_RADIANT_COLOR> Void Status Effect within 15m, doubling debuffs applied by The Vast Untime and maintaining <DT_RADIANT_COLOR> Void Status.",
-      "Link": "Untime Rift",
+      "Type": "Dread",
+      "Description": "Become invisible for 5 seconds when you strike 3 or more enemies with a single projectile. Deal 175% more Critical Damage with Dread while invisible.",
+      "Link": "Unseen Dread",
       "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
+      "BaseDrain": 2,
+      "MaxRank": 5,
       "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "UntimeRiftMod.png",
-      "Name": "Untime Rift",
-      "Introduced": "40",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/BrokenFrame/BrokenDestructAugmentCard",
-      "Icon": "UntimeRift.jpg",
+      "Polarity": "Madurai",
+      "Image": "UnseenDreadMod.png",
+      "Name": "Unseen Dread",
+      "Introduced": "36.1.5",
+      "IsWeaponAugment": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Bows/Event/Nightwave/NightwaveStalkerBowAugmentMod",
+      "Icon": "UnseenDread.jpg",
       "CodexSecret": false
     },
     "Focused Prospectus": {
@@ -15674,24 +15717,6 @@
         "Synergized Prospectus",
         "Aerial Prospectus"
       ],
-      "CodexSecret": false
-    },
-    "Unseen Dread": {
-      "Transmutable": false,
-      "Type": "Dread",
-      "Description": "Become invisible for 5 seconds when you strike 3 or more enemies with a single projectile. Deal 175% more Critical Damage with Dread while invisible.",
-      "Link": "Unseen Dread",
-      "Tradable": true,
-      "BaseDrain": 2,
-      "MaxRank": 5,
-      "Rarity": "Rare",
-      "Polarity": "Madurai",
-      "Image": "UnseenDreadMod.png",
-      "Name": "Unseen Dread",
-      "Introduced": "36.1.5",
-      "IsWeaponAugment": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Bows/Event/Nightwave/NightwaveStalkerBowAugmentMod",
-      "Icon": "UnseenDread.jpg",
       "CodexSecret": false
     },
     "Unleashed": {
@@ -15759,22 +15784,35 @@
       ],
       "CodexSecret": true
     },
-    "Strain Consume": {
+    "Patagium": {
+      "Description": "+90% Aim Glide/Wall Latch Duration",
+      "IsExilus": true,
+      "UpgradeTypes": [
+        "AVATAR_PARKOUR_GLIDE"
+      ],
+      "MaxRank": 5,
+      "Image": "PatagiumMod.png",
+      "Introduced": "17",
+      "Icon": "Patagium.png",
       "Transmutable": false,
       "Type": "Warframe",
-      "Description": "Dead Maggots within 10m are consumed, increasing Max Health by 4% and increasing Health Regen by 2/sec for 45sec.",
-      "Link": "Strain Consume",
-      "Tradable": true,
+      "Rarity": "Uncommon",
+      "Link": "Patagium",
       "BaseDrain": 2,
-      "MaxRank": 3,
-      "Set": "Strain Set",
-      "Rarity": "Rare",
-      "Image": "StrainConsumeMod.png",
-      "Name": "Strain Consume",
-      "Introduced": "24.2",
       "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Strain/WarframeStrainConsumeMod",
-      "Icon": "StrainConsume.png",
+      "Name": "Patagium",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Warframe/SuperGlideParkourTwoMod",
+      "Incompatible": [
+        "Mobilize",
+        "Battering Maneuver",
+        "Piercing Step",
+        "Rending Turn",
+        "Firewalker",
+        "Ice Spring",
+        "Lightning Dash",
+        "Toxic Flight"
+      ],
       "CodexSecret": false
     },
     "Bursting Mass": {
@@ -15815,6 +15853,24 @@
       "InternalName": "/Lotus/Upgrades/Mods/Antiques/ReduceDeathEffect",
       "Icon": "Ulashta-Shol.jpg",
       "Class": "Unairu"
+    },
+    "Ubri-Kaneph": {
+      "Transmutable": false,
+      "Type": "Antique",
+      "Description": "+60% Damage to Amps\r\n+10% bonus for each Mod from a unique School",
+      "Conclave": false,
+      "Tradable": true,
+      "BaseDrain": 0,
+      "MaxRank": 5,
+      "Rarity": "Rare",
+      "Polarity": "Universal",
+      "Image": "Ubri-KanephMod.png",
+      "Name": "Ubri-Kaneph",
+      "Introduced": "41",
+      "Link": "Ubri-Kaneph",
+      "InternalName": "/Lotus/Upgrades/Mods/Antiques/WeaponDamageSchools",
+      "Icon": "Ubri-Kaneph.jpg",
+      "Class": "Madurai"
     },
     "Flawed Charged Shell": {
       "Description": "+40% <DT_ELECTRICITY_COLOR>Electricity",
@@ -15861,24 +15917,6 @@
       "Polarity": "Madurai",
       "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPClawStanceOne",
       "CodexSecret": false
-    },
-    "Ubri-Kaneph": {
-      "Transmutable": false,
-      "Type": "Antique",
-      "Description": "+60% Damage to Amps\r\n+10% bonus for each Mod from a unique School",
-      "Conclave": false,
-      "Tradable": true,
-      "BaseDrain": 0,
-      "MaxRank": 5,
-      "Rarity": "Rare",
-      "Polarity": "Universal",
-      "Image": "Ubri-KanephMod.png",
-      "Name": "Ubri-Kaneph",
-      "Introduced": "41",
-      "Link": "Ubri-Kaneph",
-      "InternalName": "/Lotus/Upgrades/Mods/Antiques/WeaponDamageSchools",
-      "Icon": "Ubri-Kaneph.jpg",
-      "Class": "Madurai"
     },
     "Turret Velocity": {
       "Transmutable": false,
@@ -15945,6 +15983,28 @@
       "IncompatibilityTags": [
         "AOE"
       ],
+      "CodexSecret": false
+    },
+    "Toxic Blight": {
+      "Description": "+100% <DT_POISON_COLOR>Toxin\r\n+1 'Blight'",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+        "WEAPON_SYNDICATE_POWER"
+      ],
+      "MaxRank": 3,
+      "Image": "ToxicBlightMod.png",
+      "Introduced": "15",
+      "Icon": "ToxicBlight.png",
+      "Transmutable": false,
+      "Type": "Mire",
+      "Rarity": "Rare",
+      "Link": "Toxic Blight",
+      "BaseDrain": 4,
+      "Polarity": "Madurai",
+      "Name": "Toxic Blight",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Syndicate/MireMod",
+      "IsWeaponAugment": true,
       "CodexSecret": false
     },
     "Quick Thinking": {
@@ -16020,25 +16080,28 @@
       ],
       "CodexSecret": false
     },
-    "Tainted Hydra": {
-      "Description": "Fighting form devised for Conclave.",
-      "Conclave": true,
-      "MaxRank": 3,
-      "Image": "TaintedHydraMod.png",
-      "Introduced": "Specters of the Rail",
-      "Icon": "TaintedHydra.png",
-      "Transmutable": false,
-      "Type": "Blade And Whip",
-      "Rarity": "Uncommon",
-      "Link": "Tainted Hydra",
-      "BaseDrain": -2,
-      "CompatibilityTags": [
-        "BLADE_AND_WHIP_STANCE"
+    "Trick Mag": {
+      "Description": "+90% Ammo Maximum",
+      "IsExilus": true,
+      "UpgradeTypes": [
+        "WEAPON_AMMO_MAX"
       ],
-      "Name": "Tainted Hydra",
+      "MaxRank": 5,
+      "Image": "TrickMagMod.png",
+      "Introduced": "0",
+      "Icon": "TrickMag.png",
+      "Transmutable": true,
+      "Type": "Pistol",
+      "Rarity": "Common",
+      "Link": "Trick Mag",
+      "BaseDrain": 2,
+      "Polarity": "Naramon",
+      "Name": "Trick Mag",
       "Tradable": true,
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPSwordWhipStanceOne",
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponAmmoMaxMod",
+      "Incompatible": [
+        "Flawed Trick Mag"
+      ],
       "CodexSecret": false
     },
     "Cunning Aspect": {
@@ -16091,30 +16154,6 @@
       ],
       "CodexSecret": false
     },
-    "Trick Mag": {
-      "Description": "+90% Ammo Maximum",
-      "IsExilus": true,
-      "UpgradeTypes": [
-        "WEAPON_AMMO_MAX"
-      ],
-      "MaxRank": 5,
-      "Image": "TrickMagMod.png",
-      "Introduced": "0",
-      "Icon": "TrickMag.png",
-      "Transmutable": true,
-      "Type": "Pistol",
-      "Rarity": "Common",
-      "Link": "Trick Mag",
-      "BaseDrain": 2,
-      "Polarity": "Naramon",
-      "Name": "Trick Mag",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponAmmoMaxMod",
-      "Incompatible": [
-        "Flawed Trick Mag"
-      ],
-      "CodexSecret": false
-    },
     "Precision Strike": {
       "Description": "Hitting an enemy directly with the grenade increases Reload Speed by 150% for 5s.",
       "MaxRank": 3,
@@ -16154,23 +16193,6 @@
       "InternalName": "/Lotus/Powersuits/Dragon/DragonScalesAugmentTwoCard",
       "CodexSecret": false
     },
-    "Blood For Ammo": {
-      "Transmutable": true,
-      "Type": "Parazon",
-      "Description": "Mercy Kill refills Primary and Secondary Magazine by 100%",
-      "Link": "Blood For Ammo",
-      "BaseDrain": 0,
-      "MaxRank": 0,
-      "Tradable": true,
-      "Rarity": "Common",
-      "Image": "BloodForAmmoMod.png",
-      "Name": "Blood For Ammo",
-      "Introduced": "26",
-      "Polarity": "Universal",
-      "Icon": "BloodForAmmo.png",
-      "InternalName": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionAmmoMod",
-      "CodexSecret": false
-    },
     "Transfusion": {
       "Transmutable": false,
       "Type": "Vasca Kavat",
@@ -16191,23 +16213,61 @@
       "Icon": "Transfusion.png",
       "CodexSecret": false
     },
-    "Netra": {
-      "Description": "Carrion hordes trill their profane\r\n\r\nAccord with eldritch plans",
-      "Class": "Requiem",
-      "MaxRank": 3,
-      "NotUpgradable": true,
-      "Image": "NetraMod.png",
-      "Introduced": "26",
-      "Icon": "Netra.png",
+    "Blood For Ammo": {
       "Transmutable": true,
       "Type": "Parazon",
-      "Rarity": "Rare",
-      "Link": "Netra",
+      "Description": "Mercy Kill refills Primary and Secondary Magazine by 100%",
+      "Link": "Blood For Ammo",
       "BaseDrain": 0,
-      "Polarity": "Universal",
-      "Name": "Netra",
+      "MaxRank": 0,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Immortal/ImmortalSevenMod",
+      "Rarity": "Common",
+      "Image": "BloodForAmmoMod.png",
+      "Name": "Blood For Ammo",
+      "Introduced": "26",
+      "Polarity": "Universal",
+      "Icon": "BloodForAmmo.png",
+      "InternalName": "/Lotus/Upgrades/Mods/DataSpike/Assassin/OnExecutionAmmoMod",
+      "CodexSecret": false
+    },
+    "Modified Munitions": {
+      "Transmutable": false,
+      "Type": "Archgun",
+      "Description": "+60% Status Chance",
+      "Link": "Modified Munitions",
+      "UpgradeTypes": [
+        "WEAPON_PROC_CHANCE"
+      ],
+      "BaseDrain": 4,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Uncommon",
+      "Image": "ModifiedMunitionsMod.png",
+      "Name": "Modified Munitions",
+      "Introduced": "15",
+      "Polarity": "Vazarin",
+      "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleStatusChanceMod",
+      "Icon": "ModifiedMunitions.png",
+      "CodexSecret": false
+    },
+    "Toxin Resistance": {
+      "Transmutable": false,
+      "Type": "Aura",
+      "Description": "+15% <DT_POISON_COLOR>Toxin Resistance",
+      "Link": "Toxin Resistance",
+      "UpgradeTypes": [
+        "AVATAR_DAMAGE_TAKEN"
+      ],
+      "BaseDrain": -2,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Uncommon",
+      "Image": "ToxinResistanceMod.png",
+      "Name": "Toxin Resistance",
+      "Introduced": "21",
+      "Polarity": "Vazarin",
+      "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerPoisonImmunityAuraMod",
+      "Icon": "ToxinResistance.png",
       "CodexSecret": false
     },
     "Point Strike": {
@@ -16234,24 +16294,27 @@
       ],
       "CodexSecret": false
     },
-    "Toxin Resistance": {
-      "Transmutable": false,
-      "Type": "Aura",
-      "Description": "+15% <DT_POISON_COLOR>Toxin Resistance",
-      "Link": "Toxin Resistance",
+    "Hellfire": {
+      "Description": "+90% <DT_FIRE_COLOR>Heat",
       "UpgradeTypes": [
-        "AVATAR_DAMAGE_TAKEN"
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED"
       ],
-      "BaseDrain": -2,
       "MaxRank": 5,
-      "Tradable": true,
+      "Image": "HellfireMod.png",
+      "Introduced": "0",
+      "Icon": "Hellfire.png",
+      "Transmutable": true,
+      "Type": "Rifle",
       "Rarity": "Uncommon",
-      "Image": "ToxinResistanceMod.png",
-      "Name": "Toxin Resistance",
-      "Introduced": "21",
-      "Polarity": "Vazarin",
-      "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerPoisonImmunityAuraMod",
-      "Icon": "ToxinResistance.png",
+      "Link": "Hellfire",
+      "BaseDrain": 6,
+      "Polarity": "Naramon",
+      "Name": "Hellfire",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/WeaponFireDamageMod",
+      "Incompatible": [
+        "Flawed Hellfire"
+      ],
       "CodexSecret": false
     },
     "Necramech Continuity": {
@@ -16353,50 +16416,48 @@
       "Icon": "WiseRazor.png",
       "CodexSecret": false
     },
-    "Toxic Barrage": {
+    "Sniper Scavenger": {
       "Transmutable": false,
-      "Type": "Shotgun",
-      "Description": "+60% <DT_POISON_COLOR>Toxin\r\n+60% Status Chance",
-      "Link": "Toxic Barrage",
+      "Type": "Aura",
+      "Description": "Squad receives +150% Sniper Rifle Ammo Recovery",
+      "Link": "Sniper Scavenger",
       "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
-        "WEAPON_PROC_CHANCE"
+        "WEAPON_AMMO_RETRIEVED"
       ],
-      "BaseDrain": 4,
-      "MaxRank": 3,
+      "BaseDrain": -2,
+      "MaxRank": 5,
       "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "ToxicBarrageMod.png",
-      "Name": "Toxic Barrage",
-      "Introduced": "11.5",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/DualStat/PoisonEventShotgunMod",
-      "Icon": "ToxicBarrage.png",
+      "Rarity": "Uncommon",
+      "Image": "SniperScavengerMod.png",
+      "Name": "Sniper Scavenger",
+      "Introduced": "5",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerSniperAmmoAuraMod",
+      "Icon": "SniperScavenger.png",
       "CodexSecret": false
     },
-    "Soaring Strike": {
-      "Description": "+50% Fire Rate when Airborne",
+    "Quick Charge": {
+      "Description": "-20% Shield Recharge Delay\r\n-20 Shield Capacity",
       "Conclave": true,
       "UpgradeTypes": [
-        "WEAPON_FIRE_RATE"
+        "AVATAR_SHIELD_RECHARGE_RATE",
+        "AVATAR_SHIELD_MAX"
       ],
       "MaxRank": 3,
-      "Image": "SoaringStrikeMod.png",
-      "Introduced": "18",
-      "Icon": "SoaringStrike.png",
+      "Image": "QuickChargeMod.png",
+      "Introduced": "16.5",
+      "Icon": "QuickCharge.png",
       "Transmutable": false,
-      "Type": "Bow",
+      "Type": "Warframe",
       "Rarity": "Rare",
-      "Link": "Soaring Strike",
-      "BaseDrain": 10,
-      "Polarity": "Madurai",
-      "Name": "Soaring Strike",
+      "Link": "Quick Charge",
+      "BaseDrain": 6,
+      "Polarity": "Vazarin",
+      "Name": "Quick Charge",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/FasterChargeInAirBowMod",
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Warframe/ReduceShieldRechargeDelayWarframe",
       "IncompatibilityTags": [
-        "DAIKYU",
-        "ATTICA",
-        "ZHUGE"
+        "SANDMAN"
       ],
       "CodexSecret": false
     },
@@ -16579,30 +16640,21 @@
       "IsWeaponAugment": true,
       "CodexSecret": false
     },
-    "Thundermiter": {
-      "Description": "+100% chance charged Projectiles explode\r\n-60% Magazine Capacity",
-      "Conclave": true,
-      "UpgradeTypes": [
-        "WEAPON_PROJECTILE_EXPLOSION_CHANCE",
-        "WEAPON_CLIP_MAX",
-        "WEAPON_AMMO_MAX"
-      ],
-      "MaxRank": 3,
-      "Image": "ThundermiterMod.png",
-      "Introduced": "18.5",
-      "Icon": "Thundermiter.png",
+    "Restorative Bond": {
       "Transmutable": false,
-      "Type": "Miter",
-      "Rarity": "Rare",
-      "Link": "Thundermiter",
-      "BaseDrain": 10,
-      "Polarity": "Madurai",
-      "Name": "Thundermiter",
+      "Type": "Companion",
+      "Description": "Health Orbs restore 60 more health and reduce Companion Recovery Time by 3s.",
+      "Link": "Restorative Bond",
+      "BaseDrain": 4,
+      "MaxRank": 5,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/ExplodingMiterBlades",
-      "IncompatibilityTags": [
-        "SINGLESHOT"
-      ],
+      "Rarity": "Rare",
+      "Image": "RestorativeBondMod.png",
+      "Name": "Restorative Bond",
+      "Introduced": "34",
+      "Polarity": "Vazarin",
+      "Icon": "RestorativeBond.png",
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/MutualNourishment",
       "CodexSecret": false
     },
     "Critical Delay": {
@@ -16661,21 +16713,22 @@
       ],
       "CodexSecret": false
     },
-    "Restorative Bond": {
+    "Thrall Pact": {
       "Transmutable": false,
-      "Type": "Companion",
-      "Description": "Health Orbs restore 60 more health and reduce Companion Recovery Time by 3s.",
-      "Link": "Restorative Bond",
-      "BaseDrain": 4,
-      "MaxRank": 5,
+      "Type": "Revenant",
+      "Description": "Enthrall Augment: Gain +25% Primary Weapon Damage for each active Thrall.",
+      "Link": "Thrall Pact",
       "Tradable": true,
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
       "Rarity": "Rare",
-      "Image": "RestorativeBondMod.png",
-      "Name": "Restorative Bond",
-      "Introduced": "34",
-      "Polarity": "Vazarin",
-      "Icon": "RestorativeBond.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/MutualNourishment",
+      "Polarity": "Zenurik",
+      "Image": "ThrallPactMod.png",
+      "Name": "Thrall Pact",
+      "Introduced": "29.5",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Revenant/RevenantMarkAugmentCard",
+      "Icon": "ThrallPact.png",
       "CodexSecret": false
     },
     "Semi-Pistol Cannonade": {
@@ -16717,24 +16770,6 @@
       "InternalName": "/Lotus/Upgrades/Mods/Immortal/AntivirusFiveMod",
       "CodexSecret": false
     },
-    "Thrall Pact": {
-      "Transmutable": false,
-      "Type": "Revenant",
-      "Description": "Enthrall Augment: Gain +25% Primary Weapon Damage for each active Thrall.",
-      "Link": "Thrall Pact",
-      "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
-      "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "ThrallPactMod.png",
-      "Name": "Thrall Pact",
-      "Introduced": "29.5",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Revenant/RevenantMarkAugmentCard",
-      "Icon": "ThrallPact.png",
-      "CodexSecret": false
-    },
     "Maximum Capacity": {
       "Description": "+30% Magazine Capacity\r\n-15% Reload Speed",
       "Conclave": true,
@@ -16766,6 +16801,27 @@
       ],
       "CodexSecret": false
     },
+    "Thermite Rounds": {
+      "Transmutable": false,
+      "Type": "Rifle",
+      "Description": "+60% <DT_FIRE_COLOR>Heat\r\n+60% Status Chance",
+      "Link": "Thermite Rounds",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+        "WEAPON_PROC_CHANCE"
+      ],
+      "BaseDrain": 4,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "ThermiteRoundsMod.png",
+      "Name": "Thermite Rounds",
+      "Introduced": "13.8",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/DualStat/FireEventRifleMod",
+      "Icon": "ThermiteRounds.png",
+      "CodexSecret": false
+    },
     "Blunderbuss": {
       "Description": "+90% Critical Chance",
       "UpgradeTypes": [
@@ -16788,27 +16844,6 @@
         "Flawed Blunderbuss",
         "Critical Deceleration"
       ],
-      "CodexSecret": false
-    },
-    "Thermite Rounds": {
-      "Transmutable": false,
-      "Type": "Rifle",
-      "Description": "+60% <DT_FIRE_COLOR>Heat\r\n+60% Status Chance",
-      "Link": "Thermite Rounds",
-      "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
-        "WEAPON_PROC_CHANCE"
-      ],
-      "BaseDrain": 4,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "ThermiteRoundsMod.png",
-      "Name": "Thermite Rounds",
-      "Introduced": "13.8",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/DualStat/FireEventRifleMod",
-      "Icon": "ThermiteRounds.png",
       "CodexSecret": false
     },
     "Tharros Lethality": {
@@ -16869,6 +16904,23 @@
       "Polarity": "Universal",
       "InternalName": "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard",
       "Icon": "Tether.png",
+      "CodexSecret": false
+    },
+    "Territorial Aggression": {
+      "Transmutable": false,
+      "Type": "Kavat",
+      "Description": "The Kavat stakes their territory in a radius of 6m for 15s. Each second, enemies within this area have a 30% chance of being attacked by a shadow Kavat.",
+      "Link": "Territorial Aggression",
+      "BaseDrain": 2,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Uncommon",
+      "Image": "TerritorialAggressionMod.png",
+      "Name": "Territorial Aggression",
+      "Introduced": "Specters of the Rail",
+      "Polarity": "Penjaga",
+      "InternalName": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowMarkTerritoryPrecept",
+      "Icon": "TerritorialAggression.png",
       "CodexSecret": false
     },
     "Ravage": {
@@ -16949,23 +17001,6 @@
         "Flawed Pressure Point"
       ],
       "CodexSecret": true
-    },
-    "Territorial Aggression": {
-      "Transmutable": false,
-      "Type": "Kavat",
-      "Description": "The Kavat stakes their territory in a radius of 6m for 15s. Each second, enemies within this area have a 30% chance of being attacked by a shadow Kavat.",
-      "Link": "Territorial Aggression",
-      "BaseDrain": 2,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "TerritorialAggressionMod.png",
-      "Name": "Territorial Aggression",
-      "Introduced": "Specters of the Rail",
-      "Polarity": "Penjaga",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowMarkTerritoryPrecept",
-      "Icon": "TerritorialAggression.png",
-      "CodexSecret": false
     },
     "Terminal Velocity": {
       "Description": "+60% Projectile Speed",
@@ -17086,6 +17121,30 @@
       "Icon": "TemperedBlade.png",
       "CodexSecret": false
     },
+    "Primed Bane of Infested": {
+      "Description": "x1.55 Damage to Infested",
+      "UpgradeTypes": [
+        "GAMEPLAY_FACTION_DAMAGE"
+      ],
+      "MaxRank": 10,
+      "Image": "PrimedBaneofInfestedMod.png",
+      "Introduced": "18.2.2",
+      "Icon": "BaneofInfested.png",
+      "Transmutable": false,
+      "Type": "Rifle",
+      "Rarity": "Legendary",
+      "Link": "Primed Bane of Infested",
+      "BaseDrain": 4,
+      "Polarity": "Madurai",
+      "Name": "Primed Bane of Infested",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageInfested",
+      "Incompatible": [
+        "Bane of Infested",
+        "Flawed Bane of Infested"
+      ],
+      "CodexSecret": true
+    },
     "Air Thrusters": {
       "Description": "+100% Slide Boost when Airborne\r\n-20% Mobility",
       "Conclave": true,
@@ -17137,30 +17196,6 @@
       "MaxRank": 3,
       "CodexSecret": false
     },
-    "Primed Bane of Infested": {
-      "Description": "x1.55 Damage to Infested",
-      "UpgradeTypes": [
-        "GAMEPLAY_FACTION_DAMAGE"
-      ],
-      "MaxRank": 10,
-      "Image": "PrimedBaneofInfestedMod.png",
-      "Introduced": "18.2.2",
-      "Icon": "BaneofInfested.png",
-      "Transmutable": false,
-      "Type": "Rifle",
-      "Rarity": "Legendary",
-      "Link": "Primed Bane of Infested",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Primed Bane of Infested",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageInfested",
-      "Incompatible": [
-        "Bane of Infested",
-        "Flawed Bane of Infested"
-      ],
-      "CodexSecret": true
-    },
     "Tek Collateral": {
       "Transmutable": false,
       "Type": "Warframe",
@@ -17195,6 +17230,25 @@
       "MaxRank": 3,
       "InternalName": "/Lotus/Powersuits/Infestation/InfestRuptureAugmentCard",
       "Icon": "TeemingVirulence.png",
+      "CodexSecret": false
+    },
+    "Tear Gas": {
+      "Description": "Smoke Screen Augment: Blinds enemies within 4m for 3s.",
+      "Conclave": true,
+      "IsAbilityAugment": true,
+      "Image": "TearGasMod.png",
+      "Introduced": "16",
+      "Icon": "TearGas.png",
+      "Transmutable": false,
+      "Type": "Ash",
+      "Rarity": "Rare",
+      "Link": "Tear Gas",
+      "BaseDrain": 6,
+      "Polarity": "Zenurik",
+      "Name": "Tear Gas",
+      "Tradable": true,
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Ninja/SmokeScreenPvPAugmentCard",
       "CodexSecret": false
     },
     "Flawed Smite Grineer": {
@@ -17331,23 +17385,25 @@
       "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanDamageOnKill",
       "CodexSecret": false
     },
-    "Tear Gas": {
-      "Description": "Smoke Screen Augment: Blinds enemies within 4m for 3s.",
-      "Conclave": true,
-      "IsAbilityAugment": true,
-      "Image": "TearGasMod.png",
-      "Introduced": "16",
-      "Icon": "TearGas.png",
+    "Targeting Subsystem": {
+      "Description": "On Hit:\r\n+30% Accuracy when Aiming for 9s",
+      "IsExilus": true,
+      "UpgradeTypes": [
+        "WEAPON_SPREAD"
+      ],
+      "MaxRank": 5,
+      "Image": "TargetingSubsystemMod.png",
+      "Introduced": "18.4.1",
+      "Icon": "TargetingSubsystem.png",
       "Transmutable": false,
-      "Type": "Ash",
-      "Rarity": "Rare",
-      "Link": "Tear Gas",
-      "BaseDrain": 6,
-      "Polarity": "Zenurik",
-      "Name": "Tear Gas",
+      "Type": "Pistol",
+      "Rarity": "Uncommon",
+      "Link": "Targeting Subsystem",
+      "BaseDrain": 2,
+      "Polarity": "Madurai",
+      "Name": "Targeting Subsystem",
       "Tradable": true,
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Ninja/SmokeScreenPvPAugmentCard",
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/AccuracyWhileAimingPistolMod",
       "CodexSecret": false
     },
     "Draining Gloom": {
@@ -17416,25 +17472,21 @@
       "Icon": "Fulmination.png",
       "CodexSecret": false
     },
-    "Targeting Subsystem": {
-      "Description": "On Hit:\r\n+30% Accuracy when Aiming for 9s",
-      "IsExilus": true,
-      "UpgradeTypes": [
-        "WEAPON_SPREAD"
-      ],
-      "MaxRank": 5,
-      "Image": "TargetingSubsystemMod.png",
-      "Introduced": "18.4.1",
-      "Icon": "TargetingSubsystem.png",
+    "Targeting Receptor": {
       "Transmutable": false,
-      "Type": "Pistol",
-      "Rarity": "Uncommon",
-      "Link": "Targeting Subsystem",
-      "BaseDrain": 2,
-      "Polarity": "Madurai",
-      "Name": "Targeting Subsystem",
+      "Type": "Helios",
+      "Description": "Causes the Helios Sentinel to attack targets within 10m with 3 glaives.",
+      "Link": "Targeting Receptor",
+      "BaseDrain": 0,
+      "MaxRank": 3,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/AccuracyWhileAimingPistolMod",
+      "Rarity": "Common",
+      "Image": "TargetingReceptorMod.png",
+      "Name": "Targeting Receptor",
+      "Introduced": "12.5",
+      "Polarity": "Penjaga",
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/ThrowGlaivePrecept",
+      "Icon": "TargetingReceptor.png",
       "CodexSecret": false
     },
     "Sudden Impact": {
@@ -17457,23 +17509,6 @@
       "Icon": "SuddenImpact.png",
       "CodexSecret": false
     },
-    "Targeting Receptor": {
-      "Transmutable": false,
-      "Type": "Helios",
-      "Description": "Causes the Helios Sentinel to attack targets within 10m with 3 glaives.",
-      "Link": "Targeting Receptor",
-      "BaseDrain": 0,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Common",
-      "Image": "TargetingReceptorMod.png",
-      "Name": "Targeting Receptor",
-      "Introduced": "12.5",
-      "Polarity": "Penjaga",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/ThrowGlaivePrecept",
-      "Icon": "TargetingReceptor.png",
-      "CodexSecret": false
-    },
     "Target Fixation": {
       "Transmutable": false,
       "Type": "Zephyr",
@@ -17490,26 +17525,6 @@
       "MaxRank": 3,
       "InternalName": "/Lotus/Powersuits/Tengu/DiveBombAugmentCard",
       "Icon": "TargetFixation.png",
-      "CodexSecret": false
-    },
-    "Loot Detector": {
-      "Transmutable": false,
-      "Type": "Aura",
-      "Description": "Minimap shows loot crates.\r\nSquad receives +30m Loot Radar",
-      "Link": "Loot Detector",
-      "UpgradeTypes": [
-        "AVATAR_LOOT_RADAR"
-      ],
-      "BaseDrain": -2,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "LootDetectorMod.png",
-      "Name": "Loot Detector",
-      "Introduced": "13.4.1",
-      "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerLootRadarAuraMod",
-      "Icon": "LootDetector.png",
       "CodexSecret": false
     },
     "Target Cracker": {
@@ -17536,51 +17551,70 @@
       ],
       "CodexSecret": false
     },
-    "Sharpened Bullets": {
-      "Description": "On Kill:\r\n+75% Critical Damage when Aiming for 9s",
-      "UpgradeTypes": [
-        "WEAPON_CRIT_DAMAGE"
-      ],
-      "MaxRank": 5,
-      "Image": "SharpenedBulletsMod.png",
-      "Introduced": "18.4.1",
-      "Icon": "SharpenedBullets.png",
+    "Loot Detector": {
       "Transmutable": false,
-      "Type": "Pistol",
-      "Rarity": "Uncommon",
-      "Link": "Sharpened Bullets",
-      "BaseDrain": 2,
-      "Polarity": "Madurai",
-      "Name": "Sharpened Bullets",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/CritDamageWhileAimingPistolMod",
-      "IncompatibilityTags": [
-        "POWER_WEAPON"
+      "Type": "Aura",
+      "Description": "Minimap shows loot crates.\r\nSquad receives +30m Loot Radar",
+      "Link": "Loot Detector",
+      "UpgradeTypes": [
+        "AVATAR_LOOT_RADAR"
       ],
+      "BaseDrain": -2,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Uncommon",
+      "Image": "LootDetectorMod.png",
+      "Name": "Loot Detector",
+      "Introduced": "13.4.1",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerLootRadarAuraMod",
+      "Icon": "LootDetector.png",
       "CodexSecret": false
     },
-    "Primed Expel Orokin": {
-      "Description": "x1.55 Damage to Orokin",
-      "UpgradeTypes": [
-        "GAMEPLAY_FACTION_DAMAGE"
-      ],
-      "MaxRank": 10,
-      "Image": "PrimedExpelOrokinMod.png",
-      "Introduced": "23.9.1",
-      "Icon": "ExpelOrokin.png",
+    "Tainted Hydra": {
+      "Description": "Fighting form devised for Conclave.",
+      "Conclave": true,
+      "MaxRank": 3,
+      "Image": "TaintedHydraMod.png",
+      "Introduced": "Specters of the Rail",
+      "Icon": "TaintedHydra.png",
       "Transmutable": false,
-      "Type": "Pistol",
-      "Rarity": "Legendary",
-      "Link": "Primed Expel Orokin",
+      "Type": "Blade And Whip",
+      "Rarity": "Uncommon",
+      "Link": "Tainted Hydra",
+      "BaseDrain": -2,
+      "CompatibilityTags": [
+        "BLADE_AND_WHIP_STANCE"
+      ],
+      "Name": "Tainted Hydra",
+      "Tradable": true,
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPSwordWhipStanceOne",
+      "CodexSecret": false
+    },
+    "Mecha Recharge": {
+      "Description": "+90% Shield Recharge",
+      "UpgradeTypes": [
+        "AVATAR_SHIELD_RECHARGE_RATE"
+      ],
+      "MaxRank": 5,
+      "Image": "MechaRechargeMod.png",
+      "Introduced": "24",
+      "Icon": "MechaRecharge.png",
+      "Transmutable": false,
+      "Type": "Kubrow",
+      "Rarity": "Rare",
+      "Link": "Mecha Recharge",
       "BaseDrain": 4,
       "Polarity": "Madurai",
-      "Name": "Primed Expel Orokin",
+      "Name": "Mecha Recharge",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageCorruptedExpert",
-      "Incompatible": [
-        "Expel Orokin"
+      "Set": "Mecha Set",
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Mecha/KubrowMechaRechargeMod",
+      "IncompatibilityTags": [
+        "HELMINTH_MOD"
       ],
-      "CodexSecret": true
+      "CodexSecret": false
     },
     "Tainted Shell": {
       "Transmutable": false,
@@ -17601,6 +17635,31 @@
       "Polarity": "Vazarin",
       "InternalName": "/Lotus/Upgrades/Mods/Shotgun/DualStat/CorruptedAccuracyFireRateShotgun",
       "Icon": "TaintedShell.png",
+      "CodexSecret": false
+    },
+    "Sharpened Blade": {
+      "Description": "20% of Damage converted into <DT_SLASH_COLOR>Slash",
+      "Conclave": true,
+      "UpgradeTypes": [
+        "WEAPON_DAMAGE_TYPE_BIAS"
+      ],
+      "MaxRank": 3,
+      "Image": "SharpenedBladeMod.png",
+      "Introduced": "17",
+      "Icon": "SharpenedBlade.png",
+      "Transmutable": false,
+      "Type": "Melee",
+      "Rarity": "Uncommon",
+      "Link": "Sharpened Blade",
+      "BaseDrain": 2,
+      "Polarity": "Madurai",
+      "Name": "Sharpened Blade",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Melee/DamageBiasSlashMeleeMod",
+      "Incompatible": [
+        "Counterweight",
+        "Serrated Edges"
+      ],
       "CodexSecret": false
     },
     "Neutralize": {
@@ -17677,46 +17736,6 @@
       "IsWeaponAugment": true,
       "CodexSecret": false
     },
-    "Hellfire": {
-      "Description": "+90% <DT_FIRE_COLOR>Heat",
-      "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED"
-      ],
-      "MaxRank": 5,
-      "Image": "HellfireMod.png",
-      "Introduced": "0",
-      "Icon": "Hellfire.png",
-      "Transmutable": true,
-      "Type": "Rifle",
-      "Rarity": "Uncommon",
-      "Link": "Hellfire",
-      "BaseDrain": 6,
-      "Polarity": "Naramon",
-      "Name": "Hellfire",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/WeaponFireDamageMod",
-      "Incompatible": [
-        "Flawed Hellfire"
-      ],
-      "CodexSecret": false
-    },
-    "Artillery Cheap Shot": {
-      "Transmutable": false,
-      "Type": "Plexus",
-      "Description": "Forward Artillery has a +60% chance to not consume Dome Charges",
-      "Link": "Artillery Cheap Shot",
-      "BaseDrain": 2,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "ArtilleryCheapShotMod.png",
-      "Name": "Artillery Cheap Shot",
-      "Introduced": "27.4",
-      "Polarity": "Naramon",
-      "Icon": "ArtilleryCheapShot.png",
-      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
-      "CodexSecret": false
-    },
     "Tactical Retreat": {
       "Description": "On Low Health:\r\n+10% Mobility for 4s",
       "Conclave": true,
@@ -17738,6 +17757,23 @@
       "Name": "Tactical Retreat",
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Warframe/IncreasedMobilityOnLowHealth",
+      "CodexSecret": false
+    },
+    "Artillery Cheap Shot": {
+      "Transmutable": false,
+      "Type": "Plexus",
+      "Description": "Forward Artillery has a +60% chance to not consume Dome Charges",
+      "Link": "Artillery Cheap Shot",
+      "BaseDrain": 2,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "ArtilleryCheapShotMod.png",
+      "Name": "Artillery Cheap Shot",
+      "Introduced": "27.4",
+      "Polarity": "Naramon",
+      "Icon": "ArtilleryCheapShot.png",
+      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/ZektiFreeSuperWeaponAmmo",
       "CodexSecret": false
     },
     "Tactical Reload": {
@@ -17844,6 +17880,27 @@
       "MaxRank": 3,
       "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/SwordCmbTwoMeleeTree",
       "Icon": "SwoopingFalcon.png",
+      "CodexSecret": false
+    },
+    "Swipe": {
+      "Transmutable": false,
+      "Type": "Kavat Claws",
+      "Description": "Strikes 4 additional enemies and increases Attack Range by 2m.",
+      "Link": "Swipe",
+      "UpgradeTypes": [
+        "WEAPON_TARGET_AMOUNT",
+        "WEAPON_RANGE"
+      ],
+      "BaseDrain": 2,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Uncommon",
+      "Image": "SwipeMod.png",
+      "Name": "Swipe",
+      "Introduced": "Specters of the Rail",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowSwipePrecept",
+      "Icon": "Swipe.png",
       "CodexSecret": false
     },
     "Shivering Contagion": {
@@ -17956,27 +18013,6 @@
       "Icon": "Empazu-Shol.jpg",
       "Class": "Zenurik"
     },
-    "Swipe": {
-      "Transmutable": false,
-      "Type": "Kavat Claws",
-      "Description": "Strikes 4 additional enemies and increases Attack Range by 2m.",
-      "Link": "Swipe",
-      "UpgradeTypes": [
-        "WEAPON_TARGET_AMOUNT",
-        "WEAPON_RANGE"
-      ],
-      "BaseDrain": 2,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "SwipeMod.png",
-      "Name": "Swipe",
-      "Introduced": "Specters of the Rail",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowSwipePrecept",
-      "Icon": "Swipe.png",
-      "CodexSecret": false
-    },
     "Swing Line": {
       "Description": "Rip Line Augment: Rip Lines has no Energy cost while Airborne.\r\n+20% Parkour Velocity",
       "IsExilus": true,
@@ -17994,26 +18030,6 @@
       "Tradable": true,
       "MaxRank": 3,
       "InternalName": "/Lotus/Powersuits/Berserker/GrappleAugmentCard",
-      "CodexSecret": false
-    },
-    "Galeforce Dawn": {
-      "Transmutable": false,
-      "Type": "Heavy Scythe",
-      "Description": "Wide slashes and heavy strikes.",
-      "Link": "Galeforce Dawn",
-      "Tradable": true,
-      "BaseDrain": -2,
-      "CompatibilityTags": [
-        "HEAVY SCYTHE_STANCE"
-      ],
-      "Rarity": "Uncommon",
-      "Polarity": "Madurai",
-      "Image": "GaleforceDawnMod.png",
-      "Name": "Galeforce Dawn",
-      "Introduced": "31.5",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/HeavyScytheCmbOneMeleeTree",
-      "Icon": "GaleforceDawn.png",
       "CodexSecret": false
     },
     "Swift Momentum": {
@@ -18037,23 +18053,24 @@
       "Icon": "SwiftMomentum.png",
       "CodexSecret": false
     },
-    "Skull Shots": {
-      "Description": "On Headshot:\r\n+100% Ammo Efficiency for 2s",
-      "Conclave": true,
-      "MaxRank": 3,
-      "Image": "SkullShotsMod.png",
-      "Introduced": "18.5",
-      "Icon": "SkullShots.png",
+    "Galeforce Dawn": {
       "Transmutable": false,
-      "Type": "Viper",
-      "Rarity": "Rare",
-      "Link": "Skull Shots",
-      "BaseDrain": 10,
-      "Polarity": "Madurai",
-      "Name": "Skull Shots",
+      "Type": "Heavy Scythe",
+      "Description": "Wide slashes and heavy strikes.",
+      "Link": "Galeforce Dawn",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Pistol/ViperUnlimitedAmmo",
-      "IsWeaponAugment": true,
+      "BaseDrain": -2,
+      "CompatibilityTags": [
+        "HEAVY SCYTHE_STANCE"
+      ],
+      "Rarity": "Uncommon",
+      "Polarity": "Madurai",
+      "Image": "GaleforceDawnMod.png",
+      "Name": "Galeforce Dawn",
+      "Introduced": "31.5",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/HeavyScytheCmbOneMeleeTree",
+      "Icon": "GaleforceDawn.png",
       "CodexSecret": false
     },
     "Swift Deth": {
@@ -18071,6 +18088,25 @@
       "Rarity": "Common",
       "Polarity": "Penjaga",
       "Icon": "SwiftDeth.png",
+      "CodexSecret": false
+    },
+    "Skull Shots": {
+      "Description": "On Headshot:\r\n+100% Ammo Efficiency for 2s",
+      "Conclave": true,
+      "MaxRank": 3,
+      "Image": "SkullShotsMod.png",
+      "Introduced": "18.5",
+      "Icon": "SkullShots.png",
+      "Transmutable": false,
+      "Type": "Viper",
+      "Rarity": "Rare",
+      "Link": "Skull Shots",
+      "BaseDrain": 10,
+      "Polarity": "Madurai",
+      "Name": "Skull Shots",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Pistol/ViperUnlimitedAmmo",
+      "IsWeaponAugment": true,
       "CodexSecret": false
     },
     "Guided Ordnance": {
@@ -18094,6 +18130,27 @@
       "InternalName": "/Lotus/Upgrades/Mods/Rifle/Event/AccuracyWhileAimingRifleMod",
       "IncompatibilityTags": [
         "POWER_WEAPON"
+      ],
+      "CodexSecret": false
+    },
+    "Surging Dash": {
+      "Description": "Slash Dash Augment: Each enemy hit during Slash Dash further increases your Melee Counter by 8.",
+      "IsAbilityAugment": true,
+      "Image": "SurgingDashMod.png",
+      "Introduced": "15.6",
+      "Icon": "SurgingDash.png",
+      "Transmutable": false,
+      "Type": "Excalibur",
+      "Rarity": "Rare",
+      "Link": "Surging Dash",
+      "BaseDrain": 6,
+      "Polarity": "Zenurik",
+      "Name": "Surging Dash",
+      "Tradable": true,
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Excalibur/SlashDashAugmentCard",
+      "Incompatible": [
+        "Purging Slash"
       ],
       "CodexSecret": false
     },
@@ -18139,24 +18196,27 @@
       "Icon": "PistolPestilence.png",
       "CodexSecret": false
     },
-    "Surging Dash": {
-      "Description": "Slash Dash Augment: Each enemy hit during Slash Dash further increases your Melee Counter by 8.",
-      "IsAbilityAugment": true,
-      "Image": "SurgingDashMod.png",
-      "Introduced": "15.6",
-      "Icon": "SurgingDash.png",
-      "Transmutable": false,
-      "Type": "Excalibur",
-      "Rarity": "Rare",
-      "Link": "Surging Dash",
-      "BaseDrain": 6,
-      "Polarity": "Zenurik",
-      "Name": "Surging Dash",
+    "Sure Shot": {
+      "Description": "+90% Status Chance",
+      "UpgradeTypes": [
+        "WEAPON_PROC_CHANCE"
+      ],
+      "MaxRank": 5,
+      "Image": "SureShotMod.png",
+      "Introduced": "11",
+      "Icon": "SureShot.png",
+      "Transmutable": true,
+      "Type": "Pistol",
+      "Rarity": "Uncommon",
+      "Link": "Sure Shot",
+      "BaseDrain": 2,
+      "Polarity": "Vazarin",
+      "Name": "Sure Shot",
       "Tradable": true,
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Excalibur/SlashDashAugmentCard",
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponStunChanceMod",
       "Incompatible": [
-        "Purging Slash"
+        "Flawed Sure Shot",
+        "Galvanized Shot"
       ],
       "CodexSecret": false
     },
@@ -18182,30 +18242,6 @@
         "Volatile Quick Return",
         "Volatile Rebound",
         "Rebound"
-      ],
-      "CodexSecret": false
-    },
-    "Sure Shot": {
-      "Description": "+90% Status Chance",
-      "UpgradeTypes": [
-        "WEAPON_PROC_CHANCE"
-      ],
-      "MaxRank": 5,
-      "Image": "SureShotMod.png",
-      "Introduced": "11",
-      "Icon": "SureShot.png",
-      "Transmutable": true,
-      "Type": "Pistol",
-      "Rarity": "Uncommon",
-      "Link": "Sure Shot",
-      "BaseDrain": 2,
-      "Polarity": "Vazarin",
-      "Name": "Sure Shot",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponStunChanceMod",
-      "Incompatible": [
-        "Flawed Sure Shot",
-        "Galvanized Shot"
       ],
       "CodexSecret": false
     },
@@ -18273,42 +18309,23 @@
       "Icon": "SuperiorDefenses.png",
       "CodexSecret": false
     },
-    "Shock Collar": {
+    "Shield Overload": {
+      "Description": "Polarize Augment: Increases the time for the target's Shields to regenerate by 9s.",
+      "Conclave": true,
+      "IsAbilityAugment": true,
+      "Image": "ShieldOverloadMod.png",
+      "Introduced": "16",
+      "Icon": "ShieldOverload.png",
       "Transmutable": false,
-      "Type": "Claws",
-      "Description": "+60% <DT_ELECTRICITY_COLOR>Electricity\r\n+60% Status Chance",
-      "Link": "Shock Collar",
-      "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
-        "WEAPON_PROC_CHANCE"
-      ],
-      "BaseDrain": 4,
+      "Type": "Mag",
+      "Rarity": "Rare",
+      "Link": "Shield Overload",
+      "BaseDrain": 6,
+      "Polarity": "Zenurik",
+      "Name": "Shield Overload",
+      "Tradable": true,
       "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "ShockCollarMod.png",
-      "Name": "Shock Collar",
-      "Introduced": "24",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowElectEventMeleeMod",
-      "Icon": "ShockCollar.png",
-      "CodexSecret": false
-    },
-    "Seismic Bond": {
-      "Transmutable": false,
-      "Type": "Companion",
-      "Description": "While a channeled Ability is active, Companion melee attacks create a 4m shockwave for 30% of their melee attack damage. Damage dealt by your Companion increases your Ability Efficiency by 3% for 12 seconds. Max 10 stacks.",
-      "Link": "Seismic Bond",
-      "BaseDrain": 4,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "SeismicBondMod.png",
-      "Name": "Seismic Bond",
-      "Introduced": "34",
-      "Polarity": "Madurai",
-      "Icon": "SeismicBond.png",
-      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/BondedExaltation",
+      "InternalName": "/Lotus/Powersuits/Mag/ShieldRegenPvPAugmentCard",
       "CodexSecret": false
     },
     "Necramech Efficiency": {
@@ -18329,6 +18346,44 @@
       "Polarity": "Vazarin",
       "InternalName": "/Lotus/Upgrades/Mods/Necromech/NecromechBoostEfficiencyMod",
       "Icon": "NecramechEfficiency.png",
+      "CodexSecret": false
+    },
+    "Seismic Bond": {
+      "Transmutable": false,
+      "Type": "Companion",
+      "Description": "While a channeled Ability is active, Companion melee attacks create a 4m shockwave for 30% of their melee attack damage. Damage dealt by your Companion increases your Ability Efficiency by 3% for 12 seconds. Max 10 stacks.",
+      "Link": "Seismic Bond",
+      "BaseDrain": 4,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "SeismicBondMod.png",
+      "Name": "Seismic Bond",
+      "Introduced": "34",
+      "Polarity": "Madurai",
+      "Icon": "SeismicBond.png",
+      "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/BondedExaltation",
+      "CodexSecret": false
+    },
+    "Stunning Speed": {
+      "Transmutable": false,
+      "Type": "Pistol",
+      "Description": "+40% Reload Speed\r\n+30% Status Chance",
+      "Link": "Stunning Speed",
+      "UpgradeTypes": [
+        "WEAPON_RELOAD_SPEED",
+        "WEAPON_PROC_CHANCE"
+      ],
+      "BaseDrain": 6,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "StunningSpeedMod.png",
+      "Name": "Stunning Speed",
+      "Introduced": "9",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/DualStat/StunningSpeedMod",
+      "Icon": "StunningSpeed.png",
       "CodexSecret": false
     },
     "Amalgam Shotgun Barrage": {
@@ -18382,25 +18437,22 @@
       "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Stances/PvPSwordShieldStanceOne",
       "CodexSecret": false
     },
-    "Stunning Speed": {
+    "Piercing Roar": {
       "Transmutable": false,
-      "Type": "Pistol",
-      "Description": "+40% Reload Speed\r\n+30% Status Chance",
-      "Link": "Stunning Speed",
-      "UpgradeTypes": [
-        "WEAPON_RELOAD_SPEED",
-        "WEAPON_PROC_CHANCE"
-      ],
-      "BaseDrain": 6,
-      "MaxRank": 3,
+      "Type": "Rhino",
+      "Description": "Roar Augment: Roar gains +40% range. Enemies within 25m are knocked down and suffer 5 stacks of <DT_PUNCTURE_COLOR>Puncture Status.",
+      "Link": "Piercing Roar",
       "Tradable": true,
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
       "Rarity": "Rare",
-      "Image": "StunningSpeedMod.png",
-      "Name": "Stunning Speed",
-      "Introduced": "9",
-      "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Pistol/DualStat/StunningSpeedMod",
-      "Icon": "StunningSpeed.png",
+      "Polarity": "Zenurik",
+      "Image": "PiercingRoarMod.png",
+      "Name": "Piercing Roar",
+      "Introduced": "15.16",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Rhino/RadialBlastAugmentCard",
+      "Icon": "PiercingRoar.png",
       "CodexSecret": false
     },
     "Counter Pulse": {
@@ -18510,44 +18562,6 @@
       ],
       "CodexSecret": true
     },
-    "Piercing Roar": {
-      "Transmutable": false,
-      "Type": "Rhino",
-      "Description": "Roar Augment: Roar gains +40% range. Enemies within 25m are knocked down and suffer 5 stacks of <DT_PUNCTURE_COLOR>Puncture Status.",
-      "Link": "Piercing Roar",
-      "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
-      "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "PiercingRoarMod.png",
-      "Name": "Piercing Roar",
-      "Introduced": "15.16",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Rhino/RadialBlastAugmentCard",
-      "Icon": "PiercingRoar.png",
-      "CodexSecret": false
-    },
-    "Necramech Refuel": {
-      "Transmutable": false,
-      "Type": "Necramech",
-      "Description": "+20% Engine Replenish",
-      "Link": "Necramech Refuel",
-      "UpgradeTypes": [
-        "AVATAR_STAMINA_RECHARGE_RATE"
-      ],
-      "BaseDrain": 6,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Common",
-      "Image": "NecramechRefuelMod.png",
-      "Name": "Necramech Refuel",
-      "Introduced": "29",
-      "Polarity": "Vazarin",
-      "InternalName": "/Lotus/Upgrades/Mods/Necromech/NecromechBoostRechargeMod",
-      "Icon": "NecramechRefuel.png",
-      "CodexSecret": false
-    },
     "Stretch": {
       "Description": "+45% Ability Range",
       "UpgradeTypes": [
@@ -18570,6 +18584,45 @@
         "Archon Stretch",
         "Flawed Stretch"
       ],
+      "CodexSecret": false
+    },
+    "Necramech Refuel": {
+      "Transmutable": false,
+      "Type": "Necramech",
+      "Description": "+20% Engine Replenish",
+      "Link": "Necramech Refuel",
+      "UpgradeTypes": [
+        "AVATAR_STAMINA_RECHARGE_RATE"
+      ],
+      "BaseDrain": 6,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Common",
+      "Image": "NecramechRefuelMod.png",
+      "Name": "Necramech Refuel",
+      "Introduced": "29",
+      "Polarity": "Vazarin",
+      "InternalName": "/Lotus/Upgrades/Mods/Necromech/NecromechBoostRechargeMod",
+      "Icon": "NecramechRefuel.png",
+      "CodexSecret": false
+    },
+    "Netra": {
+      "Description": "Carrion hordes trill their profane\r\n\r\nAccord with eldritch plans",
+      "Class": "Requiem",
+      "MaxRank": 3,
+      "NotUpgradable": true,
+      "Image": "NetraMod.png",
+      "Introduced": "26",
+      "Icon": "Netra.png",
+      "Transmutable": true,
+      "Type": "Parazon",
+      "Rarity": "Rare",
+      "Link": "Netra",
+      "BaseDrain": 0,
+      "Polarity": "Universal",
+      "Name": "Netra",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Immortal/ImmortalSevenMod",
       "CodexSecret": false
     },
     "Primed Quickdraw": {
@@ -18661,24 +18714,25 @@
       "Icon": "TranquilCleave.png",
       "CodexSecret": false
     },
-    "Modified Munitions": {
-      "Transmutable": false,
-      "Type": "Archgun",
-      "Description": "+60% Status Chance",
-      "Link": "Modified Munitions",
+    "Strain Fever": {
+      "Description": "Helminth Charger gains +40% Damage per Cyst.",
       "UpgradeTypes": [
-        "WEAPON_PROC_CHANCE"
+        "WEAPON_DAMAGE_AMOUNT"
       ],
-      "BaseDrain": 4,
-      "MaxRank": 5,
+      "MaxRank": 3,
+      "Image": "StrainFeverMod.png",
+      "Introduced": "24.2",
+      "Icon": "StrainFever.png",
+      "Transmutable": false,
+      "Type": "Helminth Charger",
+      "Rarity": "Rare",
+      "Link": "Strain Fever",
+      "BaseDrain": 6,
+      "Polarity": "Madurai",
+      "Name": "Strain Fever",
       "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "ModifiedMunitionsMod.png",
-      "Name": "Modified Munitions",
-      "Introduced": "15",
-      "Polarity": "Vazarin",
-      "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingRifleStatusChanceMod",
-      "Icon": "ModifiedMunitions.png",
+      "Set": "Strain Set",
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Strain/HelminthStrainFeverMod",
       "CodexSecret": false
     },
     "Amalgam Serration": {
@@ -18775,25 +18829,22 @@
       ],
       "CodexSecret": false
     },
-    "Strain Fever": {
-      "Description": "Helminth Charger gains +40% Damage per Cyst.",
-      "UpgradeTypes": [
-        "WEAPON_DAMAGE_AMOUNT"
-      ],
-      "MaxRank": 3,
-      "Image": "StrainFeverMod.png",
-      "Introduced": "24.2",
-      "Icon": "StrainFever.png",
+    "Strain Eruption": {
       "Transmutable": false,
       "Type": "Helminth Charger",
-      "Rarity": "Rare",
-      "Link": "Strain Fever",
-      "BaseDrain": 6,
-      "Polarity": "Madurai",
-      "Name": "Strain Fever",
+      "Description": "Maggots explode on death, dealing 4% of an enemy's current Health as <DT_CORROSIVE_COLOR>Corrosive Damage to any enemy within 8m.",
+      "Link": "Strain Eruption",
       "Tradable": true,
+      "BaseDrain": 2,
+      "MaxRank": 3,
       "Set": "Strain Set",
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Strain/HelminthStrainFeverMod",
+      "Rarity": "Rare",
+      "Image": "StrainEruptionMod.png",
+      "Name": "Strain Eruption",
+      "Introduced": "24.2",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Strain/HelminthStrainEruptionMod",
+      "Icon": "StrainEruption.png",
       "CodexSecret": false
     },
     "Spectral Serration": {
@@ -18872,22 +18923,22 @@
       ],
       "CodexSecret": true
     },
-    "Strain Eruption": {
+    "Strain Consume": {
       "Transmutable": false,
-      "Type": "Helminth Charger",
-      "Description": "Maggots explode on death, dealing 4% of an enemy's current Health as <DT_CORROSIVE_COLOR>Corrosive Damage to any enemy within 8m.",
-      "Link": "Strain Eruption",
+      "Type": "Warframe",
+      "Description": "Dead Maggots within 10m are consumed, increasing Max Health by 4% and increasing Health Regen by 2/sec for 45sec.",
+      "Link": "Strain Consume",
       "Tradable": true,
       "BaseDrain": 2,
       "MaxRank": 3,
       "Set": "Strain Set",
       "Rarity": "Rare",
-      "Image": "StrainEruptionMod.png",
-      "Name": "Strain Eruption",
+      "Image": "StrainConsumeMod.png",
+      "Name": "Strain Consume",
       "Introduced": "24.2",
       "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Strain/HelminthStrainEruptionMod",
-      "Icon": "StrainEruption.png",
+      "InternalName": "/Lotus/Upgrades/Mods/Sets/Strain/WarframeStrainConsumeMod",
+      "Icon": "StrainConsume.png",
       "CodexSecret": false
     },
     "Umbral Fiber": {
@@ -19000,37 +19051,6 @@
       "Icon": "SprintBoost.png",
       "CodexSecret": false
     },
-    "Patagium": {
-      "Description": "+90% Aim Glide/Wall Latch Duration",
-      "IsExilus": true,
-      "UpgradeTypes": [
-        "AVATAR_PARKOUR_GLIDE"
-      ],
-      "MaxRank": 5,
-      "Image": "PatagiumMod.png",
-      "Introduced": "17",
-      "Icon": "Patagium.png",
-      "Transmutable": false,
-      "Type": "Warframe",
-      "Rarity": "Uncommon",
-      "Link": "Patagium",
-      "BaseDrain": 2,
-      "Polarity": "Naramon",
-      "Name": "Patagium",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Warframe/SuperGlideParkourTwoMod",
-      "Incompatible": [
-        "Mobilize",
-        "Battering Maneuver",
-        "Piercing Step",
-        "Rending Turn",
-        "Firewalker",
-        "Ice Spring",
-        "Lightning Dash",
-        "Toxic Flight"
-      ],
-      "CodexSecret": false
-    },
     "Stormbringer": {
       "Description": "+90% <DT_ELECTRICITY_COLOR>Electricity",
       "UpgradeTypes": [
@@ -19077,6 +19097,30 @@
       "IncompatibilityTags": [
         "SENTINEL_WEAPON",
         "HOUND_WEAPON"
+      ],
+      "CodexSecret": false
+    },
+    "Steel Fiber": {
+      "Description": "+100% Armor",
+      "UpgradeTypes": [
+        "AVATAR_ARMOUR"
+      ],
+      "MaxRank": 10,
+      "Image": "SteelFiberMod.png",
+      "Introduced": "0",
+      "Icon": "SteelFiber.png",
+      "Transmutable": true,
+      "Type": "Warframe",
+      "Rarity": "Common",
+      "Link": "Steel Fiber",
+      "BaseDrain": 4,
+      "Polarity": "Vazarin",
+      "Name": "Steel Fiber",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Warframe/AvatarArmourMod",
+      "Incompatible": [
+        "Umbral Fiber",
+        "Flawed Steel Fiber"
       ],
       "CodexSecret": false
     },
@@ -19142,30 +19186,6 @@
       "Icon": "PistolScavenger.png",
       "CodexSecret": false
     },
-    "Steel Fiber": {
-      "Description": "+100% Armor",
-      "UpgradeTypes": [
-        "AVATAR_ARMOUR"
-      ],
-      "MaxRank": 10,
-      "Image": "SteelFiberMod.png",
-      "Introduced": "0",
-      "Icon": "SteelFiber.png",
-      "Transmutable": true,
-      "Type": "Warframe",
-      "Rarity": "Common",
-      "Link": "Steel Fiber",
-      "BaseDrain": 4,
-      "Polarity": "Vazarin",
-      "Name": "Steel Fiber",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Warframe/AvatarArmourMod",
-      "Incompatible": [
-        "Umbral Fiber",
-        "Flawed Steel Fiber"
-      ],
-      "CodexSecret": false
-    },
     "Stealth Drift": {
       "Description": "+18m Enemy Radar\r\n+12% Aim Glide/Wall Latch Duration",
       "IsExilus": true,
@@ -19186,26 +19206,6 @@
       "Name": "Stealth Drift",
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/Mods/OrokinChallenge/OrokinChallengeModStealth",
-      "CodexSecret": false
-    },
-    "Four Riders": {
-      "Transmutable": true,
-      "Type": "Claws",
-      "Description": "Fast strikes, powerful slams.",
-      "Link": "Four Riders",
-      "Tradable": true,
-      "BaseDrain": -2,
-      "CompatibilityTags": [
-        "CLAWS_STANCE_STANCE"
-      ],
-      "Rarity": "Rare",
-      "Polarity": "Madurai",
-      "Image": "FourRidersMod.png",
-      "Name": "Four Riders",
-      "Introduced": "16",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ClawCmbThreeMeleeTree",
-      "Icon": "FourRiders.png",
       "CodexSecret": false
     },
     "North Wind": {
@@ -19231,6 +19231,26 @@
       ],
       "CodexSecret": false
     },
+    "Four Riders": {
+      "Transmutable": true,
+      "Type": "Claws",
+      "Description": "Fast strikes, powerful slams.",
+      "Link": "Four Riders",
+      "Tradable": true,
+      "BaseDrain": -2,
+      "CompatibilityTags": [
+        "CLAWS_STANCE_STANCE"
+      ],
+      "Rarity": "Rare",
+      "Polarity": "Madurai",
+      "Image": "FourRidersMod.png",
+      "Name": "Four Riders",
+      "Introduced": "16",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/ClawCmbThreeMeleeTree",
+      "Icon": "FourRiders.png",
+      "CodexSecret": false
+    },
     "Static Discharge": {
       "Description": "Heavy Attacks electrify nearby enemies for <DT_ELECTRICITY_COLOR>Electricity Damage equal to 80% of weapon damage.",
       "MaxRank": 5,
@@ -19250,6 +19270,23 @@
       ],
       "InternalName": "/Lotus/Upgrades/Mods/Melee/Event/CorpusArena/ProvaCorpusArenaMod",
       "IsWeaponAugment": true,
+      "CodexSecret": false
+    },
+    "Stasis Field": {
+      "Transmutable": false,
+      "Type": "MOA",
+      "Description": "Creates a stasis field for 30s. While inside the field, all enemy projectiles move 90% slower and deal 60% less Damage.",
+      "Link": "Stasis Field",
+      "BaseDrain": 4,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Common",
+      "Image": "StasisFieldMod.png",
+      "Name": "Stasis Field",
+      "Introduced": "24",
+      "Polarity": "Penjaga",
+      "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetPrecept/MoaStasisFieldPrecept",
+      "Icon": "StasisField.png",
       "CodexSecret": false
     },
     "Vital Sense": {
@@ -19275,29 +19312,22 @@
       ],
       "CodexSecret": false
     },
-    "Higasa Serration": {
-      "Description": "Alternate Fire applies a random Status Effect to enemies hit.\r\n+450% Damage",
-      "Conclave": false,
-      "MaxRank": 5,
-      "Image": "HigasaSerrationMod.png",
-      "Introduced": "37",
-      "Icon": "HigasaSerration.jpg",
+    "Staggering Shield": {
       "Transmutable": false,
-      "Type": "Higasa",
-      "Rarity": "Rare",
-      "Link": "Higasa Serration",
-      "BaseDrain": 6,
-      "Polarity": "Madurai",
-      "Name": "Higasa Serration",
+      "Type": "Mesa",
+      "Description": "Shatter Shield Augment: Reflected bullets have a chance to stagger enemies. The base 50% chance increases with power strength.",
+      "Link": "Staggering Shield",
       "Tradable": true,
-      "Incompatible": [
-        "Serration",
-        "Flawed Serration",
-        "Amalgam Serration",
-        "Spectral Serration"
-      ],
-      "InternalName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaAugment",
-      "IsWeaponAugment": true,
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
+      "Rarity": "Rare",
+      "Polarity": "Zenurik",
+      "Image": "StaggeringShieldMod.png",
+      "Name": "Staggering Shield",
+      "Introduced": "16.8",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Cowgirl/RicochetArmourAugmentCard",
+      "Icon": "StaggeringShield.png",
       "CodexSecret": false
     },
     "Flawed Sure Shot": {
@@ -19346,22 +19376,25 @@
       "IsWeaponAugment": true,
       "CodexSecret": false
     },
-    "Staggering Shield": {
-      "Transmutable": false,
-      "Type": "Mesa",
-      "Description": "Shatter Shield Augment: Reflected bullets have a chance to stagger enemies. The base 50% chance increases with power strength.",
-      "Link": "Staggering Shield",
-      "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
+    "Stabilizer": {
+      "Description": "-60% Weapon Recoil",
+      "IsExilus": true,
+      "MaxRank": 5,
+      "Image": "StabilizerMod.png",
+      "Introduced": "10",
+      "Icon": "Stabilizer.png",
+      "Transmutable": true,
+      "Type": "Rifle",
       "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "StaggeringShieldMod.png",
-      "Name": "Staggering Shield",
-      "Introduced": "16.8",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Cowgirl/RicochetArmourAugmentCard",
-      "Icon": "StaggeringShield.png",
+      "Link": "Stabilizer",
+      "BaseDrain": 6,
+      "Polarity": "Naramon",
+      "Name": "Stabilizer",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/WeaponRecoilReductionMod",
+      "Incompatible": [
+        "Primed Stabilizer"
+      ],
       "CodexSecret": false
     },
     "Abundant Mutation": {
@@ -19547,27 +19580,6 @@
       "IsWeaponAugment": true,
       "CodexSecret": false
     },
-    "Stabilizer": {
-      "Description": "-60% Weapon Recoil",
-      "IsExilus": true,
-      "MaxRank": 5,
-      "Image": "StabilizerMod.png",
-      "Introduced": "10",
-      "Icon": "Stabilizer.png",
-      "Transmutable": true,
-      "Type": "Rifle",
-      "Rarity": "Rare",
-      "Link": "Stabilizer",
-      "BaseDrain": 6,
-      "Polarity": "Naramon",
-      "Name": "Stabilizer",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/WeaponRecoilReductionMod",
-      "Incompatible": [
-        "Primed Stabilizer"
-      ],
-      "CodexSecret": false
-    },
     "Spry Sights": {
       "Description": "+20% Movement Speed when Aiming",
       "Conclave": true,
@@ -19588,6 +19600,29 @@
       "Tradable": true,
       "IsExilus": true,
       "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Pistol/FasterMovementWhileAimingPistolMod",
+      "CodexSecret": false
+    },
+    "Spring-Loaded Chamber": {
+      "Description": "On Reload:\r\n+75% Fire Rate when Aiming for 9s",
+      "UpgradeTypes": [
+        "WEAPON_FIRE_RATE"
+      ],
+      "MaxRank": 5,
+      "Image": "Spring-LoadedChamberMod.png",
+      "Introduced": "18.4.1",
+      "Icon": "Spring-LoadedChamber.png",
+      "Transmutable": false,
+      "Type": "Assault Rifle",
+      "Rarity": "Uncommon",
+      "Link": "Spring-Loaded Chamber",
+      "BaseDrain": 2,
+      "Polarity": "Madurai",
+      "Name": "Spring-Loaded Chamber",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Event/FireRateWhileAimingRifleMod",
+      "IncompatibilityTags": [
+        "POWER_WEAPON"
+      ],
       "CodexSecret": false
     },
     "Concealed Explosives": {
@@ -19616,27 +19651,24 @@
       ],
       "CodexSecret": false
     },
-    "Spring-Loaded Chamber": {
-      "Description": "On Reload:\r\n+75% Fire Rate when Aiming for 9s",
-      "UpgradeTypes": [
-        "WEAPON_FIRE_RATE"
-      ],
-      "MaxRank": 5,
-      "Image": "Spring-LoadedChamberMod.png",
-      "Introduced": "18.4.1",
-      "Icon": "Spring-LoadedChamber.png",
+    "Spring-Loaded Blade": {
       "Transmutable": false,
-      "Type": "Assault Rifle",
-      "Rarity": "Uncommon",
-      "Link": "Spring-Loaded Chamber",
-      "BaseDrain": 2,
-      "Polarity": "Madurai",
-      "Name": "Spring-Loaded Chamber",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Event/FireRateWhileAimingRifleMod",
-      "IncompatibilityTags": [
-        "POWER_WEAPON"
+      "Type": "Melee",
+      "Description": "On Status Effect: +1 Range for 24s. Stacks up to 2 times.",
+      "Link": "Spring-Loaded Blade",
+      "UpgradeTypes": [
+        "WEAPON_RANGE"
       ],
+      "BaseDrain": 4,
+      "MaxRank": 5,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "Spring-LoadedBladeMod.png",
+      "Name": "Spring-Loaded Blade",
+      "Introduced": "22",
+      "Polarity": "Vazarin",
+      "InternalName": "/Lotus/Upgrades/Mods/Syndicate/MeleeRangeOnProcMod",
+      "Icon": "Spring-LoadedBlade.png",
       "CodexSecret": false
     },
     "Ballista Measure": {
@@ -19682,44 +19714,61 @@
       "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/MoreAccuracyLessRecoilSlidingMod",
       "CodexSecret": false
     },
-    "Spring-Loaded Blade": {
-      "Transmutable": false,
-      "Type": "Melee",
-      "Description": "On Status Effect: +1 Range for 24s. Stacks up to 2 times.",
-      "Link": "Spring-Loaded Blade",
+    "Primed Expel Orokin": {
+      "Description": "x1.55 Damage to Orokin",
       "UpgradeTypes": [
-        "WEAPON_RANGE"
+        "GAMEPLAY_FACTION_DAMAGE"
       ],
+      "MaxRank": 10,
+      "Image": "PrimedExpelOrokinMod.png",
+      "Introduced": "23.9.1",
+      "Icon": "ExpelOrokin.png",
+      "Transmutable": false,
+      "Type": "Pistol",
+      "Rarity": "Legendary",
+      "Link": "Primed Expel Orokin",
       "BaseDrain": 4,
-      "MaxRank": 5,
+      "Polarity": "Madurai",
+      "Name": "Primed Expel Orokin",
       "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "Spring-LoadedBladeMod.png",
-      "Name": "Spring-Loaded Blade",
-      "Introduced": "22",
-      "Polarity": "Vazarin",
-      "InternalName": "/Lotus/Upgrades/Mods/Syndicate/MeleeRangeOnProcMod",
-      "Icon": "Spring-LoadedBlade.png",
-      "CodexSecret": false
-    },
-    "Sinking Talon": {
-      "Transmutable": true,
-      "Type": "Dual Daggers",
-      "Description": "Strong, focused attacks with multi-hit spins.",
-      "Link": "Sinking Talon",
-      "Tradable": true,
-      "BaseDrain": -2,
-      "CompatibilityTags": [
-        "DUAL_DAGGERS_STANCE"
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponPistolFactionDamageCorruptedExpert",
+      "Incompatible": [
+        "Expel Orokin"
       ],
-      "Rarity": "Uncommon",
-      "Polarity": "Zenurik",
-      "Image": "SinkingTalonMod.png",
-      "Name": "Sinking Talon",
-      "Introduced": "13",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbOneMeleeTree",
-      "Icon": "SinkingTalon.png",
+      "CodexSecret": true
+    },
+    "Split Flights": {
+      "Description": "On Hit:\r\n+100% Multishot\r\n-180% Accuracy for 2s. Stacks up to 4x.\r\n(Non-AOE Bows)",
+      "UpgradeTypes": [
+        "WEAPON_FIRE_ITERATIONS",
+        "WEAPON_SPREAD"
+      ],
+      "MaxRank": 5,
+      "Image": "SplitFlightsMod.png",
+      "Introduced": "25.8.2",
+      "Icon": "SplitFlights.png",
+      "Transmutable": false,
+      "Type": "Bow",
+      "Rarity": "Rare",
+      "Link": "Split Flights",
+      "BaseDrain": 10,
+      "Polarity": "Madurai",
+      "Name": "Split Flights",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/BowMultiShotOnHitMod",
+      "IncompatibilityTags": [
+        "CRPBOW",
+        "CROSSBOW",
+        "GRNBOW",
+        "POWER_WEAPON",
+        "INFBOW",
+        "OMICRUS"
+      ],
+      "Incompatible": [
+        "Split Chamber",
+        "Flawed Split Chamber",
+        "Galvanized Chamber"
+      ],
       "CodexSecret": false
     },
     "Flawed Reflection": {
@@ -19764,38 +19813,26 @@
       "Icon": "CelestialNightfall.png",
       "CodexSecret": false
     },
-    "Split Flights": {
-      "Description": "On Hit:\r\n+100% Multishot\r\n-180% Accuracy for 2s. Stacks up to 4x.\r\n(Non-AOE Bows)",
+    "Speed Drift": {
+      "Description": "+12% Sprint Speed\r\n+15% Casting Speed",
+      "IsExilus": true,
       "UpgradeTypes": [
-        "WEAPON_FIRE_ITERATIONS",
-        "WEAPON_SPREAD"
+        "AVATAR_SPRINT_SPEED",
+        "AVATAR_CASTING_SPEED"
       ],
       "MaxRank": 5,
-      "Image": "SplitFlightsMod.png",
-      "Introduced": "25.8.2",
-      "Icon": "SplitFlights.png",
+      "Image": "SpeedDriftMod.png",
+      "Introduced": "18",
+      "Icon": "SpeedDrift.png",
       "Transmutable": false,
-      "Type": "Bow",
+      "Type": "Warframe",
       "Rarity": "Rare",
-      "Link": "Split Flights",
-      "BaseDrain": 10,
+      "Link": "Speed Drift",
+      "BaseDrain": 4,
       "Polarity": "Madurai",
-      "Name": "Split Flights",
+      "Name": "Speed Drift",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/BowMultiShotOnHitMod",
-      "IncompatibilityTags": [
-        "CRPBOW",
-        "CROSSBOW",
-        "GRNBOW",
-        "POWER_WEAPON",
-        "INFBOW",
-        "OMICRUS"
-      ],
-      "Incompatible": [
-        "Split Chamber",
-        "Flawed Split Chamber",
-        "Galvanized Chamber"
-      ],
+      "InternalName": "/Lotus/Upgrades/Mods/OrokinChallenge/OrokinChallengeModSpeed",
       "CodexSecret": false
     },
     "Agility Drift": {
@@ -19837,26 +19874,23 @@
       "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/VoidBond/PreyDrive",
       "CodexSecret": false
     },
-    "Speed Drift": {
-      "Description": "+12% Sprint Speed\r\n+15% Casting Speed",
-      "IsExilus": true,
-      "UpgradeTypes": [
-        "AVATAR_SPRINT_SPEED",
-        "AVATAR_CASTING_SPEED"
-      ],
-      "MaxRank": 5,
-      "Image": "SpeedDriftMod.png",
-      "Introduced": "18",
-      "Icon": "SpeedDrift.png",
-      "Transmutable": false,
-      "Type": "Warframe",
+    "Soft Safe": {
+      "Description": "Keeping software safe by ALWAYS WATCHING",
+      "Class": "Antivirus",
+      "MaxRank": 3,
+      "NotUpgradable": true,
+      "Image": "SoftSafeMod.png",
+      "Introduced": "38.5",
+      "Icon": "SoftSafe.png",
+      "Transmutable": true,
+      "Type": "Parazon",
       "Rarity": "Rare",
-      "Link": "Speed Drift",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Speed Drift",
+      "Link": "Soft Safe",
+      "BaseDrain": 0,
+      "Polarity": "Universal",
+      "Name": "Soft Safe",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/OrokinChallenge/OrokinChallengeModSpeed",
+      "InternalName": "/Lotus/Upgrades/Mods/Immortal/AntivirusSixMod",
       "CodexSecret": false
     },
     "Soul Survivor": {
@@ -19934,23 +19968,23 @@
       "Icon": "SovereignOutcast.png",
       "CodexSecret": false
     },
-    "Soft Safe": {
-      "Description": "Keeping software safe by ALWAYS WATCHING",
-      "Class": "Antivirus",
+    "Soft Hands": {
+      "Description": "On Equip: \r\n-40% Weapon Recoil and +40% Accuracy for 8s",
+      "Conclave": true,
       "MaxRank": 3,
-      "NotUpgradable": true,
-      "Image": "SoftSafeMod.png",
-      "Introduced": "38.5",
-      "Icon": "SoftSafe.png",
-      "Transmutable": true,
-      "Type": "Parazon",
-      "Rarity": "Rare",
-      "Link": "Soft Safe",
-      "BaseDrain": 0,
-      "Polarity": "Universal",
-      "Name": "Soft Safe",
+      "Image": "SoftHandsMod.png",
+      "Introduced": "16",
+      "Icon": "SoftHands.png",
+      "Transmutable": false,
+      "Type": "Shotgun",
+      "Rarity": "Uncommon",
+      "Link": "Soft Hands",
+      "BaseDrain": 4,
+      "Polarity": "Naramon",
+      "Name": "Soft Hands",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Immortal/AntivirusSixMod",
+      "IsExilus": true,
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Shotgun/HolsterSpeedBonusMod",
       "CodexSecret": false
     },
     "Flawed Maglev": {
@@ -19978,23 +20012,30 @@
       ],
       "CodexSecret": true
     },
-    "Soft Hands": {
-      "Description": "On Equip: \r\n-40% Weapon Recoil and +40% Accuracy for 8s",
+    "Soaring Strike": {
+      "Description": "+50% Fire Rate when Airborne",
       "Conclave": true,
+      "UpgradeTypes": [
+        "WEAPON_FIRE_RATE"
+      ],
       "MaxRank": 3,
-      "Image": "SoftHandsMod.png",
-      "Introduced": "16",
-      "Icon": "SoftHands.png",
+      "Image": "SoaringStrikeMod.png",
+      "Introduced": "18",
+      "Icon": "SoaringStrike.png",
       "Transmutable": false,
-      "Type": "Shotgun",
-      "Rarity": "Uncommon",
-      "Link": "Soft Hands",
-      "BaseDrain": 4,
-      "Polarity": "Naramon",
-      "Name": "Soft Hands",
+      "Type": "Bow",
+      "Rarity": "Rare",
+      "Link": "Soaring Strike",
+      "BaseDrain": 10,
+      "Polarity": "Madurai",
+      "Name": "Soaring Strike",
       "Tradable": true,
-      "IsExilus": true,
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Shotgun/HolsterSpeedBonusMod",
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/FasterChargeInAirBowMod",
+      "IncompatibilityTags": [
+        "DAIKYU",
+        "ATTICA",
+        "ZHUGE"
+      ],
       "CodexSecret": false
     },
     "Titanic Rumbler": {
@@ -20018,26 +20059,6 @@
       ],
       "CodexSecret": false
     },
-    "Sniper Scavenger": {
-      "Transmutable": false,
-      "Type": "Aura",
-      "Description": "Squad receives +150% Sniper Rifle Ammo Recovery",
-      "Link": "Sniper Scavenger",
-      "UpgradeTypes": [
-        "WEAPON_AMMO_RETRIEVED"
-      ],
-      "BaseDrain": -2,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "SniperScavengerMod.png",
-      "Name": "Sniper Scavenger",
-      "Introduced": "5",
-      "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerSniperAmmoAuraMod",
-      "Icon": "SniperScavenger.png",
-      "CodexSecret": false
-    },
     "Smoke Shadow": {
       "Transmutable": false,
       "Type": "Ash",
@@ -20054,6 +20075,24 @@
       "MaxRank": 3,
       "InternalName": "/Lotus/Powersuits/Ninja/SmokeScreenAugmentCard",
       "Icon": "SmokeShadow.png",
+      "CodexSecret": false
+    },
+    "Smite Infusion": {
+      "Transmutable": false,
+      "Type": "Oberon",
+      "Description": "Smite Augment: Hold to cast will grant all allies within 15m an additional 100% <DT_RADIATION_COLOR>Radiation Damage to their attacks for 40s.",
+      "Link": "Smite Infusion",
+      "Tradable": true,
+      "BaseDrain": 6,
+      "IsAbilityAugment": true,
+      "Rarity": "Rare",
+      "Polarity": "Zenurik",
+      "Image": "SmiteInfusionMod.png",
+      "Name": "Smite Infusion",
+      "Introduced": "15",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Powersuits/Paladin/SmiteAugmentCard",
+      "Icon": "SmiteInfusion.png",
       "CodexSecret": false
     },
     "Ammo Chain": {
@@ -20103,24 +20142,6 @@
         "Shell Compression"
       ],
       "CodexSecret": true
-    },
-    "Smite Infusion": {
-      "Transmutable": false,
-      "Type": "Oberon",
-      "Description": "Smite Augment: Hold to cast will grant all allies within 15m an additional 100% <DT_RADIATION_COLOR>Radiation Damage to their attacks for 40s.",
-      "Link": "Smite Infusion",
-      "Tradable": true,
-      "BaseDrain": 6,
-      "IsAbilityAugment": true,
-      "Rarity": "Rare",
-      "Polarity": "Zenurik",
-      "Image": "SmiteInfusionMod.png",
-      "Name": "Smite Infusion",
-      "Introduced": "15",
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Paladin/SmiteAugmentCard",
-      "Icon": "SmiteInfusion.png",
-      "CodexSecret": false
     },
     "Smite The Murmur": {
       "Description": "x1.3 Damage to Murmur",
@@ -20188,6 +20209,26 @@
       "Icon": "SlicingFeathers.png",
       "CodexSecret": false
     },
+    "Sinking Talon": {
+      "Transmutable": true,
+      "Type": "Dual Daggers",
+      "Description": "Strong, focused attacks with multi-hit spins.",
+      "Link": "Sinking Talon",
+      "Tradable": true,
+      "BaseDrain": -2,
+      "CompatibilityTags": [
+        "DUAL_DAGGERS_STANCE"
+      ],
+      "Rarity": "Uncommon",
+      "Polarity": "Zenurik",
+      "Image": "SinkingTalonMod.png",
+      "Name": "Sinking Talon",
+      "Introduced": "13",
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/DualDaggerCmbOneMeleeTree",
+      "Icon": "SinkingTalon.png",
+      "CodexSecret": false
+    },
     "Spontaneous Singularity": {
       "Transmutable": false,
       "Type": "Simulor",
@@ -20224,30 +20265,6 @@
       "Icon": "Talsek-An.jpg",
       "Class": "Unairu"
     },
-    "Mecha Recharge": {
-      "Description": "+90% Shield Recharge",
-      "UpgradeTypes": [
-        "AVATAR_SHIELD_RECHARGE_RATE"
-      ],
-      "MaxRank": 5,
-      "Image": "MechaRechargeMod.png",
-      "Introduced": "24",
-      "Icon": "MechaRecharge.png",
-      "Transmutable": false,
-      "Type": "Kubrow",
-      "Rarity": "Rare",
-      "Link": "Mecha Recharge",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Mecha Recharge",
-      "Tradable": true,
-      "Set": "Mecha Set",
-      "InternalName": "/Lotus/Upgrades/Mods/Sets/Mecha/KubrowMechaRechargeMod",
-      "IncompatibilityTags": [
-        "HELMINTH_MOD"
-      ],
-      "CodexSecret": false
-    },
     "Shred Shot": {
       "Description": "20% of Damage converted into <DT_PUNCTURE_COLOR>Puncture",
       "Conclave": true,
@@ -20270,6 +20287,30 @@
       "Incompatible": [
         "Crash Shot",
         "Flak Shot"
+      ],
+      "CodexSecret": false
+    },
+    "Emergent Aftermath": {
+      "Description": "On Kill:\r\n+50% Reload Speed for 3s",
+      "Conclave": true,
+      "UpgradeTypes": [
+        "WEAPON_RELOAD_SPEED"
+      ],
+      "MaxRank": 3,
+      "Image": "EmergentAftermathMod.png",
+      "Introduced": "18.5",
+      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/FasterReloadOnKillSniperMod",
+      "Transmutable": false,
+      "Type": "Sniper",
+      "Rarity": "Rare",
+      "Link": "Emergent Aftermath",
+      "BaseDrain": 10,
+      "Polarity": "Madurai",
+      "Name": "Emergent Aftermath",
+      "Tradable": true,
+      "Icon": "EmergentAftermath.png",
+      "IncompatibilityTags": [
+        "Vectis"
       ],
       "CodexSecret": false
     },
@@ -20383,30 +20424,6 @@
       "InternalName": "/Lotus/Upgrades/Mods/Warframe/EnergyPickupGivesStrengthMod",
       "CodexSecret": false
     },
-    "Emergent Aftermath": {
-      "Description": "On Kill:\r\n+50% Reload Speed for 3s",
-      "Conclave": true,
-      "UpgradeTypes": [
-        "WEAPON_RELOAD_SPEED"
-      ],
-      "MaxRank": 3,
-      "Image": "EmergentAftermathMod.png",
-      "Introduced": "18.5",
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Rifle/FasterReloadOnKillSniperMod",
-      "Transmutable": false,
-      "Type": "Sniper",
-      "Rarity": "Rare",
-      "Link": "Emergent Aftermath",
-      "BaseDrain": 10,
-      "Polarity": "Madurai",
-      "Name": "Emergent Aftermath",
-      "Tradable": true,
-      "Icon": "EmergentAftermath.png",
-      "IncompatibilityTags": [
-        "Vectis"
-      ],
-      "CodexSecret": false
-    },
     "Fateful Truth": {
       "Description": "Fighting form devised for Conclave.",
       "Conclave": true,
@@ -20448,6 +20465,30 @@
       "Icon": "ShotgunScavenger.png",
       "CodexSecret": false
     },
+    "Shotgun Savvy": {
+      "Description": "+90% Status Chance",
+      "UpgradeTypes": [
+        "WEAPON_PROC_CHANCE"
+      ],
+      "MaxRank": 5,
+      "Image": "ShotgunSavvyMod.png",
+      "Introduced": "11",
+      "Icon": "ShotgunSavvy.png",
+      "Transmutable": true,
+      "Type": "Shotgun",
+      "Rarity": "Uncommon",
+      "Link": "Shotgun Savvy",
+      "BaseDrain": 2,
+      "Polarity": "Vazarin",
+      "Name": "Shotgun Savvy",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/WeaponStunChanceMod",
+      "Incompatible": [
+        "Flawed Shotgun Savvy",
+        "Galvanized Savvy"
+      ],
+      "CodexSecret": false
+    },
     "Hornet Strike": {
       "Description": "+220% Damage",
       "UpgradeTypes": [
@@ -20471,28 +20512,21 @@
       ],
       "CodexSecret": false
     },
-    "Shotgun Savvy": {
-      "Description": "+90% Status Chance",
-      "UpgradeTypes": [
-        "WEAPON_PROC_CHANCE"
-      ],
-      "MaxRank": 5,
-      "Image": "ShotgunSavvyMod.png",
-      "Introduced": "11",
-      "Icon": "ShotgunSavvy.png",
-      "Transmutable": true,
+    "Shotgun Elementalist": {
+      "Transmutable": false,
       "Type": "Shotgun",
-      "Rarity": "Uncommon",
-      "Link": "Shotgun Savvy",
-      "BaseDrain": 2,
-      "Polarity": "Vazarin",
-      "Name": "Shotgun Savvy",
+      "Description": "+90% Status Damage\r\n+60% Magazine Capacity",
+      "Link": "Shotgun Elementalist",
+      "BaseDrain": 4,
+      "MaxRank": 5,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/WeaponStunChanceMod",
-      "Incompatible": [
-        "Flawed Shotgun Savvy",
-        "Galvanized Savvy"
-      ],
+      "Rarity": "Uncommon",
+      "Image": "ShotgunElementalistMod.png",
+      "Name": "Shotgun Elementalist",
+      "Introduced": "36",
+      "Polarity": "Vazarin",
+      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/ShotgunStatusDamageDuoMod",
+      "Icon": "ShotgunElementalist.jpg",
       "CodexSecret": false
     },
     "Flawed Pressure Point": {
@@ -20522,23 +20556,6 @@
       ],
       "CodexSecret": true
     },
-    "Shotgun Elementalist": {
-      "Transmutable": false,
-      "Type": "Shotgun",
-      "Description": "+90% Status Damage\r\n+60% Magazine Capacity",
-      "Link": "Shotgun Elementalist",
-      "BaseDrain": 4,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "ShotgunElementalistMod.png",
-      "Name": "Shotgun Elementalist",
-      "Introduced": "36",
-      "Polarity": "Vazarin",
-      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/ShotgunStatusDamageDuoMod",
-      "Icon": "ShotgunElementalist.jpg",
-      "CodexSecret": false
-    },
     "Combustion Rounds": {
       "Transmutable": false,
       "Type": "Archgun",
@@ -20557,6 +20574,23 @@
       "Polarity": "Madurai",
       "Icon": "CombustionRounds.png",
       "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponFireDamageMod",
+      "CodexSecret": false
+    },
+    "Charm": {
+      "Transmutable": false,
+      "Type": "Smeeta Kavat",
+      "Description": "Smeeta Kavat has a 40% chance every 27s to bestow its owner with good fortune.",
+      "Link": "Charm",
+      "BaseDrain": 0,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "CharmMod.png",
+      "Name": "Charm",
+      "Introduced": "Specters of the Rail",
+      "Polarity": "Penjaga",
+      "Icon": "Charm.png",
+      "InternalName": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowLuckPrecept",
       "CodexSecret": false
     },
     "Celestial Stomp": {
@@ -20613,23 +20647,6 @@
       "Polarity": "Vazarin",
       "InternalName": "/Lotus/Upgrades/Mods/Aura/PlayerHealthRegenAuraMod",
       "Icon": "Rejuvenation.png",
-      "CodexSecret": false
-    },
-    "Charm": {
-      "Transmutable": false,
-      "Type": "Smeeta Kavat",
-      "Description": "Smeeta Kavat has a 40% chance every 27s to bestow its owner with good fortune.",
-      "Link": "Charm",
-      "BaseDrain": 0,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "CharmMod.png",
-      "Name": "Charm",
-      "Introduced": "Specters of the Rail",
-      "Polarity": "Penjaga",
-      "Icon": "Charm.png",
-      "InternalName": "/Lotus/Types/Friendly/Pets/CatbrowPetPrecepts/CatbrowLuckPrecept",
       "CodexSecret": false
     },
     "Shocking Touch": {
@@ -20714,6 +20731,27 @@
       "Icon": "ShockTrooper.png",
       "CodexSecret": false
     },
+    "Shock Collar": {
+      "Transmutable": false,
+      "Type": "Claws",
+      "Description": "+60% <DT_ELECTRICITY_COLOR>Electricity\r\n+60% Status Chance",
+      "Link": "Shock Collar",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+        "WEAPON_PROC_CHANCE"
+      ],
+      "BaseDrain": 4,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "ShockCollarMod.png",
+      "Name": "Shock Collar",
+      "Introduced": "24",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/DualStat/KubrowElectEventMeleeMod",
+      "Icon": "ShockCollar.png",
+      "CodexSecret": false
+    },
     "Amar's Hatred": {
       "Description": "+25% Armor\r\n+15% Ability Strength",
       "Conclave": false,
@@ -20792,23 +20830,24 @@
       ],
       "CodexSecret": true
     },
-    "Shield Overload": {
-      "Description": "Polarize Augment: Increases the time for the target's Shields to regenerate by 9s.",
-      "Conclave": true,
-      "IsAbilityAugment": true,
-      "Image": "ShieldOverloadMod.png",
-      "Introduced": "16",
-      "Icon": "ShieldOverload.png",
+    "Shield Disruption": {
       "Transmutable": false,
-      "Type": "Mag",
-      "Rarity": "Rare",
-      "Link": "Shield Overload",
-      "BaseDrain": 6,
-      "Polarity": "Zenurik",
-      "Name": "Shield Overload",
+      "Type": "Aura",
+      "Description": "Enemies lose -18% Shield Capacity",
+      "Link": "Shield Disruption",
+      "UpgradeTypes": [
+        "AVATAR_SHIELD_MAX"
+      ],
+      "BaseDrain": -2,
+      "MaxRank": 5,
       "Tradable": true,
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Powersuits/Mag/ShieldRegenPvPAugmentCard",
+      "Rarity": "Uncommon",
+      "Image": "ShieldDisruptionMod.png",
+      "Name": "Shield Disruption",
+      "Introduced": "8",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Aura/EnemyShieldReductionAuraMod",
+      "Icon": "ShieldDisruption.png",
       "CodexSecret": false
     },
     "Ammo Case": {
@@ -20828,24 +20867,21 @@
       "InternalName": "/Lotus/Types/Sentinels/SentinelPrecepts/ItemVacum",
       "CodexSecret": false
     },
-    "Shield Disruption": {
+    "Protective Shots": {
       "Transmutable": false,
-      "Type": "Aura",
-      "Description": "Enemies lose -18% Shield Capacity",
-      "Link": "Shield Disruption",
-      "UpgradeTypes": [
-        "AVATAR_SHIELD_MAX"
-      ],
-      "BaseDrain": -2,
+      "Type": "Plexus",
+      "Description": "+30% Turret Damage when Shields are above 75%",
+      "Link": "Protective Shots",
+      "BaseDrain": 2,
       "MaxRank": 5,
       "Tradable": true,
       "Rarity": "Uncommon",
-      "Image": "ShieldDisruptionMod.png",
-      "Name": "Shield Disruption",
-      "Introduced": "8",
-      "Polarity": "Naramon",
-      "InternalName": "/Lotus/Upgrades/Mods/Aura/EnemyShieldReductionAuraMod",
-      "Icon": "ShieldDisruption.png",
+      "Image": "ProtectiveShotsMod.png",
+      "Name": "Protective Shots",
+      "Introduced": "29.10",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots",
+      "Icon": "ProtectiveShots.png",
       "CodexSecret": false
     },
     "Jugulus Carapace": {
@@ -20890,23 +20926,6 @@
       "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/MacheteCmbTwoMeleeTree",
       "CodexSecret": false
     },
-    "Protective Shots": {
-      "Transmutable": false,
-      "Type": "Plexus",
-      "Description": "+30% Turret Damage when Shields are above 75%",
-      "Link": "Protective Shots",
-      "BaseDrain": 2,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Uncommon",
-      "Image": "ProtectiveShotsMod.png",
-      "Name": "Protective Shots",
-      "Introduced": "29.10",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/LavanProtectiveShots",
-      "Icon": "ProtectiveShots.png",
-      "CodexSecret": false
-    },
     "Shelter": {
       "Transmutable": false,
       "Type": "Beast",
@@ -20922,6 +20941,27 @@
       "Polarity": "Vazarin",
       "InternalName": "/Lotus/Types/Friendly/Pets/KubrowPetPrecepts/KubrowSanctuary",
       "Icon": "Shelter.png",
+      "CodexSecret": false
+    },
+    "Shell Shock": {
+      "Transmutable": false,
+      "Type": "Shotgun",
+      "Description": "+60% <DT_ELECTRICITY_COLOR>Electricity\r\n+60% Status Chance",
+      "Link": "Shell Shock",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
+        "WEAPON_PROC_CHANCE"
+      ],
+      "BaseDrain": 4,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Rare",
+      "Image": "ShellShockMod.png",
+      "Name": "Shell Shock",
+      "Introduced": "12.4",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/DualStat/ElectEventShotgunMod",
+      "Icon": "ShellShock.png",
       "CodexSecret": false
     },
     "Flawed Jagged Edge": {
@@ -21023,27 +21063,6 @@
       "Icon": "FearSense.png",
       "CodexSecret": false
     },
-    "Shell Shock": {
-      "Transmutable": false,
-      "Type": "Shotgun",
-      "Description": "+60% <DT_ELECTRICITY_COLOR>Electricity\r\n+60% Status Chance",
-      "Link": "Shell Shock",
-      "UpgradeTypes": [
-        "WEAPON_PERCENT_BASE_DAMAGE_ADDED",
-        "WEAPON_PROC_CHANCE"
-      ],
-      "BaseDrain": 4,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "ShellShockMod.png",
-      "Name": "Shell Shock",
-      "Introduced": "12.4",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Shotgun/DualStat/ElectEventShotgunMod",
-      "Icon": "ShellShock.png",
-      "CodexSecret": false
-    },
     "Primed Vigor": {
       "Description": "+75% Shield Capacity\r\n+75% Health",
       "UpgradeTypes": [
@@ -21130,6 +21149,24 @@
       "IsExilus": false,
       "InternalName": "/Lotus/Powersuits/Glass/GlassShankAugmentCard"
     },
+    "Shattered Lash": {
+      "Transmutable": false,
+      "Type": "Shattered Lash",
+      "Description": "Stance: Lash out with stream of shattered glass, or hold for an arcing strike. Stats are boosted by the equipped mods on Shattered Lash.",
+      "Link": "Shattered Lash (Stance)",
+      "Tradable": false,
+      "BaseDrain": 0,
+      "MaxRank": 3,
+      "Rarity": "Common",
+      "NotUpgradable": true,
+      "Image": "ShatteredLashStanceMod.png",
+      "Name": "Shattered Lash",
+      "Introduced": "38.5",
+      "Polarity": "Zenurik",
+      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/GaraShankMeleeTree",
+      "Icon": "ShatteredLashModx256.png",
+      "CodexSecret": false
+    },
     "Gladiator Might": {
       "Description": "+60% Critical Damage",
       "UpgradeTypes": [
@@ -21155,24 +21192,6 @@
       ],
       "CodexSecret": false
     },
-    "Shattered Lash": {
-      "Transmutable": false,
-      "Type": "Shattered Lash",
-      "Description": "Stance: Lash out with stream of shattered glass, or hold for an arcing strike. Stats are boosted by the equipped mods on Shattered Lash.",
-      "Link": "Shattered Lash (Stance)",
-      "Tradable": false,
-      "BaseDrain": 0,
-      "MaxRank": 3,
-      "Rarity": "Common",
-      "NotUpgradable": true,
-      "Image": "ShatteredLashStanceMod.png",
-      "Name": "Shattered Lash",
-      "Introduced": "38.5",
-      "Polarity": "Zenurik",
-      "InternalName": "/Lotus/Weapons/Tenno/Melee/MeleeTrees/GaraShankMeleeTree",
-      "Icon": "ShatteredLashModx256.png",
-      "CodexSecret": false
-    },
     "Magma Chamber": {
       "Transmutable": false,
       "Type": "Archgun",
@@ -21192,6 +21211,29 @@
       "Polarity": "Madurai",
       "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingEventFireStatusRifleMod",
       "Icon": "MagmaChamber.png",
+      "CodexSecret": false
+    },
+    "Sharpened Bullets": {
+      "Description": "On Kill:\r\n+75% Critical Damage when Aiming for 9s",
+      "UpgradeTypes": [
+        "WEAPON_CRIT_DAMAGE"
+      ],
+      "MaxRank": 5,
+      "Image": "SharpenedBulletsMod.png",
+      "Introduced": "18.4.1",
+      "Icon": "SharpenedBullets.png",
+      "Transmutable": false,
+      "Type": "Pistol",
+      "Rarity": "Uncommon",
+      "Link": "Sharpened Bullets",
+      "BaseDrain": 2,
+      "Polarity": "Madurai",
+      "Name": "Sharpened Bullets",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/CritDamageWhileAimingPistolMod",
+      "IncompatibilityTags": [
+        "POWER_WEAPON"
+      ],
       "CodexSecret": false
     },
     "Mesa's Waltz": {
@@ -21300,30 +21342,29 @@
       "InternalName": "/Lotus/Upgrades/Mods/Pistol/ProjectileExplosionChanceMod",
       "Icon": "Cannonade.png"
     },
-    "Sharpened Blade": {
-      "Description": "20% of Damage converted into <DT_SLASH_COLOR>Slash",
-      "Conclave": true,
+    "Primed Smite Infested": {
+      "Description": "x1.55 Damage to Infested",
       "UpgradeTypes": [
-        "WEAPON_DAMAGE_TYPE_BIAS"
+        "GAMEPLAY_FACTION_DAMAGE"
       ],
-      "MaxRank": 3,
-      "Image": "SharpenedBladeMod.png",
-      "Introduced": "17",
-      "Icon": "SharpenedBlade.png",
+      "MaxRank": 10,
+      "Image": "PrimedSmiteInfestedMod.png",
+      "Introduced": "27.0.7",
+      "Icon": "SmiteInfested.png",
       "Transmutable": false,
       "Type": "Melee",
-      "Rarity": "Uncommon",
-      "Link": "Sharpened Blade",
-      "BaseDrain": 2,
+      "Rarity": "Legendary",
+      "Link": "Primed Smite Infested",
+      "BaseDrain": 4,
       "Polarity": "Madurai",
-      "Name": "Sharpened Blade",
+      "Name": "Primed Smite Infested",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/PvPMods/Melee/DamageBiasSlashMeleeMod",
+      "InternalName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeFactionDamageInfestedExpert",
       "Incompatible": [
-        "Counterweight",
-        "Serrated Edges"
+        "Smite Infested",
+        "Flawed Smite Infested"
       ],
-      "CodexSecret": false
+      "CodexSecret": true
     },
     "Frigid Blast": {
       "Transmutable": false,
@@ -21364,29 +21405,25 @@
       "Icon": "HunterCommand.png",
       "CodexSecret": false
     },
-    "Primed Smite Infested": {
-      "Description": "x1.55 Damage to Infested",
-      "UpgradeTypes": [
-        "GAMEPLAY_FACTION_DAMAGE"
-      ],
-      "MaxRank": 10,
-      "Image": "PrimedSmiteInfestedMod.png",
-      "Introduced": "27.0.7",
-      "Icon": "SmiteInfested.png",
+    "Necramech Reach": {
       "Transmutable": false,
-      "Type": "Melee",
-      "Rarity": "Legendary",
-      "Link": "Primed Smite Infested",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Primed Smite Infested",
-      "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Melee/Expert/WeaponMeleeFactionDamageInfestedExpert",
-      "Incompatible": [
-        "Smite Infested",
-        "Flawed Smite Infested"
+      "Type": "Necramech",
+      "Description": "+1 Melee Range",
+      "Link": "Necramech Reach",
+      "UpgradeTypes": [
+        "WEAPON_RANGE"
       ],
-      "CodexSecret": true
+      "BaseDrain": 4,
+      "MaxRank": 3,
+      "Tradable": true,
+      "Rarity": "Common",
+      "Image": "NecramechReachMod.png",
+      "Name": "Necramech Reach",
+      "Introduced": "29",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Necromech/NecromechMeleeRangeMod",
+      "Icon": "NecramechReach.png",
+      "CodexSecret": false
     },
     "Aerodynamic": {
       "Transmutable": false,
@@ -21450,26 +21487,6 @@
       "Tradable": true,
       "Icon": "EntropyBurst.png",
       "IsWeaponAugment": true,
-      "CodexSecret": false
-    },
-    "Necramech Reach": {
-      "Transmutable": false,
-      "Type": "Necramech",
-      "Description": "+1 Melee Range",
-      "Link": "Necramech Reach",
-      "UpgradeTypes": [
-        "WEAPON_RANGE"
-      ],
-      "BaseDrain": 4,
-      "MaxRank": 3,
-      "Tradable": true,
-      "Rarity": "Common",
-      "Image": "NecramechReachMod.png",
-      "Name": "Necramech Reach",
-      "Introduced": "29",
-      "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Necromech/NecromechMeleeRangeMod",
-      "Icon": "NecramechReach.png",
       "CodexSecret": false
     },
     "Serrated Rounds": {
@@ -21539,6 +21556,28 @@
       "Icon": "SereneStorm.png",
       "CodexSecret": false
     },
+    "Sequence Burn": {
+      "Description": "+20m Beam Range\r\n+1 'Sequence'",
+      "UpgradeTypes": [
+        "WEAPON_RANGE",
+        "WEAPON_SYNDICATE_POWER"
+      ],
+      "MaxRank": 3,
+      "Image": "SequenceBurnMod.png",
+      "Introduced": "15",
+      "Icon": "SequenceBurn.png",
+      "Transmutable": false,
+      "Type": "Spectra",
+      "Rarity": "Rare",
+      "Link": "Sequence Burn",
+      "BaseDrain": 4,
+      "Polarity": "Naramon",
+      "Name": "Sequence Burn",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Syndicate/SpectraMod",
+      "IsWeaponAugment": true,
+      "CodexSecret": false
+    },
     "Frail Momentum": {
       "Transmutable": false,
       "Type": "Shotgun",
@@ -21577,26 +21616,27 @@
       "Icon": "Hyperstrike.png",
       "CodexSecret": false
     },
-    "Sequence Burn": {
-      "Description": "+20m Beam Range\r\n+1 'Sequence'",
-      "UpgradeTypes": [
-        "WEAPON_RANGE",
-        "WEAPON_SYNDICATE_POWER"
-      ],
-      "MaxRank": 3,
-      "Image": "SequenceBurnMod.png",
-      "Introduced": "15",
-      "Icon": "SequenceBurn.png",
+    "Sepsis Claws": {
+      "Description": "+330% <DT_POISON_COLOR>Toxin\r\n+330% Status Chance\r\nConverts all elemental damage from these claws to <DT_POISON_COLOR>Toxin damage",
+      "Conclave": false,
+      "MaxRank": 10,
+      "Image": "SepsisClawsMod.png",
+      "Introduced": "37",
+      "Icon": "SepsisClaws.jpg",
       "Transmutable": false,
-      "Type": "Spectra",
+      "Type": "Claws",
       "Rarity": "Rare",
-      "Link": "Sequence Burn",
+      "Link": "Sepsis Claws",
       "BaseDrain": 4,
-      "Polarity": "Naramon",
-      "Name": "Sequence Burn",
+      "Polarity": "Madurai",
+      "Name": "Sepsis Claws",
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Syndicate/SpectraMod",
-      "IsWeaponAugment": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/BeastWeapon/KubrowToxicConversionMod",
+      "Incompatible": [
+        "Burning Claws",
+        "Chilling Claws",
+        "Shocking Claws"
+      ],
       "CodexSecret": false
     },
     "Primed Heavy Trauma": {
@@ -21664,27 +21704,21 @@
       ],
       "CodexSecret": true
     },
-    "Sepsis Claws": {
-      "Description": "+330% <DT_POISON_COLOR>Toxin\r\n+330% Status Chance\r\nConverts all elemental damage from these claws to <DT_POISON_COLOR>Toxin damage",
-      "Conclave": false,
-      "MaxRank": 10,
-      "Image": "SepsisClawsMod.png",
-      "Introduced": "37",
-      "Icon": "SepsisClaws.jpg",
+    "Sentient Scalpel": {
       "Transmutable": false,
-      "Type": "Claws",
-      "Rarity": "Rare",
-      "Link": "Sepsis Claws",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Sepsis Claws",
+      "Type": "Plexus",
+      "Description": "x1.27 Turret Damage vs Sentients",
+      "Link": "Sentient Scalpel",
+      "BaseDrain": 6,
+      "MaxRank": 5,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Sentinel/Kubrow/BeastWeapon/KubrowToxicConversionMod",
-      "Incompatible": [
-        "Burning Claws",
-        "Chilling Claws",
-        "Shocking Claws"
-      ],
+      "Rarity": "Rare",
+      "Image": "SentientScalpelMod.png",
+      "Name": "Sentient Scalpel",
+      "Introduced": "27.3",
+      "Polarity": "Madurai",
+      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller",
+      "Icon": "SentientScalpel.png",
       "CodexSecret": false
     },
     "Catalyzer Link": {
@@ -21735,22 +21769,29 @@
       ],
       "CodexSecret": true
     },
-    "Sentient Scalpel": {
+    "Primed Bane of Grineer": {
+      "Description": "x1.55 Damage to Grineer",
+      "UpgradeTypes": [
+        "GAMEPLAY_FACTION_DAMAGE"
+      ],
+      "MaxRank": 10,
+      "Image": "PrimedBaneofGrineerMod.png",
+      "Introduced": "18.2.2",
+      "Icon": "BaneofGrineer.png",
       "Transmutable": false,
-      "Type": "Plexus",
-      "Description": "x1.27 Turret Damage vs Sentients",
-      "Link": "Sentient Scalpel",
-      "BaseDrain": 6,
-      "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Rare",
-      "Image": "SentientScalpelMod.png",
-      "Name": "Sentient Scalpel",
-      "Introduced": "27.3",
+      "Type": "Rifle",
+      "Rarity": "Legendary",
+      "Link": "Primed Bane of Grineer",
+      "BaseDrain": 4,
       "Polarity": "Madurai",
-      "InternalName": "/Lotus/Upgrades/Mods/Railjack/Gunnery/VidarSentientKiller",
-      "Icon": "SentientScalpel.png",
-      "CodexSecret": false
+      "Name": "Primed Bane of Grineer",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageGrineer",
+      "Incompatible": [
+        "Bane of Grineer",
+        "Flawed Bane of Grineer"
+      ],
+      "CodexSecret": true
     },
     "Semi-Rifle Cannonade": {
       "Description": "Only compatible with Semi-Auto Trigger. Fire Rate cannot be modified.\r\n+240% Damage\r\n+1.5 Punch Through",
@@ -25567,29 +25608,22 @@
       "InternalName": "/Lotus/Powersuits/Ninja/TeleportToAugmentCard",
       "CodexSecret": false
     },
-    "Primed Bane of Grineer": {
-      "Description": "x1.55 Damage to Grineer",
-      "UpgradeTypes": [
-        "GAMEPLAY_FACTION_DAMAGE"
-      ],
-      "MaxRank": 10,
-      "Image": "PrimedBaneofGrineerMod.png",
-      "Introduced": "18.2.2",
-      "Icon": "BaneofGrineer.png",
+    "Sentient Incision": {
       "Transmutable": false,
-      "Type": "Rifle",
-      "Rarity": "Legendary",
-      "Link": "Primed Bane of Grineer",
-      "BaseDrain": 4,
-      "Polarity": "Madurai",
-      "Name": "Primed Bane of Grineer",
+      "Type": "Venato",
+      "Description": "+120% additional damage matching the target's weakness. Does not combine with other damage types.",
+      "Link": "Sentient Incision",
+      "BaseDrain": 2,
+      "MaxRank": 5,
       "Tradable": true,
-      "InternalName": "/Lotus/Upgrades/Mods/Rifle/Expert/PrimedWeaponFactionDamageGrineer",
-      "Incompatible": [
-        "Bane of Grineer",
-        "Flawed Bane of Grineer"
-      ],
-      "CodexSecret": true
+      "Rarity": "Rare",
+      "Image": "SentientIncisionMod.png",
+      "Name": "Sentient Incision",
+      "Introduced": "TBA",
+      "Polarity": "Naramon",
+      "InternalName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveVenatoAugmentMod",
+      "Icon": "SentientIncision.jpg",
+      "CodexSecret": false
     },
     "Primed Animal Instinct": {
       "Description": "+55m Loot Radar\r\n+33m Enemy Radar",

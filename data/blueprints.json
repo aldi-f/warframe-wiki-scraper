@@ -22113,7 +22113,7 @@
       "BPCost": 35000,
       "Rush": 50,
       "Name": "Volt Blueprint",
-      "Time": 259200,
+      "Time": 86400,
       "Parts": [
         {
           "Type": "Item",
@@ -22588,7 +22588,7 @@
       "BPCost": 25000,
       "Rush": 50,
       "Name": "Mag Blueprint",
-      "Time": 259200,
+      "Time": 86400,
       "Parts": [
         {
           "Type": "Item",
@@ -24092,6 +24092,36 @@
       "Result": "Hildryn",
       "Credits": 25000
     },
+    "Dante Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Dante Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Entrati Lanthorn"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4000,
+          "Name": "Circuits"
+        },
+        {
+          "Type": "Resource",
+          "Count": 9000,
+          "Name": "Entrati Obols"
+        },
+        {
+          "Type": "Resource",
+          "Count": 450,
+          "Name": "Necracoil"
+        }
+      ],
+      "Result": "Dante Systems",
+      "Credits": 15000
+    },
     "Mesa Prime Neuroptics": {
       "ProductCategory": "Suits",
       "Name": "Mesa Prime Neuroptics Blueprint",
@@ -24182,6 +24212,36 @@
       "Result": "Inaros Neuroptics",
       "Credits": 15000
     },
+    "Dante Neuroptics": {
+      "ProductCategory": "Suits",
+      "Name": "Dante Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Entrati Lanthorn"
+        },
+        {
+          "Type": "Resource",
+          "Count": 10,
+          "Name": "Control Module"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4,
+          "Name": "Bellow Voca"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4,
+          "Name": "Neural Sensors"
+        }
+      ],
+      "Result": "Dante Neuroptics",
+      "Credits": 15000
+    },
     "Nyx Neuroptics": {
       "ProductCategory": "Suits",
       "Name": "Nyx Neuroptics Blueprint",
@@ -24210,6 +24270,36 @@
         }
       ],
       "Result": "Nyx Neuroptics",
+      "Credits": 15000
+    },
+    "Dante Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Dante Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Entrati Lanthorn"
+        },
+        {
+          "Type": "Resource",
+          "Count": 8000,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Type": "Resource",
+          "Count": 12000,
+          "Name": "Entrati Obols"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2000,
+          "Name": "Plastids"
+        }
+      ],
+      "Result": "Dante Chassis",
       "Credits": 15000
     },
     "Equinox Day Neuroptics": {
@@ -24334,95 +24424,127 @@
       "Result": "Oberon Prime Neuroptics",
       "Credits": 15000
     },
-    "Dante Systems": {
-      "ProductCategory": "Suits",
-      "Name": "Dante Systems Blueprint",
-      "Time": 43200,
-      "Rush": 25,
+    "Dante": {
+      "Time": 259200,
+      "MarketCost": 350,
+      "Name": "Dante Blueprint",
+      "Rush": 50,
       "Parts": [
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Systems"
+        },
         {
           "Type": "Resource",
           "Count": 3,
-          "Name": "Entrati Lanthorn"
-        },
-        {
-          "Type": "Resource",
-          "Count": 4000,
-          "Name": "Circuits"
-        },
-        {
-          "Type": "Resource",
-          "Count": 9000,
-          "Name": "Entrati Obols"
-        },
-        {
-          "Type": "Resource",
-          "Count": 450,
-          "Name": "Necracoil"
+          "Name": "Orokin Cell"
         }
       ],
-      "Result": "Dante Systems",
-      "Credits": 15000
-    },
-    "Dante Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Dante Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 3,
-          "Name": "Entrati Lanthorn"
-        },
-        {
-          "Type": "Resource",
-          "Count": 10,
-          "Name": "Control Module"
-        },
-        {
-          "Type": "Resource",
-          "Count": 4,
-          "Name": "Bellow Voca"
-        },
-        {
-          "Type": "Resource",
-          "Count": 4,
-          "Name": "Neural Sensors"
-        }
-      ],
-      "Result": "Dante Neuroptics",
-      "Credits": 15000
+      "Result": "Dante",
+      "Credits": 25000
     },
-    "Dante Chassis": {
+    "Hildryn Prime Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Dante Chassis Blueprint",
+      "Name": "Hildryn Prime Neuroptics Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
           "Count": 2,
-          "Name": "Entrati Lanthorn"
+          "Name": "Argon Crystal"
         },
         {
           "Type": "Resource",
-          "Count": 8000,
-          "Name": "Alloy Plate"
+          "Count": 600,
+          "Name": "Cryotic"
         },
         {
           "Type": "Resource",
-          "Count": 12000,
-          "Name": "Entrati Obols"
+          "Count": 1100,
+          "Name": "Circuits"
         },
         {
           "Type": "Resource",
-          "Count": 2000,
-          "Name": "Plastids"
+          "Count": 4975,
+          "Name": "Nano Spores"
         }
       ],
-      "Result": "Dante Chassis",
+      "Result": "Hildryn Prime Neuroptics",
       "Credits": 15000
+    },
+    "Wukong Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Wukong Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Morphics"
+        },
+        {
+          "Type": "Resource",
+          "Count": 900,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 50,
+          "Name": "Rubedo"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4,
+          "Name": "Nitain Extract"
+        }
+      ],
+      "Result": "Wukong Chassis",
+      "Credits": 15000
+    },
+    "Qorvex": {
+      "Time": 259200,
+      "MarketCost": 325,
+      "Name": "Qorvex Blueprint",
+      "Rush": 50,
+      "Parts": [
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Systems"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Echo Voca"
+        }
+      ],
+      "ProductCategory": "Suits",
+      "Result": "Qorvex",
+      "Credits": 25000
     },
     "Ash Chassis": {
       "ProductCategory": "Suits",
@@ -24480,11 +24602,12 @@
       "Result": "Dagath",
       "Credits": 25000
     },
-    "Dante": {
-      "Time": 259200,
-      "MarketCost": 350,
-      "Name": "Dante Blueprint",
+    "Rhino": {
+      "MarketCost": 375,
+      "BPCost": 35000,
       "Rush": 50,
+      "Name": "Rhino Blueprint",
+      "Time": 86400,
       "Parts": [
         {
           "Type": "Item",
@@ -24503,12 +24626,12 @@
         },
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Orokin Cell"
+          "Count": 1,
+          "Name": "Neurodes"
         }
       ],
       "ProductCategory": "Suits",
-      "Result": "Dante",
+      "Result": "Rhino",
       "Credits": 25000
     },
     "Banshee": {
@@ -24573,10 +24696,11 @@
       "Credits": 15000
     },
     "Khora": {
-      "Time": 259200,
       "MarketCost": 325,
-      "Name": "Khora Blueprint",
+      "BPCost": 35000,
       "Rush": 50,
+      "Name": "Khora Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",
@@ -24633,70 +24757,100 @@
       "Result": "Titania Chassis",
       "Credits": 15000
     },
-    "Titania Prime Systems": {
+    "Dagath Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Titania Prime Systems Blueprint",
+      "Name": "Dagath Neuroptics Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 10,
-          "Name": "Control Module"
+          "Count": 34,
+          "Name": "Vainthorn"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2000,
+          "Name": "Alloy Plate"
         },
         {
           "Type": "Resource",
           "Count": 3,
-          "Name": "Tellurium"
+          "Name": "Neurodes"
         },
         {
           "Type": "Resource",
-          "Count": 4300,
-          "Name": "Ferrite"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1450,
-          "Name": "Circuits"
+          "Count": 3,
+          "Name": "Neural Sensors"
         }
       ],
-      "Result": "Titania Prime Systems",
+      "Result": "Dagath Neuroptics",
       "Credits": 15000
     },
-    "Wukong Prime Chassis": {
+    "Dagath Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Wukong Prime Chassis Blueprint",
+      "Name": "Dagath Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Argon Crystal"
+          "Count": 34,
+          "Name": "Vainthorn"
         },
         {
           "Type": "Resource",
-          "Count": 6,
+          "Count": 1500,
+          "Name": "Salvage"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4,
+          "Name": "Morphics"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Argon Crystal"
+        }
+      ],
+      "Result": "Dagath Chassis",
+      "Credits": 15000
+    },
+    "Zephyr Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Zephyr Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 1,
           "Name": "Control Module"
         },
         {
           "Type": "Resource",
-          "Count": 825,
-          "Name": "Circuits"
+          "Count": 200,
+          "Name": "Oxium"
         },
         {
           "Type": "Resource",
-          "Count": 2200,
-          "Name": "Nano Spores"
+          "Count": 500,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 400,
+          "Name": "Plastids"
         }
       ],
-      "Result": "Wukong Prime Chassis",
+      "Result": "Zephyr Systems",
       "Credits": 15000
     },
-    "Qorvex": {
+    "Follie": {
       "Time": 259200,
-      "MarketCost": 325,
-      "Name": "Qorvex Blueprint",
+      "MarketCost": 370,
+      "Name": "Follie Blueprint",
       "Rush": 50,
       "Parts": [
         {
@@ -24716,43 +24870,13 @@
         },
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Echo Voca"
+          "Count": 3,
+          "Name": "Orokin Cell"
         }
       ],
       "ProductCategory": "Suits",
-      "Result": "Qorvex",
-      "Credits": 25000
-    },
-    "Revenant Prime Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Revenant Prime Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Nitain Extract"
-        },
-        {
-          "Type": "Resource",
-          "Count": 10,
-          "Name": "Neurodes"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1975,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 9250,
-          "Name": "Nano Spores"
-        }
-      ],
-      "Result": "Revenant Prime Chassis",
-      "Credits": 15000
+      "Result": "Follie",
+      "Credits": 30000
     },
     "Citrine": {
       "Time": 259200,
@@ -25051,51 +25175,16 @@
       "Result": "Trinity Neuroptics",
       "Credits": 15000
     },
-    "Rhino Systems": {
+    "Zephyr Prime Systems": {
       "ProductCategory": "Suits",
-      "Name": "Rhino Systems Blueprint",
+      "Name": "Zephyr Prime Systems Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Ferrite"
-        },
-        {
-          "Type": "Resource",
-          "Count": 250,
-          "Name": "Circuits"
-        },
-        {
-          "Type": "Resource",
-          "Count": 100,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 400,
-          "Name": "Rubedo"
-        }
-      ],
-      "Result": "Rhino Systems",
-      "Credits": 15000
-    },
-    "Dagath Neuroptics": {
-      "ProductCategory": "Suits",
-      "Name": "Dagath Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 34,
-          "Name": "Vainthorn"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2000,
-          "Name": "Alloy Plate"
+          "Count": 2,
+          "Name": "Argon Crystal"
         },
         {
           "Type": "Resource",
@@ -25104,41 +25193,76 @@
         },
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Neural Sensors"
+          "Count": 550,
+          "Name": "Cryotic"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3175,
+          "Name": "Nano Spores"
         }
       ],
-      "Result": "Dagath Neuroptics",
+      "Result": "Zephyr Prime Systems",
       "Credits": 15000
     },
-    "Dagath Chassis": {
+    "Zephyr Prime Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Dagath Chassis Blueprint",
+      "Name": "Zephyr Prime Neuroptics Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 34,
-          "Name": "Vainthorn"
+          "Count": 3,
+          "Name": "Neural Sensors"
         },
         {
           "Type": "Resource",
-          "Count": 1500,
-          "Name": "Salvage"
+          "Count": 250,
+          "Name": "Oxium"
         },
         {
           "Type": "Resource",
-          "Count": 4,
-          "Name": "Morphics"
+          "Count": 350,
+          "Name": "Plastids"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4250,
+          "Name": "Alloy Plate"
+        }
+      ],
+      "Result": "Zephyr Prime Neuroptics",
+      "Credits": 15000
+    },
+    "Zephyr Prime Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Zephyr Prime Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Nitain Extract"
         },
         {
           "Type": "Resource",
           "Count": 2,
-          "Name": "Argon Crystal"
+          "Name": "Tellurium"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3600,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 300,
+          "Name": "Oxium"
         }
       ],
-      "Result": "Dagath Chassis",
+      "Result": "Zephyr Prime Chassis",
       "Credits": 15000
     },
     "Sevagoth": {
@@ -25202,34 +25326,34 @@
       "Result": "Gara Prime",
       "Credits": 25000
     },
-    "Zephyr Systems": {
+    "Follie Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Zephyr Systems Blueprint",
+      "Name": "Follie Neuroptics Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Control Module"
+          "Count": 2,
+          "Name": "Neurodes"
         },
         {
           "Type": "Resource",
-          "Count": 200,
-          "Name": "Oxium"
+          "Count": 3,
+          "Name": "Gallium"
         },
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Polymer Bundle"
+          "Count": 150,
+          "Name": "Cryotic"
         },
         {
           "Type": "Resource",
-          "Count": 400,
-          "Name": "Plastids"
+          "Count": 2,
+          "Name": "Neural Sensors"
         }
       ],
-      "Result": "Zephyr Systems",
+      "Result": "Follie Neuroptics",
       "Credits": 15000
     },
     "Loki": {
@@ -25324,64 +25448,64 @@
       "Result": "Equinox Night Aspect",
       "Credits": 25000
     },
-    "Zephyr Prime Systems": {
+    "Zephyr Prime": {
       "ProductCategory": "Suits",
-      "Name": "Zephyr Prime Systems Blueprint",
-      "Time": 43200,
-      "Rush": 25,
+      "Name": "Zephyr Prime Blueprint",
+      "Time": 259200,
+      "Rush": 50,
       "Parts": [
         {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Argon Crystal"
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Systems"
         },
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Neurodes"
-        },
-        {
-          "Type": "Resource",
-          "Count": 550,
-          "Name": "Cryotic"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3175,
-          "Name": "Nano Spores"
+          "Count": 5,
+          "Name": "Orokin Cell"
         }
       ],
-      "Result": "Zephyr Prime Systems",
-      "Credits": 15000
+      "Result": "Zephyr Prime",
+      "Credits": 25000
     },
-    "Zephyr Prime Neuroptics": {
+    "Zephyr Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Zephyr Prime Neuroptics Blueprint",
+      "Name": "Zephyr Neuroptics Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Neural Sensors"
+          "Count": 150,
+          "Name": "Circuits"
         },
         {
           "Type": "Resource",
-          "Count": 250,
+          "Count": 200,
           "Name": "Oxium"
         },
         {
           "Type": "Resource",
-          "Count": 350,
-          "Name": "Plastids"
+          "Count": 200,
+          "Name": "Polymer Bundle"
         },
         {
           "Type": "Resource",
-          "Count": 4250,
-          "Name": "Alloy Plate"
+          "Count": 500,
+          "Name": "Salvage"
         }
       ],
-      "Result": "Zephyr Prime Neuroptics",
+      "Result": "Zephyr Neuroptics",
       "Credits": 15000
     },
     "Harrow Chassis": {
@@ -25444,34 +25568,29 @@
       "Result": "Revenant Chassis",
       "Credits": 15000
     },
-    "Zephyr Prime Chassis": {
+    "Zephyr Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Zephyr Prime Chassis Blueprint",
+      "Name": "Zephyr Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Nitain Extract"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Tellurium"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3600,
-          "Name": "Ferrite"
-        },
-        {
-          "Type": "Resource",
-          "Count": 300,
+          "Count": 200,
           "Name": "Oxium"
+        },
+        {
+          "Type": "Resource",
+          "Count": 900,
+          "Name": "Nano Spores"
+        },
+        {
+          "Type": "Resource",
+          "Count": 50,
+          "Name": "Rubedo"
         }
       ],
-      "Result": "Zephyr Prime Chassis",
+      "Result": "Zephyr Chassis",
       "Credits": 15000
     },
     "Mirage Neuroptics": {
@@ -25534,34 +25653,36 @@
       "Result": "Gauss Prime",
       "Credits": 25000
     },
-    "Zephyr Prime": {
-      "ProductCategory": "Suits",
-      "Name": "Zephyr Prime Blueprint",
-      "Time": 259200,
+    "Zephyr": {
+      "MarketCost": 275,
+      "BPCost": 35000,
       "Rush": 50,
+      "Name": "Zephyr Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",
           "Count": 1,
-          "Name": "Prime Neuroptics"
+          "Name": "Neuroptics"
         },
         {
           "Type": "Item",
           "Count": 1,
-          "Name": "Prime Chassis"
+          "Name": "Chassis"
         },
         {
           "Type": "Item",
           "Count": 1,
-          "Name": "Prime Systems"
+          "Name": "Systems"
         },
         {
           "Type": "Resource",
-          "Count": 5,
+          "Count": 1,
           "Name": "Orokin Cell"
         }
       ],
-      "Result": "Zephyr Prime",
+      "ProductCategory": "Suits",
+      "Result": "Zephyr",
       "Credits": 25000
     },
     "Caliban Neuroptics": {
@@ -25709,34 +25830,34 @@
       "Result": "Mirage Prime",
       "Credits": 25000
     },
-    "Zephyr Neuroptics": {
+    "Yareli Prime Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Zephyr Neuroptics Blueprint",
+      "Name": "Yareli Prime Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 150,
-          "Name": "Circuits"
+          "Count": 2,
+          "Name": "Nitain Extract"
         },
         {
           "Type": "Resource",
-          "Count": 200,
+          "Count": 2,
+          "Name": "Tellurium"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3600,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 300,
           "Name": "Oxium"
-        },
-        {
-          "Type": "Resource",
-          "Count": 200,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 500,
-          "Name": "Salvage"
         }
       ],
-      "Result": "Zephyr Neuroptics",
+      "Result": "Yareli Prime Chassis",
       "Credits": 15000
     },
     "Excalibur Systems": {
@@ -25769,30 +25890,35 @@
       "Result": "Excalibur Systems",
       "Credits": 15000
     },
-    "Zephyr Chassis": {
+    "Yareli Prime": {
       "ProductCategory": "Suits",
-      "Name": "Zephyr Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
+      "Name": "Yareli Prime Blueprint",
+      "Time": 259200,
+      "Rush": 50,
       "Parts": [
         {
-          "Type": "Resource",
-          "Count": 200,
-          "Name": "Oxium"
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Systems"
         },
         {
           "Type": "Resource",
-          "Count": 900,
-          "Name": "Nano Spores"
-        },
-        {
-          "Type": "Resource",
-          "Count": 50,
-          "Name": "Rubedo"
+          "Count": 5,
+          "Name": "Orokin Cell"
         }
       ],
-      "Result": "Zephyr Chassis",
-      "Credits": 15000
+      "Result": "Yareli Prime",
+      "Credits": 25000
     },
     "Protea": {
       "MarketCost": 325,
@@ -25916,41 +26042,9 @@
       "Result": "Garuda Systems",
       "Credits": 15000
     },
-    "Zephyr": {
-      "MarketCost": 275,
-      "BPCost": 35000,
-      "Rush": 50,
-      "Name": "Zephyr Blueprint",
-      "Time": 259200,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Orokin Cell"
-        }
-      ],
+    "Yareli Systems": {
       "ProductCategory": "Suits",
-      "Result": "Zephyr",
-      "Credits": 25000
-    },
-    "Yareli Prime Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Yareli Prime Chassis Blueprint",
+      "Name": "Yareli Systems Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
@@ -25961,21 +26055,51 @@
         },
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Tellurium"
+          "Count": 350,
+          "Name": "Cryotic"
         },
         {
           "Type": "Resource",
-          "Count": 3600,
-          "Name": "Ferrite"
+          "Count": 5,
+          "Name": "Scrubber Exa Brain"
         },
         {
           "Type": "Resource",
-          "Count": 300,
-          "Name": "Oxium"
+          "Count": 1750,
+          "Name": "Alloy Plate"
         }
       ],
-      "Result": "Yareli Prime Chassis",
+      "Result": "Yareli Systems",
+      "Credits": 15000
+    },
+    "Wukong Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Wukong Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Argon Crystal"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Neurodes"
+        },
+        {
+          "Type": "Resource",
+          "Count": 8000,
+          "Name": "Salvage"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4000,
+          "Name": "Plastids"
+        }
+      ],
+      "Result": "Wukong Systems",
       "Credits": 15000
     },
     "Gara Prime Chassis": {
@@ -26063,97 +26187,6 @@
       "Result": "Mirage Prime Chassis",
       "Credits": 15000
     },
-    "Yareli Prime": {
-      "ProductCategory": "Suits",
-      "Name": "Yareli Prime Blueprint",
-      "Time": 259200,
-      "Rush": 50,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 5,
-          "Name": "Orokin Cell"
-        }
-      ],
-      "Result": "Yareli Prime",
-      "Credits": 25000
-    },
-    "Yareli Systems": {
-      "ProductCategory": "Suits",
-      "Name": "Yareli Systems Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Nitain Extract"
-        },
-        {
-          "Type": "Resource",
-          "Count": 350,
-          "Name": "Cryotic"
-        },
-        {
-          "Type": "Resource",
-          "Count": 5,
-          "Name": "Scrubber Exa Brain"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1750,
-          "Name": "Alloy Plate"
-        }
-      ],
-      "Result": "Yareli Systems",
-      "Credits": 15000
-    },
-    "Xaku": {
-      "Time": 259200,
-      "MarketCost": 325,
-      "Name": "Xaku Blueprint",
-      "Rush": 50,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3,
-          "Name": "Orokin Cell"
-        }
-      ],
-      "ProductCategory": "Suits",
-      "Result": "Xaku",
-      "Credits": 25000
-    },
     "Yareli": {
       "Time": 259200,
       "MarketCost": 325,
@@ -26185,64 +26218,29 @@
       "Result": "Yareli",
       "Credits": 25000
     },
-    "Khora Prime Neuroptics": {
+    "Valkyr Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Khora Prime Neuroptics Blueprint",
+      "Name": "Valkyr Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Argon Crystal"
-        },
-        {
-          "Type": "Resource",
-          "Count": 600,
-          "Name": "Cryotic"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1100,
-          "Name": "Circuits"
-        },
-        {
-          "Type": "Resource",
-          "Count": 4975,
-          "Name": "Nano Spores"
-        }
-      ],
-      "Result": "Khora Prime Neuroptics",
-      "Credits": 15000
-    },
-    "Valkyr Neuroptics": {
-      "ProductCategory": "Suits",
-      "Name": "Valkyr Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 150,
-          "Name": "Circuits"
-        },
         {
           "Type": "Resource",
           "Count": 1,
-          "Name": "Neural Sensors"
+          "Name": "Morphics"
         },
         {
           "Type": "Resource",
-          "Count": 200,
-          "Name": "Polymer Bundle"
+          "Count": 900,
+          "Name": "Ferrite"
         },
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Salvage"
+          "Count": 50,
+          "Name": "Rubedo"
         }
       ],
-      "Result": "Valkyr Neuroptics",
+      "Result": "Valkyr Chassis",
       "Credits": 15000
     },
     "Gara Neuroptics": {
@@ -26275,36 +26273,6 @@
       "Result": "Gara Neuroptics",
       "Credits": 15000
     },
-    "Sevagoth Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Sevagoth Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 8,
-          "Name": "Morphics"
-        },
-        {
-          "Type": "Resource",
-          "Count": 650,
-          "Name": "Cryotic"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Nullstones"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3300,
-          "Name": "Alloy Plate"
-        }
-      ],
-      "Result": "Sevagoth Chassis",
-      "Credits": 15000
-    },
     "Xaku Prime": {
       "ProductCategory": "Suits",
       "Name": "Xaku Prime Blueprint",
@@ -26335,34 +26303,34 @@
       "Result": "Xaku Prime",
       "Credits": 25000
     },
-    "Mag Prime Systems": {
+    "Khora Prime Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Mag Prime Systems Blueprint",
+      "Name": "Khora Prime Neuroptics Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Control Module"
+          "Count": 2,
+          "Name": "Argon Crystal"
         },
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Morphics"
+          "Count": 600,
+          "Name": "Cryotic"
         },
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Salvage"
+          "Count": 1100,
+          "Name": "Circuits"
         },
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Plastids"
+          "Count": 4975,
+          "Name": "Nano Spores"
         }
       ],
-      "Result": "Mag Prime Systems",
+      "Result": "Khora Prime Neuroptics",
       "Credits": 15000
     },
     "Xaku Systems": {
@@ -26423,6 +26391,158 @@
         }
       ],
       "Result": "Xaku Neuroptics",
+      "Credits": 15000
+    },
+    "Sevagoth Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Sevagoth Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 8,
+          "Name": "Morphics"
+        },
+        {
+          "Type": "Resource",
+          "Count": 650,
+          "Name": "Cryotic"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Nullstones"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3300,
+          "Name": "Alloy Plate"
+        }
+      ],
+      "Result": "Sevagoth Chassis",
+      "Credits": 15000
+    },
+    "Lavos": {
+      "Time": 259200,
+      "MarketCost": 325,
+      "Name": "Lavos Blueprint",
+      "Rush": 50,
+      "Parts": [
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Systems"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Orokin Cell"
+        }
+      ],
+      "ProductCategory": "Suits",
+      "Result": "Lavos",
+      "Credits": 25000
+    },
+    "Mag Prime Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Mag Prime Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Control Module"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Morphics"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Plastids"
+        }
+      ],
+      "Result": "Mag Prime Systems",
+      "Credits": 15000
+    },
+    "Xaku": {
+      "Time": 259200,
+      "MarketCost": 325,
+      "Name": "Xaku Blueprint",
+      "Rush": 50,
+      "Parts": [
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Systems"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Orokin Cell"
+        }
+      ],
+      "ProductCategory": "Suits",
+      "Result": "Xaku",
+      "Credits": 25000
+    },
+    "Follie Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Follie Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 250,
+          "Name": "Circuits"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4,
+          "Name": "Morphics"
+        },
+        {
+          "Type": "Resource",
+          "Count": 50,
+          "Name": "Oxium"
+        }
+      ],
+      "Result": "Follie Systems",
       "Credits": 15000
     },
     "Xaku Chassis": {
@@ -26565,40 +26685,9 @@
       "Result": "Ash Prime Chassis",
       "Credits": 15000
     },
-    "Lavos": {
-      "Time": 259200,
-      "MarketCost": 325,
-      "Name": "Lavos Blueprint",
-      "Rush": 50,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3,
-          "Name": "Orokin Cell"
-        }
-      ],
+    "Wukong Prime Chassis": {
       "ProductCategory": "Suits",
-      "Result": "Lavos",
-      "Credits": 25000
-    },
-    "Wukong Systems": {
-      "ProductCategory": "Suits",
-      "Name": "Wukong Systems Blueprint",
+      "Name": "Wukong Prime Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
@@ -26609,22 +26698,52 @@
         },
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Neurodes"
+          "Count": 6,
+          "Name": "Control Module"
         },
         {
           "Type": "Resource",
-          "Count": 8000,
-          "Name": "Salvage"
+          "Count": 825,
+          "Name": "Circuits"
         },
         {
           "Type": "Resource",
-          "Count": 4000,
-          "Name": "Plastids"
+          "Count": 2200,
+          "Name": "Nano Spores"
         }
       ],
-      "Result": "Wukong Systems",
+      "Result": "Wukong Prime Chassis",
       "Credits": 15000
+    },
+    "Wukong Prime": {
+      "ProductCategory": "Suits",
+      "Name": "Wukong Prime Blueprint",
+      "Time": 259200,
+      "Rush": 50,
+      "Parts": [
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Systems"
+        },
+        {
+          "Type": "Resource",
+          "Count": 5,
+          "Name": "Orokin Cell"
+        }
+      ],
+      "Result": "Wukong Prime",
+      "Credits": 25000
     },
     "Atlas Prime": {
       "ProductCategory": "Suits",
@@ -26947,126 +27066,6 @@
       "Result": "Temple Neuroptics",
       "Credits": 15000
     },
-    "Wukong Prime": {
-      "ProductCategory": "Suits",
-      "Name": "Wukong Prime Blueprint",
-      "Time": 259200,
-      "Rush": 50,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 5,
-          "Name": "Orokin Cell"
-        }
-      ],
-      "Result": "Wukong Prime",
-      "Credits": 25000
-    },
-    "Wukong Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Wukong Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Morphics"
-        },
-        {
-          "Type": "Resource",
-          "Count": 900,
-          "Name": "Ferrite"
-        },
-        {
-          "Type": "Resource",
-          "Count": 50,
-          "Name": "Rubedo"
-        },
-        {
-          "Type": "Resource",
-          "Count": 4,
-          "Name": "Nitain Extract"
-        }
-      ],
-      "Result": "Wukong Chassis",
-      "Credits": 15000
-    },
-    "Wisp Prime Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Wisp Prime Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 7,
-          "Name": "Gallium"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2150,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 250,
-          "Name": "Oxium"
-        },
-        {
-          "Type": "Resource",
-          "Count": 8750,
-          "Name": "Nano Spores"
-        }
-      ],
-      "Result": "Wisp Prime Chassis",
-      "Credits": 15000
-    },
-    "Wisp Neuroptics": {
-      "ProductCategory": "Suits",
-      "Name": "Wisp Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 300,
-          "Name": "Hexenon"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Tellurium"
-        },
-        {
-          "Type": "Resource",
-          "Count": 950,
-          "Name": "Plastids"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2200,
-          "Name": "Polymer Bundle"
-        }
-      ],
-      "Result": "Wisp Neuroptics",
-      "Credits": 15000
-    },
     "Wukong": {
       "MarketCost": 275,
       "BPCost": 35000,
@@ -27129,35 +27128,64 @@
       "Result": "Wisp Prime Systems",
       "Credits": 15000
     },
-    "Cyte-09 Neuroptics": {
-      "BPStanding": 20000,
+    "Wisp Prime Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Cyte-09 Neuroptics Blueprint",
+      "Name": "Wisp Prime Chassis Blueprint",
       "Time": 43200,
-      "Rush": 50,
+      "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 60,
-          "Name": "Efervon Sample"
+          "Count": 7,
+          "Name": "Gallium"
         },
         {
           "Type": "Resource",
-          "Count": 40,
-          "Name": "Techrot Chitin"
+          "Count": 2150,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 250,
+          "Name": "Oxium"
+        },
+        {
+          "Type": "Resource",
+          "Count": 8750,
+          "Name": "Nano Spores"
+        }
+      ],
+      "Result": "Wisp Prime Chassis",
+      "Credits": 15000
+    },
+    "Wisp Neuroptics": {
+      "ProductCategory": "Suits",
+      "Name": "Wisp Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 300,
+          "Name": "Hexenon"
         },
         {
           "Type": "Resource",
           "Count": 2,
-          "Name": "Neural Sensors"
+          "Name": "Tellurium"
         },
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Argon Crystal"
+          "Count": 950,
+          "Name": "Plastids"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2200,
+          "Name": "Polymer Bundle"
         }
       ],
-      "Result": "Cyte-09 Neuroptics",
+      "Result": "Wisp Neuroptics",
       "Credits": 15000
     },
     "Gyre Prime Neuroptics": {
@@ -27188,6 +27216,67 @@
         }
       ],
       "Result": "Gyre Prime Neuroptics",
+      "Credits": 15000
+    },
+    "Follie Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Follie Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 800,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Argon Crystal"
+        },
+        {
+          "Type": "Resource",
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 600,
+          "Name": "Salvage"
+        }
+      ],
+      "Result": "Follie Chassis",
+      "Credits": 15000
+    },
+    "Cyte-09 Neuroptics": {
+      "BPStanding": 20000,
+      "ProductCategory": "Suits",
+      "Name": "Cyte-09 Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 50,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 60,
+          "Name": "Efervon Sample"
+        },
+        {
+          "Type": "Resource",
+          "Count": 40,
+          "Name": "Techrot Chitin"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Neural Sensors"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Argon Crystal"
+        }
+      ],
+      "Result": "Cyte-09 Neuroptics",
       "Credits": 15000
     },
     "Wisp Chassis": {
@@ -27251,6 +27340,37 @@
       "Result": "Wisp",
       "Credits": 25000
     },
+    "Cyte-09 Systems": {
+      "BPStanding": 20000,
+      "ProductCategory": "Suits",
+      "Name": "Cyte-09 Systems Blueprint",
+      "Time": 43200,
+      "Rush": 50,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 20,
+          "Name": "Efervon Sample"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Circuits"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4,
+          "Name": "Experimental Arc-Relay"
+        },
+        {
+          "Type": "Resource",
+          "Count": 6,
+          "Name": "Techrot Motherboard"
+        }
+      ],
+      "Result": "Cyte-09 Systems",
+      "Credits": 15000
+    },
     "Oberon Neuroptics": {
       "ProductCategory": "Suits",
       "Name": "Oberon Neuroptics Blueprint",
@@ -27312,35 +27432,34 @@
       "Result": "Mirage",
       "Credits": 25000
     },
-    "Cyte-09 Systems": {
-      "BPStanding": 20000,
+    "Voruna Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Cyte-09 Systems Blueprint",
+      "Name": "Voruna Neuroptics Blueprint",
       "Time": 43200,
-      "Rush": 50,
+      "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
           "Count": 20,
-          "Name": "Efervon Sample"
+          "Name": "Somatic Fibers"
         },
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Circuits"
+          "Count": 2500,
+          "Name": "Alloy Plate"
         },
         {
           "Type": "Resource",
-          "Count": 4,
-          "Name": "Experimental Arc-Relay"
+          "Count": 800,
+          "Name": "Polymer Bundle"
         },
         {
           "Type": "Resource",
-          "Count": 6,
-          "Name": "Techrot Motherboard"
+          "Count": 25,
+          "Name": "Lua Thrax Plasm"
         }
       ],
-      "Result": "Cyte-09 Systems",
+      "Result": "Voruna Neuroptics",
       "Credits": 15000
     },
     "Styanax Chassis": {
@@ -27433,36 +27552,6 @@
       "Result": "Atlas Neuroptics",
       "Credits": 15000
     },
-    "Voruna Neuroptics": {
-      "ProductCategory": "Suits",
-      "Name": "Voruna Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 20,
-          "Name": "Somatic Fibers"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2500,
-          "Name": "Alloy Plate"
-        },
-        {
-          "Type": "Resource",
-          "Count": 800,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 25,
-          "Name": "Lua Thrax Plasm"
-        }
-      ],
-      "Result": "Voruna Neuroptics",
-      "Credits": 15000
-    },
     "Voruna Chassis": {
       "ProductCategory": "Suits",
       "Name": "Voruna Chassis Blueprint",
@@ -27491,36 +27580,6 @@
         }
       ],
       "Result": "Voruna Chassis",
-      "Credits": 15000
-    },
-    "Lavos Prime Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Lavos Prime Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Nitain Extract"
-        },
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Tellurium"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3600,
-          "Name": "Ferrite"
-        },
-        {
-          "Type": "Resource",
-          "Count": 300,
-          "Name": "Oxium"
-        }
-      ],
-      "Result": "Lavos Prime Chassis",
       "Credits": 15000
     },
     "Voruna": {
@@ -27554,6 +27613,61 @@
       "Result": "Voruna",
       "Credits": 25000
     },
+    "Lavos Prime Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Lavos Prime Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Nitain Extract"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Tellurium"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3600,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 300,
+          "Name": "Oxium"
+        }
+      ],
+      "Result": "Lavos Prime Chassis",
+      "Credits": 15000
+    },
+    "Vauban Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Vauban Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Morphics"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1000,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 300,
+          "Name": "Rubedo"
+        }
+      ],
+      "Result": "Vauban Chassis",
+      "Credits": 15000
+    },
     "Inaros Prime Systems": {
       "ProductCategory": "Suits",
       "Name": "Inaros Prime Systems Blueprint",
@@ -27584,34 +27698,34 @@
       "Result": "Inaros Prime Systems",
       "Credits": 15000
     },
-    "Vauban Neuroptics": {
+    "Volt Prime Systems": {
       "ProductCategory": "Suits",
-      "Name": "Vauban Neuroptics Blueprint",
+      "Name": "Volt Prime Systems Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 150,
-          "Name": "Alloy Plate"
+          "Count": 3,
+          "Name": "Control Module"
         },
         {
           "Type": "Resource",
           "Count": 1,
-          "Name": "Neural Sensors"
+          "Name": "Orokin Cell"
         },
         {
           "Type": "Resource",
-          "Count": 150,
-          "Name": "Polymer Bundle"
+          "Count": 1000,
+          "Name": "Salvage"
         },
         {
           "Type": "Resource",
           "Count": 500,
-          "Name": "Rubedo"
+          "Name": "Circuits"
         }
       ],
-      "Result": "Vauban Neuroptics",
+      "Result": "Volt Prime Systems",
       "Credits": 15000
     },
     "Equinox Prime Chassis": {
@@ -27642,36 +27756,6 @@
         }
       ],
       "Result": "Equinox Prime Chassis",
-      "Credits": 15000
-    },
-    "Volt Prime Systems": {
-      "ProductCategory": "Suits",
-      "Name": "Volt Prime Systems Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 3,
-          "Name": "Control Module"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Orokin Cell"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1000,
-          "Name": "Salvage"
-        },
-        {
-          "Type": "Resource",
-          "Count": 500,
-          "Name": "Circuits"
-        }
-      ],
-      "Result": "Volt Prime Systems",
       "Credits": 15000
     },
     "Volt Prime Chassis": {
@@ -27844,6 +27928,36 @@
       "Result": "Vauban Prime Chassis",
       "Credits": 15000
     },
+    "Vauban Neuroptics": {
+      "ProductCategory": "Suits",
+      "Name": "Vauban Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Neural Sensors"
+        },
+        {
+          "Type": "Resource",
+          "Count": 150,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Rubedo"
+        }
+      ],
+      "Result": "Vauban Neuroptics",
+      "Credits": 15000
+    },
     "Volt Systems": {
       "ProductCategory": "Suits",
       "Name": "Volt Systems Blueprint",
@@ -27874,12 +27988,17 @@
       "Result": "Volt Systems",
       "Credits": 15000
     },
-    "Vauban Chassis": {
+    "Trinity Systems": {
       "ProductCategory": "Suits",
-      "Name": "Vauban Chassis Blueprint",
+      "Name": "Trinity Systems Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Control Module"
+        },
         {
           "Type": "Resource",
           "Count": 1,
@@ -27887,47 +28006,17 @@
         },
         {
           "Type": "Resource",
-          "Count": 1000,
-          "Name": "Ferrite"
+          "Count": 500,
+          "Name": "Salvage"
         },
         {
           "Type": "Resource",
-          "Count": 300,
-          "Name": "Rubedo"
+          "Count": 220,
+          "Name": "Plastids"
         }
       ],
-      "Result": "Vauban Chassis",
+      "Result": "Trinity Systems",
       "Credits": 15000
-    },
-    "Saryn Prime": {
-      "ProductCategory": "Suits",
-      "Name": "Saryn Prime Blueprint",
-      "Time": 259200,
-      "Rush": 50,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Orokin Cell"
-        }
-      ],
-      "Result": "Saryn Prime",
-      "Credits": 25000
     },
     "Valkyr Systems": {
       "ProductCategory": "Suits",
@@ -27957,6 +28046,36 @@
         }
       ],
       "Result": "Valkyr Systems",
+      "Credits": 15000
+    },
+    "Rhino Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Rhino Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 250,
+          "Name": "Circuits"
+        },
+        {
+          "Type": "Resource",
+          "Count": 100,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 400,
+          "Name": "Rubedo"
+        }
+      ],
+      "Result": "Rhino Systems",
       "Credits": 15000
     },
     "Caliban Prime Systems": {
@@ -27989,34 +28108,34 @@
       "Result": "Caliban Prime Systems",
       "Credits": 15000
     },
-    "Styanax Neuroptics": {
+    "Nidus Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Warframe Neuroptics Blueprint",
+      "Name": "Nidus Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Argon Crystal"
+          "Count": 6000,
+          "Name": "Polymer Bundle"
         },
         {
           "Type": "Resource",
-          "Count": 3000,
-          "Name": "Ferrite"
+          "Count": 5000,
+          "Name": "Nano Spores"
         },
         {
           "Type": "Resource",
-          "Count": 40,
-          "Name": "Purged Dagonic"
+          "Count": 1400,
+          "Name": "Plastids"
         },
         {
           "Type": "Resource",
-          "Count": 5,
-          "Name": "Norg Brain"
+          "Count": 3,
+          "Name": "Neurodes"
         }
       ],
-      "Result": "Styanax Neuroptics",
+      "Result": "Nidus Chassis",
       "Credits": 15000
     },
     "Valkyr Prime Chassis": {
@@ -28049,36 +28168,6 @@
       "Result": "Valkyr Prime Chassis",
       "Credits": 15000
     },
-    "Nidus Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Nidus Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 6000,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 5000,
-          "Name": "Nano Spores"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1400,
-          "Name": "Plastids"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3,
-          "Name": "Neurodes"
-        }
-      ],
-      "Result": "Nidus Chassis",
-      "Credits": 15000
-    },
     "Lavos Chassis": {
       "ProductCategory": "Suits",
       "Name": "Lavos Chassis Blueprint",
@@ -28107,6 +28196,36 @@
         }
       ],
       "Result": "Lavos Chassis",
+      "Credits": 15000
+    },
+    "Valkyr Neuroptics": {
+      "ProductCategory": "Suits",
+      "Name": "Valkyr Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 150,
+          "Name": "Circuits"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Neural Sensors"
+        },
+        {
+          "Type": "Resource",
+          "Count": 200,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Salvage"
+        }
+      ],
+      "Result": "Valkyr Neuroptics",
       "Credits": 15000
     },
     "Xaku Prime Systems": {
@@ -28170,9 +28289,39 @@
       "Result": "Cyte-09 Chassis",
       "Credits": 15000
     },
-    "Valkyr Chassis": {
+    "Gauss Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Valkyr Chassis Blueprint",
+      "Name": "Gauss Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Argon Crystal"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1600,
+          "Name": "Rubedo"
+        },
+        {
+          "Type": "Resource",
+          "Count": 6200,
+          "Name": "Salvage"
+        },
+        {
+          "Type": "Resource",
+          "Count": 2950,
+          "Name": "Alloy Plate"
+        }
+      ],
+      "Result": "Gauss Neuroptics",
+      "Credits": 15000
+    },
+    "Nova Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Nova Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
@@ -28183,49 +28332,17 @@
         },
         {
           "Type": "Resource",
-          "Count": 900,
+          "Count": 1000,
           "Name": "Ferrite"
         },
         {
           "Type": "Resource",
-          "Count": 50,
+          "Count": 300,
           "Name": "Rubedo"
         }
       ],
-      "Result": "Valkyr Chassis",
+      "Result": "Nova Chassis",
       "Credits": 15000
-    },
-    "Trinity": {
-      "MarketCost": 225,
-      "BPCost": 25000,
-      "Rush": 50,
-      "Name": "Trinity Blueprint",
-      "Time": 259200,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Orokin Cell"
-        }
-      ],
-      "ProductCategory": "Suits",
-      "Result": "Trinity",
-      "Credits": 25000
     },
     "Mesa Prime Systems": {
       "ProductCategory": "Suits",
@@ -28257,31 +28374,6 @@
       "Result": "Mesa Prime Systems",
       "Credits": 15000
     },
-    "Nova Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Nova Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Morphics"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1000,
-          "Name": "Ferrite"
-        },
-        {
-          "Type": "Resource",
-          "Count": 300,
-          "Name": "Rubedo"
-        }
-      ],
-      "Result": "Nova Chassis",
-      "Credits": 15000
-    },
     "Uriel Chassis": {
       "ProductCategory": "Suits",
       "Name": "Uriel Chassis Blueprint",
@@ -28305,6 +28397,36 @@
         }
       ],
       "Result": "Uriel Chassis",
+      "Credits": 15000
+    },
+    "Saryn Neuroptics": {
+      "ProductCategory": "Suits",
+      "Name": "Saryn Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 150,
+          "Name": "Circuits"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Neural Sensors"
+        },
+        {
+          "Type": "Resource",
+          "Count": 300,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 400,
+          "Name": "Salvage"
+        }
+      ],
+      "Result": "Saryn Neuroptics",
       "Credits": 15000
     },
     "Vauban": {
@@ -28399,36 +28521,6 @@
       "Result": "Nova Prime",
       "Credits": 25000
     },
-    "Trinity Systems": {
-      "ProductCategory": "Suits",
-      "Name": "Trinity Systems Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Control Module"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Morphics"
-        },
-        {
-          "Type": "Resource",
-          "Count": 500,
-          "Name": "Salvage"
-        },
-        {
-          "Type": "Resource",
-          "Count": 220,
-          "Name": "Plastids"
-        }
-      ],
-      "Result": "Trinity Systems",
-      "Credits": 15000
-    },
     "Trinity Prime Neuroptics": {
       "ProductCategory": "Suits",
       "Name": "Trinity Prime Neuroptics Blueprint",
@@ -28457,6 +28549,31 @@
         }
       ],
       "Result": "Trinity Prime Neuroptics",
+      "Credits": 15000
+    },
+    "Trinity Prime Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Trinity Prime Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Argon Crystal"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Oxium"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1200,
+          "Name": "Circuits"
+        }
+      ],
+      "Result": "Trinity Prime Chassis",
       "Credits": 15000
     },
     "Inaros Prime": {
@@ -28489,30 +28606,35 @@
       "Result": "Inaros Prime",
       "Credits": 25000
     },
-    "Trinity Prime Chassis": {
+    "Trinity Prime": {
       "ProductCategory": "Suits",
-      "Name": "Trinity Prime Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
+      "Name": "Trinity Prime Blueprint",
+      "Time": 259200,
+      "Rush": 50,
       "Parts": [
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Systems"
+        },
         {
           "Type": "Resource",
           "Count": 1,
-          "Name": "Argon Crystal"
-        },
-        {
-          "Type": "Resource",
-          "Count": 500,
-          "Name": "Oxium"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1200,
-          "Name": "Circuits"
+          "Name": "Orokin Cell"
         }
       ],
-      "Result": "Trinity Prime Chassis",
-      "Credits": 15000
+      "Result": "Trinity Prime",
+      "Credits": 25000
     },
     "Garuda Prime": {
       "ProductCategory": "Suits",
@@ -28604,26 +28726,27 @@
       "Result": "Nekros Systems",
       "Credits": 15000
     },
-    "Trinity Prime": {
-      "ProductCategory": "Suits",
-      "Name": "Trinity Prime Blueprint",
-      "Time": 259200,
+    "Trinity": {
+      "MarketCost": 225,
+      "BPCost": 25000,
       "Rush": 50,
+      "Name": "Trinity Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",
           "Count": 1,
-          "Name": "Prime Neuroptics"
+          "Name": "Neuroptics"
         },
         {
           "Type": "Item",
           "Count": 1,
-          "Name": "Prime Chassis"
+          "Name": "Chassis"
         },
         {
           "Type": "Item",
           "Count": 1,
-          "Name": "Prime Systems"
+          "Name": "Systems"
         },
         {
           "Type": "Resource",
@@ -28631,7 +28754,8 @@
           "Name": "Orokin Cell"
         }
       ],
-      "Result": "Trinity Prime",
+      "ProductCategory": "Suits",
+      "Result": "Trinity",
       "Credits": 25000
     },
     "Valkyr": {
@@ -28666,34 +28790,34 @@
       "Result": "Valkyr",
       "Credits": 25000
     },
-    "Gauss Neuroptics": {
+    "Titania Prime Systems": {
       "ProductCategory": "Suits",
-      "Name": "Gauss Neuroptics Blueprint",
+      "Name": "Titania Prime Systems Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Argon Crystal"
+          "Count": 10,
+          "Name": "Control Module"
         },
         {
           "Type": "Resource",
-          "Count": 1600,
-          "Name": "Rubedo"
+          "Count": 3,
+          "Name": "Tellurium"
         },
         {
           "Type": "Resource",
-          "Count": 6200,
-          "Name": "Salvage"
+          "Count": 4300,
+          "Name": "Ferrite"
         },
         {
           "Type": "Resource",
-          "Count": 2950,
-          "Name": "Alloy Plate"
+          "Count": 1450,
+          "Name": "Circuits"
         }
       ],
-      "Result": "Gauss Neuroptics",
+      "Result": "Titania Prime Systems",
       "Credits": 15000
     },
     "Ember": {
@@ -28758,36 +28882,6 @@
       "Result": "Qorvex Systems",
       "Credits": 15000
     },
-    "Hildryn Prime Neuroptics": {
-      "ProductCategory": "Suits",
-      "Name": "Hildryn Prime Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 2,
-          "Name": "Argon Crystal"
-        },
-        {
-          "Type": "Resource",
-          "Count": 600,
-          "Name": "Cryotic"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1100,
-          "Name": "Circuits"
-        },
-        {
-          "Type": "Resource",
-          "Count": 4975,
-          "Name": "Nano Spores"
-        }
-      ],
-      "Result": "Hildryn Prime Neuroptics",
-      "Credits": 15000
-    },
     "Titania Prime": {
       "ProductCategory": "Suits",
       "Name": "Titania Prime Blueprint",
@@ -28846,6 +28940,36 @@
         }
       ],
       "Result": "Protea Systems",
+      "Credits": 15000
+    },
+    "Temple Chassis": {
+      "ProductCategory": "Suits",
+      "Name": "Temple Chassis Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 400,
+          "Name": "H\u00f6llvanian Pitchweave Fragment"
+        },
+        {
+          "Type": "Resource",
+          "Count": 250,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1500,
+          "Name": "Nano Spores"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Argon Crystal"
+        }
+      ],
+      "Result": "Temple Chassis",
       "Credits": 15000
     },
     "Inaros": {
@@ -28909,35 +29033,36 @@
       "Result": "Nekros Prime",
       "Credits": 25000
     },
-    "Temple Chassis": {
-      "ProductCategory": "Suits",
-      "Name": "Temple Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
+    "Temple": {
+      "Time": 259200,
+      "MarketCost": 370,
+      "Name": "Temple Blueprint",
+      "Rush": 50,
       "Parts": [
         {
-          "Type": "Resource",
-          "Count": 400,
-          "Name": "H\u00f6llvanian Pitchweave Fragment"
-        },
-        {
-          "Type": "Resource",
-          "Count": 250,
-          "Name": "Alloy Plate"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1500,
-          "Name": "Nano Spores"
-        },
-        {
-          "Type": "Resource",
+          "Type": "Item",
           "Count": 1,
-          "Name": "Argon Crystal"
+          "Name": "Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Systems"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Orokin Cell"
         }
       ],
-      "Result": "Temple Chassis",
-      "Credits": 15000
+      "ProductCategory": "Suits",
+      "Result": "Temple",
+      "Credits": 25000
     },
     "Atlas Prime Systems": {
       "ProductCategory": "Suits",
@@ -28999,40 +29124,9 @@
       "Result": "Mirage Prime Systems",
       "Credits": 15000
     },
-    "Temple": {
-      "Time": 259200,
-      "MarketCost": 370,
-      "Name": "Temple Blueprint",
-      "Rush": 50,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3,
-          "Name": "Orokin Cell"
-        }
-      ],
+    "Revenant Prime Chassis": {
       "ProductCategory": "Suits",
-      "Result": "Temple",
-      "Credits": 25000
-    },
-    "Limbo Prime Systems": {
-      "ProductCategory": "Suits",
-      "Name": "Limbo Prime Systems Blueprint",
+      "Name": "Revenant Prime Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
@@ -29043,21 +29137,51 @@
         },
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Tellurium"
+          "Count": 10,
+          "Name": "Neurodes"
         },
         {
           "Type": "Resource",
-          "Count": 100,
-          "Name": "Plastids"
+          "Count": 1975,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 9250,
+          "Name": "Nano Spores"
+        }
+      ],
+      "Result": "Revenant Prime Chassis",
+      "Credits": 15000
+    },
+    "Styanax Neuroptics": {
+      "ProductCategory": "Suits",
+      "Name": "Warframe Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 2,
+          "Name": "Argon Crystal"
         },
         {
           "Type": "Resource",
           "Count": 3000,
-          "Name": "Salvage"
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 40,
+          "Name": "Purged Dagonic"
+        },
+        {
+          "Type": "Resource",
+          "Count": 5,
+          "Name": "Norg Brain"
         }
       ],
-      "Result": "Limbo Prime Systems",
+      "Result": "Styanax Neuroptics",
       "Credits": 15000
     },
     "Valkyr Prime Systems": {
@@ -29090,34 +29214,34 @@
       "Result": "Valkyr Prime Systems",
       "Credits": 15000
     },
-    "Mag Systems": {
+    "Sevagoth Prime Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Mag Systems Blueprint",
+      "Name": "Sevagoth Prime Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Control Module"
+          "Count": 8,
+          "Name": "Neurodes"
         },
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Morphics"
+          "Count": 2,
+          "Name": "Nitain Extract"
         },
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Salvage"
+          "Count": 1100,
+          "Name": "Polymer Bundle"
         },
         {
           "Type": "Resource",
-          "Count": 220,
-          "Name": "Plastids"
+          "Count": 3750,
+          "Name": "Alloy Plate"
         }
       ],
-      "Result": "Mag Systems",
+      "Result": "Sevagoth Prime Chassis",
       "Credits": 15000
     },
     "Nezha Chassis": {
@@ -29180,35 +29304,35 @@
       "Result": "Atlas Systems",
       "Credits": 15000
     },
-    "Sevagoth Prime Chassis": {
+    "Sevagoth Prime": {
       "ProductCategory": "Suits",
-      "Name": "Sevagoth Prime Chassis Blueprint",
-      "Time": 43200,
-      "Rush": 25,
+      "Name": "Sevagoth Prime Blueprint",
+      "Time": 259200,
+      "Rush": 50,
       "Parts": [
         {
-          "Type": "Resource",
-          "Count": 8,
-          "Name": "Neurodes"
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Systems"
         },
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Nitain Extract"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1100,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3750,
-          "Name": "Alloy Plate"
+          "Count": 1,
+          "Name": "Orokin Cell"
         }
       ],
-      "Result": "Sevagoth Prime Chassis",
-      "Credits": 15000
+      "Result": "Sevagoth Prime",
+      "Credits": 25000
     },
     "Khora Systems": {
       "ProductCategory": "Suits",
@@ -29240,36 +29364,6 @@
       "Result": "Khora Systems",
       "Credits": 15000
     },
-    "Sevagoth Prime": {
-      "ProductCategory": "Suits",
-      "Name": "Sevagoth Prime Blueprint",
-      "Time": 259200,
-      "Rush": 50,
-      "Parts": [
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Systems"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Orokin Cell"
-        }
-      ],
-      "Result": "Sevagoth Prime",
-      "Credits": 25000
-    },
     "Loki Prime Neuroptics": {
       "ProductCategory": "Suits",
       "Name": "Loki Prime Neuroptics Blueprint",
@@ -29298,6 +29392,36 @@
         }
       ],
       "Result": "Loki Prime Neuroptics",
+      "Credits": 15000
+    },
+    "Saryn Prime Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Saryn Prime Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
+      "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Nitain Extract"
+        },
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Orokin Cell"
+        },
+        {
+          "Type": "Resource",
+          "Count": 4000,
+          "Name": "Ferrite"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Circuits"
+        }
+      ],
+      "Result": "Saryn Prime Systems",
       "Credits": 15000
     },
     "Ember Prime Systems": {
@@ -29355,34 +29479,34 @@
       "Result": "Banshee Chassis",
       "Credits": 15000
     },
-    "Saryn Prime Systems": {
+    "Saryn Prime Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Saryn Prime Systems Blueprint",
+      "Name": "Saryn Prime Neuroptics Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Nitain Extract"
+          "Count": 1500,
+          "Name": "Alloy Plate"
         },
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Orokin Cell"
+          "Count": 2,
+          "Name": "Neural Sensors"
         },
         {
           "Type": "Resource",
-          "Count": 4000,
-          "Name": "Ferrite"
+          "Count": 3500,
+          "Name": "Salvage"
         },
         {
           "Type": "Resource",
-          "Count": 500,
-          "Name": "Circuits"
+          "Count": 750,
+          "Name": "Rubedo"
         }
       ],
-      "Result": "Saryn Prime Systems",
+      "Result": "Saryn Prime Neuroptics",
       "Credits": 15000
     },
     "Gauss Chassis": {
@@ -29415,35 +29539,35 @@
       "Result": "Gauss Chassis",
       "Credits": 15000
     },
-    "Saryn Prime Neuroptics": {
+    "Saryn Prime": {
       "ProductCategory": "Suits",
-      "Name": "Saryn Prime Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
+      "Name": "Saryn Prime Blueprint",
+      "Time": 259200,
+      "Rush": 50,
       "Parts": [
         {
-          "Type": "Resource",
-          "Count": 1500,
-          "Name": "Alloy Plate"
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Systems"
         },
         {
           "Type": "Resource",
-          "Count": 2,
-          "Name": "Neural Sensors"
-        },
-        {
-          "Type": "Resource",
-          "Count": 3500,
-          "Name": "Salvage"
-        },
-        {
-          "Type": "Resource",
-          "Count": 750,
-          "Name": "Rubedo"
+          "Count": 1,
+          "Name": "Orokin Cell"
         }
       ],
-      "Result": "Saryn Prime Neuroptics",
-      "Credits": 15000
+      "Result": "Saryn Prime",
+      "Credits": 25000
     },
     "Citrine Neuroptics": {
       "ProductCategory": "Suits",
@@ -29536,34 +29660,29 @@
       "Result": "Hydroid Chassis",
       "Credits": 15000
     },
-    "Saryn Neuroptics": {
+    "Saryn Chassis": {
       "ProductCategory": "Suits",
-      "Name": "Saryn Neuroptics Blueprint",
+      "Name": "Saryn Chassis Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 150,
-          "Name": "Circuits"
-        },
-        {
-          "Type": "Resource",
           "Count": 1,
-          "Name": "Neural Sensors"
+          "Name": "Morphics"
         },
         {
           "Type": "Resource",
-          "Count": 300,
-          "Name": "Polymer Bundle"
+          "Count": 1000,
+          "Name": "Ferrite"
         },
         {
           "Type": "Resource",
-          "Count": 400,
-          "Name": "Salvage"
+          "Count": 50,
+          "Name": "Rubedo"
         }
       ],
-      "Result": "Saryn Neuroptics",
+      "Result": "Saryn Chassis",
       "Credits": 15000
     },
     "Octavia Prime Chassis": {
@@ -29596,12 +29715,17 @@
       "Result": "Octavia Prime Chassis",
       "Credits": 15000
     },
-    "Saryn Chassis": {
+    "Mag Systems": {
       "ProductCategory": "Suits",
-      "Name": "Saryn Chassis Blueprint",
+      "Name": "Mag Systems Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
+        {
+          "Type": "Resource",
+          "Count": 1,
+          "Name": "Control Module"
+        },
         {
           "Type": "Resource",
           "Count": 1,
@@ -29609,16 +29733,16 @@
         },
         {
           "Type": "Resource",
-          "Count": 1000,
-          "Name": "Ferrite"
+          "Count": 500,
+          "Name": "Salvage"
         },
         {
           "Type": "Resource",
-          "Count": 50,
-          "Name": "Rubedo"
+          "Count": 220,
+          "Name": "Plastids"
         }
       ],
-      "Result": "Saryn Chassis",
+      "Result": "Mag Systems",
       "Credits": 15000
     },
     "Nekros Prime Chassis": {
@@ -29834,36 +29958,6 @@
       "Result": "Dagath Systems",
       "Credits": 15000
     },
-    "Rhino Neuroptics": {
-      "ProductCategory": "Suits",
-      "Name": "Rhino Neuroptics Blueprint",
-      "Time": 43200,
-      "Rush": 25,
-      "Parts": [
-        {
-          "Type": "Resource",
-          "Count": 150,
-          "Name": "Alloy Plate"
-        },
-        {
-          "Type": "Resource",
-          "Count": 1,
-          "Name": "Neurodes"
-        },
-        {
-          "Type": "Resource",
-          "Count": 150,
-          "Name": "Polymer Bundle"
-        },
-        {
-          "Type": "Resource",
-          "Count": 500,
-          "Name": "Rubedo"
-        }
-      ],
-      "Result": "Rhino Neuroptics",
-      "Credits": 15000
-    },
     "Koumei Neuroptics": {
       "ProductCategory": "Suits",
       "Name": "Koumei Neuroptics Blueprint",
@@ -29919,6 +30013,36 @@
       "Result": "Rhino Prime Chassis",
       "Credits": 15000
     },
+    "Rhino Prime": {
+      "ProductCategory": "Suits",
+      "Name": "Rhino Prime Blueprint",
+      "Time": 259200,
+      "Rush": 50,
+      "Parts": [
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Neuroptics"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Chassis"
+        },
+        {
+          "Type": "Item",
+          "Count": 1,
+          "Name": "Prime Systems"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Orokin Cell"
+        }
+      ],
+      "Result": "Rhino Prime",
+      "Credits": 25000
+    },
     "Baruuk Prime": {
       "ProductCategory": "Suits",
       "Name": "Baruuk Prime Blueprint",
@@ -29949,35 +30073,35 @@
       "Result": "Baruuk Prime",
       "Credits": 25000
     },
-    "Rhino Prime": {
+    "Rhino Neuroptics": {
       "ProductCategory": "Suits",
-      "Name": "Rhino Prime Blueprint",
-      "Time": 259200,
-      "Rush": 50,
+      "Name": "Rhino Neuroptics Blueprint",
+      "Time": 43200,
+      "Rush": 25,
       "Parts": [
         {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Prime Systems"
+          "Type": "Resource",
+          "Count": 150,
+          "Name": "Alloy Plate"
         },
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Orokin Cell"
+          "Count": 1,
+          "Name": "Neurodes"
+        },
+        {
+          "Type": "Resource",
+          "Count": 150,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Type": "Resource",
+          "Count": 500,
+          "Name": "Rubedo"
         }
       ],
-      "Result": "Rhino Prime",
-      "Credits": 25000
+      "Result": "Rhino Neuroptics",
+      "Credits": 15000
     },
     "Octavia Chassis": {
       "ProductCategory": "Suits",
@@ -30124,37 +30248,35 @@
       "Result": "Frost Prime Chassis",
       "Credits": 15000
     },
-    "Rhino": {
-      "MarketCost": 375,
-      "BPCost": 35000,
-      "Rush": 50,
-      "Name": "Rhino Blueprint",
-      "Time": 86400,
+    "Revenant Systems": {
+      "ProductCategory": "Suits",
+      "Name": "Revenant Systems Blueprint",
+      "Time": 43200,
+      "Rush": 25,
       "Parts": [
         {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Neuroptics"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Chassis"
-        },
-        {
-          "Type": "Item",
-          "Count": 1,
-          "Name": "Systems"
+          "Type": "Resource",
+          "Count": 3,
+          "Name": "Control Module"
         },
         {
           "Type": "Resource",
-          "Count": 1,
-          "Name": "Neurodes"
+          "Count": 3,
+          "Name": "Cetus Wisp"
+        },
+        {
+          "Type": "Resource",
+          "Count": 8000,
+          "Name": "Salvage"
+        },
+        {
+          "Type": "Resource",
+          "Count": 3000,
+          "Name": "Polymer Bundle"
         }
       ],
-      "ProductCategory": "Suits",
-      "Result": "Rhino",
-      "Credits": 25000
+      "Result": "Revenant Systems",
+      "Credits": 15000
     },
     "Baruuk Neuroptics": {
       "ProductCategory": "Suits",
@@ -30186,34 +30308,34 @@
       "Result": "Baruuk Neuroptics",
       "Credits": 15000
     },
-    "Revenant Systems": {
+    "Limbo Prime Systems": {
       "ProductCategory": "Suits",
-      "Name": "Revenant Systems Blueprint",
+      "Name": "Limbo Prime Systems Blueprint",
       "Time": 43200,
       "Rush": 25,
       "Parts": [
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Control Module"
+          "Count": 2,
+          "Name": "Nitain Extract"
         },
         {
           "Type": "Resource",
-          "Count": 3,
-          "Name": "Cetus Wisp"
+          "Count": 2,
+          "Name": "Tellurium"
         },
         {
           "Type": "Resource",
-          "Count": 8000,
-          "Name": "Salvage"
+          "Count": 100,
+          "Name": "Plastids"
         },
         {
           "Type": "Resource",
           "Count": 3000,
-          "Name": "Polymer Bundle"
+          "Name": "Salvage"
         }
       ],
-      "Result": "Revenant Systems",
+      "Result": "Limbo Prime Systems",
       "Credits": 15000
     },
     "Styanax Systems": {
@@ -31404,7 +31526,7 @@
       "BPCost": 35000,
       "Rush": 50,
       "Name": "Excalibur Blueprint",
-      "Time": 259200,
+      "Time": 86400,
       "Parts": [
         {
           "Type": "Item",
@@ -32627,10 +32749,11 @@
       "Credits": 15000
     },
     "Ivara": {
-      "Time": 259200,
       "MarketCost": 325,
-      "Name": "Ivara Blueprint",
+      "BPCost": 35000,
       "Rush": 50,
+      "Name": "Ivara Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",

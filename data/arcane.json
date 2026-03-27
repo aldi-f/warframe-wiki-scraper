@@ -416,7 +416,7 @@
       "Image": "PaxBolt.png",
       "Name": "Pax Bolt",
       "Introduced": "24",
-      "Dissolution": 24,
+      "Dissolution": 36,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],
@@ -1011,7 +1011,7 @@
     },
     "Zid-An Asheir": {
       "Type": "Tektolyst Artifacts",
-      "Description": "6% Status chance for all Warframe weapons for each enemy hit with Tauron Strike, up to 300%. Buff lasts for 30s\r\n+18% Tauron Strike Initial Charge",
+      "Description": "6% Status chance for all Warframe weapons for each enemy hit with Tauron Strike, up to 300%. Buff lasts for 30s\r\n+18% Tauron Strike Initial Charge.",
       "Link": "Zid-An Asheir",
       "MaxRank": 5,
       "Rarity": "Rare",
@@ -1785,7 +1785,7 @@
     },
     "Zid-An Uskos": {
       "Type": "Tektolyst Artifacts",
-      "Description": "On Operator and Tauron Strike Kill:\r\n2.4% <DT_FIRE_COLOR>Heat Damage for Secondary Weapon for duration of mission, max 250%",
+      "Description": "On Operator and Tauron Strike Kill: 2.4% <DT_FIRE_COLOR>Heat Damage for Secondary Weapon for duration of mission, max 250%",
       "Link": "Zid-An Uskos",
       "MaxRank": 5,
       "Rarity": "Rare",
@@ -2531,7 +2531,7 @@
       "Image": "PaxSoar.png",
       "Name": "Pax Soar",
       "Introduced": "24",
-      "Dissolution": 24,
+      "Dissolution": 36,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],
@@ -2591,7 +2591,7 @@
       "Image": "PaxCharge.png",
       "Name": "Pax Charge",
       "Introduced": "24",
-      "Dissolution": 24,
+      "Dissolution": 36,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],
@@ -2634,7 +2634,7 @@
       "Image": "PaxSeeker.png",
       "Name": "Pax Seeker",
       "Introduced": "24",
-      "Dissolution": 24,
+      "Dissolution": 36,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],

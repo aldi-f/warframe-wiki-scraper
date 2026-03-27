@@ -2688,17 +2688,16 @@
     },
     "Follie": {
       "Sprint": 0.95,
-      "Description": "TBD",
+      "Description": "Follie, the merry, macabre Shadowgrapher, brings ink to life. Support her squad and control enemy crowds with a myriad of versatile sketches and tricks.",
       "Conclave": true,
-      "Shield": 9001,
-      "_IgnoreEntry": true,
+      "Shield": 225,
       "MaxRank": 30,
       "Themes": "Inkblots, Paintress, Pierrette",
-      "Tactical": "Super Jump",
+      "Tactical": "Plein Air",
       "Image": "Follie_Thumb.png",
       "Type": "Warframe",
-      "Introduced": "TBA",
-      "Armor": 9001,
+      "Introduced": "42",
+      "Armor": 325,
       "FullImages": [
         {
           "TabName": "Splash Art",
@@ -2709,20 +2708,20 @@
           "Image": "FollieFull.jpg"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Follie/Follie",
+      "InternalName": "/Lotus/Powersuits/Inkblot/Inkblot",
       "Name": "Follie",
-      "Progenitor": "Cold",
+      "Progenitor": "Electricity",
       "SquadPortrait": "FollieLargePortrait.png",
-      "Passive": "TBD",
+      "Passive": "INKBLOT: Follie's abilities coat enemies in ink that slows their movement by 50% for a few seconds. Afflicted enemies have a 20% chance to drop Health and Energy Orbs.",
       "Link": "Follie",
       "SellPrice": 10000,
-      "Portrait": "FollieIcon272.png",
+      "Portrait": "Follie_Thumb.png",
       "Polarities": [
         "Vazarin",
-        "Vazarin"
+        "Naramon"
       ],
-      "InitialEnergy": 50,
-      "Subsumed": "Super Jump",
+      "InitialEnergy": 75,
+      "Subsumed": "Self Portrait",
       "AuraPolarity": "Vazarin",
       "Abilities": [
         "Forced Perspective",
@@ -2732,11 +2731,11 @@
       ],
       "Sex": "Female",
       "Playstyle": [
-        "Support",
-        "Survival"
+        "Damage",
+        "Crowd Control"
       ],
-      "Health": 9001,
-      "Energy": 9001,
+      "Health": 485,
+      "Energy": 175,
       "CodexSecret": false
     },
     "Citrine": {

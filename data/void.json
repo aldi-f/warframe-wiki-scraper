@@ -3794,7 +3794,7 @@
       }
     },
     "Riven Sliver": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "": {
           "DucatValue": 0,
@@ -4802,7 +4802,7 @@
       }
     },
     "Exilus Weapon Adapter": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "Blueprint": {
           "DucatValue": 0,
@@ -4981,7 +4981,7 @@
       }
     },
     "Ayatan Amber Star": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "": {
           "DucatValue": 0,
@@ -5097,7 +5097,7 @@
       }
     },
     "Kuva": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "": {
           "DucatValue": 0,
@@ -20580,7 +20580,7 @@
     },
     "Requiem Eterna": {
       "Tier": "Requiem",
-      "Introduced": "TBA",
+      "Introduced": "42",
       "Name": "Requiem Eterna",
       "Drops": [
         {
@@ -20626,8 +20626,7 @@
       ]
     },
     "Requiem IV": {
-      "Tier": "Requiem",
-      "Introduced": "26",
+      "Vaulted": "42",
       "Name": "Requiem IV",
       "Drops": [
         {
@@ -20661,11 +20660,12 @@
           "Item": "Exilus Weapon Adapter",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Requiem",
+      "Introduced": "26"
     },
     "Requiem III": {
-      "Tier": "Requiem",
-      "Introduced": "26",
+      "Vaulted": "42",
       "Name": "Requiem III",
       "Drops": [
         {
@@ -20699,11 +20699,12 @@
           "Item": "Exilus Weapon Adapter",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Requiem",
+      "Introduced": "26"
     },
     "Requiem II": {
-      "Tier": "Requiem",
-      "Introduced": "26",
+      "Vaulted": "42",
       "Name": "Requiem II",
       "Drops": [
         {
@@ -20737,11 +20738,12 @@
           "Item": "Exilus Weapon Adapter",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Requiem",
+      "Introduced": "26"
     },
     "Requiem I": {
-      "Tier": "Requiem",
-      "Introduced": "26",
+      "Vaulted": "42",
       "Name": "Requiem I",
       "Drops": [
         {
@@ -20775,7 +20777,9 @@
           "Item": "Exilus Weapon Adapter",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Requiem",
+      "Introduced": "26"
     },
     "Lith D1": {
       "Vaulted": "29.3",

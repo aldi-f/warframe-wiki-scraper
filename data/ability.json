@@ -195,8 +195,8 @@
       "Spectral Scream"
     ],
     "Excalibur": [
-      "Radial Javelin",
       "Radial Blind",
+      "Radial Javelin",
       "Slash Dash",
       "Exalted Blade"
     ],
@@ -294,6 +294,12 @@
       "Amp",
       "Metronome"
     ],
+    "Follie": [
+      "Self Portrait",
+      "Plein Air",
+      "Shadowgraph",
+      "Forced Perspective"
+    ],
     "Volt": [
       "Speed",
       "Discharge",
@@ -345,8 +351,8 @@
     "Gara": [
       "Shattered Lash",
       "Mass Vitrify",
-      "Spectrorage",
-      "Splinter Storm"
+      "Splinter Storm",
+      "Spectrorage"
     ],
     "Garuda": [
       "Seeking Talons",
@@ -465,8 +471,8 @@
     ],
     "Sevagoth": [
       "Reap",
-      "Exalted Shadow",
       "Sow",
+      "Exalted Shadow",
       "Gloom"
     ],
     "Stalker": [
@@ -508,11 +514,11 @@
       "Quiver",
       "Navigator"
     ],
-    "Dante": [
-      "Final Verse",
-      "Noctua",
-      "Dark Verse",
-      "Light Verse"
+    "Oberon": [
+      "Renewal",
+      "Hallowed Ground",
+      "Reckoning",
+      "Smite"
     ],
     "Wukong": [
       "Defy",
@@ -532,12 +538,6 @@
       "Elude",
       "Lull"
     ],
-    "Oberon": [
-      "Renewal",
-      "Hallowed Ground",
-      "Reckoning",
-      "Smite"
-    ],
     "Excalibur Umbra": [
       "Radial Howl"
     ],
@@ -549,8 +549,8 @@
     ],
     "Voruna": [
       "Shroud of Dynar",
-      "Lycath's Hunt",
       "Ulfrun's Descent",
+      "Lycath's Hunt",
       "Fangs of Raksh"
     ],
     "Kaithe": [
@@ -563,6 +563,12 @@
       "Haven",
       "Balefire"
     ],
+    "Rhino": [
+      "Rhino Charge",
+      "Iron Skin",
+      "Rhino Stomp",
+      "Roar"
+    ],
     "Bonewidow": [
       "Exalted Ironbride",
       "Maiden's Kiss",
@@ -570,11 +576,11 @@
       "Shield Maiden",
       "Meathook"
     ],
-    "Rhino": [
-      "Rhino Charge",
-      "Iron Skin",
-      "Rhino Stomp",
-      "Roar"
+    "Dante": [
+      "Final Verse",
+      "Noctua",
+      "Dark Verse",
+      "Light Verse"
     ],
     "Nokko": [
       "Sporespring",
@@ -590,9 +596,9 @@
     ],
     "Oraxia": [
       "Webbed Embrace",
-      "Mercy's Kiss",
       "Widow's Brood",
-      "Silken Stride"
+      "Silken Stride",
+      "Mercy's Kiss"
     ],
     "Temple": [
       "Overdrive",
@@ -1547,7 +1553,7 @@
       "Icon": "Xata'sWhisper130xWhite.png"
     },
     "Bastille": {
-      "Description": "Erect a containment field to capture enemies and suspended them in stasis, stripping their armor.\r\n\r\nHOLD to collapse all Bastilles into a single damaging vortex.",
+      "Description": "Erect a containment field to capture enemies and suspend them in stasis, stripping their armor and granting it to Vauban and any allies within Bastille's field.\r\n\r\nHOLD to collapse all Bastilles into a single damaging vortex.",
       "Cost": 100,
       "Augments": [
         "Enduring Bastille"
@@ -1620,6 +1626,20 @@
       "Preview": "RipLinePreview.webm",
       "PreviewFallback": "RipLinePreview.jpg",
       "Icon": "RipLine130xWhite.png"
+    },
+    "Self Portrait": {
+      "Description": "Draw an ink effigy to absorb the damage dealt to Follie and allies. Below, a pool of ink spreads Inkblot. Kill enemies inside the pool to grow Follie's effigy and its ink puddle.",
+      "Cost": 50,
+      "Subsumable": true,
+      "Powersuit": "Follie",
+      "Key": 3,
+      "CardImage": "SelfPortrait.png",
+      "Name": "Self Portrait",
+      "Introduced": "42",
+      "InternalName": "/Lotus/Powersuits/Inkblot/Abilities/InkCloneAbility",
+      "Preview": "SelfPortraitPreview.webm",
+      "PreviewFallback": "SelfPortraitPreview.jpg",
+      "Icon": "SelfPortrait.png"
     },
     "Freeze": {
       "Description": "A frigid energy blast that freezes targets in their tracks.",
@@ -2081,6 +2101,19 @@
       "Preview": "LinkPreview.webm",
       "PreviewFallback": "LinkPreview.jpg",
       "Icon": "Link130xWhite.png"
+    },
+    "Plein Air": {
+      "Description": "Tie nearby enemies to floating balloons that douse them with Inkblot. Pop the balloons to send them crashing to the ground, splashing damage on nearby enemies.",
+      "Cost": 75,
+      "Powersuit": "Follie",
+      "Key": 4,
+      "CardImage": "PleinAir.png",
+      "Name": "Plein Air",
+      "Introduced": "42",
+      "InternalName": "/Lotus/Powersuits/Inkblot/Abilities/InkBalloonAbility",
+      "Preview": "PleinAirPreview.webm",
+      "PreviewFallback": "PleinAirPreview.jpg",
+      "Icon": "PleinAir.png"
     },
     "Covenant": {
       "Description": "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Headshots are amplified even further.",
@@ -3041,6 +3074,36 @@
       "PreviewFallback": "WyrdScythesPreview.jpg",
       "Icon": "WyrdScythes130xWhite.png"
     },
+    "Wrathful Advance": {
+      "Description": "(TAP) Kullervo charges a Heavy Attack, then teleports to his target and strikes. His rage-filled focus temporarily increases his Melee Critical Chance.\r\n(HOLD) Teleport to any marked location.",
+      "Cost": 25,
+      "Subsumable": true,
+      "Powersuit": "Kullervo",
+      "Key": 1,
+      "CardImage": "WrathfulAdvance.png",
+      "Name": "Wrathful Advance",
+      "Introduced": "33.5",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxTeleportAbility",
+      "Preview": "WrathfulAdvancePreview.webm",
+      "PreviewFallback": "WrathfulAdvancePreview.jpg",
+      "Icon": "WrathfulAdvanceIcon.png"
+    },
+    "Sow": {
+      "Description": "Plant a death seed in nearby targets to drain their lifeforce. Reap what has been sown to detonate afflicted enemies, dealing a percentage of their health as radial damage. The souls of the dead fill the Death Well. ",
+      "Cost": 50,
+      "Augments": [
+        "Dark Propagation"
+      ],
+      "Powersuit": "Sevagoth",
+      "Key": 2,
+      "CardImage": "SowModx256.png",
+      "Name": "Sow",
+      "Introduced": "30",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+      "Preview": "SowPreview.webm",
+      "PreviewFallback": "SowPreview.jpg",
+      "Icon": "Sow130xWhite.png"
+    },
     "Axios Javelin": {
       "Description": "Throw an Axios Javelin. When the javelin impales an enemy against a wall, surrounding enemies are pulled into the area and suffer a burst of damage.",
       "Cost": 15,
@@ -3090,37 +3153,6 @@
       "PreviewFallback": "EclipsePreview.jpg",
       "Icon": "Eclipse130xWhite.png"
     },
-    "Wrathful Advance": {
-      "Description": "(TAP) Kullervo charges a Heavy Attack, then teleports to his target and strikes. His rage-filled focus temporarily increases his Melee Critical Chance.\r\n(HOLD) Teleport to any marked location.",
-      "Cost": 25,
-      "Subsumable": true,
-      "Powersuit": "Kullervo",
-      "Key": 1,
-      "CardImage": "WrathfulAdvance.png",
-      "Name": "Wrathful Advance",
-      "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxTeleportAbility",
-      "Preview": "WrathfulAdvancePreview.webm",
-      "PreviewFallback": "WrathfulAdvancePreview.jpg",
-      "Icon": "WrathfulAdvanceIcon.png"
-    },
-    "Spectrorage": {
-      "Description": "Trap enemies in a carousel of mirrors, forcing them to attack visions of their true selves. Destroyed mirrors damage their attackers, as does the collapse of the carousel.",
-      "Cost": 75,
-      "Augments": [
-        "Spectrosiphon"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Gara",
-      "Key": 3,
-      "CardImage": "SpectrorageModx256.png",
-      "Name": "Spectrorage",
-      "Introduced": "22",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
-      "Preview": "SpectroragePreview.webm",
-      "PreviewFallback": "SpectroragePreview.jpg",
-      "Icon": "Spectrorage130xWhite.png"
-    },
     "Wil-O-Wisp": {
       "Description": "Cast forward a spectral image of Wisp to confuse and distract enemies. Reactivate to travel to its position. Hold to have the image travel faster and teleport to its position on release. ",
       "Cost": 35,
@@ -3133,6 +3165,36 @@
       "Preview": "Wil-O-WispPreview.webm",
       "PreviewFallback": "Wil-O-WispPreview.jpg",
       "Icon": "WilOWisp130xWhite.png"
+    },
+    "Teleport (Stalker)": {
+      "Description": "Teleport to a target and perform a finisher. If the finisher kills the target, Stalker regains a portion of the energy spent.",
+      "Cost": 25,
+      "Powersuit": "Stalker",
+      "Key": 1,
+      "CardImage": "TeleportModx256.png",
+      "Name": "Teleport (Stalker)",
+      "Introduced": "33",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/StalkerTeleportToAbility",
+      "Preview": "TeleportPreview.webm",
+      "PreviewFallback": "TeleportPreview.jpg",
+      "Icon": "Teleport130xWhite.png"
+    },
+    "Whipclaw": {
+      "Description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw.",
+      "Cost": 25,
+      "Augments": [
+        "Accumulating Whipclaw"
+      ],
+      "Icon": "Whipclaw130xWhite.png",
+      "Powersuit": "Khora",
+      "Key": 1,
+      "CardImage": "WhipclawModx256.png",
+      "Name": "Whipclaw",
+      "Introduced": "22.18",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
+      "Preview": "WhipclawPreview.webm",
+      "PreviewFallback": "WhipclawPreview.jpg",
+      "Weapon": "Whipclaw"
     },
     "Catalyze": {
       "Description": "Catalyst Probes erupt from Lavos and douse combatants in a fiery gel. Damage is doubled for each element afflicting an enemy.\r\n\r\nHold to imbue the next ability cast with <DT_FIRE_COLOR>Heat.",
@@ -3148,22 +3210,20 @@
       "PreviewFallback": "CatalyzePreview.jpg",
       "CostType": "time"
     },
-    "Terrify": {
-      "Description": "Cast fear into the hearts of nearby enemies, causing them to run away in terror.",
-      "Cost": 75,
-      "Augments": [
-        "Creeping Terrify"
-      ],
+    "Vial Rush": {
+      "Description": "Dash forward, crashing through enemies and leaving an icy trail of broken vials.\r\n\r\nHold to imbue the next ability cast with <DT_FREEZE_COLOR>Cold.",
+      "Cost": 5,
       "Subsumable": true,
-      "Powersuit": "Nekros",
+      "Powersuit": "Lavos",
       "Key": 2,
-      "CardImage": "TerrifyModx256.png",
-      "Name": "Terrify",
-      "Introduced": "10",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
-      "Preview": "TerrifyPreview.webm",
-      "PreviewFallback": "TerrifyPreview.jpg",
-      "Icon": "Terrify130xWhite.png"
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+      "CardImage": "VialRushModx256.png",
+      "Name": "Vial Rush",
+      "Introduced": "29.6",
+      "Icon": "VialRush130xWhite.png",
+      "Preview": "VialRushPreview.webm",
+      "PreviewFallback": "VialRushPreview.jpg",
+      "CostType": "time"
     },
     "Repel": {
       "Description": "The Warframe emits a massive pulse of energy, stunning nearby enemies and sending them flying.",
@@ -3211,36 +3271,6 @@
       "PreviewFallback": "PrimalFuryPreview.jpg",
       "Weapon": "Iron Staff"
     },
-    "Whipclaw": {
-      "Description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw.",
-      "Cost": 25,
-      "Augments": [
-        "Accumulating Whipclaw"
-      ],
-      "Icon": "Whipclaw130xWhite.png",
-      "Powersuit": "Khora",
-      "Key": 1,
-      "CardImage": "WhipclawModx256.png",
-      "Name": "Whipclaw",
-      "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
-      "Preview": "WhipclawPreview.webm",
-      "PreviewFallback": "WhipclawPreview.jpg",
-      "Weapon": "Whipclaw"
-    },
-    "Voracious Metastasis": {
-      "Description": "Consume Energy to heal yourself and grant matching Energy to each ally.",
-      "Cost": 50,
-      "Subsumable": true,
-      "Powersuit": "Helminth",
-      "CardImage": "VoraciousMetastasis130xWhite.png",
-      "Name": "Voracious Metastasis",
-      "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthEnergyShareAbility",
-      "Preview": "VoraciousMetastasisPreview.webm",
-      "PreviewFallback": "VoraciousMetastasisPreview.jpg",
-      "Icon": "VoraciousMetastasis130xWhite.png"
-    },
     "Webbed Embrace": {
       "Description": "Oraxia throws a creeping web to ensnare her prey. Enemies caught within the widening radius are trapped inside a cocoon that increases their Damage Vulnerability.",
       "Cost": 50,
@@ -3254,20 +3284,6 @@
       "Preview": "WebbedEmbracePreview.webm",
       "PreviewFallback": "WebbedEmbracePreview.jpg",
       "Icon": "WebbedEmbrace.png"
-    },
-    "Exalted Shadow": {
-      "Description": "When the Death Well fills, Sevagoth's Shadow form is ready to be released. Tear the enemy asunder with a collection of melee-focused abilities. ",
-      "Cost": 0,
-      "Icon": "ExaltedShadow130xWhite.png",
-      "Powersuit": "Sevagoth",
-      "Key": 4,
-      "CardImage": "ExaltedShadowModx256.png",
-      "Name": "Exalted Shadow",
-      "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
-      "Preview": "ExaltedShadowPreview.webm",
-      "PreviewFallback": "ExaltedShadowPreview.jpg",
-      "Weapon": "Shadow Claws"
     },
     "Watchful Swarm": {
       "Description": "Tiny drones orbit the Warframe or an ally, and intercept enemy fire.",
@@ -3295,6 +3311,20 @@
       "PreviewFallback": "WarheadPreview.jpg",
       "Icon": "WarheadIcon.png"
     },
+    "Exalted Shadow": {
+      "Description": "When the Death Well fills, Sevagoth's Shadow form is ready to be released. Tear the enemy asunder with a collection of melee-focused abilities. ",
+      "Cost": 0,
+      "Icon": "ExaltedShadow130xWhite.png",
+      "Powersuit": "Sevagoth",
+      "Key": 4,
+      "CardImage": "ExaltedShadowModx256.png",
+      "Name": "Exalted Shadow",
+      "Introduced": "30",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+      "Preview": "ExaltedShadowPreview.webm",
+      "PreviewFallback": "ExaltedShadowPreview.jpg",
+      "Weapon": "Shadow Claws"
+    },
     "Warding Grace": {
       "Description": "Renders the Warframe and nearby allies immune to Status Effects, while slowing nearby enemies.",
       "Cost": 75,
@@ -3307,22 +3337,6 @@
       "Preview": "WardingGracePreview.webm",
       "PreviewFallback": "WardingGracePreview.jpg",
       "Icon": "WardingGrace.png"
-    },
-    "Prismatic Gem": {
-      "Description": "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
-      "Cost": 75,
-      "Augments": [
-        "Prismatic Companion"
-      ],
-      "Powersuit": "Citrine",
-      "Key": 3,
-      "CardImage": "PrismaticGemModx256.png",
-      "Name": "Prismatic Gem",
-      "Introduced": "32.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GeodeCrystalAbility",
-      "Preview": "PrismaticGemPreview.webm",
-      "PreviewFallback": "PrismaticGemPreview.jpg",
-      "Icon": "PrismaticGem130xWhite.png"
     },
     "Null Star": {
       "Description": "Creates antimatter particles that orbit Nova and attack nearby targets. Each active particle reduces damage to Nova's Health and Shields.",
@@ -3341,22 +3355,34 @@
       "PreviewFallback": "NullStarPreview.jpg",
       "Icon": "NullStar130xWhite.png"
     },
-    "Well of Life": {
-      "Description": "Create a well of life on an enemy who will absorb Status Effect damage intended for nearby allies. Allies gain additional Health when they attack the target. If allies die, enemies in the well of life die in their stead.",
-      "Cost": 25,
-      "Augments": [
-        "Pool of Life"
-      ],
+    "Voracious Metastasis": {
+      "Description": "Consume Energy to heal yourself and grant matching Energy to each ally.",
+      "Cost": 50,
       "Subsumable": true,
-      "Powersuit": "Trinity",
-      "Key": 1,
-      "CardImage": "WellOfLifeModx256.png",
-      "Name": "Well of Life",
-      "Introduced": "4",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
-      "Preview": "WellOfLifePreview.webm",
-      "PreviewFallback": "WellOfLifePreview.jpg",
-      "Icon": "WellOfLife130xWhite.png"
+      "Powersuit": "Helminth",
+      "CardImage": "VoraciousMetastasis130xWhite.png",
+      "Name": "Voracious Metastasis",
+      "Introduced": "30.5",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthEnergyShareAbility",
+      "Preview": "VoraciousMetastasisPreview.webm",
+      "PreviewFallback": "VoraciousMetastasisPreview.jpg",
+      "Icon": "VoraciousMetastasis130xWhite.png"
+    },
+    "Prismatic Gem": {
+      "Description": "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
+      "Cost": 75,
+      "Augments": [
+        "Prismatic Companion"
+      ],
+      "Powersuit": "Citrine",
+      "Key": 3,
+      "CardImage": "PrismaticGemModx256.png",
+      "Name": "Prismatic Gem",
+      "Introduced": "32.3",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GeodeCrystalAbility",
+      "Preview": "PrismaticGemPreview.webm",
+      "PreviewFallback": "PrismaticGemPreview.jpg",
+      "Icon": "PrismaticGem130xWhite.png"
     },
     "Virulence": {
       "Description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes. For every five enemies hit, the Infestation mutates, multiplying its destructive force.",
@@ -3374,34 +3400,22 @@
       "PreviewFallback": "VirulencePreview.jpg",
       "Icon": "Virulence130xWhite.png"
     },
-    "Blood Altar": {
-      "Description": "Impale an enemy on an altar of talons and siphon health for Garuda and her allies.",
-      "Cost": 50,
+    "Well of Life": {
+      "Description": "Create a well of life on an enemy who will absorb Status Effect damage intended for nearby allies. Allies gain additional Health when they attack the target. If allies die, enemies in the well of life die in their stead.",
+      "Cost": 25,
+      "Augments": [
+        "Pool of Life"
+      ],
       "Subsumable": true,
-      "Powersuit": "Garuda",
-      "Key": 2,
-      "CardImage": "BloodAltarModx256.png",
-      "Name": "Blood Altar",
-      "Introduced": "24",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
-      "Preview": "BloodAltarPreview.webm",
-      "PreviewFallback": "BloodAltarPreview.jpg",
-      "Icon": "BloodAltar130xWhite.png"
-    },
-    "Vial Rush": {
-      "Description": "Dash forward, crashing through enemies and leaving an icy trail of broken vials.\r\n\r\nHold to imbue the next ability cast with <DT_FREEZE_COLOR>Cold.",
-      "Cost": 5,
-      "Subsumable": true,
-      "Powersuit": "Lavos",
-      "Key": 2,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
-      "CardImage": "VialRushModx256.png",
-      "Name": "Vial Rush",
-      "Introduced": "29.6",
-      "Icon": "VialRush130xWhite.png",
-      "Preview": "VialRushPreview.webm",
-      "PreviewFallback": "VialRushPreview.jpg",
-      "CostType": "time"
+      "Powersuit": "Trinity",
+      "Key": 1,
+      "CardImage": "WellOfLifeModx256.png",
+      "Name": "Well of Life",
+      "Introduced": "4",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
+      "Preview": "WellOfLifePreview.webm",
+      "PreviewFallback": "WellOfLifePreview.jpg",
+      "Icon": "WellOfLife130xWhite.png"
     },
     "Vex Armor": {
       "Description": "Chroma fortifies squad Armor when his Shields are damaged or he kills an enemy with a melee weapon. He increases squad Weapon Damage when he loses Health or he kills an enemy with a ranged weapon, double the effect on weak point kills.",
@@ -3420,6 +3434,49 @@
       "PreviewFallback": "VexArmorPreview.jpg",
       "Icon": "VexArmor130xWhite.png"
     },
+    "Blood Altar": {
+      "Description": "Impale an enemy on an altar of talons and siphon health for Garuda and her allies.",
+      "Cost": 50,
+      "Subsumable": true,
+      "Powersuit": "Garuda",
+      "Key": 2,
+      "CardImage": "BloodAltarModx256.png",
+      "Name": "Blood Altar",
+      "Introduced": "24",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
+      "Preview": "BloodAltarPreview.webm",
+      "PreviewFallback": "BloodAltarPreview.jpg",
+      "Icon": "BloodAltar130xWhite.png"
+    },
+    "Vengeful Rush": {
+      "Description": "All damage taken is transformed into Energy, while abilities gain enhanced Range, Duration and Power. Affects the Warframe and nearby allies.",
+      "Cost": 100,
+      "Powersuit": "Amesha",
+      "Key": 4,
+      "CardImage": "VengefulRushMod.png",
+      "Name": "Vengeful Rush",
+      "Introduced": "Specters of the Rail 0.0",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
+      "Preview": "VengefulRushPreview.webm",
+      "PreviewFallback": "VengefulRushPreview.jpg",
+      "Icon": "VengefulRush.png"
+    },
+    "Venari": {
+      "Description": "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
+      "Cost": 0,
+      "Augments": [
+        "Venari Bodyguard"
+      ],
+      "Powersuit": "Khora",
+      "Key": 3,
+      "CardImage": "VenariModx256.png",
+      "Name": "Venari",
+      "Introduced": "22.18",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraKavatAbility",
+      "Preview": "VenariPreview.webm",
+      "PreviewFallback": "VenariPreview.jpg",
+      "Icon": "Venari130xWhite.png"
+    },
     "Paralysis": {
       "Description": "Unleash a damaging blast, slowing its victims while increasing their Melee Damage Vulnerability.",
       "Cost": 25,
@@ -3436,18 +3493,21 @@
       "PreviewFallback": "ParalysisPreview.jpg",
       "Icon": "Paralysis130xWhite.png"
     },
-    "Vengeful Rush": {
-      "Description": "All damage taken is transformed into Energy, while abilities gain enhanced Range, Duration and Power. Affects the Warframe and nearby allies.",
-      "Cost": 100,
-      "Powersuit": "Amesha",
-      "Key": 4,
-      "CardImage": "VengefulRushMod.png",
-      "Name": "Vengeful Rush",
-      "Introduced": "Specters of the Rail 0.0",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
-      "Preview": "VengefulRushPreview.webm",
-      "PreviewFallback": "VengefulRushPreview.jpg",
-      "Icon": "VengefulRush.png"
+    "Undertow": {
+      "Description": "Become a water trap and drown unsuspecting enemies.",
+      "Cost": 15,
+      "Augments": [
+        "Curative Undertow"
+      ],
+      "Powersuit": "Hydroid",
+      "Key": 3,
+      "CardImage": "UndertowModx256.png",
+      "Name": "Undertow",
+      "Introduced": "13",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LiquifyAbility",
+      "Preview": "UndertowPreview.webm",
+      "PreviewFallback": "UndertowPreview.jpg",
+      "Icon": "Undertow130xWhite.png"
     },
     "Blaze Artillery": {
       "Description": "Deploys an artillery unit to blast plasma charges at enemies it faces. Each enemy hit increases the power of subsequent plasma attacks.",
@@ -3465,21 +3525,21 @@
       "PreviewFallback": "BlazeArtilleryPreview.jpg",
       "Icon": "BlazeArtillery130xWhite.png"
     },
-    "Venari": {
-      "Description": "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
-      "Cost": 0,
+    "Ulfrun's Descent": {
+      "Description": "(TAP) Voruna drops to all fours and prepares 5 brutal charges that lock onto enemies. Ulfrun, the most powerful wolf, leads the attack as Voruna dashes toward her target. The pack deals increased damage to targets and nearby enemies that are inflicted by Status Effects. Lethal attacks double the damage of Voruna's remaining charges.\r\n\r\n(HOLD) Ulfrun guards Voruna. If Voruna falls during this time, Ulfrun dies in her place.",
+      "Cost": 100,
       "Augments": [
-        "Venari Bodyguard"
+        "Ulfrun's Endurance"
       ],
-      "Powersuit": "Khora",
-      "Key": 3,
-      "CardImage": "VenariModx256.png",
-      "Name": "Venari",
-      "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraKavatAbility",
-      "Preview": "VenariPreview.webm",
-      "PreviewFallback": "VenariPreview.jpg",
-      "Icon": "Venari130xWhite.png"
+      "Powersuit": "Voruna",
+      "Key": 4,
+      "CardImage": "Ulfrun'sDescent.png",
+      "Name": "Ulfrun's Descent",
+      "Introduced": "32.2",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfHowlAbility",
+      "Preview": "Ulfrun'sDescentPreview.webm",
+      "PreviewFallback": "Ulfrun'sDescentPreview.jpg",
+      "Icon": "Ulfrun'sDescentIcon.png"
     },
     "Redline": {
       "Description": "Push Gauss' battery beyond the redline, supercharging his Abilities and setting Fire Rate, Attack Speed, Reload Speed, and Casting Speed into overdrive. When past the redline, bolts of arcing electricity dance periodically from Gauss, exploding en masse when the ability is deactivated.",
@@ -3507,38 +3567,6 @@
       "Preview": "Lycath'sHuntPreview.webm",
       "PreviewFallback": "Lycath'sHuntPreview.jpg",
       "Icon": "Lycath'sHuntIcon.png"
-    },
-    "Undertow": {
-      "Description": "Become a water trap and drown unsuspecting enemies.",
-      "Cost": 15,
-      "Augments": [
-        "Curative Undertow"
-      ],
-      "Powersuit": "Hydroid",
-      "Key": 3,
-      "CardImage": "UndertowModx256.png",
-      "Name": "Undertow",
-      "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LiquifyAbility",
-      "Preview": "UndertowPreview.webm",
-      "PreviewFallback": "UndertowPreview.jpg",
-      "Icon": "Undertow130xWhite.png"
-    },
-    "Ulfrun's Descent": {
-      "Description": "(TAP) Voruna drops to all fours and prepares 5 brutal charges that lock onto enemies. Ulfrun, the most powerful wolf, leads the attack as Voruna dashes toward her target. The pack deals increased damage to targets and nearby enemies that are inflicted by Status Effects. Lethal attacks double the damage of Voruna's remaining charges.\r\n\r\n(HOLD) Ulfrun guards Voruna. If Voruna falls during this time, Ulfrun dies in her place.",
-      "Cost": 100,
-      "Augments": [
-        "Ulfrun's Endurance"
-      ],
-      "Powersuit": "Voruna",
-      "Key": 4,
-      "CardImage": "Ulfrun'sDescent.png",
-      "Name": "Ulfrun's Descent",
-      "Introduced": "32.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfHowlAbility",
-      "Preview": "Ulfrun'sDescentPreview.webm",
-      "PreviewFallback": "Ulfrun'sDescentPreview.jpg",
-      "Icon": "Ulfrun'sDescentIcon.png"
     },
     "Turbulence": {
       "Description": "Creates a wind shield around Zephyr, redirecting all incoming projectiles.",
@@ -3595,6 +3623,35 @@
       "Icon": "Transference.png",
       "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OperatorTransferenceAbility"
     },
+    "Tornado": {
+      "Description": "Create deadly tornadoes that seek out and engulf enemies. Tornadoes deal the elemental Damage Type they absorb the most. Shoot engulfed enemies to inflict extra damage. Hold for stationary tornadoes or tap for wandering ones.",
+      "Cost": 100,
+      "Augments": [
+        "Funnel Clouds"
+      ],
+      "Powersuit": "Zephyr",
+      "Key": 4,
+      "CardImage": "TornadoModx256.png",
+      "Name": "Tornado",
+      "Introduced": "12",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TornadoAbility",
+      "Preview": "TornadoPreview.webm",
+      "PreviewFallback": "TornadoPreview.jpg",
+      "Icon": "Tornado130xWhite.png"
+    },
+    "Ripper's Wail": {
+      "Description": "Rip on the guitar to make Temple briefly invulnerable while healing them. Ally\u2019s weapons in <AFFINITY_SHARE>Affinity Range are lit-up with extra <DT_FIRE_COLOR>Heat Damage each time an ability is used on the Backbeat and successfully hits enemies.\r\n\r\nBackbeat Timing: Invulnerability lasts longer.",
+      "Cost": 50,
+      "Powersuit": "Temple",
+      "Key": 3,
+      "CardImage": "Ripper'sWail.png",
+      "Name": "Ripper's Wail",
+      "Introduced": "38.5",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+      "Preview": "Ripper'sWailPreview.webm",
+      "PreviewFallback": "Ripper'sWailPreview.jpg",
+      "Icon": "Ripper'sWail.png"
+    },
     "Golden Instinct": {
       "Description": "Send out a short-lived Void Spark that is drawn toward the nearest Medallion, Ayatan Sculpture, rare crate, unscanned Kuria or unscanned Fragment.",
       "Cost": 50,
@@ -3621,35 +3678,6 @@
       "Preview": "PanelPreview.webm",
       "PreviewFallback": "PanelPreview.jpg",
       "CostType": "time"
-    },
-    "Mercy's Kiss": {
-      "Description": "Leap onto an enemy and pierce them with Oraxia\u2019s spider legs, dealing <DT_POISON_COLOR>Toxin Damage. Enemies defeated by this attack have a chance to drop Health or Energy Orbs.",
-      "Cost": 25,
-      "Powersuit": "Oraxia",
-      "Key": 1,
-      "CardImage": "Mercy'sKiss.png",
-      "Name": "Mercy's Kiss",
-      "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
-      "Preview": "Mercy'sKissPreview.webm",
-      "PreviewFallback": "Mercy'sKissPreview.jpg",
-      "Icon": "Mercy'sKiss.png"
-    },
-    "Tornado": {
-      "Description": "Create deadly tornadoes that seek out and engulf enemies. Tornadoes deal the elemental Damage Type they absorb the most. Shoot engulfed enemies to inflict extra damage. Hold for stationary tornadoes or tap for wandering ones.",
-      "Cost": 100,
-      "Augments": [
-        "Funnel Clouds"
-      ],
-      "Powersuit": "Zephyr",
-      "Key": 4,
-      "CardImage": "TornadoModx256.png",
-      "Name": "Tornado",
-      "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TornadoAbility",
-      "Preview": "TornadoPreview.webm",
-      "PreviewFallback": "TornadoPreview.jpg",
-      "Icon": "Tornado130xWhite.png"
     },
     "Tidal Surge": {
       "Description": "Crash through enemies in a ferocious wall of water.",
@@ -3683,23 +3711,6 @@
       "PreviewFallback": "ThuriblePreview.jpg",
       "Icon": "Thurible130xWhite.png"
     },
-    "Tempest Barrage": {
-      "Description": "Summon a tempest to rain down upon a target area.",
-      "Cost": 25,
-      "Augments": [
-        "Viral Tempest"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Hydroid",
-      "Key": 1,
-      "CardImage": "TempestBarrageModx256.png",
-      "Name": "Tempest Barrage",
-      "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
-      "Preview": "TempestBarragePreview.webm",
-      "PreviewFallback": "TempestBarragePreview.jpg",
-      "Icon": "TempestBarrage130xWhite.png"
-    },
     "Thumper": {
       "Description": "Creates a localized storm of punishing explosions.",
       "Cost": 75,
@@ -3731,6 +3742,55 @@
       "PreviewFallback": "ThermalSunderPreview.jpg",
       "Icon": "ThermalSunder130xWhite.png"
     },
+    "Tempest Barrage": {
+      "Description": "Summon a tempest to rain down upon a target area.",
+      "Cost": 25,
+      "Augments": [
+        "Viral Tempest"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Hydroid",
+      "Key": 1,
+      "CardImage": "TempestBarrageModx256.png",
+      "Name": "Tempest Barrage",
+      "Introduced": "13",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
+      "Preview": "TempestBarragePreview.webm",
+      "PreviewFallback": "TempestBarragePreview.jpg",
+      "Icon": "TempestBarrage130xWhite.png"
+    },
+    "Elude": {
+      "Description": "Dodge all incoming projectiles, but only while not attacking. Use again to deactivate this ability.",
+      "Cost": 25,
+      "Augments": [
+        "Elusive Retribution"
+      ],
+      "Powersuit": "Baruuk",
+      "Key": 1,
+      "CardImage": "EludeModx256.png",
+      "Name": "Elude",
+      "Introduced": "24.2",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDodgeAbility",
+      "Preview": "EludePreview.webm",
+      "PreviewFallback": "EludePreview.jpg",
+      "Icon": "Elude130xWhite.png"
+    },
+    "Rhino Stomp": {
+      "Description": "Rhino stomps with force sufficient to disrupt time, tumbling enemies around him in stasis.",
+      "Cost": 100,
+      "Augments": [
+        "Reinforcing Stomp"
+      ],
+      "Powersuit": "Rhino",
+      "Key": 4,
+      "CardImage": "RhinoStompModx256.png",
+      "Name": "Rhino Stomp",
+      "Introduced": "Vanilla",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RhinoStompAbility",
+      "Preview": "RhinoStompPreview.webm",
+      "PreviewFallback": "RhinoStompPreview.jpg",
+      "Icon": "RhinoStomp130xWhite.png"
+    },
     "Larva": {
       "Description": "Spawn an Infested pod that erupts with tendrils, latches onto nearby enemies and pulls them in. Enemies killed while held have a chance of generating a Mutation stack.",
       "Cost": 25,
@@ -3748,21 +3808,22 @@
       "PreviewFallback": "LarvaPreview.jpg",
       "Icon": "Larva130xWhite.png"
     },
-    "Elude": {
-      "Description": "Dodge all incoming projectiles, but only while not attacking. Use again to deactivate this ability.",
+    "Tesla Nervos": {
+      "Description": "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing <DT_ELECTRICITY_COLOR> Electricity Damage to anything in the immediate area.",
       "Cost": 25,
       "Augments": [
-        "Elusive Retribution"
+        "Tesla Bank"
       ],
-      "Powersuit": "Baruuk",
+      "Subsumable": true,
+      "Powersuit": "Vauban",
       "Key": 1,
-      "CardImage": "EludeModx256.png",
-      "Name": "Elude",
-      "Introduced": "24.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDodgeAbility",
-      "Preview": "EludePreview.webm",
-      "PreviewFallback": "EludePreview.jpg",
-      "Icon": "Elude130xWhite.png"
+      "CardImage": "TeslaNervosModx256.png",
+      "Name": "Tesla Nervos",
+      "Introduced": "26",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
+      "Preview": "TeslaNervosPreview.webm",
+      "PreviewFallback": "TeslaNervosPreview.jpg",
+      "Icon": "TeslaNervos130xWhite.png"
     },
     "Hysteria": {
       "Description": "Valkyr bares her deadly claws, unleashing devastating attacks that also heal her. Valkyr becomes immune to Status Effects and her Armor bonus from Warcry is multiplied while using the claws.",
@@ -3782,52 +3843,22 @@
       "PreviewFallback": "HysteriaPreview.jpg",
       "Weapon": "Valkyr Talons"
     },
-    "Shock": {
-      "Description": "Launch a voltaic projectile that stuns and damages its target. A chain of electricity extends from the target to shock nearby enemies.",
-      "Cost": 15,
+    "Terrify": {
+      "Description": "Cast fear into the hearts of nearby enemies, causing them to run away in terror.",
+      "Cost": 75,
       "Augments": [
-        "Shock Trooper"
+        "Creeping Terrify"
       ],
       "Subsumable": true,
-      "Powersuit": "Volt",
-      "Key": 1,
-      "CardImage": "ShockModx256.png",
-      "Name": "Shock",
-      "Introduced": "5.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShockAbility",
-      "Preview": "ShockPreview.webm",
-      "PreviewFallback": "ShockPreview.jpg",
-      "Icon": "Shock130xWhite.png"
-    },
-    "Tesla Nervos": {
-      "Description": "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing <DT_ELECTRICITY_COLOR> Electricity Damage to anything in the immediate area.",
-      "Cost": 25,
-      "Augments": [
-        "Tesla Bank"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Vauban",
-      "Key": 1,
-      "CardImage": "TeslaNervosModx256.png",
-      "Name": "Tesla Nervos",
-      "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
-      "Preview": "TeslaNervosPreview.webm",
-      "PreviewFallback": "TeslaNervosPreview.jpg",
-      "Icon": "TeslaNervos130xWhite.png"
-    },
-    "Widow's Brood": {
-      "Description": "Oraxia launches a barrage of stinging darts in front of her that applies <DT_POISON_COLOR> Toxin Status Effect. Poisoned enemies spawn Scuttlers when killed.",
-      "Cost": 50,
-      "Powersuit": "Oraxia",
-      "Key": 3,
-      "CardImage": "Widow'sBrood.png",
-      "Name": "Widow's Brood",
-      "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
-      "Preview": "Widow'sBroodPreview.webm",
-      "PreviewFallback": "Widow'sBroodPreview.jpg",
-      "Icon": "Widow'sBrood.png"
+      "Powersuit": "Nekros",
+      "Key": 2,
+      "CardImage": "TerrifyModx256.png",
+      "Name": "Terrify",
+      "Introduced": "10",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
+      "Preview": "TerrifyPreview.webm",
+      "PreviewFallback": "TerrifyPreview.jpg",
+      "Icon": "Terrify130xWhite.png"
     },
     "Teleport": {
       "Description": "Teleport to a target and perform a Finisher. If the finisher kills the target, Ash regains a portion of the energy spent.",
@@ -3845,18 +3876,18 @@
       "PreviewFallback": "TeleportPreview.jpg",
       "Icon": "Teleport130xWhite.png"
     },
-    "Teleport (Stalker)": {
-      "Description": "Teleport to a target and perform a finisher. If the finisher kills the target, Stalker regains a portion of the energy spent.",
-      "Cost": 25,
-      "Powersuit": "Stalker",
-      "Key": 1,
-      "CardImage": "TeleportModx256.png",
-      "Name": "Teleport (Stalker)",
-      "Introduced": "33",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/StalkerTeleportToAbility",
-      "Preview": "TeleportPreview.webm",
-      "PreviewFallback": "TeleportPreview.jpg",
-      "Icon": "Teleport130xWhite.png"
+    "Widow's Brood": {
+      "Description": "Oraxia launches a barrage of stinging darts in front of her that applies <DT_POISON_COLOR> Toxin Status Effect. Poisoned enemies spawn Scuttlers when killed.",
+      "Cost": 50,
+      "Powersuit": "Oraxia",
+      "Key": 3,
+      "CardImage": "Widow'sBrood.png",
+      "Name": "Widow's Brood",
+      "Introduced": "39",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+      "Preview": "Widow'sBroodPreview.webm",
+      "PreviewFallback": "Widow'sBroodPreview.jpg",
+      "Icon": "Widow'sBrood.png"
     },
     "Tectonics": {
       "Description": "Summon a Bulwark rock-wall, activate again to send the rocks crashing toward the enemy. Bulwarks attacked by enemies release an area-of-effect Slash powered by the Health it has lost.",
@@ -3873,6 +3904,35 @@
       "Preview": "TectonicsPreview.webm",
       "PreviewFallback": "TectonicsPreview.jpg",
       "Icon": "Tectonics130xWhite.png"
+    },
+    "Tail Wind": {
+      "Description": "Hold while airborne to hover Zephyr with reduced movement. From the air, tap to dash forward, or aim down to dive bomb enemies below.",
+      "Cost": 25,
+      "Augments": [
+        "Target Fixation"
+      ],
+      "Powersuit": "Zephyr",
+      "Key": 1,
+      "CardImage": "TailWindModx256.png",
+      "Name": "Tail Wind",
+      "Introduced": "12",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TailWindAbility",
+      "Preview": "TailWindPreview.webm",
+      "PreviewFallback": "TailWindPreview.jpg",
+      "Icon": "TailWind130xWhite.png"
+    },
+    "Sickening Pulse": {
+      "Description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies, except <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat, and <DT_POISON_COLOR>Toxin effects which are duplicated with fresh timers.",
+      "Cost": 50,
+      "Subsumable": true,
+      "Powersuit": "Helminth",
+      "CardImage": "SickeningPulse130xWhite.png",
+      "Name": "Sickening Pulse",
+      "Introduced": "30.5",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
+      "Preview": "SickeningPulsePreview.webm",
+      "PreviewFallback": "SickeningPulsePreview.jpg",
+      "Icon": "SickeningPulse130xWhite.png"
     },
     "Mach Rush": {
       "Description": "Burst into a hyper-sprint bowling over enemies and charging the battery. Crashing into solid objects generates a powerful shockwave. Hold to rush continuously.",
@@ -3906,52 +3966,6 @@
       "PreviewFallback": "AntimatterDropPreview.jpg",
       "Icon": "AntimatterDrop130xWhite.png"
     },
-    "Tail Wind": {
-      "Description": "Hold while airborne to hover Zephyr with reduced movement. From the air, tap to dash forward, or aim down to dive bomb enemies below.",
-      "Cost": 25,
-      "Augments": [
-        "Target Fixation"
-      ],
-      "Powersuit": "Zephyr",
-      "Key": 1,
-      "CardImage": "TailWindModx256.png",
-      "Name": "Tail Wind",
-      "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TailWindAbility",
-      "Preview": "TailWindPreview.webm",
-      "PreviewFallback": "TailWindPreview.jpg",
-      "Icon": "TailWind130xWhite.png"
-    },
-    "Polarize": {
-      "Description": "Emit an energy pulse that depletes enemy shields and armor as it restores ally shields. Debris left over from the pulse becomes Polarize Shards. Nearby Polarize Shards orbit Mag and cut enemies, inflicting <DT_SLASH_COLOR>Slash Status Effect.",
-      "Cost": 75,
-      "Augments": [
-        "Counter Pulse"
-      ],
-      "Powersuit": "Mag",
-      "Key": 3,
-      "CardImage": "PolarizeModx256.png",
-      "Name": "Polarize",
-      "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
-      "Preview": "PolarizePreview.webm",
-      "PreviewFallback": "PolarizePreview.jpg",
-      "Icon": "Polarize130xWhite.png"
-    },
-    "Smoke Screen (Drifter)": {
-      "Description": "",
-      "Cost": 30,
-      "Powersuit": "Drifter",
-      "Key": 2,
-      "InternalName": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTossAbility",
-      "CardImage": "SmokeScreen(Drifter)130xWhite.png",
-      "Name": "Smoke Screen",
-      "Introduced": "31",
-      "Icon": "SmokeScreen(Drifter)130xWhite.png",
-      "Preview": "SmokeScreen(Drifter)Preview.webm",
-      "PreviewFallback": "SmokeScreen(Drifter)Preview.jpg",
-      "CostType": "time"
-    },
     "Switch Teleport": {
       "Description": "Loki instantaneously swaps positions with a target, confusing the enemy.",
       "Cost": 25,
@@ -3967,6 +3981,52 @@
       "Preview": "SwitchTeleportPreview.webm",
       "PreviewFallback": "SwitchTeleportPreview.jpg",
       "Icon": "SwitchTeleport130xWhite.png"
+    },
+    "Strangledome": {
+      "Description": "Weave a dome of living chain that ensnares and strangles any enemy within, and any foolish enough to approach. Foes outside the trap will try to hasten their comrade's deaths by shooting them. Crack Whipclaw on the dome to further damage any trapped enemies.",
+      "Cost": 100,
+      "Augments": [
+        "Pilfering Strangledome"
+      ],
+      "Powersuit": "Khora",
+      "Key": 4,
+      "CardImage": "StrangledomeModx256.png",
+      "Name": "Strangledome",
+      "Introduced": "22.18",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCageAbility",
+      "Preview": "StrangledomePreview.webm",
+      "PreviewFallback": "StrangledomePreview.jpg",
+      "Icon": "Strangledome130xWhite.png"
+    },
+    "Smoke Screen (Drifter)": {
+      "Description": "",
+      "Cost": 30,
+      "Powersuit": "Drifter",
+      "Key": 2,
+      "InternalName": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTossAbility",
+      "CardImage": "SmokeScreen(Drifter)130xWhite.png",
+      "Name": "Smoke Screen",
+      "Introduced": "31",
+      "Icon": "SmokeScreen(Drifter)130xWhite.png",
+      "Preview": "SmokeScreen(Drifter)Preview.webm",
+      "PreviewFallback": "SmokeScreen(Drifter)Preview.jpg",
+      "CostType": "time"
+    },
+    "Storm of Ukko": {
+      "Description": "The Void answers Kullervo's invocation with a storm of daggers that rain down upon his enemies.",
+      "Cost": 100,
+      "Augments": [
+        "Wrath of Ukko"
+      ],
+      "Powersuit": "Kullervo",
+      "Key": 4,
+      "CardImage": "StormofUkko.png",
+      "Name": "Storm of Ukko",
+      "Introduced": "33.5",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxFieldAbility",
+      "Preview": "StormofUkkoPreview.webm",
+      "PreviewFallback": "StormofUkkoPreview.jpg",
+      "Icon": "StormofUkkoIcon.png"
     },
     "Splinter Storm": {
       "Description": "Gara's armor splinters into a maelstrom of shattered glass. Allies who contact the cloud are fortified against damage.",
@@ -3984,21 +4044,18 @@
       "PreviewFallback": "SplinterStormPreview.jpg",
       "Icon": "SplinterStorm130xWhite.png"
     },
-    "Strangledome": {
-      "Description": "Weave a dome of living chain that ensnares and strangles any enemy within, and any foolish enough to approach. Foes outside the trap will try to hasten their comrade's deaths by shooting them. Crack Whipclaw on the dome to further damage any trapped enemies.",
-      "Cost": 100,
-      "Augments": [
-        "Pilfering Strangledome"
-      ],
-      "Powersuit": "Khora",
-      "Key": 4,
-      "CardImage": "StrangledomeModx256.png",
-      "Name": "Strangledome",
-      "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCageAbility",
-      "Preview": "StrangledomePreview.webm",
-      "PreviewFallback": "StrangledomePreview.jpg",
-      "Icon": "Strangledome130xWhite.png"
+    "Stinkbrain": {
+      "Description": "Throw a mushroom that periodically sheds poisonous spores, inflicting <DT_VIRAL_COLOR> Viral Damage and Status Effect upon nearby enemies while also lulling them to sleep.",
+      "Cost": 25,
+      "Powersuit": "Nokko",
+      "Key": 1,
+      "CardImage": "Stinkbrain.png",
+      "Name": "Stinkbrain",
+      "Introduced": "40",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoToxicShroomAbility",
+      "Preview": "StinkbrainPreview.webm",
+      "PreviewFallback": "StinkbrainPreview.jpg",
+      "Icon": "Stinkbrain.png"
     },
     "Reave": {
       "Description": "Dash through enemies as a wall of sentient energy, leeching shields and health from any encountered, enhanced for thralls.",
@@ -4017,21 +4074,19 @@
       "PreviewFallback": "ReavePreview.jpg",
       "Icon": "Reave130xWhite.png"
     },
-    "Storm of Ukko": {
-      "Description": "The Void answers Kullervo's invocation with a storm of daggers that rain down upon his enemies.",
-      "Cost": 100,
-      "Augments": [
-        "Wrath of Ukko"
-      ],
-      "Powersuit": "Kullervo",
+    "Steadfast Dismount": {
+      "Description": "While riding a Kaithe, press 4 to dismount and gain 150 [[Overguard]]. 150 second cooldown between uses.\t",
+      "Cost": 150,
+      "Powersuit": "Kaithe",
       "Key": 4,
-      "CardImage": "StormofUkko.png",
-      "Name": "Storm of Ukko",
-      "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxFieldAbility",
-      "Preview": "StormofUkkoPreview.webm",
-      "PreviewFallback": "StormofUkkoPreview.jpg",
-      "Icon": "StormofUkkoIcon.png"
+      "InternalName": "",
+      "CardImage": "SteadfastDismount(Drifter)130xWhite.png",
+      "Name": "Steadfast Dismount",
+      "Introduced": "33",
+      "Icon": "SteadfastDismount(Drifter)130xWhite.png",
+      "Preview": "SteadfastDismount(Drifter)Preview.webm",
+      "PreviewFallback": "SteadfastDismount(Drifter)Preview.jpg",
+      "CostType": "time"
     },
     "Silken Stride": {
       "Description": "Unfurl Oraxia\u2019s spider legs and go on the prowl. Oraxia is immune to Status Effects and has increased Maximum Health. Ranged Weapons are imbued with <DT_POISON_COLOR> Toxin Damage. Killing enemies causes them to burst with <DT_POISON_COLOR>Toxin.\r\n\r\nSilken Thread: Tap Dodge to leap to a targeted surface.",
@@ -4046,18 +4101,18 @@
       "PreviewFallback": "SilkenStridePreview.jpg",
       "Icon": "SilkenStride.png"
     },
-    "Stinkbrain": {
-      "Description": "Throw a mushroom that periodically sheds poisonous spores, inflicting <DT_VIRAL_COLOR> Viral Damage and Status Effect upon nearby enemies while also lulling them to sleep.",
-      "Cost": 25,
-      "Powersuit": "Nokko",
-      "Key": 1,
-      "CardImage": "Stinkbrain.png",
-      "Name": "Stinkbrain",
-      "Introduced": "40",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoToxicShroomAbility",
-      "Preview": "StinkbrainPreview.webm",
-      "PreviewFallback": "StinkbrainPreview.jpg",
-      "Icon": "Stinkbrain.png"
+    "Stasis": {
+      "Description": "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
+      "Cost": 50,
+      "Powersuit": "Limbo",
+      "Key": 2,
+      "CardImage": "StasisModx256.png",
+      "Name": "Stasis",
+      "Introduced": "20",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MagicianStasisAbility",
+      "Preview": "StasisPreview.webm",
+      "PreviewFallback": "StasisPreview.jpg",
+      "Icon": "Stasis130xWhite.png"
     },
     "Arch Line": {
       "Description": "Launch a tethered hook that either pulls enemies close, or pulls the Warframe toward any stationary objects it hooks onto.",
@@ -4084,33 +4139,6 @@
       "Preview": "GuardModePreview.webm",
       "PreviewFallback": "GuardModePreview.jpg",
       "Icon": "NechramechArtillery.png"
-    },
-    "Steadfast Dismount": {
-      "Description": "While riding a Kaithe, press 4 to dismount and gain 150 [[Overguard]]. 150 second cooldown between uses.\t",
-      "Cost": 150,
-      "Powersuit": "Kaithe",
-      "Key": 4,
-      "InternalName": "",
-      "CardImage": "SteadfastDismount(Drifter)130xWhite.png",
-      "Name": "Steadfast Dismount",
-      "Introduced": "33",
-      "Icon": "SteadfastDismount(Drifter)130xWhite.png",
-      "Preview": "SteadfastDismount(Drifter)Preview.webm",
-      "PreviewFallback": "SteadfastDismount(Drifter)Preview.jpg",
-      "CostType": "time"
-    },
-    "Stasis": {
-      "Description": "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
-      "Cost": 50,
-      "Powersuit": "Limbo",
-      "Key": 2,
-      "CardImage": "StasisModx256.png",
-      "Name": "Stasis",
-      "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MagicianStasisAbility",
-      "Preview": "StasisPreview.webm",
-      "PreviewFallback": "StasisPreview.jpg",
-      "Icon": "Stasis130xWhite.png"
     },
     "Fire Blast": {
       "Description": "Slam the ground to create a wave of incinerating plasma that knocks back enemies and strips their armor.",
@@ -4147,6 +4175,41 @@
       "PreviewFallback": "SpellbindPreview.jpg",
       "Icon": "Spellbind130xWhite.png"
     },
+    "Spectrorage": {
+      "Description": "Trap enemies in a carousel of mirrors, forcing them to attack visions of their true selves. Destroyed mirrors damage their attackers, as does the collapse of the carousel.",
+      "Cost": 75,
+      "Augments": [
+        "Spectrosiphon"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Gara",
+      "Key": 3,
+      "CardImage": "SpectrorageModx256.png",
+      "Name": "Spectrorage",
+      "Introduced": "22",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
+      "Preview": "SpectroragePreview.webm",
+      "PreviewFallback": "SpectroragePreview.jpg",
+      "Icon": "Spectrorage130xWhite.png"
+    },
+    "Radial Blind": {
+      "Description": "Emit a bright flash of light, blinding all nearby enemies.",
+      "Cost": 50,
+      "Augments": [
+        "Radiant Finish",
+        "Signal Flare"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Excalibur",
+      "Key": 2,
+      "CardImage": "RadialBlindModx256.png",
+      "Name": "Radial Blind",
+      "Introduced": "Vanilla",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
+      "Preview": "RadialBlindPreview.webm",
+      "PreviewFallback": "RadialBlindPreview.jpg",
+      "Icon": "RadialBlind130xWhite.png"
+    },
     "Wormhole": {
       "Description": "Creates a wormhole allowing instantaneous travel. Hold the ability to visualize placement.",
       "Cost": 75,
@@ -4162,54 +4225,6 @@
       "Preview": "WormHolePreview.webm",
       "PreviewFallback": "WormHolePreview.jpg",
       "Icon": "WormHole130xWhite.png"
-    },
-    "Radial Javelin": {
-      "Description": "Radial javelins impale nearby enemies, inflicting <DT_SLASH_COLOR>Slash Status.",
-      "Cost": 75,
-      "Augments": [
-        "Furious Javelin"
-      ],
-      "Powersuit": "Excalibur",
-      "Key": 3,
-      "CardImage": "RadialJavelinModx256.png",
-      "Name": "Radial Javelin",
-      "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RadialJavelinAbility",
-      "Preview": "RadialJavelinPreview.webm",
-      "PreviewFallback": "RadialJavelinPreview.jpg",
-      "Icon": "RadialJavelin130xWhite.png"
-    },
-    "Sow": {
-      "Description": "Plant a death seed in nearby targets to drain their lifeforce. Reap what has been sown to detonate afflicted enemies, dealing a percentage of their health as radial damage. The souls of the dead fill the Death Well. ",
-      "Cost": 50,
-      "Augments": [
-        "Dark Propagation"
-      ],
-      "Powersuit": "Sevagoth",
-      "Key": 2,
-      "CardImage": "SowModx256.png",
-      "Name": "Sow",
-      "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
-      "Preview": "SowPreview.webm",
-      "PreviewFallback": "SowPreview.jpg",
-      "Icon": "Sow130xWhite.png"
-    },
-    "Energy Shell": {
-      "Description": "Forms a protective energy shell around the Warframe",
-      "Cost": 25,
-      "Augments": [
-        "Energy Field"
-      ],
-      "Powersuit": "Odonata",
-      "Key": 1,
-      "CardImage": "EnergyShell.png",
-      "Name": "Energy Shell",
-      "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FireShieldAbility",
-      "Preview": "EnergyShellPreview.webm",
-      "PreviewFallback": "EnergyShellPreview.jpg",
-      "Icon": "EnergyShellIcon.png"
     },
     "Sol Gate": {
       "Description": "Open a portal to the sun to irradiate enemies with a devastating beam of pure solar plasma. Hold fire to double Damage at the cost of increased energy consumption. For the duration of an attack enemies damaged by Sol Gate are increasingly more vulnerable to it.",
@@ -4243,6 +4258,48 @@
       "PreviewFallback": "SmokeScreenPreview.jpg",
       "Icon": "SmokeScreen130xWhite.png"
     },
+    "Energy Shell": {
+      "Description": "Forms a protective energy shell around the Warframe",
+      "Cost": 25,
+      "Augments": [
+        "Energy Field"
+      ],
+      "Powersuit": "Odonata",
+      "Key": 1,
+      "CardImage": "EnergyShell.png",
+      "Name": "Energy Shell",
+      "Introduced": "15",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FireShieldAbility",
+      "Preview": "EnergyShellPreview.webm",
+      "PreviewFallback": "EnergyShellPreview.jpg",
+      "Icon": "EnergyShellIcon.png"
+    },
+    "Smoke Screen (Stalker)": {
+      "Description": "Cast a shadow that stuns enemies and obscures their vision, briefly making Stalker invisible.",
+      "Cost": 75,
+      "Powersuit": "Stalker",
+      "Key": 3,
+      "CardImage": "SmokeScreen.png",
+      "Name": "Smoke Screen (Stalker)",
+      "Introduced": "33",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/StalkerSmokeScreenAbility",
+      "Preview": "SmokeScreenPreview.webm",
+      "PreviewFallback": "SmokeScreenPreview.jpg",
+      "Icon": "SmokeScreen130xWhite.png"
+    },
+    "Lethal Progeny": {
+      "Description": "Cycle through Sentient unit types, then summon them to Caliban's side. Conculysts focus on raw melee damage. Ortholysts specialize in ranged attacks and inflict <DT_SENTIENT_COLOR>Tau Status Effect. Summulysts summon their own Choralysts and provide shield protection for the squad.",
+      "Cost": 50,
+      "Powersuit": "Caliban",
+      "Key": 3,
+      "CardImage": "LethalProgenyModx256.png",
+      "Name": "Lethal Progeny",
+      "Introduced": "31",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+      "Preview": "LethalProgenyPreview.webm",
+      "PreviewFallback": "LethalProgenyPreview.jpg",
+      "Icon": "LethalProgeny130xWhite.png"
+    },
     "Remedium": {
       "Description": "Uriel heals himself and his demons. If his demons are dead, they are resurrected.",
       "Cost": 50,
@@ -4258,18 +4315,21 @@
       "PreviewFallback": "UrielRemediumPreview.jpg",
       "Icon": "UrielRemedium.png"
     },
-    "Smoke Screen (Stalker)": {
-      "Description": "Cast a shadow that stuns enemies and obscures their vision, briefly making Stalker invisible.",
-      "Cost": 75,
-      "Powersuit": "Stalker",
-      "Key": 3,
-      "CardImage": "SmokeScreen.png",
-      "Name": "Smoke Screen (Stalker)",
-      "Introduced": "33",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/StalkerSmokeScreenAbility",
-      "Preview": "SmokeScreenPreview.webm",
-      "PreviewFallback": "SmokeScreenPreview.jpg",
-      "Icon": "SmokeScreen130xWhite.png"
+    "Sleight of Hand": {
+      "Description": "Booby trap nearby objects while conjuring an irresistible jewel that bursts with radial blind when touched in darkness, or a radial explosion in light. Conjure multiple smaller jewels with the help of Hall of Mirrors.",
+      "Cost": 50,
+      "Augments": [
+        "Explosive Legerdemain"
+      ],
+      "Powersuit": "Mirage",
+      "Key": 2,
+      "CardImage": "SleightOfHandModx256.png",
+      "Name": "Sleight of Hand",
+      "Introduced": "14",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HarlequinObjectChangeAbility",
+      "Preview": "SleightOfHandPreview.webm",
+      "PreviewFallback": "SleightOfHandPreview.jpg",
+      "Icon": "SleightOfHand130xWhite.png"
     },
     "Containment Wall": {
       "Description": "Contain the threat. Qorvex summons walls that slam together, damaging all enemies caught between them and inflicting <DT_RADIATION_COLOR>Radiation Status.",
@@ -4302,37 +4362,35 @@
       "PreviewFallback": "Restorative(Drifter)Preview.jpg",
       "CostType": "time"
     },
-    "Omikuji": {
-      "Description": "Koumei glimpses a favorable future and the precise steps needed to reach it. Complete the challenge to earn a Decree. Unlucky rolls add a debuff, but you can hold the ability to reject the Omikuji.\r\n\r\nA roll of triple sixes grants a Decree without a challenge.",
-      "Cost": 50,
-      "Augments": [
-        "Omikuji's Fortune"
-      ],
-      "Powersuit": "Koumei",
+    "Penumbra": {
+      "Description": "Activates a cloaking field that hides the Warframe and any nearby allies who remain stationary.",
+      "Cost": 15,
+      "Powersuit": "Itzal",
       "Key": 2,
-      "CardImage": "OmikujiModx256.png",
-      "Name": "Omikuji",
-      "Introduced": "37",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiFortuneAbility",
-      "Preview": "OmikujiPreview.webm",
-      "PreviewFallback": "OmikujiPreview.jpg",
-      "Icon": "Omikuji.png"
+      "CardImage": "Penumbra.png",
+      "Name": "Penumbra",
+      "Introduced": "15.7.2",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
+      "Preview": "PenumbraPreview.webm",
+      "PreviewFallback": "PenumbraPreview.jpg",
+      "Icon": "PenumbraIcon.png"
     },
-    "Sleight of Hand": {
-      "Description": "Booby trap nearby objects while conjuring an irresistible jewel that bursts with radial blind when touched in darkness, or a radial explosion in light. Conjure multiple smaller jewels with the help of Hall of Mirrors.",
-      "Cost": 50,
+    "Silence": {
+      "Description": "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
+      "Cost": 75,
       "Augments": [
-        "Explosive Legerdemain"
+        "Savage Silence"
       ],
-      "Powersuit": "Mirage",
-      "Key": 2,
-      "CardImage": "SleightOfHandModx256.png",
-      "Name": "Sleight of Hand",
-      "Introduced": "14",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HarlequinObjectChangeAbility",
-      "Preview": "SleightOfHandPreview.webm",
-      "PreviewFallback": "SleightOfHandPreview.jpg",
-      "Icon": "SleightOfHand130xWhite.png"
+      "Subsumable": true,
+      "Powersuit": "Banshee",
+      "Key": 3,
+      "CardImage": "SilenceModx256.png",
+      "Name": "Silence",
+      "Introduced": "7",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
+      "Preview": "SilencePreview.webm",
+      "PreviewFallback": "SilencePreview.jpg",
+      "Icon": "Silence130xWhite.png"
     },
     "Riptide": {
       "Description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst. Each enemy trapped in the vortex increases the burst's damage.",
@@ -4393,36 +4451,6 @@
       "PreviewFallback": "CrystallizePreview.jpg",
       "Icon": "Crystallize130xWhite.png"
     },
-    "Silence": {
-      "Description": "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
-      "Cost": 75,
-      "Augments": [
-        "Savage Silence"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Banshee",
-      "Key": 3,
-      "CardImage": "SilenceModx256.png",
-      "Name": "Silence",
-      "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
-      "Preview": "SilencePreview.webm",
-      "PreviewFallback": "SilencePreview.jpg",
-      "Icon": "Silence130xWhite.png"
-    },
-    "Sickening Pulse": {
-      "Description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies, except <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat, and <DT_POISON_COLOR>Toxin effects which are duplicated with fresh timers.",
-      "Cost": 50,
-      "Subsumable": true,
-      "Powersuit": "Helminth",
-      "CardImage": "SickeningPulse130xWhite.png",
-      "Name": "Sickening Pulse",
-      "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthMaxStatusAbility",
-      "Preview": "SickeningPulsePreview.webm",
-      "PreviewFallback": "SickeningPulsePreview.jpg",
-      "Icon": "SickeningPulse130xWhite.png"
-    },
     "Shooting Gallery": {
       "Description": "Gives an ally Extra Damage while jamming the guns of nearby enemies. This power shifts between team members.",
       "Cost": 50,
@@ -4439,6 +4467,39 @@
       "Preview": "ShootingGalleryPreview.webm",
       "PreviewFallback": "ShootingGalleryPreview.jpg",
       "Icon": "ShootingGallery130xWhite.png"
+    },
+    "Shock": {
+      "Description": "Launch a voltaic projectile that stuns and damages its target. A chain of electricity extends from the target to shock nearby enemies.",
+      "Cost": 15,
+      "Augments": [
+        "Shock Trooper"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Volt",
+      "Key": 1,
+      "CardImage": "ShockModx256.png",
+      "Name": "Shock",
+      "Introduced": "5.3",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShockAbility",
+      "Preview": "ShockPreview.webm",
+      "PreviewFallback": "ShockPreview.jpg",
+      "Icon": "Shock130xWhite.png"
+    },
+    "Chaos": {
+      "Description": "Nyx releases a devastating psychic pulse, disorienting enemies in a wide radius and forcing them to turn on each other. Confused foes lash out at random factions.",
+      "Cost": 75,
+      "Augments": [
+        "Chaos Sphere"
+      ],
+      "Powersuit": "Nyx",
+      "Key": 3,
+      "CardImage": "ChaosModx256.png",
+      "Name": "Chaos",
+      "Introduced": "6",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ChaosAbility",
+      "Preview": "ChaosPreview.webm",
+      "PreviewFallback": "ChaosPreview.jpg",
+      "Icon": "Chaos130xWhite.png"
     },
     "Invisibility": {
       "Description": "Loki camouflages himself, becoming invisible to enemies.",
@@ -4473,34 +4534,31 @@
       "PreviewFallback": "TharrosStrikePreview.jpg",
       "Icon": "TharrosStrike130xWhite.png"
     },
-    "Chaos": {
-      "Description": "Nyx releases a devastating psychic pulse, disorienting enemies in a wide radius and forcing them to turn on each other. Confused foes lash out at random factions.",
-      "Cost": 75,
-      "Augments": [
-        "Chaos Sphere"
-      ],
-      "Powersuit": "Nyx",
-      "Key": 3,
-      "CardImage": "ChaosModx256.png",
-      "Name": "Chaos",
-      "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ChaosAbility",
-      "Preview": "ChaosPreview.webm",
-      "PreviewFallback": "ChaosPreview.jpg",
-      "Icon": "Chaos130xWhite.png"
+    "Shadowgraph": {
+      "Description": "Bring shadowgraphs from Follie's sketchbook to life as items that can be used for tactical advantage. Shadowgraphs splash Inkblot onto nearby enemies when created.\r\n\r\nHOLD to open the Shadowgraph gear wheel.",
+      "Cost": 25,
+      "Powersuit": "Follie",
+      "Key": 2,
+      "CardImage": "Shadowgraph.png",
+      "Name": "Shadowgraph",
+      "Introduced": "42",
+      "InternalName": "/Lotus/Powersuits/Inkblot/Abilities/InkSketchAbility",
+      "Preview": "ShadowgraphPreview.webm",
+      "PreviewFallback": "ShadowgraphPreview.jpg",
+      "Icon": "Shadowgraph.png"
     },
-    "Ripper's Wail": {
-      "Description": "Rip on the guitar to make Temple briefly invulnerable while healing them. Ally\u2019s weapons in <AFFINITY_SHARE>Affinity Range are lit-up with extra <DT_FIRE_COLOR>Heat Damage each time an ability is used on the Backbeat and successfully hits enemies.\r\n\r\nBackbeat Timing: Invulnerability lasts longer.",
-      "Cost": 50,
-      "Powersuit": "Temple",
+    "Seeking Fire": {
+      "Description": "Fires a large volley of homing missiles.",
+      "Cost": 75,
+      "Powersuit": "Odonata",
       "Key": 3,
-      "CardImage": "Ripper'sWail.png",
-      "Name": "Ripper's Wail",
-      "Introduced": "38.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
-      "Preview": "Ripper'sWailPreview.webm",
-      "PreviewFallback": "Ripper'sWailPreview.jpg",
-      "Icon": "Ripper'sWail.png"
+      "CardImage": "SeekingFire.png",
+      "Name": "Seeking Fire",
+      "Introduced": "15",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/MissileVolleyAbility",
+      "Preview": "SeekingFirePreview.webm",
+      "PreviewFallback": "SeekingFirePreview.jpg",
+      "Icon": "SeekingFireIcon.png"
     },
     "Atomi-Shadow": {
       "Description": "Jump off the Atmonicycle and become invisible for a brief period.",
@@ -4532,18 +4590,18 @@
       "PreviewFallback": "RavenousPreview.jpg",
       "Icon": "Ravenous130xWhite.png"
     },
-    "Seeking Fire": {
-      "Description": "Fires a large volley of homing missiles.",
-      "Cost": 75,
-      "Powersuit": "Odonata",
-      "Key": 3,
-      "CardImage": "SeekingFire.png",
-      "Name": "Seeking Fire",
-      "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/MissileVolleyAbility",
-      "Preview": "SeekingFirePreview.webm",
-      "PreviewFallback": "SeekingFirePreview.jpg",
-      "Icon": "SeekingFireIcon.png"
+    "Seek": {
+      "Description": "Plant an antenna that projects a forward wave scan. Detected enemies take increased Weak Point Damage, and become visible through walls. Weapons gain Punch through.",
+      "Cost": 25,
+      "Powersuit": "Cyte-09",
+      "Key": 1,
+      "CardImage": "SeekModx256.png",
+      "Name": "Seek",
+      "Introduced": "38",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusScanAbility",
+      "Preview": "SeekPreview.webm",
+      "PreviewFallback": "SeekPreview.jpg",
+      "Icon": "SeekIcon.png"
     },
     "Pacify & Provoke": {
       "Description": "In Night-Form, reduces damage inflicted by nearby enemies. In Day-Form, increases Ability Strength of nearby allies.",
@@ -4561,32 +4619,6 @@
       "PreviewFallback": "Pacify&ProvokePreview.jpg",
       "Icon": "PacifyProvoke130xWhite.png"
     },
-    "Seek": {
-      "Description": "Plant an antenna that projects a forward wave scan. Detected enemies take increased Weak Point Damage, and become visible through walls. Weapons gain Punch through.",
-      "Cost": 25,
-      "Powersuit": "Cyte-09",
-      "Key": 1,
-      "CardImage": "SeekModx256.png",
-      "Name": "Seek",
-      "Introduced": "38",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusScanAbility",
-      "Preview": "SeekPreview.webm",
-      "PreviewFallback": "SeekPreview.jpg",
-      "Icon": "SeekIcon.png"
-    },
-    "Metronome": {
-      "Description": "Grants buffs to those who consistently perform actions in time to Octavia's music. Timed jumps offer the Vivace speed buff. Crouching on the beat grants cloaking with the Nocturne buff. Firing rhythmically bestows Opera multishot buff. Timed melee swings give the Forte damage buff.",
-      "Cost": 75,
-      "Powersuit": "Octavia",
-      "Key": 3,
-      "CardImage": "MetronomeModx256.png",
-      "Name": "Metronome",
-      "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BardJamAbility",
-      "Preview": "MetronomePreview.webm",
-      "PreviewFallback": "MetronomePreview.jpg",
-      "Icon": "MetronomeIcon.png"
-    },
     "Scarab Shell": {
       "Description": "Activate to form Armor by draining Inaros' Health. Activate again to stop the formation early. The protective layer reduces incoming Damage and absorbs Status Effects.",
       "Cost": 0,
@@ -4603,18 +4635,18 @@
       "PreviewFallback": "ScarabShellPreview.jpg",
       "Icon": "ScarabShell130xWhite.png"
     },
-    "Consume": {
-      "Description": "Dash through enemies and rip out their souls to heal Shadow.",
-      "Cost": 25,
-      "Powersuit": "Sevagoth's Shadow",
-      "Key": 2,
-      "CardImage": "ConsumeModx256.png",
-      "Name": "Consume",
-      "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
-      "Preview": "ConsumePreview.webm",
-      "PreviewFallback": "ConsumePreview.jpg",
-      "Icon": "Consume130xWhite.png"
+    "Metronome": {
+      "Description": "Grants buffs to those who consistently perform actions in time to Octavia's music. Timed jumps offer the Vivace speed buff. Crouching on the beat grants cloaking with the Nocturne buff. Firing rhythmically bestows Opera multishot buff. Timed melee swings give the Forte damage buff.",
+      "Cost": 75,
+      "Powersuit": "Octavia",
+      "Key": 3,
+      "CardImage": "MetronomeModx256.png",
+      "Name": "Metronome",
+      "Introduced": "20",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BardJamAbility",
+      "Preview": "MetronomePreview.webm",
+      "PreviewFallback": "MetronomePreview.jpg",
+      "Icon": "MetronomeIcon.png"
     },
     "Lull": {
       "Description": "A calming wave slows enemies until they fall into a slumber. Enemies woken by damage will be confused and disoriented. Short-term amnesia means all waking enemies forget anything that happened before the lull.",
@@ -4633,6 +4665,19 @@
       "PreviewFallback": "LullPreview.jpg",
       "Icon": "Lull130xWhite.png"
     },
+    "Consume": {
+      "Description": "Dash through enemies and rip out their souls to heal Shadow.",
+      "Cost": 25,
+      "Powersuit": "Sevagoth's Shadow",
+      "Key": 2,
+      "CardImage": "ConsumeModx256.png",
+      "Name": "Consume",
+      "Introduced": "30",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ReaperHarvestAbility",
+      "Preview": "ConsumePreview.webm",
+      "PreviewFallback": "ConsumePreview.jpg",
+      "Icon": "Consume130xWhite.png"
+    },
     "Rotorswell": {
       "Description": "Gyre\u2019s mechanisms spin at incredible speeds, generating an Electric Field that shocks nearby enemies. When Gyre gets a critical hit, a large electrical discharge will chain from the enemy that was hit to nearby enemies.",
       "Cost": 100,
@@ -4648,6 +4693,19 @@
       "Preview": "RotorswellPreview.webm",
       "PreviewFallback": "RotorswellPreview.jpg",
       "Icon": "Rotorswell130xWhite.png"
+    },
+    "Mercy's Kiss": {
+      "Description": "Leap onto an enemy and pierce them with Oraxia\u2019s spider legs, dealing <DT_POISON_COLOR>Toxin Damage. Enemies defeated by this attack have a chance to drop Health or Energy Orbs.",
+      "Cost": 25,
+      "Powersuit": "Oraxia",
+      "Key": 1,
+      "CardImage": "Mercy'sKiss.png",
+      "Name": "Mercy's Kiss",
+      "Introduced": "39",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+      "Preview": "Mercy'sKissPreview.webm",
+      "PreviewFallback": "Mercy'sKissPreview.jpg",
+      "Icon": "Mercy'sKiss.png"
     },
     "Toxic Lash": {
       "Description": "While active, attacks deal additional <DT_POISON_COLOR>Toxin Damage; this effect is doubled for Melee Strikes. Instantly burst spores when attacking afflicted enemies.",
@@ -4681,22 +4739,6 @@
       "PreviewFallback": "ShadowsOfTheDeadPreview.jpg",
       "Icon": "ShadowsOfTheDead130xWhite.png"
     },
-    "Rhino Stomp": {
-      "Description": "Rhino stomps with force sufficient to disrupt time, tumbling enemies around him in stasis.",
-      "Cost": 100,
-      "Augments": [
-        "Reinforcing Stomp"
-      ],
-      "Powersuit": "Rhino",
-      "Key": 4,
-      "CardImage": "RhinoStompModx256.png",
-      "Name": "Rhino Stomp",
-      "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RhinoStompAbility",
-      "Preview": "RhinoStompPreview.webm",
-      "PreviewFallback": "RhinoStompPreview.jpg",
-      "Icon": "RhinoStomp130xWhite.png"
-    },
     "Cloud Walker": {
       "Description": "Evaporate into a cloud of mist and float through the battlefield, dazing any enemies encountered, while healing Wukong and his twin.",
       "Cost": 25,
@@ -4713,6 +4755,19 @@
       "PreviewFallback": "CloudWalkerPreview.jpg",
       "Icon": "CloudWalker130xWhite.png"
     },
+    "Reroot": {
+      "Description": "Revert to Sprodling form, spawning orbs that heal Nokko and grant a speed boost. While in this state, Nokko is untargetable and heals gradually.",
+      "Cost": 50,
+      "Powersuit": "Nokko",
+      "Key": 3,
+      "CardImage": "Reroot.png",
+      "Name": "Reroot",
+      "Introduced": "40",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoShrinkAbility",
+      "Preview": "RerootPreview.webm",
+      "PreviewFallback": "RerootPreview.jpg",
+      "Icon": "Reroot.png"
+    },
     "Gloom": {
       "Description": "Summon a radial pulse wave that ensnares and slows enemies, siphoning their lifeforce for the Death Well. Allies within the wave steal health with each attack. ",
       "Cost": 50,
@@ -4726,19 +4781,6 @@
       "Preview": "GloomPreview.webm",
       "PreviewFallback": "GloomPreview.jpg",
       "Icon": "Gloom130xWhite.png"
-    },
-    "Reroot": {
-      "Description": "Revert to Sprodling form, spawning orbs that heal Nokko and grant a speed boost. While in this state, Nokko is untargetable and heals gradually.",
-      "Cost": 50,
-      "Powersuit": "Nokko",
-      "Key": 3,
-      "CardImage": "Reroot.png",
-      "Name": "Reroot",
-      "Introduced": "40",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoShrinkAbility",
-      "Preview": "RerootPreview.webm",
-      "PreviewFallback": "RerootPreview.jpg",
-      "Icon": "Reroot.png"
     },
     "Razorwing": {
       "Description": "Shrink down and take flight, while razorflies attack nearby enemies and amplify the damage they take.",
@@ -4756,6 +4798,23 @@
       "Preview": "RazorwingPreview.webm",
       "PreviewFallback": "RazorwingPreview.jpg",
       "Icon": "Razorwing130xWhite.png"
+    },
+    "Ice Wave": {
+      "Description": "Sends a wave of razor sharp, crystalized ice toward an enemy, dealing heavy damage.",
+      "Cost": 50,
+      "Augments": [
+        "Ice Wave Impedance"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Frost",
+      "Key": 2,
+      "CardImage": "IceWaveModx256.png",
+      "Name": "Ice Wave",
+      "Introduced": "6",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
+      "Preview": "IceWavePreview.webm",
+      "PreviewFallback": "IceWavePreview.jpg",
+      "Icon": "IceWave130xWhite.png"
     },
     "Fangs of Raksh": {
       "Description": "(TAP) Raksh's fangs tear into your enemies. 5 random Status Effects are applied at 10 Stacks each on an enemy. On target's death, spread the Status Effects to other nearby enemies.\r\n\r\n(HOLD) Raksh guards Voruna with Status Effect resistance.",
@@ -4787,22 +4846,21 @@
       "PreviewFallback": "BanishPreview.jpg",
       "Icon": "Banish130xWhite.png"
     },
-    "Ice Wave": {
-      "Description": "Sends a wave of razor sharp, crystalized ice toward an enemy, dealing heavy damage.",
-      "Cost": 50,
+    "Radial Javelin": {
+      "Description": "Radial javelins impale nearby enemies, inflicting <DT_SLASH_COLOR>Slash Status.",
+      "Cost": 75,
       "Augments": [
-        "Ice Wave Impedance"
+        "Furious Javelin"
       ],
-      "Subsumable": true,
-      "Powersuit": "Frost",
-      "Key": 2,
-      "CardImage": "IceWaveModx256.png",
-      "Name": "Ice Wave",
-      "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
-      "Preview": "IceWavePreview.webm",
-      "PreviewFallback": "IceWavePreview.jpg",
-      "Icon": "IceWave130xWhite.png"
+      "Powersuit": "Excalibur",
+      "Key": 3,
+      "CardImage": "RadialJavelinModx256.png",
+      "Name": "Radial Javelin",
+      "Introduced": "Vanilla",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RadialJavelinAbility",
+      "Preview": "RadialJavelinPreview.webm",
+      "PreviewFallback": "RadialJavelinPreview.jpg",
+      "Icon": "RadialJavelin130xWhite.png"
     },
     "Spectral Scream": {
       "Description": "Exhale a deep breath of elemental destruction. Tap to cycle through elements, hold to cast. The chosen element applies to all of Chroma's abilities.",
@@ -4833,24 +4891,6 @@
       "PreviewFallback": "BloomerPreview.jpg",
       "Icon": "BloomerIcon.png"
     },
-    "Radial Blind": {
-      "Description": "Emit a bright flash of light, blinding all nearby enemies.",
-      "Cost": 50,
-      "Augments": [
-        "Radiant Finish",
-        "Signal Flare"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Excalibur",
-      "Key": 2,
-      "CardImage": "RadialBlindModx256.png",
-      "Name": "Radial Blind",
-      "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
-      "Preview": "RadialBlindPreview.webm",
-      "PreviewFallback": "RadialBlindPreview.jpg",
-      "Icon": "RadialBlind130xWhite.png"
-    },
     "Pyrotechnics": {
       "Description": "Blast targeted enemies with pillars of <DT_FIRE_COLOR>Heat Damage. \r\n\r\nBackbeat Timing: Ignite even more pillars. Increases the Duration and <DT_FIRE_COLOR>Heat Damage of Ripper's Wail when it deals damage.",
       "Cost": 25,
@@ -4864,6 +4904,22 @@
       "Preview": "PyrotechnicsPreview.webm",
       "PreviewFallback": "PyrotechnicsPreview.jpg",
       "Icon": "Pyrotechnics.png"
+    },
+    "Omikuji": {
+      "Description": "Koumei glimpses a favorable future and the precise steps needed to reach it. Complete the challenge to earn a Decree. Unlucky rolls add a debuff, but you can hold the ability to reject the Omikuji.\r\n\r\nA roll of triple sixes grants a Decree without a challenge.",
+      "Cost": 50,
+      "Augments": [
+        "Omikuji's Fortune"
+      ],
+      "Powersuit": "Koumei",
+      "Key": 2,
+      "CardImage": "OmikujiModx256.png",
+      "Name": "Omikuji",
+      "Introduced": "37",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiFortuneAbility",
+      "Preview": "OmikujiPreview.webm",
+      "PreviewFallback": "OmikujiPreview.jpg",
+      "Icon": "Omikuji.png"
     },
     "Smite": {
       "Description": "Focuses deadly energy within a target, dealing massive damage and removing all of its defenses, including Overguard. Enemies near the target also take a portion of the damage.",
@@ -4882,18 +4938,21 @@
       "PreviewFallback": "SmitePreview.jpg",
       "Icon": "Smite130xWhite.png"
     },
-    "Lethal Progeny": {
-      "Description": "Cycle through Sentient unit types, then summon them to Caliban's side. Conculysts focus on raw melee damage. Ortholysts specialize in ranged attacks and inflict <DT_SENTIENT_COLOR>Tau Status Effect. Summulysts summon their own Choralysts and provide shield protection for the squad.",
-      "Cost": 50,
-      "Powersuit": "Caliban",
+    "Polarize": {
+      "Description": "Emit an energy pulse that depletes enemy shields and armor as it restores ally shields. Debris left over from the pulse becomes Polarize Shards. Nearby Polarize Shards orbit Mag and cut enemies, inflicting <DT_SLASH_COLOR>Slash Status Effect.",
+      "Cost": 75,
+      "Augments": [
+        "Counter Pulse"
+      ],
+      "Powersuit": "Mag",
       "Key": 3,
-      "CardImage": "LethalProgenyModx256.png",
-      "Name": "Lethal Progeny",
-      "Introduced": "31",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
-      "Preview": "LethalProgenyPreview.webm",
-      "PreviewFallback": "LethalProgenyPreview.jpg",
-      "Icon": "LethalProgeny130xWhite.png"
+      "CardImage": "PolarizeModx256.png",
+      "Name": "Polarize",
+      "Introduced": "Vanilla",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
+      "Preview": "PolarizePreview.webm",
+      "PreviewFallback": "PolarizePreview.jpg",
+      "Icon": "Polarize130xWhite.png"
     },
     "Slash Dash": {
       "Description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict <DT_SLASH_COLOR>Slash Status.",
@@ -4942,18 +5001,18 @@
       "PreviewFallback": "AirburstPreview.jpg",
       "Icon": "Airburst130xWhite.png"
     },
-    "Penumbra": {
-      "Description": "Activates a cloaking field that hides the Warframe and any nearby allies who remain stationary.",
+    "Forced Perspective": {
+      "Description": "Drop through an inky frame and emerge invulnerable at the aimed location in a splash of ink that inflicts Inkblot on nearby enemies.",
       "Cost": 15,
-      "Powersuit": "Itzal",
-      "Key": 2,
-      "CardImage": "Penumbra.png",
-      "Name": "Penumbra",
-      "Introduced": "15.7.2",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
-      "Preview": "PenumbraPreview.webm",
-      "PreviewFallback": "PenumbraPreview.jpg",
-      "Icon": "PenumbraIcon.png"
+      "Powersuit": "Follie",
+      "Key": 1,
+      "CardImage": "ForcedPerspective.png",
+      "Name": "Forced Perspective",
+      "Introduced": "42",
+      "InternalName": "/Lotus/Powersuits/Inkblot/Abilities/InkFieldAbility",
+      "Preview": "ForcedPerspectivePreview.webm",
+      "PreviewFallback": "ForcedPerspectivePreview.jpg",
+      "Icon": "ForcedPerspective.png"
     },
     "Parasitic Armor": {
       "Description": "Sacrifice Shields to reinforce Armor for a period of time.",
@@ -5359,7 +5418,7 @@
       "Icon": "Doom130xWhite.png"
     },
     "Electric Shield": {
-      "Description": "Volt deploys an electric shield that blocks projectiles.",
+      "Description": "Volt deploys an electric shield that blocks enemy fire and adds <DT_ELECTRICITY_COLOR>Electricity Damage to projectiles.\r\n \r\nHOLD to equip the shield for mobile cover.",
       "Cost": 50,
       "Augments": [
         "Recharge Barrier",

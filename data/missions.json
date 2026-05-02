@@ -10376,7 +10376,7 @@
           "Name": "Tamu"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -22474,7 +22474,7 @@
           "Quotes": "Defense/Quotes"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -27614,7 +27614,7 @@
           "Name": "Saturn Junction"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -47029,7 +47029,7 @@
           "Quotes": "Defense/Quotes"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -57274,7 +57274,7 @@
       ],
       "Follie's Hunt": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -65587,7 +65587,7 @@
           "Name": "Deepmines"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -79747,7 +79747,7 @@
       ],
       "SolNode239": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -90212,7 +90212,7 @@
           "Name": "Orcus Relay"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -100129,7 +100129,7 @@
       ],
       "Follie's Hunt": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -111408,7 +111408,7 @@
       ],
       "Follie's Hunt": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -121682,7 +121682,7 @@
           "Name": "Deepmines"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -129025,7 +129025,7 @@
           "Name": "E Gate"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -138282,37 +138282,6 @@
         },
         {
           "MasteryExp": 0,
-          "FactionImage": "IconTenno.png",
-          "IsDarkSector": false,
-          "IsCrossfire": false,
-          "Enemy": "Tenno",
-          "Image": "FolliesHuntEntrance.jpg",
-          "MaxLevel": 45,
-          "DropTableAlias": "Follie's Hunt",
-          "Planet": "Venus",
-          "InternalName": "SolNode239",
-          "Tileset": "Relay",
-          "Type": "Follie's Hunt",
-          "Link": "Follie's Hunt",
-          "Id": 287,
-          "CreditReward": 0,
-          "PreviousNodes": [
-            "Venus Junction"
-          ],
-          "Name": "Vesper Relay",
-          "Introduced": "42.0",
-          "IsTracked": true,
-          "RegionResources": [
-            "Alloy Plate",
-            "Polymer Bundle",
-            "Circuits",
-            "Fieldron Sample"
-          ],
-          "MinLevel": 35,
-          "Quotes": "Follie's Hunt/Quotes"
-        },
-        {
-          "MasteryExp": 0,
           "FactionImage": "IconInfestedB.svg",
           "IsDarkSector": true,
           "IsCrossfire": false,
@@ -142606,6 +142575,37 @@
           ],
           "IsTracked": true,
           "Name": "Berehynia"
+        },
+        {
+          "MasteryExp": 50,
+          "FactionImage": "IconTenno.png",
+          "IsDarkSector": false,
+          "IsCrossfire": false,
+          "Enemy": "Tenno",
+          "Image": "FolliesHuntEntrance.jpg",
+          "MaxLevel": 45,
+          "DropTableAlias": "Follie's Hunt",
+          "Planet": "Venus",
+          "InternalName": "SolNode239",
+          "Tileset": "Relay",
+          "Type": "Follie's Hunt",
+          "Link": "Follie's Hunt",
+          "Id": 287,
+          "CreditReward": 0,
+          "PreviousNodes": [
+            "Venus Junction"
+          ],
+          "Name": "Vesper Relay",
+          "Introduced": "42.0",
+          "IsTracked": true,
+          "RegionResources": [
+            "Alloy Plate",
+            "Polymer Bundle",
+            "Circuits",
+            "Fieldron Sample"
+          ],
+          "MinLevel": 35,
+          "Quotes": "Follie's Hunt/Quotes"
         }
       ],
       "51": [
@@ -162354,7 +162354,7 @@
       ],
       "Follie's Hunt/Quotes": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -175665,7 +175665,7 @@
           "Quotes": "Defense/Quotes"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -194403,7 +194403,7 @@
       ],
       "FolliesHuntEntrance.jpg": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -202540,7 +202540,7 @@
       ],
       "Vesper Relay": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -209999,7 +209999,7 @@
       ],
       "42.0": [
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -223653,7 +223653,7 @@
           "Quotes": "Defense/Quotes"
         },
         {
-          "MasteryExp": 0,
+          "MasteryExp": 50,
           "FactionImage": "IconTenno.png",
           "IsDarkSector": false,
           "IsCrossfire": false,
@@ -238144,7 +238144,7 @@
       "Quotes": "Defense/Quotes"
     },
     {
-      "MasteryExp": 0,
+      "MasteryExp": 50,
       "FactionImage": "IconTenno.png",
       "IsDarkSector": false,
       "IsCrossfire": false,

@@ -635,7 +635,7 @@
       "CardImage": "GloryonHighModx256.png",
       "Name": "Glory on High",
       "Introduced": "36",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ChoirEruptAbility",
+      "InternalName": "/Lotus/Powersuits/Choir/Abilities/ChoirEruptAbility",
       "Preview": "GloryonHighPreview.webm",
       "PreviewFallback": "GloryonHighPreview.jpg",
       "Weapon": "Glory"
@@ -651,7 +651,7 @@
       "CardImage": "PlunderModx256.png",
       "Name": "Plunder",
       "Introduced": "34",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PirateArmourAbility",
+      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/PirateArmourAbility",
       "Preview": "PlunderPreview.webm",
       "PreviewFallback": "PlunderPreview.jpg",
       "Icon": "Plunder130xWhite.png"
@@ -665,7 +665,7 @@
       "CardImage": "UrielInfernalis.png",
       "Name": "Infernalis",
       "Introduced": "41",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameFireBallAbility",
+      "InternalName": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameFireBallAbility",
       "Preview": "UrielInfernalisPreview.webm",
       "PreviewFallback": "UrielInfernalisPreview.jpg",
       "Icon": "UrielInfernalis.png"
@@ -681,7 +681,7 @@
       "CardImage": "CrushModx256.png",
       "Name": "Crush",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/CrushAbility",
+      "InternalName": "/Lotus/Powersuits/Mag/Abilities/CrushAbility",
       "Preview": "CrushPreview.webm",
       "PreviewFallback": "CrushPreview.jpg",
       "Icon": "Crush130xWhite.png"
@@ -708,7 +708,7 @@
       "CardImage": "MinelayerModx256.png",
       "Name": "Minelayer",
       "Introduced": "18.12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TrapperMultinadeAbility",
+      "InternalName": "/Lotus/Powersuits/Trapper/Abilities/TrapperMultinadeAbility",
       "Preview": "MinelayerPreview.webm",
       "PreviewFallback": "MinelayerPreview.jpg",
       "Icon": "Minelayer130xWhite.png"
@@ -724,7 +724,7 @@
       "CardImage": "WardingHaloModx256.png",
       "Name": "Warding Halo",
       "Introduced": "18.1",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSashAbility",
+      "InternalName": "/Lotus/Powersuits/Nezha/Abilities/NezhaSashAbility",
       "Preview": "WardingHaloPreview.webm",
       "PreviewFallback": "WardingHaloPreview.jpg",
       "Icon": "WardingHalo130xWhite.png"
@@ -740,7 +740,7 @@
       "CardImage": "PhotonStrikeModx256.png",
       "Name": "Photon Strike",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TrapperStrikeAbility",
+      "InternalName": "/Lotus/Powersuits/Trapper/Abilities/TrapperStrikeAbility",
       "Preview": "PhotonStrikePreview.webm",
       "PreviewFallback": "PhotonStrikePreview.jpg",
       "Icon": "PhotonStrike130xWhite.png"
@@ -756,7 +756,7 @@
       "CardImage": "DesecrateModx256.png",
       "Name": "Desecrate",
       "Introduced": "10",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SearchTheDeadAbility",
+      "InternalName": "/Lotus/Powersuits/Necro/Abilities/SearchTheDeadAbility",
       "Preview": "DesecratePreview.webm",
       "PreviewFallback": "DesecratePreview.jpg",
       "Icon": "Desecrate130xWhite.png"
@@ -773,7 +773,7 @@
       "CardImage": "ResonatorModx256.png",
       "Name": "Resonator",
       "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BardCharmAbility",
+      "InternalName": "/Lotus/Powersuits/Bard/Abilities/BardCharmAbility",
       "Preview": "ResonatorPreview.webm",
       "PreviewFallback": "ResonatorPreview.jpg",
       "Icon": "ResonatorIcon.png"
@@ -790,7 +790,7 @@
       "CardImage": "ArtemisBowModx256.png",
       "Name": "Artemis Bow",
       "Introduced": "18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RangerBowAbility",
+      "InternalName": "/Lotus/Powersuits/Ranger/Abilities/RangerBowAbility",
       "Preview": "ArtemisBowPreview.webm",
       "PreviewFallback": "ArtemisBowPreview.jpg",
       "Weapon": "Artemis Bow"
@@ -803,7 +803,7 @@
       "CardImage": "DanseMacabreModx256.png",
       "Name": "Danse Macabre",
       "Introduced": "23.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RevenantRebornAbility",
+      "InternalName": "/Lotus/Powersuits/Revenant/Abilities/RevenantRebornAbility",
       "Preview": "DanseMacabrePreview.webm",
       "PreviewFallback": "DanseMacabrePreview.jpg",
       "Icon": "DanseMacabre130xWhite.png"
@@ -819,7 +819,7 @@
       "CardImage": "RiftSurgeModx256.png",
       "Name": "Rift Surge",
       "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/VolatileAbility",
+      "InternalName": "/Lotus/Powersuits/Magician/Abilities/VolatileAbility",
       "Preview": "RiftSurgePreview.webm",
       "PreviewFallback": "RiftSurgePreview.jpg",
       "Icon": "RiftSurge130xWhite.png"
@@ -835,7 +835,7 @@
       "CardImage": "CataclysmModx256.png",
       "Name": "Cataclysm",
       "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TearInSpaceAbility",
+      "InternalName": "/Lotus/Powersuits/Magician/Abilities/TearInSpaceAbility",
       "Preview": "CataclysmPreview.webm",
       "PreviewFallback": "CataclysmPreview.jpg",
       "Icon": "Cataclysm130xWhite.png"
@@ -851,7 +851,7 @@
       "CardImage": "TemporalAnchorModx256.png",
       "Name": "Temporal Anchor",
       "Introduced": "28",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskAnchorAbility",
+      "InternalName": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskAnchorAbility",
       "Preview": "TemporalAnchorPreview.webm",
       "PreviewFallback": "TemporalAnchorPreview.jpg",
       "Icon": "TemporalAnchor130xWhite.png"
@@ -867,7 +867,7 @@
       "CardImage": "FireballModx256.png",
       "Name": "Fireball",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FireBallAbility",
+      "InternalName": "/Lotus/Powersuits/Ember/Abilities/FireBallAbility",
       "Preview": "FireballPreview.webm",
       "PreviewFallback": "FireballPreview.jpg",
       "Icon": "Fireball130xWhite.png"
@@ -883,7 +883,7 @@
       "CardImage": "MendMaimModx256.png",
       "Name": "Mend & Maim",
       "Introduced": "17",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YinYangBurstAbility",
+      "InternalName": "/Lotus/Powersuits/YinYang/Abilities/YinYangBurstAbility",
       "Preview": "Mend&MaimPreview.webm",
       "PreviewFallback": "Mend&MaimPreview.jpg",
       "Icon": "MendMaim130xWhite.png"
@@ -899,7 +899,7 @@
       "CardImage": "MagnetizeModx256.png",
       "Name": "Magnetize",
       "Introduced": "18.13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BulletAttractorAbility",
+      "InternalName": "/Lotus/Powersuits/Mag/Abilities/BulletAttractorAbility",
       "Preview": "MagnetizePreview.webm",
       "PreviewFallback": "MagnetizePreview.jpg",
       "Icon": "Magnetize130xWhite.png"
@@ -912,7 +912,7 @@
       ],
       "Powersuit": "Hildryn",
       "Key": 4,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameEruptionAbility",
+      "InternalName": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameEruptionAbility",
       "CardImage": "AegisStormModx256.png",
       "Name": "Aegis Storm",
       "Introduced": "24.4",
@@ -933,7 +933,7 @@
       "CardImage": "CoilHorizonModx256.png",
       "Name": "Coil Horizon",
       "Introduced": "31.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GyreSphereAbility",
+      "InternalName": "/Lotus/Powersuits/Gyre/Abilities/GyreSphereAbility",
       "Preview": "CoilHorizonPreview.webm",
       "PreviewFallback": "CoilHorizonPreview.jpg",
       "Icon": "CoilHorizon130xWhite.png"
@@ -949,7 +949,7 @@
       "CardImage": "SandstormModx256.png",
       "Name": "Sandstorm",
       "Introduced": "18.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SandmanStormAbility",
+      "InternalName": "/Lotus/Powersuits/Sandman/Abilities/SandmanStormAbility",
       "Preview": "SandstormPreview.webm",
       "PreviewFallback": "SandstormPreview.jpg",
       "Icon": "Sandstorm130xWhite.png"
@@ -965,7 +965,7 @@
       "CardImage": "RazorGyreModx256.png",
       "Name": "Razor Gyre",
       "Introduced": "31",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SentientWhirlwindAbility",
+      "InternalName": "/Lotus/Powersuits/Sentient/Abilities/SentientWhirlwindAbility",
       "Preview": "RazorGyrePreview.webm",
       "PreviewFallback": "RazorGyrePreview.jpg",
       "Icon": "RazorGyre130xWhite.png"
@@ -982,7 +982,7 @@
       "CardImage": "MoltModx256.png",
       "Name": "Molt",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShedAbility",
+      "InternalName": "/Lotus/Powersuits/Saryn/Abilities/ShedAbility",
       "Preview": "MoltPreview.webm",
       "PreviewFallback": "MoltPreview.jpg",
       "Icon": "Molt130xWhite.png"
@@ -999,7 +999,7 @@
       "CardImage": "BladeStormModx256.png",
       "Name": "Blade Storm",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NinjaStormAbility",
+      "InternalName": "/Lotus/Powersuits/Ninja/Abilities/NinjaStormAbility",
       "Preview": "BladeStormPreview.webm",
       "PreviewFallback": "BladeStormPreview.jpg",
       "Weapon": "Shadow Clones"
@@ -1016,7 +1016,7 @@
       "CardImage": "ShurikenModx256.png",
       "Name": "Shuriken",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GlaiveAbility",
+      "InternalName": "/Lotus/Powersuits/Ninja/Abilities/GlaiveAbility",
       "Preview": "ShurikenPreview.webm",
       "PreviewFallback": "ShurikenPreview.jpg",
       "Icon": "Shuriken130xWhite.png"
@@ -1032,7 +1032,7 @@
       "CardImage": "BlessingModx256.png",
       "Name": "Blessing",
       "Introduced": "4",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BlessingAbility",
+      "InternalName": "/Lotus/Powersuits/Trinity/Abilities/BlessingAbility",
       "Preview": "BlessingPreview.webm",
       "PreviewFallback": "BlessingPreview.jpg",
       "Icon": "Blessing130xWhite.png"
@@ -1049,7 +1049,7 @@
       "CardImage": "SereneStormModx256.png",
       "Name": "Serene Storm",
       "Introduced": "24.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PacifistFistAbility",
+      "InternalName": "/Lotus/Powersuits/Pacifist/Abilities/PacifistFistAbility",
       "Preview": "SereneStormPreview.webm",
       "PreviewFallback": "SereneStormPreview.jpg",
       "Weapon": "Desert Wind"
@@ -1062,7 +1062,7 @@
       "CardImage": "Sporespring.png",
       "Name": "Sporespring",
       "Introduced": "40",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoLaunchAbility",
+      "InternalName": "/Lotus/Powersuits/Nokko/Abilities/NokkoLaunchAbility",
       "Preview": "SporespringPreview.webm",
       "PreviewFallback": "SporespringPreview.jpg",
       "Icon": "Sporespring.png"
@@ -1078,7 +1078,7 @@
       "CardImage": "ShroudofDynar.png",
       "Name": "Shroud of Dynar",
       "Introduced": "32.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfShroudAbility",
+      "InternalName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfShroudAbility",
       "Preview": "ShroudofDynarPreview.webm",
       "PreviewFallback": "ShroudofDynarPreview.jpg",
       "Icon": "ShroudofDynarIcon.png"
@@ -1094,7 +1094,7 @@
       "CardImage": "CrucibleBlastModx256.png",
       "Name": "Crucible Blast",
       "Introduced": "35",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteLaserAbility",
+      "InternalName": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcreteLaserAbility",
       "Preview": "CrucibleBlastPreview.webm",
       "PreviewFallback": "CrucibleBlastPreview.jpg",
       "Icon": "CrucibleBlast130xWhite.png"
@@ -1108,7 +1108,7 @@
       "CardImage": "ChyrinkaPillarModx256.png",
       "Name": "Chyrinka Pillar",
       "Introduced": "35",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ConcretePillarAbility",
+      "InternalName": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcretePillarAbility",
       "Preview": "ChyrinkaPillarPreview.webm",
       "PreviewFallback": "ChyrinkaPillarPreview.jpg",
       "Icon": "ChyrinkaPillar130xWhite.png"
@@ -1124,7 +1124,7 @@
       "CardImage": "CathodeGraceModx256.png",
       "Name": "Cathode Grace",
       "Introduced": "31.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GyreEnergizedAbility",
+      "InternalName": "/Lotus/Powersuits/Gyre/Abilities/GyreEnergizedAbility",
       "Preview": "CathodeGracePreview.webm",
       "PreviewFallback": "CathodeGracePreview.jpg",
       "Icon": "CathodeGrace130xWhite.png"
@@ -1141,7 +1141,7 @@
       "CardImage": "PeacemakerModx256.png",
       "Name": "Peacemaker",
       "Introduced": "15.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GunFuAbility",
+      "InternalName": "/Lotus/Powersuits/Cowgirl/Abilities/GunFuAbility",
       "Preview": "PeacemakerPreview.webm",
       "PreviewFallback": "PeacemakerPreview.jpg",
       "Weapon": "Regulators"
@@ -1158,7 +1158,7 @@
       "CardImage": "BreachSurge.png",
       "Name": "Breach Surge",
       "Introduced": "25",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WispHarnessAbility",
+      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispHarnessAbility",
       "Preview": "BreachSurgePreview.webm",
       "PreviewFallback": "BreachSurgePreview.jpg",
       "Icon": "BreachSurge130xWhite.png"
@@ -1172,7 +1172,7 @@
       "CardImage": "DefyModx256.png",
       "Name": "Defy",
       "Introduced": "17.12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyDeathNewAbility",
+      "InternalName": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyDeathNewAbility",
       "Preview": "DefyPreview.webm",
       "PreviewFallback": "DefyPreview.jpg",
       "Icon": "Defy130xWhite.png"
@@ -1189,7 +1189,7 @@
       "CardImage": "AbsorbModx256.png",
       "Name": "Absorb",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SelfBulletAttractorAbility",
+      "InternalName": "/Lotus/Powersuits/Jade/Abilities/SelfBulletAttractorAbility",
       "Preview": "AbsorbPreview.webm",
       "PreviewFallback": "AbsorbPreview.jpg",
       "Icon": "Absorb130xWhite.png"
@@ -1202,7 +1202,7 @@
       "CardImage": "MiasmaModx256.png",
       "Name": "Miasma",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ExplosiveDissolveAbility",
+      "InternalName": "/Lotus/Powersuits/Saryn/Abilities/ExplosiveDissolveAbility",
       "Preview": "MiasmaPreview.webm",
       "PreviewFallback": "MiasmaPreview.jpg",
       "Icon": "Miasma130xWhite.png"
@@ -1218,7 +1218,7 @@
       "CardImage": "DivineSpearsModx256.png",
       "Name": "Divine Spears",
       "Introduced": "18.1",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NezhaSpearAbility",
+      "InternalName": "/Lotus/Powersuits/Nezha/Abilities/NezhaSpearAbility",
       "Preview": "DivineSpearsPreview.webm",
       "PreviewFallback": "DivineSpearsPreview.jpg",
       "Icon": "DivineSpears130xWhite.png"
@@ -1234,7 +1234,7 @@
       "CardImage": "RhinoChargeModx256.png",
       "Name": "Rhino Charge",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RhinoChargeAbility",
+      "InternalName": "/Lotus/Powersuits/Rhino/Abilities/RhinoChargeAbility",
       "Preview": "RhinoChargePreview.webm",
       "PreviewFallback": "RhinoChargePreview.jpg",
       "Icon": "RhinoCharge130xWhite.png"
@@ -1247,7 +1247,7 @@
       "CardImage": "NechramechOil.png",
       "Name": "Necraweb",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechOilGrenadeAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechOilGrenadeAbility",
       "Preview": "NecrawebPreview.webm",
       "PreviewFallback": "NecrawebPreview.jpg",
       "Icon": "NechramechOil.png"
@@ -1263,7 +1263,7 @@
       "CardImage": "GraspofLohkModx256.png",
       "Name": "Grasp of Lohk",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrokenGraspAbility",
+      "InternalName": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenGraspAbility",
       "Preview": "GraspofLohkPreview.webm",
       "PreviewFallback": "GraspofLohkPreview.jpg",
       "Icon": "GraspofLohk130xWhite.png"
@@ -1294,7 +1294,7 @@
       "CardImage": "AquabladesModx256.png",
       "Name": "Aquablades",
       "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YareliDisksAbility",
+      "InternalName": "/Lotus/Powersuits/Yareli/Abilities/YareliDisksAbility",
       "Preview": "AquabladesPreview.webm",
       "PreviewFallback": "AquabladesPreview.jpg",
       "Icon": "Aquablades130xWhite.png"
@@ -1324,7 +1324,7 @@
       "CardImage": "NourishModx256.png",
       "Name": "Nourish",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DevourerConsumeAbility",
+      "InternalName": "/Lotus/Powersuits/Devourer/Abilities/DevourerConsumeAbility",
       "Preview": "NourishPreview.webm",
       "PreviewFallback": "NourishPreview.jpg",
       "Icon": "Nourish130xWhite.png"
@@ -1340,7 +1340,7 @@
       "CardImage": "MetamorphosisModx256.png",
       "Name": "Metamorphosis",
       "Introduced": "17",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YinYangSwitchAbility",
+      "InternalName": "/Lotus/Powersuits/YinYang/Abilities/YinYangSwitchAbility",
       "Preview": "MetamorphosisPreview.webm",
       "PreviewFallback": "MetamorphosisPreview.jpg",
       "Icon": "Metamorphosis130xWhite.png"
@@ -1356,7 +1356,7 @@
       "CardImage": "BlazingChakramModx256.png",
       "Name": "Blazing Chakram",
       "Introduced": "18.1",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NezhaRingAbility",
+      "InternalName": "/Lotus/Powersuits/Nezha/Abilities/NezhaRingAbility",
       "Preview": "BlazingChakramPreview.webm",
       "PreviewFallback": "BlazingChakramPreview.jpg",
       "Icon": "BlazingChakram130xWhite.png"
@@ -1383,7 +1383,7 @@
       "CardImage": "KineticPlatingModx256.png",
       "Name": "Kinetic Plating",
       "Introduced": "25.7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RunnerPlatingAbility",
+      "InternalName": "/Lotus/Powersuits/Runner/Abilities/RunnerPlatingAbility",
       "Preview": "KineticPlatingPreview.webm",
       "PreviewFallback": "KineticPlatingPreview.jpg",
       "Icon": "KineticPlating130xWhite.png"
@@ -1399,7 +1399,7 @@
       "CardImage": "SonicBoomModx256.png",
       "Name": "Sonic Boom",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PushAbility",
+      "InternalName": "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
       "Preview": "SonicBoomPreview.webm",
       "PreviewFallback": "SonicBoomPreview.jpg",
       "Icon": "SonicBoom130xWhite.png"
@@ -1444,7 +1444,7 @@
       "CardImage": "MalletModx256.png",
       "Name": "Mallet",
       "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BardMusicAbility",
+      "InternalName": "/Lotus/Powersuits/Bard/Abilities/BardMusicAbility",
       "Preview": "MalletPreview.webm",
       "PreviewFallback": "MalletPreview.jpg",
       "Icon": "MalletIcon.png"
@@ -1460,7 +1460,7 @@
       "CardImage": "SeekingTalonsModx256.png",
       "Name": "Seeking Talons",
       "Introduced": "24",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GarudaUnstoppableAbility",
+      "InternalName": "/Lotus/Powersuits/Garuda/Abilities/GarudaUnstoppableAbility",
       "Preview": "SeekingTalonsPreview.webm",
       "PreviewFallback": "SeekingTalonsPreview.jpg",
       "Icon": "SeekingTalons130xWhite.png"
@@ -1487,7 +1487,7 @@
       "CardImage": "PenanceModx256.png",
       "Name": "Penance",
       "Introduced": "21",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PriestPenanceAbility",
+      "InternalName": "/Lotus/Powersuits/Priest/Abilities/PriestPenanceAbility",
       "Preview": "PenancePreview.webm",
       "PreviewFallback": "PenancePreview.jpg",
       "Icon": "Penance130xWhite.png"
@@ -1503,7 +1503,7 @@
       "CardImage": "BloodlettingModx256.png",
       "Name": "Bloodletting",
       "Introduced": "24",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GarudaBloodAbility",
+      "InternalName": "/Lotus/Powersuits/Garuda/Abilities/GarudaBloodAbility",
       "Preview": "BloodlettingPreview.webm",
       "PreviewFallback": "BloodlettingPreview.jpg",
       "Icon": "Bloodletting130xWhite.png"
@@ -1519,7 +1519,7 @@
       "CardImage": "ShatterShieldModx256.png",
       "Name": "Shatter Shield",
       "Introduced": "15.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RicochetArmorAbility",
+      "InternalName": "/Lotus/Powersuits/Cowgirl/Abilities/RicochetArmorAbility",
       "Preview": "ShatterShieldPreview.webm",
       "PreviewFallback": "ShatterShieldPreview.jpg",
       "Icon": "ShatterShield130xWhite.png"
@@ -1533,7 +1533,7 @@
       "CardImage": "OphanimEyesModx256.png",
       "Name": "Ophanim Eyes",
       "Introduced": "36",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ChoirEyesAbility",
+      "InternalName": "/Lotus/Powersuits/Choir/Abilities/ChoirEyesAbility",
       "Preview": "OphanimEyesPreview.webm",
       "PreviewFallback": "OphanimEyesPreview.jpg",
       "Icon": "OphanimEyes130xWhite.png"
@@ -1547,7 +1547,7 @@
       "CardImage": "Xata'sWhisperModx256.png",
       "Name": "Xata's Whisper",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrokenRotAbility",
+      "InternalName": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenRotAbility",
       "Preview": "Xata'sWhisperPreview.webm",
       "PreviewFallback": "Xata'sWhisperPreview.jpg",
       "Icon": "Xata'sWhisper130xWhite.png"
@@ -1563,7 +1563,7 @@
       "CardImage": "BastilleModx256.png",
       "Name": "Bastille",
       "Introduced": "7.11",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LevTrapAbility",
+      "InternalName": "/Lotus/Powersuits/Trapper/Abilities/LevTrapAbility",
       "Preview": "BastillePreview.webm",
       "PreviewFallback": "BastillePreview.jpg",
       "Icon": "Bastille130xWhite.png"
@@ -1576,7 +1576,7 @@
       "CardImage": "Overdrive.png",
       "Name": "Overdrive",
       "Introduced": "38.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TempleSpeakersAbility",
+      "InternalName": "/Lotus/Powersuits/Temple/Abilities/TempleSpeakersAbility",
       "Preview": "OverdrivePreview.webm",
       "PreviewFallback": "OverdrivePreview.jpg",
       "Icon": "Overdrive.png"
@@ -1592,7 +1592,7 @@
       "CardImage": "HallOfMirrorsModx256.png",
       "Name": "Hall of Mirrors",
       "Introduced": "14",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IllusionAbility",
+      "InternalName": "/Lotus/Powersuits/Harlequin/Abilities/IllusionAbility",
       "Preview": "HallOfMirrorsPreview.webm",
       "PreviewFallback": "HallOfMirrorsPreview.jpg",
       "Icon": "HallOfMirrors130xWhite.png"
@@ -1622,7 +1622,7 @@
       "CardImage": "RipLineModx256.png",
       "Name": "Rip Line",
       "Introduced": "11",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GrappleHookAbility",
+      "InternalName": "/Lotus/Powersuits/Berserker/Abilities/GrappleHookAbility",
       "Preview": "RipLinePreview.webm",
       "PreviewFallback": "RipLinePreview.jpg",
       "Icon": "RipLine130xWhite.png"
@@ -1652,7 +1652,7 @@
       "CardImage": "FreezeModx256.png",
       "Name": "Freeze",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IcicleAbility",
+      "InternalName": "/Lotus/Powersuits/Frost/Abilities/IcicleAbility",
       "Preview": "FreezePreview.webm",
       "PreviewFallback": "FreezePreview.jpg",
       "Icon": "Freeze130xWhite.png"
@@ -1678,7 +1678,7 @@
       "CardImage": "FinalVerseModx256.png",
       "Name": "Final Verse",
       "Introduced": "35.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterFinalChapterAbility",
+      "InternalName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterFinalChapterAbility",
       "Preview": "FinalVersePreview.webm",
       "PreviewFallback": "FinalVersePreview.jpg",
       "Icon": "FinalVerse130xWhite.png"
@@ -1695,7 +1695,7 @@
       "CardImage": "ElementalWardModx256.png",
       "Name": "Elemental Ward",
       "Introduced": "16",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DragonLuckAbility",
+      "InternalName": "/Lotus/Powersuits/Dragon/Abilities/DragonLuckAbility",
       "Preview": "ElementalWardPreview.webm",
       "PreviewFallback": "ElementalWardPreview.jpg",
       "Icon": "ElementalWard130xWhite.png"
@@ -1711,7 +1711,7 @@
       "CardImage": "SoulPunchModx256.png",
       "Name": "Soul Punch",
       "Introduced": "10",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SoulPunchAbility",
+      "InternalName": "/Lotus/Powersuits/Necro/Abilities/SoulPunchAbility",
       "Preview": "SoulPunchPreview.webm",
       "PreviewFallback": "SoulPunchPreview.jpg",
       "Icon": "SoulPunch130xWhite.png"
@@ -1725,7 +1725,7 @@
       "CardImage": "NoctuaModx256.png",
       "Name": "Noctua",
       "Introduced": "35.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterBookAbility",
+      "InternalName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterBookAbility",
       "Preview": "NoctuaPreview.webm",
       "PreviewFallback": "NoctuaPreview.jpg",
       "Weapon": "Noctua (Weapon)"
@@ -1741,7 +1741,7 @@
       "CardImage": "EffigyModx256.png",
       "Name": "Effigy",
       "Introduced": "16",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DragonPeltAbility",
+      "InternalName": "/Lotus/Powersuits/Dragon/Abilities/DragonPeltAbility",
       "Preview": "EffigyPreview.webm",
       "PreviewFallback": "EffigyPreview.jpg",
       "Icon": "Effigy130xWhite.png"
@@ -1771,7 +1771,7 @@
       "CardImage": "ShatteredLashModx256.png",
       "Name": "Shattered Lash",
       "Introduced": "22",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GlassShankAbility",
+      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassShankAbility",
       "Preview": "ShatteredLashPreview.webm",
       "PreviewFallback": "ShatteredLashPreview.jpg",
       "Weapon": "Shattered Lash"
@@ -1784,7 +1784,7 @@
       "CardImage": "CollectiveCurse.png",
       "Name": "Collective Curse",
       "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxLinkAbility",
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxLinkAbility",
       "Preview": "CollectiveCursePreview.webm",
       "PreviewFallback": "CollectiveCursePreview.jpg",
       "Icon": "CollectiveCurseIcon.png"
@@ -1800,7 +1800,7 @@
       "CardImage": "GraveSpirit.png",
       "Name": "Grave Spirit",
       "Introduced": "34",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DagathApparitionAbility",
+      "InternalName": "/Lotus/Powersuits/Dagath/Abilities/DagathApparitionAbility",
       "Preview": "GraveSpiritPreview.webm",
       "PreviewFallback": "GraveSpiritPreview.jpg",
       "Icon": "GraveSpirit130xWhite.png"
@@ -1814,7 +1814,7 @@
       "CardImage": "AmpModx256.png",
       "Name": "Amp",
       "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BardAmplifyAbility",
+      "InternalName": "/Lotus/Powersuits/Bard/Abilities/BardAmplifyAbility",
       "Preview": "AmpPreview.webm",
       "PreviewFallback": "AmpPreview.jpg",
       "Icon": "AmpIcon.png"
@@ -1830,7 +1830,7 @@
       "CardImage": "Light'sJudgmentModx256.png",
       "Name": "Light's Judgment",
       "Introduced": "36",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ChoirPoolAbility",
+      "InternalName": "/Lotus/Powersuits/Choir/Abilities/ChoirPoolAbility",
       "Preview": "Light'sJudgmentPreview.webm",
       "PreviewFallback": "Light'sJudgmentPreview.jpg",
       "Icon": "Light'sJudgment130xWhite.png"
@@ -1857,7 +1857,7 @@
       "CardImage": "ScarabSwarmModx256.png",
       "Name": "Scarab Swarm",
       "Introduced": "18.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SandmanSwarmAbility",
+      "InternalName": "/Lotus/Powersuits/Sandman/Abilities/SandmanSwarmAbility",
       "Preview": "ScarabSwarmPreview.webm",
       "PreviewFallback": "ScarabSwarmPreview.jpg",
       "Icon": "ScarabSwarm130xWhite.png"
@@ -1873,7 +1873,7 @@
       "CardImage": "TentacleSwarmModx256.png",
       "Name": "Tentacle Swarm",
       "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KrakenAbility",
+      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/KrakenAbility",
       "Preview": "TentacleSwarmPreview.webm",
       "PreviewFallback": "TentacleSwarmPreview.jpg",
       "Icon": "TentacleSwarm130xWhite.png"
@@ -1887,7 +1887,7 @@
       "Subsumable": true,
       "Powersuit": "Hildryn",
       "Key": 2,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameStripAbility",
+      "InternalName": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameStripAbility",
       "CardImage": "PillageModx256.png",
       "Name": "Pillage",
       "Introduced": "24.4",
@@ -1905,7 +1905,7 @@
       "CardImage": "Brightbonnet.png",
       "Name": "Brightbonnet",
       "Introduced": "40",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoPowerShroomAbility",
+      "InternalName": "/Lotus/Powersuits/Nokko/Abilities/NokkoPowerShroomAbility",
       "Preview": "BrightbonnetPreview.webm",
       "PreviewFallback": "BrightbonnetPreview.jpg",
       "Icon": "Brightbonnet.png"
@@ -1919,7 +1919,7 @@
       "CardImage": "ThanomechSword.png",
       "Name": "Exalted Ironbride",
       "Introduced": "29.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechSwordAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechSwordAbility",
       "Preview": "ExaltedIronbridePreview.webm",
       "PreviewFallback": "ExaltedIronbridePreview.jpg",
       "Weapon": "Ironbride"
@@ -1935,7 +1935,7 @@
       "CardImage": "EnthrallModx256.png",
       "Name": "Enthrall",
       "Introduced": "23.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RevenantMarkAbility",
+      "InternalName": "/Lotus/Powersuits/Revenant/Abilities/RevenantMarkAbility",
       "Preview": "EnthrallPreview.webm",
       "PreviewFallback": "EnthrallPreview.jpg",
       "Icon": "Enthrall130xWhite.png"
@@ -1949,7 +1949,7 @@
       "CardImage": "UrielBrimstone.png",
       "Name": "Brimstone",
       "Introduced": "41",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameBrimstoneAbility",
+      "InternalName": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameBrimstoneAbility",
       "Preview": "UrielBrimstonePreview.webm",
       "PreviewFallback": "UrielBrimstonePreview.jpg",
       "Icon": "UrielBrimstone.png"
@@ -1962,7 +1962,7 @@
       "CardImage": "FusionStrikeModx256.png",
       "Name": "Fusion Strike",
       "Introduced": "31",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SentientBlastAbility",
+      "InternalName": "/Lotus/Powersuits/Sentient/Abilities/SentientBlastAbility",
       "Preview": "FusionStrikePreview.webm",
       "PreviewFallback": "FusionStrikePreview.jpg",
       "Icon": "FusionStrike130xWhite.png"
@@ -1972,7 +1972,7 @@
       "Cost": 250,
       "Powersuit": "Hildryn",
       "Key": 3,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameAuraAbility",
+      "InternalName": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameAuraAbility",
       "CardImage": "HavenModx256.png",
       "Name": "Haven",
       "Introduced": "24.4",
@@ -2009,7 +2009,7 @@
       "CardImage": "DecoyModx256.png",
       "Name": "Decoy",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DecoyAbility",
+      "InternalName": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
       "Preview": "DecoyPreview.webm",
       "PreviewFallback": "DecoyPreview.jpg",
       "Icon": "Decoy130xWhite.png"
@@ -2025,7 +2025,7 @@
       "CardImage": "LanternModx256.png",
       "Name": "Lantern",
       "Introduced": "The Silver Grove",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FairyLightAbility",
+      "InternalName": "/Lotus/Powersuits/Fairy/Abilities/FairyLightAbility",
       "Preview": "LanternPreview.webm",
       "PreviewFallback": "LanternPreview.jpg",
       "Icon": "Lantern130xWhite.png"
@@ -2038,7 +2038,7 @@
       "CardImage": "DesolateHandsModx256.png",
       "Name": "Desolate Hands",
       "Introduced": "24.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDisarmAbility",
+      "InternalName": "/Lotus/Powersuits/Pacifist/Abilities/PacifistDisarmAbility",
       "Preview": "DesolateHandsPreview.webm",
       "PreviewFallback": "DesolateHandsPreview.jpg",
       "Icon": "DesolateHands130xWhite.png"
@@ -2052,7 +2052,7 @@
       "CardImage": "DarkVerseModx256.png",
       "Name": "Dark Verse",
       "Introduced": "35.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterDeathAbility",
+      "InternalName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
       "Preview": "DarkVersePreview.webm",
       "PreviewFallback": "DarkVersePreview.jpg",
       "Icon": "DarkVerse130xWhite.png"
@@ -2065,7 +2065,7 @@
       "CardImage": "NechramechShock.png",
       "Name": "Storm Shroud",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechShockingIronAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechShockingIronAbility",
       "Preview": "StormShroudPreview.webm",
       "PreviewFallback": "StormShroudPreview.jpg",
       "Icon": "NechramechShock.png"
@@ -2097,7 +2097,7 @@
       "CardImage": "LinkModx256.png",
       "Name": "Link",
       "Introduced": "4",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LinkAbility",
+      "InternalName": "/Lotus/Powersuits/Trinity/Abilities/LinkAbility",
       "Preview": "LinkPreview.webm",
       "PreviewFallback": "LinkPreview.jpg",
       "Icon": "Link130xWhite.png"
@@ -2126,7 +2126,7 @@
       "CardImage": "CovenantModx256.png",
       "Name": "Covenant",
       "Introduced": "21",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PriestPactAbility",
+      "InternalName": "/Lotus/Powersuits/Priest/Abilities/PriestPactAbility",
       "Preview": "CovenantPreview.webm",
       "PreviewFallback": "CovenantPreview.jpg",
       "Icon": "Covenant130xWhite.png"
@@ -2143,7 +2143,7 @@
       "CardImage": "PullModx256.png",
       "Name": "Pull",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PullAbility",
+      "InternalName": "/Lotus/Powersuits/Mag/Abilities/PullAbility",
       "Preview": "PullPreview.webm",
       "PreviewFallback": "PullPreview.jpg",
       "Icon": "Pull130xWhite.png"
@@ -2159,7 +2159,7 @@
       "CardImage": "TheVastUntimeModx256.png",
       "Name": "The Vast Untime",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrokenDestructAbility",
+      "InternalName": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenDestructAbility",
       "Preview": "TheVastUntimePreview.webm",
       "PreviewFallback": "TheVastUntimePreview.jpg",
       "Icon": "TheVastUntime130xWhite.png"
@@ -2172,7 +2172,7 @@
       "CardImage": "NechramechMine.png",
       "Name": "Gravemines",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechMinefieldAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechMinefieldAbility",
       "Preview": "GraveminesPreview.webm",
       "PreviewFallback": "GraveminesPreview.jpg",
       "Icon": "NechramechMine.png"
@@ -2188,7 +2188,7 @@
       "CardImage": "ProwlModx256.png",
       "Name": "Prowl",
       "Introduced": "18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RangerStealAbility",
+      "InternalName": "/Lotus/Powersuits/Ranger/Abilities/RangerStealAbility",
       "Preview": "ProwlPreview.webm",
       "PreviewFallback": "ProwlPreview.jpg",
       "Icon": "Prowl130xWhite.png"
@@ -2204,7 +2204,7 @@
       "CardImage": "SnowGlobeModx256.png",
       "Name": "Snow Globe",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IceShieldAbility",
+      "InternalName": "/Lotus/Powersuits/Frost/Abilities/IceShieldAbility",
       "Preview": "SnowGlobePreview.webm",
       "PreviewFallback": "SnowGlobePreview.jpg",
       "Icon": "SnowGlobe130xWhite.png"
@@ -2217,7 +2217,7 @@
       "CardImage": "RallyPointModx256.png",
       "Name": "Rally Point",
       "Introduced": "32",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HopliteRallyAbility",
+      "InternalName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
       "Preview": "RallyPointPreview.webm",
       "PreviewFallback": "RallyPointPreview.jpg",
       "Icon": "RallyPoint130xWhite.png"
@@ -2230,7 +2230,7 @@
       "CardImage": "DisometricModx256.png",
       "Name": "Disometric Guard",
       "Introduced": "35",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteAuraAbility",
+      "InternalName": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcreteAuraAbility",
       "Preview": "DisometricPreview.webm",
       "PreviewFallback": "DisometricPreview.jpg",
       "Icon": "DisometricGuard130xWhite.png"
@@ -2247,7 +2247,7 @@
       "CardImage": "RadialHowlModx256.png",
       "Name": "Radial Howl",
       "Introduced": "23",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/UmbraRadialRoarAbility",
+      "InternalName": "/Lotus/Powersuits/Excalibur/Abilities/UmbraRadialRoarAbility",
       "Preview": "RadialHowlPreview.webm",
       "PreviewFallback": "RadialHowlPreview.jpg",
       "Icon": "RadialHowl130xWhite.png"
@@ -2264,7 +2264,7 @@
       "CardImage": "MerulinaModx256.png",
       "Name": "Merulina",
       "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YareliBoardAbility",
+      "InternalName": "/Lotus/Powersuits/Yareli/Abilities/YareliBoardAbility",
       "Preview": "MerulinaPreview.webm",
       "PreviewFallback": "MerulinaPreview.jpg",
       "Icon": "Merulina130xWhite.png"
@@ -2281,7 +2281,7 @@
       "CardImage": "PetrifyModx256.png",
       "Name": "Petrify",
       "Introduced": "17.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerGazeAbility",
+      "InternalName": "/Lotus/Powersuits/Brawler/Abilities/BrawlerGazeAbility",
       "Preview": "PetrifyPreview.webm",
       "PreviewFallback": "PetrifyPreview.jpg",
       "Icon": "Petrify130xWhite.png"
@@ -2295,7 +2295,7 @@
       "CardImage": "SentientWrathModx256.png",
       "Name": "Sentient Wrath",
       "Introduced": "31",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SentientStompAbility",
+      "InternalName": "/Lotus/Powersuits/Sentient/Abilities/SentientStompAbility",
       "Preview": "SentientWrathPreview.webm",
       "PreviewFallback": "SentientWrathPreview.jpg",
       "Icon": "SentientWrath130xWhite.png"
@@ -2311,7 +2311,7 @@
       "CardImage": "IronSkinModx256.png",
       "Name": "Iron Skin",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IronSkinAbility",
+      "InternalName": "/Lotus/Powersuits/Rhino/Abilities/IronSkinAbility",
       "Preview": "IronSkinPreview.webm",
       "PreviewFallback": "IronSkinPreview.jpg",
       "Icon": "IronSkin130xWhite.png"
@@ -2337,7 +2337,7 @@
       "CardImage": "SeaSnaresModx256.png",
       "Name": "Sea Snares",
       "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YareliBubbleAbility",
+      "InternalName": "/Lotus/Powersuits/Yareli/Abilities/YareliBubbleAbility",
       "Preview": "SeaSnaresPreview.webm",
       "PreviewFallback": "SeaSnaresPreview.jpg",
       "Icon": "SeaSnares130xWhite.png"
@@ -2353,7 +2353,7 @@
       "CardImage": "RenewalModx256.png",
       "Name": "Renewal",
       "Introduced": "11.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RegenerationAbility",
+      "InternalName": "/Lotus/Powersuits/Paladin/Abilities/RegenerationAbility",
       "Preview": "RenewalPreview.webm",
       "PreviewFallback": "RenewalPreview.jpg",
       "Icon": "Renewal130xWhite.png"
@@ -2366,7 +2366,7 @@
       "CardImage": "ResupplyModx256.png",
       "Name": "Resupply",
       "Introduced": "38",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusAmmoAbility",
+      "InternalName": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusAmmoAbility",
       "Preview": "ResupplyPreview.webm",
       "PreviewFallback": "ResupplyPreview.jpg",
       "Icon": "ResupplyIcon.png"
@@ -2382,7 +2382,7 @@
       "CardImage": "FeastModx256.png",
       "Name": "Feast",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DevourerDevourAbility",
+      "InternalName": "/Lotus/Powersuits/Devourer/Abilities/DevourerDevourAbility",
       "Preview": "FeastPreview.webm",
       "PreviewFallback": "FeastPreview.jpg",
       "Icon": "Feast130xWhite.png"
@@ -2398,7 +2398,7 @@
       "CardImage": "PsychicBoltsModx256.png",
       "Name": "Psychic Bolts",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DaggerAbility",
+      "InternalName": "/Lotus/Powersuits/Jade/Abilities/DaggerAbility",
       "Preview": "PsychicBoltsPreview.webm",
       "PreviewFallback": "PsychicBoltsPreview.jpg",
       "Icon": "PsychicBolts130xWhite.png"
@@ -2427,7 +2427,7 @@
       "CardImage": "MolecularPrimeModx256.png",
       "Name": "Molecular Prime",
       "Introduced": "9",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MolecularPrimeAbility",
+      "InternalName": "/Lotus/Powersuits/AntiMatter/Abilities/MolecularPrimeAbility",
       "Preview": "MolecularPrimePreview.webm",
       "PreviewFallback": "MolecularPrimePreview.jpg",
       "Icon": "MolecularPrime130xWhite.png"
@@ -2443,7 +2443,7 @@
       "CardImage": "DreadMirrorModx256.png",
       "Name": "Dread Mirror",
       "Introduced": "24",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GarudaShieldAbility",
+      "InternalName": "/Lotus/Powersuits/Garuda/Abilities/GarudaShieldAbility",
       "Preview": "DreadMirrorPreview.webm",
       "PreviewFallback": "DreadMirrorPreview.jpg",
       "Icon": "DreadMirror130xWhite.png"
@@ -2470,7 +2470,7 @@
       "CardImage": "ExaltedSolo.png",
       "Name": "Exalted Solo",
       "Introduced": "38.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TempleGuitarAbility",
+      "InternalName": "/Lotus/Powersuits/Temple/Abilities/TempleGuitarAbility",
       "Preview": "ExaltedSoloPreview.webm",
       "PreviewFallback": "ExaltedSoloPreview.jpg",
       "Weapon": "Lizzie"
@@ -2487,7 +2487,7 @@
       "CardImage": "DispensaryModx256.png",
       "Name": "Dispensary",
       "Introduced": "28",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskDispensaryAbility",
+      "InternalName": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskDispensaryAbility",
       "Preview": "DispensaryPreview.webm",
       "PreviewFallback": "DispensaryPreview.jpg",
       "Icon": "Dispensary130xWhite.png"
@@ -2501,7 +2501,7 @@
       "CardImage": "UrielDemonium.png",
       "Name": "Demonium",
       "Introduced": "41",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameCloneAbility",
+      "InternalName": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameCloneAbility",
       "Preview": "UrielDemoniumPreview.webm",
       "PreviewFallback": "UrielDemoniumPreview.jpg",
       "Icon": "UrielDemonium.png"
@@ -2527,7 +2527,7 @@
       "CardImage": "ThanomechRepulse.png",
       "Name": "Firing Line",
       "Introduced": "29.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechRepulseAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechRepulseAbility",
       "Preview": "FiringLinePreview.webm",
       "PreviewFallback": "FiringLinePreview.jpg",
       "Icon": "ThanomechRepulse.png"
@@ -2543,7 +2543,7 @@
       "CardImage": "ReapModx256.png",
       "Name": "Reap",
       "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithReapAbility",
+      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithReapAbility",
       "Preview": "ReapPreview.webm",
       "PreviewFallback": "ReapPreview.jpg",
       "Icon": "Reap130xWhite.png"
@@ -2572,7 +2572,7 @@
       "CardImage": "InfernoModx256.png",
       "Name": "Inferno",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EmberInfernoAbility",
+      "InternalName": "/Lotus/Powersuits/Ember/Abilities/EmberInfernoAbility",
       "Preview": "InfernoPreview.webm",
       "PreviewFallback": "InfernoPreview.jpg",
       "Icon": "Inferno130xWhite.png"
@@ -2588,7 +2588,7 @@
       "CardImage": "ImmolationModx256.png",
       "Name": "Immolation",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EmberImmolationAbility",
+      "InternalName": "/Lotus/Powersuits/Ember/Abilities/EmberImmolationAbility",
       "Preview": "ImmolationPreview.webm",
       "PreviewFallback": "ImmolationPreview.jpg",
       "Icon": "Immolation130xWhite.png"
@@ -2617,7 +2617,7 @@
       "CardImage": "SoundQuakeModx256.png",
       "Name": "Sound Quake",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SonicEarthQuakeAbility",
+      "InternalName": "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
       "Preview": "SoundQuakePreview.webm",
       "PreviewFallback": "SoundQuakePreview.jpg",
       "Icon": "SoundQuake130xWhite.png"
@@ -2633,7 +2633,7 @@
       "CardImage": "RadialDisarmModx256.png",
       "Name": "Radial Disarm",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RadialDisarmAbility",
+      "InternalName": "/Lotus/Powersuits/Loki/Abilities/RadialDisarmAbility",
       "Preview": "RadialDisarmPreview.webm",
       "PreviewFallback": "RadialDisarmPreview.jpg",
       "Icon": "RadialDisarm130xWhite.png"
@@ -2676,7 +2676,7 @@
       "CardImage": "SonarModx256.png",
       "Name": "Sonar",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SonarAbility",
+      "InternalName": "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
       "Preview": "SonarPreview.webm",
       "PreviewFallback": "SonarPreview.jpg",
       "Icon": "Sonar130xWhite.png"
@@ -2703,7 +2703,7 @@
       "CardImage": "GrenadeFanModx256.png",
       "Name": "Grenade Fan",
       "Introduced": "28",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskFanAbility",
+      "InternalName": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskFanAbility",
       "Preview": "GrenadeFanPreview.webm",
       "PreviewFallback": "GrenadeFanPreview.jpg",
       "Icon": "GrenadeFan130xWhite.png"
@@ -2719,7 +2719,7 @@
       "CardImage": "SpeedModx256.png",
       "Name": "Speed",
       "Introduced": "5.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SpeedAbility",
+      "InternalName": "/Lotus/Powersuits/Volt/Abilities/SpeedAbility",
       "Preview": "SpeedPreview.webm",
       "PreviewFallback": "SpeedPreview.jpg",
       "Icon": "Speed130xWhite.png"
@@ -2735,7 +2735,7 @@
       "CardImage": "DischargeModx256.png",
       "Name": "Discharge",
       "Introduced": "18.13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OverLoadAbility",
+      "InternalName": "/Lotus/Powersuits/Volt/Abilities/OverLoadAbility",
       "Preview": "DischargePreview.webm",
       "PreviewFallback": "DischargePreview.jpg",
       "Icon": "Discharge130xWhite.png"
@@ -2751,7 +2751,7 @@
       "CardImage": "BallisticBatteryModx256.png",
       "Name": "Ballistic Battery",
       "Introduced": "15.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BallisticBatteryAbility",
+      "InternalName": "/Lotus/Powersuits/Cowgirl/Abilities/BallisticBatteryAbility",
       "Preview": "BallisticBatteryPreview.webm",
       "PreviewFallback": "BallisticBatteryPreview.jpg",
       "Icon": "BallisticBattery130xWhite.png"
@@ -2765,7 +2765,7 @@
       "CostType": "shield",
       "Powersuit": "Hildryn",
       "Key": 1,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IronFrameBlastAbility",
+      "InternalName": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameBlastAbility",
       "CardImage": "BalefireModx256.png",
       "Name": "Balefire",
       "Introduced": "24.4",
@@ -2783,7 +2783,7 @@
       "CardImage": "NeutralizeModx256.png",
       "Name": "Neutralize",
       "Introduced": "38",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusSniperAbility",
+      "InternalName": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusSniperAbility",
       "Preview": "NeutralizePreview.webm",
       "PreviewFallback": "NeutralizePreview.jpg",
       "Weapon": "Neutralizer"
@@ -2812,7 +2812,7 @@
       "CardImage": "PulverizeModx256.png",
       "Name": "Pulverize",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DevourerBowlAbility",
+      "InternalName": "/Lotus/Powersuits/Devourer/Abilities/DevourerBowlAbility",
       "Preview": "PulverizePreview.webm",
       "PreviewFallback": "PulverizePreview.jpg",
       "Icon": "Pulverize130xWhite.png"
@@ -2838,7 +2838,7 @@
       "CardImage": "KumihimoModx256.png",
       "Name": "Kumihimo",
       "Introduced": "37",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiStringsAbility",
+      "InternalName": "/Lotus/Powersuits/Koumei/Abilities/KoumeiStringsAbility",
       "Preview": "KumihimoPreview.webm",
       "PreviewFallback": "KumihimoPreview.jpg",
       "Icon": "Kumihimo.png"
@@ -2852,7 +2852,7 @@
       "CardImage": "OmamoriModx256.png",
       "Name": "Omamori",
       "Introduced": "37",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiBlockAbility",
+      "InternalName": "/Lotus/Powersuits/Koumei/Abilities/KoumeiBlockAbility",
       "Preview": "OmamoriPreview.webm",
       "PreviewFallback": "OmamoriPreview.jpg",
       "Icon": "Omamori.png"
@@ -2868,7 +2868,7 @@
       "CardImage": "RegurgitateModx256.png",
       "Name": "Regurgitate",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DevourerRegurgitateAbility",
+      "InternalName": "/Lotus/Powersuits/Devourer/Abilities/DevourerRegurgitateAbility",
       "Preview": "RegurgitatePreview.webm",
       "PreviewFallback": "RegurgitatePreview.jpg",
       "Icon": "Regurgitate130xWhite.png"
@@ -2881,7 +2881,7 @@
       "CardImage": "MassVitrifyModx256.png",
       "Name": "Mass Vitrify",
       "Introduced": "22",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GlassRingAbility",
+      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassRingAbility",
       "Preview": "MassVitrifyPreview.webm",
       "PreviewFallback": "MassVitrifyPreview.jpg",
       "Icon": "MassVitrify130xWhite.png"
@@ -2897,7 +2897,7 @@
       "CardImage": "ParasiticLinkModx256.png",
       "Name": "Parasitic Link",
       "Introduced": "19.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/InfestLinkAbility",
+      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
       "Preview": "ParasiticLinkPreview.webm",
       "PreviewFallback": "ParasiticLinkPreview.jpg",
       "Icon": "ParasiticLink130xWhite.png"
@@ -2915,7 +2915,7 @@
       "CardImage": "QuiverModx256.png",
       "Name": "Quiver",
       "Introduced": "18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RangerQuiverAbility",
+      "InternalName": "/Lotus/Powersuits/Ranger/Abilities/RangerQuiverAbility",
       "Preview": "QuiverPreview.webm",
       "PreviewFallback": "QuiverPreview.jpg",
       "Icon": "Quiver130xWhite.png"
@@ -2932,7 +2932,7 @@
       "CardImage": "DesiccationModx256.png",
       "Name": "Desiccation",
       "Introduced": "18.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SandmanBlastAbility",
+      "InternalName": "/Lotus/Powersuits/Sandman/Abilities/SandmanBlastAbility",
       "Preview": "DesiccationPreview.webm",
       "PreviewFallback": "DesiccationPreview.jpg",
       "Icon": "Desiccation130xWhite.png"
@@ -2948,7 +2948,7 @@
       "CardImage": "FinalStandModx256.png",
       "Name": "Final Stand",
       "Introduced": "32",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HopliteArmyAbility",
+      "InternalName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
       "Preview": "FinalStandPreview.webm",
       "PreviewFallback": "FinalStandPreview.jpg",
       "Icon": "FinalStand130xWhite.png"
@@ -2964,7 +2964,7 @@
       "CardImage": "CelestialTwinModx256.png",
       "Name": "Celestial Twin",
       "Introduced": "25.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyHairAbility",
+      "InternalName": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyHairAbility",
       "Preview": "CelestialTwinPreview.webm",
       "PreviewFallback": "CelestialTwinPreview.jpg",
       "Icon": "CelestialTwin130xWhite.png"
@@ -2980,7 +2980,7 @@
       "CardImage": "HallowedGroundModx256.png",
       "Name": "Hallowed Ground",
       "Introduced": "11.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/StairwayToHeavenAbility",
+      "InternalName": "/Lotus/Powersuits/Paladin/Abilities/StairwayToHeavenAbility",
       "Preview": "HallowedGroundPreview.webm",
       "PreviewFallback": "HallowedGroundPreview.jpg",
       "Icon": "HallowedGround130xWhite.png"
@@ -2994,7 +2994,7 @@
       "CardImage": "FracturedBlastModx256.png",
       "Name": "Fractured Blast",
       "Introduced": "32.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GeodeShardsAbility",
+      "InternalName": "/Lotus/Powersuits/Geode/Abilities/GeodeShardsAbility",
       "Preview": "FracturedBlastPreview.webm",
       "PreviewFallback": "FracturedBlastPreview.jpg",
       "Icon": "FracturedBlast130xWhite.png"
@@ -3010,7 +3010,7 @@
       "CardImage": "EnergyVampireModx256.png",
       "Name": "Energy Vampire",
       "Introduced": "4",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EnergyVampireAbility",
+      "InternalName": "/Lotus/Powersuits/Trinity/Abilities/EnergyVampireAbility",
       "Preview": "EnergyVampirePreview.webm",
       "PreviewFallback": "EnergyVampirePreview.jpg",
       "Icon": "EnergyVampire130xWhite.png"
@@ -3023,7 +3023,7 @@
       "CardImage": "BunrakuModx256.png",
       "Name": "Bunraku",
       "Introduced": "37",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiPuppetAbility",
+      "InternalName": "/Lotus/Powersuits/Koumei/Abilities/KoumeiPuppetAbility",
       "Preview": "BunrakuPreview.webm",
       "PreviewFallback": "BunrakuPreview.jpg",
       "Icon": "Bunraku.png"
@@ -3039,7 +3039,7 @@
       "CardImage": "Recompense.png",
       "Name": "Recompense",
       "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxBladesAbility",
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxBladesAbility",
       "Preview": "RecompensePreview.webm",
       "PreviewFallback": "RecompensePreview.jpg",
       "Icon": "RecompenseIcon.png"
@@ -3055,7 +3055,7 @@
       "CardImage": "ArcsphereModx256.png",
       "Name": "Arcsphere",
       "Introduced": "31.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GyrePulseAbility",
+      "InternalName": "/Lotus/Powersuits/Gyre/Abilities/GyrePulseAbility",
       "Preview": "ArcspherePreview.webm",
       "PreviewFallback": "ArcspherePreview.jpg",
       "Icon": "Arcsphere130xWhite.png"
@@ -3069,7 +3069,7 @@
       "CardImage": "WyrdScythes.png",
       "Name": "Wyrd Scythes",
       "Introduced": "34",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DagathVolleyAbility",
+      "InternalName": "/Lotus/Powersuits/Dagath/Abilities/DagathVolleyAbility",
       "Preview": "WyrdScythesPreview.webm",
       "PreviewFallback": "WyrdScythesPreview.jpg",
       "Icon": "WyrdScythes130xWhite.png"
@@ -3083,7 +3083,7 @@
       "CardImage": "WrathfulAdvance.png",
       "Name": "Wrathful Advance",
       "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxTeleportAbility",
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxTeleportAbility",
       "Preview": "WrathfulAdvancePreview.webm",
       "PreviewFallback": "WrathfulAdvancePreview.jpg",
       "Icon": "WrathfulAdvanceIcon.png"
@@ -3099,7 +3099,7 @@
       "CardImage": "SowModx256.png",
       "Name": "Sow",
       "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithSowAbility",
+      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithSowAbility",
       "Preview": "SowPreview.webm",
       "PreviewFallback": "SowPreview.jpg",
       "Icon": "Sow130xWhite.png"
@@ -3115,7 +3115,7 @@
       "CardImage": "AxiosJavelinModx256.png",
       "Name": "Axios Javelin",
       "Introduced": "32",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HopliteImpaleAbility",
+      "InternalName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
       "Preview": "AxiosJavelinPreview.webm",
       "PreviewFallback": "AxiosJavelinPreview.jpg",
       "Icon": "AxiosJavelin130xWhite.png"
@@ -3131,7 +3131,7 @@
       "CardImage": "ReckoningModx256.png",
       "Name": "Reckoning",
       "Introduced": "11.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ReckoningAbility",
+      "InternalName": "/Lotus/Powersuits/Paladin/Abilities/ReckoningAbility",
       "Preview": "ReckoningPreview.webm",
       "PreviewFallback": "ReckoningPreview.jpg",
       "Icon": "Reckoning130xWhite.png"
@@ -3148,7 +3148,7 @@
       "CardImage": "EclipseModx256.png",
       "Name": "Eclipse",
       "Introduced": "14",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LightAbility",
+      "InternalName": "/Lotus/Powersuits/Harlequin/Abilities/LightAbility",
       "Preview": "EclipsePreview.webm",
       "PreviewFallback": "EclipsePreview.jpg",
       "Icon": "Eclipse130xWhite.png"
@@ -3161,7 +3161,7 @@
       "CardImage": "WilOWisp.png",
       "Name": "Wil-O-Wisp",
       "Introduced": "25",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WispLightAbility",
+      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispLightAbility",
       "Preview": "Wil-O-WispPreview.webm",
       "PreviewFallback": "Wil-O-WispPreview.jpg",
       "Icon": "WilOWisp130xWhite.png"
@@ -3191,7 +3191,7 @@
       "CardImage": "WhipclawModx256.png",
       "Name": "Whipclaw",
       "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCrackAbility",
+      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraCrackAbility",
       "Preview": "WhipclawPreview.webm",
       "PreviewFallback": "WhipclawPreview.jpg",
       "Weapon": "Whipclaw"
@@ -3201,7 +3201,7 @@
       "Cost": 30,
       "Powersuit": "Lavos",
       "Key": 4,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistDistillAbility",
+      "InternalName": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistDistillAbility",
       "CardImage": "CatalyzeModx256.png",
       "Name": "Catalyze",
       "Introduced": "29.6",
@@ -3216,7 +3216,7 @@
       "Subsumable": true,
       "Powersuit": "Lavos",
       "Key": 2,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistVialAbility",
+      "InternalName": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistVialAbility",
       "CardImage": "VialRushModx256.png",
       "Name": "Vial Rush",
       "Introduced": "29.6",
@@ -3249,7 +3249,7 @@
       "CardImage": "Reservoirs.png",
       "Name": "Reservoirs",
       "Introduced": "25",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WispReservoirAbility",
+      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispReservoirAbility",
       "Preview": "ReservoirsPreview.webm",
       "PreviewFallback": "ReservoirsPreview.jpg",
       "Icon": "Reservoirs130xWhite.png"
@@ -3266,7 +3266,7 @@
       "CardImage": "PrimalFuryModx256.png",
       "Name": "Primal Fury",
       "Introduced": "17.12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyStaffAbility",
+      "InternalName": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyStaffAbility",
       "Preview": "PrimalFuryPreview.webm",
       "PreviewFallback": "PrimalFuryPreview.jpg",
       "Weapon": "Iron Staff"
@@ -3280,7 +3280,7 @@
       "CardImage": "WebbedEmbrace.png",
       "Name": "Webbed Embrace",
       "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaEntangleAbility",
+      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaEntangleAbility",
       "Preview": "WebbedEmbracePreview.webm",
       "PreviewFallback": "WebbedEmbracePreview.jpg",
       "Icon": "WebbedEmbrace.png"
@@ -3320,7 +3320,7 @@
       "CardImage": "ExaltedShadowModx256.png",
       "Name": "Exalted Shadow",
       "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithReaperAbility",
+      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithReaperAbility",
       "Preview": "ExaltedShadowPreview.webm",
       "PreviewFallback": "ExaltedShadowPreview.jpg",
       "Weapon": "Shadow Claws"
@@ -3350,7 +3350,7 @@
       "CardImage": "NullStarModx256.png",
       "Name": "Null Star",
       "Introduced": "9",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NullStarAbility",
+      "InternalName": "/Lotus/Powersuits/AntiMatter/Abilities/NullStarAbility",
       "Preview": "NullStarPreview.webm",
       "PreviewFallback": "NullStarPreview.jpg",
       "Icon": "NullStar130xWhite.png"
@@ -3379,7 +3379,7 @@
       "CardImage": "PrismaticGemModx256.png",
       "Name": "Prismatic Gem",
       "Introduced": "32.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GeodeCrystalAbility",
+      "InternalName": "/Lotus/Powersuits/Geode/Abilities/GeodeCrystalAbility",
       "Preview": "PrismaticGemPreview.webm",
       "PreviewFallback": "PrismaticGemPreview.jpg",
       "Icon": "PrismaticGem130xWhite.png"
@@ -3395,7 +3395,7 @@
       "CardImage": "VirulenceModx256.png",
       "Name": "Virulence",
       "Introduced": "19.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/InfestRuptureAbility",
+      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestRuptureAbility",
       "Preview": "VirulencePreview.webm",
       "PreviewFallback": "VirulencePreview.jpg",
       "Icon": "Virulence130xWhite.png"
@@ -3412,7 +3412,7 @@
       "CardImage": "WellOfLifeModx256.png",
       "Name": "Well of Life",
       "Introduced": "4",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WellOfLifeAbility",
+      "InternalName": "/Lotus/Powersuits/Trinity/Abilities/WellOfLifeAbility",
       "Preview": "WellOfLifePreview.webm",
       "PreviewFallback": "WellOfLifePreview.jpg",
       "Icon": "WellOfLife130xWhite.png"
@@ -3429,7 +3429,7 @@
       "CardImage": "VexArmorModx256.png",
       "Name": "Vex Armor",
       "Introduced": "16",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DragonScalesAbility",
+      "InternalName": "/Lotus/Powersuits/Dragon/Abilities/DragonScalesAbility",
       "Preview": "VexArmorPreview.webm",
       "PreviewFallback": "VexArmorPreview.jpg",
       "Icon": "VexArmor130xWhite.png"
@@ -3443,7 +3443,7 @@
       "CardImage": "BloodAltarModx256.png",
       "Name": "Blood Altar",
       "Introduced": "24",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GarudaSiphonAbility",
+      "InternalName": "/Lotus/Powersuits/Garuda/Abilities/GarudaSiphonAbility",
       "Preview": "BloodAltarPreview.webm",
       "PreviewFallback": "BloodAltarPreview.jpg",
       "Icon": "BloodAltar130xWhite.png"
@@ -3472,7 +3472,7 @@
       "CardImage": "VenariModx256.png",
       "Name": "Venari",
       "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraKavatAbility",
+      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraKavatAbility",
       "Preview": "VenariPreview.webm",
       "PreviewFallback": "VenariPreview.jpg",
       "Icon": "Venari130xWhite.png"
@@ -3488,7 +3488,7 @@
       "CardImage": "ParalysisModx256.png",
       "Name": "Paralysis",
       "Introduced": "11",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShieldBashAbility",
+      "InternalName": "/Lotus/Powersuits/Berserker/Abilities/ShieldBashAbility",
       "Preview": "ParalysisPreview.webm",
       "PreviewFallback": "ParalysisPreview.jpg",
       "Icon": "Paralysis130xWhite.png"
@@ -3520,7 +3520,7 @@
       "CardImage": "BlazeArtilleryModx256.png",
       "Name": "Blaze Artillery",
       "Introduced": "28",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OdaliskBFGAbility",
+      "InternalName": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskBFGAbility",
       "Preview": "BlazeArtilleryPreview.webm",
       "PreviewFallback": "BlazeArtilleryPreview.jpg",
       "Icon": "BlazeArtillery130xWhite.png"
@@ -3536,7 +3536,7 @@
       "CardImage": "Ulfrun'sDescent.png",
       "Name": "Ulfrun's Descent",
       "Introduced": "32.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfHowlAbility",
+      "InternalName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfHowlAbility",
       "Preview": "Ulfrun'sDescentPreview.webm",
       "PreviewFallback": "Ulfrun'sDescentPreview.jpg",
       "Icon": "Ulfrun'sDescentIcon.png"
@@ -3549,7 +3549,7 @@
       "CardImage": "RedlineModx256.png",
       "Name": "Redline",
       "Introduced": "25.7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRedlineAbility",
+      "InternalName": "/Lotus/Powersuits/Runner/Abilities/RunnerRedlineAbility",
       "Preview": "RedlinePreview.webm",
       "PreviewFallback": "RedlinePreview.jpg",
       "Icon": "Redline130xWhite.png"
@@ -3563,7 +3563,7 @@
       "CardImage": "Lycath'sHunt.png",
       "Name": "Lycath's Hunt",
       "Introduced": "32.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfLeapAbility",
+      "InternalName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfLeapAbility",
       "Preview": "Lycath'sHuntPreview.webm",
       "PreviewFallback": "Lycath'sHuntPreview.jpg",
       "Icon": "Lycath'sHuntIcon.png"
@@ -3579,7 +3579,7 @@
       "CardImage": "TurbulenceModx256.png",
       "Name": "Turbulence",
       "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TurbulenceAbility",
+      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TurbulenceAbility",
       "Preview": "TurbulencePreview.webm",
       "PreviewFallback": "TurbulencePreview.jpg",
       "Icon": "Turbulence130xWhite.png"
@@ -3592,7 +3592,7 @@
       "CardImage": "TributeModx256.png",
       "Name": "Tribute",
       "Introduced": "The Silver Grove",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FairySoulAbility",
+      "InternalName": "/Lotus/Powersuits/Fairy/Abilities/FairySoulAbility",
       "Preview": "Tribute.webm",
       "PreviewFallback": "Tribute.jpg",
       "Icon": "Tribute130xWhite.png"
@@ -3605,7 +3605,7 @@
       ],
       "Powersuit": "Lavos",
       "Key": 3,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistTransmuteAbility",
+      "InternalName": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistTransmuteAbility",
       "CardImage": "TransmutationProbeModx256.png",
       "Name": "Transmutation Probe",
       "Introduced": "29.6",
@@ -3634,7 +3634,7 @@
       "CardImage": "TornadoModx256.png",
       "Name": "Tornado",
       "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TornadoAbility",
+      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TornadoAbility",
       "Preview": "TornadoPreview.webm",
       "PreviewFallback": "TornadoPreview.jpg",
       "Icon": "Tornado130xWhite.png"
@@ -3647,7 +3647,7 @@
       "CardImage": "Ripper'sWail.png",
       "Name": "Ripper's Wail",
       "Introduced": "38.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TempleSoloAbility",
+      "InternalName": "/Lotus/Powersuits/Temple/Abilities/TempleSoloAbility",
       "Preview": "Ripper'sWailPreview.webm",
       "PreviewFallback": "Ripper'sWailPreview.jpg",
       "Icon": "Ripper'sWail.png"
@@ -3690,7 +3690,7 @@
       "CardImage": "TidalSurgeModx256.png",
       "Name": "Tidal Surge",
       "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TidalWaveAbility",
+      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/TidalWaveAbility",
       "Preview": "TidalSurgePreview.webm",
       "PreviewFallback": "TidalSurgePreview.jpg",
       "Icon": "TidalSurge130xWhite.png"
@@ -3706,7 +3706,7 @@
       "CardImage": "ThuribleModx256.png",
       "Name": "Thurible",
       "Introduced": "21",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PriestRavageAbility",
+      "InternalName": "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
       "Preview": "ThuriblePreview.webm",
       "PreviewFallback": "ThuriblePreview.jpg",
       "Icon": "Thurible130xWhite.png"
@@ -3737,7 +3737,7 @@
       "CardImage": "ThermalSunderModx256.png",
       "Name": "Thermal Sunder",
       "Introduced": "25.7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RunnerTransferAbility",
+      "InternalName": "/Lotus/Powersuits/Runner/Abilities/RunnerTransferAbility",
       "Preview": "ThermalSunderPreview.webm",
       "PreviewFallback": "ThermalSunderPreview.jpg",
       "Icon": "ThermalSunder130xWhite.png"
@@ -3754,7 +3754,7 @@
       "CardImage": "TempestBarrageModx256.png",
       "Name": "Tempest Barrage",
       "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/CannonBarrageAbility",
+      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/CannonBarrageAbility",
       "Preview": "TempestBarragePreview.webm",
       "PreviewFallback": "TempestBarragePreview.jpg",
       "Icon": "TempestBarrage130xWhite.png"
@@ -3770,7 +3770,7 @@
       "CardImage": "EludeModx256.png",
       "Name": "Elude",
       "Introduced": "24.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PacifistDodgeAbility",
+      "InternalName": "/Lotus/Powersuits/Pacifist/Abilities/PacifistDodgeAbility",
       "Preview": "EludePreview.webm",
       "PreviewFallback": "EludePreview.jpg",
       "Icon": "Elude130xWhite.png"
@@ -3786,7 +3786,7 @@
       "CardImage": "RhinoStompModx256.png",
       "Name": "Rhino Stomp",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RhinoStompAbility",
+      "InternalName": "/Lotus/Powersuits/Rhino/Abilities/RhinoStompAbility",
       "Preview": "RhinoStompPreview.webm",
       "PreviewFallback": "RhinoStompPreview.jpg",
       "Icon": "RhinoStomp130xWhite.png"
@@ -3803,7 +3803,7 @@
       "CardImage": "LarvaModx256.png",
       "Name": "Larva",
       "Introduced": "19.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/InfestTendrilsAbility",
+      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestTendrilsAbility",
       "Preview": "LarvaPreview.webm",
       "PreviewFallback": "LarvaPreview.jpg",
       "Icon": "Larva130xWhite.png"
@@ -3820,7 +3820,7 @@
       "CardImage": "TeslaNervosModx256.png",
       "Name": "Tesla Nervos",
       "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ZapTrapAbility",
+      "InternalName": "/Lotus/Powersuits/Trapper/Abilities/ZapTrapAbility",
       "Preview": "TeslaNervosPreview.webm",
       "PreviewFallback": "TeslaNervosPreview.jpg",
       "Icon": "TeslaNervos130xWhite.png"
@@ -3838,7 +3838,7 @@
       "CardImage": "HysteriaModx256.png",
       "Name": "Hysteria",
       "Introduced": "11",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LastStandAbility",
+      "InternalName": "/Lotus/Powersuits/Berserker/Abilities/LastStandAbility",
       "Preview": "HysteriaPreview.webm",
       "PreviewFallback": "HysteriaPreview.jpg",
       "Weapon": "Valkyr Talons"
@@ -3855,7 +3855,7 @@
       "CardImage": "TerrifyModx256.png",
       "Name": "Terrify",
       "Introduced": "10",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TerrorTotemAbility",
+      "InternalName": "/Lotus/Powersuits/Necro/Abilities/TerrorTotemAbility",
       "Preview": "TerrifyPreview.webm",
       "PreviewFallback": "TerrifyPreview.jpg",
       "Icon": "Terrify130xWhite.png"
@@ -3871,7 +3871,7 @@
       "CardImage": "TeleportModx256.png",
       "Name": "Teleport",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TeleportToAbility",
+      "InternalName": "/Lotus/Powersuits/Ninja/Abilities/TeleportToAbility",
       "Preview": "TeleportPreview.webm",
       "PreviewFallback": "TeleportPreview.jpg",
       "Icon": "Teleport130xWhite.png"
@@ -3884,7 +3884,7 @@
       "CardImage": "Widow'sBrood.png",
       "Name": "Widow's Brood",
       "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaSpidersAbility",
+      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaSpidersAbility",
       "Preview": "Widow'sBroodPreview.webm",
       "PreviewFallback": "Widow'sBroodPreview.jpg",
       "Icon": "Widow'sBrood.png"
@@ -3900,7 +3900,7 @@
       "CardImage": "TectonicsModx256.png",
       "Name": "Tectonics",
       "Introduced": "17.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerBarrierAbility",
+      "InternalName": "/Lotus/Powersuits/Brawler/Abilities/BrawlerBarrierAbility",
       "Preview": "TectonicsPreview.webm",
       "PreviewFallback": "TectonicsPreview.jpg",
       "Icon": "Tectonics130xWhite.png"
@@ -3916,13 +3916,13 @@
       "CardImage": "TailWindModx256.png",
       "Name": "Tail Wind",
       "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TailWindAbility",
+      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TailWindAbility",
       "Preview": "TailWindPreview.webm",
       "PreviewFallback": "TailWindPreview.jpg",
       "Icon": "TailWind130xWhite.png"
     },
     "Sickening Pulse": {
-      "Description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies, except <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat, and <DT_POISON_COLOR>Toxin effects which are duplicated with fresh timers.",
+      "Description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies. The damage of <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat, and <DT_POISON_COLOR>Toxin effects, excluding those created by Sickening Pulse itself, are added together to create a new instance of the Effect with a refreshed timer",
       "Cost": 50,
       "Subsumable": true,
       "Powersuit": "Helminth",
@@ -3945,7 +3945,7 @@
       "CardImage": "MachRushModx256.png",
       "Name": "Mach Rush",
       "Introduced": "25.7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RunnerRushAbility",
+      "InternalName": "/Lotus/Powersuits/Runner/Abilities/RunnerRushAbility",
       "Preview": "MachRushPreview.webm",
       "PreviewFallback": "MachRushPreview.jpg",
       "Icon": "MachRush130xWhite.png"
@@ -3961,7 +3961,7 @@
       "CardImage": "AntimatterDropModx256.png",
       "Name": "Antimatter Drop",
       "Introduced": "9",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AntiMatterDrop",
+      "InternalName": "/Lotus/Powersuits/AntiMatter/Abilities/AntiMatterDrop",
       "Preview": "AntimatterDropPreview.webm",
       "PreviewFallback": "AntimatterDropPreview.jpg",
       "Icon": "AntimatterDrop130xWhite.png"
@@ -3977,7 +3977,7 @@
       "CardImage": "SwitchTeleportModx256.png",
       "Name": "Switch Teleport",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SwitchTeleportAbility",
+      "InternalName": "/Lotus/Powersuits/Loki/Abilities/SwitchTeleportAbility",
       "Preview": "SwitchTeleportPreview.webm",
       "PreviewFallback": "SwitchTeleportPreview.jpg",
       "Icon": "SwitchTeleport130xWhite.png"
@@ -3993,7 +3993,7 @@
       "CardImage": "StrangledomeModx256.png",
       "Name": "Strangledome",
       "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraCageAbility",
+      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraCageAbility",
       "Preview": "StrangledomePreview.webm",
       "PreviewFallback": "StrangledomePreview.jpg",
       "Icon": "Strangledome130xWhite.png"
@@ -4023,7 +4023,7 @@
       "CardImage": "StormofUkko.png",
       "Name": "Storm of Ukko",
       "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxFieldAbility",
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxFieldAbility",
       "Preview": "StormofUkkoPreview.webm",
       "PreviewFallback": "StormofUkkoPreview.jpg",
       "Icon": "StormofUkkoIcon.png"
@@ -4039,7 +4039,7 @@
       "CardImage": "SplinterStormModx256.png",
       "Name": "Splinter Storm",
       "Introduced": "22",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GlassShatterAbility",
+      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassShatterAbility",
       "Preview": "SplinterStormPreview.webm",
       "PreviewFallback": "SplinterStormPreview.jpg",
       "Icon": "SplinterStorm130xWhite.png"
@@ -4052,7 +4052,7 @@
       "CardImage": "Stinkbrain.png",
       "Name": "Stinkbrain",
       "Introduced": "40",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoToxicShroomAbility",
+      "InternalName": "/Lotus/Powersuits/Nokko/Abilities/NokkoToxicShroomAbility",
       "Preview": "StinkbrainPreview.webm",
       "PreviewFallback": "StinkbrainPreview.jpg",
       "Icon": "Stinkbrain.png"
@@ -4069,7 +4069,7 @@
       "CardImage": "ReaveModx256.png",
       "Name": "Reave",
       "Introduced": "23.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RevenantAfflictionAbility",
+      "InternalName": "/Lotus/Powersuits/Revenant/Abilities/RevenantAfflictionAbility",
       "Preview": "ReavePreview.webm",
       "PreviewFallback": "ReavePreview.jpg",
       "Icon": "Reave130xWhite.png"
@@ -4096,7 +4096,7 @@
       "CardImage": "SilkenStride.png",
       "Name": "Silken Stride",
       "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaClimbAbility",
+      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaClimbAbility",
       "Preview": "SilkenStridePreview.webm",
       "PreviewFallback": "SilkenStridePreview.jpg",
       "Icon": "SilkenStride.png"
@@ -4109,7 +4109,7 @@
       "CardImage": "StasisModx256.png",
       "Name": "Stasis",
       "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MagicianStasisAbility",
+      "InternalName": "/Lotus/Powersuits/Magician/Abilities/MagicianStasisAbility",
       "Preview": "StasisPreview.webm",
       "PreviewFallback": "StasisPreview.jpg",
       "Icon": "Stasis130xWhite.png"
@@ -4135,7 +4135,7 @@
       "CardImage": "NechramechArtillery.png",
       "Name": "Guard Mode",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechTurretModeAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechTurretModeAbility",
       "Preview": "GuardModePreview.webm",
       "PreviewFallback": "GuardModePreview.jpg",
       "Icon": "NechramechArtillery.png"
@@ -4153,7 +4153,7 @@
       "CardImage": "FireBlastModx256.png",
       "Name": "Fire Blast",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FireBlastAbility",
+      "InternalName": "/Lotus/Powersuits/Ember/Abilities/FireBlastAbility",
       "Preview": "FireBlastPreview.webm",
       "PreviewFallback": "FireBlastPreview.jpg",
       "Icon": "FireBlast130xWhite.png"
@@ -4170,7 +4170,7 @@
       "CardImage": "SpellbindModx256.png",
       "Name": "Spellbind",
       "Introduced": "The Silver Grove",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FairyDustAbility",
+      "InternalName": "/Lotus/Powersuits/Fairy/Abilities/FairyDustAbility",
       "Preview": "SpellbindPreview.webm",
       "PreviewFallback": "SpellbindPreview.jpg",
       "Icon": "Spellbind130xWhite.png"
@@ -4187,7 +4187,7 @@
       "CardImage": "SpectrorageModx256.png",
       "Name": "Spectrorage",
       "Introduced": "22",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GlassFragmentAbility",
+      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassFragmentAbility",
       "Preview": "SpectroragePreview.webm",
       "PreviewFallback": "SpectroragePreview.jpg",
       "Icon": "Spectrorage130xWhite.png"
@@ -4205,7 +4205,7 @@
       "CardImage": "RadialBlindModx256.png",
       "Name": "Radial Blind",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RadialBlindAbility",
+      "InternalName": "/Lotus/Powersuits/Excalibur/Abilities/RadialBlindAbility",
       "Preview": "RadialBlindPreview.webm",
       "PreviewFallback": "RadialBlindPreview.jpg",
       "Icon": "RadialBlind130xWhite.png"
@@ -4221,7 +4221,7 @@
       "CardImage": "WormHoleModx256.png",
       "Name": "Wormhole",
       "Introduced": "9",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WormHoleAbility",
+      "InternalName": "/Lotus/Powersuits/AntiMatter/Abilities/WormHoleAbility",
       "Preview": "WormHolePreview.webm",
       "PreviewFallback": "WormHolePreview.jpg",
       "Icon": "WormHole130xWhite.png"
@@ -4237,7 +4237,7 @@
       "CardImage": "SolGate.png",
       "Name": "Sol Gate",
       "Introduced": "25",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WispSunAbility",
+      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispSunAbility",
       "Preview": "SolGatePreview.webm",
       "PreviewFallback": "SolGatePreview.jpg",
       "Icon": "SolGate130xWhite.png"
@@ -4253,7 +4253,7 @@
       "CardImage": "SmokeScreenModx256.png",
       "Name": "Smoke Screen",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SmokeScreenAbility",
+      "InternalName": "/Lotus/Powersuits/Ninja/Abilities/SmokeScreenAbility",
       "Preview": "SmokeScreenPreview.webm",
       "PreviewFallback": "SmokeScreenPreview.jpg",
       "Icon": "SmokeScreen130xWhite.png"
@@ -4295,7 +4295,7 @@
       "CardImage": "LethalProgenyModx256.png",
       "Name": "Lethal Progeny",
       "Introduced": "31",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SentientSummonAbility",
+      "InternalName": "/Lotus/Powersuits/Sentient/Abilities/SentientSummonAbility",
       "Preview": "LethalProgenyPreview.webm",
       "PreviewFallback": "LethalProgenyPreview.jpg",
       "Icon": "LethalProgeny130xWhite.png"
@@ -4326,7 +4326,7 @@
       "CardImage": "SleightOfHandModx256.png",
       "Name": "Sleight of Hand",
       "Introduced": "14",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HarlequinObjectChangeAbility",
+      "InternalName": "/Lotus/Powersuits/Harlequin/Abilities/HarlequinObjectChangeAbility",
       "Preview": "SleightOfHandPreview.webm",
       "PreviewFallback": "SleightOfHandPreview.jpg",
       "Icon": "SleightOfHand130xWhite.png"
@@ -4342,7 +4342,7 @@
       "CardImage": "ContainmentWallModx256.png",
       "Name": "Containment Wall",
       "Introduced": "35",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ConcreteWallAbility",
+      "InternalName": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcreteWallAbility",
       "Preview": "ContainmentWallPreview.webm",
       "PreviewFallback": "ContainmentWallPreview.jpg",
       "Icon": "ContainmentWall130xWhite.png"
@@ -4387,7 +4387,7 @@
       "CardImage": "SilenceModx256.png",
       "Name": "Silence",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SilenceAbility",
+      "InternalName": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
       "Preview": "SilencePreview.webm",
       "PreviewFallback": "SilencePreview.jpg",
       "Icon": "Silence130xWhite.png"
@@ -4400,7 +4400,7 @@
       "CardImage": "RiptideModx256.png",
       "Name": "Riptide",
       "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YareliSpoutAbility",
+      "InternalName": "/Lotus/Powersuits/Yareli/Abilities/YareliSpoutAbility",
       "Preview": "RiptidePreview.webm",
       "PreviewFallback": "RiptidePreview.jpg",
       "Icon": "Riptide130xWhite.png"
@@ -4413,7 +4413,7 @@
       "CardImage": "SymphonyofMercyModx256.png",
       "Name": "Symphony of Mercy",
       "Introduced": "36",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ChoirChorusAbility",
+      "InternalName": "/Lotus/Powersuits/Choir/Abilities/ChoirChorusAbility",
       "Preview": "SymphonyofMercyPreview.webm",
       "PreviewFallback": "SymphonyofMercyPreview.jpg",
       "Icon": "SymphonyofMercy130xWhite.png"
@@ -4430,7 +4430,7 @@
       "CardImage": "LandslideModx256.png",
       "Name": "Landslide",
       "Introduced": "17.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerPunchAbility",
+      "InternalName": "/Lotus/Powersuits/Brawler/Abilities/BrawlerPunchAbility",
       "Preview": "LandslidePreview.webm",
       "PreviewFallback": "LandslidePreview.jpg",
       "Weapon": "Landslide Fists"
@@ -4446,7 +4446,7 @@
       "CardImage": "CrystallizeModx256.png",
       "Name": "Crystallize",
       "Introduced": "32.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GeodeGrowthsAbility",
+      "InternalName": "/Lotus/Powersuits/Geode/Abilities/GeodeGrowthsAbility",
       "Preview": "CrystallizePreview.webm",
       "PreviewFallback": "CrystallizePreview.jpg",
       "Icon": "Crystallize130xWhite.png"
@@ -4463,7 +4463,7 @@
       "CardImage": "ShootingGalleryModx256.png",
       "Name": "Shooting Gallery",
       "Introduced": "15.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RussianRouletteAbility",
+      "InternalName": "/Lotus/Powersuits/Cowgirl/Abilities/RussianRouletteAbility",
       "Preview": "ShootingGalleryPreview.webm",
       "PreviewFallback": "ShootingGalleryPreview.jpg",
       "Icon": "ShootingGallery130xWhite.png"
@@ -4480,7 +4480,7 @@
       "CardImage": "ShockModx256.png",
       "Name": "Shock",
       "Introduced": "5.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShockAbility",
+      "InternalName": "/Lotus/Powersuits/Volt/Abilities/ShockAbility",
       "Preview": "ShockPreview.webm",
       "PreviewFallback": "ShockPreview.jpg",
       "Icon": "Shock130xWhite.png"
@@ -4496,7 +4496,7 @@
       "CardImage": "ChaosModx256.png",
       "Name": "Chaos",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ChaosAbility",
+      "InternalName": "/Lotus/Powersuits/Jade/Abilities/ChaosAbility",
       "Preview": "ChaosPreview.webm",
       "PreviewFallback": "ChaosPreview.jpg",
       "Icon": "Chaos130xWhite.png"
@@ -4512,7 +4512,7 @@
       "CardImage": "InvisibilityModx256.png",
       "Name": "Invisibility",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/InvisibilityAbility",
+      "InternalName": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
       "Preview": "InvisibilityPreview.webm",
       "PreviewFallback": "InvisibilityPreview.jpg",
       "Icon": "Invisibility130xWhite.png"
@@ -4529,7 +4529,7 @@
       "CardImage": "TharrosStrikeModx256.png",
       "Name": "Tharros Strike",
       "Introduced": "32",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HopliteBashAbility",
+      "InternalName": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
       "Preview": "TharrosStrikePreview.webm",
       "PreviewFallback": "TharrosStrikePreview.jpg",
       "Icon": "TharrosStrike130xWhite.png"
@@ -4585,7 +4585,7 @@
       "CardImage": "RavenousModx256.png",
       "Name": "Ravenous",
       "Introduced": "19.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/InfestPodsAbility",
+      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
       "Preview": "RavenousPreview.webm",
       "PreviewFallback": "RavenousPreview.jpg",
       "Icon": "Ravenous130xWhite.png"
@@ -4598,7 +4598,7 @@
       "CardImage": "SeekModx256.png",
       "Name": "Seek",
       "Introduced": "38",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusScanAbility",
+      "InternalName": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusScanAbility",
       "Preview": "SeekPreview.webm",
       "PreviewFallback": "SeekPreview.jpg",
       "Icon": "SeekIcon.png"
@@ -4614,7 +4614,7 @@
       "CardImage": "PacifyProvokeModx256.png",
       "Name": "Pacify & Provoke",
       "Introduced": "17",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YinYangAuraAbility",
+      "InternalName": "/Lotus/Powersuits/YinYang/Abilities/YinYangAuraAbility",
       "Preview": "Pacify&ProvokePreview.webm",
       "PreviewFallback": "Pacify&ProvokePreview.jpg",
       "Icon": "PacifyProvoke130xWhite.png"
@@ -4630,7 +4630,7 @@
       "CardImage": "ScarabShellModx256.png",
       "Name": "Scarab Shell",
       "Introduced": "35.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SandmanArmorAbility",
+      "InternalName": "/Lotus/Powersuits/Sandman/Abilities/SandmanArmorAbility",
       "Preview": "ScarabShellPreview.webm",
       "PreviewFallback": "ScarabShellPreview.jpg",
       "Icon": "ScarabShell130xWhite.png"
@@ -4643,7 +4643,7 @@
       "CardImage": "MetronomeModx256.png",
       "Name": "Metronome",
       "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BardJamAbility",
+      "InternalName": "/Lotus/Powersuits/Bard/Abilities/BardJamAbility",
       "Preview": "MetronomePreview.webm",
       "PreviewFallback": "MetronomePreview.jpg",
       "Icon": "MetronomeIcon.png"
@@ -4660,7 +4660,7 @@
       "CardImage": "LullModx256.png",
       "Name": "Lull",
       "Introduced": "24.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PacifistWaveAbility",
+      "InternalName": "/Lotus/Powersuits/Pacifist/Abilities/PacifistWaveAbility",
       "Preview": "LullPreview.webm",
       "PreviewFallback": "LullPreview.jpg",
       "Icon": "Lull130xWhite.png"
@@ -4689,7 +4689,7 @@
       "CardImage": "RotorswellModx256.png",
       "Name": "Rotorswell",
       "Introduced": "31.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GyreOverchargedAbility",
+      "InternalName": "/Lotus/Powersuits/Gyre/Abilities/GyreOverchargedAbility",
       "Preview": "RotorswellPreview.webm",
       "PreviewFallback": "RotorswellPreview.jpg",
       "Icon": "Rotorswell130xWhite.png"
@@ -4702,7 +4702,7 @@
       "CardImage": "Mercy'sKiss.png",
       "Name": "Mercy's Kiss",
       "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OraxiaLungeAbility",
+      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaLungeAbility",
       "Preview": "Mercy'sKissPreview.webm",
       "PreviewFallback": "Mercy'sKissPreview.jpg",
       "Icon": "Mercy'sKiss.png"
@@ -4718,7 +4718,7 @@
       "CardImage": "ToxicLashModx256.png",
       "Name": "Toxic Lash",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WeaponPoisonAbility",
+      "InternalName": "/Lotus/Powersuits/Saryn/Abilities/WeaponPoisonAbility",
       "Preview": "ToxicLashPreview.webm",
       "PreviewFallback": "ToxicLashPreview.jpg",
       "Icon": "ToxicLash130xWhite.png"
@@ -4734,7 +4734,7 @@
       "CardImage": "ShadowsOfTheDeadModx256.png",
       "Name": "Shadows of the Dead",
       "Introduced": "10",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/CloneTheDeadAbility",
+      "InternalName": "/Lotus/Powersuits/Necro/Abilities/CloneTheDeadAbility",
       "Preview": "ShadowsOfTheDeadPreview.webm",
       "PreviewFallback": "ShadowsOfTheDeadPreview.jpg",
       "Icon": "ShadowsOfTheDead130xWhite.png"
@@ -4750,7 +4750,7 @@
       "CardImage": "CloudWalkerModx256.png",
       "Name": "Cloud Walker",
       "Introduced": "17.12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MonkeyCloudAbility",
+      "InternalName": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyCloudAbility",
       "Preview": "CloudWalkerPreview.webm",
       "PreviewFallback": "CloudWalkerPreview.jpg",
       "Icon": "CloudWalker130xWhite.png"
@@ -4763,7 +4763,7 @@
       "CardImage": "Reroot.png",
       "Name": "Reroot",
       "Introduced": "40",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NokkoShrinkAbility",
+      "InternalName": "/Lotus/Powersuits/Nokko/Abilities/NokkoShrinkAbility",
       "Preview": "RerootPreview.webm",
       "PreviewFallback": "RerootPreview.jpg",
       "Icon": "Reroot.png"
@@ -4777,7 +4777,7 @@
       "CardImage": "GloomModx256.png",
       "Name": "Gloom",
       "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WraithGloomAbility",
+      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithGloomAbility",
       "Preview": "GloomPreview.webm",
       "PreviewFallback": "GloomPreview.jpg",
       "Icon": "Gloom130xWhite.png"
@@ -4794,7 +4794,7 @@
       "CardImage": "RazorwingModx256.png",
       "Name": "Razorwing",
       "Introduced": "The Silver Grove",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FairyFlightAbility",
+      "InternalName": "/Lotus/Powersuits/Fairy/Abilities/FairyFlightAbility",
       "Preview": "RazorwingPreview.webm",
       "PreviewFallback": "RazorwingPreview.jpg",
       "Icon": "Razorwing130xWhite.png"
@@ -4811,7 +4811,7 @@
       "CardImage": "IceWaveModx256.png",
       "Name": "Ice Wave",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/IceSpikeAbility",
+      "InternalName": "/Lotus/Powersuits/Frost/Abilities/IceSpikeAbility",
       "Preview": "IceWavePreview.webm",
       "PreviewFallback": "IceWavePreview.jpg",
       "Icon": "IceWave130xWhite.png"
@@ -4824,7 +4824,7 @@
       "CardImage": "FangsofRaksh.png",
       "Name": "Fangs of Raksh",
       "Introduced": "32.2",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WerewolfBiteAbility",
+      "InternalName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfBiteAbility",
       "Preview": "FangsofRakshPreview.webm",
       "PreviewFallback": "FangsofRakshPreview.jpg",
       "Icon": "FangsofRakshIcon.png"
@@ -4841,7 +4841,7 @@
       "CardImage": "BanishModx256.png",
       "Name": "Banish",
       "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BanishAbility",
+      "InternalName": "/Lotus/Powersuits/Magician/Abilities/BanishAbility",
       "Preview": "BanishPreview.webm",
       "PreviewFallback": "BanishPreview.jpg",
       "Icon": "Banish130xWhite.png"
@@ -4857,7 +4857,7 @@
       "CardImage": "RadialJavelinModx256.png",
       "Name": "Radial Javelin",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RadialJavelinAbility",
+      "InternalName": "/Lotus/Powersuits/Excalibur/Abilities/RadialJavelinAbility",
       "Preview": "RadialJavelinPreview.webm",
       "PreviewFallback": "RadialJavelinPreview.jpg",
       "Icon": "RadialJavelin130xWhite.png"
@@ -4873,7 +4873,7 @@
       "CardImage": "SpectralScreamModx256.png",
       "Name": "Spectral Scream",
       "Introduced": "16",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DragonBreathAbility",
+      "InternalName": "/Lotus/Powersuits/Dragon/Abilities/DragonBreathAbility",
       "Preview": "SpectralScreamPreview.webm",
       "PreviewFallback": "SpectralScreamPreview.jpg",
       "Icon": "SpectralScream130xWhite.png"
@@ -4900,7 +4900,7 @@
       "CardImage": "Pyrotechnics.png",
       "Name": "Pyrotechnics",
       "Introduced": "38.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TempleShredAbility",
+      "InternalName": "/Lotus/Powersuits/Temple/Abilities/TempleShredAbility",
       "Preview": "PyrotechnicsPreview.webm",
       "PreviewFallback": "PyrotechnicsPreview.jpg",
       "Icon": "Pyrotechnics.png"
@@ -4916,7 +4916,7 @@
       "CardImage": "OmikujiModx256.png",
       "Name": "Omikuji",
       "Introduced": "37",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KoumeiFortuneAbility",
+      "InternalName": "/Lotus/Powersuits/Koumei/Abilities/KoumeiFortuneAbility",
       "Preview": "OmikujiPreview.webm",
       "PreviewFallback": "OmikujiPreview.jpg",
       "Icon": "Omikuji.png"
@@ -4933,7 +4933,7 @@
       "CardImage": "SmiteModx256.png",
       "Name": "Smite",
       "Introduced": "11.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SmiteAbility",
+      "InternalName": "/Lotus/Powersuits/Paladin/Abilities/SmiteAbility",
       "Preview": "SmitePreview.webm",
       "PreviewFallback": "SmitePreview.jpg",
       "Icon": "Smite130xWhite.png"
@@ -4949,7 +4949,7 @@
       "CardImage": "PolarizeModx256.png",
       "Name": "Polarize",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShieldRegenAbility",
+      "InternalName": "/Lotus/Powersuits/Mag/Abilities/ShieldRegenAbility",
       "Preview": "PolarizePreview.webm",
       "PreviewFallback": "PolarizePreview.jpg",
       "Icon": "Polarize130xWhite.png"
@@ -4966,7 +4966,7 @@
       "CardImage": "SlashDashModx256.png",
       "Name": "Slash Dash",
       "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SlashDashNewAbility",
+      "InternalName": "/Lotus/Powersuits/Excalibur/Abilities/SlashDashNewAbility",
       "Preview": "SlashDashPreview.webm",
       "PreviewFallback": "SlashDashPreview.jpg",
       "Icon": "SlashDash130xWhite.png"
@@ -4996,7 +4996,7 @@
       "CardImage": "AirburstModU15.png",
       "Name": "Airburst",
       "Introduced": "22.12",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/TenguBurstAbility",
+      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TenguBurstAbility",
       "Preview": "AirburstPreview.webm",
       "PreviewFallback": "AirburstPreview.jpg",
       "Icon": "Airburst130xWhite.png"
@@ -5035,7 +5035,7 @@
       ],
       "Powersuit": "Lavos",
       "Key": 1,
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AlchemistSerpentAbility",
+      "InternalName": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistSerpentAbility",
       "CardImage": "OphidianBiteModx256.png",
       "Name": "Ophidian Bite",
       "Introduced": "29.6",
@@ -5055,7 +5055,7 @@
       "CardImage": "PrismModx256.png",
       "Name": "Prism",
       "Introduced": "14",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/Prism",
+      "InternalName": "/Lotus/Powersuits/Harlequin/Abilities/Prism",
       "Preview": "PrismPreview.webm",
       "PreviewFallback": "PrismPreview.jpg",
       "Icon": "Prism130xWhite.png"
@@ -5072,7 +5072,7 @@
       "CardImage": "WarcryModx256.png",
       "Name": "Warcry",
       "Introduced": "11",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BerserkerScreamAbility",
+      "InternalName": "/Lotus/Powersuits/Berserker/Abilities/BerserkerScreamAbility",
       "Preview": "WarcryPreview.webm",
       "PreviewFallback": "WarcryPreview.jpg",
       "Icon": "Warcry130xWhite.png"
@@ -5088,7 +5088,7 @@
       "CardImage": "NavigatorModx256.png",
       "Name": "Navigator",
       "Introduced": "18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RangerControlAbility",
+      "InternalName": "/Lotus/Powersuits/Ranger/Abilities/RangerControlAbility",
       "Preview": "NavigatorPreview.webm",
       "PreviewFallback": "NavigatorPreview.jpg",
       "Icon": "Navigator130xWhite.png"
@@ -5105,7 +5105,7 @@
       "CardImage": "MindControlModx256.png",
       "Name": "Mind Control",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/MindControlAbility",
+      "InternalName": "/Lotus/Powersuits/Jade/Abilities/MindControlAbility",
       "Preview": "MindControlPreview.webm",
       "PreviewFallback": "MindControlPreview.jpg",
       "Icon": "MindControl130xWhite.png"
@@ -5121,7 +5121,7 @@
       "CardImage": "MesmerSkinModx256.png",
       "Name": "Mesmer Skin",
       "Introduced": "23.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RevenantSentientAbility",
+      "InternalName": "/Lotus/Powersuits/Revenant/Abilities/RevenantSentientAbility",
       "Preview": "MesmerSkinPreview.webm",
       "PreviewFallback": "MesmerSkinPreview.jpg",
       "Icon": "MesmerSkin130xWhite.png"
@@ -5139,7 +5139,7 @@
       "Powersuit": "Rhino",
       "Key": 3,
       "Icon": "Roar130xWhite.png",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/RhinoRoarAbility"
+      "InternalName": "/Lotus/Powersuits/Rhino/Abilities/RhinoRoarAbility"
     },
     "Avalanche": {
       "Description": "Summons a treacherous landslide of ice that instantly freezes and shatters all enemies in its radius.",
@@ -5152,7 +5152,7 @@
       "CardImage": "AvalancheModx256.png",
       "Name": "Avalanche",
       "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/AvalancheAbility",
+      "InternalName": "/Lotus/Powersuits/Frost/Abilities/AvalancheAbility",
       "Preview": "AvalanchePreview.webm",
       "PreviewFallback": "AvalanchePreview.jpg",
       "Icon": "Avalanche130xWhite.png"
@@ -5166,7 +5166,7 @@
       "CardImage": "EnsnareModx256.png",
       "Name": "Ensnare",
       "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/KhoraTwirlAbility",
+      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraTwirlAbility",
       "Preview": "EnsnarePreview.webm",
       "PreviewFallback": "EnsnarePreview.jpg",
       "Icon": "Ensnare130xWhite.png"
@@ -5179,7 +5179,7 @@
       "CardImage": "ThanomechShield.png",
       "Name": "Shield Maiden",
       "Introduced": "29.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechRiotShieldAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechRiotShieldAbility",
       "Preview": "ShieldMaidenPreview.webm",
       "PreviewFallback": "ShieldMaidenPreview.jpg",
       "Icon": "ThanomechShield.png"
@@ -5209,7 +5209,7 @@
       "CardImage": "RumblersModx256.png",
       "Name": "Rumblers",
       "Introduced": "17.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrawlerSummonAbility",
+      "InternalName": "/Lotus/Powersuits/Brawler/Abilities/BrawlerSummonAbility",
       "Preview": "RumblersPreview.webm",
       "PreviewFallback": "RumblersPreview.jpg",
       "Icon": "Rumblers130xWhite.png"
@@ -5222,7 +5222,7 @@
       "CardImage": "LightVerseModx256.png",
       "Name": "Light Verse",
       "Introduced": "35.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PagemasterLifeAbility",
+      "InternalName": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
       "Preview": "LightVersePreview.webm",
       "PreviewFallback": "LightVersePreview.jpg",
       "Icon": "LightVerse130xWhite.png"
@@ -5235,7 +5235,7 @@
       "CardImage": "PreservingShellModx256.png",
       "Name": "Preserving Shell",
       "Introduced": "32.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/GeodeShellAbility",
+      "InternalName": "/Lotus/Powersuits/Geode/Abilities/GeodeShellAbility",
       "Preview": "PreservingShellPreview.webm",
       "PreviewFallback": "PreservingShellPreview.jpg",
       "Icon": "PreservingShell130xWhite.png"
@@ -5261,7 +5261,7 @@
       "CardImage": "RakhalisCavalry.png",
       "Name": "Rakhali's Cavalry",
       "Introduced": "34",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PaxTeleportAbility",
+      "InternalName": "/Lotus/Powersuits/Dagath/Abilities/DagathHorseAbility",
       "Preview": "Rakhali'sCavalryPreview.webm",
       "PreviewFallback": "Rakhali'sCavalryPreview.jpg",
       "Icon": "RakhalisCavalry130xWhite.png"
@@ -5278,7 +5278,7 @@
       "CardImage": "FireWalkerModx256.png",
       "Name": "Fire Walker",
       "Introduced": "18.1",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/NezhaTrailAbility",
+      "InternalName": "/Lotus/Powersuits/Nezha/Abilities/NezhaTrailAbility",
       "Preview": "FireWalkerPreview.webm",
       "PreviewFallback": "FireWalkerPreview.jpg",
       "Icon": "FireWalker130xWhite.png"
@@ -5295,7 +5295,7 @@
       "CardImage": "SporesModx256.png",
       "Name": "Spores",
       "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PoisonAbility",
+      "InternalName": "/Lotus/Powersuits/Saryn/Abilities/PoisonAbility",
       "Preview": "SporesPreview.webm",
       "PreviewFallback": "SporesPreview.jpg",
       "Icon": "Spores130xWhite.png"
@@ -5322,7 +5322,7 @@
       "CardImage": "EvadeModx256.png",
       "Name": "Evade",
       "Introduced": "38",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/FrumentariusCloakAbility",
+      "InternalName": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusCloakAbility",
       "Preview": "EvadePreview.webm",
       "PreviewFallback": "EvadePreview.jpg",
       "Icon": "EvadeIcon.png"
@@ -5339,7 +5339,7 @@
       "CardImage": "ExaltedBladeModx256.png",
       "Name": "Exalted Blade",
       "Introduced": "16.9",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/SwordOfDoomAbility",
+      "InternalName": "/Lotus/Powersuits/Excalibur/Abilities/SwordOfDoomAbility",
       "Preview": "ExaltedBladePreview.webm",
       "PreviewFallback": "ExaltedBladePreview.jpg",
       "Weapon": "Exalted Blade"
@@ -5382,7 +5382,7 @@
       "CardImage": "TheLostModx256.png",
       "Name": "The Lost",
       "Introduced": "29",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/BrokenEmbraceAbility",
+      "InternalName": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenEmbraceAbility",
       "Preview": "TheLostPreview.webm",
       "PreviewFallback": "TheLostPreview.jpg",
       "Icon": "TheLost130xWhite.png"
@@ -5399,7 +5399,7 @@
       "CardImage": "CondemnModx256.png",
       "Name": "Condemn",
       "Introduced": "21",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/PriestCondemnAbility",
+      "InternalName": "/Lotus/Powersuits/Priest/Abilities/PriestCondemnAbility",
       "Preview": "CondemnPreview.webm",
       "PreviewFallback": "CondemnPreview.jpg",
       "Icon": "Condemn130xWhite.png"
@@ -5412,7 +5412,7 @@
       "CardImage": "Doom.png",
       "Name": "Doom",
       "Introduced": "34",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DagathCurseAbility",
+      "InternalName": "/Lotus/Powersuits/Dagath/Abilities/DagathCurseAbility",
       "Preview": "DoomPreview.webm",
       "PreviewFallback": "DoomPreview.jpg",
       "Icon": "Doom130xWhite.png"
@@ -5429,7 +5429,7 @@
       "CardImage": "ElectricShieldModx256.png",
       "Name": "Electric Shield",
       "Introduced": "5.3",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/ShieldAbility",
+      "InternalName": "/Lotus/Powersuits/Volt/Abilities/ShieldAbility",
       "Preview": "ElectricShieldPreview.webm",
       "PreviewFallback": "ElectricShieldPreview.jpg",
       "Icon": "ElectricShield130xWhite.png"
@@ -5446,7 +5446,7 @@
       "CardImage": "RestRageModx256.png",
       "Name": "Rest & Rage",
       "Introduced": "17",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/YinYangTargetAbility",
+      "InternalName": "/Lotus/Powersuits/YinYang/Abilities/YinYangTargetAbility",
       "Preview": "RestRagePreview.webm",
       "PreviewFallback": "RestRagePreview.jpg",
       "Icon": "RestRage130xWhite.png"
@@ -5472,7 +5472,7 @@
       "CardImage": "ThanomechGrab.png",
       "Name": "Meathook",
       "Introduced": "29.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/EntratiMechGrabAbility",
+      "InternalName": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechGrabAbility",
       "Preview": "MeathookPreview.webm",
       "PreviewFallback": "MeathookPreview.jpg",
       "Icon": "ThanomechGrab.png"

@@ -6175,7 +6175,7 @@
       "BaseDrain": 2,
       "Polarity": "Naramon",
       "Name": "Primed Steady Hands",
-      "Tradable": false,
+      "Tradable": true,
       "InternalName": "/Lotus/Upgrades/Mods/Pistol/WeaponRecoilReductionModExpert",
       "Incompatible": [
         "Steady Hands"
@@ -7004,7 +7004,7 @@
     "Truth's Flame": {
       "Transmutable": false,
       "Type": "Melee",
-      "Description": "Enables Tennokai. Tennokai kills grant an additional 4s Tennokai opportunity with +120% Melee Damage bonus.\r\nCURSE: Suffer 100 <DT_FIRE_COLOR>Heat Damage/s for 6s.\r\n+1 'Truth'",
+      "Description": "Enables Tennokai.\r\nTennokai kills grant an additional 4s Tennokai opportunity with +120% Melee Damage bonus.\r\n\r\nCURSE: Suffer 100 <DT_FIRE_COLOR>Heat Damage/s for 6s.\r\n\r\n+1 'Truth'",
       "IsExilus": true,
       "Tradable": true,
       "BaseDrain": 6,
@@ -12493,6 +12493,24 @@
       "InternalName": "/Lotus/Powersuits/Gyre/GyreSphereAugmentCard",
       "CodexSecret": false
     },
+    "Kaal-Zidi": {
+      "Transmutable": false,
+      "Type": "Antique",
+      "Description": "+30% Void Mode efficiency\r\n+5% Movement Speed in Void Mode for each <NARAMON_CLEAN>Naramon School Mod",
+      "Conclave": false,
+      "Tradable": true,
+      "BaseDrain": 0,
+      "MaxRank": 5,
+      "Rarity": "Uncommon",
+      "Polarity": "Universal",
+      "Image": "Kaal-zidiMod.png",
+      "Name": "Kaal-zidi",
+      "Introduced": "41",
+      "Link": "Kaal-zidi",
+      "InternalName": "/Lotus/Upgrades/Mods/Antiques/Ghostwalk",
+      "Icon": "Kaal-zidi.jpg",
+      "Class": "Unairu"
+    },
     "Controlled Slide": {
       "Description": "Disable Nezha's passive ability. Increase Ability Strength by 15%.",
       "IsExilus": true,
@@ -15341,7 +15359,7 @@
       "Rarity": "Rare",
       "Image": "VeloxConclusionMod.png",
       "Name": "Velox Conclusion",
-      "Introduced": "TBA",
+      "Introduced": "42.0.6",
       "Polarity": "Madurai",
       "InternalName": "/Lotus/Upgrades/Mods/Pistol/Event/Nightwave/NightwaveVeloxAugmentMod",
       "Icon": "VeloxConclusion.jpg",
@@ -23528,7 +23546,7 @@
       "MaxRank": 5,
       "Image": "LeadedGasMod.png",
       "Introduced": "38.0.8",
-      "Icon": "LeadedGas.jpg",
+      "Icon": "LeadedGas.png",
       "Transmutable": false,
       "Type": "Vesper 77",
       "Rarity": "Rare",
@@ -24706,7 +24724,7 @@
       "BaseDrain": 2,
       "Polarity": "Naramon",
       "Name": "Primed Stabilizer",
-      "Tradable": false,
+      "Tradable": true,
       "InternalName": "/Lotus/Upgrades/Mods/Rifle/Expert/WeaponRecoilReductionModExpert",
       "Incompatible": [
         "Stabilizer"
@@ -25619,7 +25637,7 @@
       "Rarity": "Rare",
       "Image": "SentientIncisionMod.png",
       "Name": "Sentient Incision",
-      "Introduced": "TBA",
+      "Introduced": "42.0.6",
       "Polarity": "Naramon",
       "InternalName": "/Lotus/Upgrades/Mods/Melee/Event/Nightwave/NightwaveVenatoAugmentMod",
       "Icon": "SentientIncision.jpg",
@@ -25727,7 +25745,7 @@
       "Polarity": "Naramon",
       "Name": "Primed Ammo Chain",
       "Tradable": true,
-      "Icon": "PrimedAmmoChain.png",
+      "Icon": "AmmoChain.png",
       "Incompatible": [
         "Ammo Chain"
       ],

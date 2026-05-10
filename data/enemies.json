@@ -19753,48 +19753,6 @@
       "Affinity": 400
     }
   },
-  "Lynx Osprey": {
-    "General": {
-      "Type": "Support",
-      "Description": "Shields the Lynx from damage.",
-      "Link": "Lynx Osprey",
-      "Missions": [
-        "Orokin Sabotage",
-        "Help Clem",
-        "Grineer Spy"
-      ],
-      "Image": "CrpMiniJackalOsprey.png",
-      "Name": "Lynx Osprey",
-      "Faction": "Corpus",
-      "Scans": 20,
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/ShieldDroneMiniBossAgent",
-      "Introduced": "15"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Puncture": 0.7,
-            "Slash": 0.2,
-            "Impact": 0.1
-          },
-          "StatusChance": 0.02,
-          "TotalDamage": 7,
-          "AttackName": "Shot Damage"
-        }
-      ],
-      "Health": 35,
-      "BaseLevel": 1,
-      "Shield": 25,
-      "Multis": [
-        "Head: 3.0x"
-      ],
-      "Affinity": 50
-    }
-  },
   "Vorac Vambac": {
     "General": {
       "Type": "Ranged",
@@ -19845,6 +19803,48 @@
       ],
       "SpawnLevel": 35,
       "Affinity": 150
+    }
+  },
+  "Lynx Osprey": {
+    "General": {
+      "Type": "Support",
+      "Description": "Shields the Lynx from damage.",
+      "Link": "Lynx Osprey",
+      "Missions": [
+        "Orokin Sabotage",
+        "Help Clem",
+        "Grineer Spy"
+      ],
+      "Image": "CrpMiniJackalOsprey.png",
+      "Name": "Lynx Osprey",
+      "Faction": "Corpus",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/QuadRobot/MiniBoss/ShieldDroneMiniBossAgent",
+      "Introduced": "15"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 35,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
     }
   },
   "Vorac Stropha Crewman": {
@@ -19983,6 +19983,41 @@
       "Affinity": 100
     }
   },
+  "Profit-Taker Orb": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Actor": "Tamara Fritz",
+      "Description": "Monster of the Vallis and protector of Enrichment Labs, this massive Orb appears to be invulnerable.",
+      "Link": "Profit-Taker Orb",
+      "Missions": [
+        "Fortuna Bounty"
+      ],
+      "Type": "Grand Boss",
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Scans": 3,
+      "Image": "ProfitTakerOrb.png",
+      "Name": "Profit-Taker Orb",
+      "Faction": "Corpus",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/ArachnoidCamperAvatar",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Health": 7000,
+      "BaseLevel": 1,
+      "Shield": 30000,
+      "SpawnLevel": 60,
+      "Armor": 150,
+      "Affinity": 1500
+    }
+  },
   "Orm Elite Crewman": {
     "General": {
       "Type": "Ranged",
@@ -20026,41 +20061,6 @@
       ],
       "SpawnLevel": 45,
       "Affinity": 250
-    }
-  },
-  "Profit-Taker Orb": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "Actor": "Tamara Fritz",
-      "Description": "Monster of the Vallis and protector of Enrichment Labs, this massive Orb appears to be invulnerable.",
-      "Link": "Profit-Taker Orb",
-      "Missions": [
-        "Fortuna Bounty"
-      ],
-      "Type": "Grand Boss",
-      "TileSets": [
-        "Orb Vallis"
-      ],
-      "Scans": 3,
-      "Image": "ProfitTakerOrb.png",
-      "Name": "Profit-Taker Orb",
-      "Faction": "Corpus",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/ArachnoidCamperAvatar",
-      "Introduced": "24"
-    },
-    "Stats": {
-      "Health": 7000,
-      "BaseLevel": 1,
-      "Shield": 30000,
-      "SpawnLevel": 60,
-      "Armor": 150,
-      "Affinity": 1500
     }
   },
   "Vorac Pilot": {
@@ -20148,25 +20148,26 @@
       "Affinity": 250
     }
   },
-  "Vapos Elite Ranger": {
+  "Vapos Elite Crewman": {
     "General": {
       "TileSets": [
         "Corpus Gas City"
       ],
       "Description": "",
-      "Link": "Vapos Elite Ranger",
+      "Link": "Vapos Elite Crewman",
       "Scans": 5,
       "Type": "Ranged",
-      "Image": "VaposEliteRanger.png",
-      "Name": "Vapos Elite Ranger",
+      "Image": "VaposEliteCrewman.png",
+      "Name": "Vapos Elite Crewman",
       "Faction": "Corpus Amalgam",
       "Planets": [
         "Jupiter"
       ],
       "Weapons": [
-        "Exergis"
+        "Exergis",
+        "Prova"
       ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasFlyingEliteSpacemanAgent",
+      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasEliteSpacemanAgent",
       "Introduced": "25"
     },
     "Stats": {
@@ -20193,12 +20194,56 @@
       "Multis": [
         "Head: 3.0x"
       ],
-      "Health": 80,
+      "Health": 110,
       "BaseLevel": 1,
-      "Shield": 450,
-      "EximusHealth": 280,
-      "EximusShield": 450,
-      "Affinity": 300
+      "Shield": 150,
+      "EximusHealth": 300,
+      "EximusShield": 150,
+      "Affinity": 150
+    }
+  },
+  "Vorac MOA": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Vorac MOA",
+      "Missions": [
+        "Empyrean"
+      ],
+      "Scans": 5,
+      "Image": "VoracMOA.png",
+      "Name": "Vorac MOA",
+      "Faction": "Corpus",
+      "Planets": [
+        "Pluto Proxima"
+      ],
+      "Weapons": [
+        "Dera"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Railjack/Pluto/PlutoCrpCrewCannonBipedAgent",
+      "Introduced": "29.10"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Shield": 120,
+      "Multis": [
+        "Fanny Pack: 3.0x"
+      ],
+      "SpawnLevel": 35,
+      "Affinity": 150
     }
   },
   "Corpus Tech": {
@@ -20253,48 +20298,51 @@
       "Affinity": 500
     }
   },
-  "Vorac MOA": {
+  "Vorac Harpi": {
     "General": {
-      "Type": "Ranged",
-      "Description": "",
-      "Link": "Vorac MOA",
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Attack fighter armed with rapid-fire plasma cannon.",
+      "Link": "Vorac Harpi",
       "Missions": [
         "Empyrean"
       ],
+      "Type": "Interceptor",
+      "TileSets": [
+        "Free Space"
+      ],
       "Scans": 5,
-      "Image": "VoracMOA.png",
-      "Name": "Vorac MOA",
+      "Image": "VoracHarpi.png",
+      "Name": "Vorac Harpi",
       "Faction": "Corpus",
       "Planets": [
         "Pluto Proxima"
       ],
       "Weapons": [
-        "Dera"
+        ""
       ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Railjack/Pluto/PlutoCrpCrewCannonBipedAgent",
+      "InternalName": "/Lotus/Language/Railjack/CorpusFighterPlutoLaserName",
       "Introduced": "29.10"
     },
     "Stats": {
       "Attacks": [
         {
           "DamageDistribution": {
-            "Puncture": 0.7,
-            "Slash": 0.2,
-            "Impact": 0.1
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
           },
-          "StatusChance": 0.01,
-          "TotalDamage": 7,
+          "StatusChance": 0.1,
+          "TotalDamage": 18,
           "AttackName": "Shot Damage"
         }
       ],
-      "Health": 400,
+      "Health": 200,
       "BaseLevel": 1,
-      "Shield": 120,
-      "Multis": [
-        "Fanny Pack: 3.0x"
-      ],
-      "SpawnLevel": 35,
-      "Affinity": 150
+      "Shield": 100,
+      "SpawnLevel": 32,
+      "Armor": 50,
+      "Affinity": 400
     }
   },
   "Amalgam Osprey": {
@@ -20399,53 +20447,6 @@
       "Affinity": 250
     }
   },
-  "Vorac Harpi": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "FactionDamageOverride": "",
-      "Description": "Attack fighter armed with rapid-fire plasma cannon.",
-      "Link": "Vorac Harpi",
-      "Missions": [
-        "Empyrean"
-      ],
-      "Type": "Interceptor",
-      "TileSets": [
-        "Free Space"
-      ],
-      "Scans": 5,
-      "Image": "VoracHarpi.png",
-      "Name": "Vorac Harpi",
-      "Faction": "Corpus",
-      "Planets": [
-        "Pluto Proxima"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Language/Railjack/CorpusFighterPlutoLaserName",
-      "Introduced": "29.10"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Puncture": 0.3333,
-            "Slash": 0.3334,
-            "Impact": 0.3333
-          },
-          "StatusChance": 0.1,
-          "TotalDamage": 18,
-          "AttackName": "Shot Damage"
-        }
-      ],
-      "Health": 200,
-      "BaseLevel": 1,
-      "Shield": 100,
-      "SpawnLevel": 32,
-      "Armor": 50,
-      "Affinity": 400
-    }
-  },
   "Vorac Engineer": {
     "General": {
       "Type": "Ranged",
@@ -20489,37 +20490,6 @@
       ],
       "SpawnLevel": 35,
       "Affinity": 250
-    }
-  },
-  "Corpus Warden": {
-    "General": {
-      "Type": "Ranged",
-      "Description": "Weak to stealth takedowns",
-      "Link": "Corpus Warden",
-      "Missions": [
-        "Rescue"
-      ],
-      "Image": "DECorpusWarden.png",
-      "Name": "Corpus Warden",
-      "Faction": "Corpus",
-      "Scans": 3,
-      "Weapons": [
-        "Lanka",
-        "Supra",
-        "Prova"
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Gamemodes/DeployableSpacemanWardenAgent",
-      "Introduced": "13.2"
-    },
-    "Stats": {
-      "Multis": [
-        "Stealth/Finisher: 16.0x",
-        "Head: 3.0x"
-      ],
-      "Health": 400,
-      "BaseLevel": 1,
-      "Shield": 300,
-      "Affinity": 500
     }
   },
   "Machinist": {
@@ -20584,35 +20554,35 @@
       "Affinity": 150
     }
   },
-  "Thermic Raknoid": {
+  "Corpus Warden": {
     "General": {
-      "TileSets": [
-        "Orb Vallis"
-      ],
-      "Description": "",
-      "Link": "Thermic Raknoid",
+      "Type": "Ranged",
+      "Description": "Weak to stealth takedowns",
+      "Link": "Corpus Warden",
       "Missions": [
-        "Thermia Fractures"
+        "Rescue"
       ],
-      "Type": "",
-      "Image": "ArachnoidMolten.png",
-      "Name": "Thermic Raknoid",
+      "Image": "DECorpusWarden.png",
+      "Name": "Corpus Warden",
       "Faction": "Corpus",
-      "Planets": [
-        "Venus"
-      ],
+      "Scans": 3,
       "Weapons": [
-        ""
+        "Lanka",
+        "Supra",
+        "Prova"
       ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/ArachnoidMoltenAgent",
-      "Introduced": "24.6"
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Gamemodes/DeployableSpacemanWardenAgent",
+      "Introduced": "13.2"
     },
     "Stats": {
+      "Multis": [
+        "Stealth/Finisher: 16.0x",
+        "Head: 3.0x"
+      ],
       "Health": 400,
       "BaseLevel": 1,
-      "Shield": 30,
-      "Armor": 50,
-      "Affinity": 0
+      "Shield": 300,
+      "Affinity": 500
     }
   },
   "Taro Disc MOA": {
@@ -20663,6 +20633,37 @@
       ],
       "SpawnLevel": 17,
       "Affinity": 150
+    }
+  },
+  "Thermic Raknoid": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "",
+      "Link": "Thermic Raknoid",
+      "Missions": [
+        "Thermia Fractures"
+      ],
+      "Type": "",
+      "Image": "ArachnoidMolten.png",
+      "Name": "Thermic Raknoid",
+      "Faction": "Corpus",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/ArachnoidMoltenAgent",
+      "Introduced": "24.6"
+    },
+    "Stats": {
+      "Health": 400,
+      "BaseLevel": 1,
+      "Shield": 30,
+      "Armor": 50,
+      "Affinity": 0
     }
   },
   "Vorac Crewman": {
@@ -20803,6 +20804,58 @@
       "Affinity": 250
     }
   },
+  "Elite Vorac Weaver": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "The elite incarnation of this Corpus fighter fires a shotgun blast of slow-moving plasma gloves.",
+      "Link": "Elite Vorac Weaver",
+      "Missions": [
+        "Empyrean"
+      ],
+      "Type": "Interceptor",
+      "TileSets": [
+        "Free Space"
+      ],
+      "Scans": 5,
+      "Image": "VoracWeaverElite.png",
+      "Name": "Elite Vorac Weaver",
+      "Faction": "Corpus",
+      "Planets": [
+        "Pluto Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/SpaceBattles/Corpus/Ships/Pluto/SpaceFighterPlutoPlasmaEliteAgent",
+      "Introduced": "29.10"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "TotalDamage": 24,
+          "AttackName": "Projectile Contact Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 24,
+          "AttackName": "Projectile Areal Damage"
+        }
+      ],
+      "Health": 450,
+      "BaseLevel": 1,
+      "Shield": 300,
+      "SpawnLevel": 32,
+      "Armor": 175,
+      "Affinity": 400
+    }
+  },
   "Scrofa Legionary": {
     "General": {
       "Description": "A quick-moving uniit that closes the distance with it's target through a bettering shield, before striking with it's hammer.",
@@ -20846,50 +20899,6 @@
       ],
       "EximusArmor": 25,
       "Affinity": 500
-    }
-  },
-  "Axio MOA": {
-    "General": {
-      "Type": "Ranged",
-      "Description": "",
-      "Link": "Axio MOA",
-      "Missions": [
-        "Empyrean"
-      ],
-      "Scans": 5,
-      "Image": "AxioMOA.png",
-      "Name": "Axio MOA",
-      "Faction": "Corpus",
-      "Planets": [
-        "Neptune Proxima"
-      ],
-      "Weapons": [
-        "Dera"
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Railjack/Neptune/NeptuneCrpCrewCannonBipedAgent",
-      "Introduced": "29.10"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Puncture": 0.7,
-            "Slash": 0.2,
-            "Impact": 0.1
-          },
-          "StatusChance": 0.01,
-          "TotalDamage": 7,
-          "AttackName": "Shot Damage"
-        }
-      ],
-      "Health": 400,
-      "BaseLevel": 1,
-      "Shield": 120,
-      "Multis": [
-        "Fanny Pack: 3.0x"
-      ],
-      "SpawnLevel": 25,
-      "Affinity": 150
     }
   },
   "Vapos Sniper Ranger": {
@@ -20942,6 +20951,52 @@
         "Head: 3.0x"
       ],
       "Affinity": 300
+    }
+  },
+  "Vapos Sniper Crewman": {
+    "General": {
+      "TileSets": [
+        "Corpus Gas City"
+      ],
+      "Description": "",
+      "Link": "Vapos Sniper Crewman",
+      "Scans": 5,
+      "Type": "Sniper",
+      "Image": "VaposSniperCrewman.png",
+      "Name": "Vapos Sniper Crewman",
+      "Faction": "Corpus Amalgam",
+      "Planets": [
+        "Jupiter"
+      ],
+      "Weapons": [
+        "Lanka",
+        "Prova"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasSniperSpacemanAgent",
+      "Introduced": "25"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.9,
+            "Slash": 0.05,
+            "Impact": 0.05
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 75,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 30,
+      "BaseLevel": 1,
+      "Shield": 40,
+      "EximusHealth": 250,
+      "EximusShield": 40,
+      "Affinity": 150
     }
   },
   "Fusion MOA": {
@@ -21074,50 +21129,58 @@
       "Affinity": 500
     }
   },
-  "Vapos Sniper Crewman": {
+  "Vapos Shockwave MOA": {
     "General": {
       "TileSets": [
         "Corpus Gas City"
       ],
       "Description": "",
-      "Link": "Vapos Sniper Crewman",
+      "Link": "Vapos Shockwave MOA",
       "Scans": 5,
-      "Type": "Sniper",
-      "Image": "VaposSniperCrewman.png",
-      "Name": "Vapos Sniper Crewman",
+      "Type": "",
+      "Image": "VaposShockwaveMoa.png",
+      "Name": "Vapos Shockwave MOA",
       "Faction": "Corpus Amalgam",
       "Planets": [
         "Jupiter"
       ],
       "Weapons": [
-        "Lanka",
-        "Prova"
+        ""
       ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasSniperSpacemanAgent",
+      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasShockwaveBipedAgent",
       "Introduced": "25"
     },
     "Stats": {
       "Attacks": [
         {
           "DamageDistribution": {
-            "Puncture": 0.9,
-            "Slash": 0.05,
-            "Impact": 0.05
+            "Puncture": 0.6,
+            "Slash": 0.2,
+            "Impact": 0.2
           },
           "StatusChance": 0.01,
-          "TotalDamage": 75,
+          "TotalDamage": 4,
           "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "FixedDamage": true,
+          "TotalDamage": 50,
+          "AttackName": "Rippling Shockwave"
         }
       ],
       "Multis": [
-        "Head: 3.0x"
+        "Fanny Pack: 3.0x",
+        "Gun: 0.5x"
       ],
-      "Health": 30,
+      "Health": 90,
       "BaseLevel": 1,
-      "Shield": 40,
-      "EximusHealth": 250,
-      "EximusShield": 40,
-      "Affinity": 150
+      "Shield": 120,
+      "EximusHealth": 90,
+      "EximusShield": 120,
+      "Affinity": 200
     }
   },
   "Orm Crewship": {
@@ -21201,60 +21264,6 @@
       "Affinity": 50
     }
   },
-  "Vapos Shockwave MOA": {
-    "General": {
-      "TileSets": [
-        "Corpus Gas City"
-      ],
-      "Description": "",
-      "Link": "Vapos Shockwave MOA",
-      "Scans": 5,
-      "Type": "",
-      "Image": "VaposShockwaveMoa.png",
-      "Name": "Vapos Shockwave MOA",
-      "Faction": "Corpus Amalgam",
-      "Planets": [
-        "Jupiter"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasShockwaveBipedAgent",
-      "Introduced": "25"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Puncture": 0.6,
-            "Slash": 0.2,
-            "Impact": 0.2
-          },
-          "StatusChance": 0.01,
-          "TotalDamage": 4,
-          "AttackName": "Shot Damage"
-        },
-        {
-          "DamageDistribution": {
-            "Impact": 1
-          },
-          "FixedDamage": true,
-          "TotalDamage": 50,
-          "AttackName": "Rippling Shockwave"
-        }
-      ],
-      "Multis": [
-        "Fanny Pack: 3.0x",
-        "Gun: 0.5x"
-      ],
-      "Health": 90,
-      "BaseLevel": 1,
-      "Shield": 120,
-      "EximusHealth": 90,
-      "EximusShield": 120,
-      "Affinity": 200
-    }
-  },
   "Vapos Shield Osprey": {
     "General": {
       "TileSets": [
@@ -21296,6 +21305,48 @@
       "BaseLevel": 1,
       "Shield": 25,
       "EximusHealth": 200,
+      "EximusShield": 25,
+      "Affinity": 150
+    }
+  },
+  "Vapos Sapping Osprey": {
+    "General": {
+      "TileSets": [
+        "Corpus Gas City"
+      ],
+      "Description": "",
+      "Link": "Vapos Sapping Osprey",
+      "Scans": 5,
+      "Type": "Deployer",
+      "Image": "VaposSappingOsprey.png",
+      "Name": "Vapos Sapping Osprey",
+      "Faction": "Corpus Amalgam",
+      "Planets": [
+        "Jupiter"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasDiscDroneAgent",
+      "Introduced": "25"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 40,
+          "AttackName": "Shot AoE Damage"
+        }
+      ],
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "EximusHealth": 100,
       "EximusShield": 25,
       "Affinity": 150
     }
@@ -21389,48 +21440,6 @@
       "Affinity": 250
     }
   },
-  "Vapos Sapping Osprey": {
-    "General": {
-      "TileSets": [
-        "Corpus Gas City"
-      ],
-      "Description": "",
-      "Link": "Vapos Sapping Osprey",
-      "Scans": 5,
-      "Type": "Deployer",
-      "Image": "VaposSappingOsprey.png",
-      "Name": "Vapos Sapping Osprey",
-      "Faction": "Corpus Amalgam",
-      "Planets": [
-        "Jupiter"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasDiscDroneAgent",
-      "Introduced": "25"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Blast": 1
-          },
-          "TotalDamage": 40,
-          "AttackName": "Shot AoE Damage"
-        }
-      ],
-      "Multis": [
-        "Head: 3.0x"
-      ],
-      "Health": 80,
-      "BaseLevel": 1,
-      "Shield": 25,
-      "EximusHealth": 100,
-      "EximusShield": 25,
-      "Affinity": 150
-    }
-  },
   "Hyena PB": {
     "General": {
       "ExcludedFromSimulacrum": true,
@@ -21480,35 +21489,6 @@
       "Affinity": 1000
     }
   },
-  "Mite Raknoid": {
-    "General": {
-      "TileSets": [
-        "Orb Vallis"
-      ],
-      "Description": "",
-      "Link": "Mite Raknoid",
-      "Scans": 3,
-      "Type": "",
-      "Image": "MiteRaknoid.png",
-      "Name": "Mite Raknoid",
-      "Faction": "Corpus",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/ArachnoidMicroAgent",
-      "Introduced": "24"
-    },
-    "Stats": {
-      "Health": 150,
-      "BaseLevel": 1,
-      "Shield": 30,
-      "Armor": 50,
-      "Affinity": 0
-    }
-  },
   "Vapos Railgun MOA": {
     "General": {
       "TileSets": [
@@ -21554,58 +21534,64 @@
       "Affinity": 150
     }
   },
-  "Vapos Detron Crewman": {
+  "Mite Raknoid": {
     "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "",
+      "Link": "Mite Raknoid",
+      "Scans": 3,
+      "Type": "",
+      "Image": "MiteRaknoid.png",
+      "Name": "Mite Raknoid",
+      "Faction": "Corpus",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Vip/Arachnoid/ArachnoidMicroAgent",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Health": 150,
+      "BaseLevel": 1,
+      "Shield": 30,
+      "Armor": 50,
+      "Affinity": 0
+    }
+  },
+  "Vapos Condor Dropship": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Dropship or gunship? Retrofitted for the challenges of Gas City and designed to rapidly deploy force to any security breach.",
+      "Link": "Vapos Condor Dropship",
+      "Scans": 10,
+      "Type": "Dropship",
       "TileSets": [
         "Corpus Gas City"
       ],
-      "Description": "",
-      "Link": "Vapos Detron Crewman",
-      "Scans": 5,
-      "Type": "Ranged",
-      "Image": "VaposDetronCrewman.png",
-      "Name": "Vapos Detron Crewman",
-      "Faction": "Corpus Amalgam",
+      "Image": "VaposCondorDropship.png",
+      "Name": "Vapos Condor Dropship",
+      "Faction": "Corpus",
       "Planets": [
         "Jupiter"
       ],
       "Weapons": [
-        "Detron",
-        "Prova"
+        ""
       ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasShotgunSpacemanAgent",
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Dropship/CorpusHunterShipAgent",
       "Introduced": "25"
     },
     "Stats": {
-      "Attacks": [
-        {
-          "Multishot": 7,
-          "AttackName": "Shot Damage",
-          "DamageDistribution": {
-            "Puncture": 0.6,
-            "Slash": 0.2,
-            "Impact": 0.2
-          },
-          "StatusChance": 0.01,
-          "TotalDamage": 4
-        },
-        {
-          "DamageDistribution": {
-            "Blast": 1
-          },
-          "TotalDamage": 400,
-          "AttackName": "Grenade Damage"
-        }
-      ],
-      "Multis": [
-        "Head: 3.0x"
-      ],
-      "Health": 90,
+      "Health": 1500,
       "BaseLevel": 1,
-      "Shield": 50,
-      "EximusHealth": 250,
-      "EximusShield": 50,
-      "Affinity": 150
+      "Shield": 4000,
+      "Armor": 100,
+      "Affinity": 100
     }
   },
   "Vapos Fusion MOA": {
@@ -21649,6 +21635,59 @@
       "EximusHealth": 400,
       "EximusShield": 150,
       "Affinity": 250
+    }
+  },
+  "Vapos Elite Ranger": {
+    "General": {
+      "TileSets": [
+        "Corpus Gas City"
+      ],
+      "Description": "",
+      "Link": "Vapos Elite Ranger",
+      "Scans": 5,
+      "Type": "Ranged",
+      "Image": "VaposEliteRanger.png",
+      "Name": "Vapos Elite Ranger",
+      "Faction": "Corpus Amalgam",
+      "Planets": [
+        "Jupiter"
+      ],
+      "Weapons": [
+        "Exergis"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasFlyingEliteSpacemanAgent",
+      "Introduced": "25"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 3,
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3,
+            "Slash": 0.5,
+            "Impact": 0.2
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 400,
+          "AttackName": "Grenade Damage"
+        }
+      ],
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "Shield": 450,
+      "EximusHealth": 280,
+      "EximusShield": 450,
+      "Affinity": 300
     }
   },
   "Aurax Culveri MOA": {
@@ -21784,40 +21823,40 @@
       "Affinity": 150
     }
   },
-  "Vapos Elite Crewman": {
+  "Vapos Detron Crewman": {
     "General": {
       "TileSets": [
         "Corpus Gas City"
       ],
       "Description": "",
-      "Link": "Vapos Elite Crewman",
+      "Link": "Vapos Detron Crewman",
       "Scans": 5,
       "Type": "Ranged",
-      "Image": "VaposEliteCrewman.png",
-      "Name": "Vapos Elite Crewman",
+      "Image": "VaposDetronCrewman.png",
+      "Name": "Vapos Detron Crewman",
       "Faction": "Corpus Amalgam",
       "Planets": [
         "Jupiter"
       ],
       "Weapons": [
-        "Exergis",
+        "Detron",
         "Prova"
       ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasEliteSpacemanAgent",
+      "InternalName": "/Lotus/Types/Enemies/Corpus/GasCity/GasShotgunSpacemanAgent",
       "Introduced": "25"
     },
     "Stats": {
       "Attacks": [
         {
-          "Multishot": 3,
+          "Multishot": 7,
           "AttackName": "Shot Damage",
           "DamageDistribution": {
-            "Puncture": 0.3,
-            "Slash": 0.5,
+            "Puncture": 0.6,
+            "Slash": 0.2,
             "Impact": 0.2
           },
-          "StatusChance": 0,
-          "TotalDamage": 10
+          "StatusChance": 0.01,
+          "TotalDamage": 4
         },
         {
           "DamageDistribution": {
@@ -21830,11 +21869,11 @@
       "Multis": [
         "Head: 3.0x"
       ],
-      "Health": 110,
+      "Health": 90,
       "BaseLevel": 1,
-      "Shield": 150,
-      "EximusHealth": 300,
-      "EximusShield": 150,
+      "Shield": 50,
+      "EximusHealth": 250,
+      "EximusShield": 50,
       "Affinity": 150
     }
   },
@@ -21880,82 +21919,6 @@
       "EximusHealth": 280,
       "EximusShield": 450,
       "Affinity": 300
-    }
-  },
-  "Vapos Condor Dropship": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "FactionDamageOverride": "",
-      "Description": "Dropship or gunship? Retrofitted for the challenges of Gas City and designed to rapidly deploy force to any security breach.",
-      "Link": "Vapos Condor Dropship",
-      "Scans": 10,
-      "Type": "Dropship",
-      "TileSets": [
-        "Corpus Gas City"
-      ],
-      "Image": "VaposCondorDropship.png",
-      "Name": "Vapos Condor Dropship",
-      "Faction": "Corpus",
-      "Planets": [
-        "Jupiter"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Dropship/CorpusHunterShipAgent",
-      "Introduced": "25"
-    },
-    "Stats": {
-      "Health": 1500,
-      "BaseLevel": 1,
-      "Shield": 4000,
-      "Armor": 100,
-      "Affinity": 100
-    }
-  },
-  "Juno Tech": {
-    "General": {
-      "TileSets": [
-        "Corpus Ship",
-        "Zariman (Tileset)"
-      ],
-      "Description": "A specialist who dispatches a Shield Osprey when threatened",
-      "Link": "Juno Tech",
-      "Scans": 5,
-      "Image": "JunoTech.png",
-      "Name": "Juno Tech",
-      "Faction": "Corpus",
-      "Type": "Heavy",
-      "Weapons": [
-        "Exergis",
-        "Prova"
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCrewmanTechAgent",
-      "Introduced": "28"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Puncture": 0.0002,
-            "Radiation": 0.9994,
-            "Slash": 0.0002,
-            "Impact": 0.0002
-          },
-          "StatusChance": 0,
-          "TotalDamage": 1974,
-          "AttackName": "Shot Damage"
-        }
-      ],
-      "Multis": [
-        "Head: 3.0x"
-      ],
-      "Health": 700,
-      "BaseLevel": 15,
-      "Shield": 225,
-      "EximusHealth": 700,
-      "EximusShield": 225,
-      "Affinity": 150
     }
   },
   "Vapos Bioengineer": {
@@ -22008,6 +21971,86 @@
         "Head: 3.0x"
       ],
       "Armor": 0,
+      "Affinity": 500
+    }
+  },
+  "Juno Tech": {
+    "General": {
+      "TileSets": [
+        "Corpus Ship",
+        "Zariman (Tileset)"
+      ],
+      "Description": "A specialist who dispatches a Shield Osprey when threatened",
+      "Link": "Juno Tech",
+      "Scans": 5,
+      "Image": "JunoTech.png",
+      "Name": "Juno Tech",
+      "Faction": "Corpus",
+      "Type": "Heavy",
+      "Weapons": [
+        "Exergis",
+        "Prova"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/CorpusShipRemastered/ShipCrewmanTechAgent",
+      "Introduced": "28"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.0002,
+            "Radiation": 0.9994,
+            "Slash": 0.0002,
+            "Impact": 0.0002
+          },
+          "StatusChance": 0,
+          "TotalDamage": 1974,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 700,
+      "BaseLevel": 15,
+      "Shield": 225,
+      "EximusHealth": 700,
+      "EximusShield": 225,
+      "Affinity": 150
+    }
+  },
+  "Terra Elite Embattor MOA": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Heavily armored",
+      "Link": "Terra Elite Embattor MOA",
+      "Scans": 3,
+      "Type": "Ranged",
+      "Image": "TerraEliteEmbattorMOA.png",
+      "Name": "Terra Elite Embattor MOA",
+      "Faction": "Corpus",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Venus/Heavies/VenusIcewaveEliteBipedAgent",
+      "Introduced": "24.0.9"
+    },
+    "Stats": {
+      "Multis": [
+        "Fanny Pack: 3.0x",
+        "Gun: 0.5x"
+      ],
+      "SpawnLevel": 30,
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Shield": 800,
+      "EximusHealth": 1200,
+      "EximusShield": 800,
       "Affinity": 500
     }
   },
@@ -22067,41 +22110,6 @@
       "Affinity": 150
     }
   },
-  "Terra Elite Embattor MOA": {
-    "General": {
-      "TileSets": [
-        "Orb Vallis"
-      ],
-      "Description": "Heavily armored",
-      "Link": "Terra Elite Embattor MOA",
-      "Scans": 3,
-      "Type": "Ranged",
-      "Image": "TerraEliteEmbattorMOA.png",
-      "Name": "Terra Elite Embattor MOA",
-      "Faction": "Corpus",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Venus/Heavies/VenusIcewaveEliteBipedAgent",
-      "Introduced": "24.0.9"
-    },
-    "Stats": {
-      "Multis": [
-        "Fanny Pack: 3.0x",
-        "Gun: 0.5x"
-      ],
-      "SpawnLevel": 30,
-      "Health": 1200,
-      "BaseLevel": 1,
-      "Shield": 800,
-      "EximusHealth": 1200,
-      "EximusShield": 800,
-      "Affinity": 500
-    }
-  },
   "Vallis Surveillance Drone": {
     "General": {
       "ExcludedFromSimulacrum": true,
@@ -22132,6 +22140,44 @@
       "BaseLevel": 1,
       "Health": 500,
       "Affinity": 0
+    }
+  },
+  "Treasurer": {
+    "General": {
+      "Actor": "Lucas Schuneman",
+      "Description": "One of Parvos' favored, keeper of the tokens of his esteem.",
+      "Link": "Treasurer",
+      "Scans": 20,
+      "Type": "Ranged",
+      "Image": "Treasurer.png",
+      "Name": "Treasurer",
+      "Faction": "Corpus",
+      "TileSets": [
+        "Corpus Ship"
+      ],
+      "Weapons": [
+        "Penta"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Aristocrats/AristocratManagerAgent",
+      "Introduced": "28"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 50,
+          "AttackName": "Penta AoE Damage"
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Shield": 300,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
     }
   },
   "Axio Railgun MOA": {
@@ -22178,42 +22224,48 @@
       "Affinity": 150
     }
   },
-  "Treasurer": {
+  "Axio MOA": {
     "General": {
-      "Actor": "Lucas Schuneman",
-      "Description": "One of Parvos' favored, keeper of the tokens of his esteem.",
-      "Link": "Treasurer",
-      "Scans": 20,
       "Type": "Ranged",
-      "Image": "Treasurer.png",
-      "Name": "Treasurer",
+      "Description": "",
+      "Link": "Axio MOA",
+      "Missions": [
+        "Empyrean"
+      ],
+      "Scans": 5,
+      "Image": "AxioMOA.png",
+      "Name": "Axio MOA",
       "Faction": "Corpus",
-      "TileSets": [
-        "Corpus Ship"
+      "Planets": [
+        "Neptune Proxima"
       ],
       "Weapons": [
-        "Penta"
+        "Dera"
       ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Aristocrats/AristocratManagerAgent",
-      "Introduced": "28"
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Railjack/Neptune/NeptuneCrpCrewCannonBipedAgent",
+      "Introduced": "29.10"
     },
     "Stats": {
       "Attacks": [
         {
           "DamageDistribution": {
-            "Blast": 1
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
           },
-          "TotalDamage": 50,
-          "AttackName": "Penta AoE Damage"
+          "StatusChance": 0.01,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
         }
       ],
-      "Health": 2500,
+      "Health": 400,
       "BaseLevel": 1,
-      "Shield": 300,
+      "Shield": 120,
       "Multis": [
-        "Head: 3.0x"
+        "Fanny Pack: 3.0x"
       ],
-      "Affinity": 50
+      "SpawnLevel": 25,
+      "Affinity": 150
     }
   },
   "Vapos Tech": {
@@ -22302,93 +22354,6 @@
       "Affinity": 500
     }
   },
-  "Elite Vorac Weaver": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "FactionDamageOverride": "",
-      "Description": "The elite incarnation of this Corpus fighter fires a shotgun blast of slow-moving plasma gloves.",
-      "Link": "Elite Vorac Weaver",
-      "Missions": [
-        "Empyrean"
-      ],
-      "Type": "Interceptor",
-      "TileSets": [
-        "Free Space"
-      ],
-      "Scans": 5,
-      "Image": "VoracWeaverElite.png",
-      "Name": "Elite Vorac Weaver",
-      "Faction": "Corpus",
-      "Planets": [
-        "Pluto Proxima"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/SpaceBattles/Corpus/Ships/Pluto/SpaceFighterPlutoPlasmaEliteAgent",
-      "Introduced": "29.10"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Electricity": 1
-          },
-          "TotalDamage": 24,
-          "AttackName": "Projectile Contact Damage"
-        },
-        {
-          "DamageDistribution": {
-            "Electricity": 1
-          },
-          "StatusChance": 0,
-          "TotalDamage": 24,
-          "AttackName": "Projectile Areal Damage"
-        }
-      ],
-      "Health": 450,
-      "BaseLevel": 1,
-      "Shield": 300,
-      "SpawnLevel": 32,
-      "Armor": 175,
-      "Affinity": 400
-    }
-  },
-  "Taro Shield Osprey": {
-    "General": {
-      "Type": "Support",
-      "Description": "",
-      "Link": "Taro Shield Osprey",
-      "Image": "TaroShieldOsprey.png",
-      "Name": "Taro Shield Osprey",
-      "Faction": "Corpus",
-      "Scans": 10,
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Corpus/Railjack/CrpCrewShieldDroneAgent",
-      "Introduced": "29.10"
-    },
-    "Stats": {
-      "Attacks": [
-        {
-          "DamageDistribution": {
-            "Electricity": 1
-          },
-          "StatusChance": 0.22,
-          "TotalDamage": 22,
-          "AttackName": "Shot Damage"
-        }
-      ],
-      "Health": 200,
-      "BaseLevel": 1,
-      "Shield": 25,
-      "Multis": [
-        "Head: 3.0x"
-      ],
-      "Affinity": 100
-    }
-  },
   "Terra Shield Osprey": {
     "General": {
       "TileSets": [
@@ -22432,6 +22397,41 @@
       "EximusHealth": 100,
       "EximusShield": 25,
       "Affinity": 150
+    }
+  },
+  "Taro Shield Osprey": {
+    "General": {
+      "Type": "Support",
+      "Description": "",
+      "Link": "Taro Shield Osprey",
+      "Image": "TaroShieldOsprey.png",
+      "Name": "Taro Shield Osprey",
+      "Faction": "Corpus",
+      "Scans": 10,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Railjack/CrpCrewShieldDroneAgent",
+      "Introduced": "29.10"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0.22,
+          "TotalDamage": 22,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 100
     }
   },
   "Terra Rocket Turret": {
@@ -22611,6 +22611,36 @@
       "Multis": [
         "Head: 3.0x"
       ],
+      "Affinity": 150
+    }
+  },
+  "Scrofa Grenadier Crewman": {
+    "General": {
+      "Description": "A seasoned combatant that utilizes multiple grenade types to deal heavy damage.",
+      "Link": "Scrofa Grenadier Crewman",
+      "Scans": 5,
+      "Tilesets": [
+        "Deepmines"
+      ],
+      "Image": "NokkoRangedHeavy.png",
+      "Name": "Scrofa Grenadier Crewman",
+      "Faction": "Corpus",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Penta"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/NokkoColony/Agents/NokkoRangedHeavyAgent",
+      "Introduced": "40"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Shield": 400,
       "Affinity": 150
     }
   },
@@ -25608,34 +25638,36 @@
       "Affinity": 500
     }
   },
-  "Scrofa Grenadier Crewman": {
+  "Terra Oxium Osprey": {
     "General": {
-      "Description": "A seasoned combatant that utilizes multiple grenade types to deal heavy damage.",
-      "Link": "Scrofa Grenadier Crewman",
-      "Scans": 5,
-      "Tilesets": [
-        "Deepmines"
+      "TileSets": [
+        "Orb Vallis"
       ],
-      "Image": "NokkoRangedHeavy.png",
-      "Name": "Scrofa Grenadier Crewman",
+      "Description": "",
+      "Link": "Oxium Osprey#Terra",
+      "Scans": 20,
+      "Type": "",
+      "Image": "TerraOxiumOsprey.png",
+      "Name": "Terra Oxium Osprey",
       "Faction": "Corpus",
       "Planets": [
         "Venus"
       ],
       "Weapons": [
-        "Penta"
+        ""
       ],
-      "InternalName": "/Lotus/Types/Enemies/NokkoColony/Agents/NokkoRangedHeavyAgent",
-      "Introduced": "40"
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Venus/VenusSuicideDroneAgent",
+      "Introduced": "24"
     },
     "Stats": {
       "Multis": [
-        ""
+        "Head: 3.0x"
       ],
-      "Health": 300,
+      "Health": 750,
       "BaseLevel": 1,
-      "Shield": 400,
-      "Affinity": 150
+      "Shield": 150,
+      "EximusHealth": 150,
+      "Affinity": -1
     }
   },
   "Elite Taro Harpi": {
@@ -36170,25 +36202,27 @@
   },
   "H-09 Apex (Techrot)": {
     "General": {
-      "Actor": "",
       "Description": "",
       "Missions": [
         "Assassination",
         "Victory Plaza"
       ],
-      "Introduced": "38",
-      "Type": "Secret Boss",
-      "Scans": 3,
-      "Link": "H-09 Apex",
-      "Name": "H-09 Apex",
+      "SteelPathDefault": true,
       "Image": "TechrotH-09ApexTank.png",
+      "Introduced": "38",
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankHardModeInfestedAgent",
+      "Actor": "",
+      "Link": "H-09 Apex",
+      "Scans": 3,
+      "EmpoweredDefault": true,
+      "Type": "Secret Boss",
       "Abilities": {},
       "Faction": "Techrot",
       "Planets": [
         "H\u00f6llvania"
       ],
       "Weapons": {},
-      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankHardModeInfestedAgent",
+      "Name": "H-09 Apex",
       "CodexSecret": true
     },
     "Stats": {
@@ -36197,12 +36231,13 @@
       "BaseLevel": 1,
       "Armor": 100,
       "FactionScaling": "Corpus",
-      "SpawnLevel": 225,
+      "SpawnLevel": 375,
       "Affinity": 1000
     }
   },
   "Techrot Babau (Temporal Archimedea Survival)": {
     "General": {
+      "Name": "Techrot Babau (Temporal Archimedea Survival)",
       "Actor": "",
       "Description": "The rapid decay of human ingenuity produces daemons. Often found growing on neglected Hell-Scrubbers.",
       "Missions": {},
@@ -36210,7 +36245,7 @@
       "Type": "",
       "Scans": 5,
       "Link": "Techrot Babau",
-      "Name": "Techrot Babau (Temporal Archimedea Survival)",
+      "EmpoweredDefault": true,
       "Image": "InfestedBabau.png",
       "Abilities": {},
       "Faction": "Techrot",
@@ -36269,7 +36304,6 @@
   },
   "Legacyte": {
     "General": {
-      "Scans": "",
       "Actor": "",
       "Description": "With each generation, this Techrot predator becomes stronger, evolving new powers and attacks. Evolving these powerful creatures is metabolically costly for the Techrot, could this be exploited to weaken the Infestation?",
       "Missions": [
@@ -36278,7 +36312,7 @@
       ],
       "Introduced": "38",
       "Type": "Boss",
-      "SteelPathDefault": true,
+      "Scans": "",
       "Link": "Legacyte",
       "Name": "Legacyte",
       "Image": "Legacyte.png",
@@ -36520,8 +36554,9 @@
     "Stats": {
       "Multis": [
         "Head: 1.875x",
-        "Back: 1.25x",
-        "Gas sacs: 1.5x"
+        "Gas sac: 1.5x",
+        "Gas sac connector: 1.25x",
+        "Tail: 1.25x"
       ],
       "ProcResists": {},
       "Health": 300,
@@ -36807,26 +36842,27 @@
   },
   "H-09 Apex": {
     "General": {
-      "Scans": 3,
-      "Actor": "",
       "Description": "",
       "Missions": [
         "Assassination",
         "Victory Plaza"
       ],
-      "Introduced": "38",
-      "Type": "Secret Boss",
       "SteelPathDefault": true,
-      "Link": "H-09 Apex",
-      "Name": "H-09 Apex",
       "Image": "H-09ApexTank.png",
+      "Introduced": "38",
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankHardModeAgent",
+      "Actor": "",
+      "Link": "H-09 Apex",
+      "Scans": 3,
+      "EmpoweredDefault": true,
+      "Type": "Secret Boss",
       "Abilities": {},
       "Faction": "Scaldra",
       "Planets": [
         "H\u00f6llvania"
       ],
       "Weapons": {},
-      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankHardModeAgent",
+      "Name": "H-09 Apex",
       "CodexSecret": false
     },
     "Stats": {
@@ -36834,7 +36870,7 @@
       "Health": 18000,
       "BaseLevel": 1,
       "Armor": 100,
-      "SpawnLevel": 225,
+      "SpawnLevel": 375,
       "Affinity": 1000
     }
   },
@@ -38497,64 +38533,6 @@
       "Affinity": 0
     }
   },
-  "Howler Undazoa": {
-    "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "The Howler is easily startled. Its penetrating scream will cause other, more dangerous animals to investigate.\n\nActive only while Vome watches over the Cambion Drift.",
-      "Link": "Howler Undazoa",
-      "Scans": 20,
-      "Type": "",
-      "Image": "HowlerUndazoa.png",
-      "Name": "Howler Undazoa",
-      "Faction": "Prey",
-      "Planets": [
-        "Deimos"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "29.5"
-    },
-    "Stats": {
-      "Multis": [
-        "Head: 2.0x"
-      ],
-      "Health": 22,
-      "BaseLevel": 1,
-      "Armor": 50,
-      "Affinity": -1
-    }
-  },
-  "Hollow Thrax Centurion (Lua)": {
-    "General": {
-      "FactionDamageOverride": "Zariman",
-      "Link": "Hollow Thrax Centurion",
-      "Introduced": "32.2",
-      "Type": "Melee",
-      "Scans": 20,
-      "Image": "EclipseThraxCenturion.png",
-      "Name": "Hollow Thrax Centurion",
-      "Faction": "Unknown",
-      "Missions": [
-        "Yuvarium"
-      ],
-      "Weapons": [
-        "Hespar"
-      ],
-      "InternalName": "",
-      "CodexSecret": true
-    },
-    "Stats": {
-      "Overguard": 15,
-      "Health": 3600,
-      "BaseLevel": 1,
-      "Armor": 200,
-      "Affinity": -1
-    }
-  },
   "[Wiki Dummy]": {
     "General": {
       "Type": "Heavy Ranged",
@@ -38661,18 +38639,18 @@
       "Affinity": 500
     }
   },
-  "Crescent Vulpaphyla": {
+  "Howler Undazoa": {
     "General": {
       "TileSets": [
         "Cambion Drift"
       ],
-      "Description": "The Crescent is the most pugnacious subspecies of Vulpaphyla, they will rush anything they perceive as a threat.\n\nActive only while Vome watches over the Cambion Drift.",
-      "Link": "Crescent Vulpaphyla",
+      "Description": "The Howler is easily startled. Its penetrating scream will cause other, more dangerous animals to investigate.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Howler Undazoa",
       "Scans": 20,
       "Type": "",
-      "Image": "CrescentVulpaphyla.png",
-      "Name": "Crescent Vulpaphyla",
-      "Faction": "Predator",
+      "Image": "HowlerUndazoa.png",
+      "Name": "Howler Undazoa",
+      "Faction": "Prey",
       "Planets": [
         "Deimos"
       ],
@@ -38680,13 +38658,13 @@
         ""
       ],
       "InternalName": "",
-      "Introduced": "29"
+      "Introduced": "29.5"
     },
     "Stats": {
       "Multis": [
         "Head: 2.0x"
       ],
-      "Health": 500,
+      "Health": 22,
       "BaseLevel": 1,
       "Armor": 50,
       "Affinity": -1
@@ -38721,6 +38699,33 @@
       "Affinity": -1
     }
   },
+  "Hollow Thrax Centurion (Lua)": {
+    "General": {
+      "FactionDamageOverride": "Zariman",
+      "Link": "Hollow Thrax Centurion",
+      "Introduced": "32.2",
+      "Type": "Melee",
+      "Scans": 20,
+      "Image": "EclipseThraxCenturion.png",
+      "Name": "Hollow Thrax Centurion",
+      "Faction": "Unknown",
+      "Missions": [
+        "Yuvarium"
+      ],
+      "Weapons": [
+        "Hespar"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 15,
+      "Health": 3600,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
+    }
+  },
   "White-Breasted Virmink": {
     "General": {
       "ExcludedFromSimulacrum": true,
@@ -38750,38 +38755,70 @@
       "Affinity": -1
     }
   },
-  "Ravenous Void Angel": {
+  "Tomb Guardian": {
     "General": {
-      "ExcludedFromSimulacrum": true,
-      "FactionDamageOverride": "Zariman",
-      "Description": "",
-      "Link": "Void Angel",
-      "Missions": [
-        "Void Armageddon"
-      ],
-      "Type": "Field Boss",
       "TileSets": [
-        "Zariman (Tileset)"
+        "Grineer Settlement"
       ],
-      "Image": "VoidAngel.png",
-      "Name": "Ravenous Void Angel",
-      "Faction": "Unknown",
+      "Description": "Guards the Tomb of Inaros.",
+      "Link": "Tomb Guardian",
+      "Introduced": "18.5",
+      "Type": "Melee",
+      "Scans": 1,
+      "Missions": [
+        "Sand of Inaros"
+      ],
+      "Image": "HostileRockman.png",
+      "Name": "Tomb Guardian",
+      "Faction": "Neutral",
       "Planets": [
-        "Zariman Ten Zero"
+        "Mars"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Powersuits/Brawler/SummonHostileAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1700,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": -1
+    }
+  },
+  "Crescent Vulpaphyla": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Crescent is the most pugnacious subspecies of Vulpaphyla, they will rush anything they perceive as a threat.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Crescent Vulpaphyla",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CrescentVulpaphyla.png",
+      "Name": "Crescent Vulpaphyla",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "31.5"
+      "Introduced": "29"
     },
     "Stats": {
-      "Health": 12000,
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 500,
       "BaseLevel": 1,
-      "Shield": 100,
-      "SpawnLevel": 50,
-      "Armor": 350,
-      "Affinity": 1500
+      "Armor": 50,
+      "Affinity": -1
     }
   },
   "Void Angel": {
@@ -38814,37 +38851,6 @@
       "SpawnLevel": 50,
       "Armor": 350,
       "Affinity": 1500
-    }
-  },
-  "Amethyst Nexifera": {
-    "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "A distinctly Deimosian grotesquerie that attacks it opponents from above.",
-      "Link": "Amethyst Nexifera",
-      "Scans": 20,
-      "Type": "",
-      "Image": "AmethystNexifera.png",
-      "Name": "Amethyst Nexifera",
-      "Faction": "Prey",
-      "Planets": [
-        "Deimos"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "29.5"
-    },
-    "Stats": {
-      "Multis": [
-        "Tendrils: 0.66x"
-      ],
-      "Health": 1000,
-      "BaseLevel": 1,
-      "Armor": 50,
-      "Affinity": -1
     }
   },
   "Vizier Predasite": {
@@ -38934,6 +38940,125 @@
       "BaseLevel": 1,
       "Armor": 50,
       "Affinity": -1
+    }
+  },
+  "Amethyst Nexifera": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "A distinctly Deimosian grotesquerie that attacks it opponents from above.",
+      "Link": "Amethyst Nexifera",
+      "Scans": 20,
+      "Type": "",
+      "Image": "AmethystNexifera.png",
+      "Name": "Amethyst Nexifera",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Tendrils: 0.66x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Viridian Nexifera": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Viridian Nexifera can produce a cloud of poisonous gas that's always best avoided.",
+      "Link": "Viridian Nexifera",
+      "Scans": 20,
+      "Type": "",
+      "Image": "ViridianNexifera.png",
+      "Name": "Viridian Nexifera",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Tendrils: 0.66x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Ghost Kuaka": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A timid rodent that is easily frightened.",
+      "Link": "Ghost Kuaka",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KuakaRare.png",
+      "Name": "Ghost Kuaka",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Oraxia (Descendia)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Boss",
+      "Description": "",
+      "Link": "Oraxia (Boss)#Descendia",
+      "Missions": [
+        "Descendia"
+      ],
+      "Image": "Oraxia.png",
+      "Name": "Oraxia (Descendia)",
+      "Faction": "Duviri",
+      "Scans": 1,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHOraxiaEnemyAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "BaseLevel": 1,
+      "Health": 24000,
+      "Affinity": 1500
     }
   },
   "Lua Thrax Legatus": {
@@ -39111,34 +39236,32 @@
       "Affinity": 50
     }
   },
-  "Viridian Nexifera": {
+  "Vallis Kubrodon": {
     "General": {
+      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Cambion Drift"
+        "Orb Vallis"
       ],
-      "Description": "The Viridian Nexifera can produce a cloud of poisonous gas that's always best avoided.",
-      "Link": "Viridian Nexifera",
+      "Description": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Link": "Vallis Kubrodon",
       "Scans": 20,
       "Type": "",
-      "Image": "ViridianNexifera.png",
-      "Name": "Viridian Nexifera",
-      "Faction": "Prey",
+      "Image": "KubrodonRare.png",
+      "Name": "Vallis Kubrodon",
+      "Faction": "Neutral",
       "Planets": [
-        "Deimos"
+        "Venus"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "29.5"
+      "Introduced": "24"
     },
     "Stats": {
-      "Multis": [
-        "Tendrils: 0.66x"
-      ],
-      "Health": 1000,
-      "BaseLevel": 1,
       "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1000,
       "Affinity": -1
     }
   },
@@ -39172,32 +39295,34 @@
       "Affinity": 0
     }
   },
-  "Ghost Kuaka": {
+  "Umber Undazoa": {
     "General": {
-      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Plains of Eidolon"
+        "Cambion Drift"
       ],
-      "Description": "A timid rodent that is easily frightened.",
-      "Link": "Ghost Kuaka",
+      "Description": "A shy, bizarre-looking, semi-aquatic creature that seldom attacks unless provoked.",
+      "Link": "Umber Undazoa",
       "Scans": 20,
       "Type": "",
-      "Image": "KuakaRare.png",
-      "Name": "Ghost Kuaka",
+      "Image": "UmberUndazoa.png",
+      "Name": "Umber Undazoa",
       "Faction": "Prey",
       "Planets": [
-        "Earth"
+        "Deimos"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "22"
+      "Introduced": "29.5"
     },
     "Stats": {
-      "Armor": 50,
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 22,
       "BaseLevel": 1,
-      "Health": 1,
+      "Armor": 50,
       "Affinity": -1
     }
   },
@@ -39251,32 +39376,34 @@
       "Affinity": -1
     }
   },
-  "Vallis Kubrodon": {
+  "Purple Velocipod": {
     "General": {
-      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Orb Vallis"
+        "Cambion Drift"
       ],
-      "Description": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
-      "Link": "Vallis Kubrodon",
-      "Scans": 20,
+      "Description": "A sluggish highlands insect that's capable of bursts of speed when threatened.",
+      "Link": "Purple Velocipod",
+      "Scans": 5,
       "Type": "",
-      "Image": "KubrodonRare.png",
-      "Name": "Vallis Kubrodon",
-      "Faction": "Neutral",
+      "Image": "PurpleVelocipodK-DriveSkin.png",
+      "Name": "Purple Velocipod",
+      "Faction": "Prey",
       "Planets": [
-        "Venus"
+        "Deimos"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "24"
+      "Introduced": "29"
     },
     "Stats": {
-      "Armor": 50,
+      "Multis": [
+        ""
+      ],
+      "Health": 300,
       "BaseLevel": 1,
-      "Health": 1000,
+      "Armor": 125,
       "Affinity": -1
     }
   },
@@ -39309,34 +39436,42 @@
       "Affinity": -1
     }
   },
-  "Umber Undazoa": {
+  "Tomb Protector": {
     "General": {
+      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Cambion Drift"
+        "Grineer Settlement"
       ],
-      "Description": "A shy, bizarre-looking, semi-aquatic creature that seldom attacks unless provoked.",
-      "Link": "Umber Undazoa",
-      "Scans": 20,
+      "Description": "Watches over the Tomb of Inaros.",
+      "Link": "Tomb Protector",
+      "Introduced": "18.5",
       "Type": "",
-      "Image": "UmberUndazoa.png",
-      "Name": "Umber Undazoa",
-      "Faction": "Prey",
+      "Scans": 1,
+      "Missions": [
+        "Sand of Inaros"
+      ],
+      "Name": "Tomb Protector",
+      "Image": "SandmanBoss.png",
+      "Abilities": [
+        "Desiccation",
+        "Devour",
+        "Sandstorm",
+        "Scarab Swarm"
+      ],
+      "Faction": "Neutral",
       "Planets": [
-        "Deimos"
+        "Mars"
       ],
       "Weapons": [
         ""
       ],
-      "InternalName": "",
-      "Introduced": "29.5"
+      "InternalName": "/Lotus/Types/Enemies/Quests/SandmanBoss/SandmanBossAgent",
+      "CodexSecret": true
     },
     "Stats": {
-      "Multis": [
-        "Head: 2.0x"
-      ],
-      "Health": 22,
+      "Armor": 250,
       "BaseLevel": 1,
-      "Armor": 50,
+      "Health": 8000,
       "Affinity": -1
     }
   },
@@ -39399,78 +39534,72 @@
       "Affinity": 50
     }
   },
-  "Tomb Protector": {
+  "Thrax Centurion": {
     "General": {
-      "ExcludedFromSimulacrum": true,
-      "TileSets": [
-        "Grineer Settlement"
-      ],
-      "Description": "Watches over the Tomb of Inaros.",
-      "Link": "Tomb Protector",
-      "Introduced": "18.5",
-      "Type": "",
-      "Scans": 1,
-      "Missions": [
-        "Sand of Inaros"
-      ],
-      "Name": "Tomb Protector",
-      "Image": "SandmanBoss.png",
-      "Abilities": [
-        "Desiccation",
-        "Devour",
-        "Sandstorm",
-        "Scarab Swarm"
-      ],
-      "Faction": "Neutral",
-      "Planets": [
-        "Mars"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/Quests/SandmanBoss/SandmanBossAgent",
-      "CodexSecret": true
-    },
-    "Stats": {
-      "Armor": 250,
-      "BaseLevel": 1,
-      "Health": 8000,
-      "Affinity": -1
-    }
-  },
-  "Tomb Guardian": {
-    "General": {
-      "TileSets": [
-        "Grineer Settlement"
-      ],
-      "Description": "Guards the Tomb of Inaros.",
-      "Link": "Tomb Guardian",
-      "Introduced": "18.5",
+      "FactionDamageOverride": "Zariman",
+      "Description": "The origin of these interlopers aboard the Zariman is a mystery to its crew members. Curiously, they are only visible to those who have been touched by the Void.",
+      "Link": "Thrax Centurion",
+      "Scans": 20,
       "Type": "Melee",
-      "Scans": 1,
-      "Missions": [
-        "Sand of Inaros"
+      "TileSets": [
+        "Zariman (Tileset)"
       ],
-      "Image": "HostileRockman.png",
-      "Name": "Tomb Guardian",
-      "Faction": "Neutral",
+      "Image": "ThraxCenturion.png",
+      "Name": "Thrax Centurion",
+      "Faction": "Unknown",
       "Planets": [
-        "Mars"
+        "Zariman Ten Zero"
       ],
       "Weapons": [
-        ""
+        "Hespar"
       ],
-      "InternalName": "/Lotus/Powersuits/Brawler/SummonHostileAgent",
-      "CodexSecret": true
+      "InternalName": "",
+      "Introduced": "31.5"
     },
     "Stats": {
+      "Overguard": 15,
+      "Health": 3600,
+      "BaseLevel": 1,
+      "Armor": 200,
       "Multis": [
         "Head: 3.0x"
       ],
-      "Health": 1700,
+      "SpawnLevel": 55,
+      "Affinity": 50
+    }
+  },
+  "Ravenous Void Angel": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Description": "",
+      "Link": "Void Angel",
+      "Missions": [
+        "Void Armageddon"
+      ],
+      "Type": "Field Boss",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "VoidAngel.png",
+      "Name": "Ravenous Void Angel",
+      "Faction": "Unknown",
+      "Planets": [
+        "Zariman Ten Zero"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31.5"
+    },
+    "Stats": {
+      "Health": 12000,
       "BaseLevel": 1,
-      "Armor": 150,
-      "Affinity": -1
+      "Shield": 100,
+      "SpawnLevel": 50,
+      "Armor": 350,
+      "Affinity": 1500
     }
   },
   "Hacked Drone": {
@@ -39506,38 +39635,34 @@
       "Affinity": -1
     }
   },
-  "Thrax Centurion": {
+  "Syzygy Prod Crewman": {
     "General": {
-      "FactionDamageOverride": "Zariman",
-      "Description": "The origin of these interlopers aboard the Zariman is a mystery to its crew members. Curiously, they are only visible to those who have been touched by the Void.",
-      "Link": "Thrax Centurion",
-      "Scans": 20,
-      "Type": "Melee",
-      "TileSets": [
-        "Zariman (Tileset)"
-      ],
-      "Image": "ThraxCenturion.png",
-      "Name": "Thrax Centurion",
-      "Faction": "Unknown",
+      "Description": "A seasoned combatant that has been exposed to the energy of the Syzygy. Engages targets with quick strikes from it's shock baton.",
+      "Link": "Syzygy Prod Crewman",
+      "Scans": 5,
+      "Introduced": "40",
+      "Image": "NokkoInfSpaceman.png",
+      "Name": "Syzygy Prod Crewman",
+      "Faction": "Corpus",
       "Planets": [
-        "Zariman Ten Zero"
+        "Venus"
       ],
       "Weapons": [
-        "Hespar"
+        ""
       ],
       "InternalName": "",
-      "Introduced": "31.5"
+      "Tileset": "Deepmines"
     },
     "Stats": {
-      "Overguard": 15,
-      "Health": 3600,
-      "BaseLevel": 1,
-      "Armor": 200,
       "Multis": [
-        "Head: 3.0x"
+        ""
       ],
-      "SpawnLevel": 55,
-      "Affinity": 50
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "EximusHealth": 1100,
+      "EximusShield": 27,
+      "Affinity": 0
     }
   },
   "Eclipse Thrax Centurion": {
@@ -39599,61 +39724,6 @@
       "Affinity": -1
     }
   },
-  "Devotee": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "Type": "Ranged",
-      "Description": "Touched by the hand of Arlo they come to spread his healing word. Rejoice.",
-      "Link": "Devotee",
-      "Image": "Devotee.png",
-      "Name": "Devotee",
-      "Faction": "Tenno",
-      "Scans": 1,
-      "Weapons": [
-        "Latron",
-        "Zylok"
-      ],
-      "InternalName": "",
-      "Introduced": "25.2"
-    },
-    "Stats": {
-      "Health": 100,
-      "BaseLevel": 1,
-      "Shield": 100,
-      "Armor": 100,
-      "Affinity": -1
-    }
-  },
-  "Syzygy Prod Crewman": {
-    "General": {
-      "Description": "A seasoned combatant that has been exposed to the energy of the Syzygy. Engages targets with quick strikes from it's shock baton.",
-      "Link": "Syzygy Prod Crewman",
-      "Scans": 5,
-      "Introduced": "40",
-      "Image": "NokkoInfSpaceman.png",
-      "Name": "Syzygy Prod Crewman",
-      "Faction": "Corpus",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Tileset": "Deepmines"
-    },
-    "Stats": {
-      "Multis": [
-        ""
-      ],
-      "Health": 1000,
-      "BaseLevel": 1,
-      "Shield": 25,
-      "EximusHealth": 1100,
-      "EximusShield": 27,
-      "Affinity": 0
-    }
-  },
   "Syzygy Mite Raknoid": {
     "General": {
       "Description": "A diminutive Raknoid that has been exposed to the energy of the Syzygy. Occasionally lays explosive mushrooms.",
@@ -39682,34 +39752,89 @@
       "Affinity": 0
     }
   },
-  "Sly Vulpaphyla": {
+  "Syzygy Denial Bursa": {
     "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "The most common Vulpaphyla, they travel in packs and are generally non-aggressive.",
-      "Link": "Sly Vulpaphyla",
-      "Scans": 20,
-      "Type": "",
-      "Image": "SlyVulpaphyla.png",
-      "Name": "Sly Vulpaphyla",
-      "Faction": "Predator",
+      "Description": "A Bursa unit that has been exposed to the power of the Syzygy. Corrals it's prey for rapid destruction.",
+      "Link": "Syzygy Denial Bursa",
+      "Scans": 3,
+      "Introduced": "40",
+      "Image": "NokkoInfRiotBipedControl.png",
+      "Name": "Syzygy Denial Bursa",
+      "Faction": "Corpus",
       "Planets": [
-        "Deimos"
+        "Venus"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "29"
+      "Tileset": "Deepmines"
     },
     "Stats": {
       "Multis": [
-        "Head: 2.0x"
+        ""
       ],
-      "Health": 500,
+      "Health": 1200,
       "BaseLevel": 1,
+      "Shield": 700,
+      "Armor": 200,
+      "Affinity": 0
+    }
+  },
+  "Syzygy Attack Drone": {
+    "General": {
+      "Description": "An attack drone that has been exposed to the energy of the Syzygy. Deploys a heat-based aerosol befor pummeling targets from range with energy shells.",
+      "Link": "Syzygy Attack Drone",
+      "Scans": 3,
+      "Introduced": "40",
+      "Image": "NokkoInfFlyingAttack.png",
+      "Name": "Syzygy Attack Drone",
+      "Faction": "Corpus",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 750,
+      "BaseLevel": 1,
+      "Shield": 900,
+      "Affinity": 0
+    }
+  },
+  "Swimmer Horrasque": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Found near bodies of water the Horrasque subsists primarily upon fish. This hideous creature is terrible to behold but will not attack unless provoked. When it does its roar will shake the bowels of even the most steadfast trapper.",
+      "Link": "Swimmer Horrasque",
+      "Scans": 20,
+      "Type": "",
+      "Image": "HorrasqueRare.png",
+      "Name": "Swimmer Horrasque",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
       "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 22,
       "Affinity": -1
     }
   },
@@ -39826,89 +39951,34 @@
       "Affinity": -1
     }
   },
-  "Syzygy Attack Drone": {
+  "Sly Vulpaphyla": {
     "General": {
-      "Description": "An attack drone that has been exposed to the energy of the Syzygy. Deploys a heat-based aerosol befor pummeling targets from range with energy shells.",
-      "Link": "Syzygy Attack Drone",
-      "Scans": 3,
-      "Introduced": "40",
-      "Image": "NokkoInfFlyingAttack.png",
-      "Name": "Syzygy Attack Drone",
-      "Faction": "Corpus",
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The most common Vulpaphyla, they travel in packs and are generally non-aggressive.",
+      "Link": "Sly Vulpaphyla",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SlyVulpaphyla.png",
+      "Name": "Sly Vulpaphyla",
+      "Faction": "Predator",
       "Planets": [
-        "Venus"
+        "Deimos"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Tileset": "Deepmines"
+      "Introduced": "29"
     },
     "Stats": {
       "Multis": [
-        ""
+        "Head: 2.0x"
       ],
-      "Health": 750,
+      "Health": 500,
       "BaseLevel": 1,
-      "Shield": 900,
-      "Affinity": 0
-    }
-  },
-  "Swimmer Horrasque": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "TileSets": [
-        "Orb Vallis"
-      ],
-      "Description": "Found near bodies of water the Horrasque subsists primarily upon fish. This hideous creature is terrible to behold but will not attack unless provoked. When it does its roar will shake the bowels of even the most steadfast trapper.",
-      "Link": "Swimmer Horrasque",
-      "Scans": 20,
-      "Type": "",
-      "Image": "HorrasqueRare.png",
-      "Name": "Swimmer Horrasque",
-      "Faction": "Predator",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "24.2"
-    },
-    "Stats": {
       "Armor": 50,
-      "BaseLevel": 1,
-      "Health": 22,
-      "Affinity": -1
-    }
-  },
-  "Spotted Bolarola": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "TileSets": [
-        "Orb Vallis"
-      ],
-      "Description": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
-      "Link": "Spotted Bolarola",
-      "Scans": 20,
-      "Type": "",
-      "Image": "BolarolaCommon.png",
-      "Name": "Spotted Bolarola",
-      "Faction": "Neutral",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "24"
-    },
-    "Stats": {
-      "Armor": 50,
-      "BaseLevel": 1,
-      "Health": 6,
       "Affinity": -1
     }
   },
@@ -39941,28 +40011,92 @@
       "Affinity": -1
     }
   },
-  "Necramite": {
+  "Medjay Predasite": {
     "General": {
       "TileSets": [
-        "Albrecht's Laboratories"
+        "Cambion Drift"
       ],
-      "Image": "Necramite.png",
-      "Name": "Necramite",
-      "Faction": "Neutral",
+      "Description": "Not quite as flighty as its subspecies cousins, it will charge if it feels threatened.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Medjay Predasite",
+      "Scans": 20,
+      "Type": "",
+      "Image": "MedjayPredasite.png",
+      "Name": "Medjay Predasite",
+      "Faction": "Predator",
       "Planets": [
         "Deimos"
       ],
-      "Link": "Necramite",
-      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/RepairDrone/RepairDroneAgent",
-      "Introduced": "35"
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
     },
     "Stats": {
       "Multis": [
-        "Body: 2.0x"
+        "Head: 1.875x"
       ],
-      "Health": 2500,
+      "Health": 500,
       "BaseLevel": 1,
       "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Spotted Bolarola": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
+      "Link": "Spotted Bolarola",
+      "Scans": 20,
+      "Type": "",
+      "Image": "BolarolaCommon.png",
+      "Name": "Spotted Bolarola",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Splendid Mergoo": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Link": "Splendid Mergoo",
+      "Scans": 20,
+      "Type": "",
+      "Image": "MergooRare.png",
+      "Name": "Splendid Mergoo",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.6"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
       "Affinity": -1
     }
   },
@@ -40049,32 +40183,34 @@
       "Affinity": -1
     }
   },
-  "Splendid Mergoo": {
+  "Septic Cryptilex": {
     "General": {
-      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Plains of Eidolon"
+        "Cambion Drift"
       ],
-      "Description": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
-      "Link": "Splendid Mergoo",
+      "Description": "This infectious insect is capable of hazardous viral attacks when alerted.",
+      "Link": "Septic Cryptilex",
       "Scans": 20,
       "Type": "",
-      "Image": "MergooRare.png",
-      "Name": "Splendid Mergoo",
+      "Image": "SepticCryptilex.png",
+      "Name": "Septic Cryptilex",
       "Faction": "Prey",
       "Planets": [
-        "Earth"
+        "Deimos"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "24.6"
+      "Introduced": "29"
     },
     "Stats": {
-      "Armor": 50,
-      "BaseLevel": 1,
+      "Multis": [
+        "Head: 1.875x"
+      ],
       "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
       "Affinity": -1
     }
   },
@@ -40107,64 +40243,35 @@
       "Affinity": -1
     }
   },
-  "Syzygy Denial Bursa": {
-    "General": {
-      "Description": "A Bursa unit that has been exposed to the power of the Syzygy. Corrals it's prey for rapid destruction.",
-      "Link": "Syzygy Denial Bursa",
-      "Scans": 3,
-      "Introduced": "40",
-      "Image": "NokkoInfRiotBipedControl.png",
-      "Name": "Syzygy Denial Bursa",
-      "Faction": "Corpus",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Tileset": "Deepmines"
-    },
-    "Stats": {
-      "Multis": [
-        ""
-      ],
-      "Health": 1200,
-      "BaseLevel": 1,
-      "Shield": 700,
-      "Armor": 200,
-      "Affinity": 0
-    }
-  },
-  "Septic Cryptilex": {
+  "Kullervo (Boss)": {
     "General": {
       "TileSets": [
-        "Cambion Drift"
+        ""
       ],
-      "Description": "This infectious insect is capable of hazardous viral attacks when alerted.",
-      "Link": "Septic Cryptilex",
-      "Scans": 20,
-      "Type": "",
-      "Image": "SepticCryptilex.png",
-      "Name": "Septic Cryptilex",
-      "Faction": "Prey",
+      "Description": "",
+      "Link": "Kullervo (Boss)",
+      "Scans": 1,
+      "Type": "Boss",
+      "Image": "Kullervo_Thumb.png",
+      "Name": "Kullervo (Boss)",
+      "Faction": "Duviri",
       "Planets": [
-        "Deimos"
+        "Duviri"
       ],
       "Weapons": [
         ""
       ],
-      "InternalName": "",
-      "Introduced": "29"
+      "InternalName": "/Lotus/Types/Enemies/Duviri/PaxDuviricus/PaxDuviricusDungeonEncounterAgent",
+      "Introduced": "33.5"
     },
     "Stats": {
       "Multis": [
-        "Head: 1.875x"
+        "Head: 1.5x"
       ],
-      "Health": 1,
+      "Health": 1250,
       "BaseLevel": 1,
-      "Armor": 50,
-      "Affinity": -1
+      "Armor": 0,
+      "Affinity": 1500
     }
   },
   "Scuttlers": {
@@ -40190,6 +40297,37 @@
       "BaseLevel": 1,
       "Health": 125,
       "Affinity": 25
+    }
+  },
+  "Scarlet Nexifera": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Due to its remarkable strength, this Nexifera can cause seismic shocks when hitting the ground.",
+      "Link": "Scarlet Nexifera",
+      "Scans": 20,
+      "Type": "",
+      "Image": "ScarletNexifera.png",
+      "Name": "Scarlet Nexifera",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Tendrils: 0.66x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
     }
   },
   "Coastal Mergoo": {
@@ -40221,34 +40359,28 @@
       "Affinity": -1
     }
   },
-  "Scarlet Nexifera": {
+  "Devotee": {
     "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "Due to its remarkable strength, this Nexifera can cause seismic shocks when hitting the ground.",
-      "Link": "Scarlet Nexifera",
-      "Scans": 20,
-      "Type": "",
-      "Image": "ScarletNexifera.png",
-      "Name": "Scarlet Nexifera",
-      "Faction": "Prey",
-      "Planets": [
-        "Deimos"
-      ],
+      "ExcludedFromSimulacrum": true,
+      "Type": "Ranged",
+      "Description": "Touched by the hand of Arlo they come to spread his healing word. Rejoice.",
+      "Link": "Devotee",
+      "Image": "Devotee.png",
+      "Name": "Devotee",
+      "Faction": "Tenno",
+      "Scans": 1,
       "Weapons": [
-        ""
+        "Latron",
+        "Zylok"
       ],
       "InternalName": "",
-      "Introduced": "29.5"
+      "Introduced": "25.2"
     },
     "Stats": {
-      "Multis": [
-        "Tendrils: 0.66x"
-      ],
-      "Health": 1000,
+      "Health": 100,
       "BaseLevel": 1,
-      "Armor": 50,
+      "Shield": 100,
+      "Armor": 100,
       "Affinity": -1
     }
   },
@@ -40314,37 +40446,6 @@
       "Affinity": -1
     }
   },
-  "Purple Velocipod": {
-    "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "A sluggish highlands insect that's capable of bursts of speed when threatened.",
-      "Link": "Purple Velocipod",
-      "Scans": 5,
-      "Type": "",
-      "Image": "PurpleVelocipodK-DriveSkin.png",
-      "Name": "Purple Velocipod",
-      "Faction": "Prey",
-      "Planets": [
-        "Deimos"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "29"
-    },
-    "Stats": {
-      "Multis": [
-        ""
-      ],
-      "Health": 300,
-      "BaseLevel": 1,
-      "Armor": 125,
-      "Affinity": -1
-    }
-  },
   "Plains Kuaka": {
     "General": {
       "ExcludedFromSimulacrum": true,
@@ -40374,30 +40475,28 @@
       "Affinity": -1
     }
   },
-  "Hollow Thrax Legatus (Lua)": {
+  "Necramite": {
     "General": {
-      "ExcludedFromSimulacrum": true,
-      "FactionDamageOverride": "Zariman",
-      "Link": "Hollow Thrax Legatus",
-      "Introduced": "32.2",
-      "Type": "Ranged",
-      "Image": "LuaThraxLegatus.png",
-      "Name": "Hollow Thrax Legatus",
-      "Faction": "Unknown",
-      "Missions": [
-        "Yuvarium"
+      "TileSets": [
+        "Albrecht's Laboratories"
       ],
-      "Weapons": [
-        "Aeolak"
+      "Image": "Necramite.png",
+      "Name": "Necramite",
+      "Faction": "Neutral",
+      "Planets": [
+        "Deimos"
       ],
-      "InternalName": "",
-      "CodexSecret": true
+      "Link": "Necramite",
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/RepairDrone/RepairDroneAgent",
+      "Introduced": "35"
     },
     "Stats": {
-      "Overguard": 10,
-      "Health": 3200,
+      "Multis": [
+        "Body: 2.0x"
+      ],
+      "Health": 2500,
       "BaseLevel": 1,
-      "Armor": 200,
+      "Armor": 50,
       "Affinity": -1
     }
   },
@@ -40448,13 +40547,43 @@
       "Weapons": [
         ""
       ],
-      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyAvatar",
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyAgent",
       "Introduced": "39"
     },
     "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
       "BaseLevel": 1,
       "Health": 35000,
       "Affinity": 1500
+    }
+  },
+  "Hollow Thrax Legatus (Lua)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Link": "Hollow Thrax Legatus",
+      "Introduced": "32.2",
+      "Type": "Ranged",
+      "Image": "LuaThraxLegatus.png",
+      "Name": "Hollow Thrax Legatus",
+      "Faction": "Unknown",
+      "Missions": [
+        "Yuvarium"
+      ],
+      "Weapons": [
+        "Aeolak"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 10,
+      "Health": 3200,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
     }
   },
   "Pharaoh Predasite": {
@@ -40601,34 +40730,27 @@
       "Health": 10
     }
   },
-  "Medjay Predasite": {
+  "Liminus": {
     "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "Not quite as flighty as its subspecies cousins, it will charge if it feels threatened.\n\nActive only while Vome watches over the Cambion Drift.",
-      "Link": "Medjay Predasite",
-      "Scans": 20,
-      "Type": "",
-      "Image": "MedjayPredasite.png",
-      "Name": "Medjay Predasite",
-      "Faction": "Predator",
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Liminus",
+      "Introduced": "33",
+      "Image": "UnidentifiedItem(xBlack).png",
+      "Name": "Liminus",
+      "Faction": "?",
       "Planets": [
-        "Deimos"
+        "Duviri"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "29"
+      "CodexSecret": true
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.875x"
-      ],
-      "Health": 500,
       "BaseLevel": 1,
-      "Armor": 50,
       "Affinity": -1
     }
   },
@@ -40713,27 +40835,32 @@
       "Health": 50
     }
   },
-  "Liminus": {
+  "Flossy Sawgaw": {
     "General": {
       "ExcludedFromSimulacrum": true,
-      "Type": "Melee",
-      "Description": "",
-      "Link": "Liminus",
-      "Introduced": "33",
-      "Image": "UnidentifiedItem(xBlack).png",
-      "Name": "Liminus",
-      "Faction": "?",
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "'Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal forests of Venus, searching for rodent prey.",
+      "Link": "Flossy Sawgaw",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SnowBirdCommon.png",
+      "Name": "Flossy Sawgaw",
+      "Faction": "Predator",
       "Planets": [
-        "Duviri"
+        "Venus"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "CodexSecret": true
+      "Introduced": "24.2"
     },
     "Stats": {
+      "Armor": 50,
       "BaseLevel": 1,
+      "Health": 6,
       "Affinity": -1
     }
   },
@@ -40944,33 +41071,35 @@
       "Affinity": -1
     }
   },
-  "Flossy Sawgaw": {
+  "Kullervo (Descendia)": {
     "General": {
-      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Orb Vallis"
+        ""
       ],
-      "Description": "'Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal forests of Venus, searching for rodent prey.",
-      "Link": "Flossy Sawgaw",
-      "Scans": 20,
-      "Type": "",
-      "Image": "SnowBirdCommon.png",
-      "Name": "Flossy Sawgaw",
-      "Faction": "Predator",
+      "Description": "",
+      "Link": "Kullervo (Boss)#Descendia",
+      "Scans": 1,
+      "Type": "Boss",
+      "Image": "Kullervo_Thumb.png",
+      "Name": "Kullervo (Descendia)",
+      "Faction": "Duviri",
       "Planets": [
-        "Venus"
+        "The Descendia"
       ],
       "Weapons": [
         ""
       ],
-      "InternalName": "",
-      "Introduced": "24.2"
+      "InternalName": "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHPaxDuviricusDungeonEncounterAgent",
+      "Introduced": "41"
     },
     "Stats": {
-      "Armor": 50,
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "Health": 7000,
       "BaseLevel": 1,
-      "Health": 6,
-      "Affinity": -1
+      "Armor": 0,
+      "Affinity": 1500
     }
   },
   "Saturn Six Fugitive": {

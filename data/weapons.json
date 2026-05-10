@@ -5317,10 +5317,11 @@
       },
       {
         "CritChance": 0.21,
+        "StatusChance": 0.19,
         "Accuracy": 25,
         "Trigger": "Auto Charge",
-        "StatusChance": 0.19,
         "IncarnonCharges": 20,
+        "ShotSpeed": 120,
         "FireRate": 0.833,
         "Multishot": 1,
         "MinSpread": 2,
@@ -11862,7 +11863,7 @@
         "Accuracy": 9.1,
         "Trigger": "Semi-Auto",
         "IsSilent": false,
-        "ShotSpeed": 160,
+        "ShotSpeed": 100,
         "MinSpread": 6,
         "MaxSpread": 16,
         "StatusChance": 0.2,
@@ -13044,10 +13045,11 @@
       },
       {
         "CritChance": 0.27,
+        "StatusChance": 0.21,
         "Accuracy": 25,
         "Trigger": "Auto Charge",
-        "StatusChance": 0.21,
         "IncarnonCharges": 20,
+        "ShotSpeed": 120,
         "FireRate": 1.167,
         "Multishot": 1,
         "MinSpread": 2,
@@ -15843,10 +15845,11 @@
       },
       {
         "CritChance": 0.19,
+        "StatusChance": 0.27,
         "Accuracy": 25,
         "Trigger": "Auto Charge",
-        "StatusChance": 0.27,
         "IncarnonCharges": 20,
+        "ShotSpeed": 120,
         "FireRate": 1,
         "Multishot": 1,
         "MinSpread": 2,
@@ -20899,7 +20902,7 @@
         "Trigger": "Auto",
         "AmmoCost": 1,
         "IsSilent": false,
-        "ShotSpeed": 0,
+        "ShotSpeed": 80,
         "MaxSpread": 0,
         "MinSpread": 0,
         "PunchThrough": 0,
@@ -21221,7 +21224,7 @@
         "Trigger": "Auto",
         "AmmoCost": 1,
         "IsSilent": false,
-        "ShotSpeed": 0,
+        "ShotSpeed": 80,
         "MaxSpread": 0,
         "MinSpread": 0,
         "PunchThrough": 0,
@@ -31481,7 +31484,7 @@
     "CodexSecret": true,
     "HeavySlamAttack": 660,
     "Conclave": false,
-    "_TooltipAttackDisplay": 2,
+    "_TooltipAttackDisplay": 1,
     "Class": "Bayonet",
     "HeavyAttack": 2600,
     "HeavySlamForcedProcs": [
@@ -31523,7 +31526,7 @@
         "ForcedProcs": [
           "Impact"
         ],
-        "AttackName": "Polearm Throw",
+        "AttackName": "Gunshot",
         "IsSilent": true,
         "ShotType": "Projectile",
         "Damage": {
@@ -31546,7 +31549,7 @@
         "ForcedProcs": [
           "Impact"
         ],
-        "AttackName": "Polearm Explosion",
+        "AttackName": "Gunshot Explosion",
         "IsSilent": true,
         "ExplosionDelay": 0.8,
         "Damage": {
@@ -54483,7 +54486,7 @@
     "Mastery": 15,
     "Family": "Grattler",
     "AmmoMax": 0,
-    "Disposition": 1,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -57123,7 +57126,7 @@
     "Link": "Kuva Grattler",
     "Family": "Grattler",
     "AmmoMax": 320,
-    "Disposition": 1,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -57303,7 +57306,7 @@
   "Sunika Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -57824,7 +57827,7 @@
   "Sly Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58102,7 +58105,7 @@
   "Vasca Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58208,7 +58211,7 @@
   "Vizier Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58248,7 +58251,7 @@
   "Pharaoh Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58288,7 +58291,7 @@
   "Sahasa Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58391,7 +58394,7 @@
   "Venari Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58430,7 +58433,7 @@
   "Crescent Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58470,7 +58473,7 @@
   "Huras Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58582,7 +58585,7 @@
   "Raksa Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58621,7 +58624,7 @@
   "Adarza Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58834,7 +58837,7 @@
   "Chesa Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58873,7 +58876,7 @@
   "Venari Prime Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58912,7 +58915,7 @@
   "Panzer Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -58952,7 +58955,7 @@
   "Smeeta Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -59029,7 +59032,7 @@
   "Medjay Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,
@@ -59230,7 +59233,7 @@
   "Helminth Claws": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
-    "Class": "Claws",
+    "Class": "Claws (Beast)",
     "MaxRank": 30,
     "Image": "BeastClaws.png",
     "_IgnoreInMasteryCount": true,

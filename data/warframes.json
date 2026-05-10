@@ -3458,6 +3458,7 @@
       "FullImages": {},
       "InternalName": "/Lotus/Powersuits/Stalker/Stalker",
       "_IgnoreEntry": true,
+      "Progenitor": "Impact",
       "SquadPortrait": "StalkerLargePortrait.png",
       "Type": "Warframe",
       "Link": "Stalker (Playable)",

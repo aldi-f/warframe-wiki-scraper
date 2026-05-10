@@ -1488,9 +1488,10 @@
       "Tradable": true,
       "Icon": "DispatchOverdrive.png",
       "IncompatibilityTags": [
-        "POWER_WEAPON",
         "SENTINEL_WEAPON",
-        "HOUND_WEAPON"
+        "HOUND_WEAPON",
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
       ],
       "CodexSecret": false
     },
@@ -7002,21 +7003,25 @@
       "CodexSecret": false
     },
     "Truth's Flame": {
+      "Description": "Enables Tennokai.\r\nTennokai kills grant an additional 4s Tennokai opportunity and increase Tennokai damage by 120%.\r\n\r\nCURSE: Suffer 100 <DT_FIRE_COLOR>Heat Damage/s for 6s.\r\n+1 'Truth'",
+      "IsExilus": true,
+      "MaxRank": 3,
+      "Image": "Truth'sFlameMod.png",
+      "Introduced": "42",
+      "Icon": "Truth'sFlame.jpg",
       "Transmutable": false,
       "Type": "Melee",
-      "Description": "Enables Tennokai.\r\nTennokai kills grant an additional 4s Tennokai opportunity with +120% Melee Damage bonus.\r\n\r\nCURSE: Suffer 100 <DT_FIRE_COLOR>Heat Damage/s for 6s.\r\n\r\n+1 'Truth'",
-      "IsExilus": true,
-      "Tradable": true,
-      "BaseDrain": 6,
-      "MaxRank": 3,
       "Rarity": "Rare",
-      "Polarity": "Madurai",
-      "Image": "Truth'sFlameMod.png",
-      "Name": "Truth's Flame",
-      "Introduced": "42",
       "Link": "Truth's Flame",
+      "BaseDrain": 6,
+      "Polarity": "Madurai",
+      "Name": "Truth's Flame",
+      "Tradable": true,
       "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CursedSyndicateEmpoweredHeavyMeleeMod",
-      "Icon": "Truth'sFlame.jpg",
+      "IncompatibilityTags": [
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
+      ],
       "CodexSecret": false
     },
     "Antitoxin": {
@@ -8417,21 +8422,25 @@
       "CodexSecret": false
     },
     "Discipline's Merit": {
-      "Transmutable": false,
-      "Type": "Melee",
       "Description": "Enables Tennokai. Opportunities occur every 4 melee hits instead of at random.",
       "IsExilus": true,
-      "Tradable": true,
-      "BaseDrain": 4,
       "MaxRank": 3,
-      "Rarity": "Rare",
-      "Polarity": "Naramon",
       "Image": "Discipline'sMeritMod.png",
-      "Name": "Discipline's Merit",
       "Introduced": "35",
-      "Link": "Discipline's Merit",
-      "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CertainStrike",
       "Icon": "Discipline'sMerit.png",
+      "Transmutable": false,
+      "Type": "Melee",
+      "Rarity": "Rare",
+      "Link": "Discipline's Merit",
+      "BaseDrain": 4,
+      "Polarity": "Naramon",
+      "Name": "Discipline's Merit",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/CertainStrike",
+      "IncompatibilityTags": [
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
+      ],
       "CodexSecret": false
     },
     "Lock and Load": {
@@ -9335,6 +9344,10 @@
       "Name": "Dreamer's Wrath",
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/FocusedAttack",
+      "IncompatibilityTags": [
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
+      ],
       "CodexSecret": false
     },
     "Breach Quanta": {
@@ -13760,6 +13773,10 @@
       "Name": "Condition's Perfection",
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/PerfectCondition",
+      "IncompatibilityTags": [
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
+      ],
       "CodexSecret": false
     },
     "Metal Auger": {
@@ -24750,6 +24767,10 @@
       "Name": "Opportunity's Reach",
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/PerfectReach",
+      "IncompatibilityTags": [
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
+      ],
       "CodexSecret": false
     },
     "Primed Smite The Murmur": {
@@ -26211,6 +26232,10 @@
       "Name": "Master's Edge",
       "Tradable": true,
       "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/HeavyAgression",
+      "IncompatibilityTags": [
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
+      ],
       "CodexSecret": false
     },
     "Galvanized Scope": {
@@ -28399,6 +28424,10 @@
       "Name": "Mentor's Legacy",
       "Tradable": false,
       "InternalName": "/Lotus/Upgrades/EmpoweredHeavyMelee/TennokaiBaseMod",
+      "IncompatibilityTags": [
+        "POWER_WEAPON_LITE",
+        "NO_HEAVY_ATTACK"
+      ],
       "CodexSecret": false
     },
     "Melee Prowess": {

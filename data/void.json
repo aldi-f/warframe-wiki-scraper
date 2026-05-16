@@ -187,6 +187,7 @@
           "Drops": {
             "Lith A10": "Common",
             "Meso X1": "Common",
+            "Neo V11": "Common",
             "Lith Z4": "Common"
           }
         },
@@ -197,11 +198,10 @@
           }
         },
         "Blueprint": {
-          "DucatValue": 25,
+          "DucatValue": 45,
           "Drops": {
-            "Neo A14": "Uncommon",
             "Meso D8": "Uncommon",
-            "Neo V11": "Common",
+            "Neo A14": "Uncommon",
             "Meso P17": "Uncommon"
           }
         },
@@ -28382,7 +28382,7 @@
           "Rarity": "Common"
         },
         {
-          "Part": "Blueprint",
+          "Part": "Chassis Blueprint",
           "Item": "Yareli Prime",
           "Rarity": "Common"
         },

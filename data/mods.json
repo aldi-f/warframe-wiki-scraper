@@ -712,6 +712,29 @@
       ],
       "CodexSecret": false
     },
+    "Primed Combustion Rounds": {
+      "Description": "+187% <DT_FIRE_COLOR>Heat",
+      "UpgradeTypes": [
+        "WEAPON_PERCENT_BASE_DAMAGE_ADDED"
+      ],
+      "MaxRank": 10,
+      "Image": "PrimedCombustionRoundsMod.png",
+      "Introduced": "42.0.11",
+      "Icon": "CombustionRounds.png",
+      "Transmutable": false,
+      "Type": "Warframe",
+      "Rarity": "Legendary",
+      "Link": "Primed Combustion Rounds",
+      "BaseDrain": 4,
+      "Polarity": "Madurai",
+      "Name": "Primed Combustion Rounds",
+      "Tradable": true,
+      "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/Expert/ArchwingWeaponFireDamageModExpert",
+      "Incompatible": [
+        "Combustion Rounds"
+      ],
+      "CodexSecret": true
+    },
     "Flak Shot": {
       "Description": "20% of Damage converted into <DT_SLASH_COLOR>Slash",
       "Conclave": true,
@@ -20592,23 +20615,26 @@
       "CodexSecret": true
     },
     "Combustion Rounds": {
-      "Transmutable": false,
-      "Type": "Archgun",
       "Description": "+120% <DT_FIRE_COLOR>Heat",
-      "Link": "Combustion Rounds",
       "UpgradeTypes": [
         "WEAPON_PERCENT_BASE_DAMAGE_ADDED"
       ],
-      "BaseDrain": 4,
       "MaxRank": 5,
-      "Tradable": true,
-      "Rarity": "Uncommon",
       "Image": "CombustionRoundsMod.png",
-      "Name": "Combustion Rounds",
       "Introduced": "15",
-      "Polarity": "Madurai",
-      "Icon": "CombustionRounds.png",
       "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponFireDamageMod",
+      "Transmutable": false,
+      "Type": "Archgun",
+      "Rarity": "Uncommon",
+      "Link": "Combustion Rounds",
+      "BaseDrain": 4,
+      "Polarity": "Madurai",
+      "Name": "Combustion Rounds",
+      "Tradable": true,
+      "Icon": "CombustionRounds.png",
+      "Incompatible": [
+        "Primed Combustion Rounds"
+      ],
       "CodexSecret": false
     },
     "Charm": {

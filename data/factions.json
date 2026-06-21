@@ -29,6 +29,14 @@
     "Name": "Tenno",
     "Link": "Tenno"
   },
+  "Garuda": {
+    "Image": "VenaGeminiSkin.png",
+    "Description": "Vena, the Wytch, emerges from a doomed future to put on a sadistic smile on Garuda. Revel in the blood of all those who stand against her.",
+    "Introduced": "43",
+    "Name": "Garuda",
+    "InternalName": "",
+    "Link": "Vena"
+  },
   "Corpus": {
     "Image": "IconCorpusOn.png",
     "Description": "The Corpus embody the cold vacuum of space - heartless and bent on taking anything left unprotected. Driven by profits, the Corpus Board\u2019s small numbers are supplemented by their legion of robot proxies, optimized for quick and efficient destruction.",
@@ -161,6 +169,14 @@
     "InternalName": "/Lotus/Syndicates/Solaris/SolarisSyndicate",
     "Link": "Solaris United"
   },
+  "Conclave": {
+    "Image": "ConclaveSigil.png",
+    "Description": "A warrior only grows if they face the ultimate enemy. Themselves.",
+    "Introduced": "16",
+    "Name": "Conclave",
+    "InternalName": "/Lotus/Syndicates/ConclaveSyndicate",
+    "Link": "Conclave"
+  },
   "Cavia": {
     "Image": "Cavia Syndicate Logo 1.png",
     "Description": "Animals sent into the Void by Albrecht Entrati, the three surviving Cavia came back changed forever. They gained human intelligence, but could only speak incoherent Voidtongue until the Jahu Gargoyle made them intelligible. Despite what Albrecht did to them, they have resolved to assist his chosen Operator.",
@@ -272,13 +288,13 @@
     "Name": "Infested",
     "Link": "Infested"
   },
-  "Conclave": {
-    "Image": "ConclaveSigil.png",
-    "Description": "A warrior only grows if they face the ultimate enemy. Themselves.",
-    "Introduced": "16",
-    "Name": "Conclave",
-    "InternalName": "/Lotus/Syndicates/ConclaveSyndicate",
-    "Link": "Conclave"
+  "Ash": {
+    "Image": "RyokuGeminiSkin.png",
+    "Description": "The keenest blade is a well-ordered mind. Equal parts killer and mentor, Ryoku gives voice to the silent assassin, Ash.",
+    "Introduced": "43",
+    "Name": "Ash",
+    "InternalName": "",
+    "Link": "Ryoku"
   },
   "Cephalon Suda": {
     "Image": "CephalonSudaSigil.png",

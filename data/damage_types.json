@@ -1305,7 +1305,7 @@
         "Enemy is in a blinded state, opening them up to front/back finishers"
       ],
       "Name": "Blind",
-      "Icon": "RadialBlind130xDark.png",
+      "Icon": "RadialBlindIcon(xWhite).png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Detonate": {
@@ -1500,7 +1500,7 @@
         "Slows the enemy"
       ],
       "InternalName": "PT_GLUE",
-      "Icon": "WebbedEmbrace.png",
+      "Icon": "WebbedEmbraceIcon(xWhite).png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Intoxicate": {
@@ -1603,7 +1603,7 @@
         "Deafens the enemy and disables most active abilities"
       ],
       "InternalName": "PT_SILENCED",
-      "Icon": "Silence130xDark.png",
+      "Icon": "SilenceIcon(xWhite).png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Sleep": {
@@ -1617,7 +1617,7 @@
         "Puts enemy to sleep, preserving their alert state and opening them to finishers"
       ],
       "InternalName": "PT_SLEEP",
-      "Icon": "RestRage130xDark.png",
+      "Icon": "RestRageIcon(xWhite).png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Stagger": {
@@ -1728,7 +1728,7 @@
       "CSSBorderColorClass": "var(--dt-impact-border-color)",
       "Status": [
         "Stagger",
-        "Increased health threshold for Mercy finisher"
+        "Increased health threshold for Mercy Kill"
       ],
       "DarkModeColor": "#80c4c4",
       "CSSBackgroundColorClass": "var(--dt-impact-background-color)",
@@ -2419,7 +2419,7 @@
       "CSSTextColorClass": "var(--dt-impact-text-color)",
       "Status": [
         "Stagger",
-        "Mercy Kill Chance +"
+        "Mercy Kill Threshold +"
       ],
       "StatusNotes": [
         1,

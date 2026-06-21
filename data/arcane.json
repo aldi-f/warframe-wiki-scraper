@@ -575,6 +575,21 @@
       "Icon": "ArcaneEruption64x.png",
       "CodexSecret": true
     },
+    "Primary Compression": {
+      "Type": "Primary",
+      "Description": "On aim: x0.2 explosion radius, +100% damage and +5.5% ammo efficiency for every 1m radius lost.",
+      "Link": "Primary Compression",
+      "MaxRank": 5,
+      "Rarity": "Rare",
+      "IsRefreshable": true,
+      "Image": "PrimaryCompression.png",
+      "Name": "Primary Compression",
+      "Introduced": "43.0",
+      "Dissolution": 24,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ConvergeRadialAttackOnAim",
+      "Icon": "PrimaryCompression64x.png",
+      "CodexSecret": true
+    },
     "Arcane Blessing": {
       "Type": "Warframe",
       "Description": "On Health Pickup:\r\n+24 Max Health. Stacks up to 50x.",
@@ -1762,6 +1777,21 @@
       "Icon": "MagusAccelerant64x.png",
       "CodexSecret": true
     },
+    "Zid-An Uskos": {
+      "Type": "Tektolyst Artifacts",
+      "Description": "On Operator and Tauron Strike Kill: 2.4% <DT_FIRE_COLOR>Heat Damage for Secondary Weapon for duration of mission, max 250%",
+      "Link": "Zid-An Uskos",
+      "MaxRank": 5,
+      "Rarity": "Rare",
+      "IsRefreshable": true,
+      "Image": "Zid-AnUskos.png",
+      "Name": "Zid-An Uskos",
+      "Introduced": "41",
+      "Dissolution": 24,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Antiques/HeatStatusProcOnUltimateKill",
+      "Icon": "Zid-AnUskos64x.png",
+      "CodexSecret": true
+    },
     "Secondary Kinship": {
       "Type": "Secondary",
       "Description": "While Buffing Ally Warframes: +20% Critical Chance per buff",
@@ -1781,36 +1811,6 @@
         "OPERATOR_SUIT"
       ],
       "Icon": "SecondaryKinship64x.png",
-      "CodexSecret": false
-    },
-    "Zid-An Uskos": {
-      "Type": "Tektolyst Artifacts",
-      "Description": "On Operator and Tauron Strike Kill: 2.4% <DT_FIRE_COLOR>Heat Damage for Secondary Weapon for duration of mission, max 250%",
-      "Link": "Zid-An Uskos",
-      "MaxRank": 5,
-      "Rarity": "Rare",
-      "IsRefreshable": true,
-      "Image": "Zid-AnUskos.png",
-      "Name": "Zid-An Uskos",
-      "Introduced": "41",
-      "Dissolution": 24,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Antiques/HeatStatusProcOnUltimateKill",
-      "Icon": "Zid-AnUskos64x.png",
-      "CodexSecret": true
-    },
-    "Melee Fortification": {
-      "Type": "Melee",
-      "Description": "On Melee Kill: +210 Armor for 10s",
-      "Link": "Melee Fortification",
-      "MaxRank": 5,
-      "Rarity": "Common",
-      "IsRefreshable": true,
-      "Image": "MeleeFortification.png",
-      "Name": "Melee Fortification",
-      "Introduced": "35",
-      "Dissolution": 18,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnMeleeKill",
-      "Icon": "MeleeFortification64x.png",
       "CodexSecret": false
     },
     "Zid-An Haras": {
@@ -1849,25 +1849,34 @@
       "Icon": "VirtuosTrojan64x.png",
       "CodexSecret": true
     },
-    "Molt Reconstruct": {
-      "Type": "Warframe",
-      "Description": "Heal yourself and allies within Affinity Range 6 Health for each Energy point spent on the initial casting cost of abilities.",
-      "Link": "Molt Reconstruct",
-      "Rarity": "Rare",
-      "UpgradeTypes": [
-        "GAMEPLAY_FREE_REVIVE_COUNT"
-      ],
+    "Melee Retaliation": {
+      "Type": "Melee",
+      "Description": "Gain 30% Melee Damage for every 200 current Shields, up to 420%. Bonus halved for Overshields.",
+      "Link": "Melee Retaliation",
       "MaxRank": 5,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealAlliesOnEnergySpent",
-      "IsRefreshable": false,
-      "Image": "MoltReconstruct.png",
-      "Name": "Molt Reconstruct",
-      "Introduced": "31.6",
-      "Dissolution": 22,
-      "IncompatibilityTags": [
-        "OPERATOR_SUIT"
-      ],
-      "Icon": "MoltReconstruct64x.png",
+      "Rarity": "Common",
+      "IsRefreshable": true,
+      "Image": "MeleeRetaliation.png",
+      "Name": "Melee Retaliation",
+      "Introduced": "35",
+      "Dissolution": 18,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageForActiveShields",
+      "Icon": "MeleeRetaliation64x.png",
+      "CodexSecret": false
+    },
+    "Melee Fortification": {
+      "Type": "Melee",
+      "Description": "On Melee Kill: +210 Armor for 10s",
+      "Link": "Melee Fortification",
+      "MaxRank": 5,
+      "Rarity": "Common",
+      "IsRefreshable": true,
+      "Image": "MeleeFortification.png",
+      "Name": "Melee Fortification",
+      "Introduced": "35",
+      "Dissolution": 18,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ArmorOnMeleeKill",
+      "Icon": "MeleeFortification64x.png",
       "CodexSecret": false
     },
     "Virtuos Surge": {
@@ -1902,23 +1911,8 @@
       "Name": "Arcane Crepuscular",
       "Introduced": "38",
       "Dissolution": 24,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStrengthAndCritDamageWhenInvisible",
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityEfficiencyOnAbilityObjectCreation",
       "Icon": "ArcaneCrepuscular64x.png",
-      "CodexSecret": true
-    },
-    "Arcane Truculence": {
-      "Type": "Warframe",
-      "Description": "When gaining 3,000 or more Overguard threshold, release a 30m Radial Attack that applies max <DT_VIRAL_COLOR>Viral Status stacks.",
-      "Link": "Arcane Truculence",
-      "MaxRank": 5,
-      "Rarity": "Rare",
-      "IsRefreshable": true,
-      "Image": "ArcaneTruculence.png",
-      "Name": "Arcane Truculence",
-      "Introduced": "38",
-      "Dissolution": 24,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadialViralAttackOnOverguardGain",
-      "Icon": "ArcaneTruculence64x.png",
       "CodexSecret": true
     },
     "Virtuos Spike": {
@@ -1941,6 +1935,81 @@
       ],
       "Icon": "VirtuosSpike64x.png",
       "CodexSecret": true
+    },
+    "Virtuos Null": {
+      "Type": "Amp",
+      "Description": "On Kill:\r\n+20% Amp Energy Regeneration for 4s",
+      "Link": "Virtuos Null",
+      "Rarity": "Common",
+      "UpgradeTypes": [
+        "WEAPON_CHARGE_RATE"
+      ],
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/OperatorAmmoRegenOnKill",
+      "IsRefreshable": true,
+      "Image": "VirtuosNull.png",
+      "Name": "Virtuos Null",
+      "Introduced": "22",
+      "Dissolution": 12,
+      "IncompatibilityTags": [
+        "OPERATOR_SUIT"
+      ],
+      "Icon": "VirtuosNull64x.png",
+      "CodexSecret": true
+    },
+    "Virtuos Ghost": {
+      "Type": "Amp",
+      "Description": "On Headshot:\r\n40% chance for +60% Status Chance for 12s",
+      "Link": "Virtuos Ghost",
+      "Rarity": "Rare",
+      "UpgradeTypes": [
+        "WEAPON_PROC_CHANCE"
+      ],
+      "MaxRank": 3,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/StatusChanceOnHeadshot",
+      "IsRefreshable": true,
+      "Image": "VirtuosGhost.png",
+      "Name": "Virtuos Ghost",
+      "Introduced": "22",
+      "Dissolution": 24,
+      "IncompatibilityTags": [
+        "OPERATOR_SUIT"
+      ],
+      "Icon": "VirtuosGhost64x.png",
+      "CodexSecret": true
+    },
+    "Arcane Truculence": {
+      "Type": "Warframe",
+      "Description": "When gaining 3,000 or more Overguard threshold, release a 30m Radial Attack that applies max <DT_VIRAL_COLOR>Viral Status stacks.",
+      "Link": "Arcane Truculence",
+      "MaxRank": 5,
+      "Rarity": "Rare",
+      "IsRefreshable": true,
+      "Image": "ArcaneTruculence.png",
+      "Name": "Arcane Truculence",
+      "Introduced": "38",
+      "Dissolution": 24,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Defensive/RadialViralAttackOnOverguardGain",
+      "Icon": "ArcaneTruculence64x.png",
+      "CodexSecret": true
+    },
+    "Fractalized Reset": {
+      "Type": "Primary",
+      "Description": "On Ability Cast:\r\n+240% Reload Speed for 5s",
+      "Link": "Fractalized Reset",
+      "UpgradeTypes": [
+        "WEAPON_RELOAD_SPEED"
+      ],
+      "MaxRank": 5,
+      "Rarity": "Rare",
+      "IsRefreshable": false,
+      "Image": "FractalizedReset.png",
+      "Name": "Fractalized Reset",
+      "Introduced": "31.5",
+      "Dissolution": 22,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/PrimaryOnAbilityReloadSpeed",
+      "Icon": "FractalizedReset64x.png",
+      "CodexSecret": false
     },
     "Arcane Ultimatum": {
       "Type": "Warframe",
@@ -2016,25 +2085,25 @@
       "Icon": "MeleeExposure64x.png",
       "CodexSecret": false
     },
-    "Virtuos Null": {
+    "Virtuos Forge": {
       "Type": "Amp",
-      "Description": "On Kill:\r\n+20% Amp Energy Regeneration for 4s",
-      "Link": "Virtuos Null",
-      "Rarity": "Common",
+      "Description": "On Hit:\r\nConverts 98% <DT_RADIANT_COLOR>Void Damage to <DT_FIRE_COLOR>Heat Damage.",
+      "Link": "Virtuos Forge",
+      "Rarity": "Uncommon",
       "UpgradeTypes": [
-        "WEAPON_CHARGE_RATE"
+        "WEAPON_DAMAGE_CONVERSION"
       ],
       "MaxRank": 3,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/OperatorAmmoRegenOnKill",
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToHeatDamage",
       "IsRefreshable": true,
-      "Image": "VirtuosNull.png",
-      "Name": "Virtuos Null",
-      "Introduced": "22",
-      "Dissolution": 12,
+      "Image": "VirtuosForge.png",
+      "Name": "Virtuos Forge",
+      "Introduced": "24.2",
+      "Dissolution": 18,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],
-      "Icon": "VirtuosNull64x.png",
+      "Icon": "VirtuosForge64x.png",
       "CodexSecret": true
     },
     "Arcane Barrier": {
@@ -2058,25 +2127,26 @@
       "Icon": "ArcaneBarrier64x.png",
       "CodexSecret": true
     },
-    "Virtuos Ghost": {
-      "Type": "Amp",
-      "Description": "On Headshot:\r\n40% chance for +60% Status Chance for 12s",
-      "Link": "Virtuos Ghost",
+    "Theorem Infection": {
+      "Type": "Warframe",
+      "Description": "Standing in a zone created by a Residual Arcane increases damage of companions and summoned allies within 90m by 24%/s stacking up to 15x. Effect persists for 20s upon leaving the zone.",
+      "Link": "Theorem Infection",
       "Rarity": "Rare",
       "UpgradeTypes": [
-        "WEAPON_PROC_CHANCE"
+        "GAMEPLAY_FREE_REVIVE_COUNT"
       ],
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/StatusChanceOnHeadshot",
+      "MaxRank": 5,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CompanionDamageOnResidualContact",
       "IsRefreshable": true,
-      "Image": "VirtuosGhost.png",
-      "Name": "Virtuos Ghost",
-      "Introduced": "22",
+      "Image": "TheoremInfection.png",
+      "Name": "Theorem Infection",
+      "Introduced": "29.5",
       "Dissolution": 24,
       "IncompatibilityTags": [
-        "OPERATOR_SUIT"
+        "OPERATOR_SUIT",
+        "TNJETTURBINEPISTOL"
       ],
-      "Icon": "VirtuosGhost64x.png",
+      "Icon": "TheoremInfection64x.png",
       "CodexSecret": true
     },
     "Residual Boils": {
@@ -2100,59 +2170,60 @@
       "Icon": "ResidualBoils64x.png",
       "CodexSecret": true
     },
-    "Fractalized Reset": {
-      "Type": "Primary",
-      "Description": "On Ability Cast:\r\n+240% Reload Speed for 5s",
-      "Link": "Fractalized Reset",
+    "Magus Anomaly": {
+      "Type": "Operator",
+      "Description": "On Transference In:\r\nEnemies within 30m are pulled towards Warframe. ",
+      "Link": "Magus Anomaly",
+      "MaxRank": 5,
+      "Rarity": "Common",
+      "IsRefreshable": true,
+      "Image": "MagusAnomaly.png",
+      "Name": "Magus Anomaly",
+      "Introduced": "24.2",
+      "Dissolution": 12,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/PullOnTransferenceIn",
+      "Icon": "MagusAnomaly64x.png",
+      "CodexSecret": true
+    },
+    "Shotgun Vendetta": {
+      "Type": "Shotgun",
+      "Description": "On shotgun kill within 5m of target:\r\n+180% Multishot and +75% Reload Speed for 15s.",
+      "Link": "Shotgun Vendetta",
       "UpgradeTypes": [
+        "WEAPON_FIRE_ITERATIONS",
         "WEAPON_RELOAD_SPEED"
       ],
       "MaxRank": 5,
       "Rarity": "Rare",
-      "IsRefreshable": false,
-      "Image": "FractalizedReset.png",
-      "Name": "Fractalized Reset",
-      "Introduced": "31.5",
-      "Dissolution": 22,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/PrimaryOnAbilityReloadSpeed",
-      "Icon": "FractalizedReset64x.png",
+      "IsRefreshable": true,
+      "Image": "ShotgunVendetta.png",
+      "Name": "Shotgun Vendetta",
+      "Introduced": "33",
+      "Dissolution": 24,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ShotgunMultishotAndReloadSpeedOnCloseKill",
+      "Icon": "ShotgunVendetta64x.png",
       "CodexSecret": false
     },
-    "Virtuos Forge": {
-      "Type": "Amp",
-      "Description": "On Hit:\r\nConverts 98% <DT_RADIANT_COLOR>Void Damage to <DT_FIRE_COLOR>Heat Damage.",
-      "Link": "Virtuos Forge",
-      "Rarity": "Uncommon",
+    "Arcane Sculptor": {
+      "Type": "Warframe",
+      "Description": "On creating an object with abilities: casts have 175% Ability Efficiency for 12 seconds",
+      "Link": "Arcane Sculptor",
+      "Rarity": "Rare",
       "UpgradeTypes": [
-        "WEAPON_DAMAGE_CONVERSION"
+        "GAMEPLAY_FREE_REVIVE_COUNT"
       ],
-      "MaxRank": 3,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorAmps/VoidToHeatDamage",
+      "MaxRank": 5,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
       "IsRefreshable": true,
-      "Image": "VirtuosForge.png",
-      "Name": "Virtuos Forge",
-      "Introduced": "24.2",
-      "Dissolution": 18,
+      "Image": "ArcaneSculptor.png",
+      "Name": "Arcane Sculptor",
+      "Introduced": "43.0",
+      "Dissolution": 24,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],
-      "Icon": "VirtuosForge64x.png",
-      "CodexSecret": true
-    },
-    "Magus Replenish": {
-      "Type": "Operator",
-      "Description": "On Void Sling:\r\nHeal 30% Health",
-      "Link": "Magus Replenish",
-      "MaxRank": 5,
-      "Rarity": "Uncommon",
-      "IsRefreshable": true,
-      "Image": "MagusReplenish.png",
-      "Name": "Magus Replenish",
-      "Introduced": "22",
-      "Dissolution": 18,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidDash",
-      "Icon": "MagusReplenish64x.png",
-      "CodexSecret": true
+      "Icon": "ArcaneSculptor64x.png",
+      "CodexSecret": false
     },
     "Melee Vortex": {
       "Type": "Melee",
@@ -2169,26 +2240,22 @@
       "Icon": "MeleeVortex64x.png",
       "CodexSecret": false
     },
-    "Theorem Infection": {
-      "Type": "Warframe",
-      "Description": "Standing in a zone created by a Residual Arcane increases damage of companions and summoned allies within 90m by 24%/s stacking up to 15x. Effect persists for 20s upon leaving the zone.",
-      "Link": "Theorem Infection",
+    "Secondary Surge": {
+      "Type": "Secondary",
+      "Description": "On Ability Cast: Next shot gains a Damage Multiplier for every 200 current Energy, up to x8.",
+      "Link": "Secondary Surge",
       "Rarity": "Rare",
-      "UpgradeTypes": [
-        "GAMEPLAY_FREE_REVIVE_COUNT"
-      ],
       "MaxRank": 5,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CompanionDamageOnResidualContact",
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageNextShotForCurEnergy",
       "IsRefreshable": true,
-      "Image": "TheoremInfection.png",
-      "Name": "Theorem Infection",
-      "Introduced": "29.5",
+      "Image": "SecondarySurge.png",
+      "Name": "Secondary Surge",
+      "Introduced": "36",
       "Dissolution": 24,
       "IncompatibilityTags": [
-        "OPERATOR_SUIT",
-        "TNJETTURBINEPISTOL"
+        "OPERATOR_SUIT"
       ],
-      "Icon": "TheoremInfection64x.png",
+      "Icon": "SecondarySurge64x.png",
       "CodexSecret": true
     },
     "Magus Cloud": {
@@ -2209,19 +2276,19 @@
       "Icon": "MagusCloud64x.png",
       "CodexSecret": true
     },
-    "Magus Anomaly": {
-      "Type": "Operator",
-      "Description": "On Transference In:\r\nEnemies within 30m are pulled towards Warframe. ",
-      "Link": "Magus Anomaly",
+    "Secondary Irradiate": {
+      "Type": "Secondary",
+      "Description": "On hitting enemies afflicted by 10 stacks of <DT_RADIATION_COLOR>Radiation: Deal 180% of the hit damage to enemies within 7m.",
+      "Link": "Secondary Irradiate",
       "MaxRank": 5,
-      "Rarity": "Common",
+      "Rarity": "Rare",
       "IsRefreshable": true,
-      "Image": "MagusAnomaly.png",
-      "Name": "Magus Anomaly",
-      "Introduced": "24.2",
-      "Dissolution": 12,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/PullOnTransferenceIn",
-      "Icon": "MagusAnomaly64x.png",
+      "Image": "SecondaryIrradiate.png",
+      "Name": "Secondary Irradiate",
+      "Introduced": "41",
+      "Dissolution": 24,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/RadialDamageOnMaxRadiationStackHit",
+      "Icon": "SecondaryIrradiate64x.png",
       "CodexSecret": true
     },
     "Primary Deadhead": {
@@ -2262,23 +2329,25 @@
       "Icon": "EternalOnslaught64x.png",
       "CodexSecret": false
     },
-    "Shotgun Vendetta": {
-      "Type": "Shotgun",
-      "Description": "On shotgun kill within 5m of target:\r\n+180% Multishot and +75% Reload Speed for 15s.",
-      "Link": "Shotgun Vendetta",
+    "Secondary Encumber": {
+      "Type": "Secondary",
+      "Description": "On Status Effect: +24% chance to trigger a second random Status Effect.",
+      "Link": "Secondary Encumber",
+      "Rarity": "Rare",
       "UpgradeTypes": [
-        "WEAPON_FIRE_ITERATIONS",
-        "WEAPON_RELOAD_SPEED"
+        "WEAPON_PROC_ON_PROC_CHANCE"
       ],
       "MaxRank": 5,
-      "Rarity": "Rare",
-      "IsRefreshable": true,
-      "Image": "ShotgunVendetta.png",
-      "Name": "Shotgun Vendetta",
-      "Introduced": "33",
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
+      "IsRefreshable": false,
+      "Image": "SecondaryEncumber.png",
+      "Name": "Secondary Encumber",
+      "Introduced": "32.3",
       "Dissolution": 24,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/ShotgunMultishotAndReloadSpeedOnCloseKill",
-      "Icon": "ShotgunVendetta64x.png",
+      "IncompatibilityTags": [
+        "OPERATOR_SUIT"
+      ],
+      "Icon": "SecondaryEncumber64x.png",
       "CodexSecret": false
     },
     "Arcane Tempo": {
@@ -2303,60 +2372,6 @@
       "Icon": "ArcaneTempo64x.png",
       "CodexSecret": true
     },
-    "Secondary Surge": {
-      "Type": "Secondary",
-      "Description": "On Ability Cast: Next shot gains a Damage Multiplier for every 200 current Energy, up to x8.",
-      "Link": "Secondary Surge",
-      "Rarity": "Rare",
-      "MaxRank": 5,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/BonusDamageNextShotForCurEnergy",
-      "IsRefreshable": true,
-      "Image": "SecondarySurge.png",
-      "Name": "Secondary Surge",
-      "Introduced": "36",
-      "Dissolution": 24,
-      "IncompatibilityTags": [
-        "OPERATOR_SUIT"
-      ],
-      "Icon": "SecondarySurge64x.png",
-      "CodexSecret": true
-    },
-    "Secondary Irradiate": {
-      "Type": "Secondary",
-      "Description": "On hitting enemies afflicted by 10 stacks of <DT_RADIATION_COLOR>Radiation: Deal 180% of the hit damage to enemies within 7m.",
-      "Link": "Secondary Irradiate",
-      "MaxRank": 5,
-      "Rarity": "Rare",
-      "IsRefreshable": true,
-      "Image": "SecondaryIrradiate.png",
-      "Name": "Secondary Irradiate",
-      "Introduced": "41",
-      "Dissolution": 24,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/RadialDamageOnMaxRadiationStackHit",
-      "Icon": "SecondaryIrradiate64x.png",
-      "CodexSecret": true
-    },
-    "Secondary Encumber": {
-      "Type": "Secondary",
-      "Description": "On Status Effect: +24% chance to trigger a second random Status Effect.",
-      "Link": "Secondary Encumber",
-      "Rarity": "Rare",
-      "UpgradeTypes": [
-        "WEAPON_PROC_ON_PROC_CHANCE"
-      ],
-      "MaxRank": 5,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/ExtraProcOnProc",
-      "IsRefreshable": false,
-      "Image": "SecondaryEncumber.png",
-      "Name": "Secondary Encumber",
-      "Introduced": "32.3",
-      "Dissolution": 24,
-      "IncompatibilityTags": [
-        "OPERATOR_SUIT"
-      ],
-      "Icon": "SecondaryEncumber64x.png",
-      "CodexSecret": false
-    },
     "Secondary Dexterity": {
       "Type": "Secondary",
       "Description": "On Melee Kill:\r\n+60% Damage for 20s. Stacks up to 6x.\r\n+7.5s Combo Duration\r\n",
@@ -2376,25 +2391,37 @@
       "Icon": "SecondaryDexterity64x.png",
       "CodexSecret": true
     },
-    "Residual Shock": {
-      "Type": "Kitgun",
-      "Description": "On Kitgun Kill:\r\n20% chance to spawn an electrified spike for 12s, dealing 200 <DT_ELECTRICITY_COLOR>Electricity Damage to enemies within 10m. Standing in the area applies <DT_ELECTRICITY_COLOR>Electricity Damage to Theorem Arcanes.",
-      "Link": "Residual Shock",
+    "Secondary Cryogenic": {
+      "Type": "Secondary",
+      "Description": "On <DT_PUNCTURE_COLOR>Puncture: Apply 3 <DT_FREEZE_COLOR>Cold stacks on targets within 15m.",
+      "Link": "Secondary Cryogenic",
       "Rarity": "Rare",
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LightningStrikeOnKill",
-      "CompatibilityTags": [
-        "MODULAR_GUN"
-      ],
-      "MaxRank": 3,
-      "IsRefreshable": false,
-      "Image": "ResidualShock.png",
-      "Name": "Residual Shock",
-      "Introduced": "29.5",
-      "Dissolution": 24,
+      "MaxRank": 5,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/SecondaryColdOnPuncture",
+      "IsRefreshable": true,
+      "Image": "SecondaryCryogenic.png",
+      "Name": "Secondary Cryogenic",
+      "Introduced": "43.0",
+      "Dissolution": 20,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],
-      "Icon": "ResidualShock64x.png",
+      "Icon": "SecondaryCryogenic64x.png",
+      "CodexSecret": true
+    },
+    "Primary Overcharge": {
+      "Type": "Primary",
+      "Description": "While at or above 90% Energy: Gain 35% of Max Energy as Multishot, capped at 350%.",
+      "Link": "Primary Overcharge",
+      "MaxRank": 5,
+      "Rarity": "Rare",
+      "IsRefreshable": true,
+      "Image": "PrimaryOvercharge.png",
+      "Name": "Primary Overcharge",
+      "Introduced": "41",
+      "Dissolution": 24,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MultishotForMaxEnergy",
+      "Icon": "PrimaryOvercharge64x.png",
       "CodexSecret": true
     },
     "Arcane Resistance": {
@@ -2419,19 +2446,25 @@
       "Icon": "ArcaneResistance64x.png",
       "CodexSecret": true
     },
-    "Primary Overcharge": {
-      "Type": "Primary",
-      "Description": "While at or above 90% Energy: Gain 35% of Max Energy as Multishot, capped at 350%.",
-      "Link": "Primary Overcharge",
-      "MaxRank": 5,
+    "Residual Shock": {
+      "Type": "Kitgun",
+      "Description": "On Kitgun Kill:\r\n20% chance to spawn an electrified spike for 12s, dealing 200 <DT_ELECTRICITY_COLOR>Electricity Damage to enemies within 10m. Standing in the area applies <DT_ELECTRICITY_COLOR>Electricity Damage to Theorem Arcanes.",
+      "Link": "Residual Shock",
       "Rarity": "Rare",
-      "IsRefreshable": true,
-      "Image": "PrimaryOvercharge.png",
-      "Name": "Primary Overcharge",
-      "Introduced": "41",
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/LightningStrikeOnKill",
+      "CompatibilityTags": [
+        "MODULAR_GUN"
+      ],
+      "MaxRank": 3,
+      "IsRefreshable": false,
+      "Image": "ResidualShock.png",
+      "Name": "Residual Shock",
+      "Introduced": "29.5",
       "Dissolution": 24,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MultishotForMaxEnergy",
-      "Icon": "PrimaryOvercharge64x.png",
+      "IncompatibilityTags": [
+        "OPERATOR_SUIT"
+      ],
+      "Icon": "ResidualShock64x.png",
       "CodexSecret": true
     },
     "Primary Merciless": {
@@ -2490,28 +2523,6 @@
       "Icon": "PrimaryBulwark64x.png",
       "CodexSecret": true
     },
-    "Arcane Rage": {
-      "Type": "Warframe",
-      "Description": "On Headshot:\r\n15% chance for +180% Damage to Primary Weapons for 24s",
-      "Link": "Arcane Rage",
-      "Rarity": "Rare",
-      "UpgradeTypes": [
-        "WEAPON_DAMAGE_AMOUNT",
-        "GAMEPLAY_FREE_REVIVE_COUNT"
-      ],
-      "MaxRank": 5,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
-      "IsRefreshable": true,
-      "Image": "ArcaneRage.png",
-      "Name": "Arcane Rage",
-      "Introduced": "16",
-      "Dissolution": 28,
-      "IncompatibilityTags": [
-        "OPERATOR_SUIT"
-      ],
-      "Icon": "ArcaneRage64x.png",
-      "CodexSecret": true
-    },
     "Pax Soar": {
       "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/EyeInTheSky",
       "Type": "Kitgun",
@@ -2536,6 +2547,74 @@
         "OPERATOR_SUIT"
       ],
       "Icon": "PaxSoar64x.png",
+      "CodexSecret": true
+    },
+    "Molt Efficiency": {
+      "Type": "Warframe",
+      "Description": "While Shields are Active: Gain 6% Ability Duration per second, up to a maximum of 36%   ",
+      "Link": "Molt Efficiency",
+      "Rarity": "Rare",
+      "UpgradeTypes": [
+        "AVATAR_ABILITY_DURATION",
+        "GAMEPLAY_FREE_REVIVE_COUNT"
+      ],
+      "MaxRank": 5,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnShieldUptimePowerDuration",
+      "IsRefreshable": true,
+      "Image": "MoltEfficiency.png",
+      "Name": "Molt Efficiency",
+      "Introduced": "31.5",
+      "Dissolution": 22,
+      "IncompatibilityTags": [
+        "OPERATOR_SUIT"
+      ],
+      "Icon": "MoltEfficiency64x.png",
+      "CodexSecret": false
+    },
+    "Arcane Rage": {
+      "Type": "Warframe",
+      "Description": "On Headshot:\r\n15% chance for +180% Damage to Primary Weapons for 24s",
+      "Link": "Arcane Rage",
+      "Rarity": "Rare",
+      "UpgradeTypes": [
+        "WEAPON_DAMAGE_AMOUNT",
+        "GAMEPLAY_FREE_REVIVE_COUNT"
+      ],
+      "MaxRank": 5,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/LongGunDamageOnHeadshot",
+      "IsRefreshable": true,
+      "Image": "ArcaneRage.png",
+      "Name": "Arcane Rage",
+      "Introduced": "16",
+      "Dissolution": 28,
+      "IncompatibilityTags": [
+        "OPERATOR_SUIT"
+      ],
+      "Icon": "ArcaneRage64x.png",
+      "CodexSecret": true
+    },
+    "Pax Charge": {
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BulletToBattery",
+      "Type": "Kitgun",
+      "Description": "Battery Recharge Delay is reduced by +50%",
+      "Link": "Pax Charge",
+      "Rarity": "Rare",
+      "UpgradeTypes": [
+        "WEAPON_RELOAD_SPEED"
+      ],
+      "CompatibilityTags": [
+        "MODULAR_GUN"
+      ],
+      "MaxRank": 3,
+      "IsRefreshable": true,
+      "Image": "PaxCharge.png",
+      "Name": "Pax Charge",
+      "Introduced": "24",
+      "Dissolution": 36,
+      "IncompatibilityTags": [
+        "OPERATOR_SUIT"
+      ],
+      "Icon": "PaxCharge64x.png",
       "CodexSecret": true
     },
     "Magus Elevate": {
@@ -2574,29 +2653,26 @@
       "Icon": "MoltVigor64x.png",
       "CodexSecret": false
     },
-    "Pax Charge": {
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/BulletToBattery",
-      "Type": "Kitgun",
-      "Description": "Battery Recharge Delay is reduced by +50%",
-      "Link": "Pax Charge",
+    "Molt Reconstruct": {
+      "Type": "Warframe",
+      "Description": "Heal yourself and allies within Affinity Range 6 Health for each Energy point spent on the initial casting cost of abilities.",
+      "Link": "Molt Reconstruct",
       "Rarity": "Rare",
       "UpgradeTypes": [
-        "WEAPON_RELOAD_SPEED"
+        "GAMEPLAY_FREE_REVIVE_COUNT"
       ],
-      "CompatibilityTags": [
-        "MODULAR_GUN"
-      ],
-      "MaxRank": 3,
-      "IsRefreshable": true,
-      "Image": "PaxCharge.png",
-      "Name": "Pax Charge",
-      "Introduced": "24",
-      "Dissolution": 36,
+      "MaxRank": 5,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/HealAlliesOnEnergySpent",
+      "IsRefreshable": false,
+      "Image": "MoltReconstruct.png",
+      "Name": "Molt Reconstruct",
+      "Introduced": "31.6",
+      "Dissolution": 22,
       "IncompatibilityTags": [
         "OPERATOR_SUIT"
       ],
-      "Icon": "PaxCharge64x.png",
-      "CodexSecret": true
+      "Icon": "MoltReconstruct64x.png",
+      "CodexSecret": false
     },
     "Arcane Deflection": {
       "Type": "Warframe",
@@ -2662,43 +2738,6 @@
       "Icon": "VirtuosTempo64x.png",
       "CodexSecret": true
     },
-    "Molt Efficiency": {
-      "Type": "Warframe",
-      "Description": "While Shields are Active: Gain 6% Ability Duration per second, up to a maximum of 36%   ",
-      "Link": "Molt Efficiency",
-      "Rarity": "Rare",
-      "UpgradeTypes": [
-        "AVATAR_ABILITY_DURATION",
-        "GAMEPLAY_FREE_REVIVE_COUNT"
-      ],
-      "MaxRank": 5,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Zariman/WarframeOnShieldUptimePowerDuration",
-      "IsRefreshable": true,
-      "Image": "MoltEfficiency.png",
-      "Name": "Molt Efficiency",
-      "Introduced": "31.5",
-      "Dissolution": 22,
-      "IncompatibilityTags": [
-        "OPERATOR_SUIT"
-      ],
-      "Icon": "MoltEfficiency64x.png",
-      "CodexSecret": false
-    },
-    "Melee Retaliation": {
-      "Type": "Melee",
-      "Description": "Gain 30% Melee Damage for every 200 current Shields, up to 420%. Bonus halved for Overshields.",
-      "Link": "Melee Retaliation",
-      "MaxRank": 5,
-      "Rarity": "Common",
-      "IsRefreshable": true,
-      "Image": "MeleeRetaliation.png",
-      "Name": "Melee Retaliation",
-      "Introduced": "35",
-      "Dissolution": 18,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/MeleeDamageForActiveShields",
-      "Icon": "MeleeRetaliation64x.png",
-      "CodexSecret": false
-    },
     "Melee Influence": {
       "Type": "Melee",
       "Description": "On Melee <DT_ELECTRICITY_COLOR>Electricity Status: 20% chance for elemental Melee Status Effects to apply to enemies within 20m for 18s. Cannot refresh while active.",
@@ -2727,6 +2766,36 @@
       "Dissolution": 24,
       "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/CritDamageForPunctureStatus",
       "Icon": "MeleeDoughty64x.png",
+      "CodexSecret": true
+    },
+    "Melee Assimilation": {
+      "Type": "Melee",
+      "Description": "On Shield Break: +150% Melee Damage on Heavy Attack and Heavy Attack kills restore +30% of max Shields for 20s.",
+      "Link": "Melee Assimilation",
+      "MaxRank": 5,
+      "Rarity": "Rare",
+      "IsRefreshable": true,
+      "Image": "MeleeAssimilation.png",
+      "Name": "Melee Assimilation",
+      "Introduced": "43.0",
+      "Dissolution": 24,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Offensive/HeavyAttackDamageAndShieldOnShieldBreak",
+      "Icon": "MeleeAssimilation64x.png",
+      "CodexSecret": true
+    },
+    "Magus Replenish": {
+      "Type": "Operator",
+      "Description": "On Void Sling:\r\nHeal 30% Health",
+      "Link": "Magus Replenish",
+      "MaxRank": 5,
+      "Rarity": "Uncommon",
+      "IsRefreshable": true,
+      "Image": "MagusReplenish.png",
+      "Name": "Magus Replenish",
+      "Introduced": "22",
+      "Dissolution": 18,
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/OperatorArmour/HealOnVoidDash",
+      "Icon": "MagusReplenish64x.png",
       "CodexSecret": true
     },
     "Magus Overload": {

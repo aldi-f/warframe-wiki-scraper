@@ -2184,7 +2184,8 @@
       "Armor": 500,
       "EximusHealth": 450,
       "Multis": [
-        "Head: 3.0x"
+        "Head: 3.0x",
+        "Padded Areas: 0.5x"
       ],
       "Affinity": 500
     }
@@ -4858,7 +4859,8 @@
       "BaseLevel": 1,
       "Armor": 500,
       "Multis": [
-        "Head: 3.0x"
+        "Head: 3.0x",
+        "Padded Areas: 0.5x"
       ],
       "Affinity": 500
     }
@@ -5645,7 +5647,8 @@
       "Armor": 500,
       "EximusHealth": 450,
       "Multis": [
-        "Head: 3.0x"
+        "Head: 3.0x",
+        "Padded Areas: 0.5x"
       ],
       "Affinity": 500
     }
@@ -9262,7 +9265,8 @@
       "Armor": 500,
       "EximusHealth": 450,
       "Multis": [
-        "Head: 3.0x"
+        "Head: 3.0x",
+        "Padded Areas: 0.5x"
       ],
       "Affinity": 500
     }
@@ -28517,11 +28521,23 @@
       "Introduced": "14.5"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 200,
       "Affinity": 100
     }
   },
@@ -28541,12 +28557,23 @@
       "Introduced": "15.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 1200,
       "BaseLevel": 12,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "EximusHealth": 1000,
+      "EximusAffinity": 500,
       "Affinity": 150
     }
   },
@@ -28575,8 +28602,15 @@
       "Introduced": "25.7"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral",
@@ -28584,6 +28618,9 @@
       ],
       "Health": 3000,
       "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 150
     }
   },
@@ -28612,11 +28649,23 @@
       "Introduced": "29"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 200,
       "Affinity": 100
     }
   },
@@ -28649,9 +28698,10 @@
       "Introduced": "13.8"
     },
     "Stats": {
-      "Armor": 25,
-      "BaseLevel": 1,
+      "Attacks": {},
       "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
       "Affinity": -1
     }
   },
@@ -28670,13 +28720,24 @@
       "Scans": 5
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x",
         "Back Crown: 0.5x"
       ],
-      "Health": 400,
-      "BaseLevel": 1,
       "EximusHealth": 400,
+      "EximusAffinity": 500,
       "Affinity": 150
     }
   },
@@ -28713,13 +28774,24 @@
       "Introduced": "38"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x",
         "Back Crown: 0.5x"
       ],
-      "Health": 400,
-      "BaseLevel": 1,
       "EximusHealth": 400,
+      "EximusAffinity": 500,
       "Affinity": 150
     }
   },
@@ -28753,8 +28825,27 @@
       ]
     },
     "Stats": {
-      "Multis": [
-        ""
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -28762,6 +28853,9 @@
       "Health": 6000,
       "BaseLevel": 1,
       "Armor": 50,
+      "Multis": [
+        ""
+      ],
       "Affinity": 500
     }
   },
@@ -28856,9 +28950,51 @@
       "Introduced": "25.7.7"
     },
     "Stats": {
-      "SpawnLevel": 35,
-      "BaseLevel": 1,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.1,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 75,
+          "AttackName": "Glaive Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 50,
+          "AttackName": "Glaive AoE Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 15,
+          "AttackName": "Thrown Glaive Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 80,
+          "AttackName": "Thrown Glaive AoE Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 45,
+          "AttackName": "Melee Damage"
+        }
+      ],
       "Health": 9000,
+      "BaseLevel": 1,
+      "SpawnLevel": 35,
       "Affinity": 1500
     }
   },
@@ -28884,14 +29020,44 @@
       "Introduced": "29"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 1
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "EximusHealth": 80,
       "Multis": [
         "Lancer Head: 3.0x",
         "Face: 0.2x",
         "Carapace: 0.05x"
       ],
-      "Health": 80,
-      "BaseLevel": 1,
-      "EximusHealth": 80,
       "Affinity": 50
     }
   },
@@ -28920,9 +29086,15 @@
       "Introduced": "25.7"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Upper Hardened Body: 0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral",
@@ -28930,6 +29102,10 @@
       ],
       "Health": 3250,
       "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -28962,9 +29138,10 @@
       "Introduced": "13.8"
     },
     "Stats": {
-      "Armor": 25,
-      "BaseLevel": 1,
+      "Attacks": {},
       "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
       "Affinity": -1
     }
   },
@@ -28984,11 +29161,12 @@
       "Introduced": "13.8"
     },
     "Stats": {
+      "Attacks": {},
+      "Health": 200,
+      "BaseLevel": 10,
       "Multis": [
         ""
       ],
-      "BaseLevel": 10,
-      "Health": 200,
       "Affinity": 100
     }
   },
@@ -29007,11 +29185,41 @@
       "Scans": 20
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x"
       ],
-      "BaseLevel": 1,
-      "Health": 80,
       "Affinity": 50
     }
   },
@@ -29038,9 +29246,24 @@
       "Introduced": "30.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 2.0x",
-        "Body: 0.5X"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20,
+          "AttackName": "Projectile Damage"
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -29048,6 +29271,10 @@
       "Health": 2000,
       "BaseLevel": 1,
       "Armor": 300,
+      "Multis": [
+        "Head: 2.0x",
+        "Body: 0.5X"
+      ],
       "Affinity": 1000
     }
   },
@@ -29076,9 +29303,15 @@
       "Introduced": "29.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Body: 0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -29086,6 +29319,10 @@
       "Health": 700,
       "BaseLevel": 1,
       "Armor": 600,
+      "Multis": [
+        "Head: 3.0x",
+        "Body: 0.5x"
+      ],
       "Affinity": 50
     }
   },
@@ -29111,9 +29348,29 @@
       "Introduced": "29"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 1
+          },
+          "StatusChance": 0.05,
+          "BurstCount": 3,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Shot damage is bundled with AoE damage",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Puncture": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10
+        }
+      ],
+      "Health": 350,
       "BaseLevel": 12,
       "EximusHealth": 275,
-      "Health": 350,
       "Affinity": 150
     }
   },
@@ -29139,12 +29396,34 @@
       "Introduced": "Recurring Nightmares"
     },
     "Stats": {
-      "Multis": [
-        ""
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
       ],
       "Health": 2000,
       "BaseLevel": 2,
       "Armor": 200,
+      "Multis": [
+        ""
+      ],
       "Affinity": 1500
     }
   },
@@ -29177,12 +29456,42 @@
       "Introduced": "19.12"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
       ],
       "Health": 80,
       "BaseLevel": 1,
       "EximusHealth": 80,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -29208,15 +29517,34 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Upper Hardened Body: 0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 30,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20
+        }
       ],
       "ProcResists": [
         "Viral"
       ],
       "Health": 800,
       "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -29242,16 +29570,26 @@
       "Introduced": "25.7.3.1"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Upper Head: 1.0x",
-        "Upper Hardened Body: 0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
       ],
       "Health": 600,
       "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Head: 1.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -29283,9 +29621,27 @@
       "Introduced": "6"
     },
     "Stats": {
-      "Armor": 25,
-      "BaseLevel": 1,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Impact": 0
+          },
+          "Note": "Data needed on Sonic Scream!",
+          "TotalDamage": 0,
+          "AttackName": "Sonic Scream (Data Needed)"
+        }
+      ],
       "Health": 5000,
+      "BaseLevel": 1,
+      "Armor": 25,
       "Affinity": 3500
     }
   },
@@ -29305,11 +29661,21 @@
       "Introduced": "15.5"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 20,
+      "BaseLevel": 1,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 20,
       "Affinity": 35
     }
   },
@@ -29335,8 +29701,24 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20,
+          "AttackName": "Projectile Damage"
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -29345,6 +29727,9 @@
       "BaseLevel": 1,
       "Armor": 300,
       "EximusHealth": 1200,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "Affinity": 150
     }
   },
@@ -29370,12 +29755,42 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 1
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
       ],
       "Health": 100,
       "BaseLevel": 1,
       "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 35
     }
   },
@@ -29395,12 +29810,30 @@
       "Introduced": "10.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 0,
+          "AttackName": "Grenade Damage (Need Data)"
+        }
       ],
       "Health": 50,
       "BaseLevel": 1,
       "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 35
     }
   },
@@ -29426,12 +29859,34 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "First Femur: 1.0x",
-        "Second Femur: 2.0x",
-        "Broken Femurs: 2.0x",
-        "Body with unbroken Femur: 0.2x",
-        "Body with broken Femurs: 1.0x"
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 4,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Shot damage is bundled with AoE damage",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -29440,6 +29895,13 @@
       "BaseLevel": 1,
       "Armor": 70,
       "EximusHealth": 550,
+      "Multis": [
+        "First Femur: 1.0x",
+        "Second Femur: 2.0x",
+        "Broken Femurs: 2.0x",
+        "Body with unbroken Femur: 0.2x",
+        "Body with broken Femurs: 1.0x"
+      ],
       "Affinity": 500
     }
   },
@@ -29464,6 +29926,36 @@
       "Introduced": "29"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 1
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
       "BaseLevel": 1,
       "Health": 100,
       "Affinity": 35
@@ -29491,12 +29983,22 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        ""
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0.03,
+          "TotalDamage": 15,
+          "AttackName": "Shot AoE Damage"
+        }
       ],
       "Health": 60,
       "BaseLevel": 1,
       "Armor": 150,
+      "Multis": [
+        ""
+      ],
       "Affinity": 100
     }
   },
@@ -29516,12 +30018,22 @@
       "Introduced": "6"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 80,
       "BaseLevel": 1,
       "EximusHealth": 80,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -29611,16 +30123,29 @@
       "Weapons": [
         ""
       ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/AncientAvatar",
       "Scans": 5
     },
     "Stats": {
+      "Attacks": [
+        {
+          "Note": "Drains energy off player if hit",
+          "AttackName": "Melee Damage",
+          "DamageDistribution": {
+            "Magnetic": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 15
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x",
         "Back Crown: 0.5x"
       ],
-      "Health": 400,
-      "BaseLevel": 1,
       "EximusHealth": 400,
+      "EximusAffinity": 500,
       "Affinity": 150
     }
   },
@@ -29657,13 +30182,32 @@
       "Introduced": "15.5"
     },
     "Stats": {
-      "Multis": [
-        "Tail: 3.0x",
-        "Face: 0.5x"
+      "Attacks": [
+        {
+          "Multishot": 4,
+          "AttackName": "Slow Bomb Contact Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 1
+        },
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 40,
+          "AttackName": "Slow Bomb AoE Damage"
+        }
       ],
       "Health": 350,
       "BaseLevel": 12,
       "EximusHealth": 275,
+      "Multis": [
+        "Tail: 3.0x",
+        "Face: 0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -29692,12 +30236,34 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "First Femur: 1.0x",
-        "Second Femur: 2.0x",
-        "Broken Femurs: 2.0x",
-        "Body with unbroken Femur: 0.2x",
-        "Body with broken Femurs: 1.0x"
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 4,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Shot damage is bundled with AoE damage",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -29705,6 +30271,13 @@
       "Health": 900,
       "BaseLevel": 1,
       "Armor": 200,
+      "Multis": [
+        "First Femur: 1.0x",
+        "Second Femur: 2.0x",
+        "Broken Femurs: 2.0x",
+        "Body with unbroken Femur: 0.2x",
+        "Body with broken Femurs: 1.0x"
+      ],
       "Affinity": 500
     }
   },
@@ -29723,12 +30296,42 @@
       "Scans": 30
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
       ],
       "Health": 100,
       "BaseLevel": 1,
       "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 35
     }
   },
@@ -29751,11 +30354,23 @@
       "Introduced": "17.5"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 65,
+      "BaseLevel": 1,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 65,
       "Affinity": 100
     }
   },
@@ -29781,11 +30396,21 @@
       "Introduced": "15.13"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2200,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x"
       ],
-      "BaseLevel": 1,
-      "Health": 2200,
       "Affinity": 3000
     }
   },
@@ -29807,13 +30432,32 @@
       "Name": "Toxic Ancient"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 0,
+          "AttackName": "Toxin Flail Damage (Needs Data)"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x",
         "Back Crown: 0.5x"
       ],
-      "Health": 400,
-      "BaseLevel": 1,
       "EximusHealth": 400,
+      "EximusAffinity": 700,
       "Affinity": 500
     }
   },
@@ -29842,9 +30486,16 @@
       "Introduced": "29.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Body:0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 0.5,
+            "Impact": 0.5
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 20,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -29852,6 +30503,10 @@
       "Health": 750,
       "BaseLevel": 1,
       "Armor": 500,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
       "Affinity": 300
     }
   },
@@ -29875,9 +30530,35 @@
       "CodexSecret": true
     },
     "Stats": {
-      "Armor": 100,
-      "BaseLevel": 1,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 8,
+          "AttackName": "Shot Contact Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 14,
+          "AttackName": "Shot AoE Damage"
+        }
+      ],
       "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 100,
       "Affinity": 300
     }
   },
@@ -29901,9 +30582,28 @@
       "CodexSecret": true
     },
     "Stats": {
-      "Armor": 100,
-      "BaseLevel": 1,
+      "Attacks": [
+        {
+          "AttackName": "Gredade Contact Damage",
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 3,
+          "TotalDamage": 10
+        },
+        {
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 30,
+          "AttackName": "Grenade AoE Damage"
+        }
+      ],
       "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 100,
       "Affinity": 300
     }
   },
@@ -29915,7 +30615,7 @@
       ],
       "Description": "Genetrix act as mobile wombs for the Infested hordes, discharging swarms of Infested whenever they detect a non-Infested intruder. A Genetrix prominent sensor stalk must be disabled or avoided to stem a seemingly unending tide of monsters.",
       "Link": "Deimos Genetrix",
-      "Scans": 3,
+      "Scans": 5,
       "Type": "",
       "Image": "InfestedBigDropShipAvatar.png",
       "Name": "Deimos Genetrix",
@@ -29930,10 +30630,11 @@
       "Introduced": "29"
     },
     "Stats": {
+      "Attacks": {},
       "ProcResists": [
         "Viral"
       ],
-      "Health": 8000,
+      "Health": 6000,
       "BaseLevel": 1,
       "Armor": 600,
       "Affinity": 500
@@ -29964,8 +30665,35 @@
       "Introduced": "25.7"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
       ],
       "ProcResists": [
         "Viral",
@@ -29973,6 +30701,9 @@
       ],
       "Health": 2500,
       "BaseLevel": 1,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -29998,10 +30729,15 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Upper Head: 1.0x",
-        "Upper Hardened Body: 0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 40,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30009,6 +30745,11 @@
       "Health": 440,
       "BaseLevel": 1,
       "EximusHealth": 440,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Head: 1.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -30028,12 +30769,23 @@
       "Introduced": "15.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 700,
       "BaseLevel": 12,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "EximusHealth": 600,
+      "EximusAffinity": 500,
       "Affinity": 150
     }
   },
@@ -30057,9 +30809,19 @@
       "CodexSecret": true
     },
     "Stats": {
-      "Armor": 100,
-      "BaseLevel": 1,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
       "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 100,
       "Affinity": 300
     }
   },
@@ -30092,9 +30854,10 @@
       "Introduced": "13.8"
     },
     "Stats": {
-      "Armor": 25,
-      "BaseLevel": 1,
+      "Attacks": {},
       "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
       "Affinity": -1
     }
   },
@@ -30125,6 +30888,17 @@
       "Introduced": "15.5"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.3,
+          "BurstCount": 3,
+          "TotalDamage": 33
+        }
+      ],
       "Health": 2500,
       "BaseLevel": 1,
       "Shield": 1200,
@@ -30155,15 +30929,25 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 0.0x",
-        "Jetpack: 0.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 14,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
       ],
       "Health": 400,
       "BaseLevel": 1,
+      "Multis": [
+        "Head: 0.0x",
+        "Jetpack: 0.0x"
+      ],
       "Affinity": 100
     }
   },
@@ -30251,15 +31035,25 @@
       "Introduced": "25.7.3.1"
     },
     "Stats": {
-      "Multis": [
-        "Head: 0.0x",
-        "Jetpack: 0.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 14,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
       ],
       "Health": 400,
       "BaseLevel": 1,
+      "Multis": [
+        "Head: 0.0x",
+        "Jetpack: 0.0x"
+      ],
       "Affinity": 100
     }
   },
@@ -30288,8 +31082,16 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30297,6 +31099,9 @@
       "Health": 1200,
       "BaseLevel": 1,
       "Armor": 150,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "Affinity": 500
     }
   },
@@ -30316,12 +31121,22 @@
       "Introduced": "10.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 50,
       "BaseLevel": 1,
       "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -30344,11 +31159,23 @@
       "Introduced": "19.12"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 5,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 200,
       "Affinity": 100
     }
   },
@@ -30381,9 +31208,10 @@
       "Introduced": "13.8"
     },
     "Stats": {
-      "Armor": 25,
-      "BaseLevel": 1,
+      "Attacks": {},
       "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
       "Affinity": -1
     }
   },
@@ -30409,9 +31237,27 @@
       "Introduced": "16.7"
     },
     "Stats": {
-      "Multis": [
-        "Maw: 10.0x",
-        "Belly: 10.0x"
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30419,6 +31265,10 @@
       "Health": 900,
       "BaseLevel": 15,
       "Armor": 200,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x"
+      ],
       "SteelPathHealthBonus": 1800,
       "Affinity": 1500
     }
@@ -30446,14 +31296,15 @@
       ]
     },
     "Stats": {
+      "Attacks": {},
+      "FactionScaling": "Default",
+      "Health": 20000,
+      "BaseLevel": 1,
+      "Armor": 250,
       "Multis": [
         "Body: 0.0x",
         "Engine: 1.0x"
       ],
-      "Health": 20000,
-      "BaseLevel": 1,
-      "Armor": 250,
-      "FactionScaling": "Default",
       "SpawnLevel": 32,
       "Affinity": 1500
     }
@@ -30513,12 +31364,24 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        ""
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
       ],
       "Health": 160,
       "BaseLevel": 5,
       "EximusHealth": 160,
+      "Multis": [
+        ""
+      ],
       "Affinity": 100
     }
   },
@@ -30537,11 +31400,41 @@
       "Scans": 30
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x"
       ],
-      "BaseLevel": 1,
-      "Health": 100,
       "Affinity": 35
     }
   },
@@ -30577,13 +31470,35 @@
       "Introduced": "16.7.1"
     },
     "Stats": {
-      "Multis": [
-        "Maw: 10.0x",
-        "Belly: 10.0x"
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
       ],
       "Health": 1500,
       "BaseLevel": 15,
       "Armor": 300,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x"
+      ],
       "SteelPathHealthBonus": 3000,
       "Affinity": 3500
     }
@@ -30604,12 +31519,22 @@
       "Introduced": "10.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 50,
       "BaseLevel": 1,
       "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -30638,9 +31563,15 @@
       "Introduced": "29.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Body:0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 22,
+          "AttackName": "Shot Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30648,6 +31579,10 @@
       "Health": 600,
       "BaseLevel": 1,
       "Armor": 500,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
       "Affinity": 300
     }
   },
@@ -30670,11 +31605,29 @@
       "Introduced": "17.5"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Grenade Contact Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 50,
+          "AttackName": "Grenade AoE Damage"
+        }
+      ],
+      "Health": 65,
+      "BaseLevel": 1,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 65,
       "Affinity": 100
     }
   },
@@ -30697,11 +31650,21 @@
       "Introduced": "17.5"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 12,
+          "AttackName": "Lightning Damage"
+        }
+      ],
+      "Health": 65,
+      "BaseLevel": 1,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 65,
       "Affinity": 100
     }
   },
@@ -30732,9 +31695,29 @@
       "Introduced": "25.7.7"
     },
     "Stats": {
-      "SpawnLevel": 30,
-      "BaseLevel": 1,
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3
+        },
+        {
+          "Note": "Shot detonates on impact and does a small AoE",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5
+        }
+      ],
       "Health": 950,
+      "BaseLevel": 1,
+      "SpawnLevel": 30,
       "Affinity": 500
     }
   },
@@ -30760,8 +31743,26 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20,
+          "AttackName": "Projectile Damage"
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30770,6 +31771,9 @@
       "BaseLevel": 1,
       "Armor": 50,
       "EximusHealth": 600,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "Affinity": 35
     }
   },
@@ -30795,9 +31799,15 @@
       "Introduced": "29.5"
     },
     "Stats": {
-      "Multis": [
-        "Torso: 3.0x",
-        "Body: 0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30806,6 +31816,10 @@
       "BaseLevel": 1,
       "Armor": 125,
       "EximusHealth": 350,
+      "Multis": [
+        "Torso: 3.0x",
+        "Body: 0.5x"
+      ],
       "Affinity": 50
     }
   },
@@ -30839,9 +31853,56 @@
       "Introduced": "10"
     },
     "Stats": {
-      "SpawnLevel": 50,
-      "BaseLevel": 1,
+      "Attacks": [
+        {
+          "Multishot": 5,
+          "AttackName": "Ancient Infested Shot Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 30
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Ancient Infested Shot AoE Damage"
+        },
+        {
+          "AttackName": "Infested Corpus Grenade Contact Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 100
+        },
+        {
+          "AttackName": "Infested Corpus Grenade AoE Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 60
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.25,
+            "Impact": 0.6
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Infested Grineer Melee Damage"
+        }
+      ],
       "Health": 3000,
+      "BaseLevel": 1,
+      "SpawnLevel": 50,
       "Affinity": 3500
     }
   },
@@ -30867,9 +31928,16 @@
       "Introduced": "29.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Body:0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 0.5,
+            "Impact": 0.5
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 20,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30878,6 +31946,10 @@
       "BaseLevel": 1,
       "Armor": 125,
       "EximusHealth": 275,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -30910,9 +31982,10 @@
       "Introduced": "13.8"
     },
     "Stats": {
-      "Armor": 25,
-      "BaseLevel": 1,
+      "Attacks": {},
       "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
       "Affinity": -1
     }
   },
@@ -30947,10 +32020,27 @@
       "Introduced": "25.7"
     },
     "Stats": {
-      "Multis": [
-        "Maw: 10.0x",
-        "Belly: 10.0x",
-        "Boils: 0.5x"
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
       ],
       "ProcResists": [
         "Viral",
@@ -30959,6 +32049,11 @@
       "Health": 1000,
       "BaseLevel": 1,
       "Armor": 50,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x",
+        "Boils: 0.5x"
+      ],
       "SteelPathHealthBonus": 2000,
       "Affinity": 1500
     }
@@ -30985,9 +32080,15 @@
       "Introduced": "29.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Body:0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 22,
+          "AttackName": "Shot Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -30996,6 +32097,10 @@
       "BaseLevel": 1,
       "Armor": 125,
       "EximusHealth": 200,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -31023,8 +32128,16 @@
       "CodexSecret": false
     },
     "Stats": {
-      "Multis": [
-        ""
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -31032,6 +32145,9 @@
       "Health": 10000,
       "BaseLevel": 15,
       "Armor": 2000,
+      "Multis": [
+        ""
+      ],
       "SpawnLevel": "15",
       "Affinity": 500
     }
@@ -31062,6 +32178,53 @@
       "Introduced": "22.3"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 5,
+          "AttackName": "Ancient Infested Shot Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 30
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Ancient Infested Shot AoE Damage"
+        },
+        {
+          "AttackName": "Infested Corpus Grenade Contact Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 100
+        },
+        {
+          "AttackName": "Infested Corpus Grenade AoE Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 60
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.25,
+            "Impact": 0.6
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Infested Grineer Melee Damage"
+        }
+      ],
       "Health": 5000,
       "BaseLevel": 1,
       "Armor": 175,
@@ -31098,9 +32261,10 @@
       "Introduced": "13.8"
     },
     "Stats": {
-      "Armor": 25,
-      "BaseLevel": 1,
+      "Attacks": {},
       "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
       "Affinity": -1
     }
   },
@@ -31120,9 +32284,10 @@
       "Type": "Boss"
     },
     "Stats": {
-      "Armor": 100,
-      "BaseLevel": 1,
+      "Attacks": {},
       "Health": 20000,
+      "BaseLevel": 1,
+      "Armor": 100,
       "Affinity": 1500
     }
   },
@@ -31154,9 +32319,27 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Maw: 10.0x",
-        "Belly: 10.0x"
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
       ],
       "ProcResists": [
         "Viral"
@@ -31165,6 +32348,10 @@
       "BaseLevel": 1,
       "Armor": 200,
       "EximusHealth": 2000,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x"
+      ],
       "Affinity": 500
     }
   },
@@ -31190,12 +32377,22 @@
       "Introduced": "29"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 400,
       "BaseLevel": 1,
       "EximusHealth": 400,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 150
     }
   },
@@ -31215,12 +32412,22 @@
       "Introduced": "10.5"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 20,
+          "AttackName": "Lightning Damage"
+        }
       ],
       "Health": 50,
       "BaseLevel": 1,
       "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -31248,11 +32455,21 @@
       "Introduced": "29.5"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 20,
+      "BaseLevel": 1,
       "Multis": [
         ""
       ],
-      "BaseLevel": 1,
-      "Health": 20,
       "Affinity": 35
     }
   },
@@ -31278,12 +32495,23 @@
       "Introduced": "29"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
       "Multis": [
         "Head: 3.0x"
       ],
-      "Health": 700,
-      "BaseLevel": 1,
       "EximusHealth": 600,
+      "EximusAffinity": 500,
       "Affinity": 150
     }
   },
@@ -31352,11 +32580,32 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1800,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.15,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.12,
+          "TotalDamage": 20,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.05,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 170,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 3000,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 25,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31385,11 +32634,34 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1800,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Viral": 0.25,
+            "Slash": 0.25,
+            "Impact": 0.25
+          },
+          "StatusChance": 0.33,
+          "TotalDamage": 24,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3077,
+            "Toxin": 0.3186,
+            "Slash": 0.2637,
+            "Impact": 0.1099
+          },
+          "StatusChance": 0.26,
+          "TotalDamage": 273,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 35,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31418,11 +32690,41 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1500,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 160,
+          "AttackName": "Uncharged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 320,
+          "AttackName": "Charged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Electric": 0.4615,
+            "Impact": 0.5833
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 65,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 500,
+      "Armor": 50,
       "SpawnLevel": 15,
-      "Armor": 215,
       "Affinity": 1500
     }
   },
@@ -31451,7 +32753,7 @@
           },
           "StatusChance": 0.1,
           "TotalDamage": 75,
-          "AttackName": "Laser Damage"
+          "AttackName": "Beam Damage"
         }
       ],
       "Multis": [
@@ -31486,15 +32788,36 @@
         "Braton Vandal",
         "Dual Skana"
       ],
-      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRelayBossBaseAgent",
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantExcaliburAvatar",
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1800,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.05,
+            "Slash": 0.6,
+            "Impact": 0.35
+          },
+          "StatusChance": 0.16,
+          "TotalDamage": 35,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.16,
+          "TotalDamage": 120,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 30,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31523,11 +32846,32 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 550,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.4,
+            "Slash": 0.5,
+            "Impact": 0.1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3,
+            "Slash": 0.6,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 8,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31540,20 +32884,40 @@
       "Name": "Corrupted Lancer",
       "Faction": "Orokin",
       "Weapons": [
-        "Grakata",
+        "Grataka",
         "Sheev"
       ],
       "InternalName": "/Lotus/Types/Enemies/Orokin/RifleLancer",
       "Scans": 20
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.2,
+            "Slash": 0.6,
+            "Impact": 0.2
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 400,
+          "AttackName": "Grenade Damage"
+        }
       ],
       "Health": 100,
       "BaseLevel": 1,
       "Armor": 200,
       "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -31589,14 +32953,33 @@
       "Introduced": "The Silver Grove"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0.35,
+          "TotalDamage": 12,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 20,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 1500,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "SpawnLevel": 25,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31628,18 +33011,49 @@
       "Weapons": [
         ""
       ],
-      "InternalName": "",
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/FairyQuest/FairyQuestPaladinAvatar",
       "Introduced": "The Silver Grove"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 60,
+          "AttackName": "Uncharged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.15,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 90,
+          "AttackName": "Charged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.175,
+            "Slash": 0.7,
+            "Impact": 0.175
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 2250,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "SpawnLevel": 25,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31708,13 +33122,31 @@
       "Name": "Corrupted Bombard"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Ogris Contact Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Ogris AoE Damage"
+        }
       ],
       "Health": 300,
       "BaseLevel": 4,
       "Armor": 500,
       "EximusHealth": 300,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 500
     }
   },
@@ -31731,7 +33163,7 @@
       "Scans": 1,
       "Image": "Volt.png",
       "Name": "Volt Specter",
-      "Faction": "Orokin",
+      "Faction": "Anarch",
       "Planets": [
         "Earth"
       ],
@@ -31739,16 +33171,35 @@
         "Magnus",
         "Heat Sword"
       ],
-      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantVoltAgent",
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/VoltJunctionBossAvatar",
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1125,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3,
+            "Slash": 0.58,
+            "Impact": 0.12
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 130,
+      "Armor": 50,
       "SpawnLevel": 8,
-      "Armor": 200,
-      "Affinity": 1500
+      "Affinity": 5000
     }
   },
   "Corrupted Butcher": {
@@ -31766,13 +33217,23 @@
       "Scans": 20
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 30,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 100,
       "BaseLevel": 1,
       "Armor": 5,
       "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -31803,13 +33264,25 @@
       "Introduced": "13.2"
     },
     "Stats": {
-      "Multis": [
-        "Stealth/Finisher: 16.0x",
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.05,
+            "Impact": 0.8
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Shot Damage"
+        }
       ],
       "Health": 600,
       "BaseLevel": 1,
       "Armor": 500,
+      "Multis": [
+        "Stealth/Finisher: 16.0x",
+        "Head: 3.0x"
+      ],
       "Affinity": 500
     }
   },
@@ -31876,11 +33349,33 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1300,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Slash": 0.6,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.03,
+          "TotalDamage": 17,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.074,
+            "Cold": 0.4815,
+            "Slash": 0.1852,
+            "Impact": 0.2592
+          },
+          "StatusChance": 0.3,
+          "TotalDamage": 270,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 30,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31900,6 +33395,27 @@
       "Scans": 20
     },
     "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 7,
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 7
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 400,
+          "AttackName": "Grenade Damage"
+        }
+      ],
       "Multis": [
         "Head: 3.0x"
       ],
@@ -31932,15 +33448,34 @@
         "Boltor",
         "Shaku"
       ],
-      "InternalName": "",
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantYinYangAvatar",
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1800,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.1,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.14,
+          "TotalDamage": 25,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.34,
+          "TotalDamage": 180,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 25,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31957,7 +33492,7 @@
       "Scans": 1,
       "Image": "Ember.png",
       "Name": "Ember Specter",
-      "Faction": "Orokin",
+      "Faction": "Anarch",
       "Planets": [
         "Jupiter"
       ],
@@ -31969,11 +33504,32 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.275,
+            "Slash": 0.275,
+            "Impact": 0.45
+          },
+          "StatusChance": 0.22,
+          "TotalDamage": 20,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.8,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 147,
+          "AttackName": "Melee Damage"
+        }
+      ],
       "Health": 1800,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 20,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -31997,12 +33553,34 @@
       "Introduced": "33.6"
     },
     "Stats": {
-      "Multis": [
-        ""
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.6,
+            "Slash": 0.3,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 2,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "Multishot": 6,
+          "AttackName": "Grenade Cluster",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 3,
+          "TotalDamage": 100
+        }
       ],
       "Health": 2150,
       "BaseLevel": 1,
       "Armor": 100,
+      "Multis": [
+        ""
+      ],
       "Shield": 2000,
       "Affinity": 1500
     }
@@ -32033,12 +33611,22 @@
       "CodexSecret": true
     },
     "Stats": {
-      "Multis": [
-        "Head: 2.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 200,
       "BaseLevel": 1,
       "Armor": 100,
+      "Multis": [
+        "Head: 2.0x"
+      ],
       "Affinity": 50
     }
   },
@@ -32067,12 +33655,25 @@
       "Introduced": "32.2"
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "Note": "Attack disarms one of player's weapons",
+          "AttackName": "Glaive Thrown Damage",
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.1,
+            "Impact": 0.8
+          },
+          "StatusChance": 0,
+          "TotalDamage": 50
+        }
       ],
       "Health": 500,
       "BaseLevel": 1,
       "Armor": 200,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 150
     }
   },
@@ -32127,13 +33728,23 @@
       "Scans": 5
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x",
-        "Back Crown: 0.5x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 350,
       "BaseLevel": 1,
       "EximusHealth": 350,
+      "Multis": [
+        "Head: 3.0x",
+        "Back Crown: 0.5x"
+      ],
       "Affinity": 150
     }
   },
@@ -32162,11 +33773,32 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.15,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.08,
+          "TotalDamage": 46,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.3,
+          "TotalDamage": 224,
+          "AttackName": "Melee Damage"
+        }
+      ],
       "Health": 1800,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 25,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -32183,7 +33815,7 @@
       "Scans": 1,
       "Image": "Mesa.png",
       "Name": "Mesa Specter",
-      "Faction": "Orokin",
+      "Faction": "Anarch",
       "Planets": [
         "Pluto"
       ],
@@ -32191,16 +33823,38 @@
         "Regulators",
         "Redeemer"
       ],
-      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantGunslingerAgentRelayBoss",
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/MesaJunctionBossAvatar",
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 1800,
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0,
+          "BurstCount": 2,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.2,
+            "Slash": 0.7,
+            "Impact": 0.1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
       "SpawnLevel": 40,
-      "Armor": 200,
-      "Affinity": 1500
+      "Affinity": 5000
     }
   },
   "Corrupted Heavy Gunner": {
@@ -32219,13 +33873,25 @@
       "Scans": 3
     },
     "Stats": {
-      "Multis": [
-        "Head: 3.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.1,
+            "Impact": 0.75
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 8,
+          "AttackName": "Shot Damage"
+        }
       ],
       "Health": 700,
       "BaseLevel": 8,
       "Armor": 500,
       "EximusHealth": 700,
+      "Multis": [
+        "Head: 3.0x"
+      ],
       "Affinity": 500
     }
   },
@@ -32254,11 +33920,32 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
-      "Health": 900,
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.6,
+            "Slash": 0.3,
+            "Impact": 0.1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 26,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.8,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 124,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
       "BaseLevel": 1,
-      "Shield": 500,
+      "Armor": 50,
       "SpawnLevel": 20,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -32287,14 +33974,36 @@
       "Introduced": "Specters of the Rail"
     },
     "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.18,
+          "BurstCount": 3,
+          "TotalDamage": 30
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.1,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.28,
+          "TotalDamage": 176,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
       "Multis": [
         "Head: 1.0x"
       ],
-      "Health": 180,
-      "BaseLevel": 1,
-      "Shield": 1000,
       "SpawnLevel": 10,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -32330,14 +34039,25 @@
       "Introduced": "The Silver Grove"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.0x"
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.85,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 8,
+          "AttackName": "Melee Damage"
+        }
       ],
       "Health": 1250,
       "BaseLevel": 1,
-      "Shield": 1000,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
       "SpawnLevel": 25,
-      "Armor": 200,
       "Affinity": 1500
     }
   },
@@ -32365,6 +34085,7 @@
             "Impact": 0.05
           },
           "StatusChance": 0.01,
+          "TotalDamage": 75,
           "AttackName": "Shot Damage"
         }
       ],
@@ -36326,6 +38047,22 @@
       "CodexSecret": true
     },
     "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 15,
+          "AttackName": "Thrown Glaive Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 80,
+          "AttackName": "Thrown Glaive AoE Damage"
+        }
+      ],
       "ProcResists": {},
       "Health": 7500,
       "BaseLevel": 1,
@@ -38017,7 +39754,7 @@
       "Description": "",
       "Link": "Dax Arcus",
       "Introduced": "33",
-      "Image": "UnidentifiedItem(xBlack).png",
+      "Image": "DaxArcus.png",
       "Name": "Dax Arcus",
       "Faction": "Duviri",
       "Planets": [
@@ -38026,10 +39763,13 @@
       "Weapons": [
         "Cinta"
       ],
-      "InternalName": "",
+      "InternalName": "/Lotus/Types/Enemies/Duviri/Dax/DuviriUndercroftDaxRangedAgent",
       "CodexSecret": true
     },
     "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
       "BaseLevel": 1,
       "Health": 200,
       "Affinity": -1
@@ -38405,6 +40145,112 @@
       "Affinity": -1
     }
   },
+  "[Wiki Dummy]": {
+    "General": {
+      "Type": "Heavy Ranged",
+      "Description": "High damage minigun",
+      "Link": "Heavy Gunner",
+      "Image": "HeavyGunnerDE.png",
+      "Name": "Heavy Gunner",
+      "Faction": "Grineer",
+      "Weapons": [
+        "Gorgon",
+        "Sheev"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Grineer/AIWeek/MinigunBombard",
+      "Scans": 3
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 3,
+          "TotalDamage": 25,
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "Multihit": 2
+        },
+        {
+          "AttackName": "Melee Damage",
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "TotalDamage": 14
+        },
+        {
+          "Multishot": 3,
+          "AttackName": "Nervos Minefield",
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "TotalDamage": 35,
+          "Multihit": 3,
+          "AttackName": "Cannon Battery Shot"
+        },
+        {
+          "Multishot": 3,
+          "Note": "Will instantly kill you!!!!",
+          "TotalDamage": 35,
+          "AttackName": "Laser Sweep",
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "Multihit": 2
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "TotalDamage": 20,
+          "AttackName": "Sky Laser (Contact)"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "TotalDamage": 75,
+          "AttackName": "Sky Laser (AoE)"
+        }
+      ],
+      "Health": 300,
+      "BaseLevel": 8,
+      "Armor": 500,
+      "EximusHealth": 300,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 500
+    }
+  },
   "Ghoul Expired Deserter": {
     "General": {
       "ExcludedFromSimulacrum": true,
@@ -38533,110 +40379,33 @@
       "Affinity": 0
     }
   },
-  "[Wiki Dummy]": {
+  "Woodland Mergoo": {
     "General": {
-      "Type": "Heavy Ranged",
-      "Description": "High damage minigun",
-      "Link": "Heavy Gunner",
-      "Image": "HeavyGunnerDE.png",
-      "Name": "Heavy Gunner",
-      "Faction": "Grineer",
-      "Weapons": [
-        "Gorgon",
-        "Sheev"
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
       ],
-      "InternalName": "/Lotus/Types/Enemies/Grineer/AIWeek/MinigunBombard",
-      "Scans": 3
+      "Description": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Link": "Woodland Mergoo",
+      "Scans": 20,
+      "Type": "",
+      "Image": "MergooUncommon.png",
+      "Name": "Woodland Mergoo",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.6"
     },
     "Stats": {
-      "Attacks": [
-        {
-          "Multishot": 3,
-          "TotalDamage": 25,
-          "AttackName": "Shot Damage",
-          "DamageDistribution": {
-            "Puncture": 0.333,
-            "Slash": 0.333,
-            "Impact": 0.334
-          },
-          "StatusChance": 0.25,
-          "BurstCount": 5,
-          "Multihit": 2
-        },
-        {
-          "AttackName": "Melee Damage",
-          "DamageDistribution": {
-            "Puncture": 0.15,
-            "Slash": 0.7,
-            "Impact": 0.15
-          },
-          "StatusChance": 0.25,
-          "BurstCount": 5,
-          "TotalDamage": 14
-        },
-        {
-          "Multishot": 3,
-          "AttackName": "Nervos Minefield",
-          "DamageDistribution": {
-            "Puncture": 0.333,
-            "Slash": 0.333,
-            "Impact": 0.334
-          },
-          "StatusChance": 0.25,
-          "BurstCount": 5,
-          "TotalDamage": 5
-        },
-        {
-          "DamageDistribution": {
-            "Puncture": 0.333,
-            "Slash": 0.333,
-            "Impact": 0.334
-          },
-          "TotalDamage": 35,
-          "Multihit": 3,
-          "AttackName": "Cannon Battery Shot"
-        },
-        {
-          "Multishot": 3,
-          "Note": "Will instantly kill you!!!!",
-          "TotalDamage": 35,
-          "AttackName": "Laser Sweep",
-          "DamageDistribution": {
-            "Puncture": 0.333,
-            "Slash": 0.333,
-            "Impact": 0.334
-          },
-          "StatusChance": 0.25,
-          "BurstCount": 5,
-          "Multihit": 2
-        },
-        {
-          "DamageDistribution": {
-            "Puncture": 0.333,
-            "Slash": 0.333,
-            "Impact": 0.334
-          },
-          "TotalDamage": 20,
-          "AttackName": "Sky Laser (Contact)"
-        },
-        {
-          "DamageDistribution": {
-            "Puncture": 0.333,
-            "Slash": 0.333,
-            "Impact": 0.334
-          },
-          "TotalDamage": 75,
-          "AttackName": "Sky Laser (AoE)"
-        }
-      ],
-      "Health": 300,
-      "BaseLevel": 8,
-      "Armor": 500,
-      "EximusHealth": 300,
-      "Multis": [
-        "Head: 3.0x"
-      ],
-      "Affinity": 500
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
     }
   },
   "Howler Undazoa": {
@@ -38670,32 +40439,32 @@
       "Affinity": -1
     }
   },
-  "Woodland Mergoo": {
+  "White-Breasted Virmink": {
     "General": {
       "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Plains of Eidolon"
+        "Orb Vallis"
       ],
-      "Description": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
-      "Link": "Woodland Mergoo",
+      "Description": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for Pobbers - their primary food source.",
+      "Link": "White-Breasted Virmink",
       "Scans": 20,
       "Type": "",
-      "Image": "MergooUncommon.png",
-      "Name": "Woodland Mergoo",
-      "Faction": "Prey",
+      "Image": "VirminkCommon.png",
+      "Name": "White-Breasted Virmink",
+      "Faction": "Predator",
       "Planets": [
-        "Earth"
+        "Venus"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "24.6"
+      "Introduced": "24"
     },
     "Stats": {
       "Armor": 50,
       "BaseLevel": 1,
-      "Health": 1,
+      "Health": 6,
       "Affinity": -1
     }
   },
@@ -38726,99 +40495,38 @@
       "Affinity": -1
     }
   },
-  "White-Breasted Virmink": {
+  "Thrax Centurion": {
     "General": {
-      "ExcludedFromSimulacrum": true,
-      "TileSets": [
-        "Orb Vallis"
-      ],
-      "Description": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for Pobbers - their primary food source.",
-      "Link": "White-Breasted Virmink",
+      "FactionDamageOverride": "Zariman",
+      "Description": "The origin of these interlopers aboard the Zariman is a mystery to its crew members. Curiously, they are only visible to those who have been touched by the Void.",
+      "Link": "Thrax Centurion",
       "Scans": 20,
-      "Type": "",
-      "Image": "VirminkCommon.png",
-      "Name": "White-Breasted Virmink",
-      "Faction": "Predator",
+      "Type": "Melee",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "ThraxCenturion.png",
+      "Name": "Thrax Centurion",
+      "Faction": "Unknown",
       "Planets": [
-        "Venus"
+        "Zariman Ten Zero"
       ],
       "Weapons": [
-        ""
+        "Hespar"
       ],
       "InternalName": "",
-      "Introduced": "24"
+      "Introduced": "31.5"
     },
     "Stats": {
-      "Armor": 50,
+      "Overguard": 15,
+      "Health": 3600,
       "BaseLevel": 1,
-      "Health": 6,
-      "Affinity": -1
-    }
-  },
-  "Tomb Guardian": {
-    "General": {
-      "TileSets": [
-        "Grineer Settlement"
-      ],
-      "Description": "Guards the Tomb of Inaros.",
-      "Link": "Tomb Guardian",
-      "Introduced": "18.5",
-      "Type": "Melee",
-      "Scans": 1,
-      "Missions": [
-        "Sand of Inaros"
-      ],
-      "Image": "HostileRockman.png",
-      "Name": "Tomb Guardian",
-      "Faction": "Neutral",
-      "Planets": [
-        "Mars"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Powersuits/Brawler/SummonHostileAgent",
-      "CodexSecret": true
-    },
-    "Stats": {
+      "Armor": 200,
       "Multis": [
         "Head: 3.0x"
       ],
-      "Health": 1700,
-      "BaseLevel": 1,
-      "Armor": 150,
-      "Affinity": -1
-    }
-  },
-  "Crescent Vulpaphyla": {
-    "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "The Crescent is the most pugnacious subspecies of Vulpaphyla, they will rush anything they perceive as a threat.\n\nActive only while Vome watches over the Cambion Drift.",
-      "Link": "Crescent Vulpaphyla",
-      "Scans": 20,
-      "Type": "",
-      "Image": "CrescentVulpaphyla.png",
-      "Name": "Crescent Vulpaphyla",
-      "Faction": "Predator",
-      "Planets": [
-        "Deimos"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "29"
-    },
-    "Stats": {
-      "Multis": [
-        "Head: 2.0x"
-      ],
-      "Health": 500,
-      "BaseLevel": 1,
-      "Armor": 50,
-      "Affinity": -1
+      "SpawnLevel": 55,
+      "Affinity": 50
     }
   },
   "Void Angel": {
@@ -38851,6 +40559,37 @@
       "SpawnLevel": 50,
       "Armor": 350,
       "Affinity": 1500
+    }
+  },
+  "Crescent Vulpaphyla": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Crescent is the most pugnacious subspecies of Vulpaphyla, they will rush anything they perceive as a threat.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Crescent Vulpaphyla",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CrescentVulpaphyla.png",
+      "Name": "Crescent Vulpaphyla",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
     }
   },
   "Vizier Predasite": {
@@ -38942,17 +40681,17 @@
       "Affinity": -1
     }
   },
-  "Amethyst Nexifera": {
+  "Viridian Nexifera": {
     "General": {
       "TileSets": [
         "Cambion Drift"
       ],
-      "Description": "A distinctly Deimosian grotesquerie that attacks it opponents from above.",
-      "Link": "Amethyst Nexifera",
+      "Description": "The Viridian Nexifera can produce a cloud of poisonous gas that's always best avoided.",
+      "Link": "Viridian Nexifera",
       "Scans": 20,
       "Type": "",
-      "Image": "AmethystNexifera.png",
-      "Name": "Amethyst Nexifera",
+      "Image": "ViridianNexifera.png",
+      "Name": "Viridian Nexifera",
       "Faction": "Prey",
       "Planets": [
         "Deimos"
@@ -38973,17 +40712,17 @@
       "Affinity": -1
     }
   },
-  "Viridian Nexifera": {
+  "Amethyst Nexifera": {
     "General": {
       "TileSets": [
         "Cambion Drift"
       ],
-      "Description": "The Viridian Nexifera can produce a cloud of poisonous gas that's always best avoided.",
-      "Link": "Viridian Nexifera",
+      "Description": "A distinctly Deimosian grotesquerie that attacks it opponents from above.",
+      "Link": "Amethyst Nexifera",
       "Scans": 20,
       "Type": "",
-      "Image": "ViridianNexifera.png",
-      "Name": "Viridian Nexifera",
+      "Image": "AmethystNexifera.png",
+      "Name": "Amethyst Nexifera",
       "Faction": "Prey",
       "Planets": [
         "Deimos"
@@ -39030,6 +40769,35 @@
       "Armor": 50,
       "BaseLevel": 1,
       "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Vallis Kubrodon": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Link": "Vallis Kubrodon",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KubrodonRare.png",
+      "Name": "Vallis Kubrodon",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1000,
       "Affinity": -1
     }
   },
@@ -39236,32 +41004,34 @@
       "Affinity": 50
     }
   },
-  "Vallis Kubrodon": {
+  "Umber Undazoa": {
     "General": {
-      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Orb Vallis"
+        "Cambion Drift"
       ],
-      "Description": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
-      "Link": "Vallis Kubrodon",
+      "Description": "A shy, bizarre-looking, semi-aquatic creature that seldom attacks unless provoked.",
+      "Link": "Umber Undazoa",
       "Scans": 20,
       "Type": "",
-      "Image": "KubrodonRare.png",
-      "Name": "Vallis Kubrodon",
-      "Faction": "Neutral",
+      "Image": "UmberUndazoa.png",
+      "Name": "Umber Undazoa",
+      "Faction": "Prey",
       "Planets": [
-        "Venus"
+        "Deimos"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "24"
+      "Introduced": "29.5"
     },
     "Stats": {
-      "Armor": 50,
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 22,
       "BaseLevel": 1,
-      "Health": 1000,
+      "Armor": 50,
       "Affinity": -1
     }
   },
@@ -39295,34 +41065,32 @@
       "Affinity": 0
     }
   },
-  "Umber Undazoa": {
+  "Plains Kuaka": {
     "General": {
+      "ExcludedFromSimulacrum": true,
       "TileSets": [
-        "Cambion Drift"
+        "Plains of Eidolon"
       ],
-      "Description": "A shy, bizarre-looking, semi-aquatic creature that seldom attacks unless provoked.",
-      "Link": "Umber Undazoa",
+      "Description": "A timid rodent that is easily frightened.",
+      "Link": "Plains Kuaka",
       "Scans": 20,
       "Type": "",
-      "Image": "UmberUndazoa.png",
-      "Name": "Umber Undazoa",
+      "Image": "KuakaCommon.png",
+      "Name": "Plains Kuaka",
       "Faction": "Prey",
       "Planets": [
-        "Deimos"
+        "Earth"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "29.5"
+      "Introduced": "22"
     },
     "Stats": {
-      "Multis": [
-        "Head: 2.0x"
-      ],
-      "Health": 22,
-      "BaseLevel": 1,
       "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
       "Affinity": -1
     }
   },
@@ -39333,7 +41101,7 @@
       "Description": "",
       "Link": "Dax Herald",
       "Introduced": "33",
-      "Image": "UnidentifiedItem(xBlack).png",
+      "Image": "DaxHerald.png",
       "Name": "Dax Herald",
       "Faction": "Duviri",
       "Planets": [
@@ -39346,6 +41114,9 @@
       "CodexSecret": true
     },
     "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
       "BaseLevel": 1,
       "Health": 100,
       "Affinity": -1
@@ -39358,7 +41129,7 @@
       "Description": "",
       "Link": "Dax Equitem",
       "Introduced": "33",
-      "Image": "UnidentifiedItem(xBlack).png",
+      "Image": "DaxEquitem.png",
       "Name": "Dax Equitem",
       "Faction": "Duviri",
       "Planets": [
@@ -39371,68 +41142,11 @@
       "CodexSecret": true
     },
     "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
       "BaseLevel": 1,
       "Health": 1750,
-      "Affinity": -1
-    }
-  },
-  "Purple Velocipod": {
-    "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "A sluggish highlands insect that's capable of bursts of speed when threatened.",
-      "Link": "Purple Velocipod",
-      "Scans": 5,
-      "Type": "",
-      "Image": "PurpleVelocipodK-DriveSkin.png",
-      "Name": "Purple Velocipod",
-      "Faction": "Prey",
-      "Planets": [
-        "Deimos"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "29"
-    },
-    "Stats": {
-      "Multis": [
-        ""
-      ],
-      "Health": 300,
-      "BaseLevel": 1,
-      "Armor": 125,
-      "Affinity": -1
-    }
-  },
-  "Bau Vasca Kavat": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "TileSets": [
-        "Plains of Eidolon"
-      ],
-      "Description": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
-      "Link": "Bau Vasca Kavat",
-      "Scans": 20,
-      "Type": "",
-      "Image": "VascaKavatUncommon.png",
-      "Name": "Bau Vasca Kavat",
-      "Faction": "Predator",
-      "Planets": [
-        "Earth"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "26"
-    },
-    "Stats": {
-      "Armor": 175,
-      "BaseLevel": 1,
-      "Health": 300,
       "Affinity": -1
     }
   },
@@ -39472,6 +41186,70 @@
       "Armor": 250,
       "BaseLevel": 1,
       "Health": 8000,
+      "Affinity": -1
+    }
+  },
+  "Bau Vasca Kavat": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
+      "Link": "Bau Vasca Kavat",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VascaKavatUncommon.png",
+      "Name": "Bau Vasca Kavat",
+      "Faction": "Predator",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "26"
+    },
+    "Stats": {
+      "Armor": 175,
+      "BaseLevel": 1,
+      "Health": 300,
+      "Affinity": -1
+    }
+  },
+  "Tomb Guardian": {
+    "General": {
+      "TileSets": [
+        "Grineer Settlement"
+      ],
+      "Description": "Guards the Tomb of Inaros.",
+      "Link": "Tomb Guardian",
+      "Introduced": "18.5",
+      "Type": "Melee",
+      "Scans": 1,
+      "Missions": [
+        "Sand of Inaros"
+      ],
+      "Image": "HostileRockman.png",
+      "Name": "Tomb Guardian",
+      "Faction": "Neutral",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Powersuits/Brawler/SummonHostileAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1700,
+      "BaseLevel": 1,
+      "Armor": 150,
       "Affinity": -1
     }
   },
@@ -39534,72 +41312,65 @@
       "Affinity": 50
     }
   },
-  "Thrax Centurion": {
+  "Purple Velocipod": {
     "General": {
-      "FactionDamageOverride": "Zariman",
-      "Description": "The origin of these interlopers aboard the Zariman is a mystery to its crew members. Curiously, they are only visible to those who have been touched by the Void.",
-      "Link": "Thrax Centurion",
-      "Scans": 20,
-      "Type": "Melee",
       "TileSets": [
-        "Zariman (Tileset)"
+        "Cambion Drift"
       ],
-      "Image": "ThraxCenturion.png",
-      "Name": "Thrax Centurion",
-      "Faction": "Unknown",
+      "Description": "A sluggish highlands insect that's capable of bursts of speed when threatened.",
+      "Link": "Purple Velocipod",
+      "Scans": 5,
+      "Type": "",
+      "Image": "PurpleVelocipodK-DriveSkin.png",
+      "Name": "Purple Velocipod",
+      "Faction": "Prey",
       "Planets": [
-        "Zariman Ten Zero"
-      ],
-      "Weapons": [
-        "Hespar"
-      ],
-      "InternalName": "",
-      "Introduced": "31.5"
-    },
-    "Stats": {
-      "Overguard": 15,
-      "Health": 3600,
-      "BaseLevel": 1,
-      "Armor": 200,
-      "Multis": [
-        "Head: 3.0x"
-      ],
-      "SpawnLevel": 55,
-      "Affinity": 50
-    }
-  },
-  "Ravenous Void Angel": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "FactionDamageOverride": "Zariman",
-      "Description": "",
-      "Link": "Void Angel",
-      "Missions": [
-        "Void Armageddon"
-      ],
-      "Type": "Field Boss",
-      "TileSets": [
-        "Zariman (Tileset)"
-      ],
-      "Image": "VoidAngel.png",
-      "Name": "Ravenous Void Angel",
-      "Faction": "Unknown",
-      "Planets": [
-        "Zariman Ten Zero"
+        "Deimos"
       ],
       "Weapons": [
         ""
       ],
       "InternalName": "",
-      "Introduced": "31.5"
+      "Introduced": "29"
     },
     "Stats": {
-      "Health": 12000,
+      "Multis": [
+        ""
+      ],
+      "Health": 300,
       "BaseLevel": 1,
-      "Shield": 100,
-      "SpawnLevel": 50,
-      "Armor": 350,
-      "Affinity": 1500
+      "Armor": 125,
+      "Affinity": -1
+    }
+  },
+  "Syzygy Prod Crewman": {
+    "General": {
+      "Description": "A seasoned combatant that has been exposed to the energy of the Syzygy. Engages targets with quick strikes from it's shock baton.",
+      "Link": "Syzygy Prod Crewman",
+      "Scans": 5,
+      "Introduced": "40",
+      "Image": "NokkoInfSpaceman.png",
+      "Name": "Syzygy Prod Crewman",
+      "Faction": "Corpus",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "EximusHealth": 1100,
+      "EximusShield": 27,
+      "Affinity": 0
     }
   },
   "Hacked Drone": {
@@ -39635,14 +41406,14 @@
       "Affinity": -1
     }
   },
-  "Syzygy Prod Crewman": {
+  "Syzygy Mite Raknoid": {
     "General": {
-      "Description": "A seasoned combatant that has been exposed to the energy of the Syzygy. Engages targets with quick strikes from it's shock baton.",
-      "Link": "Syzygy Prod Crewman",
-      "Scans": 5,
+      "Description": "A diminutive Raknoid that has been exposed to the energy of the Syzygy. Occasionally lays explosive mushrooms.",
+      "Link": "Syzygy Mite Raknoid",
+      "Scans": 20,
       "Introduced": "40",
-      "Image": "NokkoInfSpaceman.png",
-      "Name": "Syzygy Prod Crewman",
+      "Image": "NokkoInfMini.png",
+      "Name": "Syzygy Mite Raknoid",
       "Faction": "Corpus",
       "Planets": [
         "Venus"
@@ -39657,11 +41428,9 @@
       "Multis": [
         ""
       ],
-      "Health": 1000,
+      "Health": 150,
       "BaseLevel": 1,
-      "Shield": 25,
-      "EximusHealth": 1100,
-      "EximusShield": 27,
+      "Shield": 30,
       "Affinity": 0
     }
   },
@@ -39724,34 +41493,6 @@
       "Affinity": -1
     }
   },
-  "Syzygy Mite Raknoid": {
-    "General": {
-      "Description": "A diminutive Raknoid that has been exposed to the energy of the Syzygy. Occasionally lays explosive mushrooms.",
-      "Link": "Syzygy Mite Raknoid",
-      "Scans": 20,
-      "Introduced": "40",
-      "Image": "NokkoInfMini.png",
-      "Name": "Syzygy Mite Raknoid",
-      "Faction": "Corpus",
-      "Planets": [
-        "Venus"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Tileset": "Deepmines"
-    },
-    "Stats": {
-      "Multis": [
-        ""
-      ],
-      "Health": 150,
-      "BaseLevel": 1,
-      "Shield": 30,
-      "Affinity": 0
-    }
-  },
   "Syzygy Denial Bursa": {
     "General": {
       "Description": "A Bursa unit that has been exposed to the power of the Syzygy. Corrals it's prey for rapid destruction.",
@@ -39800,12 +41541,24 @@
       "Tileset": "Deepmines"
     },
     "Stats": {
-      "Multis": [
-        ""
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
       ],
       "Health": 750,
       "BaseLevel": 1,
       "Shield": 900,
+      "Multis": [
+        ""
+      ],
       "Affinity": 0
     }
   },
@@ -39838,6 +41591,37 @@
       "Affinity": -1
     }
   },
+  "Septic Cryptilex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "This infectious insect is capable of hazardous viral attacks when alerted.",
+      "Link": "Septic Cryptilex",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SepticCryptilex.png",
+      "Name": "Septic Cryptilex",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
   "Dax Malleus": {
     "General": {
       "ExcludedFromSimulacrum": true,
@@ -39845,7 +41629,7 @@
       "Description": "",
       "Link": "Dax Malleus",
       "Introduced": "33",
-      "Image": "UnidentifiedItem(xBlack).png",
+      "Image": "DaxMalleus.png",
       "Name": "Dax Malleus",
       "Faction": "Duviri",
       "Planets": [
@@ -39859,8 +41643,11 @@
     },
     "Stats": {
       "Overguard": 8,
-      "BaseLevel": 1,
       "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
       "Affinity": -1
     }
   },
@@ -39948,37 +41735,6 @@
       "Armor": 50,
       "BaseLevel": 1,
       "Health": 22,
-      "Affinity": -1
-    }
-  },
-  "Sly Vulpaphyla": {
-    "General": {
-      "TileSets": [
-        "Cambion Drift"
-      ],
-      "Description": "The most common Vulpaphyla, they travel in packs and are generally non-aggressive.",
-      "Link": "Sly Vulpaphyla",
-      "Scans": 20,
-      "Type": "",
-      "Image": "SlyVulpaphyla.png",
-      "Name": "Sly Vulpaphyla",
-      "Faction": "Predator",
-      "Planets": [
-        "Deimos"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "29"
-    },
-    "Stats": {
-      "Multis": [
-        "Head: 2.0x"
-      ],
-      "Health": 500,
-      "BaseLevel": 1,
-      "Armor": 50,
       "Affinity": -1
     }
   },
@@ -40100,6 +41856,37 @@
       "Affinity": -1
     }
   },
+  "Sly Vulpaphyla": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The most common Vulpaphyla, they travel in packs and are generally non-aggressive.",
+      "Link": "Sly Vulpaphyla",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SlyVulpaphyla.png",
+      "Name": "Sly Vulpaphyla",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
   "Frogmouthed Sawgaw": {
     "General": {
       "ExcludedFromSimulacrum": true,
@@ -40136,7 +41923,7 @@
       "Description": "",
       "Link": "Dax Gladius",
       "Introduced": "33",
-      "Image": "UnidentifiedItem(xBlack).png",
+      "Image": "DaxGladius.png",
       "Name": "Dax Gladius",
       "Faction": "Duviri",
       "Planets": [
@@ -40149,6 +41936,9 @@
       "CodexSecret": true
     },
     "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
       "BaseLevel": 1,
       "Health": 250,
       "Affinity": -1
@@ -40183,35 +41973,29 @@
       "Affinity": -1
     }
   },
-  "Septic Cryptilex": {
+  "Scuttlers": {
     "General": {
-      "TileSets": [
-        "Cambion Drift"
+      "FactionDamageOverride": "The Murmur",
+      "Description": "Spiderlings born from the guardian of Scholar's Landing. Though precious to their mother, an explosively short life leaves only the hunt to bond over.",
+      "Link": "Scuttlers",
+      "Missions": [
+        "Isleweaver"
       ],
-      "Description": "This infectious insect is capable of hazardous viral attacks when alerted.",
-      "Link": "Septic Cryptilex",
-      "Scans": 20,
       "Type": "",
-      "Image": "SepticCryptilex.png",
-      "Name": "Septic Cryptilex",
-      "Faction": "Prey",
-      "Planets": [
-        "Deimos"
-      ],
+      "Image": "Scuttlers.png",
+      "Name": "Scuttlers",
+      "Faction": "Duviri",
+      "Scans": 5,
       "Weapons": [
         ""
       ],
-      "InternalName": "",
-      "Introduced": "29"
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingAvatar",
+      "Introduced": "39"
     },
     "Stats": {
-      "Multis": [
-        "Head: 1.875x"
-      ],
-      "Health": 1,
       "BaseLevel": 1,
-      "Armor": 50,
-      "Affinity": -1
+      "Health": 125,
+      "Affinity": 25
     }
   },
   "Kubrodon Incarnadine": {
@@ -40274,31 +42058,6 @@
       "Affinity": 1500
     }
   },
-  "Scuttlers": {
-    "General": {
-      "FactionDamageOverride": "The Murmur",
-      "Description": "Spiderlings born from the guardian of Scholar's Landing. Though precious to their mother, an explosively short life leaves only the hunt to bond over.",
-      "Link": "Scuttlers",
-      "Missions": [
-        "Isleweaver"
-      ],
-      "Type": "",
-      "Image": "Scuttlers.png",
-      "Name": "Scuttlers",
-      "Faction": "Duviri",
-      "Scans": 5,
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingAvatar",
-      "Introduced": "39"
-    },
-    "Stats": {
-      "BaseLevel": 1,
-      "Health": 125,
-      "Affinity": 25
-    }
-  },
   "Scarlet Nexifera": {
     "General": {
       "TileSets": [
@@ -40327,6 +42086,31 @@
       "Health": 1000,
       "BaseLevel": 1,
       "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Devotee": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Ranged",
+      "Description": "Touched by the hand of Arlo they come to spread his healing word. Rejoice.",
+      "Link": "Devotee",
+      "Image": "Devotee.png",
+      "Name": "Devotee",
+      "Faction": "Tenno",
+      "Scans": 1,
+      "Weapons": [
+        "Latron",
+        "Zylok"
+      ],
+      "InternalName": "",
+      "Introduced": "25.2"
+    },
+    "Stats": {
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 100,
+      "Armor": 100,
       "Affinity": -1
     }
   },
@@ -40359,29 +42143,38 @@
       "Affinity": -1
     }
   },
-  "Devotee": {
+  "Ravenous Void Angel": {
     "General": {
       "ExcludedFromSimulacrum": true,
-      "Type": "Ranged",
-      "Description": "Touched by the hand of Arlo they come to spread his healing word. Rejoice.",
-      "Link": "Devotee",
-      "Image": "Devotee.png",
-      "Name": "Devotee",
-      "Faction": "Tenno",
-      "Scans": 1,
+      "FactionDamageOverride": "Zariman",
+      "Description": "",
+      "Link": "Void Angel",
+      "Missions": [
+        "Void Armageddon"
+      ],
+      "Type": "Field Boss",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "VoidAngel.png",
+      "Name": "Ravenous Void Angel",
+      "Faction": "Unknown",
+      "Planets": [
+        "Zariman Ten Zero"
+      ],
       "Weapons": [
-        "Latron",
-        "Zylok"
+        ""
       ],
       "InternalName": "",
-      "Introduced": "25.2"
+      "Introduced": "31.5"
     },
     "Stats": {
-      "Health": 100,
+      "Health": 12000,
       "BaseLevel": 1,
       "Shield": 100,
-      "Armor": 100,
-      "Affinity": -1
+      "SpawnLevel": 50,
+      "Armor": 350,
+      "Affinity": 1500
     }
   },
   "Thorny Bolarola": {
@@ -40446,35 +42239,6 @@
       "Affinity": -1
     }
   },
-  "Plains Kuaka": {
-    "General": {
-      "ExcludedFromSimulacrum": true,
-      "TileSets": [
-        "Plains of Eidolon"
-      ],
-      "Description": "A timid rodent that is easily frightened.",
-      "Link": "Plains Kuaka",
-      "Scans": 20,
-      "Type": "",
-      "Image": "KuakaCommon.png",
-      "Name": "Plains Kuaka",
-      "Faction": "Prey",
-      "Planets": [
-        "Earth"
-      ],
-      "Weapons": [
-        ""
-      ],
-      "InternalName": "",
-      "Introduced": "22"
-    },
-    "Stats": {
-      "Armor": 50,
-      "BaseLevel": 1,
-      "Health": 1,
-      "Affinity": -1
-    }
-  },
   "Necramite": {
     "General": {
       "TileSets": [
@@ -40497,6 +42261,33 @@
       "Health": 2500,
       "BaseLevel": 1,
       "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Hollow Thrax Legatus (Duviri)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Link": "Hollow Thrax Legatus",
+      "Introduced": "32.2",
+      "Type": "Ranged",
+      "Image": "LuaThraxLegatus.png",
+      "Name": "Hollow Thrax Legatus",
+      "Faction": "Unknown",
+      "Missions": [
+        "The Circuit"
+      ],
+      "Weapons": [
+        "Aeolak"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 10,
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 200,
       "Affinity": -1
     }
   },
@@ -40737,7 +42528,7 @@
       "Description": "",
       "Link": "Liminus",
       "Introduced": "33",
-      "Image": "UnidentifiedItem(xBlack).png",
+      "Image": "Liminus.png",
       "Name": "Liminus",
       "Faction": "?",
       "Planets": [
@@ -40982,30 +42773,27 @@
       "Affinity": -1
     }
   },
-  "Hollow Thrax Legatus (Duviri)": {
+  "Persecutor Liminus": {
     "General": {
       "ExcludedFromSimulacrum": true,
-      "FactionDamageOverride": "Zariman",
-      "Link": "Hollow Thrax Legatus",
-      "Introduced": "32.2",
-      "Type": "Ranged",
-      "Image": "LuaThraxLegatus.png",
-      "Name": "Hollow Thrax Legatus",
-      "Faction": "Unknown",
-      "Missions": [
-        "The Circuit"
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Liminus#Persecutor",
+      "Introduced": "33.5",
+      "Image": "PersecutorLiminus.png",
+      "Name": "Persecutor Liminus",
+      "Faction": "?",
+      "Planets": [
+        "Duviri"
       ],
       "Weapons": [
-        "Aeolak"
+        ""
       ],
       "InternalName": "",
       "CodexSecret": true
     },
     "Stats": {
-      "Overguard": 10,
-      "Health": 1200,
       "BaseLevel": 1,
-      "Armor": 200,
       "Affinity": -1
     }
   },

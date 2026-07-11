@@ -1253,12 +1253,14 @@
   "Ghoul Devourer": {
     "General": {
       "TileSets": [
-        "Plains of Eidolon"
+        "Plains of Eidolon",
+        "Grineer Settlement"
       ],
       "Description": "Vay Hek's personal favorite, the Devourer is a maximal terror unit. Draped in shreds of the diapause bag that birthed it, this gap-mawed monstrosity barrels toward prey with furious intensity.\n\nWrist-mounted hooks are welded to elbow joints and hyperpowered by a myotechnical winch system for maximum impact-and-pull.",
       "Link": "Ghoul Devourer",
       "Missions": [
-        "Cetus Bounty"
+        "Cetus Bounty",
+        "Disruption"
       ],
       "Type": "Melee",
       "Scans": 20,
@@ -1266,7 +1268,8 @@
       "Name": "Ghoul Devourer",
       "Faction": "Grineer",
       "Planets": [
-        "Earth"
+        "Earth",
+        "Mars"
       ],
       "Weapons": [
         ""
@@ -1309,18 +1312,21 @@
       "Description": "A high value Ghoul target.",
       "Link": "Ghoul Target",
       "Missions": [
-        "Cetus Bounty"
+        "Cetus Bounty",
+        "Disruption"
       ],
       "Type": "Melee",
       "TileSets": [
-        "Plains of Eidolon"
+        "Plains of Eidolon",
+        "Grineer Settlement"
       ],
       "Scans": 3,
       "Image": "GhoulSawmanVIP.png",
       "Name": "Ghoul Target",
       "Faction": "Grineer",
       "Planets": [
-        "Earth"
+        "Earth",
+        "Mars"
       ],
       "Weapons": [
         "Ghoulsaw"
@@ -3404,12 +3410,14 @@
   "Ghoul Auger": {
     "General": {
       "TileSets": [
-        "Plains of Eidolon"
+        "Plains of Eidolon",
+        "Grineer Settlement"
       ],
       "Description": "Known colloquially as the 'drill sergeant', the Augur is fast-grown into its enhancements. As with all Ghouls, no regard is given to the proper development of its higher functions.\n\nCantilevered leg augments propel the unit toward the fray at speed, while over- and undermounted extendable drill carriages magnify both reach and penetrating power.",
       "Link": "Ghoul Auger",
       "Missions": [
-        "Cetus Bounty"
+        "Cetus Bounty",
+        "Disruption"
       ],
       "Type": "Melee",
       "Scans": 20,
@@ -3417,7 +3425,8 @@
       "Name": "Ghoul Auger",
       "Faction": "Grineer",
       "Planets": [
-        "Earth"
+        "Earth",
+        "Mars"
       ],
       "Weapons": [
         ""
@@ -5704,18 +5713,21 @@
       "Description": "So named for its terrifying leer, the Rictus (AKA 'the Sawman') lives to divide and conquer its foes - literally.",
       "Link": "Ghoul Rictus",
       "Missions": [
-        "Cetus Bounty"
+        "Cetus Bounty",
+        "Disruption"
       ],
       "Type": "Melee",
       "TileSets": [
-        "Plains of Eidolon"
+        "Plains of Eidolon",
+        "Grineer Settlement"
       ],
       "Scans": 20,
       "Image": "GhoulSawman.png",
       "Name": "Ghoul Rictus",
       "Faction": "Grineer",
       "Planets": [
-        "Earth"
+        "Earth",
+        "Mars"
       ],
       "Weapons": [
         "Ghoulsaw"
@@ -9169,12 +9181,14 @@
   "Ghoul Expired": {
     "General": {
       "TileSets": [
-        "Plains of Eidolon"
+        "Plains of Eidolon",
+        "Grineer Settlement"
       ],
       "Description": "The Expired are Ghouls who have succumbed to malnutrition or enviromental poisoning during the early stages of development. Their backup nervous systems continue to drive them forward, however, making them ideal suicide troops.",
       "Link": "Ghoul Expired",
       "Missions": [
-        "Cetus Bounty"
+        "Cetus Bounty",
+        "Disruption"
       ],
       "Type": "Melee",
       "Scans": 20,
@@ -9182,7 +9196,8 @@
       "Name": "Ghoul Expired",
       "Faction": "Grineer",
       "Planets": [
-        "Earth"
+        "Earth",
+        "Mars"
       ],
       "Weapons": [
         ""
@@ -41162,7 +41177,7 @@
       "Type": "",
       "Scans": 1,
       "Missions": [
-        "Sand of Inaros"
+        "Sands of Inaros"
       ],
       "Name": "Tomb Protector",
       "Image": "SandmanBoss.png",
@@ -41229,7 +41244,7 @@
       "Type": "Melee",
       "Scans": 1,
       "Missions": [
-        "Sand of Inaros"
+        "Sands of Inaros"
       ],
       "Image": "HostileRockman.png",
       "Name": "Tomb Guardian",
@@ -42218,7 +42233,7 @@
       "Type": "",
       "Scans": 1,
       "Missions": [
-        "Sand of Inaros"
+        "Sands of Inaros"
       ],
       "Image": "InarosGolem.png",
       "Name": "Tomb Protector Effigy",

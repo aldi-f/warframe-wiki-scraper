@@ -1349,10 +1349,10 @@
       "Name": "Neptune Proxima Point of Interest",
       "Link": "Neptune Proxima"
     },
-    "Kuva Siphon": {
-      "LocationNote": "See alerts tab in in-game [[World State Window]] for active Kuva Siphon nodes, must complete [[The War Within]] quest",
-      "Name": "Kuva Siphon",
-      "Link": "Kuva Siphon"
+    "Grineer Veil Proxima Point of Interest": {
+      "LocationNote": "Completing [[Points of Interest]] on any Grineer-controlled node in [[Veil Proxima]]",
+      "Name": "Grineer Veil Proxima Point of Interest",
+      "Link": "Veil Proxima"
     },
     "Deep Archimedea": {
       "LocationNote": "*[[Sanctum Anatomica]], [[Deimos]]; Must complete [[Whispers in the Walls]] quest and being Rank 5: Illuminate with the [[Cavia]].",
@@ -1476,10 +1476,10 @@
       "Name": "Dark Sectors",
       "Link": "Dark Sectors"
     },
-    "Orokin Vault": {
-      "LocationNote": "Any mission node on [[Deimos]] except [[Cambion Drift]], [[Magnacidium]], [[Exequias]], and [[Hyf]]",
-      "Name": "Orokin Vault",
-      "Link": "Orokin Vault"
+    "Operation: Scarlet Spear": {
+      "LocationNote": "Depreciated content, unavailable to players",
+      "Name": "Operation: Scarlet Spear",
+      "Link": "Operation: Scarlet Spear"
     },
     "Tactical Alert": {
       "LocationNote": "Depreciated content, unavailable to players; see [[Tactical Alert]] for past alerts",
@@ -1491,10 +1491,10 @@
       "Name": "Veil Proxima Completion Bonuses",
       "Link": "Veil Proxima"
     },
-    "Operation: Scarlet Spear": {
+    "Operation: Orphix Venom": {
       "LocationNote": "Depreciated content, unavailable to players",
-      "Name": "Operation: Scarlet Spear",
-      "Link": "Operation: Scarlet Spear"
+      "Name": "Operation: Orphix Venom",
+      "Link": "Operation: Orphix Venom"
     },
     "Granum Void": {
       "LocationNote": "See [[Granum Void#Mechanics]] for specific locations",
@@ -1526,19 +1526,19 @@
       "Name": "Kuva Lich Controlled Territory",
       "Link": "Kuva Lich"
     },
-    "Grineer Veil Proxima Derelict Point of Interest": {
-      "LocationNote": "Completing [[Points of Interest]] on any Grineer-controlled node in [[Veil Proxima]]",
-      "Name": "Grineer Veil Proxima Derelict Point of Interest",
-      "Link": "Veil Proxima"
+    "Pluto Proxima Point of Interest": {
+      "LocationNote": "Completing [[Points of Interest]] on any node in [[Pluto Proxima]]",
+      "Name": "Pluto Proxima Point of Interest",
+      "Link": "Pluto Proxima"
     },
     "Arbitrations": {
       "LocationNote": "See alerts tab in in-game [[World State Window]], must unlock from [[Junction|Eris Junction]] on [[Pluto]]",
       "Name": "Arbitrations",
       "Link": "Arbitrations"
     },
-    "Pluto Proxima Point of Interest": {
-      "LocationNote": "Completing [[Points of Interest]] on any node in [[Pluto Proxima]]",
-      "Name": "Pluto Proxima Point of Interest",
+    "Pluto Proxima Completion Bonuses": {
+      "LocationNote": "Complete all mission objectives in any node in [[Pluto Proxima]]",
+      "Name": "Pluto Proxima Completion Bonuses",
       "Link": "Pluto Proxima"
     },
     "Earth Proxima Completion Bonuses": {
@@ -1556,15 +1556,15 @@
       "Name": "H\u00f6llvania Central Mall Bounty",
       "Link": "H\u00f6llvania Central Mall#Bounties"
     },
-    "Pluto Proxima Completion Bonuses": {
-      "LocationNote": "Complete all mission objectives in any node in [[Pluto Proxima]]",
-      "Name": "Pluto Proxima Completion Bonuses",
-      "Link": "Pluto Proxima"
-    },
     "Plague Star": {
       "LocationNote": "*[[Plains of Eidolon]]/[[Cetus]], [[Earth]] during [[Plague Star]] event",
       "Name": "Plague Star",
       "Link": "Operation: Plague Star"
+    },
+    "Orokin Vault": {
+      "LocationNote": "Any mission node on [[Deimos]] except [[Cambion Drift]], [[Magnacidium]], [[Exequias]], and [[Hyf]]",
+      "Name": "Orokin Vault",
+      "Link": "Orokin Vault"
     },
     "Neptune Proxima Completion Bonuses": {
       "LocationNote": "Complete all mission objectives in any node in [[Neptune Proxima]]",
@@ -1591,15 +1591,15 @@
       "Name": "Cetus Bounty",
       "Link": "Plains of Eidolon#Bounties"
     },
-    "Operation: Orphix Venom": {
-      "LocationNote": "Depreciated content, unavailable to players",
-      "Name": "Operation: Orphix Venom",
-      "Link": "Operation: Orphix Venom"
-    },
     "Nightmare Mode": {
       "LocationNote": "See in-game [[World State Window]] for active Nightmare Mode nodes",
       "Name": "Nightmare Mode",
       "Link": "Nightmare Mode"
+    },
+    "Kuva Siphon": {
+      "LocationNote": "See alerts tab in in-game [[World State Window]] for active Kuva Siphon nodes, must complete [[The War Within]] quest",
+      "Name": "Kuva Siphon",
+      "Link": "Kuva Siphon"
     },
     "Razorback Armada": {
       "LocationNote": "Near [[Relay]] that is being attacked during [[Razorback Armada]] event",

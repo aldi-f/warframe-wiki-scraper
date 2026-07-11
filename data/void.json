@@ -6511,7 +6511,7 @@
       }
     },
     "Epitaph Prime": {
-      "IsVaulted": false,
+      "IsVaulted": true,
       "Parts": {
         "Barrel": {
           "DucatValue": 45,
@@ -7697,37 +7697,38 @@
         "Blueprint": {
           "DucatValue": 15,
           "Drops": {
-            "Neo N22": "Common",
             "Axi K9": "Common",
             "Meso S1": "Common",
-            "Axi K3": "Common",
+            "Neo S19": "Common",
+            "Axi K7": "Common",
+            "Axi S17": "Common",
+            "Meso H5": "Common",
+            "Neo N15": "Common",
+            "Lith M4": "Common",
+            "Neo V12": "Common",
+            "Neo V11": "Common",
+            "Axi V4": "Common",
+            "Neo N22": "Common",
+            "Meso V2": "Common",
             "Lith S4": "Common",
             "Axi O1": "Common",
-            "Axi K7": "Common",
             "Axi E2": "Common",
-            "Axi G1": "Common",
-            "Meso H5": "Common",
-            "Neo S19": "Common",
             "Lith F1": "Common",
-            "Lith M4": "Common",
             "Axi A14": "Common",
             "Lith H1": "Common",
-            "Meso D6": "Common",
             "Meso G5": "Common",
             "Meso H1": "Common",
-            "Neo V11": "Common",
-            "Axi L6": "Common",
             "Lith M3": "Common",
-            "Axi S17": "Common",
-            "Neo N15": "Common",
+            "Axi K3": "Common",
+            "Axi G1": "Common",
             "Axi K4": "Common",
-            "Meso V2": "Common",
+            "Meso D6": "Common",
             "Axi A19": "Common",
             "Meso S11": "Common",
             "Neo Z1": "Common",
             "Meso E4": "Common",
             "Neo G10": "Common",
-            "Axi V4": "Common",
+            "Axi L6": "Common",
             "Neo C6": "Common"
           }
         },
@@ -29214,8 +29215,7 @@
       "Introduced": "20.6.2"
     },
     "Neo V11": {
-      "Tier": "Neo",
-      "Introduced": "42.0.6",
+      "Vaulted": "43.0",
       "Name": "Neo V11",
       "Drops": [
         {
@@ -29248,7 +29248,9 @@
           "Item": "Voruna Prime",
           "Rarity": "Rare"
         }
-      ]
+      ],
+      "Tier": "Neo",
+      "Introduced": "42.0.6"
     },
     "Axi G7": {
       "Vaulted": "31.7",
@@ -36429,7 +36431,7 @@
     },
     "Neo V12": {
       "Tier": "Neo",
-      "Introduced": "43.0.2",
+      "Introduced": "43.0",
       "Name": "Neo V12",
       "Drops": [
         {
@@ -36439,7 +36441,7 @@
         },
         {
           "Part": "Blueprint",
-          "Item": "Akbronco Prime",
+          "Item": "Paris Prime",
           "Rarity": "Common"
         },
         {

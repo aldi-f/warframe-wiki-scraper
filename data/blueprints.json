@@ -4025,7 +4025,7 @@
         {
           "Type": "PrimePart",
           "Count": 1,
-          "Name": "Barrel"
+          "Name": "Handle"
         },
         {
           "Type": "Resource",
@@ -4033,7 +4033,7 @@
           "Name": "Orokin Cell"
         }
       ],
-      "Result": "Acceltra Prime",
+      "Result": "Afentis Prime",
       "Credits": 15000
     },
     "EFV-5 Jupiter": {

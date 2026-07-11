@@ -33,6 +33,22 @@
       "Icon": "WorldOnFire.png",
       "InternalName": "/Lotus/Powersuits/PowersuitAbilities/WorldOnFireAbility"
     },
+    "Undertow": {
+      "Description": "Become a water trap and drown unsuspecting enemies.",
+      "Cost": 15,
+      "Augments": [
+        "Curative Undertow"
+      ],
+      "Powersuit": "Hydroid",
+      "Key": 3,
+      "CardImage": "UndertowModx256.png",
+      "Name": "Undertow",
+      "Introduced": "13",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LiquifyAbility",
+      "Preview": "UndertowPreview.webm",
+      "PreviewFallback": "UndertowPreview.jpg",
+      "Icon": "UndertowIcon(xWhite).png"
+    },
     "Bounce": {
       "Description": "A deployable launchpad that can be attached to any surface. Use on enemies, squad members, or as a personal mobility tool",
       "Cost": 50,
@@ -184,7 +200,6 @@
     "Hydroid": [
       "Plunder",
       "Tentacle Swarm",
-      "Undertow",
       "Tidal Surge",
       "Tempest Barrage"
     ],
@@ -403,6 +418,10 @@
       "Mind Control",
       "Chaos"
     ],
+    "Operator": [
+      "Transference",
+      "Energy Pulse"
+    ],
     "Uriel": [
       "Infernalis",
       "Brimstone",
@@ -415,15 +434,17 @@
       "Reservoirs",
       "Sol Gate"
     ],
-    "Operator": [
-      "Transference",
-      "Energy Pulse"
-    ],
     "Lavos": [
       "Catalyze",
       "Vial Rush",
       "Transmutation Probe",
       "Ophidian Bite"
+    ],
+    "Temple": [
+      "Overdrive",
+      "Exalted Solo",
+      "Ripper's Wail",
+      "Pyrotechnics"
     ],
     "Protea": [
       "Temporal Anchor",
@@ -437,11 +458,11 @@
       "Ravenous",
       "Larva"
     ],
-    "Temple": [
-      "Overdrive",
-      "Exalted Solo",
-      "Ripper's Wail",
-      "Pyrotechnics"
+    "Citrine": [
+      "Fractured Blast",
+      "Prismatic Gem",
+      "Crystallize",
+      "Preserving Shell"
     ],
     "Styanax": [
       "Rally Point",
@@ -461,11 +482,10 @@
       "Gravemines",
       "Guard Mode"
     ],
-    "Citrine": [
-      "Fractured Blast",
-      "Prismatic Gem",
-      "Crystallize",
-      "Preserving Shell"
+    "Orion": [
+      "Gravitic Slash",
+      "Astral Shell",
+      "Event Horizon"
     ],
     "Sevagoth": [
       "Reap",
@@ -532,11 +552,11 @@
       "Primal Fury",
       "Cloud Walker"
     ],
-    "Orion": [
-      "Celestial Clash",
-      "Gravitic Slash",
-      "Astral Shell",
-      "Event Horizon"
+    "Sevagoth's Shadow": [
+      "Embrace",
+      "Reunite",
+      "Death's Harvest",
+      "Consume"
     ],
     "Baruuk": [
       "Serene Storm",
@@ -562,11 +582,8 @@
       "Spellbind",
       "Razorwing"
     ],
-    "Rhino": [
-      "Rhino Charge",
-      "Iron Skin",
-      "Rhino Stomp",
-      "Roar"
+    "Sirius & Orion": [
+      "Celestial Clash"
     ],
     "Voruna": [
       "Shroud of Dynar",
@@ -587,11 +604,11 @@
       "Shield Maiden",
       "Meathook"
     ],
-    "Sevagoth's Shadow": [
-      "Embrace",
-      "Reunite",
-      "Death's Harvest",
-      "Consume"
+    "Rhino": [
+      "Rhino Charge",
+      "Iron Skin",
+      "Rhino Stomp",
+      "Roar"
     ],
     "Nokko": [
       "Sporespring",
@@ -1063,7 +1080,7 @@
       "Weapon": "Desert Wind"
     },
     "Sporespring": {
-      "Description": "Unleash a chaotic ballistic mushroom that seeks enemies and bounces explosively off whatever it touches. Contact with any of Nokko\u2019s mushrooms invigorates them, doubling their pulse rate.",
+      "Description": "Unleash a chaotic ballistic mushroom that seeks enemies and bounces explosively off whatever it touches. Contact with any of Nokko's mushrooms invigorates them, doubling their pulse rate.",
       "Cost": 75,
       "Powersuit": "Nokko",
       "Key": 4,
@@ -1415,7 +1432,7 @@
     "Celestial Clash": {
       "Description": "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral <DT_EXPLOSION_COLOR>Blast damage. Match the star's color to the Warframes color to gain increased Critical Chance.\r\n\r\n|LEFT_ATTACK| Sirius attacks\r\n|RIGHT_ATTACK| Orion attacks\r\n\r\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row.",
       "Cost": 100,
-      "Powersuit": "Orion",
+      "Powersuit": "Sirius & Orion",
       "Key": 4,
       "CardImage": "CelestialClashIcon(xWhite).png",
       "Name": "Celestial Clash",
@@ -1590,7 +1607,7 @@
       "Icon": "BastilleIcon(xWhite).png"
     },
     "Overdrive": {
-      "Description": "Drive loudspeakers into epic distortion to create a damaging wave of <DT_FIRE_COLOR>Heat Damage while also increasing vulnerability to Critical Chance. \r\n\r\nBackbeat Timing: Doubles Critical Chance. Increases the Duration and <DT_FIRE_COLOR>Heat Damage of Ripper\u2019s Wail when it deals damage.",
+      "Description": "Drive loudspeakers into epic distortion to create a damaging wave of <DT_FIRE_COLOR>Heat Damage while also increasing vulnerability to Critical Chance. \r\n\r\nBackbeat Timing: Doubles Critical Chance. Increases the Duration and <DT_FIRE_COLOR>Heat Damage of Ripper's Wail when it deals damage.",
       "Cost": 25,
       "Powersuit": "Temple",
       "Key": 2,
@@ -1692,7 +1709,7 @@
       "Icon": "EmbraceIcon(xWhite).png"
     },
     "Final Verse": {
-      "Description": "Dante must compose two other Verses before his Final Verse.\r\n\r\nTRIUMPH: Two Light Verses cast in succession invigorate allies with a buff that increases Health and grants Overguard. Kills and assists briefly regenerate Overguard.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nTRAGEDY: Two Dark Verses cast in succession attack enemies. Damage Over Time from <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat and <DT_POISON_COLOR>Toxin Status Effects accumulates in a single blast.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nWORDWARDEN: A Light Verse followed by a Dark Verse supports allies with copies of Noctua. Noctua copies synchronize their attacks with their designated ally\u2019s attacks.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A Dark Verse followed by a Light Verse summons Paragrimms that swoop at enemies, making them vulnerable to Status Chance and Status Damage, as well as drawing enemy attacks away from allies.",
+      "Description": "Dante must compose two other Verses before his Final Verse.\r\n\r\nTRIUMPH: Two Light Verses cast in succession invigorate allies with a buff that increases Health and grants Overguard. Kills and assists briefly regenerate Overguard.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nTRAGEDY: Two Dark Verses cast in succession attack enemies. Damage Over Time from <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat and <DT_POISON_COLOR>Toxin Status Effects accumulates in a single blast.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nWORDWARDEN: A Light Verse followed by a Dark Verse supports allies with copies of Noctua. Noctua copies synchronize their attacks with their designated ally's attacks.<br>Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A Dark Verse followed by a Light Verse summons Paragrimms that swoop at enemies, making them vulnerable to Status Chance and Status Damage, as well as drawing enemy attacks away from allies.",
       "Cost": 50,
       "Powersuit": "Dante",
       "Key": 4,
@@ -1738,7 +1755,7 @@
       "Icon": "SoulPunchIcon(xWhite).png"
     },
     "Noctua": {
-      "Description": "Open Noctua, Dante\u2019s Exalted Tome, and unleash a tale of woe upon his enemies.",
+      "Description": "Open Noctua, Dante's Exalted Tome, and unleash a tale of woe upon his enemies.",
       "Cost": 5,
       "Augments": [
         "Noctua Swarm"
@@ -1814,7 +1831,7 @@
       "Icon": "CollectiveCurseIcon(xWhite).png"
     },
     "Grave Spirit": {
-      "Description": "Supercharge Dagath\u2019s weapons with extra Critical Damage. The effects are doubled on Doomed enemies. Escape fatal blows by briefly assuming a spectral form.",
+      "Description": "Supercharge Dagath's weapons with extra Critical Damage. The effects are doubled on Doomed enemies. Escape fatal blows by briefly assuming a spectral form.",
       "Cost": 75,
       "Augments": [
         "Spectral Spirit"
@@ -1921,7 +1938,7 @@
       "CostType": "shield"
     },
     "Brightbonnet": {
-      "Description": "Release a rejuvenating mushroom that emits a radial pulse, giving Nokko and his allies\u2019 <ENERGY> Energy and applying a buff to Ability Strength that lasts for a short time.",
+      "Description": "Release a rejuvenating mushroom that emits a radial pulse, giving Nokko and his allies' <ENERGY> Energy and applying a buff to Ability Strength that lasts for a short time.",
       "Cost": 50,
       "Subsumable": true,
       "Powersuit": "Nokko",
@@ -2020,7 +2037,7 @@
       "CostType": "time"
     },
     "Decoy": {
-      "Description": "Loki deploys a holographic copy of himself that draws enemy fire and absorbs a portion of nearby enemy health and shields.",
+      "Description": "Loki deploys a holographic copy of himself that draws enemy fire. The decoy gains health and shield based on enemies nearby.",
       "Cost": 25,
       "Augments": [
         "Damage Decoy",
@@ -2367,7 +2384,7 @@
       "Icon": "SeaSnaresIcon(xWhite).png"
     },
     "Renewal": {
-      "Description": "Generates a protective aura that grants bonus Armor to Oberon and his allies and restores allies\u2019 Health over time. Healing is doubled while within the radius of Hallowed Ground.",
+      "Description": "Generates a protective aura that grants bonus Armor to Oberon and his allies and restores allies' Health over time. Healing is doubled while within the radius of Hallowed Ground.",
       "Cost": 25,
       "Augments": [
         "Phoenix Renewal"
@@ -2383,7 +2400,7 @@
       "Icon": "RenewalIcon(xWhite).png"
     },
     "Resupply": {
-      "Description": "Throw two Elemental Ammo Packs that instantly refill the active weapon\u2019s magazine, while granting the weapon an additional instance of the selected Elemental Damage and Status Effect. Reload clears the effect. Sniper Rifles gain extra damage.\r\n\r\nHold the ability to select the Elemental Damage type.",
+      "Description": "Throw two Elemental Ammo Packs that instantly refill the active weapon's magazine, while granting the weapon an additional instance of the selected Elemental Damage and Status Effect. Reload clears the effect. Sniper Rifles gain extra damage.\r\n\r\nHold the ability to select the Elemental Damage type.",
       "Cost": 50,
       "Powersuit": "Cyte-09",
       "Key": 2,
@@ -2557,7 +2574,7 @@
       "Icon": "FiringLineIcon(xWhite).png"
     },
     "Reap": {
-      "Description": "Sevagoth's Shadow flies outward ravaging enemies in his path. Survivors are damaged by Death\u2019s Harvest over time. The souls of the dead fill the Death Well.",
+      "Description": "Sevagoth's Shadow flies outward ravaging enemies in his path. Survivors are damaged by Death's Harvest over time. The souls of the dead fill the Death Well.",
       "Cost": 25,
       "Augments": [
         "Shadow Haze"
@@ -2809,7 +2826,7 @@
       "Weapon": "Balefire Charger"
     },
     "Neutralize": {
-      "Description": "Summon the Neutralizer, Cyte-09\u2019s exalted Sniper Rifle. Bullets ricochet off Weak Points to seek out other nearby Weak Points. Alt fire lobs a <DT_FREEZE_COLOR>Cold grenade that completely freezes enemies.",
+      "Description": "Summon the Neutralizer, Cyte-09's exalted Sniper Rifle. Bullets ricochet off Weak Points to seek out other nearby Weak Points. Alt fire lobs a <DT_FREEZE_COLOR>Cold grenade that completely freezes enemies.",
       "Cost": 5,
       "Icon": "NeutralizeIcon(xWhite).png",
       "Powersuit": "Cyte-09",
@@ -2881,7 +2898,7 @@
       "Icon": "KumihimoIcon(xWhite).png"
     },
     "Omamori": {
-      "Description": "Surround yourself with Omamori Charms, each with a chance to have enemy attacks heal you instead of damage you. The number of charms is determined by Koumei\u2019s dice roll.\r\n\r\nA roll of triple sixes grants invulnerability for the duration of your Omamori Charms.",
+      "Description": "Surround yourself with Omamori Charms, each with a chance to have enemy attacks heal you instead of damage you. The number of charms is determined by Koumei's dice roll.\r\n\r\nA roll of triple sixes grants invulnerability for the duration of your Omamori Charms.",
       "Cost": 75,
       "Subsumable": true,
       "Powersuit": "Koumei",
@@ -2924,7 +2941,7 @@
       "Icon": "MassVitrifyIcon(xWhite).png"
     },
     "Parasitic Link": {
-      "Description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength increased. Linked enemies take some of the damage inflicted on Nidus.",
+      "Description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength and Weapon Damage increased. Linked enemies take some of the damage inflicted on Nidus.",
       "Cost": 25,
       "Augments": [
         "Parasitic Vitality"
@@ -3078,19 +3095,6 @@
       "PreviewFallback": "WrathfulAdvancePreview.jpg",
       "Icon": "WrathfulAdvanceIcon(xWhite).png"
     },
-    "Penumbra": {
-      "Description": "Activates a cloaking field that hides the Warframe and any nearby allies who remain stationary.",
-      "Cost": 15,
-      "Powersuit": "Itzal",
-      "Key": 2,
-      "CardImage": "Penumbra.png",
-      "Name": "Penumbra",
-      "Introduced": "15.7.2",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
-      "Preview": "PenumbraPreview.webm",
-      "PreviewFallback": "PenumbraPreview.jpg",
-      "Icon": "PenumbraIcon(xWhite).png"
-    },
     "Energy Vampire": {
       "Description": "Allies will gain energy over time when enemies are marked with Energy Vampire.",
       "Cost": 50,
@@ -3108,7 +3112,7 @@
       "Icon": "EnergyVampireIcon(xWhite).png"
     },
     "Bunraku": {
-      "Description": "Wield your foe\u2019s fate threads like the strings of marionettes. Koumei\u2019s dice determine how many Status Effects foes in front of Koumei will suffer.\r\n\r\nA roll of triple sixes causes further Status Effects over time and extends Bunraku to enemies behind Koumei.",
+      "Description": "Wield your foe's fate threads like the strings of marionettes. Koumei's dice determine how many Status Effects foes in front of Koumei will suffer.\r\n\r\nA roll of triple sixes causes further Status Effects over time and extends Bunraku to enemies behind Koumei.",
       "Cost": 100,
       "Powersuit": "Koumei",
       "Key": 4,
@@ -3120,18 +3124,18 @@
       "PreviewFallback": "BunrakuPreview.jpg",
       "Icon": "BunrakuIcon(xWhite).png"
     },
-    "Wil-O-Wisp": {
-      "Description": "Cast forward a spectral image of Wisp to confuse and distract enemies. Reactivate to travel to its position. Hold to have the image travel faster and teleport to its position on release. ",
-      "Cost": 35,
-      "Powersuit": "Wisp",
+    "Penumbra": {
+      "Description": "Activates a cloaking field that hides the Warframe and any nearby allies who remain stationary.",
+      "Cost": 15,
+      "Powersuit": "Itzal",
       "Key": 2,
-      "CardImage": "WilOWisp.png",
-      "Name": "Wil-O-Wisp",
-      "Introduced": "25",
-      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispLightAbility",
-      "Preview": "Wil-O-WispPreview.webm",
-      "PreviewFallback": "Wil-O-WispPreview.jpg",
-      "Icon": "Wil-O-WispIcon(xWhite).png"
+      "CardImage": "Penumbra.png",
+      "Name": "Penumbra",
+      "Introduced": "15.7.2",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
+      "Preview": "PenumbraPreview.webm",
+      "PreviewFallback": "PenumbraPreview.jpg",
+      "Icon": "PenumbraIcon(xWhite).png"
     },
     "Recompense": {
       "Description": "Kullervo surrounds himself with daggers. Each dagger that strikes an enemy restores his health, but each dagger that misses an enemy strikes Kullervo, dealing a bit of damage. When Kullervo has max Health, he receives Overguard from struck enemies.",
@@ -3165,6 +3169,19 @@
       "PreviewFallback": "ArcspherePreview.jpg",
       "Icon": "ArcsphereIcon(xWhite).png"
     },
+    "Wil-O-Wisp": {
+      "Description": "Cast forward a spectral image of Wisp to confuse and distract enemies. Reactivate to travel to its position. Hold to have the image travel faster and teleport to its position on release. ",
+      "Cost": 35,
+      "Powersuit": "Wisp",
+      "Key": 2,
+      "CardImage": "WilOWisp.png",
+      "Name": "Wil-O-Wisp",
+      "Introduced": "25",
+      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispLightAbility",
+      "Preview": "Wil-O-WispPreview.webm",
+      "PreviewFallback": "Wil-O-WispPreview.jpg",
+      "Icon": "Wil-O-WispIcon(xWhite).png"
+    },
     "Switch Teleport": {
       "Description": "Loki instantaneously swaps positions with a target, confusing the enemy.",
       "Cost": 25,
@@ -3197,22 +3214,6 @@
       "Preview": "WhipclawPreview.webm",
       "PreviewFallback": "WhipclawPreview.jpg",
       "Weapon": "Whipclaw"
-    },
-    "Undertow": {
-      "Description": "Become a water trap and drown unsuspecting enemies.",
-      "Cost": 15,
-      "Augments": [
-        "Curative Undertow"
-      ],
-      "Powersuit": "Hydroid",
-      "Key": 3,
-      "CardImage": "UndertowModx256.png",
-      "Name": "Undertow",
-      "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/LiquifyAbility",
-      "Preview": "UndertowPreview.webm",
-      "PreviewFallback": "UndertowPreview.jpg",
-      "Icon": "UndertowIcon(xWhite).png"
     },
     "Axios Javelin": {
       "Description": "Throw an Axios Javelin. When the javelin impales an enemy against a wall, surrounding enemies are pulled into the area and suffer a burst of damage.",
@@ -3264,6 +3265,22 @@
       "PreviewFallback": "EclipsePreview.jpg",
       "Icon": "EclipseIcon(xWhite).png"
     },
+    "Venari": {
+      "Description": "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
+      "Cost": 0,
+      "Augments": [
+        "Venari Bodyguard"
+      ],
+      "Powersuit": "Khora",
+      "Key": 3,
+      "CardImage": "VenariModx256.png",
+      "Name": "Venari",
+      "Introduced": "22.18",
+      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraKavatAbility",
+      "Preview": "VenariPreview.webm",
+      "PreviewFallback": "VenariPreview.jpg",
+      "Icon": "VenariIcon(xWhite).png"
+    },
     "Webbed Embrace": {
       "Description": "Oraxia throws a creeping web to ensnare her prey. Enemies caught within the widening radius are trapped inside a cocoon that increases their Damage Vulnerability.",
       "Cost": 50,
@@ -3291,19 +3308,6 @@
       "PreviewFallback": "WatchfulSwarmPreview.jpg",
       "Icon": "WatchfulSwarmIcon(xWhite).png"
     },
-    "Warhead": {
-      "Description": "Launches a plodding missile capable of unleashing a massive explosion.",
-      "Cost": 100,
-      "Powersuit": "Elytron",
-      "Key": 4,
-      "CardImage": "Warhead.png",
-      "Name": "Warhead",
-      "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/BigBoyAbility",
-      "Preview": "WarheadPreview.webm",
-      "PreviewFallback": "WarheadPreview.jpg",
-      "Icon": "WarheadIcon(xWhite).png"
-    },
     "Catalyze": {
       "Description": "Catalyst Probes erupt from Lavos and douse combatants in a fiery gel. Damage is doubled for each element afflicting an enemy.\r\n\r\nHold to imbue the next ability cast with <DT_FIRE_COLOR>Heat.",
       "Cost": 30,
@@ -3318,18 +3322,18 @@
       "PreviewFallback": "CatalyzePreview.jpg",
       "CostType": "time"
     },
-    "Warding Grace": {
-      "Description": "Renders the Warframe and nearby allies immune to Status Effects, while slowing nearby enemies.",
-      "Cost": 25,
-      "Powersuit": "Amesha",
-      "Key": 3,
-      "CardImage": "WardingGraceMod.png",
-      "Name": "Warding Grace",
-      "Introduced": "Specters of the Rail 0.0",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportWardAbility",
-      "Preview": "WardingGracePreview.webm",
-      "PreviewFallback": "WardingGracePreview.jpg",
-      "Icon": "WardingGraceIcon(xWhite).png"
+    "Warhead": {
+      "Description": "Launches a plodding missile capable of unleashing a massive explosion.",
+      "Cost": 100,
+      "Powersuit": "Elytron",
+      "Key": 4,
+      "CardImage": "Warhead.png",
+      "Name": "Warhead",
+      "Introduced": "15",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/BigBoyAbility",
+      "Preview": "WarheadPreview.webm",
+      "PreviewFallback": "WarheadPreview.jpg",
+      "Icon": "WarheadIcon(xWhite).png"
     },
     "Repel": {
       "Description": "The Warframe emits a massive pulse of energy, stunning nearby enemies and sending them flying.",
@@ -3377,6 +3381,19 @@
       "PreviewFallback": "PrimalFuryPreview.jpg",
       "Weapon": "Iron Staff"
     },
+    "Warding Grace": {
+      "Description": "Renders the Warframe and nearby allies immune to Status Effects, while slowing nearby enemies.",
+      "Cost": 25,
+      "Powersuit": "Amesha",
+      "Key": 3,
+      "CardImage": "WardingGraceMod.png",
+      "Name": "Warding Grace",
+      "Introduced": "Specters of the Rail 0.0",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportWardAbility",
+      "Preview": "WardingGracePreview.webm",
+      "PreviewFallback": "WardingGracePreview.jpg",
+      "Icon": "WardingGraceIcon(xWhite).png"
+    },
     "Mind Control": {
       "Description": "Nyx seizes control of a target's mind, compelling them to fight for the Tenno cause. Controlled enemies have increased <DT_RADIATION_COLOR>Radiation Status Chance. When Nyx shoots them, they also have an increased Damage Multiplier.",
       "Cost": 25,
@@ -3407,6 +3424,20 @@
       "PreviewFallback": "VoraciousMetastasisPreview.jpg",
       "Icon": "VoraciousMetastasisIcon(xWhite).png"
     },
+    "Exalted Shadow": {
+      "Description": "When the Death Well fills, Sevagoth's Shadow form is ready to be released. Tear the enemy asunder with a collection of melee-focused abilities. ",
+      "Cost": 0,
+      "Icon": "ExaltedShadowIcon(xWhite).png",
+      "Powersuit": "Sevagoth",
+      "Key": 4,
+      "CardImage": "ExaltedShadowModx256.png",
+      "Name": "Exalted Shadow",
+      "Introduced": "30",
+      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithReaperAbility",
+      "Preview": "ExaltedShadowPreview.webm",
+      "PreviewFallback": "ExaltedShadowPreview.jpg",
+      "Weapon": "Shadow Claws"
+    },
     "Virulence": {
       "Description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes. For every five enemies hit, the Infestation mutates, multiplying its destructive force.",
       "Cost": 40,
@@ -3422,20 +3453,6 @@
       "Preview": "VirulencePreview.webm",
       "PreviewFallback": "VirulencePreview.jpg",
       "Icon": "VirulenceIcon(xWhite).png"
-    },
-    "Exalted Shadow": {
-      "Description": "When the Death Well fills, Sevagoth's Shadow form is ready to be released. Tear the enemy asunder with a collection of melee-focused abilities. ",
-      "Cost": 0,
-      "Icon": "ExaltedShadowIcon(xWhite).png",
-      "Powersuit": "Sevagoth",
-      "Key": 4,
-      "CardImage": "ExaltedShadowModx256.png",
-      "Name": "Exalted Shadow",
-      "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithReaperAbility",
-      "Preview": "ExaltedShadowPreview.webm",
-      "PreviewFallback": "ExaltedShadowPreview.jpg",
-      "Weapon": "Shadow Claws"
     },
     "Vial Rush": {
       "Description": "Dash forward, crashing through enemies and leaving an icy trail of broken vials.\r\n\r\nHold to imbue the next ability cast with <DT_FREEZE_COLOR>Cold.",
@@ -3469,19 +3486,6 @@
       "PreviewFallback": "VexArmorPreview.jpg",
       "Icon": "VexArmorIcon(xWhite).png"
     },
-    "Vengeful Rush": {
-      "Description": "All damage taken is transformed into Energy, while abilities gain enhanced Range, Duration and Power. Affects the Warframe and nearby allies.",
-      "Cost": 100,
-      "Powersuit": "Amesha",
-      "Key": 4,
-      "CardImage": "VengefulRushMod.png",
-      "Name": "Vengeful Rush",
-      "Introduced": "Specters of the Rail 0.0",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
-      "Preview": "VengefulRushPreview.webm",
-      "PreviewFallback": "VengefulRushPreview.jpg",
-      "Icon": "VengefulRushIcon(xWhite).png"
-    },
     "Prismatic Gem": {
       "Description": "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
       "Cost": 75,
@@ -3498,21 +3502,18 @@
       "PreviewFallback": "PrismaticGemPreview.jpg",
       "Icon": "PrismaticGemIcon(xWhite).png"
     },
-    "Venari": {
-      "Description": "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
-      "Cost": 0,
-      "Augments": [
-        "Venari Bodyguard"
-      ],
-      "Powersuit": "Khora",
-      "Key": 3,
-      "CardImage": "VenariModx256.png",
-      "Name": "Venari",
-      "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraKavatAbility",
-      "Preview": "VenariPreview.webm",
-      "PreviewFallback": "VenariPreview.jpg",
-      "Icon": "VenariIcon(xWhite).png"
+    "Vengeful Rush": {
+      "Description": "All damage taken is transformed into Energy, while abilities gain enhanced Range, Duration and Power. Affects the Warframe and nearby allies.",
+      "Cost": 100,
+      "Powersuit": "Amesha",
+      "Key": 4,
+      "CardImage": "VengefulRushMod.png",
+      "Name": "Vengeful Rush",
+      "Introduced": "Specters of the Rail 0.0",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
+      "Preview": "VengefulRushPreview.webm",
+      "PreviewFallback": "VengefulRushPreview.jpg",
+      "Icon": "VengefulRushIcon(xWhite).png"
     },
     "Well of Life": {
       "Description": "Create a well of life on an enemy who will absorb Status Effect damage intended for nearby allies. Allies gain additional Health when they attack the target. If allies die, enemies in the well of life die in their stead.",
@@ -3662,7 +3663,7 @@
       "Icon": "RedlineIcon(xWhite).png"
     },
     "Lycath's Hunt": {
-      "Description": "(TAP) Lycath hunts to sustain the pack. Enemies killed by melee attacks drop health orbs and enemies killed by headshots drop energy orbs. Increase the duration of Lycath\u2019s hunt by killing enemies affected by 5 or more Status Effects.\r\n\r\n(HOLD) Lycath guards Voruna with increased Heavy Attack efficiency.",
+      "Description": "(TAP) Lycath hunts to sustain the pack. Enemies killed by melee attacks drop health orbs and enemies killed by headshots drop energy orbs. Increase the duration of Lycath's hunt by killing enemies affected by 5 or more Status Effects.\r\n\r\n(HOLD) Lycath guards Voruna with increased Heavy Attack efficiency.",
       "Cost": 75,
       "Subsumable": true,
       "Powersuit": "Voruna",
@@ -4206,7 +4207,7 @@
       "Icon": "SpectrorageIcon(xWhite).png"
     },
     "Silken Stride": {
-      "Description": "Unfurl Oraxia\u2019s spider legs and go on the prowl. Oraxia is immune to Status Effects and has increased Maximum Health. Ranged Weapons are imbued with <DT_POISON_COLOR> Toxin Damage. Killing enemies causes them to burst with <DT_POISON_COLOR>Toxin.\r\n\r\nSilken Thread: Tap Dodge to leap to a targeted surface.",
+      "Description": "Unfurl Oraxia's spider legs and go on the prowl. Oraxia is immune to Status Effects and has increased Maximum Health. Ranged Weapons are imbued with <DT_POISON_COLOR> Toxin Damage. Killing enemies causes them to burst with <DT_POISON_COLOR>Toxin.\r\n\r\nSilken Thread: Tap Dodge to leap to a targeted surface.",
       "Cost": 25,
       "Powersuit": "Oraxia",
       "Key": 4,
@@ -4704,7 +4705,7 @@
       "Icon": "RavenousIcon(xWhite).png"
     },
     "Rotorswell": {
-      "Description": "Gyre\u2019s mechanisms spin at incredible speeds, generating an Electric Field that shocks nearby enemies. When Gyre gets a critical hit, a large electrical discharge will chain from the enemy that was hit to nearby enemies.",
+      "Description": "Gyre's mechanisms spin at incredible speeds, generating an Electric Field that shocks nearby enemies. When Gyre gets a critical hit, a large electrical discharge will chain from the enemy that was hit to nearby enemies.",
       "Cost": 100,
       "Augments": [
         "Reverse Rotorswell"
@@ -4791,7 +4792,7 @@
       "Icon": "ConsumeIcon(xWhite).png"
     },
     "Ripper's Wail": {
-      "Description": "Rip on the guitar to make Temple briefly invulnerable while healing them. Ally\u2019s weapons in <AFFINITY_SHARE>Affinity Range are lit-up with extra <DT_FIRE_COLOR>Heat Damage each time an ability is used on the Backbeat and successfully hits enemies.\r\n\r\nBackbeat Timing: Invulnerability lasts longer.",
+      "Description": "Rip on the guitar to make Temple briefly invulnerable while healing them. Ally's weapons in <AFFINITY_SHARE>Affinity Range are lit-up with extra <DT_FIRE_COLOR>Heat Damage each time an ability is used on the Backbeat and successfully hits enemies.\r\n\r\nBackbeat Timing: Invulnerability lasts longer.",
       "Cost": 50,
       "Powersuit": "Temple",
       "Key": 3,
@@ -5066,13 +5067,12 @@
       "Icon": "ParasiticArmorIcon(xWhite).png"
     },
     "Slash Dash": {
-      "Description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade\u2019s slashes inflict <DT_SLASH_COLOR>Slash Status.",
+      "Description": "Slash and dash through enemies alongside a radial specter. The powerful Exalted Blade's slashes inflict <DT_SLASH_COLOR>Slash Status.",
       "Cost": 25,
       "Augments": [
         "Purging Slash",
         "Surging Dash"
       ],
-      "Icon": "SlashDashIcon(xWhite).png",
       "Powersuit": "Excalibur",
       "Key": 1,
       "CardImage": "SlashDashModx256.png",
@@ -5081,7 +5081,7 @@
       "InternalName": "/Lotus/Powersuits/Excalibur/Abilities/SlashDashNewAbility",
       "Preview": "SlashDashPreview.webm",
       "PreviewFallback": "SlashDashPreview.jpg",
-      "Weapon": "Exalted Blade"
+      "Icon": "SlashDashIcon(xWhite).png"
     },
     "Hideous Resistance": {
       "Description": "Grant yourself immunity to Status effects.",
@@ -5209,7 +5209,7 @@
       "Icon": "MesmerSkinIcon(xWhite).png"
     },
     "Mercy's Kiss": {
-      "Description": "Leap onto an enemy and pierce them with Oraxia\u2019s spider legs, dealing <DT_POISON_COLOR>Toxin Damage. Enemies defeated by this attack have a chance to drop Health or Energy Orbs.",
+      "Description": "Leap onto an enemy and pierce them with Oraxia's spider legs, dealing <DT_POISON_COLOR>Toxin Damage. Enemies defeated by this attack have a chance to drop Health or Energy Orbs.",
       "Cost": 25,
       "Powersuit": "Oraxia",
       "Key": 1,
@@ -5293,7 +5293,7 @@
       "Icon": "Maiden'sKissIcon(xWhite).png"
     },
     "Light Verse": {
-      "Description": "Dante's vitalizing composition grants him and his allies Overguard and increases their Health.",
+      "Description": "Dante's vitalizing composition grants him and his allies Overguard and restores their Health.",
       "Cost": 25,
       "Powersuit": "Dante",
       "Key": 2,

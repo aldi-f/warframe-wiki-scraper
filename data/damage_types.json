@@ -1593,7 +1593,7 @@
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Silence": {
-      "Link": "Silence",
+      "Link": "Silence (Status Effect)",
       "Color": "#5d5d5d",
       "DarkModeColor": "#d5d5d5",
       "CSSBackgroundColorClass": "var(--dt-default-background-color)",

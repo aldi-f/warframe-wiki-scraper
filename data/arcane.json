@@ -1911,7 +1911,7 @@
       "Name": "Arcane Crepuscular",
       "Introduced": "38",
       "Dissolution": 24,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityEfficiencyOnAbilityObjectCreation",
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityStrengthAndCritDamageWhenInvisible",
       "Icon": "ArcaneCrepuscular64x.png",
       "CodexSecret": true
     },
@@ -2213,7 +2213,7 @@
         "GAMEPLAY_FREE_REVIVE_COUNT"
       ],
       "MaxRank": 5,
-      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/NoCostCastChanceOnCast",
+      "InternalName": "/Lotus/Upgrades/CosmeticEnhancers/Utility/AbilityEfficiencyOnAbilityObjectCreation",
       "IsRefreshable": true,
       "Image": "ArcaneSculptor.png",
       "Name": "Arcane Sculptor",

@@ -1069,12 +1069,11 @@
       "Description": "No longer adrift in the Void, Sevagoth has returned. He and his Shadow deal heavy damage and have high survivability. They are sustained by the reaping of wayward souls.",
       "Conclave": false,
       "Helmet": "SevagothHelmet.png",
-      "Type": "Warframe",
       "MaxRank": 30,
       "Themes": "Phantom, Reaper, Shadow Elemental",
       "Tactical": "Gloom",
       "Image": "Sevagoth_Thumb.png",
-      "Name": "Sevagoth",
+      "Type": "Warframe",
       "Introduced": "30",
       "Armor": 160,
       "FullImages": [
@@ -1084,20 +1083,20 @@
         }
       ],
       "InternalName": "/Lotus/Powersuits/Wraith/Wraith",
-      "Shield": 235,
-      "Progenitor": "Impact",
-      "SquadPortrait": "WraithLargePortrait.png",
-      "Passive": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone.",
-      "Link": "Sevagoth",
-      "SellPrice": 10000,
-      "Portrait": "SevagothIcon272.png",
       "Polarities": [
         "Vazarin",
         "Madurai"
       ],
+      "Progenitor": "Impact",
+      "SquadPortrait": "WraithLargePortrait.png",
+      "Shield": 235,
+      "Link": "Sevagoth",
+      "Passive": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone.",
+      "SellPrice": 10000,
+      "Portrait": "SevagothIcon272.png",
       "InitialEnergy": 75,
       "Subsumed": "Gloom",
-      "AuraPolarity": "None",
+      "Name": "Sevagoth",
       "Abilities": [
         "Reap",
         "Sow",
@@ -1371,12 +1370,11 @@
       "Description": "Excalibur epitomizes the warrior spirit. His master swordsmanship deals high damage. He is the embodiment of martial excellence.",
       "Conclave": true,
       "Helmet": "ExcaliburHelmet.png",
-      "Type": "Warframe",
       "MaxRank": 30,
       "Themes": "Swordsman",
       "Tactical": "Radial Blind",
       "Image": "Excalibur_Thumb.png",
-      "Name": "Excalibur",
+      "Type": "Warframe",
       "Introduced": "Vanilla",
       "Armor": 240,
       "FullImages": [
@@ -1386,20 +1384,20 @@
         }
       ],
       "InternalName": "/Lotus/Powersuits/Excalibur/Excalibur",
-      "Shield": 270,
-      "Progenitor": "Electricity",
-      "SquadPortrait": "ExcaliburLargePortrait.png",
-      "Passive": "Excalibur deals 10% increased damage and attacks 10% faster when wielding swords.",
-      "Link": "Excalibur",
-      "SellPrice": 10000,
-      "Portrait": "ExcaliburIcon272.png",
       "Polarities": [
         "Vazarin",
         "Madurai"
       ],
+      "Progenitor": "Electricity",
+      "SquadPortrait": "ExcaliburLargePortrait.png",
+      "Shield": 270,
+      "Link": "Excalibur",
+      "Passive": "Excalibur deals 10% increased damage and attacks 10% faster when wielding swords.",
+      "SellPrice": 10000,
+      "Portrait": "ExcaliburIcon272.png",
       "InitialEnergy": 50,
       "Subsumed": "Radial Blind",
-      "AuraPolarity": "None",
+      "Name": "Excalibur",
       "Abilities": [
         "Slash Dash",
         "Radial Blind",
@@ -3094,17 +3092,16 @@
       "Armor": 135,
       "FullImages": {},
       "InternalName": "/Lotus/Powersuits/Stalker/Stalker",
-      "_IgnoreEntry": true,
       "Progenitor": "Impact",
       "SquadPortrait": "StalkerLargePortrait.png",
-      "Type": "Warframe",
+      "_IgnoreEntry": true,
       "Link": "Stalker (Playable)",
+      "Type": "Warframe",
       "Passive": "Stalker's attacks have +300% Critical Chance against enemies who do not see him.",
       "Portrait": "Stalker.png",
-      "Polarities": {},
       "InitialEnergy": 200,
+      "Polarities": {},
       "Name": "Stalker",
-      "AuraPolarity": "None",
       "Abilities": [
         "Teleport (Stalker)",
         "Marked",
@@ -3501,7 +3498,7 @@
       "FullImages": [
         {
           "TabName": "Profile",
-          "Image": "Sirius.png"
+          "Image": "S&O-Sirius.png"
         }
       ],
       "InternalName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
@@ -3799,12 +3796,11 @@
       "Description": "There is a reaper whose name is Nekros. He provides deathly crowd control. Erstwhile enemies become allies when Nekros calls up recruits from the dead.",
       "Conclave": true,
       "Helmet": "NekrosHelmet.png",
-      "Type": "Warframe",
       "MaxRank": 30,
       "Themes": "Darkness, Necromancy",
       "Tactical": "Terrify",
       "Image": "Nekros_Thumb.png",
-      "Name": "Nekros",
+      "Type": "Warframe",
       "Introduced": "10",
       "Armor": 105,
       "FullImages": [
@@ -3814,20 +3810,20 @@
         }
       ],
       "InternalName": "/Lotus/Powersuits/Necro/Necro",
-      "Shield": 235,
-      "Progenitor": "Toxin",
-      "SquadPortrait": "NekrosLargePortrait.png",
-      "Passive": "Restore 5 Health with every enemy death within 10m.",
-      "Link": "Nekros",
-      "SellPrice": 10000,
-      "Portrait": "NekrosIcon272.png",
       "Polarities": [
         "Vazarin",
         "Madurai"
       ],
+      "Progenitor": "Toxin",
+      "SquadPortrait": "NekrosLargePortrait.png",
+      "Shield": 235,
+      "Link": "Nekros",
+      "Passive": "Restore 5 Health with every enemy death within 10m.",
+      "SellPrice": 10000,
+      "Portrait": "NekrosIcon272.png",
       "InitialEnergy": 50,
       "Subsumed": "Terrify",
-      "AuraPolarity": "None",
+      "Name": "Nekros",
       "Abilities": [
         "Soul Punch",
         "Terrify",
@@ -4929,16 +4925,15 @@
     },
     "Sevagoth Prime": {
       "Sprint": 0.95,
-      "Vaulted": true,
       "Description": "The gilded helmsman emerges from the tempest, his shadow a lure for doomed souls.",
       "Conclave": false,
       "Helmet": "SevagothPrimeHelmet.png",
-      "Type": "Warframe",
+      "Name": "Sevagoth Prime",
       "MaxRank": 30,
       "Themes": "Phantom, Reaper, Shadow Elemental",
       "Tactical": "Gloom",
       "Image": "SevagothPrime_Thumb.png",
-      "Name": "Sevagoth Prime",
+      "Type": "Warframe",
       "Introduced": "36.1",
       "Armor": 185,
       "FullImages": [
@@ -4948,21 +4943,21 @@
         }
       ],
       "InternalName": "/Lotus/Powersuits/Wraith/SevagothPrime",
-      "Shield": 270,
-      "Progenitor": "Impact",
-      "SquadPortrait": "SevagothPrimeLargePortrait.png",
-      "Passive": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone.",
-      "Link": "Sevagoth/Prime",
-      "SellPrice": 10000,
-      "Portrait": "SevagothPrimeIcon272.png",
       "Polarities": [
         "Vazarin",
         "Naramon",
         "Madurai"
       ],
+      "Progenitor": "Impact",
+      "SquadPortrait": "SevagothPrimeLargePortrait.png",
+      "Shield": 270,
+      "Link": "Sevagoth/Prime",
+      "Passive": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone.",
+      "SellPrice": 10000,
+      "Portrait": "SevagothPrimeIcon272.png",
       "InitialEnergy": 100,
       "Subsumed": "Gloom",
-      "AuraPolarity": "None",
+      "Vaulted": true,
       "Abilities": [
         "Reap",
         "Sow",
@@ -5502,12 +5497,11 @@
       "Description": "Death's new master. Featuring altered mod polarities allow for greater customization.",
       "Conclave": true,
       "Helmet": "NekrosPrimeHelmet.png",
-      "Vaulted": true,
       "MaxRank": 30,
       "Themes": "Darkness, Necromancy",
       "Tactical": "Terrify",
       "Image": "NekrosPrime_Thumb.png",
-      "Type": "Warframe",
+      "Name": "Nekros Prime",
       "Introduced": "The Silver Grove 3",
       "Armor": 135,
       "FullImages": [
@@ -5517,21 +5511,21 @@
         }
       ],
       "InternalName": "/Lotus/Powersuits/Necro/NekrosPrime",
-      "Shield": 455,
+      "Type": "Warframe",
       "Progenitor": "Toxin",
       "SquadPortrait": "NekrosPrimeLargePortrait.png",
-      "Passive": "Restore 5 Health with every enemy death within 10m.",
+      "Shield": 455,
       "Link": "Nekros/Prime",
+      "Passive": "Restore 5 Health with every enemy death within 10m.",
       "SellPrice": 25000,
       "Portrait": "Nekros PrimeIcon272.png",
+      "InitialEnergy": 75,
       "Polarities": [
         "Madurai",
         "Vazarin",
         "Naramon"
       ],
-      "InitialEnergy": 75,
-      "Name": "Nekros Prime",
-      "AuraPolarity": "None",
+      "Vaulted": true,
       "Abilities": [
         "Soul Punch",
         "Terrify",
@@ -5704,15 +5698,15 @@
       "Image": "Orion_Thumb.png",
       "Name": "Orion",
       "Introduced": "43",
-      "Armor": 160,
+      "Armor": 300,
       "FullImages": [
         {
           "TabName": "Profile",
-          "Image": "Orion.png"
+          "Image": "S&O-Orion.png"
         }
       ],
       "InternalName": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
-      "Shield": 355,
+      "Shield": 270,
       "Progenitor": "Impact",
       "SquadPortrait": "OrionLargePortrait.png",
       "Passive": "Swapping between them grants 45% Ability Efficiency for the next 2 casts.\r\n\r\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
@@ -5737,7 +5731,7 @@
       "Playstyle": [
         "Damage"
       ],
-      "Health": 475,
+      "Health": 350,
       "Energy": 200,
       "CodexSecret": false
     },
@@ -6067,7 +6061,6 @@
       "InternalName": "/Lotus/Powersuits/Koumei/Koumei",
       "Type": "Warframe",
       "Link": "Koumei",
-      "ExilusPolarity": "None",
       "Health": 344,
       "Playstyle": [
         "Damage",
@@ -6538,7 +6531,6 @@
       "InternalName": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
       "Type": "Warframe",
       "Link": "Kullervo",
-      "ExilusPolarity": "None",
       "Health": 1005,
       "Playstyle": [
         "Damage"

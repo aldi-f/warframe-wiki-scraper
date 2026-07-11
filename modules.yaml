@@ -1,7 +1,7 @@
 modules:
   Module:Ability:
     file: ./data/ability.json
-    last_updated: '2026-06-18T10:14:05Z'
+    last_updated: '2026-07-02T04:16:41Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -16,7 +16,7 @@ modules:
       token: +\
   Module:Arcane:
     file: ./data/arcane.json
-    last_updated: '2026-06-21T09:13:13Z'
+    last_updated: '2026-06-30T07:42:26Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -31,7 +31,7 @@ modules:
       token: +\
   Module:Blueprints:
     file: ./data/blueprints.json
-    last_updated: '2026-06-19T18:21:48Z'
+    last_updated: '2026-07-08T06:36:11Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -77,7 +77,7 @@ modules:
   #     token: +\
   Module:DamageTypes:
     file: ./data/damage_types.json
-    last_updated: '2026-06-20T04:17:00Z'
+    last_updated: '2026-07-11T15:38:03Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -92,7 +92,7 @@ modules:
       token: +\
   Module:DropTables:
     file: ./data/drop_tables.json
-    last_updated: '2026-06-21T03:51:32Z'
+    last_updated: '2026-07-11T15:17:10Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -107,7 +107,7 @@ modules:
       token: +\
   Module:Enemies:
     file: ./data/enemies.json
-    last_updated: '2026-06-20T04:24:35Z'
+    last_updated: '2026-07-11T15:48:38Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -137,7 +137,7 @@ modules:
       token: +\
   Module:Missions:
     file: ./data/missions.json
-    last_updated: '2026-06-21T02:17:43Z'
+    last_updated: '2026-07-04T00:30:56Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -152,7 +152,7 @@ modules:
       token: +\
   Module:Mods:
     file: ./data/mods.json
-    last_updated: '2026-06-21T03:51:38Z'
+    last_updated: '2026-07-11T15:18:11Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -182,7 +182,7 @@ modules:
       token: +\
   Module:Void:
     file: ./data/void.json
-    last_updated: '2026-06-21T03:49:32Z'
+    last_updated: '2026-07-11T15:11:38Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -197,7 +197,7 @@ modules:
       token: +\
   Module:Warframes:
     file: ./data/warframes.json
-    last_updated: '2026-06-19T19:42:51Z'
+    last_updated: '2026-06-28T14:03:19Z'
     error: ''
     request_body:
       action: scribunto-console
@@ -212,7 +212,7 @@ modules:
       token: +\
   Module:Weapons:
     file: ./data/weapons.json
-    last_updated: '2026-06-21T03:51:32Z'
+    last_updated: '2026-07-11T15:17:10Z'
     error: ''
     request_body:
       action: scribunto-console

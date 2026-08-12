@@ -3580,7 +3580,7 @@
     },
     "Tribute": {
       "Description": "Cycle through and extract one of the four Buffs when cast on an enemy. Thorns reduces incoming damage. Dust degrades enemy accuracy. Full Moon increases companion damage. Entangle slows enemies within range.",
-      "Cost": 50,
+      "Cost": 25,
       "Powersuit": "Titania",
       "Key": 2,
       "CardImage": "TributeModx256.png",
@@ -4690,19 +4690,20 @@
     },
     "Ravenous": {
       "Description": "Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence and burst with Infestation. The maggots benefit from Mutation and each enemy hit adds to the Mutation stack.",
-      "Cost": 0,
+      "Cost": 3,
       "Augments": [
         "Insatiable"
       ],
       "Powersuit": "Nidus",
       "Key": 4,
+      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
       "CardImage": "RavenousModx256.png",
       "Name": "Ravenous",
       "Introduced": "19.5",
-      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
+      "Icon": "RavenousIcon(xWhite).png",
       "Preview": "RavenousPreview.webm",
       "PreviewFallback": "RavenousPreview.jpg",
-      "Icon": "RavenousIcon(xWhite).png"
+      "CostType": "mutation"
     },
     "Rotorswell": {
       "Description": "Gyre's mechanisms spin at incredible speeds, generating an Electric Field that shocks nearby enemies. When Gyre gets a critical hit, a large electrical discharge will chain from the enemy that was hit to nearby enemies.",

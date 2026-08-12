@@ -11284,7 +11284,7 @@
       "Rarity": "Rare",
       "Link": "Amalgam Furax Body Count",
       "BaseDrain": 6,
-      "Polarity": "Madurai",
+      "Polarity": "Naramon",
       "UpgradeTypes": [
         "WEAPON_MELEE_COMBO_DURATION_BONUS",
         "WEAPON_FIRE_RATE",
@@ -11413,7 +11413,7 @@
       "Class": "Antivirus",
       "MaxRank": 3,
       "NotUpgradable": true,
-      "Image": "AntiVMod.png",
+      "Image": "Anti-VMod.png",
       "Introduced": "38.5",
       "Icon": "Anti-V.png",
       "Transmutable": true,
@@ -16906,7 +16906,7 @@
       "Class": "Antivirus",
       "MaxRank": 3,
       "NotUpgradable": true,
-      "Image": "DriveDusterMod.png",
+      "Image": "Drive-DusterMod.png",
       "Introduced": "38.5",
       "Icon": "Drive-Duster.png",
       "Transmutable": true,
@@ -18058,7 +18058,7 @@
       "Class": "Antivirus",
       "MaxRank": 3,
       "NotUpgradable": true,
-      "Image": "KeepCleanMod.png",
+      "Image": "Keep-CleanMod.png",
       "Introduced": "38.5",
       "Icon": "Keep-Clean.png",
       "Transmutable": true,
@@ -21170,26 +21170,23 @@
       "CodexSecret": false
     },
     "Electrified Barrel": {
+      "Transmutable": true,
+      "Type": "Archgun",
       "Description": "+120% <DT_ELECTRICITY_COLOR>Electricity",
+      "Link": "Electrified Barrel",
       "UpgradeTypes": [
         "WEAPON_PERCENT_BASE_DAMAGE_ADDED"
       ],
-      "MaxRank": 5,
-      "Image": "ElectrifiedBarrelMod.png",
-      "Introduced": "15",
-      "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponElectricityDamageMod",
-      "Transmutable": true,
-      "Type": "Archgun",
-      "Rarity": "Uncommon",
-      "Link": "Electrified Barrel",
       "BaseDrain": 4,
-      "Polarity": "Naramon",
-      "Name": "Electrified Barrel",
+      "MaxRank": 5,
       "Tradable": true,
+      "Rarity": "Uncommon",
+      "Image": "ElectrifiedBarrelMod.png",
+      "Name": "Electrified Barrel",
+      "Introduced": "15",
+      "Polarity": "Naramon",
       "Icon": "ElectrifiedBarrel.png",
-      "Incompatible": [
-        "Primed Electrified Barrel"
-      ],
+      "InternalName": "/Lotus/Upgrades/Mods/Archwing/Rifle/ArchwingWeaponElectricityDamageMod",
       "CodexSecret": false
     },
     "Fear Sense": {

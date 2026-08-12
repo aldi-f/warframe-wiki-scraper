@@ -230,7 +230,7 @@
       "Armor": 75,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Operator.png"
         }
       ],
@@ -258,7 +258,7 @@
       "Armor": 75,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Drifter.png"
         }
       ],
@@ -297,7 +297,7 @@
       "Armor": 185,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "AshPrime.png"
         }
       ],
@@ -308,7 +308,7 @@
       "Passive": "Bleed effects inflicted on enemies do 25% increased damage and last 50% longer.",
       "Link": "Ash/Prime",
       "SellPrice": 25000,
-      "Portrait": "Ash PrimeIcon272.png",
+      "Portrait": "AshPrime_Thumb.png",
       "Polarities": [
         "Naramon",
         "Madurai",
@@ -347,7 +347,7 @@
       "Armor": 210,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "VaubanPrime.png"
         }
       ],
@@ -358,7 +358,7 @@
       "Passive": "Deal 25% Extra Damage to incapacitated enemies.",
       "Link": "Vauban/Prime",
       "SellPrice": 25000,
-      "Portrait": "Vauban PrimeIcon272.png",
+      "Portrait": "VaubanPrime_Thumb.png",
       "Polarities": [
         "Naramon",
         "Madurai",
@@ -396,7 +396,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "HildrynPrime.png"
         }
       ],
@@ -431,9 +431,61 @@
       ],
       "Sex": "Female",
       "SellPrice": 25000,
-      "Portrait": "HildrynPrimeIcon272.png",
+      "Portrait": "HildrynPrime_Thumb.png",
       "Energy": 0,
       "Name": "Hildryn Prime"
+    },
+    "Zephyr Prime": {
+      "Sprint": 1.15,
+      "Vaulted": true,
+      "Description": "Take to the skies with this golden bird of destruction.",
+      "Conclave": true,
+      "Helmet": "ZephyrPrimeHelmet.png",
+      "Type": "Warframe",
+      "MaxRank": 30,
+      "Themes": "Air Elemental, Avian",
+      "Tactical": "Tornado",
+      "Image": "ZephyrPrime_Thumb.png",
+      "Name": "Zephyr Prime",
+      "Introduced": "22.16.4",
+      "Armor": 135,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ZephyrPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+      "Shield": 455,
+      "Progenitor": "Impact",
+      "SquadPortrait": "ZephyrPrimeLargePortrait.png",
+      "SellPrice": 25000,
+      "Link": "Zephyr/Prime",
+      "Portrait": "ZephyrPrime_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ],
+      "Playstyle": [
+        "Damage",
+        "Crowd Control"
+      ],
+      "InitialEnergy": 75,
+      "Passive": "Zephyr moves faster and falls slower while airborne. Also gain 150% Critical Hit chance with weapons while airborne.",
+      "AuraPolarity": "Vazarin",
+      "Abilities": [
+        "Tail Wind",
+        "Airburst",
+        "Turbulence",
+        "Tornado"
+      ],
+      "Sex": "Female",
+      "Mastery": 0,
+      "Health": 455,
+      "Energy": 175,
+      "CodexSecret": false
     },
     "Styanax Prime": {
       "Sprint": 1,
@@ -451,7 +503,7 @@
       "Armor": 265,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "StyanaxPrime.png"
         }
       ],
@@ -500,7 +552,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "YareliPrime.png"
         },
         {
@@ -538,7 +590,7 @@
       ],
       "Sex": "Female",
       "Mastery": 0,
-      "Portrait": "YareliPrimeIcon272.png",
+      "Portrait": "YareliPrime_Thumb.png",
       "Energy": 215,
       "Name": "Yareli Prime"
     },
@@ -555,7 +607,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "CalibanPrime.png"
         }
       ],
@@ -589,7 +641,7 @@
       ],
       "Sex": "Male",
       "Mastery": 0,
-      "Portrait": "CalibanPrimeIcon272.png",
+      "Portrait": "CalibanPrime_Thumb.png",
       "Energy": 175,
       "Name": "Caliban Prime"
     },
@@ -608,7 +660,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Zephyr.png"
         }
       ],
@@ -619,7 +671,7 @@
       "Passive": "Zephyr moves faster and falls slower while airborne. Also gain 150% Critical Hit chance with weapons while airborne.",
       "Link": "Zephyr",
       "SellPrice": 10000,
-      "Portrait": "ZephyrIcon272.png",
+      "Portrait": "Zephyr_Thumb.png",
       "Polarities": [
         "Madurai",
         "Naramon"
@@ -642,6 +694,61 @@
       "Energy": 100,
       "CodexSecret": false
     },
+    "Yareli": {
+      "EnergyRank30": 300,
+      "MaxRank": 30,
+      "Themes": "Aquakinesis, Idol, Surfer",
+      "Tactical": "Riptide",
+      "Passive": "Yareli gains +200% Critical Chance for Secondary weapons when she has been moving for at least 1.5s.",
+      "Introduced": "30.5",
+      "Polarities": [
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Yareli.png"
+        },
+        {
+          "TabName": "Merulina",
+          "Image": "Yareli_Merulina.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Yareli/Yareli",
+      "Type": "Warframe",
+      "Link": "Yareli",
+      "Health": 270,
+      "Playstyle": [
+        "Damage",
+        "Crowd Control"
+      ],
+      "CodexSecret": false,
+      "Sprint": 1,
+      "Description": "The waverider can unleash a flood of destruction on the battlefield. Yareli\u2019s aqueous attacks deal high damage. Surf\u2019s up. Enemies down.",
+      "Conclave": false,
+      "Helmet": "YareliHelmet.png",
+      "Image": "Yareli_Thumb.png",
+      "Armor": 105,
+      "Progenitor": "Magnetic",
+      "SquadPortrait": "YareliLargePortrait.png",
+      "SellPrice": 25000,
+      "Shield": 455,
+      "InitialEnergy": 50,
+      "Subsumed": "Aquablades",
+      "AuraPolarity": "Madurai",
+      "Abilities": [
+        "Sea Snares",
+        "Merulina",
+        "Aquablades",
+        "Riptide"
+      ],
+      "Sex": "Female",
+      "Mastery": 0,
+      "Portrait": "Yareli_Thumb.png",
+      "Energy": 200,
+      "Name": "Yareli"
+    },
     "Gauss": {
       "Sprint": 1.4,
       "Type": "Warframe",
@@ -658,7 +765,7 @@
       "Armor": 185,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Gauss.png"
         },
         {
@@ -672,7 +779,7 @@
       "SquadPortrait": "GaussLargePortrait.png",
       "SellPrice": 10000,
       "Link": "Gauss",
-      "Portrait": "GaussIcon272.png",
+      "Portrait": "Gauss_Thumb.png",
       "ExilusPolarity": "Naramon",
       "Polarities": [
         "Madurai",
@@ -711,7 +818,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Limbo.png"
         }
       ],
@@ -722,7 +829,7 @@
       "Passive": "Dodge to enter and exit the Rift. Entering leaves behind a small Rift portal lasting 5s. Energy slowly recharges in the Rift, and each enemy killed in there also gives 10 Energy.",
       "Link": "Limbo",
       "SellPrice": 10000,
-      "Portrait": "LimboIcon272.png",
+      "Portrait": "Limbo_Thumb.png",
       "Polarities": [
         "Madurai",
         "Madurai"
@@ -744,170 +851,6 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Zephyr Prime": {
-      "Sprint": 1.15,
-      "Vaulted": true,
-      "Description": "Take to the skies with this golden bird of destruction.",
-      "Conclave": true,
-      "Helmet": "ZephyrPrimeHelmet.png",
-      "Type": "Warframe",
-      "MaxRank": 30,
-      "Themes": "Air Elemental, Avian",
-      "Tactical": "Tornado",
-      "Image": "ZephyrPrime_Thumb.png",
-      "Name": "Zephyr Prime",
-      "Introduced": "22.16.4",
-      "Armor": 135,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "ZephyrPrime.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Tengu/ZephyrPrime",
-      "Shield": 455,
-      "Progenitor": "Impact",
-      "SquadPortrait": "ZephyrPrimeLargePortrait.png",
-      "SellPrice": 25000,
-      "Link": "Zephyr/Prime",
-      "Portrait": "Zephyr PrimeIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Madurai",
-        "Vazarin",
-        "Naramon"
-      ],
-      "Playstyle": [
-        "Damage",
-        "Crowd Control"
-      ],
-      "InitialEnergy": 75,
-      "Passive": "Zephyr moves faster and falls slower while airborne. Also gain 150% Critical Hit chance with weapons while airborne.",
-      "AuraPolarity": "Vazarin",
-      "Abilities": [
-        "Tail Wind",
-        "Airburst",
-        "Turbulence",
-        "Tornado"
-      ],
-      "Sex": "Female",
-      "Mastery": 0,
-      "Health": 455,
-      "Energy": 175,
-      "CodexSecret": false
-    },
-    "Yareli": {
-      "EnergyRank30": 300,
-      "MaxRank": 30,
-      "Themes": "Aquakinesis, Idol, Surfer",
-      "Tactical": "Riptide",
-      "Passive": "Yareli gains +200% Critical Chance for Secondary weapons when she has been moving for at least 1.5s.",
-      "Introduced": "30.5",
-      "Polarities": [
-        "Madurai",
-        "Naramon"
-      ],
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Yareli.png"
-        },
-        {
-          "TabName": "Merulina",
-          "Image": "Yareli_Merulina.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Yareli/Yareli",
-      "Type": "Warframe",
-      "Link": "Yareli",
-      "Health": 270,
-      "Playstyle": [
-        "Damage",
-        "Crowd Control"
-      ],
-      "CodexSecret": false,
-      "Sprint": 1,
-      "Description": "The waverider can unleash a flood of destruction on the battlefield. Yareli\u2019s aqueous attacks deal high damage. Surf\u2019s up. Enemies down.",
-      "Conclave": false,
-      "Helmet": "YareliHelmet.png",
-      "Image": "Yareli_Thumb.png",
-      "Armor": 105,
-      "Progenitor": "Magnetic",
-      "SquadPortrait": "YareliLargePortrait.png",
-      "SellPrice": 25000,
-      "Shield": 455,
-      "InitialEnergy": 50,
-      "Subsumed": "Aquablades",
-      "AuraPolarity": "Madurai",
-      "Abilities": [
-        "Sea Snares",
-        "Merulina",
-        "Aquablades",
-        "Riptide"
-      ],
-      "Sex": "Female",
-      "Mastery": 0,
-      "Portrait": "YareliIcon272.png",
-      "Energy": 200,
-      "Name": "Yareli"
-    },
-    "Chroma Prime": {
-      "EnergyRank30": 300,
-      "MaxRank": 30,
-      "Themes": "Dragon, Elemental Power, Hunter",
-      "Tactical": "Elemental Ward",
-      "Passive": "Wings sprout for an additional jump and bullet jump.",
-      "Introduced": "23.9",
-      "Polarities": [
-        "Naramon",
-        "Vazarin",
-        "Madurai",
-        "Naramon"
-      ],
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "ChromaPrime.png"
-        },
-        {
-          "TabName": "Effigy",
-          "Image": "ChromaPrime-Effigy.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Dragon/ChromaPrime",
-      "Type": "Warframe",
-      "Link": "Chroma/Prime",
-      "Health": 270,
-      "Playstyle": [
-        "Survival",
-        "Damage"
-      ],
-      "CodexSecret": false,
-      "Sprint": 1,
-      "Description": "Bind the elements and unleash untold destruction with Chroma Prime. Featuring altered mod polarities for greater customization.",
-      "Conclave": true,
-      "Helmet": "ChromaPrimeHelmet.png",
-      "Image": "ChromaPrime_Thumb.png",
-      "Armor": 450,
-      "Progenitor": "Heat",
-      "SquadPortrait": "ChromaPrimeLargePortrait.png",
-      "Vaulted": true,
-      "Shield": 270,
-      "InitialEnergy": 100,
-      "SellPrice": 10000,
-      "AuraPolarity": "Madurai",
-      "Abilities": [
-        "Spectral Scream",
-        "Elemental Ward",
-        "Vex Armor",
-        "Effigy"
-      ],
-      "Sex": "Male",
-      "Mastery": 0,
-      "Portrait": "Chroma PrimeIcon272.png",
-      "Energy": 200,
-      "Name": "Chroma Prime"
-    },
     "Xaku Prime": {
       "EnergyRank30": 251,
       "ShieldRank30": 353,
@@ -923,7 +866,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "XakuPrime.png"
         },
         {
@@ -962,9 +905,167 @@
       ],
       "Sex": "Non-binary",
       "Mastery": 0,
-      "Portrait": "XakuPrimeIcon272.png",
+      "Portrait": "XakuPrime_Thumb.png",
       "Energy": 181,
       "Name": "Xaku Prime"
+    },
+    "Nova Prime": {
+      "Sprint": 1.2,
+      "Description": "Nova Prime wreaks devastation on her enemies using volatile antimatter. Featuring altered mod polarities for greater customization.",
+      "Conclave": true,
+      "Helmet": "NovaPrimeHelmet.png",
+      "Vaulted": true,
+      "MaxRank": 30,
+      "Themes": "Antimatter Manipulation",
+      "Tactical": "Null Star",
+      "Image": "NovaPrime_Thumb.png",
+      "Type": "Warframe",
+      "Introduced": "15.7",
+      "Armor": 135,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "NovaPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+      "Shield": 270,
+      "Progenitor": "Electricity",
+      "SquadPortrait": "NovaPrimeLargePortrait.png",
+      "Passive": "Enemies killed while slowed down have 15% to drop health orbs. Enemies killed while sped up have 15% to drop energy orbs.",
+      "Link": "Nova/Prime",
+      "SellPrice": 25000,
+      "Portrait": "NovaPrime_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Madurai"
+      ],
+      "InitialEnergy": 150,
+      "Name": "Nova Prime",
+      "AuraPolarity": "Naramon",
+      "Abilities": [
+        "Null Star",
+        "Antimatter Drop",
+        "Wormhole",
+        "Molecular Prime"
+      ],
+      "Sex": "Female",
+      "Playstyle": [
+        "Damage",
+        "Crowd Control"
+      ],
+      "Health": 270,
+      "Energy": 215,
+      "CodexSecret": false
+    },
+    "Chroma Prime": {
+      "EnergyRank30": 300,
+      "MaxRank": 30,
+      "Themes": "Dragon, Elemental Power, Hunter",
+      "Tactical": "Elemental Ward",
+      "Passive": "Wings sprout for an additional jump and bullet jump.",
+      "Introduced": "23.9",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ChromaPrime.png"
+        },
+        {
+          "TabName": "Effigy",
+          "Image": "ChromaPrime-Effigy.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Dragon/ChromaPrime",
+      "Type": "Warframe",
+      "Link": "Chroma/Prime",
+      "Health": 270,
+      "Playstyle": [
+        "Survival",
+        "Damage"
+      ],
+      "CodexSecret": false,
+      "Sprint": 1,
+      "Description": "Bind the elements and unleash untold destruction with Chroma Prime. Featuring altered mod polarities for greater customization.",
+      "Conclave": true,
+      "Helmet": "ChromaPrimeHelmet.png",
+      "Image": "ChromaPrime_Thumb.png",
+      "Armor": 450,
+      "Progenitor": "Heat",
+      "SquadPortrait": "ChromaPrimeLargePortrait.png",
+      "Vaulted": true,
+      "Shield": 270,
+      "InitialEnergy": 100,
+      "SellPrice": 10000,
+      "AuraPolarity": "Madurai",
+      "Abilities": [
+        "Spectral Scream",
+        "Elemental Ward",
+        "Vex Armor",
+        "Effigy"
+      ],
+      "Sex": "Male",
+      "Mastery": 0,
+      "Portrait": "ChromaPrime_Thumb.png",
+      "Energy": 200,
+      "Name": "Chroma Prime"
+    },
+    "Wukong Prime": {
+      "Sprint": 1.05,
+      "Vaulted": true,
+      "Description": "The trickster-warrior ascends to his ultimate incarnation. ",
+      "Conclave": false,
+      "Helmet": "WukongPrimeHelmet.png",
+      "Type": "Warframe",
+      "MaxRank": 30,
+      "Themes": "Monkey King",
+      "Tactical": "Celestial Twin",
+      "Image": "WukongPrime_Thumb.png",
+      "Name": "Wukong Prime",
+      "Introduced": "25.3.0",
+      "Armor": 290,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "WukongPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+      "Shield": 345,
+      "Progenitor": "Impact",
+      "SquadPortrait": "WukongPrimeLargePortrait.png",
+      "SellPrice": 10000,
+      "Link": "Wukong/Prime",
+      "Portrait": "WukongPrime_Thumb.png",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Madurai"
+      ],
+      "Playstyle": [
+        "Damage",
+        "Survival"
+      ],
+      "InitialEnergy": 65,
+      "Passive": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
+      "AuraPolarity": "Madurai",
+      "Abilities": [
+        "Celestial Twin",
+        "Cloud Walker",
+        "Defy",
+        "Primal Fury"
+      ],
+      "Sex": "Male",
+      "Mastery": 0,
+      "Health": 455,
+      "Energy": 145,
+      "CodexSecret": false
     },
     "Atlas": {
       "Sprint": 0.9,
@@ -981,7 +1082,7 @@
       "Armor": 475,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Atlas.png"
         }
       ],
@@ -992,7 +1093,7 @@
       "Passive": "Becomes immune to Knockdown effects while on the ground.",
       "Link": "Atlas",
       "SellPrice": 10000,
-      "Portrait": "AtlasIcon272.png",
+      "Portrait": "Atlas_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin",
@@ -1031,7 +1132,7 @@
       "Armor": 160,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "EmberPrime.png"
         }
       ],
@@ -1042,7 +1143,7 @@
       "Passive": "Receive 5% Ability Strength for every enemy within Affinity Range affected by Heat.",
       "Link": "Ember/Prime",
       "SellPrice": 25000,
-      "Portrait": "Ember PrimeIcon272.png",
+      "Portrait": "EmberPrime_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -1064,153 +1165,6 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Sevagoth": {
-      "Sprint": 0.95,
-      "Description": "No longer adrift in the Void, Sevagoth has returned. He and his Shadow deal heavy damage and have high survivability. They are sustained by the reaping of wayward souls.",
-      "Conclave": false,
-      "Helmet": "SevagothHelmet.png",
-      "MaxRank": 30,
-      "Themes": "Phantom, Reaper, Shadow Elemental",
-      "Tactical": "Gloom",
-      "Image": "Sevagoth_Thumb.png",
-      "Type": "Warframe",
-      "Introduced": "30",
-      "Armor": 160,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Sevagoth.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Wraith/Wraith",
-      "Polarities": [
-        "Vazarin",
-        "Madurai"
-      ],
-      "Progenitor": "Impact",
-      "SquadPortrait": "WraithLargePortrait.png",
-      "Shield": 235,
-      "Link": "Sevagoth",
-      "Passive": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone.",
-      "SellPrice": 10000,
-      "Portrait": "SevagothIcon272.png",
-      "InitialEnergy": 75,
-      "Subsumed": "Gloom",
-      "Name": "Sevagoth",
-      "Abilities": [
-        "Reap",
-        "Sow",
-        "Gloom",
-        "Exalted Shadow"
-      ],
-      "Sex": "Male",
-      "Playstyle": [
-        "Damage",
-        "Survival"
-      ],
-      "Health": 270,
-      "Energy": 140,
-      "CodexSecret": false
-    },
-    "Hydroid": {
-      "Sprint": 1.05,
-      "Description": "Hydroid summons the power of the ocean depths. He provides crowd control with aqueous attacks. His enemies will meet a watery demise.",
-      "Conclave": true,
-      "Helmet": "HydroidHelmet.png",
-      "Type": "Warframe",
-      "MaxRank": 30,
-      "Themes": "Pirate, Water Elemental",
-      "Tactical": "Tempest Barrage",
-      "Image": "Hydroid_Thumb.png",
-      "Name": "Hydroid",
-      "Introduced": "13",
-      "Armor": 240,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Hydroid.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Pirate/Pirate",
-      "Shield": 365,
-      "Progenitor": "Magnetic",
-      "SquadPortrait": "HydroidLargePortrait.png",
-      "Passive": "Enemies damaged by Hydroid are more vulnerable to Corrosion Status, with initial status reducing armor by 50%.",
-      "Link": "Hydroid",
-      "SellPrice": 10000,
-      "Portrait": "HydroidIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Naramon"
-      ],
-      "InitialEnergy": 75,
-      "Subsumed": "Tempest Barrage",
-      "AuraPolarity": "Naramon",
-      "Abilities": [
-        "Tempest Barrage",
-        "Tidal Surge",
-        "Plunder",
-        "Tentacle Swarm"
-      ],
-      "Sex": "Male",
-      "Playstyle": [
-        "Crowd Control"
-      ],
-      "Health": 270,
-      "Energy": 140,
-      "CodexSecret": false
-    },
-    "Wukong Prime": {
-      "Sprint": 1.05,
-      "Vaulted": true,
-      "Description": "The trickster-warrior ascends to his ultimate incarnation. ",
-      "Conclave": false,
-      "Helmet": "WukongPrimeHelmet.png",
-      "Type": "Warframe",
-      "MaxRank": 30,
-      "Themes": "Monkey King",
-      "Tactical": "Celestial Twin",
-      "Image": "WukongPrime_Thumb.png",
-      "Name": "Wukong Prime",
-      "Introduced": "25.3.0",
-      "Armor": 290,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "WukongPrime.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
-      "Shield": 345,
-      "Progenitor": "Impact",
-      "SquadPortrait": "WukongPrimeLargePortrait.png",
-      "SellPrice": 10000,
-      "Link": "Wukong/Prime",
-      "Portrait": "Wukong_PrimeIcon272.png",
-      "Polarities": [
-        "Naramon",
-        "Vazarin",
-        "Madurai"
-      ],
-      "Playstyle": [
-        "Damage",
-        "Survival"
-      ],
-      "InitialEnergy": 65,
-      "Passive": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
-      "AuraPolarity": "Madurai",
-      "Abilities": [
-        "Celestial Twin",
-        "Cloud Walker",
-        "Defy",
-        "Primal Fury"
-      ],
-      "Sex": "Male",
-      "Mastery": 0,
-      "Health": 455,
-      "Energy": 145,
-      "CodexSecret": false
-    },
     "Wukong": {
       "Sprint": 1,
       "Description": "The simian warrior is a mountain of strength. Wukong deals heavy damage and has high survivability. His quick trickster tactics are unforgettable.",
@@ -1226,7 +1180,7 @@
       "Armor": 265,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Wukong.png"
         }
       ],
@@ -1237,7 +1191,7 @@
       "Passive": "After taking fatal damage Wukong automatically uses one of his mastered survival techniques. These techniques can only be invoked three times per mission.",
       "Link": "Wukong",
       "SellPrice": 10000,
-      "Portrait": "WukongIcon272.png",
+      "Portrait": "Wukong_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin"
@@ -1260,6 +1214,153 @@
       "Energy": 130,
       "CodexSecret": false
     },
+    "Hydroid": {
+      "Sprint": 1.05,
+      "Description": "Hydroid summons the power of the ocean depths. He provides crowd control with aqueous attacks. His enemies will meet a watery demise.",
+      "Conclave": true,
+      "Helmet": "HydroidHelmet.png",
+      "Type": "Warframe",
+      "MaxRank": 30,
+      "Themes": "Pirate, Water Elemental",
+      "Tactical": "Tempest Barrage",
+      "Image": "Hydroid_Thumb.png",
+      "Name": "Hydroid",
+      "Introduced": "13",
+      "Armor": 240,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Hydroid.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Pirate/Pirate",
+      "Shield": 365,
+      "Progenitor": "Magnetic",
+      "SquadPortrait": "HydroidLargePortrait.png",
+      "Passive": "Enemies damaged by Hydroid are more vulnerable to Corrosion Status, with initial status reducing armor by 50%.",
+      "Link": "Hydroid",
+      "SellPrice": 10000,
+      "Portrait": "Hydroid_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Naramon"
+      ],
+      "InitialEnergy": 75,
+      "Subsumed": "Tempest Barrage",
+      "AuraPolarity": "Naramon",
+      "Abilities": [
+        "Tempest Barrage",
+        "Tidal Surge",
+        "Plunder",
+        "Tentacle Swarm"
+      ],
+      "Sex": "Male",
+      "Playstyle": [
+        "Crowd Control"
+      ],
+      "Health": 270,
+      "Energy": 140,
+      "CodexSecret": false
+    },
+    "Wisp Prime": {
+      "Sprint": 1.25,
+      "EnergyRank30": 300,
+      "Description": "Wisp Prime\u2019s gilded splendor haunts the battlefield. Allies welcome her interdimensional beauty.",
+      "Conclave": false,
+      "Helmet": "WispPrimeHelmet.png",
+      "Vaulted": true,
+      "MaxRank": 30,
+      "Themes": "Will-O-Wisp, Witch, Portal Manipulation",
+      "Tactical": "Breach Surge",
+      "Image": "WispPrime_Thumb.png",
+      "Type": "Warframe",
+      "Introduced": "33.6",
+      "Armor": 210,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "WispPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Wisp/WispPrime",
+      "Shield": 270,
+      "Progenitor": "Heat",
+      "SquadPortrait": "WispPrimeLargePortrait.png",
+      "Passive": "Flowing between dimensions Wisp becomes invisible to enemies while in the air.",
+      "Link": "Wisp/Prime",
+      "SellPrice": 25000,
+      "Portrait": "WispPrime_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ],
+      "InitialEnergy": 150,
+      "Name": "Wisp Prime",
+      "AuraPolarity": "Naramon",
+      "Abilities": [
+        "Reservoirs",
+        "Wil-O-Wisp",
+        "Breach Surge",
+        "Sol Gate"
+      ],
+      "Sex": "Female",
+      "Playstyle": [
+        "Support"
+      ],
+      "Health": 270,
+      "Energy": 200,
+      "CodexSecret": false
+    },
+    "Wisp": {
+      "Sprint": 1.2,
+      "EnergyRank30": 300,
+      "Description": "Wisp floats between the material and the ethereal. She accesses multiple dimensions to support her allies. Her countenance is mysterious and enigmatic.",
+      "Conclave": false,
+      "Helmet": "WispHelmet.png",
+      "Type": "Warframe",
+      "MaxRank": 30,
+      "Themes": "Will-O-Wisp, Solar Elemental, Portal Manipulation",
+      "Tactical": "Breach Surge",
+      "Image": "Wisp_Thumb.png",
+      "Name": "Wisp",
+      "Introduced": "25.0",
+      "Armor": 185,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Wisp.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Wisp/Wisp",
+      "Shield": 180,
+      "Progenitor": "Heat",
+      "SquadPortrait": "WispLargePortrait.png",
+      "Passive": "Flowing between dimensions Wisp becomes invisible to enemies while in the air.",
+      "Link": "Wisp",
+      "SellPrice": 25000,
+      "Portrait": "Wisp_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Vazarin"
+      ],
+      "InitialEnergy": 150,
+      "Subsumed": "Breach Surge",
+      "AuraPolarity": "Naramon",
+      "Abilities": [
+        "Reservoirs",
+        "Wil-O-Wisp",
+        "Breach Surge",
+        "Sol Gate"
+      ],
+      "Sex": "Female",
+      "Playstyle": [
+        "Support"
+      ],
+      "Health": 270,
+      "Energy": 200,
+      "CodexSecret": false
+    },
     "Titania Prime": {
       "Sprint": 1,
       "Vaulted": true,
@@ -1276,7 +1377,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "TitaniaPrime.png"
         }
       ],
@@ -1286,7 +1387,7 @@
       "SquadPortrait": "TitaniaPrimeLargePortrait.png",
       "SellPrice": 10000,
       "Link": "Titania/Prime",
-      "Portrait": "TitaniaPrimeIcon272.png",
+      "Portrait": "TitaniaPrime_Thumb.png",
       "Polarities": [
         "Naramon",
         "Madurai",
@@ -1327,7 +1428,7 @@
       "Armor": 370,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Chroma.png"
         },
         {
@@ -1342,7 +1443,7 @@
       "Passive": "Wings sprout for an additional jump and bullet jump.",
       "Link": "Chroma",
       "SellPrice": 10000,
-      "Portrait": "ChromaIcon272.png",
+      "Portrait": "Chroma_Thumb.png",
       "Polarities": [
         "Naramon",
         "Madurai"
@@ -1379,7 +1480,7 @@
       "Armor": 240,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Excalibur.png"
         }
       ],
@@ -1394,7 +1495,7 @@
       "Link": "Excalibur",
       "Passive": "Excalibur deals 10% increased damage and attacks 10% faster when wielding swords.",
       "SellPrice": 10000,
-      "Portrait": "ExcaliburIcon272.png",
+      "Portrait": "Excalibur_Thumb.png",
       "InitialEnergy": 50,
       "Subsumed": "Radial Blind",
       "Name": "Excalibur",
@@ -1412,54 +1513,54 @@
       "Energy": 100,
       "CodexSecret": false
     },
-    "Wisp Prime": {
-      "Sprint": 1.25,
-      "EnergyRank30": 300,
-      "Description": "Wisp Prime\u2019s gilded splendor haunts the battlefield. Allies welcome her interdimensional beauty.",
-      "Conclave": false,
-      "Helmet": "WispPrimeHelmet.png",
+    "Banshee Prime": {
+      "Sprint": 1.15,
       "Vaulted": true,
-      "MaxRank": 30,
-      "Themes": "Will-O-Wisp, Witch, Portal Manipulation",
-      "Tactical": "Breach Surge",
-      "Image": "WispPrime_Thumb.png",
+      "Description": "Banshee Prime assails her foes by manipulating sonic forces to deadly effect. Featuring altered mod polarities for greater customization.",
+      "Conclave": true,
+      "Helmet": "BansheePrimeHelmet.png",
       "Type": "Warframe",
-      "Introduced": "33.6",
-      "Armor": 210,
+      "MaxRank": 30,
+      "Themes": "Sound, Wailing Spirit",
+      "Tactical": "Silence",
+      "Image": "BansheePrime_Thumb.png",
+      "Name": "Banshee Prime",
+      "Introduced": "19.11.5",
+      "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "WispPrime.png"
+          "TabName": "Full Body",
+          "Image": "BansheePrime.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Wisp/WispPrime",
+      "InternalName": "/Lotus/Powersuits/Banshee/BansheePrime",
       "Shield": 270,
-      "Progenitor": "Heat",
-      "SquadPortrait": "WispPrimeLargePortrait.png",
-      "Passive": "Flowing between dimensions Wisp becomes invisible to enemies while in the air.",
-      "Link": "Wisp/Prime",
-      "SellPrice": 25000,
-      "Portrait": "WispPrimeIcon272.png",
+      "Progenitor": "Electricity",
+      "SquadPortrait": "BansheePrimeLargePortrait.png",
+      "SellPrice": 10000,
+      "Link": "Banshee/Prime",
+      "Portrait": "BansheePrime_Thumb.png",
       "Polarities": [
         "Madurai",
-        "Vazarin",
+        "Madurai",
         "Naramon"
       ],
-      "InitialEnergy": 150,
-      "Name": "Wisp Prime",
-      "AuraPolarity": "Naramon",
+      "Playstyle": [
+        "Crowd Control"
+      ],
+      "InitialEnergy": 125,
+      "Passive": "Weapon noises are hushed so that enemies cannot hear them.",
+      "AuraPolarity": "Madurai",
       "Abilities": [
-        "Reservoirs",
-        "Wil-O-Wisp",
-        "Breach Surge",
-        "Sol Gate"
+        "Sonic Boom",
+        "Sonar",
+        "Silence",
+        "Sound Quake"
       ],
       "Sex": "Female",
-      "Playstyle": [
-        "Support"
-      ],
+      "Mastery": 0,
       "Health": 270,
-      "Energy": 200,
+      "Energy": 215,
       "CodexSecret": false
     },
     "Titania": {
@@ -1477,7 +1578,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Titania.png"
         }
       ],
@@ -1488,7 +1589,7 @@
       "Passive": "Titania generates Health for herself and nearby allies every time she casts an Ability.",
       "Link": "Titania",
       "SellPrice": 10000,
-      "Portrait": "TitaniaIcon272.png",
+      "Portrait": "Titania_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -1525,7 +1626,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Hildryn.png"
         }
       ],
@@ -1559,106 +1660,9 @@
       ],
       "Sex": "Female",
       "SellPrice": 25000,
-      "Portrait": "HildrynIcon272.png",
+      "Portrait": "Hildryn_Thumb.png",
       "Energy": 0,
       "Name": "Hildryn"
-    },
-    "Wisp": {
-      "Sprint": 1.2,
-      "EnergyRank30": 300,
-      "Description": "Wisp floats between the material and the ethereal. She accesses multiple dimensions to support her allies. Her countenance is mysterious and enigmatic.",
-      "Conclave": false,
-      "Helmet": "WispHelmet.png",
-      "Type": "Warframe",
-      "MaxRank": 30,
-      "Themes": "Will-O-Wisp, Solar Elemental, Portal Manipulation",
-      "Tactical": "Breach Surge",
-      "Image": "Wisp_Thumb.png",
-      "Name": "Wisp",
-      "Introduced": "25.0",
-      "Armor": 185,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Wisp.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Wisp/Wisp",
-      "Shield": 180,
-      "Progenitor": "Heat",
-      "SquadPortrait": "WispLargePortrait.png",
-      "Passive": "Flowing between dimensions Wisp becomes invisible to enemies while in the air.",
-      "Link": "Wisp",
-      "SellPrice": 25000,
-      "Portrait": "WispIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Vazarin"
-      ],
-      "InitialEnergy": 150,
-      "Subsumed": "Breach Surge",
-      "AuraPolarity": "Naramon",
-      "Abilities": [
-        "Reservoirs",
-        "Wil-O-Wisp",
-        "Breach Surge",
-        "Sol Gate"
-      ],
-      "Sex": "Female",
-      "Playstyle": [
-        "Support"
-      ],
-      "Health": 270,
-      "Energy": 200,
-      "CodexSecret": false
-    },
-    "Uriel": {
-      "Sprint": 1.1,
-      "Description": "To fight as the Heretic of Xata is to have demons at your back. Uriel incinerates foes with searing brimstone, and commands three fiendish summons to do his devil\u2019s work.",
-      "Conclave": false,
-      "Helmet": "UrielHelmet.png",
-      "Type": "Warframe",
-      "MaxRank": 30,
-      "Themes": "Demons, Devil, Hellfire",
-      "Tactical": "Demonium",
-      "Image": "Uriel_Thumb.png",
-      "Name": "Uriel",
-      "Introduced": "41",
-      "Armor": 105,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Uriel.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
-      "Shield": 566,
-      "Progenitor": "Heat",
-      "SquadPortrait": "UrielLargePortrait.png",
-      "Passive": "Uriel commands, empowers, and protects three unique demons.\r\n\r\nCATENACH: Snares and slows enemies chaining them together. Damage dealt to any target in the chain is inflicted on all snared enemies. (Unlocks with Infernalis)\r\n\r\nGULPHAGOR : Latches onto foes dealing damage over time. If killed, a circle of pain is spawned. (Unlocks with Remedium)\r\n\r\nVYTHELAS: Inscribes demonic runes upon fallen foes that add Fire Rate and <DT_FIRE_COLOR>Heat Damage when collected. (Unlocks with Demonium)",
-      "Link": "Uriel",
-      "SellPrice": 10000,
-      "Portrait": "UrielIcon272.png",
-      "Polarities": [
-        "Naramon",
-        "Vazarin"
-      ],
-      "InitialEnergy": 50,
-      "Subsumed": "Remedium",
-      "AuraPolarity": "Madurai",
-      "Abilities": [
-        "Infernalis",
-        "Remedium",
-        "Demonium",
-        "Brimstone"
-      ],
-      "Sex": "Male",
-      "Playstyle": [
-        "Damage"
-      ],
-      "Health": 566,
-      "Energy": 100,
-      "CodexSecret": false
     },
     "Voruna": {
       "Sprint": 0.95,
@@ -1675,7 +1679,7 @@
       "Armor": 200,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Voruna.png"
         }
       ],
@@ -1686,7 +1690,7 @@
       "Passive": "Voruna never fights alone. In mission, hold Abilities to call upon each wolf's unique Passive power.",
       "Link": "Voruna",
       "SellPrice": 10000,
-      "Portrait": "VorunaIcon272.png",
+      "Portrait": "Voruna_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -1723,7 +1727,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Lavos.png"
         }
       ],
@@ -1759,59 +1763,9 @@
       ],
       "Sex": "Male",
       "SellPrice": 10000,
-      "Portrait": "LavosIcon272.png",
+      "Portrait": "Lavos_Thumb.png",
       "Energy": 0,
       "Name": "Lavos"
-    },
-    "Saryn Prime": {
-      "Sprint": 1,
-      "EnergyRank30": 300,
-      "Description": "A golden blossom conceals deadly nectar. Featuring altered mod polarities for greater customization.",
-      "Conclave": true,
-      "Helmet": "SarynPrimeHelmet.png",
-      "Vaulted": true,
-      "MaxRank": 30,
-      "Themes": "Disease, Poison, Serpentine",
-      "Tactical": "Molt",
-      "Image": "SarynPrime_Thumb.png",
-      "Type": "Warframe",
-      "Introduced": "18.4.12",
-      "Armor": 315,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "SarynPrime.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Saryn/SarynPrime",
-      "Shield": 270,
-      "Progenitor": "Toxin",
-      "SquadPortrait": "SarynPrimeLargePortrait.png",
-      "Passive": "Status Effects inflicted upon enemies last 25% longer.",
-      "Link": "Saryn/Prime",
-      "SellPrice": 25000,
-      "Portrait": "Saryn PrimeIcon272.png",
-      "Polarities": [
-        "Naramon",
-        "Vazarin",
-        "Madurai"
-      ],
-      "InitialEnergy": 100,
-      "Name": "Saryn Prime",
-      "AuraPolarity": "Vazarin",
-      "Abilities": [
-        "Spores",
-        "Molt",
-        "Toxic Lash",
-        "Miasma"
-      ],
-      "Sex": "Female",
-      "Playstyle": [
-        "Damage"
-      ],
-      "Health": 365,
-      "Energy": 200,
-      "CodexSecret": false
     },
     "Volt": {
       "Sprint": 1,
@@ -1828,7 +1782,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Volt.png"
         }
       ],
@@ -1839,7 +1793,7 @@
       "Passive": "Grounded movement generates an electrical charge building up 1000 Damage per meter that is unleashed with the next attack.",
       "Link": "Volt",
       "SellPrice": 10000,
-      "Portrait": "VoltIcon272.png",
+      "Portrait": "Volt_Thumb.png",
       "Polarities": [
         "Naramon",
         "Madurai"
@@ -1876,7 +1830,7 @@
       "Armor": 160,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Vauban.png"
         }
       ],
@@ -1887,7 +1841,7 @@
       "Passive": "Deal 25% Extra Damage to incapacitated enemies.",
       "Link": "Vauban",
       "SellPrice": 10000,
-      "Portrait": "VaubanIcon272.png",
+      "Portrait": "Vauban_Thumb.png",
       "Polarities": [
         "Naramon",
         "Madurai"
@@ -1907,6 +1861,159 @@
       ],
       "Health": 270,
       "Energy": 175,
+      "CodexSecret": false
+    },
+    "Saryn Prime": {
+      "Sprint": 1,
+      "EnergyRank30": 300,
+      "Description": "A golden blossom conceals deadly nectar. Featuring altered mod polarities for greater customization.",
+      "Conclave": true,
+      "Helmet": "SarynPrimeHelmet.png",
+      "Vaulted": true,
+      "MaxRank": 30,
+      "Themes": "Disease, Poison, Serpentine",
+      "Tactical": "Molt",
+      "Image": "SarynPrime_Thumb.png",
+      "Type": "Warframe",
+      "Introduced": "18.4.12",
+      "Armor": 315,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "SarynPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Saryn/SarynPrime",
+      "Shield": 270,
+      "Progenitor": "Toxin",
+      "SquadPortrait": "SarynPrimeLargePortrait.png",
+      "Passive": "Status Effects inflicted upon enemies last 25% longer.",
+      "Link": "Saryn/Prime",
+      "SellPrice": 25000,
+      "Portrait": "SarynPrime_Thumb.png",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Madurai"
+      ],
+      "InitialEnergy": 100,
+      "Name": "Saryn Prime",
+      "AuraPolarity": "Vazarin",
+      "Abilities": [
+        "Spores",
+        "Molt",
+        "Toxic Lash",
+        "Miasma"
+      ],
+      "Sex": "Female",
+      "Playstyle": [
+        "Damage"
+      ],
+      "Health": 365,
+      "Energy": 200,
+      "CodexSecret": false
+    },
+    "Protea": {
+      "Sprint": 1.2,
+      "Description": "Protea knows all about protection. Her vast arsenal inflicts damage and provides ally support. She can even manipulate time itself.",
+      "Conclave": false,
+      "Helmet": "ProteaHelmet.png",
+      "Type": "Warframe",
+      "MaxRank": 30,
+      "Themes": "Gadgetry, Time Manipulation",
+      "Tactical": "Dispensary",
+      "Image": "Protea_Thumb.png",
+      "Name": "Protea",
+      "Introduced": "28",
+      "Armor": 135,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Protea.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Odalisk/Odalisk",
+      "Shield": 455,
+      "Progenitor": "Heat",
+      "SquadPortrait": "ProteaLargePortrait.png",
+      "Passive": "Every 4th Power Cast is granted +100% Ability Strength.",
+      "Link": "Protea",
+      "SellPrice": 10000,
+      "Portrait": "Protea_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Naramon"
+      ],
+      "InitialEnergy": 50,
+      "Subsumed": "Dispensary",
+      "AuraPolarity": "Aura",
+      "Abilities": [
+        "Grenade Fan",
+        "Blaze Artillery",
+        "Dispensary",
+        "Temporal Anchor"
+      ],
+      "Sex": "Female",
+      "Playstyle": [
+        "Damage",
+        "Support"
+      ],
+      "Health": 270,
+      "Energy": 175,
+      "CodexSecret": false
+    },
+    "Valkyr": {
+      "Sprint": 1.1,
+      "Type": "Warframe",
+      "Description": "Valkyr was modified into a highly motivated and fearsome killer. She is adept at dealing damage and surviving. Her battle cry strikes terror into all who hear it.",
+      "Conclave": true,
+      "Helmet": "ValkyrHelmet.png",
+      "ShieldRank30": 185,
+      "MaxRank": 30,
+      "Themes": "Berserker, Feline",
+      "Tactical": "Warcry",
+      "Image": "Valkyr_Thumb.png",
+      "Name": "Valkyr",
+      "Introduced": "11",
+      "Armor": 855,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Valkyr.png"
+        },
+        {
+          "TabName": "With Bonds",
+          "Image": "Valkyr-Bonds.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Berserker/Berserker",
+      "Shield": 135,
+      "Progenitor": "Electricity",
+      "SquadPortrait": "ValkyrLargePortrait.png",
+      "Passive": "Valkyr accumulates Rage when hitting or killing enemies with melee weapons, increasing her Melee Damage up to 300%. Taking fatal damage when the Rage meter is above 150% consumes the meter, preventing death and granting 5s of invulnerability.",
+      "Link": "Valkyr",
+      "SellPrice": 10000,
+      "Portrait": "Valkyr_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "InitialEnergy": 50,
+      "Subsumed": "Warcry",
+      "AuraPolarity": "Madurai",
+      "Abilities": [
+        "Rip Line",
+        "Warcry",
+        "Paralysis",
+        "Hysteria"
+      ],
+      "Sex": "Female",
+      "Playstyle": [
+        "Damage",
+        "Survival"
+      ],
+      "Health": 650,
+      "Energy": 100,
       "CodexSecret": false
     },
     "Equinox": {
@@ -1943,7 +2050,7 @@
       "Passive": "10% of Health Orbs are converted into Energy, and 10% of Energy Orbs are converted into Health.",
       "Link": "Equinox",
       "SellPrice": 10000,
-      "Portrait": "EquinoxIcon272.png",
+      "Portrait": "Equinox_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Madurai"
@@ -1965,54 +2072,52 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Revenant Prime": {
+    "Uriel": {
       "Sprint": 1.1,
-      "Description": "The lost one rises. Reify the essence of the Eidolon as you wield Revenant Prime\u2019s power.",
+      "Description": "To fight as the Heretic of Xata is to have demons at your back. Uriel incinerates foes with searing brimstone, and commands three fiendish summons to do his devil\u2019s work.",
       "Conclave": false,
-      "Helmet": "RevenantPrimeHelmet.png",
-      "Vaulted": true,
-      "MaxRank": 30,
-      "Themes": "Eidolon, Vampirism",
-      "Tactical": "Enthrall",
-      "Image": "RevenantPrime_Thumb.png",
+      "Helmet": "UrielHelmet.png",
       "Type": "Warframe",
-      "Introduced": "32.0.9",
-      "Armor": 135,
+      "MaxRank": 30,
+      "Themes": "Demons, Devil, Hellfire",
+      "Tactical": "Demonium",
+      "Image": "Uriel_Thumb.png",
+      "Name": "Uriel",
+      "Introduced": "41",
+      "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "RevenantPrime.png"
+          "TabName": "Full Body",
+          "Image": "Uriel.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Revenant/RevenantPrime",
-      "Shield": 825,
-      "Progenitor": "Cold",
-      "SquadPortrait": "RevenantPrimeLargePortrait.png",
-      "Passive": "Shield depletion smashes enemies within 7.5m with a 100 Damage knockdown shockwave.",
-      "Link": "Revenant/Prime",
+      "InternalName": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+      "Shield": 566,
+      "Progenitor": "Heat",
+      "SquadPortrait": "UrielLargePortrait.png",
+      "Passive": "Uriel commands, empowers, and protects three unique demons.\r\n\r\nCATENACH: Snares and slows enemies chaining them together. Damage dealt to any target in the chain is inflicted on all snared enemies. (Unlocks with Infernalis)\r\n\r\nGULPHAGOR : Latches onto foes dealing damage over time. If killed, a circle of pain is spawned. (Unlocks with Remedium)\r\n\r\nVYTHELAS: Inscribes demonic runes upon fallen foes that add Fire Rate and <DT_FIRE_COLOR>Heat Damage when collected. (Unlocks with Demonium)",
+      "Link": "Uriel",
       "SellPrice": 10000,
-      "Portrait": "RevenantPrimeIcon272.png",
+      "Portrait": "Uriel_Thumb.png",
       "Polarities": [
         "Naramon",
-        "Madurai",
         "Vazarin"
       ],
-      "InitialEnergy": 100,
-      "Name": "Revenant Prime",
-      "AuraPolarity": "Naramon",
+      "InitialEnergy": 50,
+      "Subsumed": "Remedium",
+      "AuraPolarity": "Madurai",
       "Abilities": [
-        "Enthrall",
-        "Mesmer Skin",
-        "Reave",
-        "Danse Macabre"
+        "Infernalis",
+        "Remedium",
+        "Demonium",
+        "Brimstone"
       ],
       "Sex": "Male",
       "Playstyle": [
-        "Damage",
-        "Survival"
+        "Damage"
       ],
-      "Health": 270,
-      "Energy": 175,
+      "Health": 566,
+      "Energy": 100,
       "CodexSecret": false
     },
     "Qorvex": {
@@ -2030,7 +2135,7 @@
       "Armor": 875,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Qorvex.png"
         }
       ],
@@ -2041,7 +2146,7 @@
       "Passive": "Weapons wield by Qorvex have an additional +3 Punch Through.",
       "Link": "Qorvex",
       "SellPrice": 10000,
-      "Portrait": "QorvexIcon272.png",
+      "Portrait": "Qorvex_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin"
@@ -2079,7 +2184,7 @@
       "Armor": 150,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Cyte09.png"
         }
       ],
@@ -2090,7 +2195,7 @@
       "Passive": "Weak Point Kills increase Cyte-09's Weak Point Critical Chance by 1% up to 300% for the duration of the current mission.",
       "Link": "Cyte-09",
       "SellPrice": 25000,
-      "Portrait": "Cyte-09Icon272.png",
+      "Portrait": "Cyte09_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -2128,7 +2233,7 @@
       "Armor": 315,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Frost.png"
         }
       ],
@@ -2139,7 +2244,7 @@
       "Passive": "Cold Status Effects from Frost's Abilities last 100% longer. Frost gains 50 Armor per enemy afflicted with Cold Status within Affinity Range.",
       "Link": "Frost",
       "SellPrice": 10000,
-      "Portrait": "FrostIcon272.png",
+      "Portrait": "Frost_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin"
@@ -2162,58 +2267,55 @@
       "Energy": 100,
       "CodexSecret": false
     },
-    "Valkyr": {
+    "Trinity Prime": {
       "Sprint": 1.1,
-      "Type": "Warframe",
-      "Description": "Valkyr was modified into a highly motivated and fearsome killer. She is adept at dealing damage and surviving. Her battle cry strikes terror into all who hear it.",
+      "Description": "Become the bastion that defends allies using powerful healing abilities with Trinity Prime. Featuring altered mod polarities for greater customization.",
       "Conclave": true,
-      "Helmet": "ValkyrHelmet.png",
-      "ShieldRank30": 185,
+      "Helmet": "TrinityPrimeHelmet.png",
+      "Vaulted": true,
       "MaxRank": 30,
-      "Themes": "Berserker, Feline",
-      "Tactical": "Warcry",
-      "Image": "Valkyr_Thumb.png",
-      "Name": "Valkyr",
-      "Introduced": "11",
-      "Armor": 855,
+      "Themes": "Healer",
+      "Tactical": "Energy Vampire",
+      "Image": "TrinityPrime_Thumb.png",
+      "Type": "Warframe",
+      "Introduced": "17.6",
+      "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "Valkyr.png"
-        },
-        {
-          "TabName": "With Bonds",
-          "Image": "Valkyr-Bonds.png"
+          "TabName": "Full Body",
+          "Image": "TrinityPrime.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Berserker/Berserker",
-      "Shield": 135,
-      "Progenitor": "Electricity",
-      "SquadPortrait": "ValkyrLargePortrait.png",
-      "Passive": "Valkyr accumulates Rage when hitting or killing enemies with melee weapons, increasing her Melee Damage up to 300%. Taking fatal damage when the Rage meter is above 150% consumes the meter, preventing death and granting 5s of invulnerability.",
-      "Link": "Valkyr",
-      "SellPrice": 10000,
-      "Portrait": "ValkyrIcon272.png",
+      "InternalName": "/Lotus/Powersuits/Trinity/TrinityPrime",
+      "Shield": 455,
+      "Progenitor": "Cold",
+      "SquadPortrait": "TrinityPrimeLargePortrait.png",
+      "Passive": "Allies in Affinity Range gain 50% of Trinity's Max Energy as Health.",
+      "Link": "Trinity/Prime",
+      "SellPrice": 25000,
+      "Portrait": "TrinityPrime_Thumb.png",
       "Polarities": [
+        "Vazarin",
+        "Vazarin",
         "Madurai",
-        "Madurai"
+        "Naramon"
       ],
-      "InitialEnergy": 50,
-      "Subsumed": "Warcry",
-      "AuraPolarity": "Madurai",
+      "InitialEnergy": 125,
+      "Name": "Trinity Prime",
+      "AuraPolarity": "Vazarin",
       "Abilities": [
-        "Rip Line",
-        "Warcry",
-        "Paralysis",
-        "Hysteria"
+        "Well of Life",
+        "Energy Vampire",
+        "Link",
+        "Blessing"
       ],
       "Sex": "Female",
       "Playstyle": [
-        "Damage",
-        "Survival"
+        "Survival",
+        "Support"
       ],
-      "Health": 650,
-      "Energy": 100,
+      "Health": 270,
+      "Energy": 175,
       "CodexSecret": false
     },
     "Trinity": {
@@ -2231,7 +2333,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Trinity.png"
         }
       ],
@@ -2242,7 +2344,7 @@
       "Passive": "Allies in Affinity Range gain 50% of Trinity's Max Energy as Health.",
       "Link": "Trinity",
       "SellPrice": 10000,
-      "Portrait": "TrinityIcon272.png",
+      "Portrait": "Trinity_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Vazarin"
@@ -2280,7 +2382,7 @@
       "Armor": 290,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Caliban.png"
         }
       ],
@@ -2326,7 +2428,7 @@
       "Armor": 265,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "VorunaPrime.png"
         }
       ],
@@ -2361,52 +2463,50 @@
       "Energy": 130,
       "CodexSecret": false
     },
-    "Trinity Prime": {
-      "Sprint": 1.1,
-      "Description": "Become the bastion that defends allies using powerful healing abilities with Trinity Prime. Featuring altered mod polarities for greater customization.",
+    "Nyx Prime": {
+      "Sprint": 1.125,
+      "Description": "Infiltrate the minds of your enemies with Nyx Prime. Featuring altered mod polarities for greater customization.",
       "Conclave": true,
-      "Helmet": "TrinityPrimeHelmet.png",
-      "Vaulted": true,
+      "Helmet": "NyxPrimeHelmet.png",
+      "Vaulted": false,
       "MaxRank": 30,
-      "Themes": "Healer",
-      "Tactical": "Energy Vampire",
-      "Image": "TrinityPrime_Thumb.png",
+      "Themes": "Psychic",
+      "Tactical": "Mind Control",
+      "Image": "NyxPrime_Thumb.png",
       "Type": "Warframe",
-      "Introduced": "17.6",
+      "Introduced": "14.8",
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "TrinityPrime.png"
+          "TabName": "Full Body",
+          "Image": "NyxPrime.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Trinity/TrinityPrime",
-      "Shield": 455,
-      "Progenitor": "Cold",
-      "SquadPortrait": "TrinityPrimeLargePortrait.png",
-      "Passive": "Allies in Affinity Range gain 50% of Trinity's Max Energy as Health.",
-      "Link": "Trinity/Prime",
+      "InternalName": "/Lotus/Powersuits/Jade/NyxPrime",
+      "Shield": 365,
+      "Progenitor": "Radiation",
+      "SquadPortrait": "NyxPrimeLargePortrait.png",
+      "Passive": "Nyx gains +40% Critical Chance on Primary and Secondary weapons per confused enemy within Affinity Range, up to +200%.",
+      "Link": "Nyx/Prime",
       "SellPrice": 25000,
-      "Portrait": "Trinity PrimeIcon272.png",
+      "Portrait": "NyxPrime_Thumb.png",
       "Polarities": [
-        "Vazarin",
-        "Vazarin",
         "Madurai",
-        "Naramon"
+        "Naramon",
+        "Vazarin"
       ],
-      "InitialEnergy": 125,
-      "Name": "Trinity Prime",
-      "AuraPolarity": "Vazarin",
+      "InitialEnergy": 150,
+      "Name": "Nyx Prime",
+      "AuraPolarity": "Naramon",
       "Abilities": [
-        "Well of Life",
-        "Energy Vampire",
-        "Link",
-        "Blessing"
+        "Mind Control",
+        "Psychic Bolts",
+        "Chaos",
+        "Absorb"
       ],
       "Sex": "Female",
       "Playstyle": [
-        "Survival",
-        "Support"
+        "Crowd Control"
       ],
       "Health": 270,
       "Energy": 175,
@@ -2426,7 +2526,7 @@
       "Armor": 250,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "ExcaliburUmbraPrime.png"
         }
       ],
@@ -2437,7 +2537,7 @@
       "Passive": "Excalibur deals 10% increased damage and attacks 10% faster when wielding swords.",
       "Link": "Excalibur/Umbra Prime",
       "SellPrice": 0,
-      "Portrait": "Excalibur UmbraIcon272.png",
+      "Portrait": "ExcaliburUmbra_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Madurai",
@@ -2475,7 +2575,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Gyre.png"
         }
       ],
@@ -2486,7 +2586,7 @@
       "Passive": "Gyre's abilities have a 10% chance to deal critical damage for each Electrical status that affects the enemy.",
       "Link": "Gyre",
       "SellPrice": 25000,
-      "Portrait": "GyreIcon272.png",
+      "Portrait": "Gyre_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -2524,7 +2624,7 @@
       "Armor": 125,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Dagath.png"
         }
       ],
@@ -2535,7 +2635,7 @@
       "Passive": "There is a 35% chance that Energy and Health Orbs will be 300% more effective on Dagath.",
       "Link": "Dagath",
       "SellPrice": 25000,
-      "Portrait": "DagathIcon272.png",
+      "Portrait": "Dagath_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -2557,55 +2657,44 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Banshee Prime": {
-      "Sprint": 1.15,
-      "Vaulted": true,
-      "Description": "Banshee Prime assails her foes by manipulating sonic forces to deadly effect. Featuring altered mod polarities for greater customization.",
-      "Conclave": true,
-      "Helmet": "BansheePrimeHelmet.png",
-      "Type": "Warframe",
+    "Stalker": {
+      "Sprint": 1.2,
+      "HealthRank30": 1554,
+      "Description": "An ally from an unknown time and place. Stalker is a powerful force within the shadows.",
+      "Conclave": false,
+      "Shield": 560,
+      "ShieldRank30": 560,
       "MaxRank": 30,
-      "Themes": "Sound, Wailing Spirit",
-      "Tactical": "Silence",
-      "Image": "BansheePrime_Thumb.png",
-      "Name": "Banshee Prime",
-      "Introduced": "19.11.5",
+      "Themes": "Assassin, Shadow",
+      "Image": "Stalker.png",
+      "Introduced": "33",
       "Armor": 135,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "BansheePrime.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Banshee/BansheePrime",
-      "Shield": 270,
-      "Progenitor": "Electricity",
-      "SquadPortrait": "BansheePrimeLargePortrait.png",
-      "SellPrice": 10000,
-      "Link": "Banshee/Prime",
-      "Portrait": "Banshee PrimeIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Madurai",
-        "Naramon"
-      ],
-      "Playstyle": [
-        "Crowd Control"
-      ],
-      "InitialEnergy": 125,
-      "Passive": "Weapon noises are hushed so that enemies cannot hear them.",
-      "AuraPolarity": "Madurai",
+      "FullImages": {},
+      "InternalName": "/Lotus/Powersuits/Stalker/Stalker",
+      "Progenitor": "Impact",
+      "SquadPortrait": "StalkerLargePortrait.png",
+      "_IgnoreEntry": true,
+      "Link": "Stalker (Playable)",
+      "Type": "Warframe",
+      "Passive": "Stalker's attacks have +300% Critical Chance against enemies who do not see him.",
+      "Portrait": "Stalker.png",
+      "InitialEnergy": 200,
+      "Polarities": {},
+      "Name": "Stalker",
       "Abilities": [
-        "Sonic Boom",
-        "Sonar",
-        "Silence",
-        "Sound Quake"
+        "Teleport (Stalker)",
+        "Marked",
+        "Smoke Screen (Stalker)",
+        "Punishment"
       ],
-      "Sex": "Female",
-      "Mastery": 0,
-      "Health": 270,
-      "Energy": 215,
-      "CodexSecret": false
+      "Sex": "Male",
+      "Playstyle": [
+        "Stealth",
+        "Damage"
+      ],
+      "Health": 1554,
+      "Energy": 67,
+      "CodexSecret": true
     },
     "Banshee": {
       "Sprint": 1.1,
@@ -2622,7 +2711,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Banshee.png"
         }
       ],
@@ -2633,7 +2722,7 @@
       "Passive": "Weapon noises are hushed so that enemies cannot hear them.",
       "Link": "Banshee",
       "SellPrice": 10000,
-      "Portrait": "BansheeIcon272.png",
+      "Portrait": "Banshee_Thumb.png",
       "Polarities": [
         "Madurai",
         "Madurai"
@@ -2655,55 +2744,62 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Oberon Prime": {
-      "Sprint": 1,
-      "Vaulted": true,
-      "Description": "Protect the balance with this regal forest guardian. Featuring altered mod polarities for greater customization.",
-      "Conclave": true,
-      "Helmet": "OberonPrimeHelmet.png",
-      "Type": "Warframe",
+    "Sirius & Orion": {
+      "Sprint": 1.15,
+      "Description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+      "Conclave": false,
+      "Helmet": "SiriusOrionHelmet.png",
       "MaxRank": 30,
-      "Themes": "Nature, Paladin",
-      "Tactical": "Reckoning",
-      "Image": "OberonPrime_Thumb.png",
-      "Name": "Oberon Prime",
-      "Introduced": "20.6.2",
-      "Armor": 450,
+      "Themes": "Constellation, Stellar Elemental, Gravity Elemental, Parallel Timelines",
+      "Image": "SiriusOrion.png",
+      "Type": "Warframe",
+      "Introduced": "43",
+      "Armor": 160,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "OberonPrime.png"
+          "TabName": "Full Body",
+          "Image": "SiriusOrion.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Paladin/PaladinPrime",
-      "Shield": 270,
-      "Progenitor": "Toxin",
-      "SquadPortrait": "OberonPrimeLargePortrait.png",
+      "InternalName": "",
+      "Shield": 355,
+      "Progenitor": "Impact",
+      "SquadPortrait": "SiriusOrionLargePortrait.gif",
+      "Passive": "Swapping between them grants 45% Ability Efficiency for the next 2 casts.\r\n\r\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
+      "Link": "Sirius & Orion",
       "SellPrice": 10000,
-      "Link": "Oberon/Prime",
-      "Portrait": "Oberon PrimeIcon272.png",
+      "Portrait": "SiriusOrion.png",
       "Polarities": [
+        "Vazarin",
         "Naramon",
-        "Naramon",
+        "Aura",
         "Madurai",
-        "Madurai"
+        "Naramon",
+        "Aura"
       ],
-      "Playstyle": [
-        "Support"
+      "InitialEnergy": 125,
+      "Name": "Sirius & Orion",
+      "AuraPolarity": [
+        "Vazarin",
+        "Naramon"
       ],
-      "InitialEnergy": 100,
-      "Passive": "Oberon grants Righteous Negation to himself and his allies in <AFFINITY_SHARE>Affinity Range when he collects <HEALTH>Health Orbs, protecting players against the next instance of damage. Stacks up to 3 times.",
-      "AuraPolarity": "Madurai",
       "Abilities": [
-        "Smite",
-        "Hallowed Ground",
-        "Renewal",
-        "Reckoning"
+        "Coronal Ejection",
+        "Gravitic Slash",
+        "Jade Stars",
+        "Astral Shell",
+        "Light's Sanctuary",
+        "Event Horizon",
+        "Celestial Clash"
       ],
       "Sex": "Male",
-      "Mastery": 0,
-      "Health": 365,
-      "Energy": 215,
+      "Playstyle": [
+        "Damage",
+        "Support",
+        "Crowd Control"
+      ],
+      "Health": 475,
+      "Energy": 200,
       "CodexSecret": false
     },
     "Khora": {
@@ -2744,7 +2840,7 @@
       "SquadPortrait": "KhoraLargePortrait.png",
       "SellPrice": 10000,
       "Link": "Khora",
-      "Portrait": "KhoraIcon272.png",
+      "Portrait": "Khora_Thumb.png",
       "ExilusPolarity": "Naramon",
       "Polarities": [
         "Madurai",
@@ -2783,7 +2879,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "IvaraPrime.png"
         }
       ],
@@ -2794,7 +2890,7 @@
       "Passive": "Senses nearby enemies within 50m.",
       "Link": "Ivara/Prime",
       "SellPrice": 10000,
-      "Portrait": "Ivara_PrimeIcon272.png",
+      "Portrait": "IvaraPrime_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin",
@@ -2831,7 +2927,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Dante.png"
         }
       ],
@@ -2866,7 +2962,7 @@
       ],
       "Sex": "Male",
       "SellPrice": 25000,
-      "Portrait": "DanteIcon272.png",
+      "Portrait": "Dante_Thumb.png",
       "Energy": 200,
       "Name": "Dante"
     },
@@ -2884,7 +2980,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "InarosPrime.png"
         },
         {
@@ -2926,7 +3022,7 @@
       ],
       "Sex": "Male",
       "SellPrice": 25000,
-      "Portrait": "InarosPrimeIcon272.png",
+      "Portrait": "InarosPrime_Thumb.png",
       "Energy": 140,
       "Name": "Inaros Prime"
     },
@@ -2946,7 +3042,7 @@
       "Armor": 160,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "OctaviaPrime.png"
         }
       ],
@@ -2997,7 +3093,7 @@
       "Armor": 325,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Follie.png"
         }
       ],
@@ -3045,7 +3141,7 @@
       "Armor": 265,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Citrine.png"
         }
       ],
@@ -3056,7 +3152,7 @@
       "Passive": "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0,1, up to a maximum of 25.",
       "Link": "Citrine",
       "SellPrice": 25000,
-      "Portrait": "CitrineIcon272.png",
+      "Portrait": "Citrine_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -3078,44 +3174,55 @@
       "Energy": 130,
       "CodexSecret": false
     },
-    "Stalker": {
-      "Sprint": 1.2,
-      "HealthRank30": 1554,
-      "Description": "An ally from an unknown time and place. Stalker is a powerful force within the shadows.",
-      "Conclave": false,
-      "Shield": 560,
-      "ShieldRank30": 560,
-      "MaxRank": 30,
-      "Themes": "Assassin, Shadow",
-      "Image": "Stalker.png",
-      "Introduced": "33",
-      "Armor": 135,
-      "FullImages": {},
-      "InternalName": "/Lotus/Powersuits/Stalker/Stalker",
-      "Progenitor": "Impact",
-      "SquadPortrait": "StalkerLargePortrait.png",
+    "Sirius": {
+      "Sprint": 1.15,
       "_IgnoreEntry": true,
-      "Link": "Stalker (Playable)",
+      "Description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+      "Conclave": false,
+      "Helmet": "SiriusHelmet.png",
       "Type": "Warframe",
-      "Passive": "Stalker's attacks have +300% Critical Chance against enemies who do not see him.",
-      "Portrait": "Stalker.png",
-      "InitialEnergy": 200,
-      "Polarities": {},
-      "Name": "Stalker",
+      "MaxRank": 30,
+      "Themes": "Constellation, Stellar Elemental, Parallel Timelines",
+      "Tactical": "Light's Sanctuary",
+      "Image": "Sirius_Thumb.png",
+      "Name": "Sirius",
+      "Introduced": "43",
+      "Armor": 160,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "S&O-Sirius.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+      "Shield": 355,
+      "Progenitor": "Impact",
+      "SquadPortrait": "SiriusLargePortrait.png",
+      "Passive": "Swapping between them grants 45% Ability Efficiency for the next 2 casts.\r\n\r\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
+      "Link": "Sirius & Orion#Sirius",
+      "SellPrice": 10000,
+      "Portrait": "Sirius_Thumb.png",
+      "Polarities": [
+        "Vazarin",
+        "Naramon",
+        "Aura"
+      ],
+      "InitialEnergy": 125,
+      "Subsumed": "Jade Stars",
+      "AuraPolarity": "Vazarin",
       "Abilities": [
-        "Teleport (Stalker)",
-        "Marked",
-        "Smoke Screen (Stalker)",
-        "Punishment"
+        "Coronal Ejection",
+        "Jade Stars",
+        "Light's Sanctuary",
+        "Celestial Clash"
       ],
       "Sex": "Male",
       "Playstyle": [
-        "Stealth",
-        "Damage"
+        "Support"
       ],
-      "Health": 1554,
-      "Energy": 67,
-      "CodexSecret": true
+      "Health": 475,
+      "Energy": 200,
+      "CodexSecret": false
     },
     "Nidus Prime": {
       "ArmorRank30": 525,
@@ -3132,7 +3239,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "NidusPrime.png"
         },
         {
@@ -3176,7 +3283,7 @@
       ],
       "Sex": "Male",
       "SellPrice": 25000,
-      "Portrait": "NidusPrimeIcon272.png",
+      "Portrait": "NidusPrime_Thumb.png",
       "Energy": 140,
       "Name": "Nidus Prime"
     },
@@ -3195,7 +3302,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "LokiPrime.png"
         }
       ],
@@ -3206,7 +3313,7 @@
       "Passive": "Able to hang from walls 10x longer than normal.",
       "Link": "Loki/Prime",
       "SellPrice": 25000,
-      "Portrait": "Loki PrimeIcon272.png",
+      "Portrait": "LokiPrime_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Vazarin",
@@ -3230,62 +3337,54 @@
       "Energy": 215,
       "CodexSecret": false
     },
-    "Sirius & Orion": {
-      "Sprint": 1.15,
-      "Description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+    "Garuda Prime": {
+      "Sprint": 1,
+      "EnergyRank30": 320,
+      "Description": "White, gold and deepest scarlet, the queen of gore in full regalia.",
       "Conclave": false,
-      "Helmet": "SiriusOrionHelmet.png",
+      "Helmet": "GarudaPrimeHelmet.png",
+      "Vaulted": true,
       "MaxRank": 30,
-      "Themes": "Constellation, Stellar Elemental, Gravity Elemental, Parallel Timelines",
-      "Image": "SiriusOrion.png",
+      "Themes": "Blood Manipulation, Gore, Violence, Garuda (Hindu deity)",
+      "Tactical": "Blood Altar",
+      "Image": "GarudaPrime_Thumb.png",
       "Type": "Warframe",
-      "Introduced": "43",
-      "Armor": 160,
+      "Introduced": "31.3",
+      "Armor": 420,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "SiriusOrion.png"
+          "TabName": "Full Body",
+          "Image": "GarudaPrime.png"
         }
       ],
-      "InternalName": "",
-      "Shield": 355,
-      "Progenitor": "Impact",
-      "SquadPortrait": "SiriusOrionLargePortrait.gif",
-      "Passive": "Swapping between them grants 45% Ability Efficiency for the next 2 casts.\r\n\r\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
-      "Link": "Sirius & Orion",
+      "InternalName": "/Lotus/Powersuits/Garuda/GarudaPrime",
+      "Shield": 270,
+      "Progenitor": "Radiation",
+      "SquadPortrait": "GarudaPrimeLargePortrait.png",
+      "Passive": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of 100%.\r\nSlashes with her talons if no melee weapon is equipped.",
+      "Link": "Garuda/Prime",
       "SellPrice": 10000,
-      "Portrait": "SiriusOrion.png",
+      "Portrait": "GarudaPrimeIcon.png",
       "Polarities": [
+        "Naramon",
         "Vazarin",
-        "Madurai",
-        "Aura",
-        "Vazarin",
-        "Madurai",
-        "Aura"
+        "Madurai"
       ],
-      "InitialEnergy": 125,
-      "Name": "Sirius & Orion",
-      "AuraPolarity": [
-        "Vazarin",
-        "Naramon"
-      ],
+      "InitialEnergy": 100,
+      "Name": "Garuda Prime",
+      "AuraPolarity": "Madurai",
       "Abilities": [
-        "Coronal Ejection",
-        "Gravitic Slash",
-        "Jade Stars",
-        "Astral Shell",
-        "Light's Sanctuary",
-        "Event Horizon",
-        "Celestial Clash"
+        "Dread Mirror",
+        "Blood Altar",
+        "Bloodletting",
+        "Seeking Talons"
       ],
-      "Sex": "Male",
+      "Sex": "Female",
       "Playstyle": [
-        "Damage",
-        "Support",
-        "Crowd Control"
+        "Damage"
       ],
-      "Health": 475,
-      "Energy": 200,
+      "Health": 270,
+      "Energy": 220,
       "CodexSecret": false
     },
     "Ember": {
@@ -3303,7 +3402,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Ember.png"
         }
       ],
@@ -3314,7 +3413,7 @@
       "Passive": "Receive 5% Ability Strength for every enemy within Affinity Range affected by Heat.",
       "Link": "Ember",
       "SellPrice": 10000,
-      "Portrait": "EmberIcon272.png",
+      "Portrait": "Ember_Thumb.png",
       "Polarities": [
         "Naramon",
         "Naramon"
@@ -3351,7 +3450,7 @@
       "Armor": 240,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Saryn.png"
         }
       ],
@@ -3362,7 +3461,7 @@
       "Passive": "Status Effects inflicted upon enemies last 25% longer.",
       "Link": "Saryn",
       "SellPrice": 10000,
-      "Portrait": "SarynIcon272.png",
+      "Portrait": "Saryn_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin"
@@ -3399,7 +3498,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Revenant.png"
         }
       ],
@@ -3410,7 +3509,7 @@
       "Passive": "Shield depletion smashes enemies within 7.5m with a 100 Damage knockdown shockwave.",
       "Link": "Revenant",
       "SellPrice": 10000,
-      "Portrait": "RevenantIcon272.png",
+      "Portrait": "Revenant_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -3448,7 +3547,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Ivara.png"
         }
       ],
@@ -3459,7 +3558,7 @@
       "Passive": "Senses nearby enemies within 50m.",
       "Link": "Ivara",
       "SellPrice": 10000,
-      "Portrait": "IvaraIcon272.png",
+      "Portrait": "Ivara_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Naramon"
@@ -3481,54 +3580,52 @@
       "Energy": 215,
       "CodexSecret": false
     },
-    "Sirius": {
-      "Sprint": 1.15,
-      "_IgnoreEntry": true,
-      "Description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
-      "Conclave": false,
-      "Helmet": "SiriusHelmet.png",
+    "Oberon": {
+      "Sprint": 1,
+      "Description": "Healing and suffering do Oberon\u2019s bidding. His command of the natural world supports allies. Boon to his friends, bane of his foes.",
+      "Conclave": true,
+      "Helmet": "OberonHelmet.png",
       "Type": "Warframe",
       "MaxRank": 30,
-      "Themes": "Constellation, Stellar Elemental, Parallel Timelines",
-      "Tactical": "Light's Sanctuary",
-      "Image": "Sirius_Thumb.png",
-      "Name": "Sirius",
-      "Introduced": "43",
-      "Armor": 160,
+      "Themes": "Nature, Paladin",
+      "Tactical": "Reckoning",
+      "Image": "Oberon_Thumb.png",
+      "Name": "Oberon",
+      "Introduced": "11.5",
+      "Armor": 385,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "S&O-Sirius.png"
+          "TabName": "Full Body",
+          "Image": "Oberon.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
-      "Shield": 355,
-      "Progenitor": "Impact",
-      "SquadPortrait": "SiriusLargePortrait.png",
-      "Passive": "Swapping between them grants 45% Ability Efficiency for the next 2 casts.\r\n\r\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
-      "Link": "Sirius & Orion#Sirius",
+      "InternalName": "/Lotus/Powersuits/Paladin/Paladin",
+      "Shield": 270,
+      "Progenitor": "Toxin",
+      "SquadPortrait": "OberonLargePortrait.png",
+      "Passive": "Oberon grants Righteous Negation to himself and his allies in <AFFINITY_SHARE>Affinity Range when he collects <HEALTH>Health Orbs, protecting players against the next instance of damage. Stacks up to 3 times.",
+      "Link": "Oberon",
       "SellPrice": 10000,
-      "Portrait": "Sirius_Thumb.png",
+      "Portrait": "Oberon_Thumb.png",
       "Polarities": [
-        "Vazarin",
         "Madurai",
-        "Aura"
+        "Madurai"
       ],
-      "InitialEnergy": 125,
-      "Subsumed": "Jade Stars",
-      "AuraPolarity": "Vazarin",
+      "InitialEnergy": 75,
+      "Subsumed": "Smite",
+      "AuraPolarity": "Madurai",
       "Abilities": [
-        "Coronal Ejection",
-        "Jade Stars",
-        "Light's Sanctuary",
-        "Celestial Clash"
+        "Smite",
+        "Hallowed Ground",
+        "Renewal",
+        "Reckoning"
       ],
       "Sex": "Male",
       "Playstyle": [
         "Support"
       ],
-      "Health": 475,
-      "Energy": 200,
+      "Health": 365,
+      "Energy": 175,
       "CodexSecret": false
     },
     "Inaros": {
@@ -3544,7 +3641,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Inaros.png"
         },
         {
@@ -3586,7 +3683,7 @@
       ],
       "Sex": "Male",
       "SellPrice": 25000,
-      "Portrait": "InarosIcon272.png",
+      "Portrait": "Inaros_Thumb.png",
       "Energy": 100,
       "Name": "Inaros"
     },
@@ -3606,7 +3703,7 @@
       "Armor": 290,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "HydroidPrime.png"
         }
       ],
@@ -3616,7 +3713,7 @@
       "SquadPortrait": "HydroidPrimeLargePortrait.png",
       "SellPrice": 10000,
       "Link": "Hydroid/Prime",
-      "Portrait": "Hydroid PrimeIcon272.png",
+      "Portrait": "HydroidPrime_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin",
@@ -3641,54 +3738,56 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Protea": {
-      "Sprint": 1.2,
-      "Description": "Protea knows all about protection. Her vast arsenal inflicts damage and provides ally support. She can even manipulate time itself.",
-      "Conclave": false,
-      "Helmet": "ProteaHelmet.png",
-      "Type": "Warframe",
+    "Sevagoth's Shadow": {
+      "ShieldRank30": 185,
       "MaxRank": 30,
-      "Themes": "Gadgetry, Time Manipulation",
-      "Tactical": "Dispensary",
-      "Image": "Protea_Thumb.png",
-      "Name": "Protea",
-      "Introduced": "28",
-      "Armor": 135,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Protea.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Odalisk/Odalisk",
-      "Shield": 455,
-      "Progenitor": "Heat",
-      "SquadPortrait": "ProteaLargePortrait.png",
-      "Passive": "Every 4th Power Cast is granted +100% Ability Strength.",
-      "Link": "Protea",
-      "SellPrice": 10000,
-      "Portrait": "ProteaIcon272.png",
+      "Themes": "Wraith",
+      "Tactical": "Gloom",
+      "Passive": "None",
+      "Introduced": "30",
       "Polarities": [
         "Madurai",
-        "Naramon"
+        "Madurai"
       ],
-      "InitialEnergy": 50,
-      "Subsumed": "Dispensary",
-      "AuraPolarity": "Aura",
-      "Abilities": [
-        "Grenade Fan",
-        "Blaze Artillery",
-        "Dispensary",
-        "Temporal Anchor"
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Sevagoth-Shadow.png"
+        }
       ],
-      "Sex": "Female",
+      "InternalName": "/Lotus/Powersuits/Wraith/Reaper",
+      "_IgnoreEntry": true,
+      "Type": "Warframe",
+      "Link": "Sevagoth/Abilities",
+      "Health": 270,
       "Playstyle": [
         "Damage",
-        "Support"
+        "Survival"
       ],
-      "Health": 270,
-      "Energy": 175,
-      "CodexSecret": false
+      "CodexSecret": false,
+      "Sprint": 1.1,
+      "Description": "Sevagoth's roving spirit, formed from concentrated Void energy.",
+      "Conclave": false,
+      "Helmet": "Sevagoth'sShadowHelmet.png",
+      "Image": "Sevagoth-Shadow_Thumb.png",
+      "Armor": 475,
+      "Progenitor": "Impact",
+      "SquadPortrait": "SevagothLargePortrait.png",
+      "Shield": 135,
+      "InitialEnergy": 50,
+      "Subsumed": "Gloom",
+      "AuraPolarity": "Madurai",
+      "Abilities": [
+        "Embrace",
+        "Consume",
+        "Death's Harvest",
+        "Reunite"
+      ],
+      "Sex": "Male",
+      "SellPrice": 10000,
+      "Portrait": "Sevagoth'sShadow.png",
+      "Energy": 100,
+      "Name": "Sevagoth's Shadow"
     },
     "Gara": {
       "Sprint": 1.15,
@@ -3705,18 +3804,18 @@
       "Armor": 160,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Gara.png"
         }
       ],
       "InternalName": "/Lotus/Powersuits/Glass/Glass",
       "Shield": 270,
       "Progenitor": "Cold",
-      "SquadPortrait": "GlassLargePortrait.png",
+      "SquadPortrait": "GaraLargePortrait.png",
       "Passive": "A chance to create a radial blind lasting 10s when Gara casts abilities.",
       "Link": "Gara",
       "SellPrice": 25000,
-      "Portrait": "GaraIcon272.png",
+      "Portrait": "Gara_Thumb.png",
       "Polarities": [
         "Madurai",
         "Madurai"
@@ -3755,7 +3854,7 @@
       "Armor": 200,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "GaraPrime.png"
         }
       ],
@@ -3805,7 +3904,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Nekros.png"
         }
       ],
@@ -3820,7 +3919,7 @@
       "Link": "Nekros",
       "Passive": "Restore 5 Health with every enemy death within 10m.",
       "SellPrice": 10000,
-      "Portrait": "NekrosIcon272.png",
+      "Portrait": "Nekros_Thumb.png",
       "InitialEnergy": 50,
       "Subsumed": "Terrify",
       "Name": "Nekros",
@@ -3853,7 +3952,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Loki.png"
         }
       ],
@@ -3864,7 +3963,7 @@
       "Passive": "Able to hang from walls 10x longer than normal.",
       "Link": "Loki",
       "SellPrice": 10000,
-      "Portrait": "LokiIcon272.png",
+      "Portrait": "Loki_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Madurai"
@@ -3886,55 +3985,52 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Octavia": {
-      "Sprint": 1.05,
-      "EnergyRank30": 225,
-      "Description": "Octavia turns bass, beat, and melody into a symphony of devastation. The music of her Mandachord gives her high survivability and supports allies. Her composition means the enemy\u2019s destruction.",
-      "Conclave": true,
-      "Helmet": "OctaviaHelmet.png",
-      "Type": "Warframe",
+    "Sevagoth": {
+      "Sprint": 0.95,
+      "Description": "No longer adrift in the Void, Sevagoth has returned. He and his Shadow deal heavy damage and have high survivability. They are sustained by the reaping of wayward souls.",
+      "Conclave": false,
+      "Helmet": "SevagothHelmet.png",
       "MaxRank": 30,
-      "Themes": "Bard, Musician",
-      "Tactical": "Resonator",
-      "Image": "Octavia_Thumb.png",
-      "Name": "Octavia",
-      "Introduced": "20",
+      "Themes": "Phantom, Reaper, Shadow Elemental",
+      "Tactical": "Gloom",
+      "Image": "Sevagoth_Thumb.png",
+      "Type": "Warframe",
+      "Introduced": "30",
       "Armor": 160,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "Octavia.png"
+          "TabName": "Full Body",
+          "Image": "Sevagoth.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Bard/Bard",
-      "Shield": 180,
-      "Progenitor": "Radiation",
-      "SquadPortrait": "BardLargePortrait.png",
-      "Passive": "Replenish 30 energy over 30s for Octavia and allies within 15m when abilities are activated.",
-      "Link": "Octavia",
-      "SellPrice": 25000,
-      "Portrait": "OctaviaIcon272.png",
+      "InternalName": "/Lotus/Powersuits/Wraith/Wraith",
       "Polarities": [
-        "Naramon",
-        "Naramon"
+        "Vazarin",
+        "Madurai"
       ],
-      "InitialEnergy": 100,
-      "Subsumed": "Resonator",
-      "AuraPolarity": "Naramon",
+      "Progenitor": "Impact",
+      "SquadPortrait": "SevagothLargePortrait.png",
+      "Shield": 235,
+      "Link": "Sevagoth",
+      "Passive": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone.",
+      "SellPrice": 10000,
+      "Portrait": "Sevagoth_Thumb.png",
+      "InitialEnergy": 75,
+      "Subsumed": "Gloom",
+      "Name": "Sevagoth",
       "Abilities": [
-        "Mallet",
-        "Resonator",
-        "Metronome",
-        "Amp"
+        "Reap",
+        "Sow",
+        "Gloom",
+        "Exalted Shadow"
       ],
-      "Sex": "Female",
+      "Sex": "Male",
       "Playstyle": [
-        "Support",
         "Damage",
-        "Crowd Control"
+        "Survival"
       ],
       "Health": 270,
-      "Energy": 175,
+      "Energy": 140,
       "CodexSecret": false
     },
     "Baruuk": {
@@ -3950,7 +4046,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Baruuk.png"
         }
       ],
@@ -3984,117 +4080,9 @@
       ],
       "Sex": "Male",
       "SellPrice": 25000,
-      "Portrait": "BaruukIcon272.png",
+      "Portrait": "Baruuk_Thumb.png",
       "Energy": 200,
       "Name": "Baruuk"
-    },
-    "Sevagoth's Shadow": {
-      "ShieldRank30": 185,
-      "MaxRank": 30,
-      "Themes": "Wraith",
-      "Tactical": "Gloom",
-      "Passive": "None",
-      "Introduced": "30",
-      "Polarities": [
-        "Madurai",
-        "Madurai"
-      ],
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Sevagoth-Shadow.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Wraith/Reaper",
-      "_IgnoreEntry": true,
-      "Type": "Warframe",
-      "Link": "Sevagoth/Abilities",
-      "Health": 270,
-      "Playstyle": [
-        "Damage",
-        "Survival"
-      ],
-      "CodexSecret": false,
-      "Sprint": 1.1,
-      "Description": "Sevagoth's roving spirit, formed from concentrated Void energy.",
-      "Conclave": false,
-      "Helmet": "Sevagoth'sShadowHelmet.png",
-      "Image": "Sevagoth-Shadow_Thumb.png",
-      "Armor": 475,
-      "Progenitor": "Impact",
-      "SquadPortrait": "WraithLargePortrait.png",
-      "Shield": 135,
-      "InitialEnergy": 50,
-      "Subsumed": "Gloom",
-      "AuraPolarity": "Madurai",
-      "Abilities": [
-        "Embrace",
-        "Consume",
-        "Death's Harvest",
-        "Reunite"
-      ],
-      "Sex": "Male",
-      "SellPrice": 10000,
-      "Portrait": "Sevagoth'sShadow.png",
-      "Energy": 100,
-      "Name": "Sevagoth's Shadow"
-    },
-    "Xaku": {
-      "EnergyRank30": 230,
-      "ShieldRank30": 329,
-      "MaxRank": 30,
-      "Themes": "Broken, Void Manipulation",
-      "Tactical": "The Lost",
-      "Passive": "25% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
-      "Introduced": "29",
-      "Polarities": [
-        "Vazarin",
-        "Vazarin"
-      ],
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "Xaku.png"
-        },
-        {
-          "TabName": "Broken",
-          "Image": "Xaku-Broken.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
-      "Type": "Warframe",
-      "Link": "Xaku",
-      "Health": 269,
-      "Playstyle": [
-        "Damage"
-      ],
-      "CodexSecret": false,
-      "Sprint": 1.02,
-      "HealthRank30": 359,
-      "Description": "Broken Warframes adrift in the Void converged to create Xaku. Together, they deal high damage. Xaku proves that the sum of the whole is greater than its parts.",
-      "Conclave": false,
-      "Helmet": "XakuHelmet.png",
-      "Image": "Xaku_Thumb.png",
-      "Armor": 146,
-      "Progenitor": "Magnetic",
-      "SquadPortrait": "BrokenLargePortrait.png",
-      "Vaulted": false,
-      "SellPrice": 25000,
-      "Shield": 239,
-      "InitialEnergy": 50,
-      "Subsumed": "Xata's Whisper",
-      "AuraPolarity": "Naramon",
-      "Abilities": [
-        "Xata's Whisper",
-        "Grasp of Lohk",
-        "The Lost",
-        "The Vast Untime"
-      ],
-      "Sex": "Non-binary",
-      "Mastery": 0,
-      "Portrait": "XakuIcon272.png",
-      "Energy": 160,
-      "Name": "Xaku"
     },
     "Rhino Prime": {
       "Sprint": 1,
@@ -4111,7 +4099,7 @@
       "Armor": 290,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "RhinoPrime.png"
         },
         {
@@ -4126,7 +4114,7 @@
       "Passive": "Emit a shockwave dealing 100 damage after landing from a great height.",
       "Link": "Rhino/Prime",
       "SellPrice": 25000,
-      "Portrait": "Rhino PrimeIcon272.png",
+      "Portrait": "RhinoPrime_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Vazarin",
@@ -4150,52 +4138,162 @@
       "Energy": 100,
       "CodexSecret": false
     },
-    "Oberon": {
-      "Sprint": 1,
-      "Description": "Healing and suffering do Oberon\u2019s bidding. His command of the natural world supports allies. Boon to his friends, bane of his foes.",
-      "Conclave": true,
-      "Helmet": "OberonHelmet.png",
-      "Type": "Warframe",
+    "Xaku": {
+      "EnergyRank30": 230,
+      "ShieldRank30": 329,
       "MaxRank": 30,
-      "Themes": "Nature, Paladin",
-      "Tactical": "Reckoning",
-      "Image": "Oberon_Thumb.png",
-      "Name": "Oberon",
-      "Introduced": "11.5",
-      "Armor": 385,
+      "Themes": "Broken, Void Manipulation",
+      "Tactical": "The Lost",
+      "Passive": "25% Damage Reduction on AOE attacks and chance to avoid incoming weapon damage.",
+      "Introduced": "29",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin"
+      ],
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "Oberon.png"
+          "TabName": "Full Body",
+          "Image": "Xaku.png"
+        },
+        {
+          "TabName": "Broken",
+          "Image": "Xaku-Broken.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Paladin/Paladin",
-      "Shield": 270,
-      "Progenitor": "Toxin",
-      "SquadPortrait": "OberonLargePortrait.png",
-      "Passive": "Oberon grants Righteous Negation to himself and his allies in <AFFINITY_SHARE>Affinity Range when he collects <HEALTH>Health Orbs, protecting players against the next instance of damage. Stacks up to 3 times.",
-      "Link": "Oberon",
-      "SellPrice": 10000,
-      "Portrait": "OberonIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Madurai"
+      "InternalName": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+      "Type": "Warframe",
+      "Link": "Xaku",
+      "Health": 269,
+      "Playstyle": [
+        "Damage"
       ],
-      "InitialEnergy": 75,
-      "Subsumed": "Smite",
-      "AuraPolarity": "Madurai",
+      "CodexSecret": false,
+      "Sprint": 1.02,
+      "HealthRank30": 359,
+      "Description": "Broken Warframes adrift in the Void converged to create Xaku. Together, they deal high damage. Xaku proves that the sum of the whole is greater than its parts.",
+      "Conclave": false,
+      "Helmet": "XakuHelmet.png",
+      "Image": "Xaku_Thumb.png",
+      "Armor": 146,
+      "Progenitor": "Magnetic",
+      "SquadPortrait": "XakuLargePortrait.png",
+      "Vaulted": false,
+      "SellPrice": 25000,
+      "Shield": 239,
+      "InitialEnergy": 50,
+      "Subsumed": "Xata's Whisper",
+      "AuraPolarity": "Naramon",
       "Abilities": [
-        "Smite",
-        "Hallowed Ground",
-        "Renewal",
-        "Reckoning"
+        "Xata's Whisper",
+        "Grasp of Lohk",
+        "The Lost",
+        "The Vast Untime"
+      ],
+      "Sex": "Non-binary",
+      "Mastery": 0,
+      "Portrait": "Xaku_Thumb.png",
+      "Energy": 160,
+      "Name": "Xaku"
+    },
+    "Revenant Prime": {
+      "Sprint": 1.1,
+      "Description": "The lost one rises. Reify the essence of the Eidolon as you wield Revenant Prime\u2019s power.",
+      "Conclave": false,
+      "Helmet": "RevenantPrimeHelmet.png",
+      "Vaulted": true,
+      "MaxRank": 30,
+      "Themes": "Eidolon, Vampirism",
+      "Tactical": "Enthrall",
+      "Image": "RevenantPrime_Thumb.png",
+      "Type": "Warframe",
+      "Introduced": "32.0.9",
+      "Armor": 135,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "RevenantPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Revenant/RevenantPrime",
+      "Shield": 825,
+      "Progenitor": "Cold",
+      "SquadPortrait": "RevenantPrimeLargePortrait.png",
+      "Passive": "Shield depletion smashes enemies within 7.5m with a 100 Damage knockdown shockwave.",
+      "Link": "Revenant/Prime",
+      "SellPrice": 10000,
+      "Portrait": "RevenantPrime_Thumb.png",
+      "Polarities": [
+        "Naramon",
+        "Madurai",
+        "Vazarin"
+      ],
+      "InitialEnergy": 100,
+      "Name": "Revenant Prime",
+      "AuraPolarity": "Naramon",
+      "Abilities": [
+        "Enthrall",
+        "Mesmer Skin",
+        "Reave",
+        "Danse Macabre"
       ],
       "Sex": "Male",
       "Playstyle": [
+        "Damage",
+        "Survival"
+      ],
+      "Health": 270,
+      "Energy": 175,
+      "CodexSecret": false
+    },
+    "Protea Prime": {
+      "Sprint": 1.2,
+      "Vaulted": true,
+      "Description": "Behold the child of two fathers. Protea Prime once fulfilled Parvos Granum's vision of a time-wielding guardian. Now she upholds the Tenno ideal of defending the defenseless.",
+      "Conclave": false,
+      "Helmet": "ProteaPrimeHelmet.png",
+      "Type": "Warframe",
+      "MaxRank": 30,
+      "Themes": "Gadgetry, Time Manipulation",
+      "Tactical": "Dispensary",
+      "Image": "ProteaPrime_Thumb.png",
+      "Name": "Protea Prime",
+      "Introduced": "35.5.9",
+      "Armor": 185,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ProteaPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+      "Shield": 455,
+      "Progenitor": "Heat",
+      "SquadPortrait": "ProteaPrimeLargePortrait.png",
+      "Passive": "Every 4th Power Cast is granted +100% Ability Strength.",
+      "Link": "Protea/Prime",
+      "SellPrice": 10000,
+      "Portrait": "ProteaPrime_Thumb.png",
+      "Polarities": [
+        "Madurai",
+        "Naramon",
+        "Naramon"
+      ],
+      "InitialEnergy": 75,
+      "Subsumed": "Dispensary",
+      "AuraPolarity": "Aura",
+      "Abilities": [
+        "Grenade Fan",
+        "Blaze Artillery",
+        "Dispensary",
+        "Temporal Anchor"
+      ],
+      "Sex": "Female",
+      "Playstyle": [
+        "Damage",
         "Support"
       ],
-      "Health": 365,
-      "Energy": 175,
+      "Health": 270,
+      "Energy": 200,
       "CodexSecret": false
     },
     "Nezha": {
@@ -4214,7 +4312,7 @@
       "Armor": 200,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Nezha.png"
         }
       ],
@@ -4225,7 +4323,7 @@
       "Passive": "Slide 60% faster and go 35% farther.",
       "Link": "Nezha",
       "SellPrice": 10000,
-      "Portrait": "NezhaIcon272.png",
+      "Portrait": "Nezha_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Madurai"
@@ -4263,7 +4361,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "GyrePrime.png"
         }
       ],
@@ -4274,7 +4372,7 @@
       "Passive": "Gyre's abilities have a 10% chance to deal critical damage for each Electrical status that affects the enemy.",
       "Link": "Gyre/Prime",
       "SellPrice": 25000,
-      "Portrait": "GyrePrimeIcon272.png",
+      "Portrait": "GyrePrime_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -4310,7 +4408,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "GaussPrime.png"
         },
         {
@@ -4349,7 +4447,7 @@
       ],
       "Sex": "Male",
       "SellPrice": 10000,
-      "Portrait": "GaussPrimeIcon272.png",
+      "Portrait": "GaussPrime_Thumb.png",
       "Energy": 175,
       "Name": "Gauss Prime"
     },
@@ -4428,7 +4526,7 @@
       "Armor": 185,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "HarrowPrime.png"
         }
       ],
@@ -4478,7 +4576,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Nyx.png"
         }
       ],
@@ -4489,7 +4587,7 @@
       "Passive": "Nyx gains +40% Critical Chance on Primary and Secondary weapons per confused enemy within Affinity Range, up to +200%.",
       "Link": "Nyx",
       "SellPrice": 10000,
-      "Portrait": "NyxIcon272.png",
+      "Portrait": "Nyx_Thumb.png",
       "Polarities": [
         "Madurai",
         "Naramon"
@@ -4527,7 +4625,7 @@
       "Armor": 1000,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "ValkyrPrime.png"
         },
         {
@@ -4542,7 +4640,7 @@
       "Passive": "Valkyr accumulates Rage when hitting or killing enemies with melee weapons, increasing her Melee Damage up to 300%. Taking fatal damage when the Rage meter is above 150% consumes the meter, preventing death and granting 5s of invulnerability.",
       "Link": "Valkyr/Prime",
       "SellPrice": 10000,
-      "Portrait": "Valkyr PrimeIcon272.png",
+      "Portrait": "ValkyrPrime_Thumb.png",
       "Polarities": [
         "Madurai",
         "Madurai",
@@ -4566,55 +4664,53 @@
       "Energy": 175,
       "CodexSecret": false
     },
-    "Nezha Prime": {
-      "Sprint": 1.2,
-      "Vaulted": true,
-      "Description": "Behold: the Scion of the Burning Wind, now before you in most courtly accoutrement. Featuring altered mod polarities for greater customization.",
+    "Mag Prime": {
+      "Sprint": 1,
+      "Description": "The exquisite Mag Prime offers the same abilities as Mag but with unique mod polarities for greater customization.",
       "Conclave": true,
-      "Helmet": "NezhaPrimeHelmet.png",
-      "ShieldRank30": 185,
+      "Helmet": "MagPrimeHelmet.png",
+      "Vaulted": true,
       "MaxRank": 30,
-      "Themes": "Third Lotus Prince",
-      "Tactical": "Divine Spears",
-      "Image": "NezhaPrime_Thumb.png",
+      "Themes": "Magnetism",
+      "Tactical": "Magnetize",
+      "Image": "MagPrime_Thumb.png",
       "Type": "Warframe",
-      "Introduced": "29.3",
-      "Armor": 265,
+      "Introduced": "10",
+      "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "NezhaPrime.png"
+          "TabName": "Full Body",
+          "Image": "MagPrime.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Nezha/NezhaPrime",
-      "Shield": 135,
-      "Progenitor": "Heat",
-      "SquadPortrait": "NezhaPrimeLargePortrait.png",
-      "Passive": "Slide 60% faster and go 35% farther.",
-      "Link": "Nezha/Prime",
-      "SellPrice": 10000,
-      "Portrait": "NezhaPrimeIcon272.png",
+      "InternalName": "/Lotus/Powersuits/Mag/MagPrime",
+      "Shield": 455,
+      "Progenitor": "Magnetic",
+      "SquadPortrait": "MagPrimeLargePortrait.png",
+      "Passive": "Nearby items gravitate towards Mag for easy collection.",
+      "Link": "Mag/Prime",
+      "SellPrice": 25000,
+      "Portrait": "MagPrime_Thumb.png",
       "Polarities": [
-        "Vazarin",
-        "Madurai",
-        "Naramon"
+        "Naramon",
+        "Naramon",
+        "Madurai"
       ],
-      "InitialEnergy": 125,
-      "Name": "Nezha Prime",
-      "AuraPolarity": "Naramon",
+      "InitialEnergy": 100,
+      "Name": "Mag Prime",
+      "AuraPolarity": "Madurai",
       "Abilities": [
-        "Fire Walker",
-        "Blazing Chakram",
-        "Warding Halo",
-        "Divine Spears"
+        "Pull",
+        "Magnetize",
+        "Polarize",
+        "Crush"
       ],
-      "Sex": "Male",
+      "Sex": "Female",
       "Playstyle": [
-        "Survival",
         "Crowd Control"
       ],
-      "Health": 365,
-      "Energy": 175,
+      "Health": 270,
+      "Energy": 215,
       "CodexSecret": false
     },
     "Mirage Prime": {
@@ -4633,7 +4729,7 @@
       "Armor": 185,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "MiragePrime.png"
         }
       ],
@@ -4643,7 +4739,7 @@
       "SquadPortrait": "MiragePrimeLargePortrait.png",
       "SellPrice": 10000,
       "Link": "Mirage/Prime",
-      "Portrait": "Mirage PrimeIcon272.png",
+      "Portrait": "MiragePrime_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Vazarin",
@@ -4683,7 +4779,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "SevagothPrime-Shadow.png"
         }
       ],
@@ -4721,103 +4817,106 @@
       "Energy": 100,
       "Name": "Sevagoth Prime's Shadow"
     },
-    "Mag Prime": {
-      "Sprint": 1,
-      "Description": "The exquisite Mag Prime offers the same abilities as Mag but with unique mod polarities for greater customization.",
+    "Octavia": {
+      "Sprint": 1.05,
+      "EnergyRank30": 225,
+      "Description": "Octavia turns bass, beat, and melody into a symphony of devastation. The music of her Mandachord gives her high survivability and supports allies. Her composition means the enemy\u2019s destruction.",
       "Conclave": true,
-      "Helmet": "MagPrimeHelmet.png",
-      "Vaulted": true,
-      "MaxRank": 30,
-      "Themes": "Magnetism",
-      "Tactical": "Magnetize",
-      "Image": "MagPrime_Thumb.png",
+      "Helmet": "OctaviaHelmet.png",
       "Type": "Warframe",
-      "Introduced": "10",
-      "Armor": 135,
+      "MaxRank": 30,
+      "Themes": "Bard, Musician",
+      "Tactical": "Resonator",
+      "Image": "Octavia_Thumb.png",
+      "Name": "Octavia",
+      "Introduced": "20",
+      "Armor": 160,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "MagPrime.png"
+          "TabName": "Full Body",
+          "Image": "Octavia.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Mag/MagPrime",
-      "Shield": 455,
-      "Progenitor": "Magnetic",
-      "SquadPortrait": "MagPrimeLargePortrait.png",
-      "Passive": "Nearby items gravitate towards Mag for easy collection.",
-      "Link": "Mag/Prime",
+      "InternalName": "/Lotus/Powersuits/Bard/Bard",
+      "Shield": 180,
+      "Progenitor": "Radiation",
+      "SquadPortrait": "OctaviaLargePortrait.png",
+      "Passive": "Replenish 30 energy over 30s for Octavia and allies within 15m when abilities are activated.",
+      "Link": "Octavia",
       "SellPrice": 25000,
-      "Portrait": "Mag PrimeIcon272.png",
+      "Portrait": "Octavia_Thumb.png",
       "Polarities": [
         "Naramon",
-        "Naramon",
-        "Madurai"
+        "Naramon"
       ],
       "InitialEnergy": 100,
-      "Name": "Mag Prime",
-      "AuraPolarity": "Madurai",
+      "Subsumed": "Resonator",
+      "AuraPolarity": "Naramon",
       "Abilities": [
-        "Pull",
-        "Magnetize",
-        "Polarize",
-        "Crush"
+        "Mallet",
+        "Resonator",
+        "Metronome",
+        "Amp"
       ],
       "Sex": "Female",
       "Playstyle": [
+        "Support",
+        "Damage",
         "Crowd Control"
       ],
       "Health": 270,
-      "Energy": 215,
+      "Energy": 175,
       "CodexSecret": false
     },
-    "Garuda Prime": {
+    "Oberon Prime": {
       "Sprint": 1,
-      "EnergyRank30": 320,
-      "Description": "White, gold and deepest scarlet, the queen of gore in full regalia.",
-      "Conclave": false,
-      "Helmet": "GarudaPrimeHelmet.png",
       "Vaulted": true,
-      "MaxRank": 30,
-      "Themes": "Blood Manipulation, Gore, Violence, Garuda (Hindu deity)",
-      "Tactical": "Blood Altar",
-      "Image": "GarudaPrime_Thumb.png",
+      "Description": "Protect the balance with this regal forest guardian. Featuring altered mod polarities for greater customization.",
+      "Conclave": true,
+      "Helmet": "OberonPrimeHelmet.png",
       "Type": "Warframe",
-      "Introduced": "31.3",
-      "Armor": 420,
+      "MaxRank": 30,
+      "Themes": "Nature, Paladin",
+      "Tactical": "Reckoning",
+      "Image": "OberonPrime_Thumb.png",
+      "Name": "Oberon Prime",
+      "Introduced": "20.6.2",
+      "Armor": 450,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "GarudaPrime.png"
+          "TabName": "Full Body",
+          "Image": "OberonPrime.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Garuda/GarudaPrime",
+      "InternalName": "/Lotus/Powersuits/Paladin/PaladinPrime",
       "Shield": 270,
-      "Progenitor": "Radiation",
-      "SquadPortrait": "GarudaPrimeLargePortrait.png",
-      "Passive": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of 100%.\r\nSlashes with her talons if no melee weapon is equipped.",
-      "Link": "Garuda/Prime",
+      "Progenitor": "Toxin",
+      "SquadPortrait": "OberonPrimeLargePortrait.png",
       "SellPrice": 10000,
-      "Portrait": "GarudaPrimeIcon.png",
+      "Link": "Oberon/Prime",
+      "Portrait": "OberonPrime_Thumb.png",
       "Polarities": [
         "Naramon",
-        "Vazarin",
+        "Naramon",
+        "Madurai",
         "Madurai"
       ],
+      "Playstyle": [
+        "Support"
+      ],
       "InitialEnergy": 100,
-      "Name": "Garuda Prime",
+      "Passive": "Oberon grants Righteous Negation to himself and his allies in <AFFINITY_SHARE>Affinity Range when he collects <HEALTH>Health Orbs, protecting players against the next instance of damage. Stacks up to 3 times.",
       "AuraPolarity": "Madurai",
       "Abilities": [
-        "Dread Mirror",
-        "Blood Altar",
-        "Bloodletting",
-        "Seeking Talons"
+        "Smite",
+        "Hallowed Ground",
+        "Renewal",
+        "Reckoning"
       ],
-      "Sex": "Female",
-      "Playstyle": [
-        "Damage"
-      ],
-      "Health": 270,
-      "Energy": 220,
+      "Sex": "Male",
+      "Mastery": 0,
+      "Health": 365,
+      "Energy": 215,
       "CodexSecret": false
     },
     "Excalibur Umbra": {
@@ -4835,7 +4934,7 @@
       "Armor": 315,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "ExcaliburUmbra.png"
         }
       ],
@@ -4846,7 +4945,7 @@
       "Passive": "Umbra exhibits sentience in combat without Transference control. Attacks 10% faster and deals 10% more damage while wielding swords.",
       "Link": "Excalibur/Umbra",
       "SellPrice": 0,
-      "Portrait": "Excalibur UmbraIcon272.png",
+      "Portrait": "ExcaliburUmbra_Thumb.png",
       "Polarities": [
         "Madurai",
         "Umbra",
@@ -4885,7 +4984,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "GrendelPrime.png"
         }
       ],
@@ -4919,7 +5018,7 @@
       ],
       "Sex": "Male",
       "SellPrice": 10000,
-      "Portrait": "GrendelPrimeIcon272.png",
+      "Portrait": "GrendelPrime_Thumb.png",
       "Energy": 200,
       "Name": "Grendel Prime"
     },
@@ -4938,7 +5037,7 @@
       "Armor": 185,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "SevagothPrime.png"
         }
       ],
@@ -4954,7 +5053,7 @@
       "Link": "Sevagoth/Prime",
       "Passive": "On death, become Sevagoth's Shadow and fight to resurrect him by collecting the souls needed to rebuild his tombstone.",
       "SellPrice": 10000,
-      "Portrait": "SevagothPrimeIcon272.png",
+      "Portrait": "SevagothPrime_Thumb.png",
       "InitialEnergy": 100,
       "Subsumed": "Gloom",
       "Vaulted": true,
@@ -4988,7 +5087,7 @@
       "Armor": 265,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Styanax.png"
         },
         {
@@ -5003,7 +5102,7 @@
       "Passive": "Styanax's critical chance increases with his shields and doubles for spearguns.",
       "Link": "Styanax",
       "SellPrice": 25000,
-      "Portrait": "StyanaxIcon272.png",
+      "Portrait": "Styanax_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Naramon"
@@ -5040,7 +5139,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Grendel.png"
         }
       ],
@@ -5073,7 +5172,7 @@
       ],
       "Sex": "Male",
       "SellPrice": 10000,
-      "Portrait": "GrendelIcon272.png",
+      "Portrait": "Grendel_Thumb.png",
       "Energy": 175,
       "Name": "Grendel"
     },
@@ -5092,7 +5191,7 @@
       "Armor": 240,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Rhino.png"
         },
         {
@@ -5107,7 +5206,7 @@
       "Passive": "Emit a shockwave dealing 100 damage after landing from a great height.",
       "Link": "Rhino",
       "SellPrice": 10000,
-      "Portrait": "RhinoIcon272.png",
+      "Portrait": "Rhino_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Vazarin"
@@ -5130,105 +5229,6 @@
       "Energy": 100,
       "CodexSecret": false
     },
-    "Nyx Prime": {
-      "Sprint": 1.125,
-      "Description": "Infiltrate the minds of your enemies with Nyx Prime. Featuring altered mod polarities for greater customization.",
-      "Conclave": true,
-      "Helmet": "NyxPrimeHelmet.png",
-      "Vaulted": false,
-      "MaxRank": 30,
-      "Themes": "Psychic",
-      "Tactical": "Mind Control",
-      "Image": "NyxPrime_Thumb.png",
-      "Type": "Warframe",
-      "Introduced": "14.8",
-      "Armor": 135,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "NyxPrime.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Jade/NyxPrime",
-      "Shield": 365,
-      "Progenitor": "Radiation",
-      "SquadPortrait": "NyxPrimeLargePortrait.png",
-      "Passive": "Nyx gains +40% Critical Chance on Primary and Secondary weapons per confused enemy within Affinity Range, up to +200%.",
-      "Link": "Nyx/Prime",
-      "SellPrice": 25000,
-      "Portrait": "Nyx PrimeIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Naramon",
-        "Vazarin"
-      ],
-      "InitialEnergy": 150,
-      "Name": "Nyx Prime",
-      "AuraPolarity": "Naramon",
-      "Abilities": [
-        "Mind Control",
-        "Psychic Bolts",
-        "Chaos",
-        "Absorb"
-      ],
-      "Sex": "Female",
-      "Playstyle": [
-        "Crowd Control"
-      ],
-      "Health": 270,
-      "Energy": 175,
-      "CodexSecret": false
-    },
-    "Nova Prime": {
-      "Sprint": 1.2,
-      "Description": "Nova Prime wreaks devastation on her enemies using volatile antimatter. Featuring altered mod polarities for greater customization.",
-      "Conclave": true,
-      "Helmet": "NovaPrimeHelmet.png",
-      "Vaulted": true,
-      "MaxRank": 30,
-      "Themes": "Antimatter Manipulation",
-      "Tactical": "Null Star",
-      "Image": "NovaPrime_Thumb.png",
-      "Type": "Warframe",
-      "Introduced": "15.7",
-      "Armor": 135,
-      "FullImages": [
-        {
-          "TabName": "Profile",
-          "Image": "NovaPrime.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/AntiMatter/NovaPrime",
-      "Shield": 270,
-      "Progenitor": "Electricity",
-      "SquadPortrait": "NovaPrimeLargePortrait.png",
-      "Passive": "Enemies killed while slowed down have 15% to drop health orbs. Enemies killed while sped up have 15% to drop energy orbs.",
-      "Link": "Nova/Prime",
-      "SellPrice": 25000,
-      "Portrait": "Nova PrimeIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Madurai",
-        "Madurai"
-      ],
-      "InitialEnergy": 150,
-      "Name": "Nova Prime",
-      "AuraPolarity": "Naramon",
-      "Abilities": [
-        "Null Star",
-        "Antimatter Drop",
-        "Wormhole",
-        "Molecular Prime"
-      ],
-      "Sex": "Female",
-      "Playstyle": [
-        "Damage",
-        "Crowd Control"
-      ],
-      "Health": 270,
-      "Energy": 215,
-      "CodexSecret": false
-    },
     "Nova": {
       "Sprint": 1.2,
       "Description": "Harness antimatter. Nova uses antiparticles to provide crowd control and amplify damage output. She obliterates enemies by destabilizing matter itself.",
@@ -5244,7 +5244,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Nova.png"
         }
       ],
@@ -5255,7 +5255,7 @@
       "Passive": "Enemies killed while slowed down have 15% to drop health orbs. Enemies killed while sped up have 15% to drop energy orbs.",
       "Link": "Nova",
       "SellPrice": 10000,
-      "Portrait": "NovaIcon272.png",
+      "Portrait": "Nova_Thumb.png",
       "Polarities": [
         "Madurai",
         "Madurai"
@@ -5293,18 +5293,18 @@
       "Armor": 185,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Harrow.png"
         }
       ],
       "InternalName": "/Lotus/Powersuits/Priest/Priest",
       "Shield": 455,
       "Progenitor": "Magnetic",
-      "SquadPortrait": "PriestLargePortrait.png",
+      "SquadPortrait": "HarrowLargePortrait.png",
       "Passive": "Overshield capacity doubled.\r\nStart missions at maximum energy.",
       "Link": "Harrow",
       "SellPrice": 25000,
-      "Portrait": "HarrowIcon272.png",
+      "Portrait": "Harrow_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Naramon"
@@ -5327,6 +5327,48 @@
       "Energy": 100,
       "CodexSecret": false
     },
+    "Narin": {
+      "Sprint": 0,
+      "EnergyRank30": 0,
+      "Description": "Narin descritpion goes here.",
+      "Conclave": false,
+      "Helmet": "NarinHelmet.png",
+      "MaxRank": 30,
+      "Themes": "Ice",
+      "Image": "Narin_Thumb.png",
+      "_IgnoreEntry": true,
+      "Introduced": "TBA",
+      "Armor": 0,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Narin.png"
+        }
+      ],
+      "InternalName": "",
+      "Type": "Warframe",
+      "Progenitor": "Impact",
+      "SquadPortrait": "NarinLargePortrait.png",
+      "Shield": 0,
+      "Link": "Narin",
+      "Passive": "Narin passive goes here",
+      "SellPrice": 0,
+      "Portrait": "Narin_Thumb.png",
+      "InitialEnergy": 0,
+      "Polarities": {},
+      "Name": "Narin",
+      "Abilities": [
+        "Narin Ability 1",
+        "Narin Ability 2",
+        "Narin Ability 3",
+        "Narin Ability 4"
+      ],
+      "Sex": "Female",
+      "Playstyle": {},
+      "Health": 0,
+      "Energy": 0,
+      "CodexSecret": false
+    },
     "Nidus": {
       "ArmorRank30": 450,
       "ShieldRank30": 0,
@@ -5341,7 +5383,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Nidus.png"
         },
         {
@@ -5369,7 +5411,7 @@
       "Image": "Nidus_Thumb.png",
       "Armor": 350,
       "Progenitor": "Toxin",
-      "SquadPortrait": "InfestationLargePortrait.png",
+      "SquadPortrait": "NidusLargePortrait.png",
       "Shield": 0,
       "CompatibilityTags": [
         "SANDMAN"
@@ -5385,9 +5427,60 @@
       ],
       "Sex": "Male",
       "SellPrice": 25000,
-      "Portrait": "NidusIcon272.png",
+      "Portrait": "Nidus_Thumb.png",
       "Energy": 100,
       "Name": "Nidus"
+    },
+    "Nezha Prime": {
+      "Sprint": 1.2,
+      "Vaulted": true,
+      "Description": "Behold: the Scion of the Burning Wind, now before you in most courtly accoutrement. Featuring altered mod polarities for greater customization.",
+      "Conclave": true,
+      "Helmet": "NezhaPrimeHelmet.png",
+      "ShieldRank30": 185,
+      "MaxRank": 30,
+      "Themes": "Third Lotus Prince",
+      "Tactical": "Divine Spears",
+      "Image": "NezhaPrime_Thumb.png",
+      "Type": "Warframe",
+      "Introduced": "29.3",
+      "Armor": 265,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "NezhaPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Nezha/NezhaPrime",
+      "Shield": 135,
+      "Progenitor": "Heat",
+      "SquadPortrait": "NezhaPrimeLargePortrait.png",
+      "Passive": "Slide 60% faster and go 35% farther.",
+      "Link": "Nezha/Prime",
+      "SellPrice": 10000,
+      "Portrait": "NezhaPrime_Thumb.png",
+      "Polarities": [
+        "Vazarin",
+        "Madurai",
+        "Naramon"
+      ],
+      "InitialEnergy": 125,
+      "Name": "Nezha Prime",
+      "AuraPolarity": "Naramon",
+      "Abilities": [
+        "Fire Walker",
+        "Blazing Chakram",
+        "Warding Halo",
+        "Divine Spears"
+      ],
+      "Sex": "Male",
+      "Playstyle": [
+        "Survival",
+        "Crowd Control"
+      ],
+      "Health": 365,
+      "Energy": 175,
+      "CodexSecret": false
     },
     "Baruuk Prime": {
       "EnergyRank30": 300,
@@ -5403,7 +5496,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "BaruukPrime.png"
         }
       ],
@@ -5437,59 +5530,50 @@
       ],
       "Sex": "Male",
       "SellPrice": 25000,
-      "Portrait": "BaruukPrimeIcon272.png",
+      "Portrait": "BaruukPrime_Thumb.png",
       "Energy": 200,
       "Name": "Baruuk Prime"
     },
-    "Protea Prime": {
-      "Sprint": 1.2,
-      "Vaulted": true,
-      "Description": "Behold the child of two fathers. Protea Prime once fulfilled Parvos Granum's vision of a time-wielding guardian. Now she upholds the Tenno ideal of defending the defenseless.",
+    "Brysko": {
+      "Sprint": 0,
+      "EnergyRank30": 0,
+      "Description": "Brysko description goes here",
       "Conclave": false,
-      "Helmet": "ProteaPrimeHelmet.png",
-      "Type": "Warframe",
+      "Helmet": "BryskoHelmet.png",
       "MaxRank": 30,
-      "Themes": "Gadgetry, Time Manipulation",
-      "Tactical": "Dispensary",
-      "Image": "ProteaPrime_Thumb.png",
-      "Name": "Protea Prime",
-      "Introduced": "35.5.9",
-      "Armor": 185,
+      "Themes": "Chimera Sentient, Detective Noir",
+      "Image": "Brysko_Thumb.png",
+      "_IgnoreEntry": true,
+      "Introduced": "TBA",
+      "Armor": 0,
       "FullImages": [
         {
-          "TabName": "Profile",
-          "Image": "ProteaPrime.png"
+          "TabName": "Full Body",
+          "Image": "Brysko.png"
         }
       ],
-      "InternalName": "/Lotus/Powersuits/Odalisk/ProteaPrime",
-      "Shield": 455,
-      "Progenitor": "Heat",
-      "SquadPortrait": "ProteaPrimeLargePortrait.png",
-      "Passive": "Every 4th Power Cast is granted +100% Ability Strength.",
-      "Link": "Protea/Prime",
-      "SellPrice": 10000,
-      "Portrait": "ProteaPrimeIcon272.png",
-      "Polarities": [
-        "Madurai",
-        "Naramon",
-        "Naramon"
-      ],
-      "InitialEnergy": 75,
-      "Subsumed": "Dispensary",
-      "AuraPolarity": "Aura",
+      "InternalName": "",
+      "Type": "Warframe",
+      "Progenitor": "Impact",
+      "SquadPortrait": "BryskoLargePortrait.png",
+      "Shield": 0,
+      "Link": "Brysko",
+      "Passive": "Brysko passive goes here",
+      "SellPrice": 0,
+      "Portrait": "Brysko_Thumb.png",
+      "InitialEnergy": 0,
+      "Polarities": {},
+      "Name": "Brysko",
       "Abilities": [
-        "Grenade Fan",
-        "Blaze Artillery",
-        "Dispensary",
-        "Temporal Anchor"
+        "Brysko ability 1",
+        "Brysko ability 2",
+        "Brysko ability 3",
+        "Brysko ability 4"
       ],
-      "Sex": "Female",
-      "Playstyle": [
-        "Damage",
-        "Support"
-      ],
-      "Health": 270,
-      "Energy": 200,
+      "Sex": "Male",
+      "Playstyle": {},
+      "Health": 0,
+      "Energy": 0,
       "CodexSecret": false
     },
     "Nekros Prime": {
@@ -5506,7 +5590,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "NekrosPrime.png"
         }
       ],
@@ -5518,7 +5602,7 @@
       "Link": "Nekros/Prime",
       "Passive": "Restore 5 Health with every enemy death within 10m.",
       "SellPrice": 25000,
-      "Portrait": "Nekros PrimeIcon272.png",
+      "Portrait": "NekrosPrime_Thumb.png",
       "InitialEnergy": 75,
       "Polarities": [
         "Madurai",
@@ -5555,7 +5639,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Mirage.png"
         }
       ],
@@ -5566,7 +5650,7 @@
       "Passive": "Sliding lasts 85% longer and acrobatic maneuvers are 50% faster.",
       "Link": "Mirage",
       "SellPrice": 10000,
-      "Portrait": "MirageIcon272.png",
+      "Portrait": "Mirage_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Madurai"
@@ -5604,7 +5688,7 @@
       "Armor": 315,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Garuda.png"
         }
       ],
@@ -5615,7 +5699,7 @@
       "Passive": "Garuda's damage temporarily increases with each enemy she kills, to a maximum of 100%.\r\nSlashes with her talons if no melee weapon is equipped.",
       "Link": "Garuda",
       "SellPrice": 10000,
-      "Portrait": "GarudaIcon272.png",
+      "Portrait": "Garuda_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin"
@@ -5652,7 +5736,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Mesa.png"
         }
       ],
@@ -5663,7 +5747,7 @@
       "Passive": "Shoot dual-wielded sidearms 15% faster and reload single-handed sidearms 25% more rapidly. Gain 50 Bonus Health when not using Melee Weapons.",
       "Link": "Mesa",
       "SellPrice": 10000,
-      "Portrait": "MesaIcon272.png",
+      "Portrait": "Mesa_Thumb.png",
       "Polarities": [
         "Naramon",
         "Naramon"
@@ -5701,7 +5785,7 @@
       "Armor": 300,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "S&O-Orion.png"
         }
       ],
@@ -5714,8 +5798,8 @@
       "SellPrice": 10000,
       "Portrait": "Orion_Thumb.png",
       "Polarities": [
-        "Vazarin",
         "Madurai",
+        "Naramon",
         "Aura"
       ],
       "InitialEnergy": 125,
@@ -5750,7 +5834,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Mag.png"
         }
       ],
@@ -5761,7 +5845,7 @@
       "Passive": "Nearby items gravitate towards Mag for easy collection.",
       "Link": "Mag",
       "SellPrice": 10000,
-      "Portrait": "MagIcon272.png",
+      "Portrait": "Mag_Thumb.png",
       "Polarities": [
         "Naramon",
         "Naramon"
@@ -5799,7 +5883,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "LimboPrime.png"
         }
       ],
@@ -5809,7 +5893,7 @@
       "SquadPortrait": "LimboPrimeLargePortrait.png",
       "SellPrice": 10000,
       "Link": "Limbo/Prime",
-      "Portrait": "Limbo PrimeIcon272.png",
+      "Portrait": "LimboPrime_Thumb.png",
       "Polarities": [
         "Madurai",
         "Madurai",
@@ -5849,7 +5933,7 @@
       "Armor": 500,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "AtlasPrime.png"
         }
       ],
@@ -5860,7 +5944,7 @@
       "Passive": "Becomes immune to Knockdown effects while on the ground.",
       "Link": "Atlas/Prime",
       "SellPrice": 10000,
-      "Portrait": "Atlas_PrimeIcon272.png",
+      "Portrait": "AtlasPrime_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin",
@@ -5901,7 +5985,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "VoltPrime.png"
         }
       ],
@@ -5912,7 +5996,7 @@
       "Passive": "Grounded movement generates an electrical charge building up 1000 Damage per meter that is unleashed with the next attack.",
       "Link": "Volt/Prime",
       "SellPrice": 25000,
-      "Portrait": "Volt PrimeIcon272.png",
+      "Portrait": "VoltPrime_Thumb.png",
       "Polarities": [
         "Naramon",
         "Madurai",
@@ -5950,7 +6034,7 @@
       "Armor": 315,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "FrostPrime.png"
         }
       ],
@@ -5961,7 +6045,7 @@
       "Passive": "Cold Status Effects from Frost's Abilities last 100% longer. Frost gains 50 Armor per enemy afflicted with Cold Status within Affinity Range.",
       "Link": "Frost/Prime",
       "SellPrice": 25000,
-      "Portrait": "Frost PrimeIcon272.png",
+      "Portrait": "FrostPrime_Thumb.png",
       "Polarities": [
         "Naramon",
         "Vazarin",
@@ -6000,7 +6084,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "LavosPrime.png"
         }
       ],
@@ -6037,7 +6121,7 @@
       ],
       "Sex": "Male",
       "Mastery": 0,
-      "Portrait": "LavosPrimeIcon272.png",
+      "Portrait": "LavosPrime_Thumb.png",
       "Energy": 0,
       "Name": "Lavos Prime"
     },
@@ -6054,7 +6138,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Koumei.png"
         }
       ],
@@ -6088,7 +6172,7 @@
       ],
       "Sex": "Female",
       "Mastery": 0,
-      "Portrait": "KoumeiIcon272.png",
+      "Portrait": "Koumei_Thumb.png",
       "Energy": 122,
       "Name": "Koumei"
     },
@@ -6152,7 +6236,7 @@
       ],
       "Sex": "Female",
       "SellPrice": 10000,
-      "Portrait": "KhoraPrimeIcon272.png",
+      "Portrait": "KhoraPrime_Thumb.png",
       "Energy": 175,
       "Name": "Khora Prime"
     },
@@ -6171,7 +6255,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Jade.png"
         },
         {
@@ -6186,7 +6270,7 @@
       "Passive": "Jade's profound understanding of the relationship between life and death grants her two Aura Mod Slots. Some of her Abilities apply Judgments, increasing enemy damage vulnerability by 50% for 10s.",
       "Link": "Jade",
       "SellPrice": 10000,
-      "Portrait": "JadeIcon272.png",
+      "Portrait": "Jade_Thumb.png",
       "Polarities": [
         "Naramon"
       ],
@@ -6225,7 +6309,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Nokko.png"
         },
         {
@@ -6278,7 +6362,7 @@
       "Armor": 105,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Ash.png"
         }
       ],
@@ -6289,7 +6373,7 @@
       "Passive": "Bleed effects inflicted on enemies do 25% increased damage and last 50% longer.",
       "Link": "Ash",
       "SellPrice": 10000,
-      "Portrait": "AshIcon272.png",
+      "Portrait": "Ash_Thumb.png",
       "Polarities": [
         "Madurai",
         "Madurai"
@@ -6327,7 +6411,7 @@
       "Armor": 125,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Oraxia.png"
         }
       ],
@@ -6338,7 +6422,7 @@
       "Passive": "Wall Latching grants Predator's Lurk, rendering Oraxia invisible for 8s.",
       "Link": "Oraxia",
       "SellPrice": 25000,
-      "Portrait": "OraxiaIcon272.png",
+      "Portrait": "Oraxia_Thumb.png",
       "Polarities": [
         "Madurai",
         "Naramon"
@@ -6377,7 +6461,7 @@
       "Armor": 135,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "MesaPrime.png"
         }
       ],
@@ -6387,7 +6471,7 @@
       "SquadPortrait": "MesaPrimeLargePortrait.png",
       "SellPrice": 25000,
       "Link": "Mesa/Prime",
-      "Portrait": "MesaPrimeIcon272.png",
+      "Portrait": "MesaPrime_Thumb.png",
       "Polarities": [
         "Naramon",
         "Naramon",
@@ -6427,7 +6511,7 @@
       "Armor": 315,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "ExcaliburPrime.png"
         }
       ],
@@ -6438,7 +6522,7 @@
       "Passive": "Excalibur Prime deals 10% increased damage and attacks 10% faster when wielding swords.",
       "Link": "Excalibur/Prime",
       "SellPrice": 25000,
-      "Portrait": "Excalibur PrimeIcon272.png",
+      "Portrait": "ExcaliburPrime_Thumb.png",
       "Polarities": [
         "Vazarin",
         "Madurai",
@@ -6476,7 +6560,7 @@
       "Armor": 325,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Temple.png"
         }
       ],
@@ -6487,7 +6571,7 @@
       "Passive": "Play abilities in sync with the Backbeat metronome to invigorate ability effects while increasing Ability Efficiency by 50%.",
       "Link": "Temple",
       "SellPrice": 25000,
-      "Portrait": "TempleIcon272.png",
+      "Portrait": "Temple_Thumb.png",
       "Polarities": [
         "Madurai",
         "Vazarin"
@@ -6524,7 +6608,7 @@
       ],
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "Kullervo.png"
         }
       ],
@@ -6558,7 +6642,7 @@
       ],
       "Sex": "Male",
       "Mastery": 0,
-      "Portrait": "KullervoIcon272.png",
+      "Portrait": "Kullervo_Thumb.png",
       "Energy": 175,
       "Name": "Kullervo"
     }
@@ -6578,7 +6662,7 @@
       "Armor": 385,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "VoidrigFull.png"
         }
       ],
@@ -6622,7 +6706,7 @@
       "Armor": 480,
       "FullImages": [
         {
-          "TabName": "Profile",
+          "TabName": "Full Body",
           "Image": "BonewidowFull.png"
         }
       ],

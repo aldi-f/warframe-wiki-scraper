@@ -102,7 +102,7 @@
     },
     "Arcane Precision": {
       "Type": "Warframe",
-      "Description": "On Headshot:\r\n+300% Damage for 18s on Secondary Weapon",
+      "Description": "On Weak Point Hit:\r\n+300% Damage for 18s on Secondary Weapon",
       "Link": "Arcane Precision",
       "Rarity": "Rare",
       "UpgradeTypes": [
@@ -270,7 +270,7 @@
     },
     "Secondary Deadhead": {
       "Type": "Secondary",
-      "Description": "On Precision Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+      "Description": "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
       "Link": "Secondary Deadhead",
       "Rarity": "Rare",
       "UpgradeTypes": [
@@ -925,7 +925,7 @@
     },
     "Arcane Pistoleer": {
       "Type": "Warframe",
-      "Description": "On Pistol Headshot Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+      "Description": "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
       "Link": "Arcane Pistoleer",
       "Rarity": "Rare",
       "UpgradeTypes": [
@@ -1154,7 +1154,7 @@
     },
     "Cascadia Accuracy": {
       "Type": "Secondary",
-      "Description": "On Roll:\r\n+300% Critical Chance on Weakpoint Hits for 4s",
+      "Description": "On Roll:\r\n+300% Critical Chance on Weak Point Hits for 4s",
       "Link": "Cascadia Accuracy",
       "UpgradeTypes": [
         "WEAPON_CRIT_CHANCE_BODY_PART"
@@ -2293,7 +2293,7 @@
     },
     "Primary Deadhead": {
       "Type": "Primary",
-      "Description": "On Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+      "Description": "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
       "Link": "Primary Deadhead",
       "UpgradeTypes": [
         "WEAPON_DAMAGE_AMOUNT",
@@ -2921,7 +2921,7 @@
     },
     "Longbow Sharpshot": {
       "Type": "Bow",
-      "Description": "On Headshot: Gain +300% damage on your next shot.",
+      "Description": "On Weak Point Hit: Gain +300% damage on your next shot.",
       "Link": "Longbow Sharpshot",
       "MaxRank": 5,
       "Rarity": "Legendary",

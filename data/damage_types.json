@@ -616,6 +616,36 @@
       "InternalName": "RK_CLONED_FLESH",
       "Introduced": "11"
     },
+    "Armor": {
+      "Type": "Armor",
+      "Link": "Armor",
+      "Color": "#6B6B60",
+      "DarkModeColor": "#c2c25e",
+      "Name": "Armor",
+      "Faction": [
+        "Any"
+      ],
+      "ColorBackground": "#DADAD6",
+      "ColorBorder": "#858579",
+      "Bypass": [
+        "True",
+        "Finisher",
+        "Cinematic",
+        [
+          "Cinematic",
+          50
+        ],
+        [
+          "Finisher",
+          50
+        ],
+        [
+          "True",
+          50
+        ]
+      ],
+      "InternalName": "ARMOR"
+    },
     "Scaldra": {
       "Negatives": [
         [
@@ -797,24 +827,18 @@
         "Tenno"
       ],
       "ColorBackground": "#DADAD6",
-      "ColorBorder": "#858579",
       "InternalName": "RK_TENNO_ARMOR",
-      "Bypass": [
-        [
-          "Cinematic",
-          50
-        ],
-        [
-          "True",
-          50
-        ]
-      ]
+      "ColorBorder": "#858579"
     },
     "Shield": {
       "Negatives": [
         [
           "Puncture",
           20
+        ],
+        [
+          "Heat",
+          50
         ]
       ],
       "Type": "Shield",
@@ -843,7 +867,11 @@
       "ColorBackground": "#C5CDEC",
       "Introduced": "11",
       "Bypass": [
-        "Toxin"
+        "Toxin",
+        [
+          "True",
+          50
+        ]
       ],
       "InternalName": "RK_SHIELD"
     },
@@ -917,10 +945,6 @@
     },
     "Tenno Shield": {
       "Negatives": [
-        [
-          "Heat",
-          50
-        ],
         [
           "Radiation",
           50
@@ -1328,8 +1352,11 @@
       "GlyphImage": "EssentialSlashGlyph.png",
       "Link": "Damage/Slash Damage",
       "Color": "#7a5254",
+      "Bypass": [
+        "Armor"
+      ],
       "Status": [
-        "Bleed DoT as True damage"
+        "Cinematic damage"
       ],
       "DarkModeColor": "#e69ca0",
       "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
@@ -1670,14 +1697,21 @@
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Ignite": {
+      "Negatives": [
+        "Kuva Grineer",
+        "Shield"
+      ],
+      "CSSBorderColorClass": "var(--dt-heat-border-color)",
       "GlyphImage": "HeatModBundleIcon.png",
       "Link": "Damage/Heat Damage",
       "Color": "#994d00",
-      "CSSBorderColorClass": "var(--dt-heat-border-color)",
       "Status": [
-        "Fire DoT as Heat damage",
+        "Heat damage",
         "Panic",
-        "Armor reduction"
+        "Armor reduction (max 50%)"
+      ],
+      "Positives": [
+        "Infested"
       ],
       "DarkModeColor": "#fb9733",
       "CSSBackgroundColorClass": "var(--dt-heat-background-color)",
@@ -1759,22 +1793,10 @@
     }
   },
   "total": {
-    "Tenno Shield": {
-      "Puncture": -50,
-      "Corrosive": -50,
-      "Gas": -50,
-      "Slash": -50,
-      "Heat": -50,
-      "Magnetic": -50,
-      "Impact": -50,
-      "Blast": -50,
-      "Radiation": -50,
-      "Tau": -50,
-      "Toxin": 0,
-      "Void": -50,
-      "Electricity": -50,
-      "Viral": -50,
-      "Cold": -50
+    "The Murmur": {
+      "Radiation": 50,
+      "Electricity": 50,
+      "Viral": -50
     },
     "Overguard": {
       "Void": 50
@@ -1798,10 +1820,15 @@
       "Tenno Shield": -50,
       "Corpus": 50
     },
-    "Techrot": {
-      "Gas": 50,
-      "Magnetic": 50,
-      "Cold": -50
+    "Corrosive": {
+      "Kuva Grineer": 50,
+      "Tenno Shield": -50,
+      "Sentient": -50,
+      "Scaldra": 50,
+      "Grineer": 50
+    },
+    "Finisher": {
+      "Armor": 0
     },
     "Sentient": {
       "Radiation": 50,
@@ -1838,16 +1865,22 @@
       "Zariman": 50
     },
     "Heat": {
+      "Shield": -50,
       "Kuva Grineer": -50,
-      "Tenno Shield": -50,
       "Infested": 50
     },
     "Tenno Flesh": {},
-    "Zariman": {
-      "Void": 50
+    "Shield": {
+      "True": 0,
+      "Heat": -50
     },
     "Cinematic": {
-      "Tenno Armor": 0
+      "Armor": 0
+    },
+    "Armor": {
+      "True": 0,
+      "Finisher": 0,
+      "Cinematic": 0
     },
     "Scaldra": {
       "Corrosive": 50,
@@ -1861,19 +1894,16 @@
       "Infested Deimos": 50
     },
     "True": {
-      "Tenno Armor": 0
+      "Armor": 0,
+      "Shield": 0
     },
-    "Corpus Amalgam": {
-      "Blast": -50,
-      "Electricity": 50,
-      "Magnetic": 50
+    "Narmer": {
+      "Slash": 50,
+      "Magnetic": -50,
+      "Toxin": 50
     },
-    "Radiation": {
-      "Tenno Shield": -50,
-      "Anarchs": -50,
-      "Sentient": 50,
-      "Orokin": -50,
-      "The Murmur": 50
+    "Zariman": {
+      "Void": 50
     },
     "Infested Deimos": {
       "Blast": 50,
@@ -1890,28 +1920,35 @@
       "Radiation": -50,
       "Viral": 50
     },
-    "The Murmur": {
-      "Radiation": 50,
-      "Electricity": 50,
-      "Viral": -50
+    "Tau": {
+      "Tenno Shield": -50
     },
-    "Tenno Armor": {
-      "Cinematic": 0,
-      "True": 0
-    },
-    "Corrosive": {
-      "Kuva Grineer": 50,
+    "Radiation": {
       "Tenno Shield": -50,
-      "Sentient": -50,
-      "Scaldra": 50,
-      "Grineer": 50
+      "Anarchs": -50,
+      "Sentient": 50,
+      "Orokin": -50,
+      "The Murmur": 50
+    },
+    "Tenno Shield": {
+      "Puncture": -50,
+      "Viral": -50,
+      "Slash": -50,
+      "Gas": -50,
+      "Magnetic": -50,
+      "Impact": -50,
+      "Blast": -50,
+      "Corrosive": -50,
+      "Toxin": 0,
+      "Tau": -50,
+      "Void": -50,
+      "Electricity": -50,
+      "Radiation": -50,
+      "Cold": -50
     },
     "Infested": {
       "Slash": 50,
       "Heat": 50
-    },
-    "Tau": {
-      "Tenno Shield": -50
     },
     "Toxin": {
       "Tenno Shield": 0,
@@ -1923,16 +1960,21 @@
       "Tenno Shield": -50,
       "Infested Deimos": -50
     },
+    "Corpus Amalgam": {
+      "Blast": -50,
+      "Electricity": 50,
+      "Magnetic": 50
+    },
     "Electricity": {
       "Corpus Amalgam": 50,
       "The Murmur": 50,
       "Tenno Shield": -50,
       "Anarchs": 50
     },
-    "Narmer": {
-      "Slash": 50,
-      "Magnetic": -50,
-      "Toxin": 50
+    "Techrot": {
+      "Gas": 50,
+      "Magnetic": 50,
+      "Cold": -50
     },
     "Grineer": {
       "Impact": 50,
@@ -2130,7 +2172,7 @@
     "Heat": {
       "Negatives": [
         "Kuva Grineer",
-        "Tenno Shield"
+        "Shield"
       ],
       "GlyphImage": "HeatModBundleIcon.png",
       "Color": "#994d00",
@@ -2139,7 +2181,7 @@
       "Status": [
         "Ignite DoT",
         "Panic",
-        "Armor Reduction"
+        "Armor reduction (max 50%)"
       ],
       "StatusNotes": [
         1,
@@ -2171,7 +2213,7 @@
       "InternalName": "DT_CINEMATIC",
       "Icon": "UnidentifiedItem.png",
       "Bypass": [
-        "Tenno Armor"
+        "Armor"
       ],
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
@@ -2293,14 +2335,21 @@
       "ColorBorder": "#708d1c"
     },
     "Finisher": {
-      "CSSBackgroundColorClass": "var(--dt-default-background-color)",
-      "Name": "Finisher",
-      "CSSTextColorClass": "var(--dt-default-text-color)",
-      "Link": "Finisher",
+      "Link": "Damage#Unique Damage",
       "Color": "#5d5d5d",
-      "CSSBorderColorClass": "var(--dt-default-border-color)",
+      "DarkModeColor": "#d5d5d5",
+      "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+      "InternalName": "DT_FINISHER",
+      "BypassNotes": [
+        5
+      ],
+      "Name": "Finisher",
       "Icon": "Finisher_b.png",
-      "DarkModeColor": "#d5d5d5"
+      "CSSTextColorClass": "var(--dt-default-text-color)",
+      "Bypass": [
+        "Armor"
+      ],
+      "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Viral": {
       "Negatives": [
@@ -2362,7 +2411,7 @@
       "Link": "Damage/True Damage",
       "Color": "#664d00",
       "Name": "True",
-      "InternalName": "DT_FINISHER",
+      "InternalName": "DT_HEALTH_DRAIN",
       "DarkModeColor": "#dda700",
       "CSSBackgroundColorClass": "var(--dt-true-background-color)",
       "Icon": "DmgTrueSmall64.png",
@@ -2373,7 +2422,8 @@
       "ColorBackground": "#ddd6c7",
       "CSSBorderColorClass": "var(--dt-true-border-color)",
       "Bypass": [
-        "Tenno Armor"
+        "Armor",
+        "Shield"
       ],
       "ColorBorder": "#d8a12b"
     },

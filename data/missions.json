@@ -64,7 +64,7 @@
     "Skyresh": "PreviousNodes",
     "?": "Other",
     "A": "Other",
-    "C": "Other",
+    "17.5": "Introduced",
     "Rhino": "Drops",
     "Rescue3": "DropTableAlias",
     "I": "Other",
@@ -599,7 +599,6 @@
     "VenusToMercuryJunction": "InternalName",
     "EntratiSurvival": "DropTableAlias",
     "Jackal/Quotes": "Quotes",
-    "Grineer and Corpus": "Enemy",
     "Nuovo": "NextNodes",
     "Sanctum Anatomica/Quotes": "Quotes",
     "Mobile Defense": "Type",
@@ -715,7 +714,7 @@
     "SolNode720": "InternalName",
     "42": "Introduced",
     "SolNode257": "InternalName",
-    "Must have 25 [[Judgement Points]] to access": "Requirements",
+    "Kela De Thaym": "DropTableAlias",
     "CrewBattleNode540": "InternalName",
     "Orb Vallis.png": "Image",
     "Technocyte Coda Stadium": "Tileset",
@@ -805,7 +804,7 @@
     "13": "Introduced",
     "Must have [[Jade Shadows]] completed": "Requirements",
     "33": "Introduced",
-    "Deimos": "Planet",
+    "ClanNode15": "InternalName",
     "Shrine Defense": "Type",
     "Grineer Forest": "Tileset",
     "Plato": "NextNodes",
@@ -821,7 +820,7 @@
     "1999LegacyteHarvest": "DropTableAlias",
     "Old Konderuk": "Link",
     "Survival/Quotes#Techrot": "Quotes",
-    "Mammon's Prospect": "NextNodes",
+    "Mirror Defense": "Type",
     "SolNode403": "InternalName",
     "Ur": "NextNodes",
     "Hellas": "Link",
@@ -834,14 +833,14 @@
     "SolNode308": "InternalName",
     "Scaldra": "Enemy",
     "CrewBattleNode541": "InternalName",
-    "Ceres Junction": "Link",
+    "Iota Temple": "NextNodes",
     "12": "Introduced",
     "22": "Introduced",
     "Exterminate/Quotes#Techrot": "Quotes",
     "SolNode715": "InternalName",
     "H\u00f6llvania": "Planet",
     "1999Exterminate": "DropTableAlias",
-    "The Circuit": "Link",
+    "SolNode215": "InternalName",
     "SolNode908": "InternalName",
     "Must have [[Intrinsics]] Rank 3 or higher and an active [[Sister of Parvos]] to access": "Requirements",
     "Europa": "Planet",
@@ -854,7 +853,7 @@
     "Circulus": "NextNodes",
     "SanctuaryOnslaughtElite": "DropTableAlias",
     "SolNode748": "InternalName",
-    "Assur": "Link",
+    "25.7": "Introduced",
     "26": "Introduced",
     "Isleweaver": "Link",
     "Orokin Derelict": "Tileset",
@@ -874,7 +873,7 @@
     "SolNode718": "InternalName",
     "EntratiAlchemy": "DropTableAlias",
     "Grineer Asteroid Fortress": "Tileset",
-    "Hijack/Quotes": "Quotes",
+    "RopalolystExtra": "ExtraDropTableAlias",
     "EntratiDisruption": "DropTableAlias",
     "EntratiMirrorDefense": "DropTableAlias",
     "Must have [[Whispers in the Walls]] completed to access": "Requirements",
@@ -941,14 +940,14 @@
     "SolNode16": "InternalName",
     "Mutalist Alad V Assassinate": "Link",
     "25": "Introduced",
-    "SolNode215": "InternalName",
+    "SolNode173": "InternalName",
     "Phorid/Quotes": "Quotes",
     "Narcissus": "NextNodes",
-    "RopalolystExtra": "ExtraDropTableAlias",
+    "false": "IsCrossfire",
     "Trinity": "Drops",
     "SolNode706": "InternalName",
     "Vesper Strait": "NextNodes",
-    "false": "IsCrossfire",
+    "Hijack/Quotes": "Quotes",
     "35.5": "Introduced",
     "Disruption": "Type",
     "Linea": "NextNodes",
@@ -962,38 +961,38 @@
     "Phorid": "Link",
     "16": "Introduced",
     "SolNode50": "InternalName",
-    "Mirror Defense": "Type",
+    "The Circuit": "Link",
     "SolNode712": "InternalName",
     "SolNode856": "InternalName",
-    "Captain Vor/Quotes": "Quotes",
+    "Mammon's Prospect": "NextNodes",
     "Oro": "NextNodes",
     "Cetus/Quotes": "Quotes",
     "Neptune": "Planet",
     "41": "Introduced",
     "SolNode140": "InternalName",
-    "Iota Temple": "NextNodes",
+    "Captain Vor/Quotes": "Quotes",
     "Rhu Manor": "Link",
     "SolNode53": "InternalName",
-    "Pluto": "Planet",
+    "Ceres Junction": "Link",
     "SolNode114": "InternalName",
     "SolNode103": "InternalName",
+    "Pluto": "Planet",
     "GrineerProximaExtra": "ExtraDropTableAlias",
-    "ClanNode15": "InternalName",
     "Hub": "Type",
     "Mischta Ramparts": "Link",
-    "The Index": "Link",
+    "Deimos": "Planet",
     "H\u00f6llvania Central Mall/Quotes": "Quotes",
     "SolNode64": "InternalName",
     "SolNode742": "InternalName",
-    "St\u00f6fler": "Link",
+    "The Index": "Link",
     "MurmurIcon.png": "Pic",
     "ClanNode20": "InternalName",
-    "17.5": "Introduced",
+    "St\u00f6fler": "Link",
     "Nyx": "Drops",
     "Galatea": "NextNodes",
     "CohPrecpice.png": "Image",
     "Lex": "NextNodes",
-    "CrewBattleNode525": "InternalName",
+    "Sovereign Grasp": "NextNodes",
     "SolNode104": "InternalName",
     "21": "Introduced",
     "11": "Introduced",
@@ -1006,49 +1005,49 @@
     "SolNode185": "InternalName",
     "SolNode231": "InternalName",
     "Tiwaz": "Link",
-    "SolNode42": "InternalName",
+    "Mutalist Alad V/Quotes": "Quotes",
     "Pluto Proxima": "Planet",
-    "Grimaldi": "PreviousNodes",
     "Memphis": "NextNodes",
     "6": "Introduced",
+    "Grimaldi": "PreviousNodes",
     "Team Annihilation": "Link",
     "SolNode402": "InternalName",
+    "C": "Other",
     "B": "Other",
     "E": "Other",
-    "SolNode193": "InternalName",
     "Pavlov": "NextNodes",
-    "Kela De Thaym": "DropTableAlias",
+    "SolNode193": "InternalName",
     "SolNode36": "InternalName",
     "Callisto": "Link",
     "Ganymede": "Link",
     "Technocyte Coda Concert": "Name",
     "Kiste": "NextNodes",
+    "Must have 25 [[Judgement Points]] to access": "Requirements",
     "SolNode745": "InternalName",
-    "SolNode173": "InternalName",
     "SolNode234": "InternalName",
     "Orphix": "Type",
-    "25.7": "Introduced",
+    "Kelpie": "NextNodes",
     "Isleweaver/Quotes": "Quotes",
-    "Mutalist Alad V/Quotes": "Quotes",
-    "Must have [[The War Within]] completed and [[Intrinsics]] Rank 5 or higher to access": "Requirements",
+    "Assur": "Link",
+    "SolNode42": "InternalName",
     "SolNode49": "InternalName",
     "Eurasia": "PreviousNodes",
-    "Vay Hek": "DropTableAlias",
+    "Must have [[The War Within]] completed and [[Intrinsics]] Rank 5 or higher to access": "Requirements",
     "SolNode147": "InternalName",
+    "Vay Hek": "DropTableAlias",
     "SolNode107": "InternalName",
-    "Kelpie": "NextNodes",
     "Lech Kril": "DropTableAlias",
     "SolNode740": "InternalName",
     "Sisters of Parvos/Quotes": "Quotes",
-    "SolNode171": "InternalName",
+    "SolNode25": "InternalName",
     "Naga": "NextNodes",
     "Koro": "NextNodes",
     "Elion": "NextNodes",
     "SolNode48": "InternalName",
     "SolNode187": "InternalName",
-    "SolNode25": "InternalName",
     "Frost": "Drops",
     "SaturnToUranusJunction": "InternalName",
+    "SolNode171": "InternalName",
     "War (Node)": "Link",
     "SolNode167": "InternalName",
     "The Descendia/Quotes": "Quotes",
@@ -1067,7 +1066,7 @@
     "Pathocyst": "Drops",
     "SolNode97": "InternalName",
     "Must have [[Intrinsics]] Rank 5 or higher to access": "Requirements",
-    "Sovereign Grasp": "NextNodes",
+    "CrewBattleNode525": "InternalName",
     "ClanNode21": "InternalName",
     "J3Golem.png": "Pic",
     "Jupiter": "Planet",
@@ -1350,6 +1349,11 @@
       "LocationNote": "Completing [[Points of Interest]] on any node in [[Neptune Proxima]]",
       "Name": "Neptune Proxima Point of Interest",
       "Link": "Neptune Proxima"
+    },
+    "The Icebind": {
+      "LocationNote": "*[[Yuvan Peak]], [[Earth]]; talk to [[Cephalon Melica]]; Must complete [[Angels in the Zariman]] quest, [[Whispers in the Walls]] quest, and unlocked [[Elite Archimedea]] to access.",
+      "Name": "The Icebind",
+      "Link": "The Icebind"
     },
     "Grineer Veil Proxima Point of Interest": {
       "LocationNote": "Completing [[Points of Interest]] on any Grineer-controlled node in [[Veil Proxima]]",
@@ -7811,10 +7815,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -19766,38 +19773,6 @@
           "Quotes": "Survival/Quotes"
         },
         {
-          "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
-          "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
-          "MaxLevel": 30,
-          "DropTableAlias": "MirrorDefense",
-          "Planet": "Mars",
-          "InternalName": "SolNode450",
-          "Tileset": "Grineer Settlement",
-          "IsHidden": true,
-          "Type": "Mirror Defense",
-          "Link": "Tyana Pass",
-          "Id": 200,
-          "CreditReward": 3400,
-          "PreviousNodes": [
-            "Spear"
-          ],
-          "IsTracked": true,
-          "Name": "Tyana Pass",
-          "IsDarkSector": false,
-          "Introduced": "32.3",
-          "RegionResources": [
-            "Gallium",
-            "Morphics",
-            "Salvage",
-            "Fieldron Sample"
-          ],
-          "MinLevel": 25,
-          "Quotes": "Mirror Defense/Quotes"
-        },
-        {
           "MasteryExp": 0,
           "FactionImage": "IconCorpusB.svg",
           "IsDarkSector": false,
@@ -24878,6 +24853,41 @@
           "Name": "Valac"
         },
         {
+          "MasteryExp": 18,
+          "FactionImage": "InvasionIcon_b.png",
+          "Requirements": "Must have [[Heart of Deimos]] completed to access",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
+          "MaxLevel": 30,
+          "DropTableAlias": "MirrorDefense",
+          "Planet": "Mars",
+          "InternalName": "SolNode450",
+          "Tileset": "Grineer Settlement",
+          "IsHidden": true,
+          "Type": "Mirror Defense",
+          "Link": "Tyana Pass",
+          "Id": 200,
+          "CreditReward": 3400,
+          "PreviousNodes": [
+            "Spear"
+          ],
+          "IsTracked": true,
+          "Name": "Tyana Pass",
+          "IsDarkSector": false,
+          "Introduced": "32.3",
+          "RegionResources": [
+            "Gallium",
+            "Morphics",
+            "Salvage",
+            "Fieldron Sample"
+          ],
+          "MinLevel": 25,
+          "Quotes": "Mirror Defense/Quotes"
+        },
+        {
           "CacheDropTableAlias": "LuaCaches",
           "MasteryExp": 0,
           "FactionImage": "InvasionIcon_b.png",
@@ -26835,40 +26845,6 @@
           "IsTracked": true,
           "Introduced": "31.5",
           "Name": "Oro Works"
-        }
-      ],
-      "Grineer and Corpus": [
-        {
-          "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
-          "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
-          "MaxLevel": 30,
-          "DropTableAlias": "MirrorDefense",
-          "Planet": "Mars",
-          "InternalName": "SolNode450",
-          "Tileset": "Grineer Settlement",
-          "IsHidden": true,
-          "Type": "Mirror Defense",
-          "Link": "Tyana Pass",
-          "Id": 200,
-          "CreditReward": 3400,
-          "PreviousNodes": [
-            "Spear"
-          ],
-          "IsTracked": true,
-          "Name": "Tyana Pass",
-          "IsDarkSector": false,
-          "Introduced": "32.3",
-          "RegionResources": [
-            "Gallium",
-            "Morphics",
-            "Salvage",
-            "Fieldron Sample"
-          ],
-          "MinLevel": 25,
-          "Quotes": "Mirror Defense/Quotes"
         }
       ],
       "Orokin": [
@@ -31806,6 +31782,41 @@
           ],
           "Introduced": "32.2",
           "Name": "Zeipel"
+        },
+        {
+          "MasteryExp": 18,
+          "FactionImage": "InvasionIcon_b.png",
+          "Requirements": "Must have [[Heart of Deimos]] completed to access",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
+          "MaxLevel": 30,
+          "DropTableAlias": "MirrorDefense",
+          "Planet": "Mars",
+          "InternalName": "SolNode450",
+          "Tileset": "Grineer Settlement",
+          "IsHidden": true,
+          "Type": "Mirror Defense",
+          "Link": "Tyana Pass",
+          "Id": 200,
+          "CreditReward": 3400,
+          "PreviousNodes": [
+            "Spear"
+          ],
+          "IsTracked": true,
+          "Name": "Tyana Pass",
+          "IsDarkSector": false,
+          "Introduced": "32.3",
+          "RegionResources": [
+            "Gallium",
+            "Morphics",
+            "Salvage",
+            "Fieldron Sample"
+          ],
+          "MinLevel": 25,
+          "Quotes": "Mirror Defense/Quotes"
         },
         {
           "MasteryExp": 0,
@@ -36906,6 +36917,41 @@
           ],
           "IsTracked": true,
           "Name": "Caliban"
+        },
+        {
+          "MasteryExp": 18,
+          "FactionImage": "InvasionIcon_b.png",
+          "Requirements": "Must have [[Heart of Deimos]] completed to access",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
+          "MaxLevel": 30,
+          "DropTableAlias": "MirrorDefense",
+          "Planet": "Mars",
+          "InternalName": "SolNode450",
+          "Tileset": "Grineer Settlement",
+          "IsHidden": true,
+          "Type": "Mirror Defense",
+          "Link": "Tyana Pass",
+          "Id": 200,
+          "CreditReward": 3400,
+          "PreviousNodes": [
+            "Spear"
+          ],
+          "IsTracked": true,
+          "Name": "Tyana Pass",
+          "IsDarkSector": false,
+          "Introduced": "32.3",
+          "RegionResources": [
+            "Gallium",
+            "Morphics",
+            "Salvage",
+            "Fieldron Sample"
+          ],
+          "MinLevel": 25,
+          "Quotes": "Mirror Defense/Quotes"
         },
         {
           "CacheDropTableAlias": "LuaCaches",
@@ -44330,10 +44376,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -54898,10 +54947,13 @@
       "MirrorDefense": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -67422,10 +67474,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -77165,10 +77220,13 @@
       "SolNode450": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -87477,10 +87535,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -96814,10 +96875,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -101321,10 +101385,13 @@
       "Mirror Defense": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -114040,10 +114107,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -136115,10 +136185,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -152102,10 +152175,13 @@
       "Mirror Defense/Quotes": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -163363,10 +163439,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -181687,10 +181766,13 @@
       "Must have [[Heart of Deimos]] completed to access": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -188033,10 +188115,13 @@
       "32.3": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -201262,10 +201347,13 @@
       "Tyana Pass": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -210494,10 +210582,13 @@
         },
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -225247,10 +225338,13 @@
       "Tyana Pass": [
         {
           "MasteryExp": 18,
-          "FactionImage": "IconGrineerOrCorpus.png",
+          "FactionImage": "InvasionIcon_b.png",
           "Requirements": "Must have [[Heart of Deimos]] completed to access",
-          "IsCrossfire": false,
-          "Enemy": "Grineer and Corpus",
+          "IsCrossfire": true,
+          "Enemy": [
+            "Grineer",
+            "Corpus"
+          ],
           "MaxLevel": 30,
           "DropTableAlias": "MirrorDefense",
           "Planet": "Mars",
@@ -237458,10 +237552,13 @@
     },
     {
       "MasteryExp": 18,
-      "FactionImage": "IconGrineerOrCorpus.png",
+      "FactionImage": "InvasionIcon_b.png",
       "Requirements": "Must have [[Heart of Deimos]] completed to access",
-      "IsCrossfire": false,
-      "Enemy": "Grineer and Corpus",
+      "IsCrossfire": true,
+      "Enemy": [
+        "Grineer",
+        "Corpus"
+      ],
       "MaxLevel": 30,
       "DropTableAlias": "MirrorDefense",
       "Planet": "Mars",

@@ -89,22 +89,20 @@
     "Round": "7",
     "Name": "Mesa Graxx Skin"
   },
-  "Icarius Syandana": {
+  "Nova Tachyon Helmet": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya, Scharkie and Jadie.",
-    "Link": "Icarius Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1346542404",
-    "Image": "IcariusSyandana.png",
+    "Type": "Helmet",
+    "Description": "A helmet for the Nova Warframe, designed by Rekkou.",
+    "Link": "Nova Tachyon Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665215216",
+    "Image": "NovaTachyonHelmet.png",
     "Artists": [
-      "malaya",
-      "Scharkie",
-      "Jadie"
+      "Rekkou"
     ],
-    "Introduced": "23.1",
+    "Introduced": "18.13",
     "PcPrice": "$5.99",
-    "Round": "13",
-    "Name": "Icarius Syandana"
+    "Round": "3",
+    "Name": "Nova Tachyon Helmet"
   },
   "Mag Orbit Skin": {
     "ConsolePrice": "165",
@@ -136,21 +134,6 @@
     "Round": "2",
     "Name": "Nekros Lazarus Helmet"
   },
-  "Lumis Earpiece": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique pair of earpieces, designed by lukinu_u.",
-    "Link": "Lumis Earpiece",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494935193",
-    "Image": "LumisEarpiece.png",
-    "Artists": [
-      "lukinu_u"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$1.99",
-    "Round": "14",
-    "Name": "Lumis Earpiece"
-  },
   "Scindo Combustion Skin": {
     "ConsolePrice": "40",
     "Type": "Weapon Skin",
@@ -180,20 +163,19 @@
     "Round": "Tennogen Unbound",
     "Name": "Baruuk Peacemaker Skin"
   },
-  "Eternalia Tower Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Ventralhound.",
-    "Link": "Eternalia Tower Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3037290563",
-    "Image": "EternaliaTowerOculus.png",
+  "Liset Protege Skin": {
+    "ConsolePrice": "90",
+    "Type": "Landing Craft",
+    "Link": "Liset Protege Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1335933403",
+    "Image": "LisetProtegeSkin.png",
     "Artists": [
-      "Ventralhound"
+      "MaceMadunusus"
     ],
-    "Introduced": "38.6.3",
-    "PcPrice": "$1.99",
-    "Round": "TennoGen Isleweaver",
-    "Name": "Eternalia Tower Oculus"
+    "Introduced": "23.1",
+    "PcPrice": "$4.99",
+    "Round": "13",
+    "Name": "Liset Protege Skin"
   },
   "Tonfa Ba'geth Skin": {
     "ConsolePrice": "105",
@@ -256,20 +238,35 @@
     "Round": "18",
     "Name": "Wisp Delusion Skin"
   },
-  "Arcturus Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by FrellingHazmot.",
-    "Link": "Arcturus Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=839641825",
-    "Image": "ArcturusSyandana.png",
+  "Excalibur Isurus Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Excalibur Warframe, designed by Coridium.",
+    "Link": "Excalibur Isurus Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=566805069",
+    "Image": "ExcaliburIsurusHelmet.png",
     "Artists": [
-      "FrellingHazmot"
+      "Coridium"
     ],
-    "Introduced": "19.11",
+    "Introduced": "18.1.4",
     "PcPrice": "$5.99",
-    "Round": "7",
-    "Name": "Arcturus Syandana"
+    "Round": "Polycount",
+    "Name": "Excalibur Isurus Helmet"
+  },
+  "Claws Ninurta Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique claws skin, designed by Apollo Phoenix.",
+    "Link": "Claws Ninurta Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2996881663",
+    "Image": "NinurtaClawSkin.png",
+    "Artists": [
+      "Apollo Phoenix"
+    ],
+    "Introduced": "37",
+    "PcPrice": "$5.99",
+    "Round": "TennoGen Fates",
+    "Name": "Claws Ninurta Skin"
   },
   "Galatine Claymire Skin": {
     "ConsolePrice": "N/A",
@@ -317,20 +314,20 @@
     "Round": "17",
     "Name": "Fhan'epak Chest Plate"
   },
-  "Blaze Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by blazingcobalt.",
-    "Link": "Blaze Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2132901223",
-    "Image": "BlazeOculus.png",
+  "Nova Device Skin": {
+    "ConsolePrice": "N/A",
+    "Type": "Skin",
+    "Description": "A unique skin for the Nova Warframe, designed by prosetisen.",
+    "Link": "Nova Device Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665832288",
+    "Image": "NovaDeviceSkin.png",
     "Artists": [
-      "blazingcobalt"
+      "prosetisen"
     ],
-    "Introduced": "29.2.1",
-    "PcPrice": "$1.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Blaze Oculus"
+    "Introduced": "18.13",
+    "PcPrice": "$4.99",
+    "Round": "3",
+    "Name": "Nova Device Skin"
   },
   "Saryn Ion Skin": {
     "ConsolePrice": "165",
@@ -408,22 +405,6 @@
     "Round": "1",
     "Name": "Volt Amp Skin"
   },
-  "Zhivira Shoulder Armor": {
-    "ConsolePrice": "50",
-    "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by blazingcobalt.",
-    "Link": "Zhivira Shoulder Armor",
-    "Part": "Arm",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2838618329",
-    "Image": "ZhiviraShoulderArmor.png",
-    "Artists": [
-      "blazingcobalt"
-    ],
-    "Introduced": "33.5",
-    "PcPrice": "$2.99",
-    "Round": "23 [Batch 2]",
-    "Name": "Zhivira Shoulder Armor"
-  },
   "Nova Stinger Skin": {
     "ConsolePrice": "165",
     "Type": "Skin",
@@ -438,36 +419,6 @@
     "PcPrice": "$4.99",
     "Round": "3",
     "Name": "Nova Stinger Skin"
-  },
-  "Zephyr Strafe Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Zephyr Warframe, designed by prosetisen.",
-    "Link": "Zephyr Strafe Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1335057061",
-    "Image": "ZephyrStrafeSkin.png",
-    "Artists": [
-      "prosetisen"
-    ],
-    "Introduced": "23.1",
-    "PcPrice": "$6.99",
-    "Round": "13",
-    "Name": "Zephyr Strafe Skin"
-  },
-  "Draugen Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Goosmo.",
-    "Link": "Draugen Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2396418848",
-    "Image": "DraugenSyandana.png",
-    "Artists": [
-      "Goosmo"
-    ],
-    "Introduced": "31.1",
-    "PcPrice": "$5.99",
-    "Round": "21 [Batch 1]",
-    "Name": "Draugen Syandana"
   },
   "Ivara Astrea Skin": {
     "ConsolePrice": "165",
@@ -606,69 +557,20 @@
     "Round": "4",
     "Name": "Valkyr Graxx Skin"
   },
-  "Raiji Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012.",
-    "Link": "Raiji Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=858577212",
-    "Image": "RaijiSyandana.png",
+  "Chroma Kaiju Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Chroma Warframe, designed by [k a z].",
+    "Link": "Chroma Kaiju Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=619969541",
+    "Image": "ChromaKaijuHelmet.png",
     "Artists": [
-      "led2012"
+      "[k a z]"
     ],
-    "Introduced": "20.5",
+    "Introduced": "18.6.3",
     "PcPrice": "$5.99",
-    "Round": "8",
-    "Name": "Raiji Syandana"
-  },
-  "Seraphim Chest Plate": {
-    "ConsolePrice": "45",
-    "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by led2012 and jaeon009.",
-    "Link": "Seraphim Chest Plate",
-    "Part": "Chest",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1842785937",
-    "Image": "SeraphimChestPlate.png",
-    "Artists": [
-      "led2012",
-      "jaeon009"
-    ],
-    "Introduced": "27.3.8",
-    "PcPrice": "$2.49",
-    "Round": "18",
-    "Name": "Seraphim Chest Plate"
-  },
-  "Alocana Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya and Cobalt.",
-    "Link": "Alocana Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2833449435",
-    "Image": "AlocanaSyandana.png",
-    "Artists": [
-      "malaya",
-      "Cobalt"
-    ],
-    "Introduced": "33",
-    "PcPrice": "$5.99",
-    "Round": "23 [Batch 1]",
-    "Name": "Alocana Syandana"
-  },
-  "Garasu Earpiece": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique pair of earpieces, designed by Ixe and lukinu_u.",
-    "Link": "Garasu Earpiece",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1713536953",
-    "Image": "GarasuEarpiece.png",
-    "Artists": [
-      "Ixe",
-      "lukinu_u"
-    ],
-    "Introduced": "25.1",
-    "PcPrice": "$1.99",
-    "Round": "16",
-    "Name": "Garasu Earpiece"
+    "Round": "2",
+    "Name": "Chroma Kaiju Helmet"
   },
   "Gara Rouen Helmet": {
     "ConsolePrice": "105",
@@ -685,36 +587,35 @@
     "Round": "17",
     "Name": "Gara Rouen Helmet"
   },
-  "Caerulea Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Awk'Q-Luz and blazingcobalt.",
-    "Link": "Caerulea Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2651582567",
-    "Image": "CaeruleaOculus.png",
+  "Frost Zastruga Helmet": {
+    "ConsolePrice": "75",
+    "Type": "Helmet",
+    "Description": "A helmet for the Frost Warframe, designed by Rekkou.",
+    "Link": "Frost Zastruga Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=657002153",
+    "Image": "FrostZastrugaHelmet.png",
     "Artists": [
-      "Awk'Q-Luz",
-      "blazingcobalt"
+      "Rekkou"
     ],
-    "Introduced": "31.1.7",
-    "PcPrice": "$2.99",
-    "Round": "22 [Batch 1]",
-    "Name": "Caerulea Oculus"
-  },
-  "Corona Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Hitsu San.",
-    "Link": "Corona Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194837467",
-    "Image": "CoronaSyandana.png",
-    "Artists": [
-      "Hitsu San"
-    ],
-    "Introduced": "22.11",
+    "Introduced": "18.13",
     "PcPrice": "$5.99",
-    "Round": "11 [Batch 2]",
-    "Name": "Corona Syandana"
+    "Round": "3",
+    "Name": "Frost Zastruga Helmet"
+  },
+  "Frost Ion Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Frost Warframe, designed by Yatus.",
+    "Link": "Frost Ion Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1392432715",
+    "Image": "FrostIonSkin.png",
+    "Artists": [
+      "Yatus"
+    ],
+    "Introduced": "25.1",
+    "PcPrice": "$6.99",
+    "Round": "16",
+    "Name": "Frost Ion Skin"
   },
   "Harrow Algalyst Skin": {
     "ConsolePrice": "165",
@@ -745,21 +646,6 @@
     "PcPrice": "$6.99",
     "Round": "12",
     "Name": "Rhino Scarab Sect Skin"
-  },
-  "Zephyr Migisi Helmet": {
-    "ConsolePrice": "N/A",
-    "Type": "Helmet",
-    "Description": "A helmet for the Zephyr Warframe, designed by FrellingHazmot.",
-    "Link": "Zephyr Migisi Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=709549507",
-    "Image": "ZephyrMigisiHelmet.png",
-    "Artists": [
-      "FrellingHazmot"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$5.99",
-    "Round": "4",
-    "Name": "Zephyr Migisi Helmet"
   },
   "Caliban Scion Helmet": {
     "ConsolePrice": "105",
@@ -805,131 +691,6 @@
     "Round": "5",
     "Name": "Atlas Arhat Helmet"
   },
-  "Katix Earpiece": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique pair of earpieces, designed by lex182 and cedd00.",
-    "Link": "Katix Earpiece",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2850145441",
-    "Image": "KatixEarpiece.png",
-    "Artists": [
-      "lex182",
-      "cedd00"
-    ],
-    "Introduced": "33",
-    "PcPrice": "$1.99",
-    "Round": "23 [Batch 1]",
-    "Name": "Katix Earpiece"
-  },
-  "Zephyr Graxx Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Zephyr Warframe, designed by Faven.",
-    "Link": "Zephyr Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1309153880",
-    "Image": "ZephyrGraxxSkin.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$6.99",
-    "Round": "14",
-    "Name": "Zephyr Graxx Skin"
-  },
-  "Zephyr Blade Of The Lotus Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Zephyr Warframe, designed by BeastBuster.",
-    "Link": "Zephyr Blade Of The Lotus Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1973982041",
-    "Image": "ZephyrBladeOfTheLotusSkin.png",
-    "Artists": [
-      "BeastBuster"
-    ],
-    "Introduced": "29.2.1",
-    "PcPrice": "$6.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Zephyr Blade Of The Lotus Skin"
-  },
-  "Saryn Graxx Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Saryn Warframe, designed by Faven.",
-    "Link": "Saryn Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=778586481",
-    "Image": "SarynGraxxSkin.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "19.4",
-    "PcPrice": "$6.99",
-    "Round": "6",
-    "Name": "Saryn Graxx Skin"
-  },
-  "Zenoriu Mask": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique mask, designed by led2012 and daemonstar.",
-    "Link": "Zenoriu Mask",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494803201",
-    "Image": "ZenoriuMask.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$1.99",
-    "Round": "14",
-    "Name": "Zenoriu Mask"
-  },
-  "Nyx Athena Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Nyx Warframe, designed by prosetisen.",
-    "Link": "Nyx Athena Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=725268258",
-    "Image": "NyxAthenaSkin.png",
-    "Artists": [
-      "prosetisen"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$6.99",
-    "Round": "4",
-    "Name": "Nyx Athena Skin"
-  },
-  "Zamariu Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and daemonstar.",
-    "Link": "Zamariu Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1832616113",
-    "Image": "ZamariuSyandana.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "27.3.8",
-    "PcPrice": "$5.99",
-    "Round": "18",
-    "Name": "Zamariu Syandana"
-  },
-  "Zamariu Signa": {
-    "ConsolePrice": "60",
-    "Type": "Signa",
-    "Description": "A unique signa for your Warframe, designed by led2012 & daemonstar.",
-    "Link": "Zamariu Signa",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3640810226",
-    "Image": "ZamariuSigna.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "42",
-    "Round": "TennoGen Shadowgrapher",
-    "PcPrice": "$3.49",
-    "InternalName": "/Lotus/Upgrades/Skins/Crowns/SWZamariuSignaCrown",
-    "Name": "Zamariu Signa"
-  },
   "Mirage Mithra Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -944,22 +705,6 @@
     "PcPrice": "$6.99",
     "Round": "11 [Batch 3]",
     "Name": "Mirage Mithra Skin"
-  },
-  "Zaikhya Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya and Cobalt.",
-    "Link": "Zaikhya Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=873451087",
-    "Image": "ZaikhyaSyandana.png",
-    "Artists": [
-      "malaya",
-      "Cobalt"
-    ],
-    "Introduced": "20.5",
-    "PcPrice": "$5.99",
-    "Round": "8",
-    "Name": "Zaikhya Syandana"
   },
   "Lamassu Shoulder Armor": {
     "ConsolePrice": "50",
@@ -993,52 +738,6 @@
     "Round": "17",
     "Name": "Longsword Insidia Skin"
   },
-  "Jat Kittag Noxious Hammer Skin": {
-    "ConsolePrice": "N/A",
-    "Type": "Weapon Skin",
-    "Description": "A unique Jat Kittag skin, designed by Clyptic.",
-    "Link": "Jat Kittag Noxious Hammer Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=563773487",
-    "Image": "SWRPolyNoxiousJatKittag.png",
-    "Artists": [
-      "Clyptic"
-    ],
-    "Introduced": "18.1.4",
-    "PcPrice": "$5.99",
-    "Round": "Polycount",
-    "Name": "Jat Kittag Noxious Hammer Skin"
-  },
-  "Two-Handed Nikana Arashi Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique two-handed nikana skin, designed by Lubox.",
-    "Link": "Two-Handed Nikana Arashi Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1972334531",
-    "Image": "TwoHandedNikanaArashiSkin.png",
-    "Artists": [
-      "Lubox"
-    ],
-    "Introduced": "27.3.8",
-    "PcPrice": "$5.99",
-    "Round": "18",
-    "Name": "Two-Handed Nikana Arashi Skin"
-  },
-  "Xulatu Chest Armor": {
-    "ConsolePrice": "45",
-    "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by led2012.",
-    "Link": "Xulatu Chest Armor",
-    "Part": "Chest",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2167813896",
-    "Image": "XulatuChestArmor.png",
-    "Artists": [
-      "led2012"
-    ],
-    "Introduced": "29.2.1",
-    "PcPrice": "$2.49",
-    "Round": "19 [Batch 1]",
-    "Name": "Xulatu Chest Armor"
-  },
   "Liset Vammatar Skin": {
     "ConsolePrice": "90",
     "Type": "Landing Craft",
@@ -1052,21 +751,6 @@
     "PcPrice": "$4.99",
     "Round": "22 [Batch 2]",
     "Name": "Liset Vammatar Skin"
-  },
-  "Senvictis Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Lubox.",
-    "Link": "Senvictis Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1559902487",
-    "Image": "SenvictisSyandana.png",
-    "Artists": [
-      "Lubox"
-    ],
-    "Introduced": "25.1",
-    "PcPrice": "$5.99",
-    "Round": "16",
-    "Name": "Senvictis Syandana"
   },
   "Longsword Eisen Skin": {
     "ConsolePrice": "105",
@@ -1175,21 +859,6 @@
     "Round": "20 [Batch 2]",
     "Name": "Baruuk Blade Of The Lotus Skin"
   },
-  "Scylla Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Faven.",
-    "Link": "Scylla Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2031465132",
-    "Image": "ScyllaSyandana.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "29.3.1",
-    "PcPrice": "$5.99",
-    "Round": "19 [Batch 2]",
-    "Name": "Scylla Syandana"
-  },
   "Revenant Tenebrus Helmet": {
     "ConsolePrice": "105",
     "Type": "Helmet",
@@ -1205,20 +874,6 @@
     "PcPrice": "$5.99",
     "Round": "22 [Batch 1]",
     "Name": "Revenant Tenebrus Helmet"
-  },
-  "Xiphos Lilieae Skin": {
-    "ConsolePrice": "90",
-    "Type": "Landing Craft",
-    "Link": "Xiphos Lilieae Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595993786",
-    "Image": "XiphosLilieaeSkin.png",
-    "Artists": [
-      "MaceMadunusus"
-    ],
-    "Introduced": "31.1.7",
-    "PcPrice": "$4.99",
-    "Round": "21 [Batch 2]",
-    "Name": "Xiphos Lilieae Skin"
   },
   "Equinox Divisa Skin": {
     "ConsolePrice": "165",
@@ -1249,68 +904,6 @@
     "PcPrice": "$4.99",
     "Round": "2",
     "Name": "Excalibur Sentient Slayer Skin"
-  },
-  "Xikonos Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and daemonstar.",
-    "Link": "Xikonos Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3159326756",
-    "Image": "XikonosSyandana.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "39.1",
-    "PcPrice": "$5.99",
-    "Round": "TennoGen Factions",
-    "Name": "Xikonos Syandana"
-  },
-  "Liset Quilate Skin": {
-    "ConsolePrice": "90",
-    "Type": "Landing Craft",
-    "Link": "Liset Quilate Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=546468929",
-    "Image": "LisetQuilateSkin.png",
-    "Artists": [
-      "Polygonmonster"
-    ],
-    "Introduced": "17.12",
-    "PcPrice": "$4.99",
-    "Round": "1",
-    "Name": "Liset Quilate Skin"
-  },
-  "Xairaks Chest Armor": {
-    "ConsolePrice": "45",
-    "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by lex182 and cedd00.",
-    "Link": "Xairaks Chest Armor",
-    "Part": "Chest",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3218713835",
-    "Image": "XairaksChestArmor.png",
-    "Artists": [
-      "lex182",
-      "cedd00"
-    ],
-    "Introduced": "39.1",
-    "PcPrice": "$2.49",
-    "Round": "TennoGen Factions",
-    "Name": "Xairaks Chest Armor"
-  },
-  "Xaku Deathea Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Xaku Warframe, designed by kakarrot2812.",
-    "Link": "Xaku Deathea Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2877135903",
-    "Image": "XakuDeatheaSkin.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "33",
-    "PcPrice": "$6.99",
-    "Round": "23 [Batch 1]",
-    "Name": "Xaku Deathea Skin"
   },
   "Nidus Technocyst Skin": {
     "ConsolePrice": "165",
@@ -1373,20 +966,20 @@
     "Round": "TennoGen Isleweaver",
     "Name": "Arcosolium Arca Plasmor Skin"
   },
-  "Mushussu Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Stenchfury.",
-    "Link": "Mushussu Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1334762963",
-    "Image": "MushussuSyandana.png",
+  "Rhino Mastodon Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Rhino Warframe, designed by Vulbjorn.",
+    "Link": "Rhino Mastodon Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1193843655",
+    "Image": "RhinoMastodonSkin.png",
     "Artists": [
-      "Stenchfury"
+      "Vulbjorn"
     ],
-    "Introduced": "22.19",
-    "PcPrice": "$5.99",
-    "Round": "12",
-    "Name": "Mushussu Syandana"
+    "Introduced": "22.9",
+    "PcPrice": "$6.99",
+    "Round": "11 [Batch 1]",
+    "Name": "Rhino Mastodon Skin"
   },
   "Nyx Technopsyche Skin": {
     "ConsolePrice": "165",
@@ -1403,36 +996,6 @@
     "Round": "16",
     "Name": "Nyx Technopsyche Skin"
   },
-  "Wukong Xingzhe Helmet": {
-    "ConsolePrice": "75",
-    "Type": "Helmet",
-    "Description": "A helmet for the Wukong Warframe, designed by Rekkou.",
-    "Link": "Wukong Xingzhe Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=740966643",
-    "Image": "WukongXingzheHelmet.png",
-    "Artists": [
-      "Rekkou"
-    ],
-    "Introduced": "The Index Preview",
-    "PcPrice": "$5.99",
-    "Round": "5",
-    "Name": "Wukong Xingzhe Helmet"
-  },
-  "Wukong Piercing Eye Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Wukong Warframe, designed by Mz-3.",
-    "Link": "Wukong Piercing Eye Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594029119",
-    "Image": "WukongPiercingEyeSkin.png",
-    "Artists": [
-      "Mz-3"
-    ],
-    "Introduced": "31.1.7",
-    "PcPrice": "$6.99",
-    "Round": "21 [Batch 2]",
-    "Name": "Wukong Piercing Eye Skin"
-  },
   "Hydroid Graxx Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -1448,82 +1011,22 @@
     "Round": "9",
     "Name": "Hydroid Graxx Skin"
   },
-  "Naru Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya and Jadie.",
-    "Link": "Naru Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=951073654",
-    "Image": "NaruSyandana.png",
+  "Piercing Eye Shoulder Armor": {
+    "ConsolePrice": "50",
+    "Type": "Armor",
+    "Description": "A unique shoulder armor for your Warframe, designed by Mz-3 and HAROHARO.",
+    "Link": "Piercing Eye Shoulder Armor",
+    "Part": "Arm",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2774892141",
+    "Image": "PiercingEyeShoulderArmor.png",
     "Artists": [
-      "malaya",
-      "Jadie"
+      "Mz-3",
+      "HAROHARO"
     ],
-    "Introduced": "21.5",
-    "PcPrice": "$5.99",
-    "Round": "9",
-    "Name": "Naru Syandana"
-  },
-  "Ayla Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Cobalt and malaya.",
-    "Link": "Ayla Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=727826440",
-    "Image": "AylaSyandana.png",
-    "Artists": [
-      "Cobalt",
-      "malaya"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$5.99",
-    "Round": "4",
-    "Name": "Ayla Syandana"
-  },
-  "Wukong Mithra Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Wukong Warframe, designed by lukinu_u.",
-    "Link": "Wukong Mithra Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1127390225",
-    "Image": "WukongMithraSkin.png",
-    "Artists": [
-      "lukinu_u"
-    ],
-    "Introduced": "25.1",
-    "PcPrice": "$6.99",
-    "Round": "16",
-    "Name": "Wukong Mithra Skin"
-  },
-  "Wukong Auman Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Wukong Warframe, designed by Rekkou.",
-    "Link": "Wukong Auman Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1118959551",
-    "Image": "WukongAumanSkin.png",
-    "Artists": [
-      "Rekkou"
-    ],
-    "Introduced": "22.9",
-    "PcPrice": "$6.99",
-    "Round": "11 [Batch 1]",
-    "Name": "Wukong Auman Skin"
-  },
-  "Nikana Krtrima Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Nikana skin, designed by kakarrot2812.",
-    "Link": "Nikana Krtrima Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2831263685",
-    "Image": "NikanaKrtrimaSkin.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "33.5",
-    "PcPrice": "$5.99",
-    "Round": "23 [Batch 2]",
-    "Name": "Nikana Krtrima Skin"
+    "Introduced": "32",
+    "PcPrice": "$2.99",
+    "Round": "22 [Batch 2]",
+    "Name": "Piercing Eye Shoulder Armor"
   },
   "Mesa Insomnia Skin": {
     "ConsolePrice": "165",
@@ -1539,37 +1042,6 @@
     "PcPrice": "$6.99",
     "Round": "22 [Batch 1]",
     "Name": "Mesa Insomnia Skin"
-  },
-  "Wisp Sycorax Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Wisp Warframe, designed by Vulbjorn.",
-    "Link": "Wisp Sycorax Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2580380949",
-    "Image": "WispSycoraxSkin.png",
-    "Artists": [
-      "Vulbjorn"
-    ],
-    "Introduced": "31.1",
-    "PcPrice": "$6.99",
-    "Round": "21 [Batch 1]",
-    "Name": "Wisp Sycorax Skin"
-  },
-  "Wisp Raevuz Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Wisp Warframe, designed by malaya and Xtygian.",
-    "Link": "Wisp Raevuz Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2503260348",
-    "Image": "WispRaevuzSkin.png",
-    "Artists": [
-      "malaya",
-      "Xtygian"
-    ],
-    "Introduced": "32",
-    "PcPrice": "$6.99",
-    "Round": "22 [Batch 2]",
-    "Name": "Wisp Raevuz Skin"
   },
   "Heavy Blade Obanakk Skin": {
     "ConsolePrice": "105",
@@ -1601,21 +1073,6 @@
     "Round": "18",
     "Name": "Garuda Sakhura Helmet"
   },
-  "Wisp Graxx Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Wisp Warframe, designed by Faven.",
-    "Link": "Wisp Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1824768987",
-    "Image": "WispGraxxSkin.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$6.99",
-    "Round": "17",
-    "Name": "Wisp Graxx Skin"
-  },
   "Nezha Devine Skin": {
     "ConsolePrice": "90",
     "Type": "Skin",
@@ -1631,20 +1088,21 @@
     "Round": "9",
     "Name": "Nezha Devine Skin"
   },
-  "Eklis Syandana": {
+  "Titania Viraji Helmet": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Goosmo.",
-    "Link": "Eklis Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2257745097",
-    "Image": "EklisSyandana.png",
+    "Type": "Helmet",
+    "Description": "A helmet for the Titania Warframe, designed by malaya and blazingcobalt.",
+    "Link": "Titania Viraji Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1963935162",
+    "Image": "TitaniaVirajiHelmet.png",
     "Artists": [
-      "Goosmo"
+      "malaya",
+      "blazingcobalt"
     ],
-    "Introduced": "31.1",
+    "Introduced": "29.2.1",
     "PcPrice": "$5.99",
-    "Round": "21 [Batch 1]",
-    "Name": "Eklis Syandana"
+    "Round": "19 [Batch 1]",
+    "Name": "Titania Viraji Helmet"
   },
   "Loki Ersatz Helmet": {
     "ConsolePrice": "105",
@@ -1675,52 +1133,6 @@
     "PcPrice": "$6.99",
     "Round": "19 [Batch 2]",
     "Name": "Nova Mithra Skin"
-  },
-  "Wisp Damas Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Wisp Warframe, designed by FrellingHazmot.",
-    "Link": "Wisp Damas Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1832943485",
-    "Image": "WispDamasHelmet.png",
-    "Artists": [
-      "FrellingHazmot"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$5.99",
-    "Round": "17",
-    "Name": "Wisp Damas Helmet"
-  },
-  "Corail Diadem": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique diadem, designed by HariPear and lukinu_u.",
-    "Link": "Corail Diadem",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595381436",
-    "Image": "CorailDiadem.png",
-    "Artists": [
-      "HariPear",
-      "lukinu_u"
-    ],
-    "Introduced": "31.1.7",
-    "PcPrice": "$2.99",
-    "Round": "21 [Batch 2]",
-    "Name": "Corail Diadem"
-  },
-  "Frost Grost Skin": {
-    "ConsolePrice": "165",
-    "Type": "Skin",
-    "Description": "A unique skin for the Frost Warframe, designed by Faven.",
-    "Link": "Frost Grost Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=657212084",
-    "Image": "FrostGrostSkin.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "18.13",
-    "PcPrice": "$4.99",
-    "Round": "3",
-    "Name": "Frost Grost Skin"
   },
   "Excalibur Graxx Skin": {
     "ConsolePrice": "165",
@@ -1797,35 +1209,20 @@
     "Round": "1",
     "Name": "Liset Hellkite Skin"
   },
-  "Laprosys Syandana": {
+  "Revenant Immortuos Helmet": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by FrellingHazmot.",
-    "Link": "Laprosys Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2390682469",
-    "Image": "LaprosysSyandana.png",
+    "Type": "Helmet",
+    "Description": "A helmet for the Revenant Warframe, designed by Lubox.",
+    "Link": "Revenant Immortuos Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1554287438",
+    "Image": "RevenantImmortuosHelmet.png",
     "Artists": [
-      "FrellingHazmot"
+      "Lubox"
     ],
-    "Introduced": "31.1",
+    "Introduced": "24.5",
     "PcPrice": "$5.99",
-    "Round": "21 [Batch 1]",
-    "Name": "Laprosys Syandana"
-  },
-  "Whip Wuush Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Whip skin, designed by Faven.",
-    "Link": "Whip Wuush Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1835456310",
-    "Image": "SWWhipWuushSkin.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$5.99",
-    "Round": "17",
-    "Name": "Whip Wuush Skin"
+    "Round": "15",
+    "Name": "Revenant Immortuos Helmet"
   },
   "Mesa Dead Eye Helmet": {
     "ConsolePrice": "N/A",
@@ -1871,37 +1268,6 @@
     "PcPrice": "$5.99",
     "Round": "11 [Batch 2]",
     "Name": "Heavy Blade Tengoken Skin"
-  },
-  "Ranulyst Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and daemonstar.",
-    "Link": "Ranulyst Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2157235904",
-    "Image": "RanulystSyandana.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "29.2.1",
-    "PcPrice": "$5.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Ranulyst Syandana"
-  },
-  "Tsujinasa Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by BeastBuster.",
-    "Link": "Tsujinasa Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1973983539",
-    "Image": "TsujinasaSyandana.png",
-    "Artists": [
-      "BeastBuster"
-    ],
-    "Introduced": "29.2.1",
-    "PcPrice": "$5.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Tsujinasa Syandana"
   },
   "Styanax Ares Skin": {
     "ConsolePrice": "165",
@@ -1950,21 +1316,6 @@
     "Round": "7",
     "Name": "Loki Incubus Skin"
   },
-  "Whip Jotunheim Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Whip skin, designed by Mz-3.",
-    "Link": "Whip Jotunheim Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3220029877",
-    "Image": "WhipJotunheimSkin.png",
-    "Artists": [
-      "Mz-3"
-    ],
-    "Introduced": "39.1",
-    "PcPrice": "$5.99",
-    "Round": "TennoGen Factions",
-    "Name": "Whip Jotunheim Skin"
-  },
   "Raigo Chest Armor": {
     "ConsolePrice": "45",
     "Type": "Armor",
@@ -1982,21 +1333,6 @@
     "Round": "20 [Batch 1]",
     "Name": "Raigo Chest Armor"
   },
-  "Vuoto Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Oh_Shimmy.",
-    "Link": "Vuoto Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1845793673",
-    "Image": "VuotoOculus.png",
-    "Artists": [
-      "Oh_Shimmy"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$1.99",
-    "Round": "17",
-    "Name": "Vuoto Oculus"
-  },
   "Loki Rogue Helmet": {
     "ConsolePrice": "105",
     "Type": "Helmet",
@@ -2011,51 +1347,6 @@
     "PcPrice": "$5.99",
     "Round": "5",
     "Name": "Loki Rogue Helmet"
-  },
-  "Tonaca Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Tonaca Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1095795621",
-    "Image": "TonacaSyandana.png",
-    "Artists": [
-      "Master Noob"
-    ],
-    "Introduced": "22.11",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 2]",
-    "Name": "Tonaca Syandana"
-  },
-  "Voruna Demionna Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Voruna Warframe, designed by kakarrot2812.",
-    "Link": "Voruna Demionna Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3024051843",
-    "Image": "VorunaDemionnaSkin.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "38.5",
-    "PcPrice": "$6.99",
-    "Round": "TennoGen Encore",
-    "Name": "Voruna Demionna Skin"
-  },
-  "Volt Zener Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Volt Warframe, designed by Rekkou.",
-    "Link": "Volt Zener Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=890868264",
-    "Image": "VoltZenerSkin.png",
-    "Artists": [
-      "Rekkou"
-    ],
-    "Introduced": "20.5",
-    "PcPrice": "$6.99",
-    "Round": "8",
-    "Name": "Volt Zener Skin"
   },
   "Baruuk Zamariu Skin": {
     "ConsolePrice": "165",
@@ -2073,80 +1364,20 @@
     "Round": "20 [Batch 2]",
     "Name": "Baruuk Zamariu Skin"
   },
-  "Volt Thales Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Volt Warframe, designed by Arsenal.",
-    "Link": "Volt Thales Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=565547113",
-    "Image": "VoltThalesHelmet.png",
-    "Artists": [
-      "Arsenal"
-    ],
-    "Introduced": "18.1.4",
-    "PcPrice": "$5.99",
-    "Round": "Polycount",
-    "Name": "Volt Thales Helmet"
-  },
-  "Volt Technoshock Skin": {
+  "Zephyr Strafe Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Volt Warframe, designed by Master Noob.",
-    "Link": "Volt Technoshock Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2773971192",
-    "Image": "VoltTechnoshockSkin.png",
+    "Description": "A unique skin for the Zephyr Warframe, designed by prosetisen.",
+    "Link": "Zephyr Strafe Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1335057061",
+    "Image": "ZephyrStrafeSkin.png",
     "Artists": [
-      "Master Noob"
+      "prosetisen"
     ],
-    "Introduced": "32",
+    "Introduced": "23.1",
     "PcPrice": "$6.99",
-    "Round": "22 [Batch 2]",
-    "Name": "Volt Technoshock Skin"
-  },
-  "Volt Relay Helmet": {
-    "ConsolePrice": "N/A",
-    "Type": "Helmet",
-    "Description": "A helmet for the Volt Warframe, designed by DespicableCheese.",
-    "Link": "Volt Relay Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=565180799",
-    "Image": "VoltRelayHelmet.png",
-    "Artists": [
-      "DespicableCheese"
-    ],
-    "Introduced": "18.1.4",
-    "PcPrice": "$5.99",
-    "Round": "Polycount",
-    "Name": "Volt Relay Helmet"
-  },
-  "Covenant Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by FrellingHazmot.",
-    "Link": "Covenant Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=891464944",
-    "Image": "CovenantSyandana.png",
-    "Artists": [
-      "FrellingHazmot"
-    ],
-    "Introduced": "20.5",
-    "PcPrice": "$5.99",
-    "Round": "8",
-    "Name": "Covenant Syandana"
-  },
-  "Acheta Signa": {
-    "ConsolePrice": "60",
-    "Type": "Signa",
-    "Description": "A unique signa for your Warframe, designed by blazingcobalt and Ritens",
-    "Link": "Acheta Signa",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3621661227",
-    "Image": "AchetaSigna.png",
-    "Artists": [
-      "blazingcobalt",
-      "Ritens"
-    ],
-    "PcPrice": "$3.49",
-    "Round": "TennoGen Fables & Frontiers",
-    "Name": "Acheta Signa"
+    "Round": "13",
+    "Name": "Zephyr Strafe Skin"
   },
   "Hildryn Sigrun Skin": {
     "ConsolePrice": "165",
@@ -2195,53 +1426,20 @@
     "Round": "9",
     "Name": "Ash Tsukuyomi Skin"
   },
-  "Styx Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya, Scharkie and Jadie.",
-    "Link": "Styx Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1503779007",
-    "Image": "StyxSyandana.png",
+  "Nyx Ascophilia Skin": {
+    "ConsolePrice": "N/A",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Nyx Warframe, designed by Erneix.",
+    "Link": "Nyx Ascophilia Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1479350181",
+    "Image": "NyxAscophiliaSkin.png",
     "Artists": [
-      "malaya",
-      "Scharkie",
-      "Jadie"
+      "Erneix"
     ],
     "Introduced": "24.1",
-    "PcPrice": "$5.99",
-    "Round": "14",
-    "Name": "Styx Syandana"
-  },
-  "Volt Graxx Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Volt Warframe, designed by Faven.",
-    "Link": "Volt Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=699760707",
-    "Image": "VoltGraxxSkin.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "The Silver Grove 1.0",
     "PcPrice": "$6.99",
-    "Round": "4",
-    "Name": "Volt Graxx Skin"
-  },
-  "Despot Cape Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Volkovyi and Sab531.",
-    "Link": "Despot Cape Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1335644908",
-    "Image": "DespotCapeSyandana.png",
-    "Artists": [
-      "Volkovyi",
-      "Sab531"
-    ],
-    "Introduced": "22.19",
-    "PcPrice": "$5.99",
-    "Round": "12",
-    "Name": "Despot Cape Syandana"
+    "Round": "14",
+    "Name": "Nyx Ascophilia Skin"
   },
   "Dagath Yhavan Skin": {
     "ConsolePrice": "165",
@@ -2304,21 +1502,6 @@
     "Round": "Polycount",
     "Name": "Excalibur Arturius Helmet"
   },
-  "Volt Fulgursor Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Volt Warframe, designed by Vulbjorn.",
-    "Link": "Volt Fulgursor Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1262456931",
-    "Image": "VoltFulgursorSkin.png",
-    "Artists": [
-      "Vulbjorn"
-    ],
-    "Introduced": "22.19",
-    "PcPrice": "$6.99",
-    "Round": "12",
-    "Name": "Volt Fulgursor Skin"
-  },
   "Saryn Napellus Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -2334,66 +1517,20 @@
     "Round": "11 [Batch 1]",
     "Name": "Saryn Napellus Skin"
   },
-  "Nova Fusion Helmet": {
-    "ConsolePrice": "N/A",
-    "Type": "Helmet",
-    "Description": "A helmet for the Nova Warframe, designed by Coridium.",
-    "Link": "Nova Fusion Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=619984194",
-    "Image": "NovaFusionHelmet.png",
-    "Artists": [
-      "Coridium"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$5.99",
-    "Round": "4",
-    "Name": "Nova Fusion Helmet"
-  },
-  "Volt Arrester Helmet": {
-    "ConsolePrice": "75",
-    "Type": "Helmet",
-    "Description": "A helmet for the Volt Warframe, designed by Rekkou.",
-    "Link": "Volt Arrester Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=566475141",
-    "Image": "VoltArresterHelmet.png",
-    "Artists": [
-      "Rekkou"
-    ],
-    "Introduced": "18.1.4",
-    "PcPrice": "$5.99",
-    "Round": "Polycount",
-    "Name": "Volt Arrester Helmet"
-  },
-  "Vikasa Shoulder Plates": {
-    "ConsolePrice": "50",
-    "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by blazingcobalt.",
-    "Link": "Vikasa Shoulder Plates",
-    "Part": "Arm",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2729906267",
-    "Image": "VikasaShoulderPlates.png",
-    "Artists": [
-      "blazingcobalt"
-    ],
-    "Introduced": "32",
-    "PcPrice": "$2.99",
-    "Round": "22 [Batch 2]",
-    "Name": "Vikasa Shoulder Plates"
-  },
-  "Nikana Ungulata Skin": {
+  "Nikana Undercutter Skin": {
     "ConsolePrice": "105",
     "Type": "Weapon Skin",
-    "Description": "A unique Nikana skin, designed by Vulbjorn.",
-    "Link": "Nikana Ungulata Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1687855678",
-    "Image": "SWUngulataSkin.png",
+    "Description": "A unique Undercutter skin, designed by Felix Leonhart.",
+    "Link": "Undercutter Nikana Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2170282300",
+    "Image": "SWR19NikanaUndercutterSkin.png",
     "Artists": [
-      "Vulbjorn"
+      "Felix Leonhart"
     ],
-    "Introduced": "25.1",
+    "Introduced": "29.3.1",
     "PcPrice": "$5.99",
-    "Round": "16",
-    "Name": "Nikana Ungulata Skin"
+    "Round": "19 [Batch 2]",
+    "Name": "Undercutter Nikana Skin"
   },
   "Dual Zoren Kuberus Skin": {
     "ConsolePrice": "40",
@@ -2409,20 +1546,6 @@
     "Round": "Weapons Skin Contest",
     "Name": "Dual Zoren Kuberus Skin"
   },
-  "Vectis Silferer Skin": {
-    "ConsolePrice": "40",
-    "Type": "Weapon Skin",
-    "Description": "A unique Vectis skin, designed by Rekkou.",
-    "Link": "Vectis Silferer Skin",
-    "SteamLink": "https://forums.warframe.com/topic/313983-weapon-skins-contest-final-results/",
-    "Image": "VectisSilfererSkin.png",
-    "Artists": [
-      "Rekkou"
-    ],
-    "PcPrice": "40",
-    "Round": "Weapons Skin Contest",
-    "Name": "Vectis Silferer Skin"
-  },
   "Liset Maltzur Oculus Skin": {
     "ConsolePrice": "90",
     "Type": "Landing Craft",
@@ -2436,22 +1559,6 @@
     "PcPrice": "$4.99",
     "Round": "2",
     "Name": "Liset Maltzur Oculus Skin"
-  },
-  "Limbo Vistyxio Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Limbo Warframe, designed by led2012 and Hydroxate.",
-    "Link": "Limbo Vistyxio Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=949840128",
-    "Image": "LimboVistyxioSkin.png",
-    "Artists": [
-      "led2012",
-      "Hydroxate"
-    ],
-    "Introduced": "22.9",
-    "PcPrice": "$6.99",
-    "Round": "10",
-    "Name": "Limbo Vistyxio Skin"
   },
   "Octavia Netrahymn Skin": {
     "ConsolePrice": "165",
@@ -2468,22 +1575,6 @@
     "Round": "Tennogen Isleweaver",
     "Name": "Octavia Netrahymn Skin"
   },
-  "Vauban Graxx Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Vauban Warframe, designed by Faven and Faven_LTD.",
-    "Link": "Vauban Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1183635289",
-    "Image": "VaubanGraxxSkin.png",
-    "Artists": [
-      "Faven",
-      "Faven_LTD"
-    ],
-    "Introduced": "22.9",
-    "PcPrice": "$6.99",
-    "Round": "11 [Batch 1]",
-    "Name": "Vauban Graxx Skin"
-  },
   "Longsword Arit Skin": {
     "ConsolePrice": "105",
     "Type": "Weapon Skin",
@@ -2499,51 +1590,19 @@
     "Round": "8",
     "Name": "Longsword Arit Skin"
   },
-  "Vauban Bonaparte Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Vauban Warframe, designed by Hydroxate and Debbysheen.",
-    "Link": "Vauban Bonaparte Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2571611378",
-    "Image": "VaubanBonaparteSkin.png",
+  "Liset Quilate Skin": {
+    "ConsolePrice": "90",
+    "Type": "Landing Craft",
+    "Link": "Liset Quilate Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=546468929",
+    "Image": "LisetQuilateSkin.png",
     "Artists": [
-      "Hydroxate",
-      "Debbysheen"
+      "Polygonmonster"
     ],
-    "Introduced": "31.1.7",
-    "PcPrice": "$6.99",
-    "Round": "22 [Batch 1]",
-    "Name": "Vauban Bonaparte Skin"
-  },
-  "Shiroku Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by BeastBuster.",
-    "Link": "Shiroku Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2396202016",
-    "Image": "ShirokuSyandana.png",
-    "Artists": [
-      "BeastBuster"
-    ],
-    "Introduced": "30.2",
-    "PcPrice": "$5.99",
-    "Round": "20 [Batch 2]",
-    "Name": "Shiroku Syandana"
-  },
-  "Kunshu Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by BeastBuster.",
-    "Link": "Kunshu Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194262289",
-    "Image": "KunshuSyandana.png",
-    "Artists": [
-      "BeastBuster"
-    ],
-    "Introduced": "23.1",
-    "PcPrice": "$5.99",
-    "Round": "13",
-    "Name": "Kunshu Syandana"
+    "Introduced": "17.12",
+    "PcPrice": "$4.99",
+    "Round": "1",
+    "Name": "Liset Quilate Skin"
   },
   "Ash Ichneumon Skin": {
     "ConsolePrice": "165",
@@ -2559,21 +1618,6 @@
     "PcPrice": "$6.99",
     "Round": "19 [Batch 2]",
     "Name": "Ash Ichneumon Skin"
-  },
-  "Valkyr Leonessa Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Valkyr Warframe, designed by Hitsu San.",
-    "Link": "Valkyr Leonessa Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1590544946",
-    "Image": "ValkyrLeonessaSkin.png",
-    "Artists": [
-      "Hitsu San"
-    ],
-    "Introduced": "25.1",
-    "PcPrice": "$6.99",
-    "Round": "16",
-    "Name": "Valkyr Leonessa Skin"
   },
   "Nekros Ion Helmet": {
     "ConsolePrice": "105",
@@ -2605,21 +1649,6 @@
     "Round": "20 [Batch 1]",
     "Name": "Grendel Moloch Skin"
   },
-  "Undercutter Nikana Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Undercutter skin, designed by Felix Leonhart.",
-    "Link": "Undercutter Nikana Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2170282300",
-    "Image": "SWR19NikanaUndercutterSkin.png",
-    "Artists": [
-      "Felix Leonhart"
-    ],
-    "Introduced": "29.3.1",
-    "PcPrice": "$5.99",
-    "Round": "19 [Batch 2]",
-    "Name": "Undercutter Nikana Skin"
-  },
   "Baruuk Shiraan Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -2634,37 +1663,6 @@
     "PcPrice": "$6.99",
     "Round": "20 [Batch 1]",
     "Name": "Baruuk Shiraan Skin"
-  },
-  "Optima Oculus": {
-    "ConsolePrice": "N/A",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by DeadNexus_ and Swanky Swaggernaut.",
-    "Link": "Optima Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1500717075",
-    "Image": "OptimaOculus.png",
-    "Artists": [
-      "DeadNexus_",
-      "Swanky Swaggernaut"
-    ],
-    "Introduced": "24.5",
-    "PcPrice": "$1.99",
-    "Round": "15",
-    "Name": "Optima Oculus"
-  },
-  "Sclera Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by kakarrot2812.",
-    "Link": "Sclera Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1965915790",
-    "Image": "ScleraOculus.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "27.3.8",
-    "PcPrice": "$1.99",
-    "Round": "18",
-    "Name": "Sclera Oculus"
   },
   "Heavy Blade Dogma Skin": {
     "ConsolePrice": "105",
@@ -2681,37 +1679,6 @@
     "Round": "22 [Batch 2]",
     "Name": "Heavy Blade Dogma Skin"
   },
-  "Valesti Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and Xtygian.",
-    "Link": "Valesti Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2170736183",
-    "Image": "ValestiSyandana.png",
-    "Artists": [
-      "led2012",
-      "Xtygian"
-    ],
-    "Introduced": "29.3.1",
-    "PcPrice": "$5.99",
-    "Round": "19 [Batch 2]",
-    "Name": "Valesti Syandana"
-  },
-  "Two-Handed Nikana Ksara Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique two-handed Nikana skin, designed by kakarrot2812.",
-    "Link": "Two-Handed Nikana Ksara Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2500078680",
-    "Image": "SWKsaraTwo-HandedNikanaSkin.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "31.1",
-    "PcPrice": "$5.99",
-    "Round": "21 [Batch 1]",
-    "Name": "Two-Handed Nikana Ksara Skin"
-  },
   "Atlas Telamon Helmet": {
     "ConsolePrice": "75",
     "Type": "Helmet",
@@ -2726,21 +1693,6 @@
     "PcPrice": "$5.99",
     "Round": "6",
     "Name": "Atlas Telamon Helmet"
-  },
-  "Pistris Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Stenchfury.",
-    "Link": "Pistris Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=948291507",
-    "Image": "PistrisSyandana.png",
-    "Artists": [
-      "Stenchfury"
-    ],
-    "Introduced": "22.9",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 1]",
-    "Name": "Pistris Syandana"
   },
   "Yareli Batomorpha Helmet": {
     "ConsolePrice": "105",
@@ -2803,37 +1755,6 @@
     "Round": "4",
     "Name": "Frost Jotun Helmet"
   },
-  "Trinity Nightingale Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Trinity Warframe, designed by matzan481.",
-    "Link": "Trinity Nightingale Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1616477554",
-    "Image": "TrinityNightingaleSkin.png",
-    "Artists": [
-      "matzan481"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$6.99",
-    "Round": "17",
-    "Name": "Trinity Nightingale Skin"
-  },
-  "Officium Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Hitsu San and Operative Shift.",
-    "Link": "Officium Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=735750664",
-    "Image": "OfficiumSyandana.png",
-    "Artists": [
-      "Hitsu San",
-      "Operative Shift"
-    ],
-    "Introduced": "The Index Preview",
-    "PcPrice": "$5.99",
-    "Round": "5",
-    "Name": "Officium Syandana"
-  },
   "Atlas Blade Of The Lotus Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -2849,21 +1770,6 @@
     "Round": "20 [Batch 2]",
     "Name": "Atlas Blade Of The Lotus Skin"
   },
-  "Nikana Khatuun Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Nikana skin, designed by VoidPunch.",
-    "Link": "Nikana Khatuun Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1794814744",
-    "Image": "SWNikanaKhatuunSkin.png",
-    "Artists": [
-      "VoidPunch"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$5.99",
-    "Round": "17",
-    "Name": "Nikana Khatuun Skin"
-  },
   "Liset Lumis Skin": {
     "ConsolePrice": "90",
     "Type": "Landing Craft",
@@ -2877,37 +1783,6 @@
     "PcPrice": "$4.99",
     "Round": "TennoGen Fates",
     "Name": "Liset Lumis Skin"
-  },
-  "Trinity Blade Of The Lotus Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Trinity Warframe, designed by BeastBuster.",
-    "Link": "Trinity Blade Of The Lotus Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194223859",
-    "Image": "TrinityBladeOfTheLotusSkin.png",
-    "Artists": [
-      "BeastBuster"
-    ],
-    "Introduced": "23.1",
-    "PcPrice": "$6.99",
-    "Round": "13",
-    "Name": "Trinity Blade Of The Lotus Skin"
-  },
-  "Pragmatica Signa": {
-    "ConsolePrice": "60",
-    "Type": "Signa",
-    "Description": "A unique signa for your Warframe, designed by Ventralhound.",
-    "Link": "Pragmatica Signa",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3610612489",
-    "Image": "PragmaticaSigna.png",
-    "Artists": [
-      "Ventralhound"
-    ],
-    "Introduced": "42",
-    "Round": "TennoGen Shadowgrapher",
-    "PcPrice": "$3.49",
-    "InternalName": "/Lotus/Upgrades/Skins/Crowns/SWSignaPragmaticaCrown",
-    "Name": "Pragmatica Signa"
   },
   "Lavos Kuvael Alchemist Skin": {
     "ConsolePrice": "165",
@@ -2940,21 +1815,6 @@
     "Round": "18",
     "Name": "Baruuk Bedouin Skin"
   },
-  "Limbo Graxx Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Limbo Warframe, designed by Faven.",
-    "Link": "Limbo Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1478822739",
-    "Image": "LimboGraxxSkin.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$6.99",
-    "Round": "14",
-    "Name": "Limbo Graxx Skin"
-  },
   "Frost Summit Helmet": {
     "ConsolePrice": "105",
     "Type": "Helmet",
@@ -2985,22 +1845,6 @@
     "Round": "TennoGen Undermind",
     "Name": "Voruna Kuvael Drahkaanis Skin"
   },
-  "Titania Viraji Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Titania Warframe, designed by malaya and blazingcobalt.",
-    "Link": "Titania Viraji Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1963935162",
-    "Image": "TitaniaVirajiHelmet.png",
-    "Artists": [
-      "malaya",
-      "blazingcobalt"
-    ],
-    "Introduced": "29.2.1",
-    "PcPrice": "$5.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Titania Viraji Helmet"
-  },
   "Heavy Blade Mizar Skin": {
     "ConsolePrice": "105",
     "Type": "Weapon Skin",
@@ -3015,21 +1859,6 @@
     "PcPrice": "$5.99",
     "Round": "18",
     "Name": "Heavy Blade Mizar Skin"
-  },
-  "Titania Pixialyst Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Titania Warframe, designed by kakarrot2812.",
-    "Link": "Titania Pixialyst Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2343014724",
-    "Image": "TitaniaPixialystSkin.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "31.1",
-    "PcPrice": "$6.99",
-    "Round": "21 [Batch 1]",
-    "Name": "Titania Pixialyst Skin"
   },
   "Equinox Omni Helmet": {
     "ConsolePrice": "75",
@@ -3075,36 +1904,6 @@
     "Round": "4",
     "Name": "Mirage Jolli Helmet"
   },
-  "Octavia Diva Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Octavia Warframe, designed by lukinu_u.",
-    "Link": "Octavia Diva Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1162252618",
-    "Image": "OctaviaDivaSkin.png",
-    "Artists": [
-      "lukinu_u"
-    ],
-    "Introduced": "22.11",
-    "PcPrice": "$6.99",
-    "Round": "11 [Batch 2]",
-    "Name": "Octavia Diva Skin"
-  },
-  "Teplo Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by FrellingHazmot.",
-    "Link": "Teplo Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=727041133",
-    "Image": "TeploSyandana.png",
-    "Artists": [
-      "FrellingHazmot"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$5.99",
-    "Round": "4",
-    "Name": "Teplo Syandana"
-  },
   "Nezha Dracun Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -3119,37 +1918,6 @@
     "PcPrice": "$6.99",
     "Round": "11 [Batch 3]",
     "Name": "Nezha Dracun Skin"
-  },
-  "Tenui Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and Justified114.",
-    "Link": "Tenui Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1489879938",
-    "Image": "TenuiSyanana.png",
-    "Artists": [
-      "led2012",
-      "Justified114"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$5.99",
-    "Round": "14",
-    "Name": "Tenui Syandana"
-  },
-  "Deru Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya.",
-    "Link": "Deru Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=757237861",
-    "Image": "DeruSyandana.png",
-    "Artists": [
-      "malaya"
-    ],
-    "Introduced": "The Index Preview",
-    "PcPrice": "$5.99",
-    "Round": "5",
-    "Name": "Deru Syandana"
   },
   "Mesa Falcon Helmet": {
     "ConsolePrice": "75",
@@ -3166,22 +1934,6 @@
     "Round": "2",
     "Name": "Mesa Falcon Helmet"
   },
-  "Sydeko Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and daemonstar.",
-    "Link": "Sydeko Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1332984210",
-    "Image": "SydekoSyandana.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "23.1",
-    "PcPrice": "$5.99",
-    "Round": "13",
-    "Name": "Sydeko Syandana"
-  },
   "Opticor Mithra Skin": {
     "ConsolePrice": "50",
     "Type": "Weapon Skin",
@@ -3196,21 +1948,6 @@
     "PcPrice": "$5.99",
     "Round": "14",
     "Name": "Opticor Mithra Skin"
-  },
-  "Sybaris Overload Skin": {
-    "ConsolePrice": "50",
-    "Type": "Weapon Skin",
-    "Description": "A unique Sybaris skin, designed by Reisen.Udonge.",
-    "Link": "Sybaris Overload Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=541655548",
-    "Image": "SWSybarisOverload.png",
-    "Artists": [
-      "Reisen.Udonge"
-    ],
-    "Introduced": "17.12",
-    "PcPrice": "$5.99",
-    "Round": "1",
-    "Name": "Sybaris Overload Skin"
   },
   "Polearm Skopos Skin": {
     "ConsolePrice": "105",
@@ -3242,97 +1979,6 @@
     "Round": "17",
     "Name": "Loki Jotunheim Skin"
   },
-  "Stygean Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Theriondrek and Vhynnz.",
-    "Link": "Stygean Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3422256290",
-    "Image": "StygeanOculus.png",
-    "Artists": [
-      "Theriondrek",
-      "Vhynnz"
-    ],
-    "Introduced": "38.6.3",
-    "PcPrice": "$1.99",
-    "Round": "TennoGen Isleweaver",
-    "Name": "Stygean Oculus"
-  },
-  "Styanax Huzarr Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Styanax Warframe, designed by Lubox and _afterBRNR.",
-    "Link": "Styanax Huzarr Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3181094823",
-    "Image": "StyanaxHuzarrSkin.png",
-    "Artists": [
-      "Lubox",
-      "_afterBRNR"
-    ],
-    "Introduced": "38.5",
-    "PcPrice": "$6.99",
-    "Round": "Tennogen Encore",
-    "Name": "Styanax Huzarr Skin"
-  },
-  "Due Volpi Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Volkovyi and led2012.",
-    "Link": "Due Volpi Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1282112343",
-    "Image": "DueVolpiSyandana.png",
-    "Artists": [
-      "Volkovyi",
-      "led2012"
-    ],
-    "Introduced": "22.19",
-    "PcPrice": "$5.99",
-    "Round": "12",
-    "Name": "Due Volpi Syandana"
-  },
-  "Spicularis Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Ventralhound.",
-    "Link": "Spicularis Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2908707082",
-    "Image": "SpicularisOculus.png",
-    "Artists": [
-      "Ventralhound"
-    ],
-    "PcPrice": "$1.99",
-    "Round": "TennoGen Shadows",
-    "Name": "Spicularis Oculus"
-  },
-  "Spicularis Mandible Mask": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique mask, designed by Ventralhound.",
-    "Link": "Spicularis Mandible Mask",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2908707448",
-    "Image": "SpicularisMandibleMask.png",
-    "Artists": [
-      "Ventralhound"
-    ],
-    "PcPrice": "$1.99",
-    "Round": "TennoGen Shadows",
-    "Name": "Spicularis Mandible Mask"
-  },
-  "Rhino Mastodon Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Rhino Warframe, designed by Vulbjorn.",
-    "Link": "Rhino Mastodon Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1193843655",
-    "Image": "RhinoMastodonSkin.png",
-    "Artists": [
-      "Vulbjorn"
-    ],
-    "Introduced": "22.9",
-    "PcPrice": "$6.99",
-    "Round": "11 [Batch 1]",
-    "Name": "Rhino Mastodon Skin"
-  },
   "Excalibur Blade Of The Lotus Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -3348,50 +1994,20 @@
     "Round": "19 [Batch 2]",
     "Name": "Excalibur Blade Of The Lotus Skin"
   },
-  "Solida Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Hitsu San.",
-    "Link": "Solida Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194751657",
-    "Image": "SolidaSyandana.png",
-    "Artists": [
-      "Hitsu San"
-    ],
-    "Introduced": "22.13",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 3]",
-    "Name": "Solida Syandana"
-  },
-  "Incubus Ribbon Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Volkovyi.",
-    "Link": "Incubus Ribbon Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=839762184",
-    "Image": "IncubusRibbonSyandana.png",
-    "Artists": [
-      "Volkovyi"
-    ],
-    "Introduced": "20.5",
-    "PcPrice": "$5.99",
-    "Round": "8",
-    "Name": "Incubus Ribbon Syandana"
-  },
-  "Kiritsune Oculus": {
+  "Kronen Arit Skin": {
     "ConsolePrice": "N/A",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Actionman.",
-    "Link": "Kiritsune Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1499993022",
-    "Image": "KiritsuneOculus.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Kronen skin, designed by Arsenal.",
+    "Link": "Kronen Arit Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=584953114",
+    "Image": "SWRTwoKronenArit.png",
     "Artists": [
-      "Actionman"
+      "Arsenal"
     ],
-    "Introduced": "24.5",
-    "PcPrice": "$1.99",
-    "Round": "15",
-    "Name": "Kiritsune Oculus"
+    "Introduced": "18.6.3",
+    "PcPrice": "$5.99",
+    "Round": "2",
+    "Name": "Kronen Arit Skin"
   },
   "Ash Bai Hu Skin": {
     "ConsolePrice": "165",
@@ -3472,97 +2088,20 @@
     "Round": "11 [Batch 1]",
     "Name": "Hydroid Poseidon Skin"
   },
-  "Skana Infested Skin": {
-    "ConsolePrice": "N/A",
+  "Maulleus Hammer Skin": {
+    "ConsolePrice": "105",
     "Type": "Weapon Skin",
-    "Description": "A unique Skana skin, designed by Dencio Aggression.",
-    "Link": "Skana Infested Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=565667639",
-    "Image": "SWRPolyInfestedSkana.png",
+    "Description": "A unique Hammer skin, designed by Vhynnz.",
+    "Link": "Maulleus Hammer Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3638709134",
+    "Image": "MaulleusHammerSkin.png",
     "Artists": [
-      "Dencio Aggression"
+      "Vhynnz"
     ],
-    "Introduced": "18.1.4",
+    "Introduced": "42",
     "PcPrice": "$5.99",
-    "Round": "Polycount",
-    "Name": "Skana Infested Skin"
-  },
-  "Irya Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by kakarrot2812.",
-    "Link": "Irya Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1898005439",
-    "Image": "IryaOculus.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "29.3.1",
-    "PcPrice": "$1.99",
-    "Round": "19 [Batch 2]",
-    "Name": "Irya Oculus"
-  },
-  "Sildarg Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and daemonstar.",
-    "Link": "Sildarg Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1307198461",
-    "Image": "SildargSyandana.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "23.1",
-    "PcPrice": "$5.99",
-    "Round": "13",
-    "Name": "Sildarg Syandana"
-  },
-  "Aropanex Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by kakarrot2812.",
-    "Link": "Aropanex Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2106249846",
-    "Image": "AropanexSyandana.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "30.2",
-    "PcPrice": "$5.99",
-    "Round": "20 [Batch 2]",
-    "Name": "Aropanex Syandana"
-  },
-  "Shurihoshi Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and daemonstar.",
-    "Link": "Shurihoshi Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1284268152",
-    "Image": "ShurihoshiSyandana.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "23.1",
-    "PcPrice": "$5.99",
-    "Round": "13",
-    "Name": "Shurihoshi Syandana"
-  },
-  "Sciathin Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Sciathin Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=727875983",
-    "Image": "SciathinSyandana.png",
-    "Artists": [
-      "Master Noob"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$5.99",
-    "Round": "4",
-    "Name": "Sciathin Syandana"
+    "Round": "TennoGen Shadowgrapher",
+    "Name": "Maulleus Hammer Skin"
   },
   "Ash Ryuga Skin": {
     "ConsolePrice": "165",
@@ -3626,35 +2165,6 @@
     "Round": "Polycount",
     "Name": "Excalibur Ogrant Helmet"
   },
-  "Haemadys Mask": {
-    "ConsolePrice": "TBA",
-    "Type": "Operator",
-    "Description": "A unique mask, designed by Vhynnz",
-    "Link": "Haemadys Mask",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3531424388",
-    "Image": "HaemadysMask.png",
-    "Artists": [
-      "Vhynnz"
-    ],
-    "PcPrice": "TBA",
-    "Round": "TennoGen Fables & Frontiers",
-    "Name": "Haemadys Mask"
-  },
-  "Sevagoth Ezriel Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Sevagoth Warframe, designed by Goosmo.",
-    "Link": "Sevagoth Ezriel Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2849199546",
-    "Image": "SevagothEzrielSkin.png",
-    "Artists": [
-      "Goosmo"
-    ],
-    "Introduced": "35.6",
-    "PcPrice": "$6.99",
-    "Round": "Tennogen Unbound",
-    "Name": "Sevagoth Ezriel Skin"
-  },
   "Vikasa Aegis Chest Armor": {
     "ConsolePrice": "45",
     "Type": "Armor",
@@ -3671,21 +2181,20 @@
     "Round": "23 [Batch 2]",
     "Name": "Vikasa Aegis Chest Armor"
   },
-  "Garasu Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Ixe and lukinu_u.",
-    "Link": "Garasu Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502550278",
-    "Image": "GarasuOculus.png",
+  "Heavy Blade Mithra Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Heavy Blade skin, designed by lukinu_u.",
+    "Link": "Heavy Blade Mithra Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1120051045",
+    "Image": "SWRElevenMithraHeavyBlade.png",
     "Artists": [
-      "Ixe",
       "lukinu_u"
     ],
-    "Introduced": "24.1",
-    "PcPrice": "$1.99",
-    "Round": "14",
-    "Name": "Garasu Oculus"
+    "Introduced": "22.13",
+    "PcPrice": "$5.99",
+    "Round": "11 [Batch 3]",
+    "Name": "Heavy Blade Mithra Skin"
   },
   "Ash Carabid Helmet": {
     "ConsolePrice": "75",
@@ -3701,22 +2210,6 @@
     "PcPrice": "$5.99",
     "Round": "6",
     "Name": "Ash Carabid Helmet"
-  },
-  "Sethar Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and Kevin Glint.",
-    "Link": "Sethar Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1789861119",
-    "Image": "SetharSyandana.png",
-    "Artists": [
-      "led2012",
-      "Kevin Glint"
-    ],
-    "Introduced": "27.3.8",
-    "PcPrice": "$5.99",
-    "Round": "18",
-    "Name": "Sethar Syandana"
   },
   "Frost Himavat Helmet": {
     "ConsolePrice": "105",
@@ -3762,21 +2255,6 @@
     "Round": "Weapons Skin Contest",
     "Name": "Scindo Kuberus Skin"
   },
-  "Kuva Pump Chest Plate": {
-    "ConsolePrice": "N/A",
-    "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by CERF.",
-    "Link": "Kuva Pump Chest Plate",
-    "Part": "Chest",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2826880751",
-    "Image": "KuvaPumpChestPlate.png",
-    "Artists": [
-      "CERF"
-    ],
-    "PcPrice": "$2.49",
-    "Round": "TennoGen Shadows",
-    "Name": "Kuva Pump Chest Plate"
-  },
   "Limbo Venari Helmet": {
     "ConsolePrice": "105",
     "Type": "Helmet",
@@ -3793,20 +2271,20 @@
     "Round": "10",
     "Name": "Limbo Venari Helmet"
   },
-  "Zephyr Monsoon Helmet": {
-    "ConsolePrice": "N/A",
+  "Citrine Heliotropia Helmet": {
+    "ConsolePrice": "105",
     "Type": "Helmet",
-    "Description": "A helmet for the Zephyr Warframe, designed by artarrwen.",
-    "Link": "Zephyr Monsoon Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=605985394",
-    "Image": "ZephyrMonsoonHelmet.png",
+    "Description": "A helmet for the Citrine Warframe, designed by Ventralhound",
+    "Link": "Citrine Heliotropia Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3624724373",
+    "Image": "CitrineHeliotropiaHelmet.png",
     "Artists": [
-      "artarrwen"
+      "Ventralhound"
     ],
-    "Introduced": "18.6.3",
+    "Introduced": "44",
     "PcPrice": "$5.99",
-    "Round": "2",
-    "Name": "Zephyr Monsoon Helmet"
+    "Round": "TennoGen Iceblade",
+    "Name": "Citrine Heliotropia Helmet"
   },
   "Valkyr Ion Helmet": {
     "ConsolePrice": "105",
@@ -3823,21 +2301,6 @@
     "Round": "10",
     "Name": "Valkyr Ion Helmet"
   },
-  "Scapulis Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by lukinu_u.",
-    "Link": "Scapulis Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=811501984",
-    "Image": "ScapulisSyandana.png",
-    "Artists": [
-      "lukinu_u"
-    ],
-    "Introduced": "21.5",
-    "PcPrice": "$5.99",
-    "Round": "9",
-    "Name": "Scapulis Syandana"
-  },
   "Frost Vojnik Skin": {
     "ConsolePrice": "N/A",
     "Type": "Skin",
@@ -3853,38 +2316,40 @@
     "Round": "3",
     "Name": "Frost Vojnik Skin"
   },
-  "Saryn Velenosa Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Saryn Warframe, designed by Hitsu San.",
-    "Link": "Saryn Velenosa Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194891968",
-    "Image": "SarynVelenosaSkin.png",
+  "Zhivira Shoulder Armor": {
+    "ConsolePrice": "50",
+    "Type": "Armor",
+    "Description": "A unique shoulder armor for your Warframe, designed by blazingcobalt.",
+    "Link": "Zhivira Shoulder Armor",
+    "Part": "Arm",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2838618329",
+    "Image": "ZhiviraShoulderArmor.png",
     "Artists": [
-      "Hitsu San"
+      "blazingcobalt"
     ],
-    "Introduced": "22.11",
-    "PcPrice": "$6.99",
-    "Round": "11 [Batch 2]",
-    "Name": "Saryn Velenosa Skin"
+    "Introduced": "33.5",
+    "PcPrice": "$2.99",
+    "Round": "23 [Batch 2]",
+    "Name": "Zhivira Shoulder Armor"
   },
-  "Saryn Nita's Moda Skin": {
-    "ConsolePrice": "165",
-    "Type": "Skin",
-    "Description": "A unique skin for the Saryn Warframe, designed by Volkovyi.",
-    "Link": "Saryn Nita's Moda Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1192679413",
-    "Image": "SarynNita'sModaSkin.png",
+  "Vikasa Shoulder Plates": {
+    "ConsolePrice": "50",
+    "Type": "Armor",
+    "Description": "A unique shoulder armor for your Warframe, designed by blazingcobalt.",
+    "Link": "Vikasa Shoulder Plates",
+    "Part": "Arm",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2729906267",
+    "Image": "VikasaShoulderPlates.png",
     "Artists": [
-      "Volkovyi"
+      "blazingcobalt"
     ],
-    "Introduced": "22.13",
-    "PcPrice": "$4.99",
-    "Round": "11 [Batch 3]",
-    "Name": "Saryn Nita's Moda Skin"
+    "Introduced": "32",
+    "PcPrice": "$2.99",
+    "Round": "22 [Batch 2]",
+    "Name": "Vikasa Shoulder Plates"
   },
   "Harrow Profitas Skin": {
-    "ConsolePrice": "TBA",
+    "ConsolePrice": "165",
     "Type": "Deluxe",
     "Description": "A unique skin for the Harrow Warframe, designed by Malaya, Jadie and Noxxr",
     "Link": "Harrow Profitas Skin",
@@ -3895,39 +2360,39 @@
       "Jadie",
       "Noxxr"
     ],
-    "PcPrice": "TBA",
+    "PcPrice": "$6.99",
     "Round": "TennoGen Fables & Frontiers",
     "Name": "Harrow Profitas Skin"
   },
-  "Ember Technopyre Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Ember Warframe, designed by Master Noob.",
-    "Link": "Ember Technopyre Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3130189558",
-    "Image": "EmberTechnopyreSkin.png",
+  "Zephyr Monsoon Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Zephyr Warframe, designed by artarrwen.",
+    "Link": "Zephyr Monsoon Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=605985394",
+    "Image": "ZephyrMonsoonHelmet.png",
     "Artists": [
-      "Master Noob"
+      "artarrwen"
     ],
-    "Introduced": "37",
-    "PcPrice": "$6.99",
-    "Round": "TennoGen Fates",
-    "Name": "Ember Technopyre Skin"
+    "Introduced": "18.6.3",
+    "PcPrice": "$5.99",
+    "Round": "2",
+    "Name": "Zephyr Monsoon Helmet"
   },
-  "Saryn Integra Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Saryn Warframe, designed by Cheshire.",
-    "Link": "Saryn Integra Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=840335854",
-    "Image": "SarynIntegraSkin.png",
+  "Zephyr Migisi Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Zephyr Warframe, designed by FrellingHazmot.",
+    "Link": "Zephyr Migisi Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=709549507",
+    "Image": "ZephyrMigisiHelmet.png",
     "Artists": [
-      "Cheshire"
+      "FrellingHazmot"
     ],
-    "Introduced": "19.11",
-    "PcPrice": "$6.99",
-    "Round": "7",
-    "Name": "Saryn Integra Skin"
+    "Introduced": "The Silver Grove 1.0",
+    "PcPrice": "$5.99",
+    "Round": "4",
+    "Name": "Zephyr Migisi Helmet"
   },
   "Gara Adora Helmet": {
     "ConsolePrice": "105",
@@ -3960,21 +2425,20 @@
     "Round": "13",
     "Name": "Nova Corpra Skin"
   },
-  "Zenoriu Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by led2012 and daemonstar.",
-    "Link": "Zenoriu Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494801018",
-    "Image": "ZenoriuOculus.png",
+  "Mag Anthro Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Mag Warframe, designed by Pior.",
+    "Link": "Mag Anthro Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=562615890",
+    "Image": "MagAnthroHelmet.png",
     "Artists": [
-      "led2012",
-      "daemonstar"
+      "Pior"
     ],
-    "Introduced": "24.1",
-    "PcPrice": "$1.99",
-    "Round": "14",
-    "Name": "Zenoriu Oculus"
+    "Introduced": "18.1.4",
+    "PcPrice": "$5.99",
+    "Round": "Polycount",
+    "Name": "Mag Anthro Helmet"
   },
   "Khora Laveau Helmet": {
     "ConsolePrice": "105",
@@ -4023,23 +2487,23 @@
     "Round": "9",
     "Name": "Equinox Insomnia Skin"
   },
-  "Saryn Blade Of The Lotus Skin": {
+  "Zephyr Graxx Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Saryn Warframe, designed by BeastBuster.",
-    "Link": "Saryn Blade Of The Lotus Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502953820",
-    "Image": "SarynBladeOfTheLotusSkin.png",
+    "Description": "A unique skin for the Zephyr Warframe, designed by Faven.",
+    "Link": "Zephyr Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1309153880",
+    "Image": "ZephyrGraxxSkin.png",
     "Artists": [
-      "BeastBuster"
+      "Faven"
     ],
-    "Introduced": "24.5",
+    "Introduced": "24.1",
     "PcPrice": "$6.99",
-    "Round": "15",
-    "Name": "Saryn Blade Of The Lotus Skin"
+    "Round": "14",
+    "Name": "Zephyr Graxx Skin"
   },
   "Oraxia Agamva Helmet": {
-    "ConsolePrice": "TBA",
+    "ConsolePrice": "105",
     "Type": "Helmet",
     "Description": "A helmet for the Oraxia Warframe, designed by led2012",
     "Link": "Oraxia Agamva Helmet",
@@ -4048,70 +2512,69 @@
     "Artists": [
       "led2012"
     ],
-    "PcPrice": "TBA",
+    "PcPrice": "$5.99",
     "Round": "TennoGen Fables & Frontiers",
     "Name": "Oraxia Agamva Helmet"
   },
-  "Frost Ion Skin": {
+  "Zephyr Blade Of The Lotus Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Frost Warframe, designed by Yatus.",
-    "Link": "Frost Ion Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1392432715",
-    "Image": "FrostIonSkin.png",
+    "Description": "A unique skin for the Zephyr Warframe, designed by BeastBuster.",
+    "Link": "Zephyr Blade Of The Lotus Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1973982041",
+    "Image": "ZephyrBladeOfTheLotusSkin.png",
     "Artists": [
-      "Yatus"
+      "BeastBuster"
     ],
-    "Introduced": "25.1",
+    "Introduced": "29.2.1",
     "PcPrice": "$6.99",
-    "Round": "16",
-    "Name": "Frost Ion Skin"
+    "Round": "19 [Batch 1]",
+    "Name": "Zephyr Blade Of The Lotus Skin"
   },
-  "Hammer Maulleus Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Hammer skin, designed by Vhynnz.",
-    "Link": "Maulleus Hammer Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3638709134",
-    "Image": "MaulleusHammerSkin.png",
-    "Artists": [
-      "Vhynnz"
-    ],
-    "Introduced": "42",
-    "PcPrice": "$5.99",
-    "Round": "TennoGen Shadowgrapher",
-    "Name": "Maulleus Hammer Skin"
-  },
-  "Sarva Harness Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Sarva Harness Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1083532271",
-    "Image": "SarvaHarnessSyandana.png",
-    "Artists": [
-      "Master Noob"
-    ],
-    "Introduced": "22.13",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 3]",
-    "Name": "Sarva Harness Syandana"
-  },
-  "Krtrima Chest Armor": {
+  "Xulatu Chest Armor": {
     "ConsolePrice": "45",
     "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by kakarrot2812.",
-    "Link": "Krtrima Chest Armor",
+    "Description": "A unique chest armor for your Warframe, designed by led2012.",
+    "Link": "Xulatu Chest Armor",
     "Part": "Chest",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2893527881",
-    "Image": "KrtrimaChestArmor.png",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2167813896",
+    "Image": "XulatuChestArmor.png",
     "Artists": [
-      "kakarrot2812"
+      "led2012"
     ],
-    "Introduced": "33.5",
+    "Introduced": "29.2.1",
     "PcPrice": "$2.49",
-    "Round": "23 [Batch 2]",
-    "Name": "Krtrima Chest Armor"
+    "Round": "19 [Batch 1]",
+    "Name": "Xulatu Chest Armor"
+  },
+  "Xiphos Lilieae Skin": {
+    "ConsolePrice": "90",
+    "Type": "Landing Craft",
+    "Link": "Xiphos Lilieae Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595993786",
+    "Image": "XiphosLilieaeSkin.png",
+    "Artists": [
+      "MaceMadunusus"
+    ],
+    "Introduced": "31.1.7",
+    "PcPrice": "$4.99",
+    "Round": "21 [Batch 2]",
+    "Name": "Xiphos Lilieae Skin"
+  },
+  "Nova Fusion Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Nova Warframe, designed by Coridium.",
+    "Link": "Nova Fusion Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=619984194",
+    "Image": "NovaFusionHelmet.png",
+    "Artists": [
+      "Coridium"
+    ],
+    "Introduced": "The Silver Grove 1.0",
+    "PcPrice": "$5.99",
+    "Round": "4",
+    "Name": "Nova Fusion Helmet"
   },
   "Banshee Blade Of The Lotus Skin": {
     "ConsolePrice": "165",
@@ -4159,36 +2622,37 @@
     "Round": "20 [Batch 1]",
     "Name": "Octavia Giocoso Helmet"
   },
-  "Rota Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Rota Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=548723656",
-    "Image": "RotaSyandana.png",
+  "Xairaks Chest Armor": {
+    "ConsolePrice": "45",
+    "Type": "Armor",
+    "Description": "A unique chest armor for your Warframe, designed by lex182 and cedd00.",
+    "Link": "Xairaks Chest Armor",
+    "Part": "Chest",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3218713835",
+    "Image": "XairaksChestArmor.png",
     "Artists": [
-      "Master Noob"
+      "lex182",
+      "cedd00"
     ],
-    "Introduced": "17.12",
-    "PcPrice": "$5.99",
-    "Round": "1",
-    "Name": "Rota Syandana"
+    "Introduced": "39.1",
+    "PcPrice": "$2.49",
+    "Round": "TennoGen Factions",
+    "Name": "Xairaks Chest Armor"
   },
-  "Praesidum Mask": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique mask, designed by HariPear and lukinu_u.",
-    "Link": "Praesidum Mask",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2396823430",
-    "Image": "PraesidumMask.png",
+  "Xaku Deathea Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Xaku Warframe, designed by kakarrot2812.",
+    "Link": "Xaku Deathea Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2877135903",
+    "Image": "XakuDeatheaSkin.png",
     "Artists": [
-      "HariPear",
-      "lukinu_u"
+      "kakarrot2812"
     ],
-    "Introduced": "30.1",
-    "PcPrice": "$2.99",
-    "Round": "20 [Batch 1]",
-    "Name": "Praesidum Mask"
+    "Introduced": "33",
+    "PcPrice": "$6.99",
+    "Round": "23 [Batch 1]",
+    "Name": "Xaku Deathea Skin"
   },
   "Paxis Shoulder Armor": {
     "ConsolePrice": "50",
@@ -4207,20 +2671,20 @@
     "Round": "22 [Batch 2]",
     "Name": "Paxis Shoulder Armor"
   },
-  "Rhodora Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Xtygian and led2012.",
-    "Link": "Rhodora Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3140913204",
-    "Image": "RhodoraSyandana.png",
+  "Wukong Xingzhe Helmet": {
+    "ConsolePrice": "75",
+    "Type": "Helmet",
+    "Description": "A helmet for the Wukong Warframe, designed by Rekkou.",
+    "Link": "Wukong Xingzhe Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=740966643",
+    "Image": "WukongXingzheHelmet.png",
     "Artists": [
-      "Xtygian",
-      "led2012"
+      "Rekkou"
     ],
+    "Introduced": "The Index Preview",
     "PcPrice": "$5.99",
-    "Round": "TennoGen Shadows",
-    "Name": "Rhodora Syandana"
+    "Round": "5",
+    "Name": "Wukong Xingzhe Helmet"
   },
   "Mag Knaita Skin": {
     "ConsolePrice": "90",
@@ -4237,126 +2701,126 @@
     "Round": "1",
     "Name": "Mag Knaita Skin"
   },
-  "Ezriel Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Goosmo.",
-    "Link": "Ezriel Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2951529185",
-    "Image": "EzrielSyandana.png",
+  "Wukong Piercing Eye Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Wukong Warframe, designed by Mz-3.",
+    "Link": "Wukong Piercing Eye Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594029119",
+    "Image": "WukongPiercingEyeSkin.png",
     "Artists": [
-      "Goosmo"
-    ],
-    "Introduced": "35.6",
-    "PcPrice": "$5.99",
-    "Round": "Tennogen Unbound",
-    "Name": "Ezriel Syandana"
-  },
-  "Bodo Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by luchafurel.",
-    "Link": "Bodo Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=816335327",
-    "Image": "BodoSyandana.png",
-    "Artists": [
-      "luchafurel"
-    ],
-    "Introduced": "19.11",
-    "PcPrice": "$5.99",
-    "Round": "7",
-    "Name": "Bodo Syandana"
-  },
-  "Rhino Warlust Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Rhino Warframe, designed by Stenchfury.",
-    "Link": "Rhino Warlust Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=824149208",
-    "Image": "RhinoWarlustHelmet.png",
-    "Artists": [
-      "Stenchfury"
-    ],
-    "Introduced": "20.5",
-    "PcPrice": "$5.99",
-    "Round": "8",
-    "Name": "Rhino Warlust Helmet"
-  },
-  "Rhino Vojnik Skin": {
-    "ConsolePrice": "90",
-    "Type": "Skin",
-    "Description": "A unique skin for the Rhino Warframe, designed by Volkovyi.",
-    "Link": "Rhino Vojnik Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=706304997",
-    "Image": "RhinoVojnikSkin.png",
-    "Artists": [
-      "Volkovyi"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$4.99",
-    "Round": "4",
-    "Name": "Rhino Vojnik Skin"
-  },
-  "Chemtank Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Erneix.",
-    "Link": "Chemtank Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2763822731",
-    "Image": "ChemtankSyandana.png",
-    "Artists": [
-      "Erneix"
+      "Mz-3"
     ],
     "Introduced": "31.1.7",
-    "PcPrice": "$5.99",
-    "Round": "22 [Batch 1]",
-    "Name": "Chemtank Syandana"
+    "PcPrice": "$6.99",
+    "Round": "21 [Batch 2]",
+    "Name": "Wukong Piercing Eye Skin"
   },
-  "Retrorolyst Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Erneix and edwino22.",
-    "Link": "Retrorolyst Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2891989857",
-    "Image": "RetrorolystSyandana.png",
+  "Wukong Mithra Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Wukong Warframe, designed by lukinu_u.",
+    "Link": "Wukong Mithra Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1127390225",
+    "Image": "WukongMithraSkin.png",
     "Artists": [
-      "Erneix",
-      "edwino22"
+      "lukinu_u"
     ],
-    "Introduced": "33",
-    "PcPrice": "$5.99",
-    "Round": "23 [Batch 1]",
-    "Name": "Retrorolyst Syandana"
+    "Introduced": "25.1",
+    "PcPrice": "$6.99",
+    "Round": "16",
+    "Name": "Wukong Mithra Skin"
   },
-  "Rhino Teutonic Helmet": {
-    "ConsolePrice": "75",
-    "Type": "Helmet",
-    "Description": "A helmet for the Rhino Warframe, designed by Faven.",
-    "Link": "Rhino Teutonic Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=793996762",
-    "Image": "RhinoTeutonicHelmet.png",
+  "Wukong Auman Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Wukong Warframe, designed by Rekkou.",
+    "Link": "Wukong Auman Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1118959551",
+    "Image": "WukongAumanSkin.png",
+    "Artists": [
+      "Rekkou"
+    ],
+    "Introduced": "22.9",
+    "PcPrice": "$6.99",
+    "Round": "11 [Batch 1]",
+    "Name": "Wukong Auman Skin"
+  },
+  "Protea Technochron Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Protea Warframe, designed by Master Noob.",
+    "Link": "Protea Technochron Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2590625920",
+    "Image": "ProteaTechnochronSkin.png",
+    "Artists": [
+      "Master Noob"
+    ],
+    "Introduced": "31.1.7",
+    "PcPrice": "$6.99",
+    "Round": "21 [Batch 2]",
+    "Name": "Protea Technochron Skin"
+  },
+  "Frost Emperor Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Frost Warframe, designed by Hitsu San.",
+    "Link": "Frost Emperor Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=727935543",
+    "Image": "FrostEmperorSkin.png",
+    "Artists": [
+      "Hitsu San"
+    ],
+    "Introduced": "19.4",
+    "PcPrice": "$6.99",
+    "Round": "6",
+    "Name": "Frost Emperor Skin"
+  },
+  "Wisp Sycorax Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Wisp Warframe, designed by Vulbjorn.",
+    "Link": "Wisp Sycorax Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2580380949",
+    "Image": "WispSycoraxSkin.png",
+    "Artists": [
+      "Vulbjorn"
+    ],
+    "Introduced": "31.1",
+    "PcPrice": "$6.99",
+    "Round": "21 [Batch 1]",
+    "Name": "Wisp Sycorax Skin"
+  },
+  "Wisp Raevuz Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Wisp Warframe, designed by malaya and Xtygian.",
+    "Link": "Wisp Raevuz Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2503260348",
+    "Image": "WispRaevuzSkin.png",
+    "Artists": [
+      "malaya",
+      "Xtygian"
+    ],
+    "Introduced": "32",
+    "PcPrice": "$6.99",
+    "Round": "22 [Batch 2]",
+    "Name": "Wisp Raevuz Skin"
+  },
+  "Wisp Graxx Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Wisp Warframe, designed by Faven.",
+    "Link": "Wisp Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1824768987",
+    "Image": "WispGraxxSkin.png",
     "Artists": [
       "Faven"
     ],
-    "Introduced": "19.11",
-    "PcPrice": "$5.99",
-    "Round": "7",
-    "Name": "Rhino Teutonic Helmet"
-  },
-  "Sovereign Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by BeastBuster.",
-    "Link": "Sovereign Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194252668",
-    "Image": "SovereignSyandana.png",
-    "Artists": [
-      "BeastBuster"
-    ],
-    "Introduced": "22.19",
-    "PcPrice": "$5.99",
-    "Round": "12",
-    "Name": "Sovereign Syandana"
+    "Introduced": "25.7.7",
+    "PcPrice": "$6.99",
+    "Round": "17",
+    "Name": "Wisp Graxx Skin"
   },
   "Krtrima Leg Armor": {
     "ConsolePrice": "50",
@@ -4389,35 +2853,35 @@
     "Round": "7",
     "Name": "Nyx Saikou Skin"
   },
-  "Rhino Ion Skin": {
+  "Wisp Damas Helmet": {
+    "ConsolePrice": "105",
+    "Type": "Helmet",
+    "Description": "A helmet for the Wisp Warframe, designed by FrellingHazmot.",
+    "Link": "Wisp Damas Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1832943485",
+    "Image": "WispDamasHelmet.png",
+    "Artists": [
+      "FrellingHazmot"
+    ],
+    "Introduced": "25.7.7",
+    "PcPrice": "$5.99",
+    "Round": "17",
+    "Name": "Wisp Damas Helmet"
+  },
+  "Ivara Arcuata Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Rhino Warframe, designed by Yatus.",
-    "Link": "Rhino Ion Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1552083671",
-    "Image": "RhinoIonSkin.png",
+    "Description": "A unique skin for the Ivara Warframe, designed by Stenchfury.",
+    "Link": "Ivara Arcuata Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1496765280",
+    "Image": "IvaraArcuataSkin.png",
     "Artists": [
-      "Yatus"
+      "Stenchfury"
     ],
-    "Introduced": "24.5",
+    "Introduced": "20.5",
     "PcPrice": "$6.99",
-    "Round": "15",
-    "Name": "Rhino Ion Skin"
-  },
-  "Graxx Spitefire Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Faven.",
-    "Link": "Graxx Spitefire Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=773024183",
-    "Image": "GraxxSpitefireSyandana.png",
-    "Artists": [
-      "Faven"
-    ],
-    "Introduced": "19.4",
-    "PcPrice": "$5.99",
-    "Round": "6",
-    "Name": "Graxx Spitefire Syandana"
+    "Round": "8",
+    "Name": "Ivara Arcuata Skin"
   },
   "Chroma Vojnik Skin": {
     "ConsolePrice": "N/A",
@@ -4434,36 +2898,35 @@
     "Round": "6",
     "Name": "Chroma Vojnik Skin"
   },
-  "Rhino Graxx Skin": {
-    "ConsolePrice": "90",
-    "Type": "Skin",
-    "Description": "A unique skin for the Rhino Warframe, designed by Faven.",
-    "Link": "Rhino Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=668182548",
-    "Image": "RhinoGraxxSkin.png",
+  "Whip Wuush Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Whip skin, designed by Faven.",
+    "Link": "Whip Wuush Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1835456310",
+    "Image": "SWWhipWuushSkin.png",
     "Artists": [
       "Faven"
     ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$4.99",
-    "Round": "4",
-    "Name": "Rhino Graxx Skin"
-  },
-  "Ak-Sura Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya and Cobalt.",
-    "Link": "Ak-Sura Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1266378613",
-    "Image": "Ak-SuraSyandana.png",
-    "Artists": [
-      "malaya",
-      "Cobalt"
-    ],
-    "Introduced": "22.19",
+    "Introduced": "25.7.7",
     "PcPrice": "$5.99",
-    "Round": "12",
-    "Name": "Ak-Sura Syandana"
+    "Round": "17",
+    "Name": "Whip Wuush Skin"
+  },
+  "Jade Coven Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Jade Warframe, designed by blazingcobalt",
+    "Link": "Jade Coven Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3617376183",
+    "Image": "JadeCovenSkin.png",
+    "Artists": [
+      "blazingcobalt"
+    ],
+    "Introduced": "44",
+    "PcPrice": "$6.99",
+    "Round": "TennoGen Iceblade",
+    "Name": "Jade Coven Skin"
   },
   "Polearm Lympharis Skin": {
     "ConsolePrice": "105",
@@ -4496,20 +2959,20 @@
     "Round": "14",
     "Name": "Nekros Charon Helmet"
   },
-  "Rhino Blade Of The Lotus Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Rhino Warframe, designed by BeastBuster.",
-    "Link": "Rhino Blade Of The Lotus Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194210547",
-    "Image": "RhinoBladeOfTheLotusSkin.png",
+  "Whip Jotunheim Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Whip skin, designed by Mz-3.",
+    "Link": "Whip Jotunheim Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3220029877",
+    "Image": "WhipJotunheimSkin.png",
     "Artists": [
-      "BeastBuster"
+      "Mz-3"
     ],
-    "Introduced": "23.1",
-    "PcPrice": "$6.99",
-    "Round": "13",
-    "Name": "Rhino Blade Of The Lotus Skin"
+    "Introduced": "39.1",
+    "PcPrice": "$5.99",
+    "Round": "TennoGen Factions",
+    "Name": "Whip Jotunheim Skin"
   },
   "Nyx Graxx Skin": {
     "ConsolePrice": "165",
@@ -4556,52 +3019,50 @@
     "Round": "15",
     "Name": "Excalibur Ion Skin"
   },
-  "Revenant Wight Skin": {
+  "Voruna Demionna Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Revenant Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
-    "Link": "Revenant Wight Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2773349110",
-    "Image": "RevenantWightSkin.png",
+    "Description": "A unique skin for the Voruna Warframe, designed by kakarrot2812.",
+    "Link": "Voruna Demionna Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3024051843",
+    "Image": "VorunaDemionnaSkin.png",
     "Artists": [
-      "malaya",
-      "Awk'Q-Luz",
-      "Jadie"
+      "kakarrot2812"
     ],
-    "Introduced": "35.6",
+    "Introduced": "38.5",
     "PcPrice": "$6.99",
-    "Round": "Tennogen Unbound",
-    "Name": "Revenant Wight Skin"
+    "Round": "TennoGen Encore",
+    "Name": "Voruna Demionna Skin"
   },
-  "Revenant Immortuos Helmet": {
+  "Volt Zener Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Volt Warframe, designed by Rekkou.",
+    "Link": "Volt Zener Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=890868264",
+    "Image": "VoltZenerSkin.png",
+    "Artists": [
+      "Rekkou"
+    ],
+    "Introduced": "20.5",
+    "PcPrice": "$6.99",
+    "Round": "8",
+    "Name": "Volt Zener Skin"
+  },
+  "Volt Thales Helmet": {
     "ConsolePrice": "105",
     "Type": "Helmet",
-    "Description": "A helmet for the Revenant Warframe, designed by Lubox.",
-    "Link": "Revenant Immortuos Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1554287438",
-    "Image": "RevenantImmortuosHelmet.png",
+    "Description": "A helmet for the Volt Warframe, designed by Arsenal.",
+    "Link": "Volt Thales Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=565547113",
+    "Image": "VoltThalesHelmet.png",
     "Artists": [
-      "Lubox"
-    ],
-    "Introduced": "24.5",
-    "PcPrice": "$5.99",
-    "Round": "15",
-    "Name": "Revenant Immortuos Helmet"
-  },
-  "Mag Induction Helmet": {
-    "ConsolePrice": "75",
-    "Type": "Helmet",
-    "Description": "A helmet for the Mag Warframe, designed by Pior.",
-    "Link": "Mag Induction Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=566809319",
-    "Image": "MagInductionHelmet.png",
-    "Artists": [
-      "Pior"
+      "Arsenal"
     ],
     "Introduced": "18.1.4",
     "PcPrice": "$5.99",
     "Round": "Polycount",
-    "Name": "Mag Induction Helmet"
+    "Name": "Volt Thales Helmet"
   },
   "Nova Lamia Skin": {
     "ConsolePrice": "90",
@@ -4680,20 +3141,20 @@
     "Round": "23 [Batch 2]",
     "Name": "Krtrima Shoulder Armor"
   },
-  "Revenant Ahriman Skin": {
+  "Volt Technoshock Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Revenant Warframe, designed by Vulbjorn.",
-    "Link": "Revenant Ahriman Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2760985117",
-    "Image": "RevenantAhrimanSkin.png",
+    "Description": "A unique skin for the Volt Warframe, designed by Master Noob.",
+    "Link": "Volt Technoshock Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2773971192",
+    "Image": "VoltTechnoshockSkin.png",
     "Artists": [
-      "Vulbjorn"
+      "Master Noob"
     ],
     "Introduced": "32",
     "PcPrice": "$6.99",
     "Round": "22 [Batch 2]",
-    "Name": "Revenant Ahriman Skin"
+    "Name": "Volt Technoshock Skin"
   },
   "Longsword Ion Skin": {
     "ConsolePrice": "105",
@@ -4726,68 +3187,66 @@
     "Round": "7",
     "Name": "Limbo Aureolus Helmet"
   },
-  "Garasu Diadem": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique diadem, designed by Ixe and lukinu_u.",
-    "Link": "Garasu Diadem",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1713539991",
-    "Image": "GarasuDiadem.png",
-    "Artists": [
-      "Ixe",
-      "lukinu_u"
-    ],
-    "Introduced": "25.1",
-    "PcPrice": "$1.99",
-    "Round": "16",
-    "Name": "Garasu Diadem"
-  },
-  "Repala Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Repala Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=888942789",
-    "Image": "RepalaSyandana.png",
-    "Artists": [
-      "Master Noob"
-    ],
-    "Introduced": "20.5",
-    "PcPrice": "$5.99",
-    "Round": "8",
-    "Name": "Repala Syandana"
-  },
-  "Aures Diadem": {
+  "Skana Infested Skin": {
     "ConsolePrice": "N/A",
-    "Type": "Operator",
-    "Description": "A unique diadem, designed by lukinu_u and HariPear.",
-    "Link": "Aures Diadem",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1535304359",
-    "Image": "AuresDiadem.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Skana skin, designed by Dencio Aggression.",
+    "Link": "Skana Infested Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=565667639",
+    "Image": "SWRPolyInfestedSkana.png",
     "Artists": [
-      "lukinu_u",
-      "HariPear"
+      "Dencio Aggression"
     ],
-    "Introduced": "24.5",
-    "PcPrice": "$1.99",
-    "Round": "15",
-    "Name": "Aures Diadem"
+    "Introduced": "18.1.4",
+    "PcPrice": "$5.99",
+    "Round": "Polycount",
+    "Name": "Skana Infested Skin"
   },
-  "Aures Earpiece": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique pair of earpieces, designed by lukinu_u and HariPear.",
-    "Link": "Aures Earpiece",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1504352519",
-    "Image": "AuresEarpiece.png",
+  "Volt Relay Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Volt Warframe, designed by DespicableCheese.",
+    "Link": "Volt Relay Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=565180799",
+    "Image": "VoltRelayHelmet.png",
     "Artists": [
-      "lukinu_u",
-      "HariPear"
+      "DespicableCheese"
     ],
-    "Introduced": "25.1",
-    "PcPrice": "$1.99",
-    "Round": "16",
-    "Name": "Aures Earpiece"
+    "Introduced": "18.1.4",
+    "PcPrice": "$5.99",
+    "Round": "Polycount",
+    "Name": "Volt Relay Helmet"
+  },
+  "Khora Miyabi Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Khora Warframe, designed by malaya and Awk'Q-Luz.",
+    "Link": "Khora Miyabi Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2171730758",
+    "Image": "KhoraMiyabiSkin.png",
+    "Artists": [
+      "malaya",
+      "Awk'Q-Luz"
+    ],
+    "Introduced": "29.3.1",
+    "PcPrice": "$6.99",
+    "Round": "19 [Batch 2]",
+    "Name": "Khora Miyabi Skin"
+  },
+  "Inaros Kephri Helmet": {
+    "ConsolePrice": "105",
+    "Type": "Helmet",
+    "Description": "A helmet for the Inaros Warframe, designed by led2012.",
+    "Link": "Inaros Kephri Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1122658693",
+    "Image": "InarosKephriHelmet.png",
+    "Artists": [
+      "led2012"
+    ],
+    "Introduced": "22.11",
+    "PcPrice": "$5.99",
+    "Round": "11 [Batch 2]",
+    "Name": "Inaros Kephri Helmet"
   },
   "Hildryn Sarcostema Skin": {
     "ConsolePrice": "165",
@@ -4834,36 +3293,35 @@
     "Round": "6",
     "Name": "Ember Graxx Skin"
   },
-  "Rau Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by blazingcobalt and Ritens.",
-    "Link": "Rau Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3057070731",
-    "Image": "RauSyandana.png",
-    "Artists": [
-      "blazingcobalt",
-      "Ritens"
-    ],
-    "Introduced": "38.5",
-    "PcPrice": "$5.99",
-    "Round": "Tennogen Encore",
-    "Name": "Rau Syandana"
-  },
-  "Rapier Ni'Duhl Skin": {
-    "ConsolePrice": "N/A",
-    "Type": "Weapon Skin",
-    "Description": "A unique Rapier skin, designed by Faven.",
-    "Link": "Rapier Ni'Duhl Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1478147348",
-    "Image": "SWRFourteenNiDuhlRapierSkin.png",
+  "Volt Graxx Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Volt Warframe, designed by Faven.",
+    "Link": "Volt Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=699760707",
+    "Image": "VoltGraxxSkin.png",
     "Artists": [
       "Faven"
     ],
-    "Introduced": "24.1",
-    "PcPrice": "$5.99",
-    "Round": "14",
-    "Name": "Rapier Ni'Duhl Skin"
+    "Introduced": "The Silver Grove 1.0",
+    "PcPrice": "$6.99",
+    "Round": "4",
+    "Name": "Volt Graxx Skin"
+  },
+  "Volt Fulgursor Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Volt Warframe, designed by Vulbjorn.",
+    "Link": "Volt Fulgursor Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1262456931",
+    "Image": "VoltFulgursorSkin.png",
+    "Artists": [
+      "Vulbjorn"
+    ],
+    "Introduced": "22.19",
+    "PcPrice": "$6.99",
+    "Round": "12",
+    "Name": "Volt Fulgursor Skin"
   },
   "Rapier Ferita Skin": {
     "ConsolePrice": "105",
@@ -4881,20 +3339,22 @@
     "Round": "14",
     "Name": "Rapier Ferita Skin"
   },
-  "Protea Technochron Skin": {
+  "Revenant Wight Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Protea Warframe, designed by Master Noob.",
-    "Link": "Protea Technochron Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2590625920",
-    "Image": "ProteaTechnochronSkin.png",
+    "Description": "A unique skin for the Revenant Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
+    "Link": "Revenant Wight Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2773349110",
+    "Image": "RevenantWightSkin.png",
     "Artists": [
-      "Master Noob"
+      "malaya",
+      "Awk'Q-Luz",
+      "Jadie"
     ],
-    "Introduced": "31.1.7",
+    "Introduced": "35.6",
     "PcPrice": "$6.99",
-    "Round": "21 [Batch 2]",
-    "Name": "Protea Technochron Skin"
+    "Round": "Tennogen Unbound",
+    "Name": "Revenant Wight Skin"
   },
   "Tonfa Yamex Skin": {
     "ConsolePrice": "105",
@@ -4911,20 +3371,20 @@
     "Round": "20 [Batch 2]",
     "Name": "Tonfa Yamex Skin"
   },
-  "Sari Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya.",
-    "Link": "Sari Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=771585391",
-    "Image": "SariSyandana.png",
+  "Volt Arrester Helmet": {
+    "ConsolePrice": "75",
+    "Type": "Helmet",
+    "Description": "A helmet for the Volt Warframe, designed by Rekkou.",
+    "Link": "Volt Arrester Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=566475141",
+    "Image": "VoltArresterHelmet.png",
     "Artists": [
-      "malaya"
+      "Rekkou"
     ],
-    "Introduced": "19.4",
+    "Introduced": "18.1.4",
     "PcPrice": "$5.99",
-    "Round": "6",
-    "Name": "Sari Syandana"
+    "Round": "Polycount",
+    "Name": "Volt Arrester Helmet"
   },
   "Loki Lupu Helmet": {
     "ConsolePrice": "N/A",
@@ -4971,35 +3431,34 @@
     "Round": "2",
     "Name": "Zephyr Skeiron Skin"
   },
-  "Polearm Lahnss Skin": {
-    "ConsolePrice": "105",
+  "Vectis Silferer Skin": {
+    "ConsolePrice": "40",
     "Type": "Weapon Skin",
-    "Description": "A unique Polearm skin, designed by Faven.",
-    "Link": "Polearm Lahnss Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1824770631",
-    "Image": "SWPolearmLahnssSkin.png",
+    "Description": "A unique Vectis skin, designed by Rekkou.",
+    "Link": "Vectis Silferer Skin",
+    "SteamLink": "https://forums.warframe.com/topic/313983-weapon-skins-contest-final-results/",
+    "Image": "VectisSilfererSkin.png",
     "Artists": [
-      "Faven"
+      "Rekkou"
     ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$5.99",
-    "Round": "17",
-    "Name": "Polearm Lahnss Skin"
+    "PcPrice": "40",
+    "Round": "Weapons Skin Contest",
+    "Name": "Vectis Silferer Skin"
   },
-  "Polearm Jotunheim Skin": {
+  "Nikana Krtrima Skin": {
     "ConsolePrice": "105",
     "Type": "Weapon Skin",
-    "Description": "A unique Polearm skin, designed by Mz-3.",
-    "Link": "Polearm Jotunheim Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843567594",
-    "Image": "SWR18PolearmJotunheimSkin.png",
+    "Description": "A unique Nikana skin, designed by kakarrot2812.",
+    "Link": "Nikana Krtrima Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2831263685",
+    "Image": "NikanaKrtrimaSkin.png",
     "Artists": [
-      "Mz-3"
+      "kakarrot2812"
     ],
-    "Introduced": "27.3.8",
+    "Introduced": "33.5",
     "PcPrice": "$5.99",
-    "Round": "18",
-    "Name": "Polearm Jotunheim Skin"
+    "Round": "23 [Batch 2]",
+    "Name": "Nikana Krtrima Skin"
   },
   "Excalibur Apex Skin": {
     "ConsolePrice": "90",
@@ -5016,36 +3475,37 @@
     "Round": "4",
     "Name": "Excalibur Apex Skin"
   },
-  "Polearm Ion Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Polearm skin, designed by Yatus and HugoPolo.",
-    "Link": "Polearm Ion Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1973979416",
-    "Image": "SWR18PolearmIonSkin.png",
-    "Artists": [
-      "Yatus",
-      "HugoPolo"
-    ],
-    "Introduced": "27.3.8",
-    "PcPrice": "$5.99",
-    "Round": "18",
-    "Name": "Polearm Ion Skin"
-  },
-  "Ivara Arcuata Skin": {
+  "Vauban Graxx Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Ivara Warframe, designed by Stenchfury.",
-    "Link": "Ivara Arcuata Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1496765280",
-    "Image": "IvaraArcuataSkin.png",
+    "Description": "A unique skin for the Vauban Warframe, designed by Faven and Faven_LTD.",
+    "Link": "Vauban Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1183635289",
+    "Image": "VaubanGraxxSkin.png",
     "Artists": [
-      "Stenchfury"
+      "Faven",
+      "Faven_LTD"
     ],
-    "Introduced": "20.5",
+    "Introduced": "22.9",
     "PcPrice": "$6.99",
-    "Round": "8",
-    "Name": "Ivara Arcuata Skin"
+    "Round": "11 [Batch 1]",
+    "Name": "Vauban Graxx Skin"
+  },
+  "Vauban Bonaparte Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Vauban Warframe, designed by Hydroxate and Debbysheen.",
+    "Link": "Vauban Bonaparte Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2571611378",
+    "Image": "VaubanBonaparteSkin.png",
+    "Artists": [
+      "Hydroxate",
+      "Debbysheen"
+    ],
+    "Introduced": "31.1.7",
+    "PcPrice": "$6.99",
+    "Round": "22 [Batch 1]",
+    "Name": "Vauban Bonaparte Skin"
   },
   "Mesa Marlet Skin": {
     "ConsolePrice": "165",
@@ -5094,35 +3554,35 @@
     "Round": "22 [Batch 1]",
     "Name": "Asteria Chest Armor"
   },
-  "Polearm Diva Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Polearm skin, designed by lukinu_u.",
-    "Link": "Polearm Diva Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843075078",
-    "Image": "SWRElevenDivaPolearm.png",
+  "Valkyr Leonessa Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Valkyr Warframe, designed by Hitsu San.",
+    "Link": "Valkyr Leonessa Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1590544946",
+    "Image": "ValkyrLeonessaSkin.png",
     "Artists": [
-      "lukinu_u"
+      "Hitsu San"
     ],
-    "Introduced": "22.11",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 2]",
-    "Name": "Polearm Diva Skin"
+    "Introduced": "25.1",
+    "PcPrice": "$6.99",
+    "Round": "16",
+    "Name": "Valkyr Leonessa Skin"
   },
-  "Polearm Aphria Skin": {
+  "Two-Handed Nikana Ksara Skin": {
     "ConsolePrice": "105",
     "Type": "Weapon Skin",
-    "Description": "A unique Polearm skin, designed by Arsenal.",
-    "Link": "Polearm Aphria Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1329854436",
-    "Image": "SWRThirteenPolearmAphria.png",
+    "Description": "A unique two-handed Nikana skin, designed by kakarrot2812.",
+    "Link": "Two-Handed Nikana Ksara Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2500078680",
+    "Image": "SWKsaraTwo-HandedNikanaSkin.png",
     "Artists": [
-      "Arsenal"
+      "kakarrot2812"
     ],
-    "Introduced": "23.1",
+    "Introduced": "31.1",
     "PcPrice": "$5.99",
-    "Round": "13",
-    "Name": "Polearm Aphria Skin"
+    "Round": "21 [Batch 1]",
+    "Name": "Two-Handed Nikana Ksara Skin"
   },
   "Chroma Graxx Skin": {
     "ConsolePrice": "165",
@@ -5139,83 +3599,81 @@
     "Round": "12",
     "Name": "Chroma Graxx Skin"
   },
-  "Piercing Eye Shoulder Armor": {
-    "ConsolePrice": "50",
-    "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by Mz-3 and HAROHARO.",
-    "Link": "Piercing Eye Shoulder Armor",
-    "Part": "Arm",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2774892141",
-    "Image": "PiercingEyeShoulderArmor.png",
-    "Artists": [
-      "Mz-3",
-      "HAROHARO"
-    ],
-    "Introduced": "32",
-    "PcPrice": "$2.99",
-    "Round": "22 [Batch 2]",
-    "Name": "Piercing Eye Shoulder Armor"
-  },
-  "Lavos Yersin Skin": {
+  "Excalibur Corpra Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Lavos Warframe, designed by Lubox.",
-    "Link": "Lavos Yersin Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2923016738",
-    "Image": "LavosYersinSkin.png",
+    "Description": "A unique skin for the Excalibur Warframe, designed by FrellingHazmot.",
+    "Link": "Excalibur Corpra Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1193024927",
+    "Image": "ExcaliburCorpraSkin.png",
+    "Artists": [
+      "FrellingHazmot"
+    ],
+    "Introduced": "22.11",
+    "PcPrice": "$6.99",
+    "Round": "11 [Batch 2]",
+    "Name": "Excalibur Corpra Skin"
+  },
+  "Two-Handed Nikana Arashi Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique two-handed nikana skin, designed by Lubox.",
+    "Link": "Two-Handed Nikana Arashi Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1972334531",
+    "Image": "TwoHandedNikanaArashiSkin.png",
     "Artists": [
       "Lubox"
     ],
-    "PcPrice": "$6.99",
-    "Round": "TennoGen Shadows",
-    "Name": "Lavos Yersin Skin"
-  },
-  "Banshee Dominia Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Banshee Warframe, designed by led2012.",
-    "Link": "Banshee Dominia Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1112559237",
-    "Image": "BansheeDominiaHelmet.png",
-    "Artists": [
-      "led2012"
-    ],
-    "Introduced": "22.9",
+    "Introduced": "27.3.8",
     "PcPrice": "$5.99",
-    "Round": "10",
-    "Name": "Banshee Dominia Helmet"
+    "Round": "18",
+    "Name": "Two-Handed Nikana Arashi Skin"
   },
-  "Paxis Chest Plate": {
-    "ConsolePrice": "45",
-    "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by malaya and Jadie.",
-    "Link": "Paxis Chest Plate",
-    "Part": "Chest",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1845166460",
-    "Image": "PaxisChestPlate.png",
+  "Trinity Nightingale Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Trinity Warframe, designed by matzan481.",
+    "Link": "Trinity Nightingale Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1616477554",
+    "Image": "TrinityNightingaleSkin.png",
     "Artists": [
-      "malaya",
-      "Jadie"
+      "matzan481"
     ],
     "Introduced": "25.7.7",
-    "PcPrice": "$2.49",
+    "PcPrice": "$6.99",
     "Round": "17",
-    "Name": "Paxis Chest Plate"
+    "Name": "Trinity Nightingale Skin"
   },
-  "Jotunheim Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by Mz-3.",
-    "Link": "Jotunheim Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1845132003",
-    "Image": "JotunheimOculus.png",
+  "Titania Pixialyst Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Titania Warframe, designed by kakarrot2812.",
+    "Link": "Titania Pixialyst Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2343014724",
+    "Image": "TitaniaPixialystSkin.png",
     "Artists": [
-      "Mz-3"
+      "kakarrot2812"
     ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$1.99",
-    "Round": "17",
-    "Name": "Jotunheim Oculus"
+    "Introduced": "31.1",
+    "PcPrice": "$6.99",
+    "Round": "21 [Batch 1]",
+    "Name": "Titania Pixialyst Skin"
+  },
+  "Mirage Kitsune Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Mirage Warframe, designed by kakarrot2812 and Skyeraikes.",
+    "Link": "Mirage Kitsune Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1959181297",
+    "Image": "MirageKitsuneSkin.png",
+    "Artists": [
+      "kakarrot2812",
+      "Skyeraikes"
+    ],
+    "Introduced": "29.2.1",
+    "PcPrice": "$6.99",
+    "Round": "19 [Batch 1]",
+    "Name": "Mirage Kitsune Skin"
   },
   "Magnus Dakila Skin": {
     "ConsolePrice": "40",
@@ -5231,21 +3689,20 @@
     "Round": "Weapons Skin Contest",
     "Name": "Magnus Dakila Skin"
   },
-  "Papillon Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by HariPear and lukinu_u.",
-    "Link": "Papillon Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2574751544",
-    "Image": "PapillonOculus.png",
+  "Trinity Blade Of The Lotus Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Trinity Warframe, designed by BeastBuster.",
+    "Link": "Trinity Blade Of The Lotus Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194223859",
+    "Image": "TrinityBladeOfTheLotusSkin.png",
     "Artists": [
-      "HariPear",
-      "lukinu_u"
+      "BeastBuster"
     ],
-    "Introduced": "31.1.7",
-    "PcPrice": "$2.99",
-    "Round": "21 [Batch 2]",
-    "Name": "Papillon Oculus"
+    "Introduced": "23.1",
+    "PcPrice": "$6.99",
+    "Round": "13",
+    "Name": "Trinity Blade Of The Lotus Skin"
   },
   "Hydroid Rorqual Helmet": {
     "ConsolePrice": "75",
@@ -5262,20 +3719,20 @@
     "Round": "7",
     "Name": "Hydroid Rorqual Helmet"
   },
-  "Orthos Magesty Skin": {
+  "Nikana Khatuun Skin": {
     "ConsolePrice": "105",
     "Type": "Weapon Skin",
-    "Description": "A unique Orthos skin, designed by prosetisen.",
-    "Link": "Orthos Magesty Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=728136853",
-    "Image": "SWRFiveMagestyOrthos.png",
+    "Description": "A unique Nikana skin, designed by VoidPunch.",
+    "Link": "Nikana Khatuun Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1794814744",
+    "Image": "SWNikanaKhatuunSkin.png",
     "Artists": [
-      "prosetisen"
+      "VoidPunch"
     ],
-    "Introduced": "The Index Preview",
+    "Introduced": "25.7.7",
     "PcPrice": "$5.99",
-    "Round": "5",
-    "Name": "Orthos Magesty Skin"
+    "Round": "17",
+    "Name": "Nikana Khatuun Skin"
   },
   "Ivara Graxx Skin": {
     "ConsolePrice": "165",
@@ -5307,35 +3764,36 @@
     "Round": "5",
     "Name": "Trinity Messiah Helmet"
   },
-  "Cryona Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012.",
-    "Link": "Cryona Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=860937578",
-    "Image": "CryonaSyandana.png",
-    "Artists": [
-      "led2012"
-    ],
-    "Introduced": "22.9",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 1]",
-    "Name": "Cryona Syandana"
-  },
-  "Octavia Mandachoralyst Skin": {
+  "Styanax Huzarr Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Octavia Warframe, designed by kakarrot2812.",
-    "Link": "Octavia Mandachoralyst Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2593100067",
-    "Image": "OctaviaMandachoralystSkin.png",
+    "Description": "A unique skin for the Styanax Warframe, designed by Lubox and _afterBRNR.",
+    "Link": "Styanax Huzarr Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3181094823",
+    "Image": "StyanaxHuzarrSkin.png",
     "Artists": [
-      "kakarrot2812"
+      "Lubox",
+      "_afterBRNR"
     ],
-    "Introduced": "32",
+    "Introduced": "38.5",
     "PcPrice": "$6.99",
-    "Round": "22 [Batch 2]",
-    "Name": "Octavia Mandachoralyst Skin"
+    "Round": "Tennogen Encore",
+    "Name": "Styanax Huzarr Skin"
+  },
+  "Sybaris Overload Skin": {
+    "ConsolePrice": "50",
+    "Type": "Weapon Skin",
+    "Description": "A unique Sybaris skin, designed by Reisen.Udonge.",
+    "Link": "Sybaris Overload Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=541655548",
+    "Image": "SWSybarisOverload.png",
+    "Artists": [
+      "Reisen.Udonge"
+    ],
+    "Introduced": "17.12",
+    "PcPrice": "$5.99",
+    "Round": "1",
+    "Name": "Sybaris Overload Skin"
   },
   "Titania Lympharis Skin": {
     "ConsolePrice": "165",
@@ -5352,65 +3810,66 @@
     "Round": "14",
     "Name": "Titania Lympharis Skin"
   },
-  "Jotunheim Music Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Mz-3.",
-    "Link": "Jotunheim Music Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2389503649",
-    "Image": "JotunheimMusicSyandana.png",
-    "Artists": [
-      "Mz-3"
-    ],
-    "Introduced": "30.1",
-    "PcPrice": "$5.99",
-    "Round": "20 [Batch 1]",
-    "Name": "Jotunheim Music Syandana"
-  },
-  "Aquiros Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012.",
-    "Link": "Aquiros Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=616760969",
-    "Image": "AquirosSyandana.png",
-    "Artists": [
-      "led2012"
-    ],
-    "Introduced": "18.6.3",
-    "PcPrice": "$5.99",
-    "Round": "2",
-    "Name": "Aquiros Syandana"
-  },
-  "Oberon Youkai Skin": {
+  "Oberon Blade Of The Lotus Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Oberon Warframe, designed by Hitsu San.",
-    "Link": "Oberon Youkai Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843793574",
-    "Image": "OberonYoukaiSkin.png",
+    "Description": "A unique skin for the Oberon Warframe, designed by BeastBuster.",
+    "Link": "Oberon Blade Of The Lotus Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194231399",
+    "Image": "OberonBladeOfTheLotusSkin.png",
     "Artists": [
-      "Hitsu San"
+      "BeastBuster"
+    ],
+    "Introduced": "23.1",
+    "PcPrice": "$6.99",
+    "Round": "13",
+    "Name": "Oberon Blade Of The Lotus Skin"
+  },
+  "Liset Herulyst Skin": {
+    "ConsolePrice": "90",
+    "Type": "Landing Craft",
+    "Link": "Liset Herulyst Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2843536779",
+    "Image": "LisetHerulystSkin.png",
+    "Artists": [
+      "LostEpoch"
+    ],
+    "Introduced": "33.5",
+    "PcPrice": "$4.99",
+    "Round": "23 [Batch 2]",
+    "Name": "Liset Herulyst Skin"
+  },
+  "Sevagoth Ezriel Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Sevagoth Warframe, designed by Goosmo.",
+    "Link": "Sevagoth Ezriel Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2849199546",
+    "Image": "SevagothEzrielSkin.png",
+    "Artists": [
+      "Goosmo"
+    ],
+    "Introduced": "35.6",
+    "PcPrice": "$6.99",
+    "Round": "Tennogen Unbound",
+    "Name": "Sevagoth Ezriel Skin"
+  },
+  "Seraphim Chest Plate": {
+    "ConsolePrice": "45",
+    "Type": "Armor",
+    "Description": "A unique chest armor for your Warframe, designed by led2012 and jaeon009.",
+    "Link": "Seraphim Chest Plate",
+    "Part": "Chest",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1842785937",
+    "Image": "SeraphimChestPlate.png",
+    "Artists": [
+      "led2012",
+      "jaeon009"
     ],
     "Introduced": "27.3.8",
-    "PcPrice": "$6.99",
+    "PcPrice": "$2.49",
     "Round": "18",
-    "Name": "Oberon Youkai Skin"
-  },
-  "Jattuk Mantle": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Jattuk Mantle",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=618955744",
-    "Image": "JattukMantle.png",
-    "Artists": [
-      "Master Noob"
-    ],
-    "Introduced": "18.6.3",
-    "PcPrice": "$5.99",
-    "Round": "2",
-    "Name": "Jattuk Mantle"
+    "Name": "Seraphim Chest Plate"
   },
   "Gara Zamariu Skin": {
     "ConsolePrice": "165",
@@ -5428,50 +3887,50 @@
     "Round": "14",
     "Name": "Gara Zamariu Skin"
   },
-  "Oberon Wendigo Skin": {
+  "Saryn Velenosa Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Oberon Warframe, designed by Vulbjorn.",
-    "Link": "Oberon Wendigo Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1192548835",
-    "Image": "OberonWendigoSkin.png",
+    "Description": "A unique skin for the Saryn Warframe, designed by Hitsu San.",
+    "Link": "Saryn Velenosa Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194891968",
+    "Image": "SarynVelenosaSkin.png",
     "Artists": [
-      "Vulbjorn"
+      "Hitsu San"
     ],
     "Introduced": "22.11",
     "PcPrice": "$6.99",
     "Round": "11 [Batch 2]",
-    "Name": "Oberon Wendigo Skin"
+    "Name": "Saryn Velenosa Skin"
   },
-  "Liset Herulyst Skin": {
-    "ConsolePrice": "90",
-    "Type": "Landing Craft",
-    "Link": "Liset Herulyst Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2843536779",
-    "Image": "LisetHerulystSkin.png",
+  "Saryn Nita's Moda Skin": {
+    "ConsolePrice": "165",
+    "Type": "Skin",
+    "Description": "A unique skin for the Saryn Warframe, designed by Volkovyi.",
+    "Link": "Saryn Nita's Moda Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1192679413",
+    "Image": "SarynNita'sModaSkin.png",
     "Artists": [
-      "LostEpoch"
+      "Volkovyi"
     ],
-    "Introduced": "33.5",
+    "Introduced": "22.13",
     "PcPrice": "$4.99",
-    "Round": "23 [Batch 2]",
-    "Name": "Liset Herulyst Skin"
+    "Round": "11 [Batch 3]",
+    "Name": "Saryn Nita's Moda Skin"
   },
-  "Armalyst Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Faven and Debbysheen.",
-    "Link": "Armalyst Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1835807920",
-    "Image": "ArmalystSyandana.png",
+  "Saryn Integra Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Saryn Warframe, designed by Cheshire.",
+    "Link": "Saryn Integra Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=840335854",
+    "Image": "SarynIntegraSkin.png",
     "Artists": [
-      "Faven",
-      "Debbysheen"
+      "Cheshire"
     ],
-    "Introduced": "27.3.8",
-    "PcPrice": "$5.99",
-    "Round": "18",
-    "Name": "Armalyst Syandana"
+    "Introduced": "19.11",
+    "PcPrice": "$6.99",
+    "Round": "7",
+    "Name": "Saryn Integra Skin"
   },
   "Endocitos Shoulder Armor": {
     "ConsolePrice": "50",
@@ -5489,50 +3948,50 @@
     "Round": "TennoGen Encore",
     "Name": "Endocitos Shoulder Armor"
   },
-  "Oberon Destrier Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Oberon Warframe, designed by Rekkou.",
-    "Link": "Oberon Destrier Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=751322424",
-    "Image": "OberonDestrierHelmet.png",
-    "Artists": [
-      "Rekkou"
-    ],
-    "Introduced": "The Index Preview",
-    "PcPrice": "$5.99",
-    "Round": "5",
-    "Name": "Oberon Destrier Helmet"
-  },
-  "Jotunheim Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Mz-3.",
-    "Link": "Jotunheim Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1711328911",
-    "Image": "JotunheimSyandana.png",
-    "Artists": [
-      "Mz-3"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$5.99",
-    "Round": "17",
-    "Name": "Jotunheim Syandana"
-  },
-  "Oberon Blade Of The Lotus Skin": {
+  "Khora Mithra Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Oberon Warframe, designed by BeastBuster.",
-    "Link": "Oberon Blade Of The Lotus Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194231399",
-    "Image": "OberonBladeOfTheLotusSkin.png",
+    "Description": "A unique skin for the Khora Warframe, designed by lukinu_u.",
+    "Link": "Khora Mithra Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1420061655",
+    "Image": "KhoraMithraSkin.png",
+    "Artists": [
+      "lukinu_u"
+    ],
+    "Introduced": "25.1",
+    "PcPrice": "$6.99",
+    "Round": "16",
+    "Name": "Khora Mithra Skin"
+  },
+  "Saryn Graxx Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Saryn Warframe, designed by Faven.",
+    "Link": "Saryn Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=778586481",
+    "Image": "SarynGraxxSkin.png",
+    "Artists": [
+      "Faven"
+    ],
+    "Introduced": "19.4",
+    "PcPrice": "$6.99",
+    "Round": "6",
+    "Name": "Saryn Graxx Skin"
+  },
+  "Saryn Blade Of The Lotus Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Saryn Warframe, designed by BeastBuster.",
+    "Link": "Saryn Blade Of The Lotus Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502953820",
+    "Image": "SarynBladeOfTheLotusSkin.png",
     "Artists": [
       "BeastBuster"
     ],
-    "Introduced": "23.1",
+    "Introduced": "24.5",
     "PcPrice": "$6.99",
-    "Round": "13",
-    "Name": "Oberon Blade Of The Lotus Skin"
+    "Round": "15",
+    "Name": "Saryn Blade Of The Lotus Skin"
   },
   "Heavy Blade Arashi Skin": {
     "ConsolePrice": "105",
@@ -5566,21 +4025,20 @@
     "Round": "21 [Batch 2]",
     "Name": "Wisp Coven Skin"
   },
-  "Nyx Aures Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Nyx Warframe, designed by lukinu_u and HariPear.",
-    "Link": "Nyx Aures Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1617367226",
-    "Image": "NyxAuresSkin.png",
+  "Oberon Destrier Helmet": {
+    "ConsolePrice": "105",
+    "Type": "Helmet",
+    "Description": "A helmet for the Oberon Warframe, designed by Rekkou.",
+    "Link": "Oberon Destrier Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=751322424",
+    "Image": "OberonDestrierHelmet.png",
     "Artists": [
-      "lukinu_u",
-      "HariPear"
+      "Rekkou"
     ],
-    "Introduced": "25.1",
-    "PcPrice": "$6.99",
-    "Round": "16",
-    "Name": "Nyx Aures Skin"
+    "Introduced": "The Index Preview",
+    "PcPrice": "$5.99",
+    "Round": "5",
+    "Name": "Oberon Destrier Helmet"
   },
   "Mesa Kudegra Skin": {
     "ConsolePrice": "165",
@@ -5629,96 +4087,96 @@
     "Round": "14",
     "Name": "Dagger Crubbak Skin"
   },
-  "Nyx Aurelia Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Nyx Warframe, designed by Hitsu San.",
-    "Link": "Nyx Aurelia Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1329001809",
-    "Image": "NyxAureliaSkin.png",
+  "Rhino Vojnik Skin": {
+    "ConsolePrice": "90",
+    "Type": "Skin",
+    "Description": "A unique skin for the Rhino Warframe, designed by Volkovyi.",
+    "Link": "Rhino Vojnik Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=706304997",
+    "Image": "RhinoVojnikSkin.png",
     "Artists": [
-      "Hitsu San"
+      "Volkovyi"
     ],
-    "Introduced": "22.19",
-    "PcPrice": "$6.99",
-    "Round": "12",
-    "Name": "Nyx Aurelia Skin"
+    "Introduced": "The Silver Grove 1.0",
+    "PcPrice": "$4.99",
+    "Round": "4",
+    "Name": "Rhino Vojnik Skin"
   },
-  "Zenoriu Earpiece": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique pair of earpieces, designed by led2012 and daemonstar.",
-    "Link": "Zenoriu Earpiece",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494797974",
-    "Image": "ZenoriuEarpiece.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$1.99",
-    "Round": "14",
-    "Name": "Zenoriu Earpiece"
-  },
-  "Nyx Ascophilia Skin": {
-    "ConsolePrice": "N/A",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Nyx Warframe, designed by Erneix.",
-    "Link": "Nyx Ascophilia Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1479350181",
-    "Image": "NyxAscophiliaSkin.png",
-    "Artists": [
-      "Erneix"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$6.99",
-    "Round": "14",
-    "Name": "Nyx Ascophilia Skin"
-  },
-  "Nsaru Syandana": {
+  "Fist Impaktor Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Nsaru Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=591556001",
-    "Image": "NsaruSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique fist skin, designed by Travelling Merchant.",
+    "Link": "Fist Impaktor Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2890246393",
+    "Image": "ImpaktorFistSkin.png",
     "Artists": [
-      "Master Noob"
+      "Travelling Merchant"
     ],
-    "Introduced": "18.6.3",
+    "Introduced": "36.1",
     "PcPrice": "$5.99",
-    "Round": "2",
-    "Name": "Nsaru Syandana"
+    "Round": "TennoGen Shadows",
+    "Name": "Fist Impaktor Skin"
   },
-  "Nova Visage Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Nova Warframe, designed by Hitsu San.",
-    "Link": "Nova Visage Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665040825",
-    "Image": "NovaVisageSkin.png",
-    "Artists": [
-      "Hitsu San"
-    ],
-    "Introduced": "18.13",
-    "PcPrice": "$6.99",
-    "Round": "3",
-    "Name": "Nova Visage Skin"
-  },
-  "Nova Tachyon Helmet": {
-    "ConsolePrice": "105",
+  "Rhino Teutonic Helmet": {
+    "ConsolePrice": "75",
     "Type": "Helmet",
-    "Description": "A helmet for the Nova Warframe, designed by Rekkou.",
-    "Link": "Nova Tachyon Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665215216",
-    "Image": "NovaTachyonHelmet.png",
+    "Description": "A helmet for the Rhino Warframe, designed by Faven.",
+    "Link": "Rhino Teutonic Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=793996762",
+    "Image": "RhinoTeutonicHelmet.png",
     "Artists": [
-      "Rekkou"
+      "Faven"
     ],
-    "Introduced": "18.13",
+    "Introduced": "19.11",
     "PcPrice": "$5.99",
-    "Round": "3",
-    "Name": "Nova Tachyon Helmet"
+    "Round": "7",
+    "Name": "Rhino Teutonic Helmet"
+  },
+  "Rhino Ion Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Rhino Warframe, designed by Yatus.",
+    "Link": "Rhino Ion Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1552083671",
+    "Image": "RhinoIonSkin.png",
+    "Artists": [
+      "Yatus"
+    ],
+    "Introduced": "24.5",
+    "PcPrice": "$6.99",
+    "Round": "15",
+    "Name": "Rhino Ion Skin"
+  },
+  "Rhino Graxx Skin": {
+    "ConsolePrice": "90",
+    "Type": "Skin",
+    "Description": "A unique skin for the Rhino Warframe, designed by Faven.",
+    "Link": "Rhino Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=668182548",
+    "Image": "RhinoGraxxSkin.png",
+    "Artists": [
+      "Faven"
+    ],
+    "Introduced": "The Silver Grove 1.0",
+    "PcPrice": "$4.99",
+    "Round": "4",
+    "Name": "Rhino Graxx Skin"
+  },
+  "Fists Silicai Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique fist skin, designed by Captain Tagda & blazingcobalt.",
+    "Link": "Fists Silicai Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2936005244",
+    "Image": "SilicaiFistSkin.png",
+    "Artists": [
+      "Captain Tagda",
+      "blazingcobalt"
+    ],
+    "Introduced": "37",
+    "PcPrice": "$5.99",
+    "Round": "TennoGen Fates",
+    "Name": "Fists Silicai Skin"
   },
   "Nyx Carnifex Skin": {
     "ConsolePrice": "165",
@@ -5751,21 +4209,20 @@
     "Round": "21 [Batch 2]",
     "Name": "Inflatable Shoulder Armor"
   },
-  "Nova Lamia Helmet": {
-    "ConsolePrice": "75",
-    "Type": "Helmet",
-    "Description": "A helmet for the Nova Warframe, designed by Wei-Zi and Mz-3.",
-    "Link": "Nova Lamia Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=633328841",
-    "Image": "NovaLamiaHelmet.png",
+  "Rhino Blade Of The Lotus Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Rhino Warframe, designed by BeastBuster.",
+    "Link": "Rhino Blade Of The Lotus Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194210547",
+    "Image": "RhinoBladeOfTheLotusSkin.png",
     "Artists": [
-      "Wei-Zi",
-      "Mz-3"
+      "BeastBuster"
     ],
-    "Introduced": "18.13",
-    "PcPrice": "$5.99",
-    "Round": "3",
-    "Name": "Nova Lamia Helmet"
+    "Introduced": "23.1",
+    "PcPrice": "$6.99",
+    "Round": "13",
+    "Name": "Rhino Blade Of The Lotus Skin"
   },
   "Polearm Osiris Skin": {
     "ConsolePrice": "105",
@@ -5813,19 +4270,20 @@
     "Round": "8",
     "Name": "Volt Capacitor Skin"
   },
-  "Centurio Signa": {
-    "ConsolePrice": "60",
-    "Type": "Signa",
-    "Description": "A unique signa for your Warframe, designed by Lubox",
-    "Link": "Centurio Signa",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3641769055",
-    "Image": "CenturioSigna.png",
+  "Ember Technopyre Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Ember Warframe, designed by Master Noob.",
+    "Link": "Ember Technopyre Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3130189558",
+    "Image": "EmberTechnopyreSkin.png",
     "Artists": [
-      "Lubox"
+      "Master Noob"
     ],
-    "PcPrice": "$3.49",
-    "Round": "TennoGen Fables & Frontiers",
-    "Name": "Centurio Signa"
+    "Introduced": "37",
+    "PcPrice": "$6.99",
+    "Round": "TennoGen Fates",
+    "Name": "Ember Technopyre Skin"
   },
   "Harrow Veles Skin": {
     "ConsolePrice": "165",
@@ -5842,35 +4300,35 @@
     "Round": "17",
     "Name": "Harrow Veles Skin"
   },
-  "Nova Device Skin": {
+  "Jat Kittag Noxious Hammer Skin": {
     "ConsolePrice": "N/A",
-    "Type": "Skin",
-    "Description": "A unique skin for the Nova Warframe, designed by prosetisen.",
-    "Link": "Nova Device Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665832288",
-    "Image": "NovaDeviceSkin.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Jat Kittag skin, designed by Clyptic.",
+    "Link": "Jat Kittag Noxious Hammer Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=563773487",
+    "Image": "SWRPolyNoxiousJatKittag.png",
     "Artists": [
-      "prosetisen"
+      "Clyptic"
     ],
-    "Introduced": "18.13",
-    "PcPrice": "$4.99",
-    "Round": "3",
-    "Name": "Nova Device Skin"
+    "Introduced": "18.1.4",
+    "PcPrice": "$5.99",
+    "Round": "Polycount",
+    "Name": "Jat Kittag Noxious Hammer Skin"
   },
-  "Nova Cygni Skin": {
-    "ConsolePrice": "N/A",
-    "Type": "Skin",
-    "Description": "A unique skin for the Nova Warframe, designed by Arsenal.",
-    "Link": "Nova Cygni Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=611832310",
-    "Image": "NovaCygniSkin.png",
+  "Revenant Ahriman Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Revenant Warframe, designed by Vulbjorn.",
+    "Link": "Revenant Ahriman Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2760985117",
+    "Image": "RevenantAhrimanSkin.png",
     "Artists": [
-      "Arsenal"
+      "Vulbjorn"
     ],
-    "Introduced": "18.6.3",
-    "PcPrice": "$4.99",
-    "Round": "2",
-    "Name": "Nova Cygni Skin"
+    "Introduced": "32",
+    "PcPrice": "$6.99",
+    "Round": "22 [Batch 2]",
+    "Name": "Revenant Ahriman Skin"
   },
   "Nikana Mithra Skin": {
     "ConsolePrice": "105",
@@ -5887,20 +4345,20 @@
     "Round": "15",
     "Name": "Nikana Mithra Skin"
   },
-  "Setka Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Hitsu San.",
-    "Link": "Setka Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=619687499",
-    "Image": "SetkaSyandana.png",
+  "Rapier Ni'Duhl Skin": {
+    "ConsolePrice": "N/A",
+    "Type": "Weapon Skin",
+    "Description": "A unique Rapier skin, designed by Faven.",
+    "Link": "Rapier Ni'Duhl Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1478147348",
+    "Image": "SWRFourteenNiDuhlRapierSkin.png",
     "Artists": [
-      "Hitsu San"
+      "Faven"
     ],
-    "Introduced": "18.13",
+    "Introduced": "24.1",
     "PcPrice": "$5.99",
-    "Round": "3",
-    "Name": "Setka Syandana"
+    "Round": "14",
+    "Name": "Rapier Ni'Duhl Skin"
   },
   "Wisp Zamariu Skin": {
     "ConsolePrice": "165",
@@ -5948,35 +4406,35 @@
     "Round": "11 [Batch 2]",
     "Name": "Trinity Knightess Skin"
   },
-  "Night Hunter Syandana": {
+  "Polearm Lahnss Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Mz-3.",
-    "Link": "Night Hunter Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1478716861",
-    "Image": "NightHunterSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Polearm skin, designed by Faven.",
+    "Link": "Polearm Lahnss Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1824770631",
+    "Image": "SWPolearmLahnssSkin.png",
+    "Artists": [
+      "Faven"
+    ],
+    "Introduced": "25.7.7",
+    "PcPrice": "$5.99",
+    "Round": "17",
+    "Name": "Polearm Lahnss Skin"
+  },
+  "Polearm Jotunheim Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Polearm skin, designed by Mz-3.",
+    "Link": "Polearm Jotunheim Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843567594",
+    "Image": "SWR18PolearmJotunheimSkin.png",
     "Artists": [
       "Mz-3"
     ],
-    "Introduced": "29.2.1",
+    "Introduced": "27.3.8",
     "PcPrice": "$5.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Night Hunter Syandana"
-  },
-  "Yureilyst Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by lukinu_u.",
-    "Link": "Yureilyst Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843081945",
-    "Image": "YureilystOculus.png",
-    "Artists": [
-      "lukinu_u"
-    ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$1.99",
-    "Round": "17",
-    "Name": "Yureilyst Oculus"
+    "Round": "18",
+    "Name": "Polearm Jotunheim Skin"
   },
   "Excalibur Exaltation Skin": {
     "ConsolePrice": "165",
@@ -5993,82 +4451,81 @@
     "Round": "13",
     "Name": "Excalibur Exaltation Skin"
   },
-  "Heavy Blade Ion Skin": {
+  "Polearm Ion Skin": {
     "ConsolePrice": "105",
     "Type": "Weapon Skin",
-    "Description": "A unique Heavy Blade skin, designed by Yatus and IgnusDei.",
-    "Link": "Heavy Blade Ion Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1530474819",
-    "Image": "SWRFourteenIonGreatswordSkin.png",
+    "Description": "A unique Polearm skin, designed by Yatus and HugoPolo.",
+    "Link": "Polearm Ion Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1973979416",
+    "Image": "SWR18PolearmIonSkin.png",
     "Artists": [
       "Yatus",
-      "IgnusDei"
+      "HugoPolo"
     ],
-    "Introduced": "24.1",
+    "Introduced": "27.3.8",
     "PcPrice": "$5.99",
-    "Round": "14",
-    "Name": "Heavy Blade Ion Skin"
+    "Round": "18",
+    "Name": "Polearm Ion Skin"
   },
-  "Mithra Syandana": {
+  "Loki Erebus Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Loki Warframe, designed by Vulbjorn.",
+    "Link": "Loki Erebus Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1311948853",
+    "Image": "LokiErebusSkin.png",
+    "Artists": [
+      "Vulbjorn"
+    ],
+    "Introduced": "22.19",
+    "PcPrice": "$6.99",
+    "Round": "12",
+    "Name": "Loki Erebus Skin"
+  },
+  "Polearm Diva Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by lukinu_u.",
-    "Link": "Mithra Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1259052812",
-    "Image": "MithraSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Polearm skin, designed by lukinu_u.",
+    "Link": "Polearm Diva Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843075078",
+    "Image": "SWRElevenDivaPolearm.png",
     "Artists": [
       "lukinu_u"
     ],
-    "Introduced": "22.19",
-    "PcPrice": "$5.99",
-    "Round": "12",
-    "Name": "Mithra Syandana"
-  },
-  "Mirage Sigyn Skin": {
-    "ConsolePrice": "N/A",
-    "Type": "Skin",
-    "Description": "A unique skin for the Mirage Warframe, designed by novadragon01.",
-    "Link": "Mirage Sigyn Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=726038473",
-    "Image": "MirageSigynSkin.png",
-    "Artists": [
-      "novadragon01"
-    ],
-    "Introduced": "The Silver Grove 1.0",
-    "PcPrice": "$4.99",
-    "Round": "4",
-    "Name": "Mirage Sigyn Skin"
-  },
-  "Excalibur Corpra Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Excalibur Warframe, designed by FrellingHazmot.",
-    "Link": "Excalibur Corpra Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1193024927",
-    "Image": "ExcaliburCorpraSkin.png",
-    "Artists": [
-      "FrellingHazmot"
-    ],
     "Introduced": "22.11",
-    "PcPrice": "$6.99",
+    "PcPrice": "$5.99",
     "Round": "11 [Batch 2]",
-    "Name": "Excalibur Corpra Skin"
+    "Name": "Polearm Diva Skin"
   },
-  "Mirage Kitsune Skin": {
+  "Polearm Aphria Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Polearm skin, designed by Arsenal.",
+    "Link": "Polearm Aphria Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1329854436",
+    "Image": "SWRThirteenPolearmAphria.png",
+    "Artists": [
+      "Arsenal"
+    ],
+    "Introduced": "23.1",
+    "PcPrice": "$5.99",
+    "Round": "13",
+    "Name": "Polearm Aphria Skin"
+  },
+  "Inaros Ozymandias Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Mirage Warframe, designed by kakarrot2812 and Skyeraikes.",
-    "Link": "Mirage Kitsune Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1959181297",
-    "Image": "MirageKitsuneSkin.png",
+    "Description": "A unique skin for the Inaros Warframe, designed by matzan481.",
+    "Link": "Inaros Ozymandias Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2079578690",
+    "Image": "InarosOzymandiasSkin.png",
     "Artists": [
-      "kakarrot2812",
-      "Skyeraikes"
+      "matzan481"
     ],
-    "Introduced": "29.2.1",
+    "Introduced": "30.1",
     "PcPrice": "$6.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Mirage Kitsune Skin"
+    "Round": "20 [Batch 1]",
+    "Name": "Inaros Ozymandias Skin"
   },
   "Gauss Agito Skin": {
     "ConsolePrice": "165",
@@ -6085,20 +4542,22 @@
     "Round": "19 [Batch 1]",
     "Name": "Gauss Agito Skin"
   },
-  "Mesa Devil Ranger Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Mesa Warframe, designed by Mz-3.",
-    "Link": "Mesa Devil Ranger Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1122269051",
-    "Image": " MesaDevilRangerSkin.png",
+  "Paxis Chest Plate": {
+    "ConsolePrice": "45",
+    "Type": "Armor",
+    "Description": "A unique chest armor for your Warframe, designed by malaya and Jadie.",
+    "Link": "Paxis Chest Plate",
+    "Part": "Chest",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1845166460",
+    "Image": "PaxisChestPlate.png",
     "Artists": [
-      "Mz-3"
+      "malaya",
+      "Jadie"
     ],
-    "Introduced": "22.9",
-    "PcPrice": "$6.99",
-    "Round": "10",
-    "Name": "Mesa Devil Ranger Skin"
+    "Introduced": "25.7.7",
+    "PcPrice": "$2.49",
+    "Round": "17",
+    "Name": "Paxis Chest Plate"
   },
   "Atlas Monolith Skin": {
     "ConsolePrice": "165",
@@ -6115,20 +4574,20 @@
     "Round": "9",
     "Name": "Atlas Monolith Skin"
   },
-  "Loki Erebus Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Loki Warframe, designed by Vulbjorn.",
-    "Link": "Loki Erebus Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1311948853",
-    "Image": "LokiErebusSkin.png",
+  "Orthos Magesty Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Orthos skin, designed by prosetisen.",
+    "Link": "Orthos Magesty Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=728136853",
+    "Image": "SWRFiveMagestyOrthos.png",
     "Artists": [
-      "Vulbjorn"
+      "prosetisen"
     ],
-    "Introduced": "22.19",
-    "PcPrice": "$6.99",
-    "Round": "12",
-    "Name": "Loki Erebus Skin"
+    "Introduced": "The Index Preview",
+    "PcPrice": "$5.99",
+    "Round": "5",
+    "Name": "Orthos Magesty Skin"
   },
   "Frost Manta-Z Helmet": {
     "ConsolePrice": "105",
@@ -6175,19 +4634,20 @@
     "Round": "19 [Batch 2]",
     "Name": "Garuda Tengushin Skin"
   },
-  "Mantis Lilieae Skin": {
-    "ConsolePrice": "90",
-    "Type": "Landing Craft",
-    "Link": "Mantis Lilieae Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1974391135",
-    "Image": "MantisLilieaeSkin.png",
+  "Octavia Mandachoralyst Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Octavia Warframe, designed by kakarrot2812.",
+    "Link": "Octavia Mandachoralyst Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2593100067",
+    "Image": "OctaviaMandachoralystSkin.png",
     "Artists": [
-      "MaceMadunusus"
+      "kakarrot2812"
     ],
-    "Introduced": "29.2.1",
-    "PcPrice": "$4.99",
-    "Round": "19 [Batch 1]",
-    "Name": "Mantis Lilieae Skin"
+    "Introduced": "32",
+    "PcPrice": "$6.99",
+    "Round": "22 [Batch 2]",
+    "Name": "Octavia Mandachoralyst Skin"
   },
   "Chroma Drevni Skin": {
     "ConsolePrice": "90",
@@ -6204,49 +4664,50 @@
     "Round": "5",
     "Name": "Chroma Drevni Skin"
   },
-  "Gara Silica Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Gara Warframe, designed by Arsenal.",
-    "Link": "Gara Silica Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1335701043",
-    "Image": "GaraSilicaHelmet.png",
-    "Artists": [
-      "Arsenal"
-    ],
-    "Introduced": "22.19",
-    "PcPrice": "$5.99",
-    "Round": "12",
-    "Name": "Gara Silica Helmet"
-  },
-  "Magnus Hivelight Skin": {
-    "ConsolePrice": "40",
-    "Type": "Weapon Skin",
-    "Description": "A unique Magnus skin, designed by Verifitas.",
-    "Link": "Magnus Hivelight Skin",
-    "SteamLink": "https://forums.warframe.com/topic/313983-weapon-skins-contest-final-results/",
-    "Image": "MagnusHivelightSkin.png",
-    "Artists": [
-      "Verifitas"
-    ],
-    "PcPrice": "40",
-    "Round": "Weapons Skin Contest",
-    "Name": "Magnus Hivelight Skin"
-  },
-  "Frost Emperor Skin": {
+  "Octavia Diva Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Frost Warframe, designed by Hitsu San.",
-    "Link": "Frost Emperor Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=727935543",
-    "Image": "FrostEmperorSkin.png",
+    "Description": "A unique skin for the Octavia Warframe, designed by lukinu_u.",
+    "Link": "Octavia Diva Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1162252618",
+    "Image": "OctaviaDivaSkin.png",
+    "Artists": [
+      "lukinu_u"
+    ],
+    "Introduced": "22.11",
+    "PcPrice": "$6.99",
+    "Round": "11 [Batch 2]",
+    "Name": "Octavia Diva Skin"
+  },
+  "Oberon Youkai Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Oberon Warframe, designed by Hitsu San.",
+    "Link": "Oberon Youkai Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843793574",
+    "Image": "OberonYoukaiSkin.png",
     "Artists": [
       "Hitsu San"
     ],
-    "Introduced": "19.4",
+    "Introduced": "27.3.8",
     "PcPrice": "$6.99",
-    "Round": "6",
-    "Name": "Frost Emperor Skin"
+    "Round": "18",
+    "Name": "Oberon Youkai Skin"
+  },
+  "Oberon Wendigo Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Oberon Warframe, designed by Vulbjorn.",
+    "Link": "Oberon Wendigo Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1192548835",
+    "Image": "OberonWendigoSkin.png",
+    "Artists": [
+      "Vulbjorn"
+    ],
+    "Introduced": "22.11",
+    "PcPrice": "$6.99",
+    "Round": "11 [Batch 2]",
+    "Name": "Oberon Wendigo Skin"
   },
   "Revenant Draugen Skin": {
     "ConsolePrice": "165",
@@ -6278,20 +4739,20 @@
     "Round": "1",
     "Name": "Excalibur Vespula Skin"
   },
-  "Konvalyst Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by lukinu_u.",
-    "Link": "Konvalyst Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1843095298",
-    "Image": "KonvalystOculus.png",
+  "Rhino Warlust Helmet": {
+    "ConsolePrice": "105",
+    "Type": "Helmet",
+    "Description": "A helmet for the Rhino Warframe, designed by Stenchfury.",
+    "Link": "Rhino Warlust Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=824149208",
+    "Image": "RhinoWarlustHelmet.png",
     "Artists": [
-      "lukinu_u"
+      "Stenchfury"
     ],
-    "Introduced": "25.7.7",
-    "PcPrice": "$1.99",
-    "Round": "17",
-    "Name": "Konvalyst Oculus"
+    "Introduced": "20.5",
+    "PcPrice": "$5.99",
+    "Round": "8",
+    "Name": "Rhino Warlust Helmet"
   },
   "Staff Eklypsa Skin": {
     "ConsolePrice": "N/A",
@@ -6308,20 +4769,21 @@
     "Round": "19 [Batch 2]",
     "Name": "Staff Eklypsa Skin"
   },
-  "Hammer Axonnak Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Hammer skin, designed by Erneix.",
-    "Link": "Hammer Axonnak Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594274397",
-    "Image": "AxonnakHammerSkin.png",
+  "Nyx Aures Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Nyx Warframe, designed by lukinu_u and HariPear.",
+    "Link": "Nyx Aures Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1617367226",
+    "Image": "NyxAuresSkin.png",
     "Artists": [
-      "Erneix"
+      "lukinu_u",
+      "HariPear"
     ],
-    "Introduced": "31.1.7",
-    "PcPrice": "$5.99",
-    "Round": "21 [Batch 2]",
-    "Name": "Hammer Axonnak Skin"
+    "Introduced": "25.1",
+    "PcPrice": "$6.99",
+    "Round": "16",
+    "Name": "Nyx Aures Skin"
   },
   "Ivara Youkai Skin": {
     "ConsolePrice": "165",
@@ -6338,36 +4800,35 @@
     "Round": "8",
     "Name": "Ivara Youkai Skin"
   },
-  "Mag Anthro Helmet": {
-    "ConsolePrice": "N/A",
-    "Type": "Helmet",
-    "Description": "A helmet for the Mag Warframe, designed by Pior.",
-    "Link": "Mag Anthro Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=562615890",
-    "Image": "MagAnthroHelmet.png",
+  "Nyx Aurelia Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Nyx Warframe, designed by Hitsu San.",
+    "Link": "Nyx Aurelia Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1329001809",
+    "Image": "NyxAureliaSkin.png",
     "Artists": [
-      "Pior"
+      "Hitsu San"
     ],
-    "Introduced": "18.1.4",
-    "PcPrice": "$5.99",
-    "Round": "Polycount",
-    "Name": "Mag Anthro Helmet"
+    "Introduced": "22.19",
+    "PcPrice": "$6.99",
+    "Round": "12",
+    "Name": "Nyx Aurelia Skin"
   },
-  "Machete Kuther Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Machete skin, designed by lukinu_u and HEILAH.",
-    "Link": "Machete Kuther Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2396821316",
-    "Image": "SWKutherMacheteSkin.png",
+  "Nyx Athena Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Nyx Warframe, designed by prosetisen.",
+    "Link": "Nyx Athena Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=725268258",
+    "Image": "NyxAthenaSkin.png",
     "Artists": [
-      "lukinu_u",
-      "HEILAH"
+      "prosetisen"
     ],
-    "Introduced": "30.1",
-    "PcPrice": "$5.99",
-    "Round": "20 [Batch 1]",
-    "Name": "Machete Kuther Skin"
+    "Introduced": "The Silver Grove 1.0",
+    "PcPrice": "$6.99",
+    "Round": "4",
+    "Name": "Nyx Athena Skin"
   },
   "Chroma Morkai Skin": {
     "ConsolePrice": "165",
@@ -6399,65 +4860,68 @@
     "Round": "11 [Batch 1]",
     "Name": "Longsword Dero Skin"
   },
-  "Lunarius Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by lex182.",
-    "Link": "Lunarius Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2770172769",
-    "Image": "LunariusSyandana.png",
+  "Nova Visage Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Nova Warframe, designed by Hitsu San.",
+    "Link": "Nova Visage Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665040825",
+    "Image": "NovaVisageSkin.png",
     "Artists": [
-      "lex182"
+      "Hitsu San"
     ],
-    "Introduced": "38.5",
-    "PcPrice": "$5.99",
-    "Round": "Tennogen Encore",
-    "Name": "Lunarius Syandana"
+    "Introduced": "18.13",
+    "PcPrice": "$6.99",
+    "Round": "3",
+    "Name": "Nova Visage Skin"
   },
-  "Lumis Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by lukinu_u.",
-    "Link": "Lumis Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494952919",
-    "Image": "LumisOculus.png",
-    "Artists": [
-      "lukinu_u"
-    ],
-    "Introduced": "24.5",
-    "PcPrice": "$1.99",
-    "Round": "15",
-    "Name": "Lumis Oculus"
-  },
-  "Disconnect Syandana": {
+  "Hydroid Karkinos Helmet": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Faven.",
-    "Link": "Disconnect Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=700564195",
-    "Image": "DisconnectSyandana.png",
+    "Type": "Helmet",
+    "Description": "A helmet for the Hydroid Warframe, designed by Crackle2012 and Vulbjorn.",
+    "Link": "Hydroid Karkinos Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1620316780",
+    "Image": "HydroidKarkinosHelmet.png",
     "Artists": [
-      "Faven"
+      "Crackle2012",
+      "Vulbjorn"
     ],
-    "Introduced": "The Silver Grove 1.0",
+    "Introduced": "25.1",
     "PcPrice": "$5.99",
-    "Round": "4",
-    "Name": "Disconnect Syandana"
+    "Round": "16",
+    "Name": "Hydroid Karkinos Helmet"
   },
-  "Longsword Ezriel Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Longsword skin, designed by Goosmo.",
-    "Link": "Longsword Ezriel Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2951514915",
-    "Image": "LongswordEzrielSkin.png",
+  "Nova Lamia Helmet": {
+    "ConsolePrice": "75",
+    "Type": "Helmet",
+    "Description": "A helmet for the Nova Warframe, designed by Wei-Zi and Mz-3.",
+    "Link": "Nova Lamia Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=633328841",
+    "Image": "NovaLamiaHelmet.png",
     "Artists": [
-      "Goosmo"
+      "Wei-Zi",
+      "Mz-3"
     ],
-    "Introduced": "35.6",
+    "Introduced": "18.13",
     "PcPrice": "$5.99",
-    "Round": "Tennogen Unbound",
-    "Name": "Longsword Ezriel Skin"
+    "Round": "3",
+    "Name": "Nova Lamia Helmet"
+  },
+  "Jotunheim Music Shoulder Armor": {
+    "ConsolePrice": "50",
+    "Type": "Armor",
+    "Description": "A unique shoulder armor for your Warframe, designed by Mz-3.",
+    "Link": "Jotunheim Music Shoulder Armor",
+    "Part": "Arm",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2395066822",
+    "Image": "JotunheimMusicShoulderArmor.png",
+    "Artists": [
+      "Mz-3"
+    ],
+    "Introduced": "30.1",
+    "PcPrice": "$2.99",
+    "Round": "20 [Batch 1]",
+    "Name": "Jotunheim Music Shoulder Armor"
   },
   "Mantis Vammatar Skin": {
     "ConsolePrice": "90",
@@ -6490,19 +4954,20 @@
     "Round": "TennoGen Factions",
     "Name": "Xairaks Leg Armor"
   },
-  "Liset Protege Skin": {
-    "ConsolePrice": "90",
-    "Type": "Landing Craft",
-    "Link": "Liset Protege Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1335933403",
-    "Image": "LisetProtegeSkin.png",
+  "Nova Cygni Skin": {
+    "ConsolePrice": "N/A",
+    "Type": "Skin",
+    "Description": "A unique skin for the Nova Warframe, designed by Arsenal.",
+    "Link": "Nova Cygni Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=611832310",
+    "Image": "NovaCygniSkin.png",
     "Artists": [
-      "MaceMadunusus"
+      "Arsenal"
     ],
-    "Introduced": "23.1",
+    "Introduced": "18.6.3",
     "PcPrice": "$4.99",
-    "Round": "13",
-    "Name": "Liset Protege Skin"
+    "Round": "2",
+    "Name": "Nova Cygni Skin"
   },
   "Oberon Ferosh Helmet": {
     "ConsolePrice": "105",
@@ -6598,53 +5063,51 @@
     "Round": "11 [Batch 2]",
     "Name": "Harrow Graxx Skin"
   },
-  "Fei Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya and Jadie.",
-    "Link": "Fei Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2487600066",
-    "Image": "FeiSyandana.png",
+  "Kishikami Chest Armor": {
+    "ConsolePrice": "45",
+    "Type": "Armor",
+    "Description": "A unique chest armor for your Warframe, designed by BeastBuster.",
+    "Link": "Kishikami Chest Armor",
+    "Part": "Chest",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2395797920",
+    "Image": "KishikamiChestArmor.png",
     "Artists": [
-      "malaya",
-      "Jadie"
+      "BeastBuster"
     ],
-    "Introduced": "31.1",
-    "PcPrice": "$5.99",
-    "Round": "21 [Batch 1]",
-    "Name": "Fei Syandana"
+    "Introduced": "30.2",
+    "PcPrice": "$2.49",
+    "Round": "20 [Batch 2]",
+    "Name": "Kishikami Chest Armor"
   },
-  "Seraphim Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and jaeon009.",
-    "Link": "Seraphim Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1391720886",
-    "Image": "SeraphimSyandana.png",
+  "Mirage Sigyn Skin": {
+    "ConsolePrice": "N/A",
+    "Type": "Skin",
+    "Description": "A unique skin for the Mirage Warframe, designed by novadragon01.",
+    "Link": "Mirage Sigyn Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=726038473",
+    "Image": "MirageSigynSkin.png",
     "Artists": [
-      "led2012",
-      "jaeon009"
+      "novadragon01"
     ],
-    "Introduced": "23.1",
-    "PcPrice": "$5.99",
-    "Round": "13",
-    "Name": "Seraphim Syandana"
+    "Introduced": "The Silver Grove 1.0",
+    "PcPrice": "$4.99",
+    "Round": "4",
+    "Name": "Mirage Sigyn Skin"
   },
-  "Diablillo Syandana": {
+  "Hammer Axonnak Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Volkovyi and SabtheRobot.",
-    "Link": "Diablillo Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1617361399",
-    "Image": "DiablilloSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Hammer skin, designed by Erneix.",
+    "Link": "Hammer Axonnak Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2594274397",
+    "Image": "AxonnakHammerSkin.png",
     "Artists": [
-      "Volkovyi",
-      "SabtheRobot"
+      "Erneix"
     ],
-    "Introduced": "25.1",
+    "Introduced": "31.1.7",
     "PcPrice": "$5.99",
-    "Round": "16",
-    "Name": "Diablillo Syandana"
+    "Round": "21 [Batch 2]",
+    "Name": "Hammer Axonnak Skin"
   },
   "Ion Shoulder Armor": {
     "ConsolePrice": "50",
@@ -6679,19 +5142,20 @@
     "Round": "18",
     "Name": "Heavy Blade Suprema Skin"
   },
-  "Kullervo Ascophilia Skin": {
-    "ConsolePrice": "TBA",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Kullvero Warframe, designed by Erneix",
-    "Link": "Kullervo Ascophilia Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3476892377",
-    "Image": "KullervoAscophiliaSkin.png",
+  "Frost Grost Skin": {
+    "ConsolePrice": "165",
+    "Type": "Skin",
+    "Description": "A unique skin for the Frost Warframe, designed by Faven.",
+    "Link": "Frost Grost Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=657212084",
+    "Image": "FrostGrostSkin.png",
     "Artists": [
-      "Erneix"
+      "Faven"
     ],
-    "PcPrice": "$TBA",
-    "Round": "TennoGen Fables & Frontiers",
-    "Name": "Kullervo Ascophilia Skin"
+    "Introduced": "18.13",
+    "PcPrice": "$4.99",
+    "Round": "3",
+    "Name": "Frost Grost Skin"
   },
   "Inaros Horus Skin": {
     "ConsolePrice": "165",
@@ -6753,52 +5217,48 @@
     "Round": "6",
     "Name": "Banshee Echo Helmet"
   },
-  "Kronen Arit Skin": {
-    "ConsolePrice": "N/A",
-    "Type": "Weapon Skin",
-    "Description": "A unique Kronen skin, designed by Arsenal.",
-    "Link": "Kronen Arit Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=584953114",
-    "Image": "SWRTwoKronenArit.png",
-    "Artists": [
-      "Arsenal"
-    ],
-    "Introduced": "18.6.3",
-    "PcPrice": "$5.99",
-    "Round": "2",
-    "Name": "Kronen Arit Skin"
-  },
-  "Kishikami Chest Armor": {
-    "ConsolePrice": "45",
-    "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by BeastBuster.",
-    "Link": "Kishikami Chest Armor",
-    "Part": "Chest",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2395797920",
-    "Image": "KishikamiChestArmor.png",
-    "Artists": [
-      "BeastBuster"
-    ],
-    "Introduced": "30.2",
-    "PcPrice": "$2.49",
-    "Round": "20 [Batch 2]",
-    "Name": "Kishikami Chest Armor"
-  },
-  "Khora Miyabi Skin": {
+  "Mesa Devil Ranger Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Khora Warframe, designed by malaya and Awk'Q-Luz.",
-    "Link": "Khora Miyabi Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2171730758",
-    "Image": "KhoraMiyabiSkin.png",
+    "Description": "A unique skin for the Mesa Warframe, designed by Mz-3.",
+    "Link": "Mesa Devil Ranger Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1122269051",
+    "Image": " MesaDevilRangerSkin.png",
     "Artists": [
-      "malaya",
-      "Awk'Q-Luz"
+      "Mz-3"
     ],
-    "Introduced": "29.3.1",
+    "Introduced": "22.9",
     "PcPrice": "$6.99",
-    "Round": "19 [Batch 2]",
-    "Name": "Khora Miyabi Skin"
+    "Round": "10",
+    "Name": "Mesa Devil Ranger Skin"
+  },
+  "Mantis Lilieae Skin": {
+    "ConsolePrice": "90",
+    "Type": "Landing Craft",
+    "Link": "Mantis Lilieae Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1974391135",
+    "Image": "MantisLilieaeSkin.png",
+    "Artists": [
+      "MaceMadunusus"
+    ],
+    "Introduced": "29.2.1",
+    "PcPrice": "$4.99",
+    "Round": "19 [Batch 1]",
+    "Name": "Mantis Lilieae Skin"
+  },
+  "Magnus Hivelight Skin": {
+    "ConsolePrice": "40",
+    "Type": "Weapon Skin",
+    "Description": "A unique Magnus skin, designed by Verifitas.",
+    "Link": "Magnus Hivelight Skin",
+    "SteamLink": "https://forums.warframe.com/topic/313983-weapon-skins-contest-final-results/",
+    "Image": "MagnusHivelightSkin.png",
+    "Artists": [
+      "Verifitas"
+    ],
+    "PcPrice": "40",
+    "Round": "Weapons Skin Contest",
+    "Name": "Magnus Hivelight Skin"
   },
   "Baruuk Graxx Skin": {
     "ConsolePrice": "165",
@@ -6830,50 +5290,51 @@
     "Round": "11 [Batch 3]",
     "Name": "Banshee Sonority Skin"
   },
-  "Khora Mithra Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Khora Warframe, designed by lukinu_u.",
-    "Link": "Khora Mithra Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1420061655",
-    "Image": "KhoraMithraSkin.png",
+  "Heavy Blade Kuvael Ximitotix Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Heavy Blade skin, designed by edwino22 & Erneix.",
+    "Link": "Heavy Blade Kuvael Ximitotix Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2938109433",
+    "Image": "HeavyBladeKuvaelXimitotixSkin.png",
     "Artists": [
-      "lukinu_u"
+      "edwino22",
+      "Erneix"
     ],
-    "Introduced": "25.1",
-    "PcPrice": "$6.99",
-    "Round": "16",
-    "Name": "Khora Mithra Skin"
+    "Introduced": "36.1",
+    "PcPrice": "$5.99",
+    "Round": "TennoGen Shadows",
+    "Name": "Heavy Blade Kuvael Ximitotix Skin"
   },
-  "Khora Graxx Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Khora Warframe, designed by Faven.",
-    "Link": "Khora Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2289022506",
-    "Image": "KhoraGraxxSkin.png",
+  "Mag Induction Helmet": {
+    "ConsolePrice": "75",
+    "Type": "Helmet",
+    "Description": "A helmet for the Mag Warframe, designed by Pior.",
+    "Link": "Mag Induction Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=566809319",
+    "Image": "MagInductionHelmet.png",
     "Artists": [
-      "Faven"
+      "Pior"
     ],
-    "Introduced": "30.2",
-    "PcPrice": "$6.99",
-    "Round": "20 [Batch 2]",
-    "Name": "Khora Graxx Skin"
+    "Introduced": "18.1.4",
+    "PcPrice": "$5.99",
+    "Round": "Polycount",
+    "Name": "Mag Induction Helmet"
   },
-  "Excalibur Ronin Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Excalibur Warframe, designed by Rekkou.",
-    "Link": "Excalibur Ronin Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1276820730",
-    "Image": "ExcaliburRoninSkin.png",
+  "Gara Silica Helmet": {
+    "ConsolePrice": "105",
+    "Type": "Helmet",
+    "Description": "A helmet for the Gara Warframe, designed by Arsenal.",
+    "Link": "Gara Silica Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1335701043",
+    "Image": "GaraSilicaHelmet.png",
     "Artists": [
-      "Rekkou"
+      "Arsenal"
     ],
-    "Introduced": "23.1",
-    "PcPrice": "$6.99",
-    "Round": "13",
-    "Name": "Excalibur Ronin Skin"
+    "Introduced": "22.19",
+    "PcPrice": "$5.99",
+    "Round": "12",
+    "Name": "Gara Silica Helmet"
   },
   "Frost Hailstorm Skin": {
     "ConsolePrice": "165",
@@ -6890,21 +5351,20 @@
     "Round": "3",
     "Name": "Frost Hailstorm Skin"
   },
-  "Dominus Syandana": {
-    "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012 and jaeon009.",
-    "Link": "Dominus Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1616333967",
-    "Image": "DominusSyandana.png",
+  "Khora Graxx Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Khora Warframe, designed by Faven.",
+    "Link": "Khora Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2289022506",
+    "Image": "KhoraGraxxSkin.png",
     "Artists": [
-      "led2012",
-      "jaeon009"
+      "Faven"
     ],
-    "Introduced": "24.5",
-    "PcPrice": "$5.99",
-    "Round": "15",
-    "Name": "Dominus Syandana"
+    "Introduced": "30.2",
+    "PcPrice": "$6.99",
+    "Round": "20 [Batch 2]",
+    "Name": "Khora Graxx Skin"
   },
   "Zephyr Hagoromo Skin": {
     "ConsolePrice": "165",
@@ -6921,21 +5381,21 @@
     "Round": "2",
     "Name": "Zephyr Hagoromo Skin"
   },
-  "Jotunheim Music Shoulder Armor": {
-    "ConsolePrice": "50",
-    "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by Mz-3.",
-    "Link": "Jotunheim Music Shoulder Armor",
-    "Part": "Arm",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2395066822",
-    "Image": "JotunheimMusicShoulderArmor.png",
+  "Machete Kuther Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Machete skin, designed by lukinu_u and HEILAH.",
+    "Link": "Machete Kuther Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2396821316",
+    "Image": "SWKutherMacheteSkin.png",
     "Artists": [
-      "Mz-3"
+      "lukinu_u",
+      "HEILAH"
     ],
     "Introduced": "30.1",
-    "PcPrice": "$2.99",
+    "PcPrice": "$5.99",
     "Round": "20 [Batch 1]",
-    "Name": "Jotunheim Music Shoulder Armor"
+    "Name": "Machete Kuther Skin"
   },
   "Nekros Graxx Skin": {
     "ConsolePrice": "165",
@@ -6967,21 +5427,20 @@
     "Round": "12",
     "Name": "Chroma Thyrus Skin"
   },
-  "Paxis Syandana": {
+  "Longsword Ezriel Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya and Jadie.",
-    "Link": "Paxis Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1833615473",
-    "Image": "PaxisSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Longsword skin, designed by Goosmo.",
+    "Link": "Longsword Ezriel Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2951514915",
+    "Image": "LongswordEzrielSkin.png",
     "Artists": [
-      "malaya",
-      "Jadie"
+      "Goosmo"
     ],
-    "Introduced": "25.7.7",
+    "Introduced": "35.6",
     "PcPrice": "$5.99",
-    "Round": "17",
-    "Name": "Paxis Syandana"
+    "Round": "Tennogen Unbound",
+    "Name": "Longsword Ezriel Skin"
   },
   "Polearm Kalynex Skin": {
     "ConsolePrice": "105",
@@ -6998,50 +5457,50 @@
     "Round": "22 [Batch 1]",
     "Name": "Polearm Kalynex Skin"
   },
-  "Incognito Oculus": {
-    "ConsolePrice": "35",
-    "Type": "Operator",
-    "Description": "A unique oculus, designed by prosetisen.",
-    "Link": "Incognito Oculus",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1484318505",
-    "Image": "IncognitoOculus.png",
-    "Artists": [
-      "prosetisen"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$1.99",
-    "Round": "14",
-    "Name": "Incognito Oculus"
-  },
-  "Inaros Ozymandias Skin": {
+  "Limbo Vistyxio Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Inaros Warframe, designed by matzan481.",
-    "Link": "Inaros Ozymandias Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2079578690",
-    "Image": "InarosOzymandiasSkin.png",
+    "Description": "A unique skin for the Limbo Warframe, designed by led2012 and Hydroxate.",
+    "Link": "Limbo Vistyxio Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=949840128",
+    "Image": "LimboVistyxioSkin.png",
     "Artists": [
-      "matzan481"
+      "led2012",
+      "Hydroxate"
     ],
-    "Introduced": "30.1",
+    "Introduced": "22.9",
     "PcPrice": "$6.99",
-    "Round": "20 [Batch 1]",
-    "Name": "Inaros Ozymandias Skin"
+    "Round": "10",
+    "Name": "Limbo Vistyxio Skin"
   },
-  "Inaros Kephri Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Inaros Warframe, designed by led2012.",
-    "Link": "Inaros Kephri Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1122658693",
-    "Image": "InarosKephriHelmet.png",
+  "Limbo Graxx Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Limbo Warframe, designed by Faven.",
+    "Link": "Limbo Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1478822739",
+    "Image": "LimboGraxxSkin.png",
     "Artists": [
-      "led2012"
+      "Faven"
     ],
-    "Introduced": "22.11",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 2]",
-    "Name": "Inaros Kephri Helmet"
+    "Introduced": "24.1",
+    "PcPrice": "$6.99",
+    "Round": "14",
+    "Name": "Limbo Graxx Skin"
+  },
+  "Lavos Yersin Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Lavos Warframe, designed by Lubox.",
+    "Link": "Lavos Yersin Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2923016738",
+    "Image": "LavosYersinSkin.png",
+    "Artists": [
+      "Lubox"
+    ],
+    "PcPrice": "$6.99",
+    "Round": "TennoGen Shadows",
+    "Name": "Lavos Yersin Skin"
   },
   "Akmagnus Hivelight Skin": {
     "ConsolePrice": "40",
@@ -7057,52 +5516,50 @@
     "Round": "Weapons Skin Contest",
     "Name": "Akmagnus Hivelight Skin"
   },
-  "Hydroid Karkinos Helmet": {
-    "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Hydroid Warframe, designed by Crackle2012 and Vulbjorn.",
-    "Link": "Hydroid Karkinos Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1620316780",
-    "Image": "HydroidKarkinosHelmet.png",
+  "Kuva Pump Chest Plate": {
+    "ConsolePrice": "N/A",
+    "Type": "Armor",
+    "Description": "A unique chest armor for your Warframe, designed by CERF.",
+    "Link": "Kuva Pump Chest Plate",
+    "Part": "Chest",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2826880751",
+    "Image": "KuvaPumpChestPlate.png",
     "Artists": [
-      "Crackle2012",
-      "Vulbjorn"
+      "CERF"
     ],
-    "Introduced": "25.1",
-    "PcPrice": "$5.99",
-    "Round": "16",
-    "Name": "Hydroid Karkinos Helmet"
+    "PcPrice": "$2.49",
+    "Round": "TennoGen Shadows",
+    "Name": "Kuva Pump Chest Plate"
   },
-  "Heavy Blade Mithra Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Heavy Blade skin, designed by lukinu_u.",
-    "Link": "Heavy Blade Mithra Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1120051045",
-    "Image": "SWRElevenMithraHeavyBlade.png",
+  "Kullervo Ascophilia Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Kullvero Warframe, designed by Erneix",
+    "Link": "Kullervo Ascophilia Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3476892377",
+    "Image": "KullervoAscophiliaSkin.png",
     "Artists": [
-      "lukinu_u"
+      "Erneix"
     ],
-    "Introduced": "22.13",
-    "PcPrice": "$5.99",
-    "Round": "11 [Batch 3]",
-    "Name": "Heavy Blade Mithra Skin"
+    "PcPrice": "$6.99",
+    "Round": "TennoGen Fables & Frontiers",
+    "Name": "Kullervo Ascophilia Skin"
   },
-  "Heavy Blade Karv'r Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Heavy Blade skin, designed by Faven and Scharkie.",
-    "Link": "Heavy Blade Karv'r Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1446787169",
-    "Image": "SWRFourteenKarvrGreatswordSkin.png",
+  "Krtrima Chest Armor": {
+    "ConsolePrice": "45",
+    "Type": "Armor",
+    "Description": "A unique chest armor for your Warframe, designed by kakarrot2812.",
+    "Link": "Krtrima Chest Armor",
+    "Part": "Chest",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2893527881",
+    "Image": "KrtrimaChestArmor.png",
     "Artists": [
-      "Faven",
-      "Scharkie"
+      "kakarrot2812"
     ],
-    "Introduced": "24.1",
-    "PcPrice": "$5.99",
-    "Round": "14",
-    "Name": "Heavy Blade Karv'r Skin"
+    "Introduced": "33.5",
+    "PcPrice": "$2.49",
+    "Round": "23 [Batch 2]",
+    "Name": "Krtrima Chest Armor"
   },
   "Nekros Ausirylyst Skin": {
     "ConsolePrice": "165",
@@ -7149,22 +5606,21 @@
     "Round": "19 [Batch 1]",
     "Name": "Mag Corpra Skin"
   },
-  "Gothica Syandana": {
+  "Heavy Blade Karv'r Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
-    "Link": "Gothica Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3046420137",
-    "Image": "GothicaSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Heavy Blade skin, designed by Faven and Scharkie.",
+    "Link": "Heavy Blade Karv'r Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1446787169",
+    "Image": "SWRFourteenKarvrGreatswordSkin.png",
     "Artists": [
-      "malaya",
-      "Awk'Q-Luz",
-      "Jadie"
+      "Faven",
+      "Scharkie"
     ],
-    "Introduced": "40",
+    "Introduced": "24.1",
     "PcPrice": "$5.99",
-    "Round": "TennoGen Undermind",
-    "Name": "Gothica Syandana"
+    "Round": "14",
+    "Name": "Heavy Blade Karv'r Skin"
   },
   "Nova Graxx Skin": {
     "ConsolePrice": "165",
@@ -7198,35 +5654,35 @@
     "Round": "TennoGen Factions",
     "Name": "Gauss Profitas Skin"
   },
-  "Maharliqa Syandana": {
+  "Nikana Ungulata Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by led2012.",
-    "Link": "Maharliqa Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=726034842",
-    "Image": "MaharliqaSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Nikana skin, designed by Vulbjorn.",
+    "Link": "Nikana Ungulata Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1687855678",
+    "Image": "SWUngulataSkin.png",
+    "Artists": [
+      "Vulbjorn"
+    ],
+    "Introduced": "25.1",
+    "PcPrice": "$5.99",
+    "Round": "16",
+    "Name": "Nikana Ungulata Skin"
+  },
+  "Banshee Dominia Helmet": {
+    "ConsolePrice": "105",
+    "Type": "Helmet",
+    "Description": "A helmet for the Banshee Warframe, designed by led2012.",
+    "Link": "Banshee Dominia Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1112559237",
+    "Image": "BansheeDominiaHelmet.png",
     "Artists": [
       "led2012"
     ],
-    "Introduced": "The Silver Grove 1.0",
+    "Introduced": "22.9",
     "PcPrice": "$5.99",
-    "Round": "4",
-    "Name": "Maharliqa Syandana"
-  },
-  "Frost Zastruga Helmet": {
-    "ConsolePrice": "75",
-    "Type": "Helmet",
-    "Description": "A helmet for the Frost Warframe, designed by Rekkou.",
-    "Link": "Frost Zastruga Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=657002153",
-    "Image": "FrostZastrugaHelmet.png",
-    "Artists": [
-      "Rekkou"
-    ],
-    "Introduced": "18.13",
-    "PcPrice": "$5.99",
-    "Round": "3",
-    "Name": "Frost Zastruga Helmet"
+    "Round": "10",
+    "Name": "Banshee Dominia Helmet"
   },
   "Saryn Belladonna Helmet": {
     "ConsolePrice": "105",
@@ -7305,20 +5761,21 @@
     "Round": "20 [Batch 2]",
     "Name": "Khora Fiera Helmet"
   },
-  "Excalibur Isurus Helmet": {
-    "ConsolePrice": "N/A",
-    "Type": "Helmet",
-    "Description": "A helmet for the Excalibur Warframe, designed by Coridium.",
-    "Link": "Excalibur Isurus Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=566805069",
-    "Image": "ExcaliburIsurusHelmet.png",
+  "Heavy Blade Ion Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Heavy Blade skin, designed by Yatus and IgnusDei.",
+    "Link": "Heavy Blade Ion Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1530474819",
+    "Image": "SWRFourteenIonGreatswordSkin.png",
     "Artists": [
-      "Coridium"
+      "Yatus",
+      "IgnusDei"
     ],
-    "Introduced": "18.1.4",
+    "Introduced": "24.1",
     "PcPrice": "$5.99",
-    "Round": "Polycount",
-    "Name": "Excalibur Isurus Helmet"
+    "Round": "14",
+    "Name": "Heavy Blade Ion Skin"
   },
   "Citrine Celestis Skin": {
     "ConsolePrice": "165",
@@ -7413,36 +5870,35 @@
     "Round": "17",
     "Name": "Frost Hisame Skin"
   },
-  "Chroma Kaiju Helmet": {
-    "ConsolePrice": "N/A",
-    "Type": "Helmet",
-    "Description": "A helmet for the Chroma Warframe, designed by [k a z].",
-    "Link": "Chroma Kaiju Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=619969541",
-    "Image": "ChromaKaijuHelmet.png",
+  "Excalibur Ronin Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Excalibur Warframe, designed by Rekkou.",
+    "Link": "Excalibur Ronin Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1276820730",
+    "Image": "ExcaliburRoninSkin.png",
     "Artists": [
-      "[k a z]"
+      "Rekkou"
     ],
-    "Introduced": "18.6.3",
-    "PcPrice": "$5.99",
-    "Round": "2",
-    "Name": "Chroma Kaiju Helmet"
+    "Introduced": "23.1",
+    "PcPrice": "$6.99",
+    "Round": "13",
+    "Name": "Excalibur Ronin Skin"
   },
-  "Boltara Syandana": {
+  "Two-Handed Nikana Dogma Skin": {
     "ConsolePrice": "105",
-    "Type": "Syandana",
-    "Description": "A syandana for your Warframe, designed by Faven and Scharkie.",
-    "Link": "Boltara Syandana",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=759305634",
-    "Image": "BoltaraSyandana.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Two-Handed Nikana skin, designed by Felix Leonhart.",
+    "Link": "Two-Handed Nikana Dogma Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2394233895",
+    "Image": "DogmaTwo-HandedNikanaSkin.png",
     "Artists": [
-      "Faven",
-      "Scharkie"
+      "Felix Leonhart"
     ],
-    "Introduced": "The Index Preview",
+    "Introduced": "30.1",
     "PcPrice": "$5.99",
-    "Round": "5",
-    "Name": "Boltara Syandana"
+    "Round": "20 [Batch 1]",
+    "Name": "Two-Handed Nikana Dogma Skin"
   },
   "Ivara Zamariu Skin": {
     "ConsolePrice": "165",

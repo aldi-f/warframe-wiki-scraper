@@ -187,8 +187,8 @@
     ],
     "Mirage": [
       "Hall of Mirrors",
-      "Eclipse",
       "Sleight of Hand",
+      "Eclipse",
       "Prism"
     ],
     "Atlas": [
@@ -241,11 +241,8 @@
       "Pacify & Provoke",
       "Rest & Rage"
     ],
-    "Qorvex": [
-      "Crucible Blast",
-      "Chyrinka Pillar",
-      "Disometric Guard",
-      "Containment Wall"
+    "Sirius & Orion": [
+      "Celestial Clash"
     ],
     "Cyte-09": [
       "Resupply",
@@ -283,11 +280,11 @@
       "Rakhali's Cavalry",
       "Doom"
     ],
-    "Vauban": [
-      "Minelayer",
-      "Photon Strike",
-      "Bastille",
-      "Tesla Nervos"
+    "Banshee": [
+      "Sonic Boom",
+      "Sound Quake",
+      "Sonar",
+      "Silence"
     ],
     "Khora": [
       "Whipclaw",
@@ -364,8 +361,8 @@
     "Gara": [
       "Shattered Lash",
       "Mass Vitrify",
-      "Splinter Storm",
-      "Spectrorage"
+      "Spectrorage",
+      "Splinter Storm"
     ],
     "Garuda": [
       "Seeking Talons",
@@ -387,8 +384,8 @@
     ],
     "Itzal": [
       "Cosmic Crush",
-      "Penumbra",
       "Arch Line",
+      "Penumbra",
       "Fighter Escort"
     ],
     "Xaku": [
@@ -422,6 +419,12 @@
       "Transference",
       "Energy Pulse"
     ],
+    "Temple": [
+      "Overdrive",
+      "Exalted Solo",
+      "Ripper's Wail",
+      "Pyrotechnics"
+    ],
     "Uriel": [
       "Infernalis",
       "Brimstone",
@@ -435,16 +438,16 @@
       "Sol Gate"
     ],
     "Lavos": [
+      "Transmutation Probe",
       "Catalyze",
       "Vial Rush",
-      "Transmutation Probe",
       "Ophidian Bite"
     ],
-    "Temple": [
-      "Overdrive",
-      "Exalted Solo",
-      "Ripper's Wail",
-      "Pyrotechnics"
+    "Citrine": [
+      "Fractured Blast",
+      "Prismatic Gem",
+      "Crystallize",
+      "Preserving Shell"
     ],
     "Protea": [
       "Temporal Anchor",
@@ -458,11 +461,10 @@
       "Ravenous",
       "Larva"
     ],
-    "Citrine": [
-      "Fractured Blast",
-      "Prismatic Gem",
-      "Crystallize",
-      "Preserving Shell"
+    "Orion": [
+      "Gravitic Slash",
+      "Astral Shell",
+      "Event Horizon"
     ],
     "Styanax": [
       "Rally Point",
@@ -482,11 +484,6 @@
       "Gravemines",
       "Guard Mode"
     ],
-    "Orion": [
-      "Gravitic Slash",
-      "Astral Shell",
-      "Event Horizon"
-    ],
     "Sevagoth": [
       "Reap",
       "Exalted Shadow",
@@ -498,6 +495,12 @@
       "Teleport (Stalker)",
       "Smoke Screen (Stalker)",
       "Marked"
+    ],
+    "Narin": [
+      "Nurinarim",
+      "Naraemagi",
+      "Neote",
+      "Hakchum"
     ],
     "Nova": [
       "Molecular Prime",
@@ -517,10 +520,8 @@
       "Reckoning",
       "Smite"
     ],
-    "Sirius": [
-      "Light's Sanctuary",
-      "Coronal Ejection",
-      "Jade Stars"
+    "Excalibur Umbra": [
+      "Radial Howl"
     ],
     "Helminth": [
       "Perspicacity",
@@ -537,32 +538,16 @@
       "Empower",
       "Master's Summons"
     ],
+    "Sirius": [
+      "Light's Sanctuary",
+      "Coronal Ejection",
+      "Jade Stars"
+    ],
     "Ivara": [
       "Artemis Bow",
       "Prowl",
       "Quiver",
       "Navigator"
-    ],
-    "Excalibur Umbra": [
-      "Radial Howl"
-    ],
-    "Wukong": [
-      "Defy",
-      "Celestial Twin",
-      "Primal Fury",
-      "Cloud Walker"
-    ],
-    "Sevagoth's Shadow": [
-      "Embrace",
-      "Reunite",
-      "Death's Harvest",
-      "Consume"
-    ],
-    "Baruuk": [
-      "Serene Storm",
-      "Desolate Hands",
-      "Elude",
-      "Lull"
     ],
     "Dante": [
       "Final Verse",
@@ -570,11 +555,29 @@
       "Dark Verse",
       "Light Verse"
     ],
+    "Sevagoth's Shadow": [
+      "Embrace",
+      "Reunite",
+      "Death's Harvest",
+      "Consume"
+    ],
+    "Wukong": [
+      "Defy",
+      "Celestial Twin",
+      "Primal Fury",
+      "Cloud Walker"
+    ],
     "Elytron": [
       "Core Vent",
       "Warhead",
       "Thumper",
       "Bloomer"
+    ],
+    "Baruuk": [
+      "Desolate Hands",
+      "Elude",
+      "Lull",
+      "Serene Storm"
     ],
     "Titania": [
       "Lantern",
@@ -582,8 +585,11 @@
       "Spellbind",
       "Razorwing"
     ],
-    "Sirius & Orion": [
-      "Celestial Clash"
+    "Rhino": [
+      "Rhino Charge",
+      "Iron Skin",
+      "Rhino Stomp",
+      "Roar"
     ],
     "Voruna": [
       "Shroud of Dynar",
@@ -604,17 +610,17 @@
       "Shield Maiden",
       "Meathook"
     ],
-    "Rhino": [
-      "Rhino Charge",
-      "Iron Skin",
-      "Rhino Stomp",
-      "Roar"
+    "Qorvex": [
+      "Crucible Blast",
+      "Chyrinka Pillar",
+      "Disometric Guard",
+      "Containment Wall"
     ],
     "Nokko": [
       "Sporespring",
       "Brightbonnet",
-      "Reroot",
-      "Stinkbrain"
+      "Stinkbrain",
+      "Reroot"
     ],
     "Ash": [
       "Blade Storm",
@@ -634,11 +640,11 @@
       "Thurible",
       "Condemn"
     ],
-    "Banshee": [
-      "Sonic Boom",
-      "Sound Quake",
-      "Sonar",
-      "Silence"
+    "Vauban": [
+      "Minelayer",
+      "Photon Strike",
+      "Bastille",
+      "Tesla Nervos"
     ],
     "Yareli": [
       "Aquablades",
@@ -649,8 +655,8 @@
     "Kullervo": [
       "Collective Curse",
       "Wrathful Advance",
-      "Recompense",
-      "Storm of Ukko"
+      "Storm of Ukko",
+      "Recompense"
     ]
   },
   "Ability": {
@@ -687,6 +693,9 @@
     "Infernalis": {
       "Description": "Manifest an aura of flames inflicting <DT_FIRE_COLOR>Heat Damage and Status Effect on nearby enemies.\r\n\r\nTap Dodge while airborne to take flight as a flaming meteor of destruction.",
       "Cost": 25,
+      "Augments": [
+        "Infernum"
+      ],
       "Powersuit": "Uriel",
       "Link": "Infernalis",
       "Key": 1,
@@ -1062,22 +1071,18 @@
       "PreviewFallback": "BlessingPreview.jpg",
       "Icon": "BlessingIcon(xWhite).png"
     },
-    "Serene Storm": {
-      "Description": "With his Restraint eroded, Baruuk commands the Desert Wind to deliver powerful radial strikes with his fists and feet. Each moment commanding the storm restores his Restraint.",
-      "Cost": 0,
-      "Augments": [
-        "Reactive Storm"
-      ],
-      "Icon": "SereneStormIcon(xWhite).png",
-      "Powersuit": "Baruuk",
+    "Nurinarim": {
+      "Description": "Requires full Ice to cast. An ancestral spirit descends upon Narin and she begins sword dancing for continuous nearby damage. Press Attack on the marked targets to launch shattering icy slashes that deplete Armor and Shields. Hitting Frozen enemies causes them to explode, dealing massive radial <DT_FREEZE_COLOR> Cold Damage.",
+      "Cost": 25,
+      "Powersuit": "Narin",
       "Key": 4,
-      "CardImage": "SereneStormModx256.png",
-      "Name": "Serene Storm",
-      "Introduced": "24.2",
-      "InternalName": "/Lotus/Powersuits/Pacifist/Abilities/PacifistFistAbility",
-      "Preview": "SereneStormPreview.webm",
-      "PreviewFallback": "SereneStormPreview.jpg",
-      "Weapon": "Desert Wind"
+      "CardImage": "Nurinarim(xWhite).png",
+      "Name": "Nurinarim",
+      "Introduced": "44",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistBladeDanceAbility",
+      "Preview": "NurinarimPreview.webm",
+      "PreviewFallback": "NurinarimPreview.jpg",
+      "Icon": "Nurinarim(xWhite).png"
     },
     "Sporespring": {
       "Description": "Unleash a chaotic ballistic mushroom that seeks enemies and bounces explosively off whatever it touches. Contact with any of Nokko's mushrooms invigorates them, doubling their pulse rate.",
@@ -1414,10 +1419,10 @@
       "Icon": "KineticPlatingIcon(xWhite).png"
     },
     "Sonic Boom": {
-      "Description": "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate or kill attackers.",
+      "Description": "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate attackers and reduce their Armor.",
       "Cost": 25,
       "Augments": [
-        "Sonic Fracture"
+        "Sonic Siphon"
       ],
       "Powersuit": "Banshee",
       "Key": 1,
@@ -1430,7 +1435,7 @@
       "Icon": "SonicBoomIcon(xWhite).png"
     },
     "Celestial Clash": {
-      "Description": "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral <DT_EXPLOSION_COLOR>Blast damage. Match the star's color to the Warframes color to gain increased Critical Chance.\r\n\r\n|LEFT_ATTACK| Sirius attacks\r\n|RIGHT_ATTACK| Orion attacks\r\n\r\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row.",
+      "Description": "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral <DT_FIRE_COLOR>Heat or <DT_SLASH_COLOR>Slash damage. Match the star's color to the Warframes color to gain increased Critical Chance.\r\n\r\n|LEFT_ATTACK| Sirius attacks\r\n|RIGHT_ATTACK| Orion attacks\r\n\r\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row.",
       "Cost": 100,
       "Powersuit": "Sirius & Orion",
       "Key": 4,
@@ -2157,7 +2162,7 @@
       "Icon": "PleinAirIcon(xWhite).png"
     },
     "Covenant": {
-      "Description": "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Headshots are amplified even further.",
+      "Description": "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Weak Points are amplified even further.",
       "Cost": 100,
       "Augments": [
         "Lasting Covenant"
@@ -2238,7 +2243,8 @@
       "Description": "Frost deep freezes any vapor and moisture in the area, creating a protective sphere with brief invulnerability to boost its strength.",
       "Cost": 50,
       "Augments": [
-        "Chilling Globe"
+        "Chilling Globe",
+        "Cold Front"
       ],
       "Powersuit": "Frost",
       "Key": 3,
@@ -2658,10 +2664,10 @@
       "Icon": "Death'sHarvestIcon(xWhite).png"
     },
     "Sound Quake": {
-      "Description": "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground.",
-      "Cost": 25,
+      "Description": "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground in a targeted area.",
+      "Cost": 75,
       "Augments": [
-        "Resonating Quake"
+        "Gaseous Quake"
       ],
       "Powersuit": "Banshee",
       "Key": 4,
@@ -2717,7 +2723,7 @@
       "CostType": "time"
     },
     "Sonar": {
-      "Description": "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak spots to everyone in your squad.",
+      "Description": "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak points to everyone in your squad.",
       "Cost": 50,
       "Augments": [
         "Resonance"
@@ -3023,6 +3029,50 @@
       "PreviewFallback": "CelestialTwinPreview.jpg",
       "Icon": "CelestialTwinIcon(xWhite).png"
     },
+    "Wyrd Scythes": {
+      "Description": "Wyrd Scythes surround Dagath and seek out nearby enemies. Those struck are slowed and suffer <DT_VIRAL_COLOR>Viral Damage with a guaranteed Status Effect. The scythes also spread Doom and extend its duration.",
+      "Cost": 25,
+      "Subsumable": true,
+      "Powersuit": "Dagath",
+      "Key": 1,
+      "CardImage": "WyrdScythes.png",
+      "Name": "Wyrd Scythes",
+      "Introduced": "34",
+      "InternalName": "/Lotus/Powersuits/Dagath/Abilities/DagathVolleyAbility",
+      "Preview": "WyrdScythesPreview.webm",
+      "PreviewFallback": "WyrdScythesPreview.jpg",
+      "Icon": "WyrdScythesIcon(xWhite).png"
+    },
+    "Wrathful Advance": {
+      "Description": "(TAP) Kullervo charges a Heavy Attack, then teleports to his target and strikes. His rage-filled focus temporarily increases his Melee Critical Chance.\r\n(HOLD) Teleport to any marked location.",
+      "Cost": 25,
+      "Subsumable": true,
+      "Powersuit": "Kullervo",
+      "Key": 1,
+      "CardImage": "WrathfulAdvance.png",
+      "Name": "Wrathful Advance",
+      "Introduced": "33.5",
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxTeleportAbility",
+      "Preview": "WrathfulAdvancePreview.webm",
+      "PreviewFallback": "WrathfulAdvancePreview.jpg",
+      "Icon": "WrathfulAdvanceIcon(xWhite).png"
+    },
+    "Sleight of Hand": {
+      "Description": "Booby trap nearby objects while conjuring an irresistible jewel that bursts with radial blind when touched in darkness, or a radial explosion in light. Conjure multiple smaller jewels with the help of Hall of Mirrors.",
+      "Cost": 50,
+      "Augments": [
+        "Explosive Legerdemain"
+      ],
+      "Powersuit": "Mirage",
+      "Key": 2,
+      "CardImage": "SleightOfHandModx256.png",
+      "Name": "Sleight of Hand",
+      "Introduced": "14",
+      "InternalName": "/Lotus/Powersuits/Harlequin/Abilities/HarlequinObjectChangeAbility",
+      "Preview": "SleightOfHandPreview.webm",
+      "PreviewFallback": "SleightOfHandPreview.jpg",
+      "Icon": "SleightOfHandIcon(xWhite).png"
+    },
     "Astral Shell": {
       "Description": "Envelop Orion in an Astral Shell. Upon taking damage the shell becomes a decoy that draws fire until it's destroyed.\r\n\r\n(HOLD) Swap to Sirius and use Jade Stars.",
       "Cost": 50,
@@ -3067,33 +3117,51 @@
       "PreviewFallback": "FracturedBlastPreview.jpg",
       "Icon": "FracturedBlastIcon(xWhite).png"
     },
-    "Wyrd Scythes": {
-      "Description": "Wyrd Scythes surround Dagath and seek out nearby enemies. Those struck are slowed and suffer <DT_VIRAL_COLOR>Viral Damage with a guaranteed Status Effect. The scythes also spread Doom and extend its duration.",
-      "Cost": 25,
-      "Subsumable": true,
-      "Powersuit": "Dagath",
-      "Key": 1,
-      "CardImage": "WyrdScythes.png",
-      "Name": "Wyrd Scythes",
-      "Introduced": "34",
-      "InternalName": "/Lotus/Powersuits/Dagath/Abilities/DagathVolleyAbility",
-      "Preview": "WyrdScythesPreview.webm",
-      "PreviewFallback": "WyrdScythesPreview.jpg",
-      "Icon": "WyrdScythesIcon(xWhite).png"
+    "Wil-O-Wisp": {
+      "Description": "Cast forward a spectral image of Wisp to confuse and distract enemies. Reactivate to travel to its position. Hold to have the image travel faster and teleport to its position on release. ",
+      "Cost": 35,
+      "Powersuit": "Wisp",
+      "Key": 2,
+      "CardImage": "WilOWisp.png",
+      "Name": "Wil-O-Wisp",
+      "Introduced": "25",
+      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispLightAbility",
+      "Preview": "Wil-O-WispPreview.webm",
+      "PreviewFallback": "Wil-O-WispPreview.jpg",
+      "Icon": "Wil-O-WispIcon(xWhite).png"
     },
-    "Wrathful Advance": {
-      "Description": "(TAP) Kullervo charges a Heavy Attack, then teleports to his target and strikes. His rage-filled focus temporarily increases his Melee Critical Chance.\r\n(HOLD) Teleport to any marked location.",
-      "Cost": 25,
-      "Subsumable": true,
+    "Storm of Ukko": {
+      "Description": "The Void answers Kullervo's invocation with a storm of daggers that rain down upon his enemies.",
+      "Cost": 100,
+      "Augments": [
+        "Wrath of Ukko"
+      ],
       "Powersuit": "Kullervo",
-      "Key": 1,
-      "CardImage": "WrathfulAdvance.png",
-      "Name": "Wrathful Advance",
+      "Key": 4,
+      "CardImage": "StormofUkko.png",
+      "Name": "Storm of Ukko",
       "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxTeleportAbility",
-      "Preview": "WrathfulAdvancePreview.webm",
-      "PreviewFallback": "WrathfulAdvancePreview.jpg",
-      "Icon": "WrathfulAdvanceIcon(xWhite).png"
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxFieldAbility",
+      "Preview": "StormofUkkoPreview.webm",
+      "PreviewFallback": "StormofUkkoPreview.jpg",
+      "Icon": "StormOfUkkoIcon(xWhite).png"
+    },
+    "Whipclaw": {
+      "Description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw.",
+      "Cost": 25,
+      "Augments": [
+        "Accumulating Whipclaw"
+      ],
+      "Icon": "WhipclawIcon(xWhite).png",
+      "Powersuit": "Khora",
+      "Key": 1,
+      "CardImage": "WhipclawModx256.png",
+      "Name": "Whipclaw",
+      "Introduced": "22.18",
+      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraCrackAbility",
+      "Preview": "WhipclawPreview.webm",
+      "PreviewFallback": "WhipclawPreview.jpg",
+      "Weapon": "Whipclaw"
     },
     "Energy Vampire": {
       "Description": "Allies will gain energy over time when enemies are marked with Energy Vampire.",
@@ -3124,18 +3192,22 @@
       "PreviewFallback": "BunrakuPreview.jpg",
       "Icon": "BunrakuIcon(xWhite).png"
     },
-    "Penumbra": {
-      "Description": "Activates a cloaking field that hides the Warframe and any nearby allies who remain stationary.",
-      "Cost": 15,
-      "Powersuit": "Itzal",
-      "Key": 2,
-      "CardImage": "Penumbra.png",
-      "Name": "Penumbra",
-      "Introduced": "15.7.2",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
-      "Preview": "PenumbraPreview.webm",
-      "PreviewFallback": "PenumbraPreview.jpg",
-      "Icon": "PenumbraIcon(xWhite).png"
+    "Transmutation Probe": {
+      "Description": "Launch a probe that converts Health and Energy Orbs into Universal Orbs that provide both, and ammo pickups into Universal Ammo Pickups. The probe shocks enemies in close proximity. Each electrocuted foe reduces other ability cooldowns by 1.5s.\r\n\r\nHold to imbue the next ability cast with <DT_ELECTRICITY_COLOR>Electricity.",
+      "Cost": 10,
+      "Augments": [
+        "Lingering Transmutation"
+      ],
+      "Powersuit": "Lavos",
+      "Key": 3,
+      "InternalName": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistTransmuteAbility",
+      "CardImage": "TransmutationProbeModx256.png",
+      "Name": "Transmutation Probe",
+      "Introduced": "29.6",
+      "Icon": "TransmutationProbeIcon(xWhite).png",
+      "Preview": "TransmutationProbePreview.webm",
+      "PreviewFallback": "TransmutationProbePreview.jpg",
+      "CostType": "time"
     },
     "Recompense": {
       "Description": "Kullervo surrounds himself with daggers. Each dagger that strikes an enemy restores his health, but each dagger that misses an enemy strikes Kullervo, dealing a bit of damage. When Kullervo has max Health, he receives Overguard from struck enemies.",
@@ -3169,51 +3241,45 @@
       "PreviewFallback": "ArcspherePreview.jpg",
       "Icon": "ArcsphereIcon(xWhite).png"
     },
-    "Wil-O-Wisp": {
-      "Description": "Cast forward a spectral image of Wisp to confuse and distract enemies. Reactivate to travel to its position. Hold to have the image travel faster and teleport to its position on release. ",
-      "Cost": 35,
-      "Powersuit": "Wisp",
+    "Webbed Embrace": {
+      "Description": "Oraxia throws a creeping web to ensnare her prey. Enemies caught within the widening radius are trapped inside a cocoon that increases their Damage Vulnerability.",
+      "Cost": 50,
+      "Subsumable": true,
+      "Powersuit": "Oraxia",
       "Key": 2,
-      "CardImage": "WilOWisp.png",
-      "Name": "Wil-O-Wisp",
-      "Introduced": "25",
-      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispLightAbility",
-      "Preview": "Wil-O-WispPreview.webm",
-      "PreviewFallback": "Wil-O-WispPreview.jpg",
-      "Icon": "Wil-O-WispIcon(xWhite).png"
+      "CardImage": "WebbedEmbrace.png",
+      "Name": "Webbed Embrace",
+      "Introduced": "39",
+      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaEntangleAbility",
+      "Preview": "WebbedEmbracePreview.webm",
+      "PreviewFallback": "WebbedEmbracePreview.jpg",
+      "Icon": "WebbedEmbraceIcon(xWhite).png"
     },
-    "Switch Teleport": {
-      "Description": "Loki instantaneously swaps positions with a target, confusing the enemy.",
+    "Watchful Swarm": {
+      "Description": "Tiny drones orbit the Warframe or an ally, and intercept enemy fire.",
       "Cost": 25,
-      "Augments": [
-        "Safeguard Switch"
-      ],
-      "Powersuit": "Loki",
-      "Key": 3,
-      "CardImage": "SwitchTeleportModx256.png",
-      "Name": "Switch Teleport",
-      "Introduced": "Vanilla",
-      "InternalName": "/Lotus/Powersuits/Loki/Abilities/SwitchTeleportAbility",
-      "Preview": "SwitchTeleportPreview.webm",
-      "PreviewFallback": "SwitchTeleportPreview.jpg",
-      "Icon": "SwitchTeleportIcon(xWhite).png"
-    },
-    "Whipclaw": {
-      "Description": "Send enemies reeling with a deafening whipcrack. Stats are boosted by the equipped mods on Whipclaw.",
-      "Cost": 25,
-      "Augments": [
-        "Accumulating Whipclaw"
-      ],
-      "Icon": "WhipclawIcon(xWhite).png",
-      "Powersuit": "Khora",
+      "Powersuit": "Amesha",
       "Key": 1,
-      "CardImage": "WhipclawModx256.png",
-      "Name": "Whipclaw",
-      "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraCrackAbility",
-      "Preview": "WhipclawPreview.webm",
-      "PreviewFallback": "WhipclawPreview.jpg",
-      "Weapon": "Whipclaw"
+      "CardImage": "WatchfulSwarmMod.png",
+      "Name": "Watchful Swarm",
+      "Introduced": "Specters of the Rail 0.0",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportDronesAbility",
+      "Preview": "WatchfulSwarmPreview.webm",
+      "PreviewFallback": "WatchfulSwarmPreview.jpg",
+      "Icon": "WatchfulSwarmIcon(xWhite).png"
+    },
+    "Warhead": {
+      "Description": "Launches a plodding missile capable of unleashing a massive explosion.",
+      "Cost": 100,
+      "Powersuit": "Elytron",
+      "Key": 4,
+      "CardImage": "Warhead.png",
+      "Name": "Warhead",
+      "Introduced": "15",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/BigBoyAbility",
+      "Preview": "WarheadPreview.webm",
+      "PreviewFallback": "WarheadPreview.jpg",
+      "Icon": "WarheadIcon(xWhite).png"
     },
     "Axios Javelin": {
       "Description": "Throw an Axios Javelin. When the javelin impales an enemy against a wall, surrounding enemies are pulled into the area and suffer a burst of damage.",
@@ -3265,48 +3331,48 @@
       "PreviewFallback": "EclipsePreview.jpg",
       "Icon": "EclipseIcon(xWhite).png"
     },
-    "Venari": {
-      "Description": "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
-      "Cost": 0,
-      "Augments": [
-        "Venari Bodyguard"
-      ],
-      "Powersuit": "Khora",
-      "Key": 3,
-      "CardImage": "VenariModx256.png",
-      "Name": "Venari",
-      "Introduced": "22.18",
-      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraKavatAbility",
-      "Preview": "VenariPreview.webm",
-      "PreviewFallback": "VenariPreview.jpg",
-      "Icon": "VenariIcon(xWhite).png"
-    },
-    "Webbed Embrace": {
-      "Description": "Oraxia throws a creeping web to ensnare her prey. Enemies caught within the widening radius are trapped inside a cocoon that increases their Damage Vulnerability.",
-      "Cost": 50,
-      "Subsumable": true,
-      "Powersuit": "Oraxia",
-      "Key": 2,
-      "CardImage": "WebbedEmbrace.png",
-      "Name": "Webbed Embrace",
-      "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaEntangleAbility",
-      "Preview": "WebbedEmbracePreview.webm",
-      "PreviewFallback": "WebbedEmbracePreview.jpg",
-      "Icon": "WebbedEmbraceIcon(xWhite).png"
-    },
-    "Watchful Swarm": {
-      "Description": "Tiny drones orbit the Warframe or an ally, and intercept enemy fire.",
+    "Warding Grace": {
+      "Description": "Renders the Warframe and nearby allies immune to Status Effects, while slowing nearby enemies.",
       "Cost": 25,
       "Powersuit": "Amesha",
-      "Key": 1,
-      "CardImage": "WatchfulSwarmMod.png",
-      "Name": "Watchful Swarm",
+      "Key": 3,
+      "CardImage": "WardingGraceMod.png",
+      "Name": "Warding Grace",
       "Introduced": "Specters of the Rail 0.0",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportDronesAbility",
-      "Preview": "WatchfulSwarmPreview.webm",
-      "PreviewFallback": "WatchfulSwarmPreview.jpg",
-      "Icon": "WatchfulSwarmIcon(xWhite).png"
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportWardAbility",
+      "Preview": "WardingGracePreview.webm",
+      "PreviewFallback": "WardingGracePreview.jpg",
+      "Icon": "WardingGraceIcon(xWhite).png"
+    },
+    "Mind Control": {
+      "Description": "Nyx seizes control of a target's mind, compelling them to fight for the Tenno cause. Controlled enemies have increased <DT_RADIATION_COLOR>Radiation Status Chance. When Nyx shoots them, they also have an increased Damage Multiplier.",
+      "Cost": 25,
+      "Augments": [
+        "Mind Freak"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Nyx",
+      "Key": 1,
+      "CardImage": "MindControlModx256.png",
+      "Name": "Mind Control",
+      "Introduced": "6",
+      "InternalName": "/Lotus/Powersuits/Jade/Abilities/MindControlAbility",
+      "Preview": "MindControlPreview.webm",
+      "PreviewFallback": "MindControlPreview.jpg",
+      "Icon": "MindControlIcon(xWhite).png"
+    },
+    "Voracious Metastasis": {
+      "Description": "Consume Energy to heal yourself and grant matching Energy to each ally.",
+      "Cost": 50,
+      "Subsumable": true,
+      "Powersuit": "Helminth",
+      "CardImage": "VoraciousMetastasisIcon(xWhite).png",
+      "Name": "Voracious Metastasis",
+      "Introduced": "30.5",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthEnergyShareAbility",
+      "Preview": "VoraciousMetastasisPreview.webm",
+      "PreviewFallback": "VoraciousMetastasisPreview.jpg",
+      "Icon": "VoraciousMetastasisIcon(xWhite).png"
     },
     "Catalyze": {
       "Description": "Catalyst Probes erupt from Lavos and douse combatants in a fiery gel. Damage is doubled for each element afflicting an enemy.\r\n\r\nHold to imbue the next ability cast with <DT_FIRE_COLOR>Heat.",
@@ -3322,18 +3388,21 @@
       "PreviewFallback": "CatalyzePreview.jpg",
       "CostType": "time"
     },
-    "Warhead": {
-      "Description": "Launches a plodding missile capable of unleashing a massive explosion.",
-      "Cost": 100,
-      "Powersuit": "Elytron",
-      "Key": 4,
-      "CardImage": "Warhead.png",
-      "Name": "Warhead",
-      "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/BigBoyAbility",
-      "Preview": "WarheadPreview.webm",
-      "PreviewFallback": "WarheadPreview.jpg",
-      "Icon": "WarheadIcon(xWhite).png"
+    "Virulence": {
+      "Description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes. For every five enemies hit, the Infestation mutates, multiplying its destructive force.",
+      "Cost": 40,
+      "Augments": [
+        "Teeming Virulence"
+      ],
+      "Powersuit": "Nidus",
+      "Key": 1,
+      "CardImage": "VirulenceModx256.png",
+      "Name": "Virulence",
+      "Introduced": "19.5",
+      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestRuptureAbility",
+      "Preview": "VirulencePreview.webm",
+      "PreviewFallback": "VirulencePreview.jpg",
+      "Icon": "VirulenceIcon(xWhite).png"
     },
     "Repel": {
       "Description": "The Warframe emits a massive pulse of energy, stunning nearby enemies and sending them flying.",
@@ -3381,79 +3450,6 @@
       "PreviewFallback": "PrimalFuryPreview.jpg",
       "Weapon": "Iron Staff"
     },
-    "Warding Grace": {
-      "Description": "Renders the Warframe and nearby allies immune to Status Effects, while slowing nearby enemies.",
-      "Cost": 25,
-      "Powersuit": "Amesha",
-      "Key": 3,
-      "CardImage": "WardingGraceMod.png",
-      "Name": "Warding Grace",
-      "Introduced": "Specters of the Rail 0.0",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportWardAbility",
-      "Preview": "WardingGracePreview.webm",
-      "PreviewFallback": "WardingGracePreview.jpg",
-      "Icon": "WardingGraceIcon(xWhite).png"
-    },
-    "Mind Control": {
-      "Description": "Nyx seizes control of a target's mind, compelling them to fight for the Tenno cause. Controlled enemies have increased <DT_RADIATION_COLOR>Radiation Status Chance. When Nyx shoots them, they also have an increased Damage Multiplier.",
-      "Cost": 25,
-      "Augments": [
-        "Mind Freak"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Nyx",
-      "Key": 1,
-      "CardImage": "MindControlModx256.png",
-      "Name": "Mind Control",
-      "Introduced": "6",
-      "InternalName": "/Lotus/Powersuits/Jade/Abilities/MindControlAbility",
-      "Preview": "MindControlPreview.webm",
-      "PreviewFallback": "MindControlPreview.jpg",
-      "Icon": "MindControlIcon(xWhite).png"
-    },
-    "Voracious Metastasis": {
-      "Description": "Consume Energy to heal yourself and grant matching Energy to each ally.",
-      "Cost": 50,
-      "Subsumable": true,
-      "Powersuit": "Helminth",
-      "CardImage": "VoraciousMetastasisIcon(xWhite).png",
-      "Name": "Voracious Metastasis",
-      "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthEnergyShareAbility",
-      "Preview": "VoraciousMetastasisPreview.webm",
-      "PreviewFallback": "VoraciousMetastasisPreview.jpg",
-      "Icon": "VoraciousMetastasisIcon(xWhite).png"
-    },
-    "Exalted Shadow": {
-      "Description": "When the Death Well fills, Sevagoth's Shadow form is ready to be released. Tear the enemy asunder with a collection of melee-focused abilities. ",
-      "Cost": 0,
-      "Icon": "ExaltedShadowIcon(xWhite).png",
-      "Powersuit": "Sevagoth",
-      "Key": 4,
-      "CardImage": "ExaltedShadowModx256.png",
-      "Name": "Exalted Shadow",
-      "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithReaperAbility",
-      "Preview": "ExaltedShadowPreview.webm",
-      "PreviewFallback": "ExaltedShadowPreview.jpg",
-      "Weapon": "Shadow Claws"
-    },
-    "Virulence": {
-      "Description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes. For every five enemies hit, the Infestation mutates, multiplying its destructive force.",
-      "Cost": 40,
-      "Augments": [
-        "Teeming Virulence"
-      ],
-      "Powersuit": "Nidus",
-      "Key": 1,
-      "CardImage": "VirulenceModx256.png",
-      "Name": "Virulence",
-      "Introduced": "19.5",
-      "InternalName": "/Lotus/Powersuits/Infestation/Abilities/InfestRuptureAbility",
-      "Preview": "VirulencePreview.webm",
-      "PreviewFallback": "VirulencePreview.jpg",
-      "Icon": "VirulenceIcon(xWhite).png"
-    },
     "Vial Rush": {
       "Description": "Dash forward, crashing through enemies and leaving an icy trail of broken vials.\r\n\r\nHold to imbue the next ability cast with <DT_FREEZE_COLOR>Cold.",
       "Cost": 5,
@@ -3486,6 +3482,81 @@
       "PreviewFallback": "VexArmorPreview.jpg",
       "Icon": "VexArmorIcon(xWhite).png"
     },
+    "Vengeful Rush": {
+      "Description": "All damage taken is transformed into Energy, while abilities gain enhanced Range, Duration and Power. Affects the Warframe and nearby allies.",
+      "Cost": 100,
+      "Powersuit": "Amesha",
+      "Key": 4,
+      "CardImage": "VengefulRushMod.png",
+      "Name": "Vengeful Rush",
+      "Introduced": "Specters of the Rail 0.0",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
+      "Preview": "VengefulRushPreview.webm",
+      "PreviewFallback": "VengefulRushPreview.jpg",
+      "Icon": "VengefulRushIcon(xWhite).png"
+    },
+    "Exalted Shadow": {
+      "Description": "When the Death Well fills, Sevagoth's Shadow form is ready to be released. Tear the enemy asunder with a collection of melee-focused abilities. ",
+      "Cost": 0,
+      "Icon": "ExaltedShadowIcon(xWhite).png",
+      "Powersuit": "Sevagoth",
+      "Key": 4,
+      "CardImage": "ExaltedShadowModx256.png",
+      "Name": "Exalted Shadow",
+      "Introduced": "30",
+      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithReaperAbility",
+      "Preview": "ExaltedShadowPreview.webm",
+      "PreviewFallback": "ExaltedShadowPreview.jpg",
+      "Weapon": "Shadow Claws"
+    },
+    "Venari": {
+      "Description": "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
+      "Cost": 0,
+      "Augments": [
+        "Venari Bodyguard"
+      ],
+      "Powersuit": "Khora",
+      "Key": 3,
+      "CardImage": "VenariModx256.png",
+      "Name": "Venari",
+      "Introduced": "22.18",
+      "InternalName": "/Lotus/Powersuits/Khora/Abilities/KhoraKavatAbility",
+      "Preview": "VenariPreview.webm",
+      "PreviewFallback": "VenariPreview.jpg",
+      "Icon": "VenariIcon(xWhite).png"
+    },
+    "Ulfrun's Descent": {
+      "Description": "(TAP) Voruna drops to all fours and prepares 5 brutal charges that lock onto enemies. Ulfrun, the most powerful wolf, leads the attack as Voruna dashes toward her target. The pack deals increased damage to targets and nearby enemies that are inflicted by Status Effects. Lethal attacks double the damage of Voruna's remaining charges.\r\n\r\n(HOLD) Ulfrun guards Voruna. If Voruna falls during this time, Ulfrun dies in her place.",
+      "Cost": 100,
+      "Augments": [
+        "Ulfrun's Endurance"
+      ],
+      "Powersuit": "Voruna",
+      "Key": 4,
+      "CardImage": "Ulfrun'sDescent.png",
+      "Name": "Ulfrun's Descent",
+      "Introduced": "32.2",
+      "InternalName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfHowlAbility",
+      "Preview": "Ulfrun'sDescentPreview.webm",
+      "PreviewFallback": "Ulfrun'sDescentPreview.jpg",
+      "Icon": "Ulfrun'sDescentIcon(xWhite).png"
+    },
+    "Turbulence": {
+      "Description": "Creates a wind shield around Zephyr, redirecting all incoming projectiles.",
+      "Cost": 75,
+      "Augments": [
+        "Jet Stream"
+      ],
+      "Powersuit": "Zephyr",
+      "Key": 3,
+      "CardImage": "TurbulenceModx256.png",
+      "Name": "Turbulence",
+      "Introduced": "12",
+      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TurbulenceAbility",
+      "Preview": "TurbulencePreview.webm",
+      "PreviewFallback": "TurbulencePreview.jpg",
+      "Icon": "TurbulenceIcon(xWhite).png"
+    },
     "Prismatic Gem": {
       "Description": "Deploy a gem that shoots prismatic beams. The gem targets enemies that are taking weapon damage from Citrine and her allies. Its beams inflict Heat, Cold, Toxin, and Electricity Status Effects. Status Chance and Status Duration increase for nearby allies.",
       "Cost": 75,
@@ -3502,18 +3573,18 @@
       "PreviewFallback": "PrismaticGemPreview.jpg",
       "Icon": "PrismaticGemIcon(xWhite).png"
     },
-    "Vengeful Rush": {
-      "Description": "All damage taken is transformed into Energy, while abilities gain enhanced Range, Duration and Power. Affects the Warframe and nearby allies.",
-      "Cost": 100,
-      "Powersuit": "Amesha",
-      "Key": 4,
-      "CardImage": "VengefulRushMod.png",
-      "Name": "Vengeful Rush",
-      "Introduced": "Specters of the Rail 0.0",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
-      "Preview": "VengefulRushPreview.webm",
-      "PreviewFallback": "VengefulRushPreview.jpg",
-      "Icon": "VengefulRushIcon(xWhite).png"
+    "Tribute": {
+      "Description": "Cycle through and extract one of the four Buffs when cast on an enemy. Thorns reduces incoming damage. Dust degrades enemy accuracy. Full Moon increases companion damage. Entangle slows enemies within range.",
+      "Cost": 25,
+      "Powersuit": "Titania",
+      "Key": 2,
+      "CardImage": "TributeModx256.png",
+      "Name": "Tribute",
+      "Introduced": "The Silver Grove",
+      "InternalName": "/Lotus/Powersuits/Fairy/Abilities/FairySoulAbility",
+      "Preview": "Tribute.webm",
+      "PreviewFallback": "Tribute.jpg",
+      "Icon": "TributeIcon(xWhite).png"
     },
     "Well of Life": {
       "Description": "Create a well of life on an enemy who will absorb Status Effect damage intended for nearby allies. Allies gain additional Health when they attack the target. If allies die, enemies in the well of life die in their stead.",
@@ -3532,21 +3603,14 @@
       "PreviewFallback": "WellOfLifePreview.jpg",
       "Icon": "WellOfLifeIcon(xWhite).png"
     },
-    "Ulfrun's Descent": {
-      "Description": "(TAP) Voruna drops to all fours and prepares 5 brutal charges that lock onto enemies. Ulfrun, the most powerful wolf, leads the attack as Voruna dashes toward her target. The pack deals increased damage to targets and nearby enemies that are inflicted by Status Effects. Lethal attacks double the damage of Voruna's remaining charges.\r\n\r\n(HOLD) Ulfrun guards Voruna. If Voruna falls during this time, Ulfrun dies in her place.",
-      "Cost": 100,
-      "Augments": [
-        "Ulfrun's Endurance"
-      ],
-      "Powersuit": "Voruna",
-      "Key": 4,
-      "CardImage": "Ulfrun'sDescent.png",
-      "Name": "Ulfrun's Descent",
-      "Introduced": "32.2",
-      "InternalName": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfHowlAbility",
-      "Preview": "Ulfrun'sDescentPreview.webm",
-      "PreviewFallback": "Ulfrun'sDescentPreview.jpg",
-      "Icon": "Ulfrun'sDescentIcon(xWhite).png"
+    "Transference": {
+      "Powersuit": "Operator",
+      "Name": "Transference",
+      "Cost": 0,
+      "Key": 5,
+      "Introduced": "18",
+      "Icon": "Transference.png",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OperatorTransferenceAbility"
     },
     "Blood Altar": {
       "Description": "Impale an enemy on an altar of talons and siphon health for Garuda and her allies.",
@@ -3562,34 +3626,38 @@
       "PreviewFallback": "BloodAltarPreview.jpg",
       "Icon": "BloodAltarIcon(xWhite).png"
     },
-    "Turbulence": {
-      "Description": "Creates a wind shield around Zephyr, redirecting all incoming projectiles.",
-      "Cost": 75,
-      "Augments": [
-        "Jet Stream"
-      ],
-      "Powersuit": "Zephyr",
-      "Key": 3,
-      "CardImage": "TurbulenceModx256.png",
-      "Name": "Turbulence",
-      "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TurbulenceAbility",
-      "Preview": "TurbulencePreview.webm",
-      "PreviewFallback": "TurbulencePreview.jpg",
-      "Icon": "TurbulenceIcon(xWhite).png"
-    },
-    "Tribute": {
-      "Description": "Cycle through and extract one of the four Buffs when cast on an enemy. Thorns reduces incoming damage. Dust degrades enemy accuracy. Full Moon increases companion damage. Entangle slows enemies within range.",
+    "Tesla Nervos": {
+      "Description": "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing <DT_ELECTRICITY_COLOR> Electricity Damage to anything in the immediate area.",
       "Cost": 25,
-      "Powersuit": "Titania",
+      "Augments": [
+        "Tesla Bank"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Vauban",
+      "Key": 1,
+      "CardImage": "TeslaNervosModx256.png",
+      "Name": "Tesla Nervos",
+      "Introduced": "26",
+      "InternalName": "/Lotus/Powersuits/Trapper/Abilities/ZapTrapAbility",
+      "Preview": "TeslaNervosPreview.webm",
+      "PreviewFallback": "TeslaNervosPreview.jpg",
+      "Icon": "TeslaNervosIcon(xWhite).png"
+    },
+    "Cloud Walker": {
+      "Description": "Evaporate into a cloud of mist and float through the battlefield, dazing any enemies encountered, while healing Wukong and his twin.",
+      "Cost": 25,
+      "Augments": [
+        "Enveloping Cloud"
+      ],
+      "Powersuit": "Wukong",
       "Key": 2,
-      "CardImage": "TributeModx256.png",
-      "Name": "Tribute",
-      "Introduced": "The Silver Grove",
-      "InternalName": "/Lotus/Powersuits/Fairy/Abilities/FairySoulAbility",
-      "Preview": "Tribute.webm",
-      "PreviewFallback": "Tribute.jpg",
-      "Icon": "TributeIcon(xWhite).png"
+      "CardImage": "CloudWalkerModx256.png",
+      "Name": "Cloud Walker",
+      "Introduced": "17.12",
+      "InternalName": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyCloudAbility",
+      "Preview": "CloudWalkerPreview.webm",
+      "PreviewFallback": "CloudWalkerPreview.jpg",
+      "Icon": "CloudWalkerIcon(xWhite).png"
     },
     "Paralysis": {
       "Description": "Unleash a damaging blast, slowing its victims while increasing their Melee Damage Vulnerability.",
@@ -3607,22 +3675,21 @@
       "PreviewFallback": "ParalysisPreview.jpg",
       "Icon": "ParalysisIcon(xWhite).png"
     },
-    "Transmutation Probe": {
-      "Description": "Launch a probe that converts Health and Energy Orbs into Universal Orbs that provide both, and ammo pickups into Universal Ammo Pickups. The probe shocks enemies in close proximity. Each electrocuted foe reduces other ability cooldowns by 1.5s.\r\n\r\nHold to imbue the next ability cast with <DT_ELECTRICITY_COLOR>Electricity.",
-      "Cost": 10,
+    "Tornado": {
+      "Description": "Create deadly tornadoes that seek out and engulf enemies. Tornadoes deal the elemental Damage Type they absorb the most. Shoot engulfed enemies to inflict extra damage. Hold for stationary tornadoes or tap for wandering ones.",
+      "Cost": 100,
       "Augments": [
-        "Lingering Transmutation"
+        "Funnel Clouds"
       ],
-      "Powersuit": "Lavos",
-      "Key": 3,
-      "InternalName": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistTransmuteAbility",
-      "CardImage": "TransmutationProbeModx256.png",
-      "Name": "Transmutation Probe",
-      "Introduced": "29.6",
-      "Icon": "TransmutationProbeIcon(xWhite).png",
-      "Preview": "TransmutationProbePreview.webm",
-      "PreviewFallback": "TransmutationProbePreview.jpg",
-      "CostType": "time"
+      "Powersuit": "Zephyr",
+      "Key": 4,
+      "CardImage": "TornadoModx256.png",
+      "Name": "Tornado",
+      "Introduced": "12",
+      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TornadoAbility",
+      "Preview": "TornadoPreview.webm",
+      "PreviewFallback": "TornadoPreview.jpg",
+      "Icon": "TornadoIcon(xWhite).png"
     },
     "Blaze Artillery": {
       "Description": "Deploys an artillery unit to blast plasma charges at enemies it faces. Each enemy hit increases the power of subsequent plasma attacks.",
@@ -3640,14 +3707,21 @@
       "PreviewFallback": "BlazeArtilleryPreview.jpg",
       "Icon": "BlazeArtilleryIcon(xWhite).png"
     },
-    "Transference": {
-      "Powersuit": "Operator",
-      "Name": "Transference",
-      "Cost": 0,
-      "Key": 5,
-      "Introduced": "18",
-      "Icon": "Transference.png",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/OperatorTransferenceAbility"
+    "Tidal Surge": {
+      "Description": "Crash through enemies in a ferocious wall of water.",
+      "Cost": 50,
+      "Augments": [
+        "Tidal Impunity"
+      ],
+      "Powersuit": "Hydroid",
+      "Key": 2,
+      "CardImage": "TidalSurgeModx256.png",
+      "Name": "Tidal Surge",
+      "Introduced": "13",
+      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/TidalWaveAbility",
+      "Preview": "TidalSurgePreview.webm",
+      "PreviewFallback": "TidalSurgePreview.jpg",
+      "Icon": "TidalSurgeIcon(xWhite).png"
     },
     "Redline": {
       "Description": "Push Gauss' battery beyond the redline, supercharging his Abilities and setting Fire Rate, Attack Speed, Reload Speed, and Casting Speed into overdrive. When past the redline, bolts of arcing electricity dance periodically from Gauss, exploding en masse when the ability is deactivated.",
@@ -3676,6 +3750,49 @@
       "PreviewFallback": "Lycath'sHuntPreview.jpg",
       "Icon": "Lycath'sHuntIcon(xWhite).png"
     },
+    "Thurible": {
+      "Description": "Channel Harrow's energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Weak Points produce extra energy.",
+      "Cost": 25,
+      "Augments": [
+        "Warding Thurible"
+      ],
+      "Powersuit": "Harrow",
+      "Key": 3,
+      "CardImage": "ThuribleModx256.png",
+      "Name": "Thurible",
+      "Introduced": "21",
+      "InternalName": "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
+      "Preview": "ThuriblePreview.webm",
+      "PreviewFallback": "ThuriblePreview.jpg",
+      "Icon": "ThuribleIcon(xWhite).png"
+    },
+    "Naraemagi": {
+      "Description": "Recover Shields by absorbing <DT_FREEZE_COLOR> Cold Status Effect from nearby enemies. Gain <OVERGUARD_GAIN> Overguard if at full Shields.\r\n\r\nGain Ice for each enemy hit.",
+      "Cost": 50,
+      "Powersuit": "Narin",
+      "Key": 2,
+      "CardImage": "Naraemagi(xWhite).png",
+      "Name": "Naraemagi",
+      "Introduced": "44",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistRiposteAbility",
+      "Preview": "NaraemagiPreview.webm",
+      "PreviewFallback": "NaraemagiPreview.jpg",
+      "Icon": "Naraemagi(xWhite).png"
+    },
+    "Thumper": {
+      "Description": "Creates a localized storm of punishing explosions.",
+      "Cost": 75,
+      "Powersuit": "Elytron",
+      "Link": "Thumper (Elytron)",
+      "Key": 3,
+      "CardImage": "ThumperAbility.png",
+      "Name": "Thumper",
+      "Introduced": "15",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/ArtilleryBarrageAbility",
+      "Preview": "ThumperPreview.webm",
+      "PreviewFallback": "ThumperPreview.jpg",
+      "Icon": "ThumperIcon(xWhite).png"
+    },
     "Thermal Sunder": {
       "Description": "Siphon kinetic energy from the area, charging the battery and inflicting <DT_FREEZE_COLOR>Cold Status on nearby enemies. Hold reverses the process, draining the battery and inflicting <DT_FIRE_COLOR>Heat Status on nearby enemies.",
       "Cost": 50,
@@ -3692,111 +3809,6 @@
       "Preview": "ThermalSunderPreview.webm",
       "PreviewFallback": "ThermalSunderPreview.jpg",
       "Icon": "ThermalSunderIcon(xWhite).png"
-    },
-    "Cloud Walker": {
-      "Description": "Evaporate into a cloud of mist and float through the battlefield, dazing any enemies encountered, while healing Wukong and his twin.",
-      "Cost": 25,
-      "Augments": [
-        "Enveloping Cloud"
-      ],
-      "Powersuit": "Wukong",
-      "Key": 2,
-      "CardImage": "CloudWalkerModx256.png",
-      "Name": "Cloud Walker",
-      "Introduced": "17.12",
-      "InternalName": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyCloudAbility",
-      "Preview": "CloudWalkerPreview.webm",
-      "PreviewFallback": "CloudWalkerPreview.jpg",
-      "Icon": "CloudWalkerIcon(xWhite).png"
-    },
-    "Tornado": {
-      "Description": "Create deadly tornadoes that seek out and engulf enemies. Tornadoes deal the elemental Damage Type they absorb the most. Shoot engulfed enemies to inflict extra damage. Hold for stationary tornadoes or tap for wandering ones.",
-      "Cost": 100,
-      "Augments": [
-        "Funnel Clouds"
-      ],
-      "Powersuit": "Zephyr",
-      "Key": 4,
-      "CardImage": "TornadoModx256.png",
-      "Name": "Tornado",
-      "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TornadoAbility",
-      "Preview": "TornadoPreview.webm",
-      "PreviewFallback": "TornadoPreview.jpg",
-      "Icon": "TornadoIcon(xWhite).png"
-    },
-    "Tidal Surge": {
-      "Description": "Crash through enemies in a ferocious wall of water.",
-      "Cost": 50,
-      "Augments": [
-        "Tidal Impunity"
-      ],
-      "Powersuit": "Hydroid",
-      "Key": 2,
-      "CardImage": "TidalSurgeModx256.png",
-      "Name": "Tidal Surge",
-      "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/TidalWaveAbility",
-      "Preview": "TidalSurgePreview.webm",
-      "PreviewFallback": "TidalSurgePreview.jpg",
-      "Icon": "TidalSurgeIcon(xWhite).png"
-    },
-    "Thurible": {
-      "Description": "Channel Harrow's energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Headshots produce extra energy.",
-      "Cost": 25,
-      "Augments": [
-        "Warding Thurible"
-      ],
-      "Powersuit": "Harrow",
-      "Key": 3,
-      "CardImage": "ThuribleModx256.png",
-      "Name": "Thurible",
-      "Introduced": "21",
-      "InternalName": "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
-      "Preview": "ThuriblePreview.webm",
-      "PreviewFallback": "ThuriblePreview.jpg",
-      "Icon": "ThuribleIcon(xWhite).png"
-    },
-    "Thumper": {
-      "Description": "Creates a localized storm of punishing explosions.",
-      "Cost": 75,
-      "Powersuit": "Elytron",
-      "Link": "Thumper (Elytron)",
-      "Key": 3,
-      "CardImage": "ThumperAbility.png",
-      "Name": "Thumper",
-      "Introduced": "15",
-      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/ArtilleryBarrageAbility",
-      "Preview": "ThumperPreview.webm",
-      "PreviewFallback": "ThumperPreview.jpg",
-      "Icon": "ThumperIcon(xWhite).png"
-    },
-    "Golden Instinct": {
-      "Description": "Send out a short-lived Void Spark that is drawn toward the nearest Medallion, Ayatan Sculpture, rare crate, unscanned Kuria or unscanned Fragment.",
-      "Cost": 50,
-      "Subsumable": true,
-      "Powersuit": "Helminth",
-      "CardImage": "GoldenInstinctIcon(xWhite).png",
-      "Name": "Golden Instinct",
-      "Introduced": "30.5",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthTreasureAbility",
-      "Preview": "GoldenInstinctPreview.webm",
-      "PreviewFallback": "GoldenInstinctPreview.jpg",
-      "Icon": "GoldenInstinctIcon(xWhite).png"
-    },
-    "Transference Surge": {
-      "Description": "Summon your Warframe and its weapons onto Duviri for a brief time when Transference Surge is fully charged.",
-      "Cost": 0,
-      "Powersuit": "Drifter",
-      "Key": 5,
-      "InternalName": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTransferenceAbility",
-      "CardImage": "Panel.png",
-      "Name": "Transference Surge",
-      "Introduced": "33",
-      "Icon": "Panel.png",
-      "Preview": "PanelPreview.webm",
-      "PreviewFallback": "PanelPreview.jpg",
-      "CostType": "time"
     },
     "Elude": {
       "Description": "Dodge all incoming projectiles, but only while not attacking. Use again to deactivate this ability.",
@@ -3830,22 +3842,32 @@
       "PreviewFallback": "ScarabShellPreview.jpg",
       "Icon": "ScarabShellIcon(xWhite).png"
     },
-    "Tesla Nervos": {
-      "Description": "Deploy a roller drone that attaches itself to enemies and delivers bursts of arcing <DT_ELECTRICITY_COLOR> Electricity Damage to anything in the immediate area.",
-      "Cost": 25,
-      "Augments": [
-        "Tesla Bank"
-      ],
+    "Golden Instinct": {
+      "Description": "Send out a short-lived Void Spark that is drawn toward the nearest Medallion, Ayatan Sculpture, rare crate, unscanned Kuria or unscanned Fragment.",
+      "Cost": 50,
       "Subsumable": true,
-      "Powersuit": "Vauban",
-      "Key": 1,
-      "CardImage": "TeslaNervosModx256.png",
-      "Name": "Tesla Nervos",
-      "Introduced": "26",
-      "InternalName": "/Lotus/Powersuits/Trapper/Abilities/ZapTrapAbility",
-      "Preview": "TeslaNervosPreview.webm",
-      "PreviewFallback": "TeslaNervosPreview.jpg",
-      "Icon": "TeslaNervosIcon(xWhite).png"
+      "Powersuit": "Helminth",
+      "CardImage": "GoldenInstinctIcon(xWhite).png",
+      "Name": "Golden Instinct",
+      "Introduced": "30.5",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/HelminthTreasureAbility",
+      "Preview": "GoldenInstinctPreview.webm",
+      "PreviewFallback": "GoldenInstinctPreview.jpg",
+      "Icon": "GoldenInstinctIcon(xWhite).png"
+    },
+    "Transference Surge": {
+      "Description": "Summon your Warframe and its weapons onto Duviri for a brief time when Transference Surge is fully charged.",
+      "Cost": 0,
+      "Powersuit": "Drifter",
+      "Key": 5,
+      "InternalName": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTransferenceAbility",
+      "CardImage": "Panel.png",
+      "Name": "Transference Surge",
+      "Introduced": "33",
+      "Icon": "Panel.png",
+      "Preview": "PanelPreview.webm",
+      "PreviewFallback": "PanelPreview.jpg",
+      "CostType": "time"
     },
     "Terrify": {
       "Description": "Cast fear into the hearts of nearby enemies, causing them to run away in terror.",
@@ -3864,22 +3886,21 @@
       "PreviewFallback": "TerrifyPreview.jpg",
       "Icon": "TerrifyIcon(xWhite).png"
     },
-    "Tempest Barrage": {
-      "Description": "Summon a tempest to rain down upon a target area.",
-      "Cost": 25,
+    "Tectonics": {
+      "Description": "Summon a Bulwark rock-wall, activate again to send the rocks crashing toward the enemy. Bulwarks attacked by enemies release an area-of-effect Slash powered by the Health it has lost.",
+      "Cost": 50,
       "Augments": [
-        "Viral Tempest"
+        "Tectonic Fracture"
       ],
-      "Subsumable": true,
-      "Powersuit": "Hydroid",
-      "Key": 1,
-      "CardImage": "TempestBarrageModx256.png",
-      "Name": "Tempest Barrage",
-      "Introduced": "13",
-      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/CannonBarrageAbility",
-      "Preview": "TempestBarragePreview.webm",
-      "PreviewFallback": "TempestBarragePreview.jpg",
-      "Icon": "TempestBarrageIcon(xWhite).png"
+      "Powersuit": "Atlas",
+      "Key": 2,
+      "CardImage": "TectonicsModx256.png",
+      "Name": "Tectonics",
+      "Introduced": "17.5",
+      "InternalName": "/Lotus/Powersuits/Brawler/Abilities/BrawlerBarrierAbility",
+      "Preview": "TectonicsPreview.webm",
+      "PreviewFallback": "TectonicsPreview.jpg",
+      "Icon": "TectonicsIcon(xWhite).png"
     },
     "Teleport": {
       "Description": "Teleport to a target and perform a Finisher. If the finisher kills the target, Ash regains a portion of the energy spent.",
@@ -3910,6 +3931,52 @@
       "PreviewFallback": "TeleportPreview.jpg",
       "Icon": "TeleportIcon(xWhite).png"
     },
+    "Tempest Barrage": {
+      "Description": "Summon a tempest to rain down upon a target area.",
+      "Cost": 25,
+      "Augments": [
+        "Viral Tempest"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Hydroid",
+      "Key": 1,
+      "CardImage": "TempestBarrageModx256.png",
+      "Name": "Tempest Barrage",
+      "Introduced": "13",
+      "InternalName": "/Lotus/Powersuits/Pirate/Abilities/CannonBarrageAbility",
+      "Preview": "TempestBarragePreview.webm",
+      "PreviewFallback": "TempestBarragePreview.jpg",
+      "Icon": "TempestBarrageIcon(xWhite).png"
+    },
+    "Tail Wind": {
+      "Description": "Hold while airborne to hover Zephyr with reduced movement. From the air, tap to dash forward, or aim down to dive bomb enemies below.",
+      "Cost": 25,
+      "Augments": [
+        "Target Fixation"
+      ],
+      "Powersuit": "Zephyr",
+      "Key": 1,
+      "CardImage": "TailWindModx256.png",
+      "Name": "Tail Wind",
+      "Introduced": "12",
+      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TailWindAbility",
+      "Preview": "TailWindPreview.webm",
+      "PreviewFallback": "TailWindPreview.jpg",
+      "Icon": "TailWindIcon(xWhite).png"
+    },
+    "Shadowgraph": {
+      "Description": "Bring shadowgraphs from Follie's sketchbook to life as items that can be used for tactical advantage. Shadowgraphs splash Inkblot onto nearby enemies when created.\r\n\r\nHOLD to open the Shadowgraph gear wheel.",
+      "Cost": 25,
+      "Powersuit": "Follie",
+      "Key": 2,
+      "CardImage": "Shadowgraph.png",
+      "Name": "Shadowgraph",
+      "Introduced": "42",
+      "InternalName": "/Lotus/Powersuits/Inkblot/Abilities/InkSketchAbility",
+      "Preview": "ShadowgraphPreview.webm",
+      "PreviewFallback": "ShadowgraphPreview.jpg",
+      "Icon": "ShadowgraphIcon(xWhite).png"
+    },
     "Jade Stars": {
       "Description": "Sirius conjures Jade Light motes that slowly regenerate over time. Attacking enemies launches the motes, dealing <DT_FIRE_COLOR>Heat Damage and Status Effect.\r\n\r\n(HOLD) Swap to Orion and use Astral Shell.",
       "Cost": 50,
@@ -3924,21 +3991,21 @@
       "PreviewFallback": "JadeStarsPreview.jpg",
       "Icon": "JadeStarsIcon(xWhite).png"
     },
-    "Tectonics": {
-      "Description": "Summon a Bulwark rock-wall, activate again to send the rocks crashing toward the enemy. Bulwarks attacked by enemies release an area-of-effect Slash powered by the Health it has lost.",
-      "Cost": 50,
+    "Switch Teleport": {
+      "Description": "Loki instantaneously swaps positions with a target, confusing the enemy.",
+      "Cost": 25,
       "Augments": [
-        "Tectonic Fracture"
+        "Safeguard Switch"
       ],
-      "Powersuit": "Atlas",
-      "Key": 2,
-      "CardImage": "TectonicsModx256.png",
-      "Name": "Tectonics",
-      "Introduced": "17.5",
-      "InternalName": "/Lotus/Powersuits/Brawler/Abilities/BrawlerBarrierAbility",
-      "Preview": "TectonicsPreview.webm",
-      "PreviewFallback": "TectonicsPreview.jpg",
-      "Icon": "TectonicsIcon(xWhite).png"
+      "Powersuit": "Loki",
+      "Key": 3,
+      "CardImage": "SwitchTeleportModx256.png",
+      "Name": "Switch Teleport",
+      "Introduced": "Vanilla",
+      "InternalName": "/Lotus/Powersuits/Loki/Abilities/SwitchTeleportAbility",
+      "Preview": "SwitchTeleportPreview.webm",
+      "PreviewFallback": "SwitchTeleportPreview.jpg",
+      "Icon": "SwitchTeleportIcon(xWhite).png"
     },
     "Hysteria": {
       "Description": "Valkyr bares her deadly claws, unleashing devastating attacks that also heal her. Valkyr becomes immune to Status Effects and her Armor bonus from Warcry is multiplied while using the claws.",
@@ -3958,51 +4025,6 @@
       "PreviewFallback": "HysteriaPreview.jpg",
       "Weapon": "Valkyr Talons"
     },
-    "Tail Wind": {
-      "Description": "Hold while airborne to hover Zephyr with reduced movement. From the air, tap to dash forward, or aim down to dive bomb enemies below.",
-      "Cost": 25,
-      "Augments": [
-        "Target Fixation"
-      ],
-      "Powersuit": "Zephyr",
-      "Key": 1,
-      "CardImage": "TailWindModx256.png",
-      "Name": "Tail Wind",
-      "Introduced": "12",
-      "InternalName": "/Lotus/Powersuits/Tengu/Abilities/TailWindAbility",
-      "Preview": "TailWindPreview.webm",
-      "PreviewFallback": "TailWindPreview.jpg",
-      "Icon": "TailWindIcon(xWhite).png"
-    },
-    "Reroot": {
-      "Description": "Revert to Sprodling form, spawning orbs that heal Nokko and grant a speed boost. While in this state, Nokko is untargetable and heals gradually.",
-      "Cost": 50,
-      "Augments": [
-        "Reroot Rampage"
-      ],
-      "Powersuit": "Nokko",
-      "Key": 3,
-      "CardImage": "Reroot.png",
-      "Name": "Reroot",
-      "Introduced": "40",
-      "InternalName": "/Lotus/Powersuits/Nokko/Abilities/NokkoShrinkAbility",
-      "Preview": "RerootPreview.webm",
-      "PreviewFallback": "RerootPreview.jpg",
-      "Icon": "RerootIcon(xWhite).png"
-    },
-    "Widow's Brood": {
-      "Description": "Oraxia launches a barrage of stinging darts in front of her that applies <DT_POISON_COLOR> Toxin Status Effect. Poisoned enemies spawn Scuttlers when killed.",
-      "Cost": 50,
-      "Powersuit": "Oraxia",
-      "Key": 3,
-      "CardImage": "Widow'sBrood.png",
-      "Name": "Widow's Brood",
-      "Introduced": "39",
-      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaSpidersAbility",
-      "Preview": "Widow'sBroodPreview.webm",
-      "PreviewFallback": "Widow'sBroodPreview.jpg",
-      "Icon": "Widow'sBroodIcon(xWhite).png"
-    },
     "Strangledome": {
       "Description": "Weave a dome of living chain that ensnares and strangles any enemy within, and any foolish enough to approach. Foes outside the trap will try to hasten their comrade's deaths by shooting them. Crack Whipclaw on the dome to further damage any trapped enemies.",
       "Cost": 100,
@@ -4019,21 +4041,35 @@
       "PreviewFallback": "StrangledomePreview.jpg",
       "Icon": "StrangledomeIcon(xWhite).png"
     },
-    "Storm of Ukko": {
-      "Description": "The Void answers Kullervo's invocation with a storm of daggers that rain down upon his enemies.",
-      "Cost": 100,
+    "Neote": {
+      "Description": "Lunge with Narin's ice rapier Neote, inflicting <DT_FREEZE_COLOR> Cold Damage and <DT_FREEZE_COLOR> Cold and <DT_PUNCTURE_COLOR> Puncture Status Effect on foes directly ahead of her.\r\n\r\nGain Ice for each enemy hit.",
+      "Cost": 25,
+      "Subsumable": true,
+      "Powersuit": "Narin",
+      "Key": 1,
+      "CardImage": "Neote(xWhite).png",
+      "Name": "Neote",
+      "Introduced": "44",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistThrustAbility",
+      "Preview": "NeotePreview.webm",
+      "PreviewFallback": "NeotePreview.jpg",
+      "Icon": "Neote(xWhite).png"
+    },
+    "Widow's Brood": {
+      "Description": "Oraxia launches a barrage of stinging darts in front of her that applies <DT_POISON_COLOR> Toxin Status Effect. Poisoned enemies spawn Scuttlers when killed.",
+      "Cost": 50,
       "Augments": [
-        "Wrath of Ukko"
+        "Brood's Oversurge"
       ],
-      "Powersuit": "Kullervo",
-      "Key": 4,
-      "CardImage": "StormofUkko.png",
-      "Name": "Storm of Ukko",
-      "Introduced": "33.5",
-      "InternalName": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxFieldAbility",
-      "Preview": "StormofUkkoPreview.webm",
-      "PreviewFallback": "StormofUkkoPreview.jpg",
-      "Icon": "StormOfUkkoIcon(xWhite).png"
+      "Powersuit": "Oraxia",
+      "Key": 3,
+      "CardImage": "Widow'sBrood.png",
+      "Name": "Widow's Brood",
+      "Introduced": "39",
+      "InternalName": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaSpidersAbility",
+      "Preview": "Widow'sBroodPreview.webm",
+      "PreviewFallback": "Widow'sBroodPreview.jpg",
+      "Icon": "Widow'sBroodIcon(xWhite).png"
     },
     "Stinkbrain": {
       "Description": "Throw a mushroom that periodically sheds poisonous spores, inflicting <DT_VIRAL_COLOR> Viral Damage and Status Effect upon nearby enemies while also lulling them to sleep.",
@@ -4047,6 +4083,33 @@
       "Preview": "StinkbrainPreview.webm",
       "PreviewFallback": "StinkbrainPreview.jpg",
       "Icon": "StinkbrainIcon(xWhite).png"
+    },
+    "Steadfast Dismount": {
+      "Description": "While riding a Kaithe, press 4 to dismount and gain 150 [[Overguard]]. 150 second cooldown between uses.\t",
+      "Cost": 150,
+      "Powersuit": "Kaithe",
+      "Key": 4,
+      "InternalName": "",
+      "CardImage": "SteadfastDismount(Drifter)Icon(xLight).png",
+      "Name": "Steadfast Dismount",
+      "Introduced": "33",
+      "Icon": "SteadfastDismount(Drifter)Icon(xLight).png",
+      "Preview": "SteadfastDismount(Drifter)Preview.webm",
+      "PreviewFallback": "SteadfastDismount(Drifter)Preview.jpg",
+      "CostType": "time"
+    },
+    "Stasis": {
+      "Description": "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
+      "Cost": 50,
+      "Powersuit": "Limbo",
+      "Key": 2,
+      "CardImage": "StasisModx256.png",
+      "Name": "Stasis",
+      "Introduced": "20",
+      "InternalName": "/Lotus/Powersuits/Magician/Abilities/MagicianStasisAbility",
+      "Preview": "StasisPreview.webm",
+      "PreviewFallback": "StasisPreview.jpg",
+      "Icon": "StasisIcon(xWhite).png"
     },
     "Mach Rush": {
       "Description": "Burst into a hyper-sprint bowling over enemies and charging the battery. Crashing into solid objects generates a powerful shockwave. Hold to rush continuously.",
@@ -4080,47 +4143,6 @@
       "PreviewFallback": "AntimatterDropPreview.jpg",
       "Icon": "AntimatterDropIcon(xWhite).png"
     },
-    "Steadfast Dismount": {
-      "Description": "While riding a Kaithe, press 4 to dismount and gain 150 [[Overguard]]. 150 second cooldown between uses.\t",
-      "Cost": 150,
-      "Powersuit": "Kaithe",
-      "Key": 4,
-      "InternalName": "",
-      "CardImage": "SteadfastDismount(Drifter)Icon(xLight).png",
-      "Name": "Steadfast Dismount",
-      "Introduced": "33",
-      "Icon": "SteadfastDismount(Drifter)Icon(xLight).png",
-      "Preview": "SteadfastDismount(Drifter)Preview.webm",
-      "PreviewFallback": "SteadfastDismount(Drifter)Preview.jpg",
-      "CostType": "time"
-    },
-    "Stasis": {
-      "Description": "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
-      "Cost": 50,
-      "Powersuit": "Limbo",
-      "Key": 2,
-      "CardImage": "StasisModx256.png",
-      "Name": "Stasis",
-      "Introduced": "20",
-      "InternalName": "/Lotus/Powersuits/Magician/Abilities/MagicianStasisAbility",
-      "Preview": "StasisPreview.webm",
-      "PreviewFallback": "StasisPreview.jpg",
-      "Icon": "StasisIcon(xWhite).png"
-    },
-    "Smoke Screen (Drifter)": {
-      "Description": "",
-      "Cost": 30,
-      "Powersuit": "Drifter",
-      "Key": 2,
-      "InternalName": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTossAbility",
-      "CardImage": "SmokeScreen(Drifter)Icon(xLight).png",
-      "Name": "Smoke Screen",
-      "Introduced": "31",
-      "Icon": "SmokeScreen(Drifter)Icon(xLight).png",
-      "Preview": "SmokeScreen(Drifter)Preview.webm",
-      "PreviewFallback": "SmokeScreen(Drifter)Preview.jpg",
-      "CostType": "time"
-    },
     "Fire Blast": {
       "Description": "Slam the ground to create a wave of incinerating plasma that knocks back enemies and strips their armor.",
       "Cost": 75,
@@ -4139,21 +4161,36 @@
       "PreviewFallback": "FireBlastPreview.jpg",
       "Icon": "FireBlastIcon(xWhite).png"
     },
-    "Splinter Storm": {
-      "Description": "Gara's armor splinters into a maelstrom of shattered glass. Allies who contact the cloud are fortified against damage.",
-      "Cost": 50,
+    "Spectrorage": {
+      "Description": "Trap enemies in a carousel of mirrors, forcing them to attack visions of their true selves. Destroyed mirrors damage their attackers, as does the collapse of the carousel.",
+      "Cost": 75,
       "Augments": [
-        "Mending Splinters"
+        "Spectrosiphon"
       ],
+      "Subsumable": true,
       "Powersuit": "Gara",
-      "Key": 2,
-      "CardImage": "SplinterStormModx256.png",
-      "Name": "Splinter Storm",
+      "Key": 3,
+      "CardImage": "SpectrorageModx256.png",
+      "Name": "Spectrorage",
       "Introduced": "22",
-      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassShatterAbility",
-      "Preview": "SplinterStormPreview.webm",
-      "PreviewFallback": "SplinterStormPreview.jpg",
-      "Icon": "SplinterStormIcon(xWhite).png"
+      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassFragmentAbility",
+      "Preview": "SpectroragePreview.webm",
+      "PreviewFallback": "SpectroragePreview.jpg",
+      "Icon": "SpectrorageIcon(xWhite).png"
+    },
+    "Smoke Screen (Drifter)": {
+      "Description": "",
+      "Cost": 30,
+      "Powersuit": "Drifter",
+      "Key": 2,
+      "InternalName": "/Lotus/Types/Friendly/PlayerControllable/Abilities/DrifterTossAbility",
+      "CardImage": "SmokeScreen(Drifter)Icon(xLight).png",
+      "Name": "Smoke Screen",
+      "Introduced": "31",
+      "Icon": "SmokeScreen(Drifter)Icon(xLight).png",
+      "Preview": "SmokeScreen(Drifter)Preview.webm",
+      "PreviewFallback": "SmokeScreen(Drifter)Preview.jpg",
+      "CostType": "time"
     },
     "Spellbind": {
       "Description": "Enemies fumble their weapons as they are whisked into the air. Nearby allies become immune to Status Effects. Hold the ability to cast the immunity onto Titania.",
@@ -4172,6 +4209,38 @@
       "PreviewFallback": "SpellbindPreview.jpg",
       "Icon": "SpellbindIcon(xWhite).png"
     },
+    "Splinter Storm": {
+      "Description": "Gara's armor splinters into a maelstrom of shattered glass. Allies who contact the cloud are fortified against damage.",
+      "Cost": 50,
+      "Augments": [
+        "Mending Splinters"
+      ],
+      "Powersuit": "Gara",
+      "Key": 2,
+      "CardImage": "SplinterStormModx256.png",
+      "Name": "Splinter Storm",
+      "Introduced": "22",
+      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassShatterAbility",
+      "Preview": "SplinterStormPreview.webm",
+      "PreviewFallback": "SplinterStormPreview.jpg",
+      "Icon": "SplinterStormIcon(xWhite).png"
+    },
+    "Navigator": {
+      "Description": "Assume control of any projectile launched by Ivara and guide it to the target.",
+      "Cost": 25,
+      "Augments": [
+        "Piercing Navigator"
+      ],
+      "Powersuit": "Ivara",
+      "Key": 2,
+      "CardImage": "NavigatorModx256.png",
+      "Name": "Navigator",
+      "Introduced": "18",
+      "InternalName": "/Lotus/Powersuits/Ranger/Abilities/RangerControlAbility",
+      "Preview": "NavigatorPreview.webm",
+      "PreviewFallback": "NavigatorPreview.jpg",
+      "Icon": "NavigatorIcon(xWhite).png"
+    },
     "Reave": {
       "Description": "Dash through enemies as a wall of sentient energy, leeching shields and health from any encountered, enhanced for thralls.",
       "Cost": 50,
@@ -4189,22 +4258,21 @@
       "PreviewFallback": "ReavePreview.jpg",
       "Icon": "ReaveIcon(xWhite).png"
     },
-    "Spectrorage": {
-      "Description": "Trap enemies in a carousel of mirrors, forcing them to attack visions of their true selves. Destroyed mirrors damage their attackers, as does the collapse of the carousel.",
-      "Cost": 75,
+    "Sow": {
+      "Description": "Plant a death seed in nearby targets to drain their lifeforce. Reap what has been sown to detonate afflicted enemies, dealing a percentage of their health as radial damage. The souls of the dead fill the Death Well. ",
+      "Cost": 50,
       "Augments": [
-        "Spectrosiphon"
+        "Dark Propagation"
       ],
-      "Subsumable": true,
-      "Powersuit": "Gara",
-      "Key": 3,
-      "CardImage": "SpectrorageModx256.png",
-      "Name": "Spectrorage",
-      "Introduced": "22",
-      "InternalName": "/Lotus/Powersuits/Glass/Abilities/GlassFragmentAbility",
-      "Preview": "SpectroragePreview.webm",
-      "PreviewFallback": "SpectroragePreview.jpg",
-      "Icon": "SpectrorageIcon(xWhite).png"
+      "Powersuit": "Sevagoth",
+      "Key": 2,
+      "CardImage": "SowModx256.png",
+      "Name": "Sow",
+      "Introduced": "30",
+      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithSowAbility",
+      "Preview": "SowPreview.webm",
+      "PreviewFallback": "SowPreview.jpg",
+      "Icon": "SowIcon(xWhite).png"
     },
     "Silken Stride": {
       "Description": "Unfurl Oraxia's spider legs and go on the prowl. Oraxia is immune to Status Effects and has increased Maximum Health. Ranged Weapons are imbued with <DT_POISON_COLOR> Toxin Damage. Killing enemies causes them to burst with <DT_POISON_COLOR>Toxin.\r\n\r\nSilken Thread: Tap Dodge to leap to a targeted surface.",
@@ -4219,21 +4287,21 @@
       "PreviewFallback": "SilkenStridePreview.jpg",
       "Icon": "SilkenStrideIcon(xWhite).png"
     },
-    "Navigator": {
-      "Description": "Assume control of any projectile launched by Ivara and guide it to the target.",
+    "Sol Gate": {
+      "Description": "Open a portal to the sun to irradiate enemies with a devastating beam of pure solar plasma. Hold fire to double Damage at the cost of increased energy consumption. For the duration of an attack enemies damaged by Sol Gate are increasingly more vulnerable to it.",
       "Cost": 25,
       "Augments": [
-        "Piercing Navigator"
+        "Cataclysmic Gate"
       ],
-      "Powersuit": "Ivara",
-      "Key": 2,
-      "CardImage": "NavigatorModx256.png",
-      "Name": "Navigator",
-      "Introduced": "18",
-      "InternalName": "/Lotus/Powersuits/Ranger/Abilities/RangerControlAbility",
-      "Preview": "NavigatorPreview.webm",
-      "PreviewFallback": "NavigatorPreview.jpg",
-      "Icon": "NavigatorIcon(xWhite).png"
+      "Powersuit": "Wisp",
+      "Key": 4,
+      "CardImage": "SolGate.png",
+      "Name": "Sol Gate",
+      "Introduced": "25",
+      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispSunAbility",
+      "Preview": "SolGatePreview.webm",
+      "PreviewFallback": "SolGatePreview.jpg",
+      "Icon": "SolGateIcon(xWhite).png"
     },
     "Arch Line": {
       "Description": "Launch a tethered hook that either pulls enemies close, or pulls the Warframe toward any stationary objects it hooks onto.",
@@ -4260,38 +4328,6 @@
       "Preview": "GuardModePreview.webm",
       "PreviewFallback": "GuardModePreview.jpg",
       "Icon": "GuardModeIcon(xWhite).png"
-    },
-    "Sow": {
-      "Description": "Plant a death seed in nearby targets to drain their lifeforce. Reap what has been sown to detonate afflicted enemies, dealing a percentage of their health as radial damage. The souls of the dead fill the Death Well. ",
-      "Cost": 50,
-      "Augments": [
-        "Dark Propagation"
-      ],
-      "Powersuit": "Sevagoth",
-      "Key": 2,
-      "CardImage": "SowModx256.png",
-      "Name": "Sow",
-      "Introduced": "30",
-      "InternalName": "/Lotus/Powersuits/Wraith/Abilities/WraithSowAbility",
-      "Preview": "SowPreview.webm",
-      "PreviewFallback": "SowPreview.jpg",
-      "Icon": "SowIcon(xWhite).png"
-    },
-    "Sol Gate": {
-      "Description": "Open a portal to the sun to irradiate enemies with a devastating beam of pure solar plasma. Hold fire to double Damage at the cost of increased energy consumption. For the duration of an attack enemies damaged by Sol Gate are increasingly more vulnerable to it.",
-      "Cost": 25,
-      "Augments": [
-        "Cataclysmic Gate"
-      ],
-      "Powersuit": "Wisp",
-      "Key": 4,
-      "CardImage": "SolGate.png",
-      "Name": "Sol Gate",
-      "Introduced": "25",
-      "InternalName": "/Lotus/Powersuits/Wisp/Abilities/WispSunAbility",
-      "Preview": "SolGatePreview.webm",
-      "PreviewFallback": "SolGatePreview.jpg",
-      "Icon": "SolGateIcon(xWhite).png"
     },
     "Smoke Screen": {
       "Description": "Drops a smoke bomb that stuns enemies and obscures their vision, rendering Ash invisible for a short time.",
@@ -4322,6 +4358,32 @@
       "PreviewFallback": "SmokeScreenPreview.jpg",
       "Icon": "SmokeScreenIcon(xWhite).png"
     },
+    "Hakchum": {
+      "Description": "Tap to leap into the air, tap again to land at target location. Applies <DT_FREEZE_COLOR> Cold Damage Vulnerability and Status Effect in a large radius upon landing.\r\n\r\nGain Ice for each enemy hit.",
+      "Cost": 75,
+      "Powersuit": "Narin",
+      "Key": 3,
+      "CardImage": "Hakchum(xWhite).png",
+      "Name": "Hakchum",
+      "Introduced": "44",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistLeapAbility",
+      "Preview": "HakchumPreview.webm",
+      "PreviewFallback": "HakchumPreview.jpg",
+      "Icon": "Hakchum(xWhite).png"
+    },
+    "Penumbra": {
+      "Description": "Activates a cloaking field that hides the Warframe and any nearby allies who remain stationary.",
+      "Cost": 15,
+      "Powersuit": "Itzal",
+      "Key": 2,
+      "CardImage": "Penumbra.png",
+      "Name": "Penumbra",
+      "Introduced": "15.7.2",
+      "InternalName": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
+      "Preview": "PenumbraPreview.webm",
+      "PreviewFallback": "PenumbraPreview.jpg",
+      "Icon": "PenumbraIcon(xWhite).png"
+    },
     "Wormhole": {
       "Description": "Creates a wormhole allowing instantaneous travel. Hold the ability to visualize placement.",
       "Cost": 75,
@@ -4337,22 +4399,6 @@
       "Preview": "WormHolePreview.webm",
       "PreviewFallback": "WormHolePreview.jpg",
       "Icon": "WormholeIcon(xWhite).png"
-    },
-    "Sleight of Hand": {
-      "Description": "Booby trap nearby objects while conjuring an irresistible jewel that bursts with radial blind when touched in darkness, or a radial explosion in light. Conjure multiple smaller jewels with the help of Hall of Mirrors.",
-      "Cost": 50,
-      "Augments": [
-        "Explosive Legerdemain"
-      ],
-      "Powersuit": "Mirage",
-      "Key": 2,
-      "CardImage": "SleightOfHandModx256.png",
-      "Name": "Sleight of Hand",
-      "Introduced": "14",
-      "InternalName": "/Lotus/Powersuits/Harlequin/Abilities/HarlequinObjectChangeAbility",
-      "Preview": "SleightOfHandPreview.webm",
-      "PreviewFallback": "SleightOfHandPreview.jpg",
-      "Icon": "SleightOfHandIcon(xWhite).png"
     },
     "Ophidian Bite": {
       "Description": "Lash out with a toxic serpentine strike, consuming the target to heal Lavos.\r\n\r\nHold to imbue all abilities with <DT_POISON_COLOR>Toxin.",
@@ -4371,6 +4417,23 @@
       "PreviewFallback": "OphidianBitePreview.jpg",
       "CostType": "time"
     },
+    "Silence": {
+      "Description": "Using Silence surrounds Banshee in an aura that stuns enemies, limits their perception and tactical response to gunfire and Warframe attacks, and renders them unable to activate their abilities.",
+      "Cost": 75,
+      "Augments": [
+        "Savage Silence"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Banshee",
+      "Key": 3,
+      "CardImage": "SilenceModx256.png",
+      "Name": "Silence",
+      "Introduced": "7",
+      "InternalName": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
+      "Preview": "SilencePreview.webm",
+      "PreviewFallback": "SilencePreview.jpg",
+      "Icon": "SilenceIcon(xWhite).png"
+    },
     "Energy Shell": {
       "Description": "Forms a protective energy shell around the Warframe",
       "Cost": 25,
@@ -4387,23 +4450,6 @@
       "PreviewFallback": "EnergyShellPreview.jpg",
       "Icon": "EnergyShellIcon(xWhite).png"
     },
-    "Silence": {
-      "Description": "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
-      "Cost": 75,
-      "Augments": [
-        "Savage Silence"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Banshee",
-      "Key": 3,
-      "CardImage": "SilenceModx256.png",
-      "Name": "Silence",
-      "Introduced": "7",
-      "InternalName": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
-      "Preview": "SilencePreview.webm",
-      "PreviewFallback": "SilencePreview.jpg",
-      "Icon": "SilenceIcon(xWhite).png"
-    },
     "Sickening Pulse": {
       "Description": "Emit a pulse that adds stacks to Status Effects already afflicting enemies. The damage of <DT_SLASH_COLOR>Slash, <DT_FIRE_COLOR>Heat, and <DT_POISON_COLOR>Toxin effects, excluding those created by Sickening Pulse itself, are added together to create a new instance of the Effect with a refreshed timer",
       "Cost": 50,
@@ -4416,21 +4462,6 @@
       "Preview": "SickeningPulsePreview.webm",
       "PreviewFallback": "SickeningPulsePreview.jpg",
       "Icon": "SickeningPulseIcon(xWhite).png"
-    },
-    "Remedium": {
-      "Description": "Uriel heals himself and his demons. If his demons are dead, they are resurrected.",
-      "Cost": 50,
-      "Subsumable": true,
-      "Powersuit": "Uriel",
-      "Name": "Remedium",
-      "Link": "Remedium",
-      "CardImage": "UrielRemedium.png",
-      "Key": 2,
-      "Introduced": "41",
-      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
-      "Preview": "UrielRemediumPreview.webm",
-      "PreviewFallback": "UrielRemediumPreview.jpg",
-      "Icon": "RemediumIcon(xWhite).png"
     },
     "Shooting Gallery": {
       "Description": "Gives an ally Extra Damage while jamming the guns of nearby enemies. This power shifts between team members.",
@@ -4448,6 +4479,38 @@
       "Preview": "ShootingGalleryPreview.webm",
       "PreviewFallback": "ShootingGalleryPreview.jpg",
       "Icon": "ShootingGalleryIcon(xWhite).png"
+    },
+    "Remedium": {
+      "Description": "Uriel heals himself and his demons. If his demons are dead, they are resurrected.",
+      "Cost": 50,
+      "Subsumable": true,
+      "Powersuit": "Uriel",
+      "Name": "Remedium",
+      "Link": "Remedium",
+      "CardImage": "UrielRemedium.png",
+      "Key": 2,
+      "Introduced": "41",
+      "InternalName": "/Lotus/Powersuits/PowersuitAbilities/DemonFrameHealAbility",
+      "Preview": "UrielRemediumPreview.webm",
+      "PreviewFallback": "UrielRemediumPreview.jpg",
+      "Icon": "RemediumIcon(xWhite).png"
+    },
+    "Shock": {
+      "Description": "Launch a voltaic projectile that stuns and damages its target. A chain of electricity extends from the target to shock nearby enemies.",
+      "Cost": 15,
+      "Augments": [
+        "Shock Trooper"
+      ],
+      "Subsumable": true,
+      "Powersuit": "Volt",
+      "Key": 1,
+      "CardImage": "ShockModx256.png",
+      "Name": "Shock",
+      "Introduced": "5.3",
+      "InternalName": "/Lotus/Powersuits/Volt/Abilities/ShockAbility",
+      "Preview": "ShockPreview.webm",
+      "PreviewFallback": "ShockPreview.jpg",
+      "Icon": "ShockIcon(xWhite).png"
     },
     "Containment Wall": {
       "Description": "Contain the threat. Qorvex summons walls that slam together, damaging all enemies caught between them and inflicting <DT_RADIATION_COLOR>Radiation Status.",
@@ -4480,23 +4543,6 @@
       "PreviewFallback": "Restorative(Drifter)Preview.jpg",
       "CostType": "time"
     },
-    "Shock": {
-      "Description": "Launch a voltaic projectile that stuns and damages its target. A chain of electricity extends from the target to shock nearby enemies.",
-      "Cost": 15,
-      "Augments": [
-        "Shock Trooper"
-      ],
-      "Subsumable": true,
-      "Powersuit": "Volt",
-      "Key": 1,
-      "CardImage": "ShockModx256.png",
-      "Name": "Shock",
-      "Introduced": "5.3",
-      "InternalName": "/Lotus/Powersuits/Volt/Abilities/ShockAbility",
-      "Preview": "ShockPreview.webm",
-      "PreviewFallback": "ShockPreview.jpg",
-      "Icon": "ShockIcon(xWhite).png"
-    },
     "Lull": {
       "Description": "A calming wave slows enemies until they fall into a slumber. Enemies woken by damage will be confused and disoriented. Short-term amnesia means all waking enemies forget anything that happened before the lull.",
       "Cost": 50,
@@ -4513,6 +4559,22 @@
       "Preview": "LullPreview.webm",
       "PreviewFallback": "LullPreview.jpg",
       "Icon": "LullIcon(xWhite).png"
+    },
+    "Reroot": {
+      "Description": "Revert to Sprodling form, spawning orbs that heal Nokko and grant a speed boost. While in this state, Nokko is untargetable and heals gradually.",
+      "Cost": 50,
+      "Augments": [
+        "Reroot Rampage"
+      ],
+      "Powersuit": "Nokko",
+      "Key": 3,
+      "CardImage": "Reroot.png",
+      "Name": "Reroot",
+      "Introduced": "40",
+      "InternalName": "/Lotus/Powersuits/Nokko/Abilities/NokkoShrinkAbility",
+      "Preview": "RerootPreview.webm",
+      "PreviewFallback": "RerootPreview.jpg",
+      "Icon": "RerootIcon(xWhite).png"
     },
     "Riptide": {
       "Description": "Drag enemies into a crushing maelstrom and then blow them away in a watery burst. Each enemy trapped in the vortex increases the burst's damage.",
@@ -4573,18 +4635,22 @@
       "PreviewFallback": "CrystallizePreview.jpg",
       "Icon": "CrystallizeIcon(xWhite).png"
     },
-    "Shadowgraph": {
-      "Description": "Bring shadowgraphs from Follie's sketchbook to life as items that can be used for tactical advantage. Shadowgraphs splash Inkblot onto nearby enemies when created.\r\n\r\nHOLD to open the Shadowgraph gear wheel.",
-      "Cost": 25,
-      "Powersuit": "Follie",
-      "Key": 2,
-      "CardImage": "Shadowgraph.png",
-      "Name": "Shadowgraph",
-      "Introduced": "42",
-      "InternalName": "/Lotus/Powersuits/Inkblot/Abilities/InkSketchAbility",
-      "Preview": "ShadowgraphPreview.webm",
-      "PreviewFallback": "ShadowgraphPreview.jpg",
-      "Icon": "ShadowgraphIcon(xWhite).png"
+    "Serene Storm": {
+      "Description": "With his Restraint eroded, Baruuk commands the Desert Wind to deliver powerful radial strikes with his fists and feet. Each moment commanding the storm restores his Restraint.",
+      "Cost": 0,
+      "Augments": [
+        "Reactive Storm"
+      ],
+      "Icon": "SereneStormIcon(xWhite).png",
+      "Powersuit": "Baruuk",
+      "Key": 4,
+      "CardImage": "SereneStormModx256.png",
+      "Name": "Serene Storm",
+      "Introduced": "24.2",
+      "InternalName": "/Lotus/Powersuits/Pacifist/Abilities/PacifistFistAbility",
+      "Preview": "SereneStormPreview.webm",
+      "PreviewFallback": "SereneStormPreview.jpg",
+      "Weapon": "Desert Wind"
     },
     "Seeking Fire": {
       "Description": "Fires a large volley of homing missiles.",
